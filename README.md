@@ -2,6 +2,8 @@
 
 This is the free source code of the private server "Saga of the Dragon".
 
+The project is being developing and developing by Dmytro Kasianov.
+
 ## Project struct
 
 In order for everything to work as the author intended, your project structure should look like this
