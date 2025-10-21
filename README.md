@@ -1,6 +1,7 @@
 # Open source "Saga of the Dragon"
 
 This is the free source code of the private server "Saga of the Dragon".
+The project is being developed and supported by Dmytro Kasianov.
 
 ## Project struct
 
