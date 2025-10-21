@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<WORLD ID="w_060100">
+  <!-- by reOiL Carrier system for dragonica shiva. Skype: imidg787mini -->
+  <GSAPATH>../Data/3_World2/92_Carrier/01_Level/060100.gsa</GSAPATH>
+  <BGSOUND VOLUME="1.0">../BGM/Eevent_Gameofdeath.mp3</BGSOUND>
+  <BLOOM BLUR="0.85" BRIGHT="20.4" SRC="0.7" GLOW="0.35" HIGHLIGHT="0.02" />
+
+	<!--CARRIER_MISSION>
+		<WAYPOINTS-->
+			<!-- First Waypoint is spawnpoint for cart -->
+			<!--WAYPOINT ID="CartSpawn" />
+			<WAYPOINT ID="cart_target_1" />
+			<WAYPOINT ID="cart_target_2" />
+			<WAYPOINT ID="cart_target_3" />
+			<WAYPOINT ID="cart_target_4" />
+			<WAYPOINT ID="cart_target_5" /-->
+			<!-- Last Waypoint is finish for cart -->
+			<!--WAYPOINT ID="cart_target_6" />
+		</WAYPOINTS>
+	</CARRIER_MISSION-->
+
+  <FOG DENSITY="0.36" FUNC="RANGE_SQ" START="500" END="1500" COLOR="0.1294118,0.2,0.1254902" />
+  <WORLD_QUALITY HIGH_END="500" MID_END="1000" LOW_END="1500" USE="1" />
+  
+</WORLD>

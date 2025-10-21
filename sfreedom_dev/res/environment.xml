@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENVIROMENT_SETTING>
+	<MAIN_BG IMG="BG.bmp"/>					<!-- Setup Main BG -->
+	<MSG X="-108" Y="470"/>         			<!-- Patching Message Posision -->
+	<VERSION TEXT_COLOR="000000" X="300" Y="550"/>
+	<PROGRASS1 TEXT_COLOR="ffffff" IMG="Bar1.bmp" X="35" Y="493"/>
+	<PROGRASS2 TEXT_COLOR="000000" IMG="Bar2.bmp" X="35" Y="519"/>
+
+	<BROWSER X="42" Y="222" WIDTH="370" HEIGHT="210" LINK="https://dragonica-mercy.online/news/mini/"/>
+
+	<BTN ID="1" X="637" Y="469" IMG="Start.bmp" STATE_CNT="4" TYPE="1" />
+	<BTN ID="2" X="637" Y="540" IMG="Exit.bmp"  STATE_CNT="3" TYPE="2" />
+	<BTN ID="7" X="841" Y="12" IMG="Div.bmp"  STATE_CNT="3" TYPE="6" />
+	<BTN ID="3" X="31" Y="541" IMG="BtGotosite.bmp"  STATE_CNT="3" TYPE="0" LINK="https://dragonica-mercy.online/"/>
+	<BTN ID="6" X="431" Y="490" IMG="BtOption.bmp" STATE_CNT="4" TYPE="5" />
+	<!-- Locale -->
+	<BTN ID="8" X="202" Y="545" IMG="LOCALE_EN.bmp" STATE_CNT="3" TYPE="7" />
+	<BTN ID="9" X="160" Y="545" IMG="LOCALE_FR.bmp" STATE_CNT="3" TYPE="9" />
+	<BTN ID="10" X="243" Y="545" IMG="LOCALE_RU.bmp" STATE_CNT="3" TYPE="8" />
+</ENVIROMENT_SETTING>

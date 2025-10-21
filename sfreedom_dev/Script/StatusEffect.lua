@@ -1,0 +1,12 @@
+DoFile("StatusEffect/EffectEscpeKeyDown.lua")
+
+DoFile("StatusEffect/ThatIsMine.lua")
+DoFile("StatusEffect/SafetyPopo.lua")
+DoFile("StatusEffect/Crushed.lua")
+DoFile("StatusEffect/HideUnit.lua")
+DoFile("StatusEffect/ChaosRun.lua")
+DoFile("StatusEffect/ShuffleInput.lua")
+DoFile("StatusEffect/ridingpet.lua")
+DoFile("StatusEffect/BossBattleDress.lua")
+DoFile("StatusEffect/chain_lightning.lua")
+DoFile("StatusEffect/Projectile.lua")

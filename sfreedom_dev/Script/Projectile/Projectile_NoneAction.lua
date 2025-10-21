@@ -1,0 +1,16 @@
+function PROJECTILE_NONEACTION_OnCollision(kProjectile,kCollideActor,kTargets)	
+end
+
+function PROJECTILE_NONEACTION_OnArrivedAtTarget(kProjectile)	
+	end
+
+function PROJECTILE_NONEACTION_DoDamage(kParentActor,kTargetActor,kActionTargetInfo,kProjectile,actionResult)
+end
+
+
+function PROJECTILE_NONEACTION_HitOneTime(kProjectile,actor)
+end
+
+
+function PROJECTILE_NONEACTION_OnTargetListModified(kProjectile)
+end

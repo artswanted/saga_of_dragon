@@ -1,0 +1,504 @@
+-- Melee
+function Act_Mon_RangeAttack_OnCheckCanEnter(actor,action)
+	return		true
+end
+
+function Act_Mon_Shot_Bidirection_SetState(actor,action,kState)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+	
+	if( CheckNil(action==nil) ) then return false end
+	if( CheckNil(action:IsNil()) ) then return false end
+	
+	local	iNewState = -1
+	if kState == "BATTLEIDLE_START" then
+		if actor:GetAnimationLength(action:GetSlotAnimName(0)) == 0 then
+			return	false	
+		end
+		action:SetSlot(0)
+		iNewState = 0
+
+	elseif kState == "BATTLEIDLE_LOOP" then
+		action:SetSlot(1)
+		if actor:GetAnimationLength(action:GetSlotAnimName(1)) == 0 then
+			ODS("Act_Mon_Melee_SetState SlotName["..action:GetSlotAnimName(1).."] Not Exist -> SetSlot To Next\n")
+			action:SetSlot(3)	--	배틀 Idle 모션이 없을 때는 그냥 Idle 모션을 하자.
+		end
+		iNewState = 1
+	elseif kState == "FIRE" then
+		action:SetSlot(2)
+		iNewState = 2
+	elseif kState == "RETURN" then
+		
+		action:SetSlot(4)
+		iNewState = 3
+	end
+
+	actor:ResetAnimation()
+	actor:PlayCurrentSlot()
+	action:SetParamInt(0,iNewState)
+	return	true
+end
+
+function Act_Mon_Shot_Bidirection_OnCastingCompleted(actor, action)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+	
+	if( CheckNil(action==nil) ) then return false end
+	if( CheckNil(action:IsNil()) ) then return false end
+	
+	ODS("Act_Mon_Shot_Bidirection_OnCastingCompleted\n")
+	
+	Act_Mon_Shot_Bidirection_SetState(actor,action,"FIRE")
+	Act_Mon_Shot_Bidirection_Fire(actor,action)
+
+end
+
+function	Act_Mon_Shot_Bidirection_LoadToWeapon(actor,action,iProjectileIndex)
+
+	if( CheckNil(actor==nil) ) then return nil end
+	if( CheckNil(actor:IsNil()) ) then return nil end
+	
+	if( CheckNil(action==nil) ) then return nil end
+	if( CheckNil(action:IsNil()) ) then return nil end
+	
+	local	kAttachID=""
+	
+	if iProjectileIndex>0 then
+		kAttachID = ""..iProjectileIndex;
+	end
+	
+	local	kProjectileMan = GetProjectileMan()
+	local	kProjectileID = actor:GetAnimationInfo("PROJECTILE_ID"..kAttachID)
+	local	fProjetileScale = tonumber(actor:GetAnimationInfo("PROJECTILE_SCALE"..kAttachID))
+	if fProjetileScale == nil then
+		fProjetileScale = 1.0
+	end
+	
+	if iProjectileIndex>0 and kProjectileID==nil then
+		return	nil
+	end
+	
+	if kProjectileID == nil then
+		kProjectileID = "Projectile_arrow_02_arrow_head"
+	end
+	
+	local	kNewArrow = kProjectileMan:CreateNewProjectile(kProjectileID,action,actor:GetPilotGuid())
+	if kNewArrow:IsNil() then
+		return nil
+	end
+	
+	local	kTargetNodeID = actor:GetAnimationInfo("FIRE_START_NODE"..kAttachID)
+	if kTargetNodeID == nil then
+		kTargetNodeID = "p_ef_heart"
+	end
+	
+	local	fProjectileSpeed = actor:GetAnimationInfo("PROJECTILE_SPEED"..kAttachID)
+	if fProjectileSpeed ~= nil then
+		fProjectileSpeed = tonumber(fProjectileSpeed)
+		kNewArrow:SetSpeed(fProjectileSpeed)
+	end
+		
+	kNewArrow:SetScale(fProjetileScale*kNewArrow:GetScale())	
+	
+	kNewArrow:LoadToHelper(actor,kTargetNodeID)	--	장전
+	return kNewArrow
+
+end
+
+function Act_Mon_Shot_Bidirection_Fire(actor,action)
+
+	if( CheckNil(actor==nil) ) then return end
+	if( CheckNil(actor:IsNil()) ) then return end
+	
+	if( CheckNil(action==nil) ) then return end
+	if( CheckNil(action:IsNil()) ) then return end
+	
+	--	is this boomerang type?
+	local	bIsBoomerang = (actor:GetAnimationInfo("PROJECTILE_TYPE") == "BOOMERANG")
+	if bIsBoomerang then
+		action:SetParamInt(3,1)	--	this is boomerang type
+	end
+end
+
+function Act_Mon_Shot_Bidirection_OnEnter(actor, action)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+	
+	if( CheckNil(action==nil) ) then return false end
+	if( CheckNil(action:IsNil()) ) then return false end
+	
+	ODS("Act_Mon_Melee_OnEnter actor : "..actor:GetID().." action: "..action:GetID().." ActionParam : "..action:GetActionParam().."\n" )
+	for i=0,9 do
+		action:SetParamInt(10+i,-1)	--UID 저장
+		action:SetParamInt(30+i,0)	--발사 여부 저장
+	end
+	action:SetParamInt(20,0)	--액션ID저장
+	action:SetParamInt(21,0)	--프로젝틸 로드 여부
+	
+	local	prevAction = actor:GetAction()
+	if( false == prevAction:IsNil() ) then
+		if prevAction:GetID() ~= "a_jump" then
+			actor:Stop()
+		end
+	end
+	
+	action:SetParamInt(40,0)
+	local kPacket = action:GetParamAsPacket()
+	if kPacket ~= nil and false == kPacket:IsNil() then
+		local kNum = kPacket:PopByte()
+		if kNum ~= 0 then
+			local kIndex=0
+			for i=0,kNum do
+				local kGuid = kPacket:PopGuid()
+				if nil ~= kGuid and false == kGuid:IsNil() then
+					action:SetParam(10+kIndex,kGuid:GetString())
+					kIndex = kIndex + 1
+				end
+			end
+			action:SetParamInt(40,kIndex)
+		end
+	end
+	
+	if action:GetActionParam() == AP_FIRE then
+		Act_Mon_Shot_Bidirection_OnCastingCompleted(actor,action)
+	else
+	
+	    ODS("Act_Mon_Shot_Bidirection_OnEnter Start Casting\n")
+
+		if( Act_Mon_Shot_Bidirection_SetState(actor,action,"BATTLEIDLE_START") == false) then
+			Act_Mon_Shot_Bidirection_SetState(actor,action,"BATTLEIDLE_LOOP")
+		end	
+				
+		-- 타겟리스트의 첫번째 놈을 바라보도록 한다.
+		local	kTargetList = action:GetTargetList()
+		local	iTargetCount = kTargetList:size()
+	
+		ODS("Act_Mon_Shot_Bidirection Casting Start iTargetCount :"..iTargetCount.."\n")
+		
+		if iTargetCount>0 then
+			local	kTargetInfo = kTargetList:GetTargetInfo(0)
+			if kTargetInfo:IsNil() == false then
+			
+				local	kTargetPilot = g_pilotMan:FindPilot(kTargetInfo:GetTargetGUID())
+				if kTargetPilot:IsNil() == false then
+				
+					local	kTargetActor = kTargetPilot:GetActor()
+					if kTargetActor:IsNil() == false then
+					
+						--actor:LookAtBidirection(kTargetActor:GetPos())
+						actor:LookAt(kTargetActor:GetPos(),true,true)
+					
+					end
+				end
+			end
+		end
+	end
+
+	action:SetParam(1, "none")
+
+	return true
+end
+
+function Act_Mon_Shot_Bidirection_OnUpdate(actor, accumTime, frameTime)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+	
+--	local actorID = actor:GetID()
+	local action = actor:GetAction()
+	
+	if( CheckNil(action==nil) ) then return false end
+	if( CheckNil(action:IsNil()) ) then return false end
+	
+	local animDone = actor:IsAnimationDone()
+--	local nextActionName = action:GetNextActionName()
+--	local actionID = action:GetID()
+	local	bIsBoomerang = (actor:GetAnimationInfo("PROJECTILE_TYPE") == "BOOMERANG")
+	local	iState = action:GetParamInt(0)
+			local kParam1 = action:GetParam(1)	
+			
+	
+	if action:GetActionParam() == AP_FIRE then
+		if bIsBoomerang or action:GetParamInt(3) == 1 then
+
+			if kParam1 == "end" then
+				return	false
+			elseif kParam1 == "wait_animdone" then
+				if animDone == true then
+					action:SetParam(1, "end")
+					return false
+				end
+			elseif kParam1 == "none" then
+				if animDone and actor:GetAnimationLength(action:GetSlotAnimName(5)) ~= 0 then	--루프애니
+					action:SetSlot(5)
+					actor:ResetAnimation()
+					actor:PlayCurrentSlot()
+					action:SetParam(1, "")
+				end
+			end	
+			return	true
+		end
+		
+		if animDone == true then
+			action:SetParam(1, "end")
+			return false
+		end
+		
+	elseif action:GetActionParam() == AP_CASTING then
+		
+		if iState == 0 then
+			if actor:IsAnimationDone() then
+				Act_Mon_RangeAttack_SetState(actor,action,"BATTLEIDLE_LOOP")
+			end
+			
+		elseif iState == 1 and 0 == action:GetParamInt(21) then
+			
+			action:SetParamInt(21,1)
+			local load = actor:GetAnimationInfo("PROJECTILE_LOAD")
+			if nil~=load then
+				local	iProjectileIndex = 0	
+				while iProjectileIndex<8 do	
+					local	kArrow = Act_Mon_RangeAttack_LoadToWeapon(actor,action,iProjectileIndex)
+					if nil ~= kArrow and false == kArrow:IsNil() then
+						action:SetParamInt(10+iProjectileIndex, kArrow:GetUID())
+					end
+	
+					iProjectileIndex = iProjectileIndex + 1
+				end
+				action:SetParamInt(20, action:GetActionInstanceID())
+			end
+
+			local eff = actor:GetAnimationInfo("FIRE_EFFECT") -- 캐스팅 이팩트 붙이기
+			if nil~=eff then
+				local node = actor:GetAnimationInfo("FIRE_EFFECT_NODE")
+				if nil==node then
+					node = "char_root"
+				end
+				actor:AttachParticle(230, node, eff)
+			end
+		end
+			
+		if IsSingleMode() then
+			if accumTime - action:GetActionEnterTime() > action:GetAbil(AT_CAST_TIME)/1000.0 then
+			
+				action:SetActionParam(AP_FIRE)
+				Act_Mon_Shot_Bidirection_OnCastingCompleted(actor,action)
+			
+			end
+		end
+		
+	
+	end
+	return true
+end
+
+function Act_Mon_Shot_Bidirection_OnCleanUp(actor)
+	return true
+end
+
+function Act_Mon_Shot_Bidirection_OnLeave(actor, action)
+	ODS("Act_Mon_Shot_Bidirection_OnLeave\n")
+	return true
+end
+function Act_Mon_Shot_Bidirection_SwordReturn(actor,iActionInstanceID)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+		
+	local action = actor:GetAction()
+		
+	if( CheckNil(action==nil) ) then return false end
+	if( CheckNil(action:IsNil()) ) then return false end
+	
+	
+	if action:GetActionInstanceID() == iActionInstanceID then
+	
+		if action:GetParamInt(4) == 1 then
+			actor:HideParts(EQUIP_POS_WEAPON, false)	--	칼 숨김 해제
+			action:SetParamInt(4,0)
+		end
+	
+		if actor:GetAnimationLength(action:GetSlotAnimName(4)) == 0 then	--리턴이 없으면 
+			action:SetParam(1,"end")										--그냥 끝내고
+		else
+			Act_Mon_Shot_Bidirection_SetState(actor,action,"RETURN")				--있으면
+			action:SetParam(1,"wait_animdone")								--리턴애니 끝날때까지 기다림
+		end
+	
+	end
+
+end
+
+function	Act_Mon_Shot_Bidirection_Projectile_Default_LoadToWeapon(actor,action)
+
+	if( CheckNil(actor==nil) ) then return nil end
+	if( CheckNil(actor:IsNil()) ) then return nil end
+	
+	if( CheckNil(action==nil) ) then return nil end
+	if( CheckNil(action:IsNil()) ) then return nil end
+	
+	local	kProjectileMan = GetProjectileMan();
+	--local	kProjectileID = action:GetScriptParam("PROJECTILE_ID");
+	local	kProjectileID = actor:GetAnimationInfo("PROJECTILE_ID")--..kAttachID)
+	
+	if kProjectileID == "" then
+		kProjectileID = actor:GetEquippedWeaponProjectileID();
+	end
+	
+	local	kNewArrow = kProjectileMan:CreateNewProjectile(kProjectileID,action,actor:GetPilotGuid());
+	local	kTargetNodeID = action:GetScriptParam("ATTACH_NODE_ID");
+	
+	kNewArrow:LoadToHelper(actor,kTargetNodeID);	--	장전
+	return	kNewArrow;
+end
+
+function Act_Mon_Shot_Bidirection_OnEvent(actor,textKey)
+
+	if( CheckNil(actor==nil) ) then return false end
+	if( CheckNil(actor:IsNil()) ) then return false end
+		
+	ODS("Act_Mon_Shot_Bidirection_OnEvent textKey:"..textKey.."\n")
+
+	local kAction = actor:GetAction()
+		
+	if( CheckNil(kAction==nil) ) then return false end
+	if( CheckNil(kAction:IsNil()) ) then return false end
+	
+	if kAction:GetActionParam() == AP_CASTING then
+		return true
+	end
+
+	
+	if textKey == "hit" or textKey == "fire" then
+
+		actor:DetachFrom(230)	--캐스팅 이펙트 제거
+		local	bIsBoomerang = (actor:GetAnimationInfo("PROJECTILE_TYPE") == "BOOMERANG")
+
+		if bIsBoomerang then
+			actor:HideParts(EQUIP_POS_WEAPON, true)	--	칼 숨기자
+			kAction:SetParamInt(4,1)	--	칼 숨겼음		
+		end
+		
+		local	kSoundID = kAction:GetScriptParam("HIT_SOUND_ID")
+		if kSoundID~="" then
+			actor:AttachSound(2784,kSoundID)
+		end
+
+		local fireEffect = actor:GetAnimationInfo("FIRE_EFFECT")	
+		if fireEffect ~= nil then
+			local fireStartNode	= actor:GetAnimationInfo("FIRE_EFFECT_NODE")	
+			
+			if fireStartNode == nil then
+				fireStartNode = "p_ef_heart"
+			end
+
+			local EffectScale = actor:GetAnimationInfo("FIRE_EFFECT_SCALE")
+			if nil==EffectScale or ""==EffectScale then
+				EffectScale = 1
+			else
+				EffectScale = tonumber(EffectScale)
+			end
+			
+			actor:AttachParticleS(231, fireStartNode, fireEffect, EffectScale)
+		end					
+		
+		local	iAttackRange = kAction:GetSkillRange(0,actor)
+		
+		if iAttackRange == 0 then
+			iAttackRange = 200 
+		end
+		
+--		local	kProjectileMan = GetProjectileMan()
+
+		local	i = 0;
+		local fRotateAngle = math.pi/8.0
+		local	kRotateAxis = Point3(0,0,1);
+		
+		
+		local UID = kAction:GetParamInt(10+i)
+
+		local	kArrow = nil
+		while i<8 do
+			--kArrow = Act_Mon_Shot_Bidirection_Projectile_Default_LoadToWeapon(actor, kAction)	
+			local iProjectaleIndex = Random()%3			
+			kArrow = Act_Mon_Shot_Bidirection_LoadToWeapon(actor, kAction, iProjectaleIndex)
+			if nil~=kArrow or false==kArrow:IsNil() then
+				local	arrow_worldpos = kArrow:GetWorldPos();	--	화살의 위치
+				--ODS("ap x:"..arrow_worldpos:GetX().." ,ap y:"..arrow_worldpos:GetY().."ap z:"..arrow_worldpos:GetZ().."\n", false, 987)
+				local kTargetDir = actor:GetLookingDir()
+				local kCrossDir = actor:GetLookingDir()
+				if i==0 or i==1 or i==4 or i==5 then
+					kCrossDir:Cross(Point3(0,0,1))
+				else
+					kCrossDir:Cross(Point3(0,0,-1))
+				end
+				if i>3 then
+					kTargetDir:Rotate(kRotateAxis, math.pi)
+				end
+				--ODS("i"..i.." ,CRS X:"..kTargetDir:GetX().." ,CRS Y:"..kTargetDir:GetY().." ,CRS Z:"..kTargetDir:GetZ().."\n", false, 987)
+				local kLength = 40
+				if (i%2) == 1 then
+					kLength = 120
+				end
+				local 	kPos1 = Point3(kCrossDir:GetX(),kCrossDir:GetY(),kCrossDir:GetZ())
+				--ODS("Pos1 X:"..kPos1:GetX().." ,Pos1 Y:"..kPos1:GetY().." ,Pos1 Z:"..kPos1:GetZ().."\n", false, 987)
+				kPos1:Multiply(kLength)
+				--ODS("Pos1 X:"..kPos1:GetX().." ,Pos1 Y:"..kPos1:GetY().." ,Pos1 Z:"..kPos1:GetZ().."\n", false, 987)
+				kPos1:Add(arrow_worldpos)
+				--ODS("Pos1 X:"..kPos1:GetX().." ,Pos1 Y:"..kPos1:GetY().." ,Pos1 Z:"..kPos1:GetZ().."\n\n", false, 987)
+				
+				local kPos2 = Point3(kTargetDir:GetX(),kTargetDir:GetY(),kTargetDir:GetZ())
+				local kFireTarget = Point3(kTargetDir:GetX(),kTargetDir:GetY(),kTargetDir:GetZ())
+				kPos2:Multiply(500)
+				kPos2:Add(kPos1)
+				
+				kArrow:SetMovingType(2)
+				kFireTarget:Multiply(iAttackRange)
+				kFireTarget:Add(kPos1)
+				kArrow:SetParam_Bezier4SplineType(arrow_worldpos, kPos1, kPos2, kFireTarget)
+				--ODS("sp x:"..arrow_worldpos:GetX().." ,sp y:"..arrow_worldpos:GetY().."sp z:"..arrow_worldpos:GetZ().."\n", false, 987)
+				--ODS("p1 x:"..kPos1:GetX().." ,p1 y:"..kPos1:GetY().."p1 z:"..kPos1:GetZ().."\n", false, 987)
+				--ODS("p2 x:"..kPos2:GetX().." ,p2 y:"..kPos2:GetY().."p2 z:"..kPos2:GetZ().."\n", false, 987)
+				--ODS("tg x:"..kFireTarget:GetX().." ,tg y:"..kFireTarget:GetY().."tg z:"..kFireTarget:GetZ().."\n\n", false, 987)
+				kArrow:SetTargetLoc(kFireTarget)
+				kArrow:Fire();--	발사!
+				-- --ODS("Act_Mon_Shot_Bidirection_OnEvent "..i.. " angle : "..fRotateAngle.." Target X : "..kFireTarget:GetX().." Y : "..kFireTarget:GetY().." Z : "..kFireTarget:GetZ().."\n", false, 987)
+			end
+
+			i=i+1;
+		end		
+		-- while i<2 do
+			-- kArrow = Act_Mon_Shot_Bidirection_Projectile_Default_LoadToWeapon(actor, kAction)
+			-- if nil~=kArrow or false==kArrow:IsNil() then
+				-- local	arrow_worldpos = kArrow:GetWorldPos();	--	화살의 위치
+				-- local	kFireTarget = actor:GetLookingDir()
+				-- kFireTarget:Multiply(iAttackRange);
+				-- kFireTarget:Rotate(kRotateAxis,fRotateAngle*i);
+				-- kFireTarget:Add(arrow_worldpos);			
+			
+				-- kArrow:SetMovingType(2)
+				-- local kPos2 = Point3(arrow_worldpos:GetX(), arrow_worldpos:GetY(), arrow_worldpos:GetZ())
+				-- kPos2:SetY(kFireTarget:GetY())
+				-- local kPos3 = Point3(arrow_worldpos:GetX(), arrow_worldpos:GetY(), arrow_worldpos:GetZ())
+				-- kPos3:SetY(kFireTarget:GetY())
+				-- kPos3:SetX(kPos3:GetX() + ((kFireTarget:GetX() - arrow_worldpos:GetX()) / 4))
+				-- kArrow:SetParam_Bezier4SplineType(arrow_worldpos, kPos2, kPos3, kFireTarget);
+				
+				-- kArrow:SetTargetLoc(kFireTarget);
+				-- kArrow:Fire();--	발사!
+				-- --ODS("Act_Mon_Shot_Bidirection_OnEvent "..i.. " angle : "..fRotateAngle.." Target X : "..kFireTarget:GetX().." Y : "..kFireTarget:GetY().." Z : "..kFireTarget:GetZ().."\n", false, 987)
+			-- end
+
+			-- i=i+1;
+		-- end		
+
+		kAction:ClearTargetList()
+					
+	end
+
+	return	true
+end
