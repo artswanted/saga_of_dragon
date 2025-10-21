@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_mashroom.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Деревня Грибница" textSize="30" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Тысячелетие миновало со времен заточения Черного дракона Эльги," textSize="14" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="" text="и племя грибковиков отстроило деревню заново." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="13" tTitle="" text="Но мир вновь изменился," textSize="14" textColor="ffffff"></movieData>
+		<movieData time="17" tTitle="" text="и древние печати утратили свою силу." textSize="14" textColor="ffffff"></movieData>
+	</textData>
+	
+	
+	
+	<mapData>
+		
+	</mapData>
+	
+	
+	
+	<itemData >
+		
+		
+		
+		
+	</itemData>
+	
+	
+</data>	

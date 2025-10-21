@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_moonLight.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Лунный берег" textSize="35" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Тихая деревушка на берегу океана..." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="3" tTitle="" text="Было ли предначертано ей узнать такие печали?" textSize="15" textColor="ffffff"></movieData>
+		
+	</textData>
+	
+	<itemData >
+		<!--14-->
+		
+	</itemData>
+	
+	<mapData>
+	</mapData>
+	
+	
+</data>	

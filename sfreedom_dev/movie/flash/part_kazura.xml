@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_kazura.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Казура" textSize="35" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Деревня Казура - колыбель рода драканов." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="4" tTitle="" text="Темная тень легла на склоны горы Маширам." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="9" tTitle="" text="Если темной вельме Фарис удастся украсть Священные реликвии," textSize="15" textColor="ffffff"></movieData>
+		<movieData time="14" tTitle="" text="эти земли оросятся кровью их жителей." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="20" tTitle="" text="Но тот, кто нарушил покой этого святого места," textSize="15" textColor="ffffff"></movieData>
+		<movieData time="24" tTitle="" text="примет кару свою из рук стражей." textSize="15" textColor="ffffff"></movieData>		
+		
+	</textData>
+	
+	<itemData >
+		<!--14-->
+		
+	</itemData>
+	
+	<mapData>
+	</mapData>
+	
+	
+</data>	

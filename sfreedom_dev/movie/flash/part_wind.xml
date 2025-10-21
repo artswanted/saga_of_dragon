@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_wind.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Порт Ветров" textSize="35" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Порт Ветров - головной штаб Братства Дракона." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="Лаборатория доктора Фаррелла" text="Пираты захватили берега и притащили за собой ужасных бритвокрабов и назойливых звездников." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="13" tTitle="Лаборатория доктора Фаррелла" text="Сумасшедший ученый доктор Фаррелл стал жертвой собственных генетических изысканий." textSize="15" textColor="ffffff"></movieData>
+		<movieData time="19" tTitle="Лаборатория доктора Фаррелла" text="Жители города позабыли, что такое спокойствие." textSize="15" textColor="ffffff"></movieData>
+		
+	</textData>
+	
+	<itemData >
+		<!--14-->
+		
+	</itemData>
+	
+	<mapData>
+	</mapData>
+	
+	
+</data>	

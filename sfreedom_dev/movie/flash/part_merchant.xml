@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_merchant.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Либра" textSize="35" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Либра всегда была символом процветания." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="" text="Но богатства не защитили Либру от лихих времен." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="10" tTitle="" text="И самый страшный кошмар жителей - магматический дракон Лавалон." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="15" tTitle="" text="Осталась лишь хрупкая надежда, что однажды в эти земли придет непобедимый герой..." textSize="14" textColor="ffffff"></movieData>
+		
+	</textData>
+	
+	<itemData >
+				
+		
+		
+		
+		
+		
+		
+	</itemData>
+	
+	<mapData>
+		
+	</mapData>
+	
+	
+</data>	

@@ -1,0 +1,11 @@
+{
+	"title"											: "Dragonica Volia",
+	"executable"									: "game.exe",
+	"productid"										: "5b83c35ac652468eb48af2c75c8cad70",
+	"sandboxid"										: "177af8a9cd0d44b888d4d892f824a157",
+	"deploymentid"									: "291b6ca2bbd440f7ab7eed8b79c3c5f4",
+	"requested_splash"								: "EasyAntiCheat/SplashScreen.png",
+	"wait_for_game_process_exit"					: "1",
+	"hide_bootstrapper"								: "false",
+	"hide_gui"										: "false"
+}

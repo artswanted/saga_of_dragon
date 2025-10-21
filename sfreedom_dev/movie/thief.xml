@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<data totalIndex="8" thisIndex="1">
+	<!-- view=자막제어 sSize=폰트크기 motionType=자막효과(1.기본 2.파티클 3.높이 늘리기) voice=목소리(기본폴더 /voice/ ..없을경우 pass) delayTime=자막연출완료후 딜레이타임 sx=장면x위치값 sy=장면y값 ss=장면스케일값 st=장면모션 효과시간 mt=장면모션효과타입(1.기본 2.엘라스틱)-->
+	<!--공통부분-->
+	<data index="1" imgSrc="mov/fighter_001.swf" bgm="bgm/CharSelect_bg.mp3" subScriptView="true">
+		<data sindex="1" view="true" sTitle="지금으로부터 1000년 전,‘엘가’라는 드래곤이 인간계를 침공하게 된다." sSize="20" motionType="1" voice="pass" delayTime="120" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="‘엘가’는 드래곤로드가 가지고 있던 신물을 통해 자신의 야심에 이용하려 했고" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="00" ss="1" st="0" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="이로 인해 인간들 뿐만 아니라 드래곤들에게도 일대 혼란이 일게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="인간계는 이 사건으로 전쟁의 그림자에 휩싸이게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+	</data>
+	<data index="2" imgSrc="mov/fighter_001_1.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="인간들 사이에서는 엘가의 편에 서서 목숨을 부지하려는 자들이 늘어났다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-300" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="수 적으로 불리한 전쟁, 그때 드래곤 신물의 기운을 이어받은 다섯 용자가 나타났고" sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="-200" ss="2" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="선한 드래곤들의 수장인 데커드와 힘을 합쳐 엘가를 봉인하는데 성공한다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="-600" sy="-300" ss="2" st="0.5" mt="1"/>
+		<data sindex="4" view="true" sTitle="이제 인간계에 영원한 평화가 찾아올 것이라 생각했다. 하지만..." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="2.5" imgSrc="mov/fighter_001_2.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="1000년이 흐른 지금 인간들과의 바램과는 달리 어둠의 기운이 다시 깨어나고 있다." sSize="20" motionType="1" voice="pass" delayTime="300" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<!--도둑부분-->
+	<data index="3" imgSrc="mov/thief_001.swf" bgm="bgm/dawiner_bg.mp3">
+		<data sindex="1" view="true" sTitle="암흑세계의‘데들리 쉐도우’길드를 이끄는 길드 마스터 ‘레이’" sSize="20" motionType="1" voice="pass" delayTime="180" sx="-800" sy="-500" ss="2" st="1" mt="0"/>
+		<data sindex="2" view="true" sTitle="여러 세력간에 서열 다툼으로 인한 수많은 위험에서도" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-300" sy="-100" ss="1.5" st="1" mt="0"/>
+		<data sindex="3" view="true" sTitle="어린 나이에도 불구하고 뿜어져 나오는 강한 지도력과 카리스마는" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-150" ss="1.5" st="1" mt="0"/>
+		<data sindex="4" view="true" sTitle="그를 최고 도둑의 자리로 올려 놓았고," sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="1" mt="0"/>
+		<data sindex="5" view="true" sTitle="그런 그를 막을 자는 아무도 없었다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="4" imgSrc="mov/thief_002.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="그러던 어느 날." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-500" sy="-100" ss="2" st="1" mt="1"/>
+		<data sindex="2" view="true" sTitle="호시탐탐 역습을 노려왔던 ‘죠이스 해적 단’의 무차별적인 기습공격으로" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-700" sy="-1300" ss="3" st="0.5" mt="1"/>
+		<data sindex="3" view="true" sTitle="“데들리 쉐도우”길드는 결국 붕괴되고 만다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-100" sy="-100" ss="2" st="0.5" mt="0"/>
+		<data sindex="4" view="true" sTitle="으아악!! 살려줘!!" sSize="20" motionType="3" voice="thief_001.MP3" delayTime="200" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="5" imgSrc="mov/thief_003.swf" bgm="bgm/breakhoperoad_bg.mp3">
+		<data sindex="1" view="true" sTitle="결국 “데들리 쉐도우” 길드는 수 많은 희생을 치르고 " sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="살아남은 이들은 ‘죠이스 해적 단’ 최고대장 ‘압둘라’ 앞에 무릎을 꿇어야만 했다" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="모든 것을 체념하고 죽음을 받아 들이려는 ‘레이’" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-800" sy="-500" ss="2" st="0.5" mt="0"/>
+		<data sindex="4" view="true" sTitle="압둘라는 그에게 한가지 제안을 한다" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-400" ss="2" st="1" mt="1"/>
+		<data sindex="5" view="true" sTitle="크하하하하~!! 흑룡왕 엘가의 팔찌를 가지고 와라!!" sSize="20" motionType="1" voice="thief_002.MP3" delayTime="260" sx="0" sy="-400" ss="2" st="0" mt="0"/>
+		<data sindex="5" view="true" sTitle="그러면 너의 부하들을 풀어주겠어! 어떤가?" sSize="20" motionType="1" voice="thief_003.MP3" delayTime="280" sx="0" sy="-400" ss="2" st="0" mt="0"/>
+	</data>
+	<data index="6" imgSrc="mov/thief_004.swf" bgm="bgm/wind.mp3" lastSub="Chapter1 모험의 시작">
+		<data sindex="1" view="true" sTitle="자신을 항상 믿고 따르던 길드원들의" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="비참한 노예생활을 받아 들일 수 없는 ‘레이’는" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="해적대장 ‘압둘라’의 제안을 받아 들여." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="흑룡 왕‘엘가’토벌령이 내려진‘드래곤 원정대’에 합류하여" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="5" view="true" sTitle="목숨을 건 모험을 위해‘바람의 대륙’으로 떠나게 된다." sSize="20" motionType="2" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+	</data>
+</data>

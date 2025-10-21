@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_chaos.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Оделия" textSize="35" textColor="ffffff">
+		<movieData time="0" tTitle="" text="Все искатели приключений начинают свой путь отсюда. Оделия - врата в мир 'Драконики'!" textSize="14" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="" text="Против Оделии затевается заговор... Раскрой жуткую тайну!" textSize="14" textColor="ffffff"></movieData>
+		
+	</textData>
+	
+	
+	
+	<mapData>
+		
+	</mapData>
+	
+	
+	
+	<itemData >
+				
+			
+		
+		
+		
+	</itemData>
+	
+	
+</data>	

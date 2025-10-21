@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_fog.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Пепельный Туман" textSize="35" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Тысячи лет династия Ван-Клиффов правила деревней Пепельного тумана." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="" text="Теперь в замке Ван-Клиффа скрывается Костяной дракон." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="10" tTitle="" text="Призраки захватили эти земли, а жители охвачены страхом." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="15" tTitle="" text="Рев Ледяного дракона Ригона сотрясает воздух." textSize="14" textColor="ffffff"></movieData>
+		
+	</textData>
+	
+	
+	
+	<mapData>
+		
+	</mapData>
+	
+	
+	
+	<itemData >
+				
+
+		
+		
+	</itemData>
+	
+	
+</data>	

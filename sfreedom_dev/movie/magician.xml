@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<data totalIndex="8" thisIndex="1">
+	<!-- view=자막제어 sSize=폰트크기 motionType=자막효과(1.기본 2.파티클 3.높이 늘리기) voice=목소리(기본폴더 /voice/ ..없을경우 pass) delayTime=자막연출완료후 딜레이타임 sx=장면x위치값 sy=장면y값 ss=장면스케일값 st=장면모션 효과시간 mt=장면모션효과타입(1.기본 2.엘라스틱)-->
+	<!--공통부분-->
+	<data index="1" imgSrc="mov/fighter_001.swf" bgm="bgm/CharSelect_bg.mp3" subScriptView="true">
+		<data sindex="1" view="true" sTitle="지금으로부터 1000년 전,‘엘가’라는 드래곤이 인간계를 침공하게 된다." sSize="20" motionType="1" voice="pass" delayTime="120" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="‘엘가’는 드래곤로드가 가지고 있던 신물을 통해 자신의 야심에 이용하려 했고" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="00" ss="1" st="0" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="이로 인해 인간들 뿐만 아니라 드래곤들에게도 일대 혼란이 일게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="인간계는 이 사건으로 전쟁의 그림자에 휩싸이게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+	</data>
+	<data index="2" imgSrc="mov/fighter_001_1.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="인간들 사이에서는 엘가의 편에 서서 목숨을 부지하려는 자들이 늘어났다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-300" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="수 적으로 불리한 전쟁, 그때 드래곤 신물의 기운을 이어받은 다섯 용자가 나타났고" sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="-200" ss="2" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="선한 드래곤들의 수장인 데커드와 힘을 합쳐 엘가를 봉인하는데 성공한다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="-600" sy="-300" ss="2" st="0.5" mt="1"/>
+		<data sindex="4" view="true" sTitle="이제 인간계에 영원한 평화가 찾아올 것이라 생각했다. 하지만..." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="2.5" imgSrc="mov/fighter_001_2.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="1000년이 흐른 지금 인간들과의 바램과는 달리 어둠의 기운이 다시 깨어나고 있다." sSize="20" motionType="1" voice="pass" delayTime="300" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<!--법사부분-->
+	<data index="3" imgSrc="mov/fighter_002.swf" bgm="bgm/TwinMoon.mp3">
+		<data sindex="1" view="true" sTitle="어느 작은 산골 마을 오델리아에는 " sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="다소 엉뚱하지만, 자연과 동물을 사랑하고" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-200" ss="2" st="1" mt="0"/>
+		<data sindex="3" view="true" sTitle="마법사가 되기를 꿈꾸는 ‘아르’와" sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="-200" ss="2" st="1" mt="0"/>
+		<data sindex="4" view="true" sTitle="오델리아 최고의 경비대장이 되고픈‘미르’남매가" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-700" sy="-300" ss="2" st="1" mt="0"/>
+		<data sindex="5" view="true" sTitle="‘할아버지’와‘다비드’의 보살핌을 받으며" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-950" sy="00" ss="2" st="1" mt="0"/>
+		<data sindex="6" view="true" sTitle="그저 행복한 나날을 보내고 있었다." sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="0" ss="1" st="2" mt="0"/>
+	</data>
+	<data index="4" imgSrc="mov/fighter_003.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="그러던 어느 날." sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="이들은 우연히 드래곤 비밀 기지 근처“바즈라 폭포”에 가게 되고" sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="00" ss="1" st="0"/>
+		<data sindex="3" view="true" sTitle="그 곳에서 괴수‘발곤’에게 습격을 받게 된다." sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="00" ss="1" st="0"/>
+	</data>
+	<data index="5" imgSrc="mov/fighter_004.swf" bgm="pass">
+		<data sindex="1" view="false" sTitle="위..위험해!!" sSize="20" motionType="3" voice="fighter_001.MP3" delayTime="50" sx="-500" sy="-500" ss="2" st="0.5" mt="1"/>
+		<data sindex="2" view="true" sTitle="오빠‘미르’는 검을 빼 들어 발곤에게 저항해 보지만." sSize="20" motionType="1" voice="pass" delayTime="50" sx="-900" sy="-300" ss="2" st="0.5" mt="2"/>
+		<data sindex="3" view="true" sTitle="자신보다 몇 배나 큰 몬스터를 상대하기엔 역 부족이었다." sSize="20" motionType="1" voice="fighter_002.MP3" delayTime="100" sx="-900" sy="-300" ss="2" st="0.5" mt="2"/>
+		<data sindex="4" view="true" sTitle="으윽 " sSize="20" motionType="1" voice="fighter_003.MP3" delayTime="100" sx="0" sy="-500" ss="2" st="0.5" mt="1"/>
+		<data sindex="5" view="true" sTitle="그렇게 죽음을 맞이하려는 순간" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-500" ss="2" st="0.5" mt="1"/>
+		<data sindex="6" view="true" sTitle="그...그만둬!!!" sSize="20" motionType="3" voice="fighter_004.MP3" delayTime="180" sx="0" sy="0" ss="2" st="0.5" mt="0"/>
+	</data>
+	<data index="6" imgSrc="mov/fighter_005.swf" bgm="bgm/Hulk_part_3_BNC.mp3">
+		<data sindex="1" view="true" sTitle="‘아르’는 자신조차 몰랐던 알 수 없는 기운으로" sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="-0" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="엄청난 마법을 내뿜어 가족들을 큰 위기에서 구해낸다." sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="잠시 정신을 잃었던‘미르’는 쓰러져 있는‘발곤’과" sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="4" view="true" sTitle="큰 상처를 입은‘다비드’와 기절한‘아르’를 보고는" sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="5" view="true" sTitle="가까스로 정신을 차려 이 둘을 데리고 마을로 돌아오게 된다." sSize="20" motionType="1" voice="pass" delayTime="50" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+	</data>
+	<data index="7" imgSrc="mov/fighter_006.swf" bgm="bgm/breakhoperoad_bg.mp3">
+		<data sindex="1" view="true" sTitle="바즈라 폭포에서 치명적인 상처를 입은‘다비드’는" sSize="20" motionType="1" voice="pass" delayTime="80" sx="-1000" sy="-350" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="너..  너희들이 바.. 바람의 대륙으로 떠나야 할 때가 왔구나…" sSize="20" motionType="1" voice="fighter_006.MP3" delayTime="300" sx="-1000" sy="-350" ss="2" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="…..아저씨" sSize="20" motionType="1" voice="fighter_007.MP3" delayTime="130" sx="-800" sy="-350" ss="2" st="0.5" mt="0"/>
+		<data sindex="4" view="true" sTitle="그들은 전사의 후예자를 찾고 있다" sSize="20" motionType="1" voice="fighter_008.MP3" delayTime="230" sx="-1000" sy="-350" ss="2" st="0.5" mt="0"/>
+		<data sindex="5" view="true" sTitle="바람의 대륙에 있는 드래곤 원정대로 가서" sSize="20" motionType="1" voice="fighter_009.MP3" delayTime="180" sx="-1000" sy="-350" ss="2" st="0.5" mt="0"/>
+		<data sindex="6" view="true" sTitle="너희가 살아 있음을 알려야 한다. 너희들은 바로…윽!! 커커억!!" sSize="20" motionType="1" voice="fighter_010.MP3" delayTime="210" sx="-1000" sy="-350" ss="2" st="0.5" mt="0"/>
+		<data sindex="7" view="true" sTitle="다비드 아저씨!! 아저씨!! 흑흑..!!" sSize="20" motionType="3" voice="fighter_011.MP3" delayTime="180" sx="-800" sy="-350" ss="2" st="0.5" mt="1"/>
+		<data sindex="8" view="true" sTitle="‘다비드’는 1000년 전 드래곤 전쟁에서 인간계를 지켜냈던" sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="3" mt="0"/>
+		<data sindex="9" view="true" sTitle="전사의 후예자를 찾고 있다는 알 수 없는 말을 던진 채" sSize="20" motionType="1" voice="pass" delayTime="80" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="10" view="true" sTitle="결국 숨을 거두게 된다" sSize="20" motionType="1" voice="pass" delayTime="90" sx="0" sy="0" ss="1" st="0.5"/>
+	</data>
+	<data index="8" imgSrc="mov/fighter_007.swf" bgm="bgm/dawiner_bg.mp3" lastSub="Chapter1 모험의 시작">
+		<data sindex="1" view="true" sTitle="자신들의 출생의 비밀과‘다비드’의 죽음을 뒤로하고" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="‘아르’와 ‘미르’는 ‘다비드’의 유언대로 " sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="2" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="바람의 대륙 어디엔가 있는‘드래곤 원정대’를 향해" sSize="20" motionType="2" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="2" mt="0"/>
+		<data sindex="4" view="true" sTitle="끝을 알 수 없는 기나긴 모험을 떠나게 된다." sSize="20" motionType="2" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="2" mt="0"/>
+	</data>
+</data>

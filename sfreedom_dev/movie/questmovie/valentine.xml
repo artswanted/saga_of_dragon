@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" ?>
+<data totalIndex="8" thisIndex="1">
+
+<!-- view=자막제어 sSize=폰트크기 motionType=자막효과(1.기본 2.파티클 3.높이 늘리기) voice=목소리(기본폴더 /voice/ ..없을경우 pass) delayTime=자막연출완료후 딜레이타임 sx=장면x위치값 sy=장면y값 ss=장면스케일값 st=장면모션 효과시간 mt=장면모션효과타입(1.기본 2.엘라스틱)-->
+
+
+<!--공통부분-->
+
+
+	 <data index="1" imgSrc="mov/valentine_001.swf" bgm="bgm/valentine.mp3">
+ 		<data sindex="1" view="true" sTitle=".." sSize="16" motionType="1" voice="pass" delayTime="30" sx="50" sy="40" ss="1.4" st="1" mt="1"/>
+		<data sindex="2" view="true" sTitle=".."  sSize="16" motionType="1" voice="pass" delayTime="80" sx="0" sy="30" ss="1" st="1.5" mt="1"/>
+		<data sindex="3" view="true" sTitle=".."  sSize="16" motionType="2" voice="pass" delayTime="50" sx="0" sy="-270" ss="1" st="1" mt="1"/>
+		<data sindex="4" view="true" sTitle=".."  sSize="16" motionType="2" voice="pass" delayTime="60" sx="-270" sy="-600" ss="1.5" st="4" mt="0"/>
+		
+	</data>
+	
+</data>

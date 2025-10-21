@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<configData>
+		<fontData fontUrl="font/fontRU.swf"></fontData>
+		<flvData flvUrl="part_ellora.mp4"></flvData>
+		
+	</configData>
+
+	<textData mapName="Лагерь Эллоры" textSize="30" textColor="ffffff">
+		<movieData time="1" tTitle="" text="Последняя перевалочная база Экспедиции Дракона, Лагерь Эллоры" textSize="14" textColor="ffffff"></movieData>
+		<movieData time="5" tTitle="" text="Если колесо фортуны забросило вас сюда, значит у него на то были личные соображения." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="14" tTitle="" text="Дьявольские призраки выбралить из темной бездны." textSize="14" textColor="ffffff"></movieData>
+		<movieData time="18" tTitle="" text="Гонг последней битвы созывает своих героев." textSize="14" textColor="ffffff"></movieData>
+	</textData>
+	
+	
+	
+	<mapData>
+		
+	</mapData>
+	
+	
+	
+	<itemData >
+		
+		
+		
+		
+	</itemData>
+	
+	
+</data>	

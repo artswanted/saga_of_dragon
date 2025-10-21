@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" ?>
+<data totalIndex="8" thisIndex="1">
+
+<!-- view=자막제어 sSize=폰트크기 motionType=자막효과(1.기본 2.파티클 3.높이 늘리기) voice=목소리(기본폴더 /voice/ ..없을경우 pass) delayTime=자막연출완료후 딜레이타임 sx=장면x위치값 sy=장면y값 ss=장면스케일값 st=장면모션 효과시간 mt=장면모션효과타입(1.기본 2.엘라스틱)-->
+
+
+<!--공통부분-->
+
+
+	 <data index="1" imgSrc="mov/45dg_001.swf" bgm="bgm/bosssapphire_bg.mp3">
+ 		<data sindex="1" view="true" sTitle="Фарис. Это она всему виной." sSize="16" motionType="1" voice="pass" delayTime="200" sx="0" sy="-150" ss="1.6" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="Она незаметно пробралась в Зеленый лес,"  sSize="16" motionType="1" voice="pass" delayTime="120" sx="-1024" sy="0" ss="2" st="4" mt="0"/>
+		<data sindex="4" view="true" sTitle="чтобы склонить дракона Ривиуса, стража леса, ко злу."  sSize="16" motionType="2" voice="pass" delayTime="150" sx="0" sy="0" ss="1" st="4" mt="0"/>
+	</data>
+
+	<data index="2" imgSrc="mov/45dg_002.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="От черной магии Фарис дракон начал сходить с ума..." sSize="16" motionType="3" voice="pass" delayTime="200" sx="-300" sy="-300" ss="1.5" st="2.5" mt="0"/>
+	</data>
+
+
+
+	<data index="3" imgSrc="mov/45dg_003.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="Потеряв разум, он принялся крушить все вокруг" sSize="16" motionType="2" voice="pass" delayTime="160" sx="-200" sy="-150" ss="2" st="0.5" mt="1"/>
+		<data sindex="2" view="true" sTitle="и напал на темных эльфов! Но эльфы не желали ему зла,"  sSize="16" motionType="1" voice="pass" delayTime="150" sx="-500" sy="-300" ss="1.5" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="поэтому не стали сражаться с бывшим другом."  sSize="16" motionType="1" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="4" view="true" sTitle="Темным эльфам пришлось просто уйти из Зеленого леса." sSize="16" motionType="3" voice="pass"  delayTime="180" sx="-500" sy="-400" ss="1.7" st="30" mt="0"/>
+	</data>
+
+	<data index="4" imgSrc="mov/45dg_004.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="Лишь искусный шаман Мутиша попытался одолеть Фарис." sSize="16" motionType="3" voice="pass" delayTime="160" sx="-800" sy="0" ss="1.8" st="0.5" mt="0"/>
+		<data sindex="2" view="true" sTitle="Эльфы думали,  что так будет лучше всего."  sSize="16" motionType="1" voice="pass" delayTime="130" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="Однако именно на это рассчитывала ведьма!"  sSize="16" motionType="2" voice="pass" delayTime="160" sx="0" sy="0" ss="1" st="0.5" mt="1"/>
+	</data>
+	
+
+	<data index="5" imgSrc="mov/45dg_005.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="Ей удалось заколдовать Мутишу," sSize="16" motionType="3" voice="pass" delayTime="130" sx="-1000" sy="-600" ss="2" st="10" mt="0"/>
+		<data sindex="2" view="true" sTitle="чтобы с его помощью пробудить древнего голема Арама!" sSize="16" motionType="1" voice="pass" delayTime="200" sx="0" sy="0" ss="1.1" st="0.5" mt="1"/>
+	</data>
+
+
+	<data index="6" imgSrc="mov/45dg_006.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="1" view="true" sTitle="Вот как Зеленый лес стал настолько ужасным местом." sSize="16" motionType="1" voice="pass" delayTime="180" sx="-400" sy="-400" ss="2.8" st="5" mt="0"/>
+		<data sindex="2" view="true" sTitle="Даже лесные духи сошли с ума." sSize="16" motionType="1" voice="pass" delayTime="130" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+	</data>
+
+
+	<data index="7" imgSrc="mov/45dg_007.swf" bgm="bgm/bosssapphire_bg.mp3" >
+		<data sindex="1" view="true" sTitle="Но все еще можно исправить." sSize="16" motionType="3" voice="pass" delayTime="150" sx="0" sy="0" ss="1" st="0.5" mt="1"/>
+		<data sindex="2" view="true" sTitle="Кольцо очищения! Темные эльфы верят, что спасение в нем." sSize="16" motionType="2" voice="pass" delayTime="180" sx="-250" sy="-300" ss="1.5" st="3" mt="0"/>
+	</data>
+
+
+
+
+
+
+	
+</data>

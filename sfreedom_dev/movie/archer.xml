@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<data totalIndex="8" thisIndex="1">
+	<!-- view=자막제어 sSize=폰트크기 motionType=자막효과(1.기본 2.파티클 3.높이 늘리기) voice=목소리(기본폴더 /voice/ ..없을경우 pass) delayTime=자막연출완료후 딜레이타임 sx=장면x위치값 sy=장면y값 ss=장면스케일값 st=장면모션 효과시간 mt=장면모션효과타입(1.기본 2.엘라스틱)-->
+	<!--공통부분-->
+	<data index="1" imgSrc="mov/fighter_001.swf" bgm="bgm/CharSelect_bg.mp3" subScriptView="true">
+		<data sindex="1" view="true" sTitle="지금으로부터 1000년 전,‘엘가’라는 드래곤이 인간계를 침공하게 된다." sSize="20" motionType="1" voice="pass" delayTime="120" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="‘엘가’는 드래곤로드가 가지고 있던 신물을 통해 자신의 야심에 이용하려 했고" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="00" ss="1" st="0" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="이로 인해 인간들 뿐만 아니라 드래곤들에게도 일대 혼란이 일게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="인간계는 이 사건으로 전쟁의 그림자에 휩싸이게 된다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="00" ss="1" st="0" mt="0"/>
+	</data>
+	<data index="2" imgSrc="mov/fighter_001_1.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="인간들 사이에서는 엘가의 편에 서서 목숨을 부지하려는 자들이 늘어났다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-300" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="수 적으로 불리한 전쟁, 그때 드래곤 신물의 기운을 이어받은 다섯 용자가 나타났고" sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="-200" ss="2" st="0.5" mt="0"/>
+		<data sindex="3" view="true" sTitle="선한 드래곤들의 수장인 데커드와 힘을 합쳐 엘가를 봉인하는데 성공한다." sSize="20" motionType="1" voice="pass" delayTime="180" sx="-600" sy="-300" ss="2" st="0.5" mt="1"/>
+		<data sindex="4" view="true" sTitle="이제 인간계에 영원한 평화가 찾아올 것이라 생각했다. 하지만..." sSize="20" motionType="1" voice="pass" delayTime="180" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="2.5" imgSrc="mov/fighter_001_2.swf" bgm="pass">
+		<data sindex="1" view="true" sTitle="1000년이 흐른 지금 인간들과의 바램과는 달리 어둠의 기운이 다시 깨어나고 있다." sSize="20" motionType="1" voice="pass" delayTime="300" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<!--궁수부분-->
+	<data index="3" imgSrc="mov/archer_001.swf" bgm="bgm/dawiner_bg.mp3">
+		<data sindex="1" view="true" sTitle="주변 부족과의 오랜 전쟁 끝에 평화를 찾은 미카 종족에는" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-700" sy="-200" ss="2" st="0" mt="0"/>
+		<data sindex="2" view="true" sTitle="전쟁의 여파로 어린 나이에 부모를 잃었지만" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-200" ss="2" st="1" mt="0"/>
+		<data sindex="3" view="true" sTitle="미카 종족의 후계자로서," sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-200" ss="2" st="1" mt="0"/>
+		<data sindex="4" view="true" sTitle="남은 가족인 동생과 함께 꿋꿋하게 삶을 살고 있는" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-200" ss="1.5" st="1" mt="0"/>
+		<data sindex="5" view="true" sTitle="로이스라는 소녀가 살고 있었다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="4" imgSrc="mov/archer_002.swf" bgm="bgm/bosssapphire_bg.mp3">
+		<data sindex="2" view="true" sTitle="미카 종족의 저주가 시작된 것일까?" sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-150" ss="2" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="원인을 알 수 없는 전염병이 발생하였고, 이것의 전파는 순식간이었다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-150" ss="2" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="미카 종족은 전염병 앞에 하나 둘씩 무너지고 있었다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="-900" sy="-150" ss="2" st="0" mt="0"/>
+		<data sindex="5" view="true" sTitle="어느 날부터 남동생‘카뮤’에게도 어둠의 그림자가 드리우기 시작했다. " sSize="20" motionType="1" voice="pass" delayTime="100" sx="-950" sy="-280" ss="2.3" st="1" mt="1"/>
+		<data sindex="6" view="true" sTitle="나, 난 괜찮아 너무 걱정 말아. 금방 나아질 거야......콜록 콜록..!" sSize="20" motionType="1" voice="archer_001.MP3" delayTime="220" sx="-950" sy="-280" ss="2.3" st="1" mt="0"/>
+		<data sindex="7" view="true" sTitle="…..카뮤.." sSize="20" motionType="3" voice="archer_002.MP3" delayTime="150" sx="-400" sy="-300" ss="2" st="1" mt="0"/>
+		<data sindex="8" view="true" sTitle="동생은 날로 쇠약 해져 가고 있었다." sSize="20" motionType="1" voice="archer_003.MP3" delayTime="100" sx="0" sy="0" ss="1" st="1" mt="0"/>
+	</data>
+	<data index="5" imgSrc="mov/archer_003.swf" bgm="bgm/Hulk_part_3_BNC.mp3">
+		<data sindex="2" view="true" sTitle="하나 밖에 없는 가족인 ‘카뮤’를 살리기 위해 모든 치료를 다 해보았지만," sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-460" ss="2" st="0" mt="0"/>
+		<data sindex="3" view="true" sTitle="‘카뮤’의 병을 치료하기엔 모든 것이 역 부족이었다.." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-460" ss="2" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="동생을 살릴 수 있는 방법은 단 한가지,“드래곤의 심장”이 필요했다.." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="-460" ss="2" st="0" mt="0"/>
+		<data sindex="5" view="true" sTitle="그러던 어느 날, 로이스는" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0.5" mt="0"/>
+		<data sindex="6" view="true" sTitle="‘드래곤 원정대’모집 지원서를 발견하게 된다." sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+	</data>
+	<data index="6" imgSrc="mov/archer_004.swf" bgm="bgm/breakhoperoad_bg.mp3" lastSub="Chapter1 모험의 시작">
+		<data sindex="2" view="true" sTitle="드래곤의 심장을 구해 부족과 동생을 구해야 하는 로이스는" sSize="20" motionType="1" voice="archer_004.MP3" delayTime="140" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="4" view="true" sTitle="‘드래곤 원정대’에 합류하기 위하여" sSize="20" motionType="1" voice="pass" delayTime="100" sx="0" sy="0" ss="1" st="0" mt="0"/>
+		<data sindex="5" view="true" sTitle="‘바람의 대륙’으로 향하는 길을 떠난다." sSize="20" motionType="2" voice="pass" delayTime="200" sx="0" sy="0" ss="1" st="0" mt="0"/>
+	</data>
+</data>
