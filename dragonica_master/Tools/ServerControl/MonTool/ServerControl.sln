@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerControl", "ServerControl.vcproj", "{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Lib MD|Win32 = Lib MD|Win32
+		Lib MDd|Win32 = Lib MDd|Win32
+		Lib MDo|Win32 = Lib MDo|Win32
+<<<<<<< .mine		Lib MT|Win32 = Lib MT|Win32
+=======		Lib MT|Win32 = Lib MT|Win32
+		Lib MTo|Win32 = Lib MTo|Win32
+>>>>>>> .theirs	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MD|Win32.ActiveCfg = Lib MD|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MD|Win32.Build.0 = Lib MD|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MDd|Win32.ActiveCfg = Lib MDd|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MDd|Win32.Build.0 = Lib MDd|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MDo|Win32.ActiveCfg = Lib MDo|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MDo|Win32.Build.0 = Lib MDo|Win32
+<<<<<<< .mine		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MT|Win32.ActiveCfg = Lib MT|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MT|Win32.Build.0 = Lib MT|Win32
+=======		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MT|Win32.ActiveCfg = Lib MT|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MT|Win32.Build.0 = Lib MT|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MTo|Win32.ActiveCfg = Lib MTo|Win32
+		{93A6CBE0-E5B7-45F6-96D1-4367AE2F8B1B}.Lib MTo|Win32.Build.0 = Lib MTo|Win32
+>>>>>>> .theirs	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+xcopy /Y SceneDesignerFramework.dll "..\..\..\..\Application\VC80\Release DLL"

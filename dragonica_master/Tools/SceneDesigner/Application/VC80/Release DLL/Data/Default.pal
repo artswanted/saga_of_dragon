@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<GSA Major="1" Minor="0" Patch="0">
+    <OBJECTS>
+        <ENTITY LinkID="0" Class="NiGeneralEntity" Name="[Default]monster_target" TemplateID="db,a3,49,56,dd,64,64,42,8e,b4,24,c2,a0,15,23,fb">
+            <COMPONENT RefLinkID="1" />
+            <COMPONENT RefLinkID="2" />
+        </ENTITY>
+        <COMPONENT LinkID="1" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="2" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\monster_target.nif</PROPERTY>
+        </COMPONENT>
+    </OBJECTS>
+    <SCENES>
+        <SCENE Class="NiScene" Name="Default">
+            <ENTITY RefLinkID="0" />
+        </SCENE>
+    </SCENES>
+</GSA>

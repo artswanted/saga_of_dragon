@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Options>
+	<Category name="AutoSave">
+		<Option name="AutoSave Interval in Minutes">
+			<SettingsObject store="PerUser" name = "AutoSaveIntervalInMinutes"/>
+			<HelpText>This sets how frequently the Scene Designer will make a backup of your unsaved scene. Enter a value of '0' to disable the Auto-Save feature.</HelpText>
+		</Option>
+	</Category>    
+	<Category name="Palettes">
+		<Option name="Palette Folder Location">
+			<SettingsObject store="PerUser" name = "PaletteFolder"/>
+			<HelpText>This sets the location of the palette folder for the scene. This setting overrides the the Default Palette location. If this setting is blank, the default folder location is used.</HelpText>
+		</Option>
+	</Category>
+    <Category name="External Application Settings">
+        <Option name="External Application Path">
+            <SettingsObject store="PerUser" name="External Application Path"/>
+            <HelpText>The full path to an external application to launch.</HelpText>
+        </Option>
+    </Category>
+    <Category name="External Application Settings">
+        <Option name="External Application Command Line">
+            <SettingsObject store="PerUser" name="External Application Command Line"/>
+            <HelpText>Command-line parameters to use for the external application.</HelpText>
+        </Option>
+    </Category>
+</Options>  

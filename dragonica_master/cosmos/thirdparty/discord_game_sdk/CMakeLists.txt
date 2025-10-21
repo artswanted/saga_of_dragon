@@ -1,0 +1,16 @@
+project(discord_game_sdk)
+
+file(GLOB LIBRARIES
+    ${CMAKE_CURRENT_SOURCE_DIR}/lib/*.lib
+)
+
+add_library(${PROJECT_NAME} INTERFACE)
+
+set_property(TARGET ${PROJECT_NAME} PROPERTY INTERFACE_LINK_LIBRARIES ${LIBRARIES})
+
+target_include_directories(${PROJECT_NAME} INTERFACE
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+)
+
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER ${PROJECT_FOLDER})

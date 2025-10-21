@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<Menu>
+	<MenuItem name="[10]File">
+		<MenuItem name="New">
+			<Command name="NewFile"/>
+		</MenuItem>
+		<MenuItem name="Open...">
+			<Command name = "OpenFile"/>
+		</MenuItem>
+		<MenuItem name="Recent">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="&amp;Save">
+			<Command name="SaveFile"/>
+		</MenuItem>
+		<MenuItem name="Save As...">
+			<Command name="SaveFileAs"/>
+		</MenuItem>
+
+		<MenuItem name="-">
+		  <CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Import GSA">
+		  <Command name="ImportFromGSA"/>
+		</MenuItem>
+
+		<!--09.01.16_15:05_ModifyByChoSeongho-->
+		<!--Do not type in other language except english-->
+	  	<MenuItem name="-">
+		  <CustomMenu/>
+		</MenuItem>
+		<MenuItem name="UI Setting">
+		  <MenuItem name="UI Save">
+			<Command name="UISave"/>
+		  </MenuItem>
+		  <MenuItem name="UI Load">
+			<Command name="UILoad"/>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem name="-">
+		  <CustomMenu/>
+		</MenuItem>
+		<!--09.01.16_15:05_ModifyByChoSeongho-->
+		<MenuItem name="XML Open...">
+		  <Command name = "XMLOpenFile"/>
+		</MenuItem>
+		<MenuItem name="-">
+		  <CustomMenu/>
+		</MenuItem>
+		<MenuItem name="&amp;XML Save">
+			<Command name="XMLSaveFile"/>
+		</MenuItem>
+		<MenuItem name="XML Save As...">
+			<Command name="XMLSaveFileAs"/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Exit">
+			<Command name="Exit"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="[20]Edit">
+		<MenuItem name="Undo">
+			<Command name="Undo"/>
+		</MenuItem>
+		<MenuItem name="Redo">
+			<Command name="Redo"/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Clone Selection">
+			<Command name="CloneSelection"/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Select All Entities">
+			<Command name="SelectAllEntities"/>
+		</MenuItem>
+		<MenuItem name="Deselect All Entities">
+			<Command name="DeselectAllEntities"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="[30]View">
+		<MenuItem name="Command Panels">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<!--MenuItem name="Create Camera From Viewport">
+			<Command name="CreateCameraFromViewport"/>
+		</MenuItem-->
+		<MenuItem name="Launch External Application">
+			<Command name="LaunchExternalApplication"/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Reset Viewport Cameras">
+			<Command name="ResetViewportCameras"/>
+		</MenuItem>
+		<MenuItem name="Reset Window Layout...">
+			<Command name="ResetWindowLayout"/>
+		</MenuItem>
+		<MenuItem name="-">
+			<CustomMenu/>
+		</MenuItem>
+		<MenuItem name="Options...">
+			<Command name="Options"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="[40]ProjectG">
+	  <MenuItem name="Make Rain Data">
+		<Command name="MakeRainData"/>
+	  </MenuItem>
+	  <MenuItem name="Hide Some Object">
+		<Command name="HideSomeObject"/>
+	  </MenuItem>
+	  <MenuItem name="-">
+		<CustomMenu/>
+	  </MenuItem>
+	  <MenuItem name="Make Monster Way Point">
+		<Command name="MakeMonsterWayPoint"/>
+	  </MenuItem>
+	  <MenuItem name="Load Monster Way Point">
+		<Command name="LoadMonsterWayPoint"/>
+	  </MenuItem>
+	  <MenuItem name="-">
+		<CustomMenu/>
+	  </MenuItem>
+	  <MenuItem name="Change Pick">
+		<Command name="ChangePick"/>
+	  </MenuItem>
+    <MenuItem name="-">
+    <CustomMenu/>
+    </MenuItem>
+    <MenuItem name="Add Animation Component To Palettes">
+    <Command name="AddAniComponentToPalettes"/>
+    </MenuItem>
+    <MenuItem name="Sync Object to Palettes">
+    <Command name="SyncObjectToPalettes"/>
+    </MenuItem>
+  </MenuItem>
+	<MenuItem name="[100]Help">
+		<MenuItem name="Contents">
+			<Command name="HelpContents"/>
+		</MenuItem>
+		<MenuItem name="Index">
+			<Command name="HelpIndex"/>
+		</MenuItem>
+		<MenuItem name="Search">
+			<Command name="HelpSearch"/>
+		</MenuItem>
+		<MenuItem name="About Gamebryo Scene Designer...">
+			<Command name="HelpAbout"/>
+		</MenuItem>
+	</MenuItem>
+</Menu>   

@@ -1,0 +1,774 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP89.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\core" /I "..\..\include\lua" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "LUA_OPNAMES" /Fp"Release/core.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lcode.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\llex.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lmem.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lopcodes.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lparser.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltests.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltm.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lzio.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP89.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP8A.tmp" with contents
+[
+/nologo /out:"..\..\library\release\core.lib" 
+.\Release\lapi.obj
+.\Release\lcode.obj
+.\Release\ldebug.obj
+.\Release\ldo.obj
+.\Release\lfunc.obj
+.\Release\lgc.obj
+.\Release\llex.obj
+.\Release\lmem.obj
+.\Release\lobject.obj
+.\Release\lopcodes.obj
+.\Release\lparser.obj
+.\Release\lstate.obj
+.\Release\lstring.obj
+.\Release\ltable.obj
+.\Release\ltests.obj
+.\Release\ltm.obj
+.\Release\lundump.obj
+.\Release\lvm.obj
+.\Release\lzio.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP8A.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2146: syntax error : missing ')' before identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2081: 'lua_Chunkwriter' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2061: syntax error : identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ';'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ','
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(51) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(51) : warning C4033: 'negindex' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(54) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(54) : warning C4033: 'negindex' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(55) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(55) : warning C4033: 'negindex' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(57) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(71) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(71) : warning C4033: 'luaA_index' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(83) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(85) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(94) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(95) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(95) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(95) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(102) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(102) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(105) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(105) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(106) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(106) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(107) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(107) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(119) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(121) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(121) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(122) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(131) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(132) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(141) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(141) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(143) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(143) : error C2065: 'LUA_TTHREAD' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(144) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(158) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(158) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(158) : warning C4033: 'lua_gettop' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(166) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(166) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(167) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(168) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(168) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(172) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(182) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(183) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(193) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(194) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(202) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(203) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(210) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(211) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(253) : error C2143: syntax error : missing ')' before '=='
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(253) : error C2143: syntax error : missing '{' before '=='
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(253) : error C2059: syntax error : '=='
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(253) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(320) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(320) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(354) : error C2065: 'LUA_TLIGHTUSERDATA' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(354) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(362) : warning C4133: 'return' : incompatible types - from 'int *' to 'struct lua_State *'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(373) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(375) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(391) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(392) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(399) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(400) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(407) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(407) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(408) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(409) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(426) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(426) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(437) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(437) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(449) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(449) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(453) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(455) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(456) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(457) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(464) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(465) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(472) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(473) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(488) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(488) : error C2198: 'luaV_gettable' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(488) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(498) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(498) : error C2198: 'luaH_get' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(498) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(508) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(509) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(516) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(516) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(517) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(518) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(539) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(542) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c(542) : fatal error C1003: error count exceeds 100; stopping compilation
+lcode.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+ldebug.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(56) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(56) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(58) : error C2037: left of 'hookinit' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2146: syntax error : missing ')' before identifier 'func'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2081: 'lua_Hook' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2061: syntax error : identifier 'func'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2059: syntax error : ';'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2059: syntax error : ','
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(65) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(79) : error C2061: syntax error : identifier 'lua_gethook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(79) : error C2059: syntax error : ';'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(79) : error C2059: syntax error : 'type'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(85) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(85) : warning C4033: 'lua_gethookmask' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(90) : error C2037: left of 'basehookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(90) : warning C4033: 'lua_gethookcount' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(94) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(94) : error C2081: 'lua_Debug' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(94) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(94) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(94) : error C2054: expected '(' to follow 'ar'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(122) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(122) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(122) : error C2059: syntax error : 'type'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(122) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(140) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(140) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(140) : error C2059: syntax error : 'type'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(140) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2040: 'StkId' : 'int ' differs in levels of indirection from 'struct lua_TObject *'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2146: syntax error : missing ';' before identifier 'func'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(161) : error C2054: expected '(' to follow 'func'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(178) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(189) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(189) : error C2081: 'lua_Debug' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(189) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(189) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(189) : error C2054: expected '(' to follow 'ar'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(200) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(200) : error C2081: 'lua_Debug' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(200) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(201) : error C2040: 'StkId' : 'int ' differs in levels of indirection from 'struct lua_TObject *'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(201) : error C2146: syntax error : missing ';' before identifier 'f'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(201) : error C2059: syntax error : 'type'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(201) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(238) : error C2143: syntax error : missing ')' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(238) : error C2081: 'lua_Debug' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(238) : error C2143: syntax error : missing '{' before '*'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(238) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(238) : error C2054: expected '(' to follow 'ar'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(518) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(518) : warning C4090: 'function' : different 'const' qualifiers
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(518) : warning C4024: 'isinstack' : different types for formal and actual parameter 1
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(518) : error C2198: 'isinstack' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(519) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(519) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(519) : warning C4047: 'function' : 'struct CallInfo *' differs in levels of indirection from 'const char ** '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(519) : warning C4024: 'getobjname' : different types for formal and actual parameter 1
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(519) : error C2198: 'getobjname' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(555) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(557) : error C2065: 'LUA_IDSIZE' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(557) : error C2057: expected constant expression
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(557) : error C2133: 'buff' : unknown size
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(566) : error C2037: left of 'errfunc' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(567) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(567) : error C2037: left of 'errfunc' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(569) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(569) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(570) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(571) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(571) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(571) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(572) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(572) : warning C4047: 'function' : 'struct lua_TObject *' differs in levels of indirection from 'const int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(572) : warning C4024: 'luaD_call' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c(572) : error C2198: 'luaD_call' : too few actual parameters
+ldo.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2146: syntax error : missing ')' before identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2081: 'lua_Chunkwriter' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2061: syntax error : identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ';'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ','
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ')'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(62) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(66) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(71) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(72) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(73) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(73) : warning C4047: 'function' : 'int *' differs in levels of indirection from 'const int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(73) : warning C4024: 'longjmp' : different types for formal and actual parameter 1
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(73) : error C2198: 'longjmp' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(76) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(85) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(86) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(89) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(95) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(95) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(95) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(96) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(97) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(97) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(109) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(109) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(109) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(110) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(111) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(112) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(112) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(113) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(114) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(116) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(116) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(121) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(122) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(122) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(122) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(122) : warning C4022: 'luaM_realloc' : pointer mismatch for actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(122) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(123) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(124) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(124) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(130) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(131) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(131) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(131) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(131) : warning C4022: 'luaM_realloc' : pointer mismatch for actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(131) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(132) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(133) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(133) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(133) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(134) : error C2037: left of 'end_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(134) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(134) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(139) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(140) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(140) : error C2198: 'luaD_reallocstack' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(142) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(142) : error C2198: 'luaD_reallocstack' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(147) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(150) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(150) : error C2198: 'luaD_reallocCI' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(151) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(158) : error C2065: 'lua_Hook' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(158) : error C2146: syntax error : missing ';' before identifier 'hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(158) : error C2065: 'hook' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(158) : error C2037: left of 'hook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(159) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(160) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(160) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(161) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(161) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(162) : error C2065: 'lua_Debug' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(162) : error C2146: syntax error : missing ';' before identifier 'ar'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(162) : error C2065: 'ar' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(163) : error C2224: left of '.event' must have struct/union type
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(164) : error C2224: left of '.currentline' must have struct/union type
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(165) : error C2065: 'LUA_HOOKTAILRET' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(166) : error C2224: left of '.i_ci' must have struct/union type
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(168) : error C2224: left of '.i_ci' must have struct/union type
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(168) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(168) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(169) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(169) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(170) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(170) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(171) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(173) : error C2100: illegal indirection
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(173) : error C2064: term does not evaluate to a function
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(176) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(177) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(177) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(178) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(178) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(187) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(189) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(189) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(191) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(196) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c(196) : fatal error C1003: error count exceeds 100; stopping compilation
+lfunc.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c(49) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c(57) : error C2065: 'LUA_TTHREAD' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c(68) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c(71) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+lgc.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(88) : error C2065: 'LUA_TTHREAD' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(88) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(89) : error C2223: left of '->gclist' must point to struct/union
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(93) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(114) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(123) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(123) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(135) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(136) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(228) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(228) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(229) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(229) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(230) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(230) : error C2198: 'luaD_reallocCI' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(232) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(233) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(233) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(234) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(234) : error C2198: 'luaD_reallocstack' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(242) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(242) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(242) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(242) : error C2198: 'reallymarkobject' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(243) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(244) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(244) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(250) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(250) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(273) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(274) : warning C4133: 'initializing' : incompatible types - from 'int *' to 'struct lua_State *'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(275) : error C2037: left of 'gclist' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(279) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(342) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(344) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(346) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(348) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct lua_State *'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(384) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(385) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(385) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(385) : warning C4047: 'function' : 'union GCObject ** ' differs in levels of indirection from 'int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(385) : warning C4024: 'sweeplist' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(385) : error C2198: 'sweeplist' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(392) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(392) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(393) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(394) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(394) : error C2198: 'luaS_resize' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(396) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(397) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : warning C4022: 'luaM_realloc' : pointer mismatch for actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(398) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(400) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(400) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(405) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(405) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(407) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(408) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(409) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(410) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(410) : error C2198: 'luaD_call' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(416) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(417) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(418) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(419) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(420) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(422) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(423) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(424) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(425) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(430) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(431) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(437) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(437) : warning C4047: 'function' : 'union GCObject ** ' differs in levels of indirection from 'int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(437) : warning C4024: 'sweeplist' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(437) : error C2198: 'sweeplist' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(439) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(439) : warning C4047: 'function' : 'union GCObject ** ' differs in levels of indirection from 'int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(439) : warning C4024: 'sweeplist' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(439) : error C2198: 'sweeplist' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(446) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(446) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(446) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(446) : error C2198: 'reallymarkobject' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(447) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(447) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(447) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(447) : error C2198: 'reallymarkobject' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(457) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(488) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c(489) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+llex.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+lmem.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lmem.c(86) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lmem.c(87) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+lobject.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(83) : error C2065: 'LUA_TLIGHTUSERDATA' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(83) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(105) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(106) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(106) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(106) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(117) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(118) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(118) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(118) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(131) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(132) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(132) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(132) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(135) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(136) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(136) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(136) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(147) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(147) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(147) : error C2198: 'luaV_concat' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(148) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(149) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c(149) : warning C4033: 'luaO_pushvfstring' must return a value
+lopcodes.c
+lparser.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+lstate.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(49) : error C2027: use of undefined type 'lua_State'
+        D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(131) : see declaration of 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(60) : error C2027: use of undefined type 'lua_State'
+        D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(131) : see declaration of 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(65) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(66) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(67) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(67) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(68) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(68) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(68) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(69) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(70) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(70) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(71) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(72) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(73) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(73) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(73) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(74) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(74) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(75) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(76) : error C2037: left of 'end_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(76) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(76) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(81) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(81) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(81) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(82) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(82) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(82) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(94) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(100) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(101) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(110) : error C2027: use of undefined type 'lua_State'
+        D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(131) : see declaration of 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(113) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(114) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(115) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(115) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(116) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(117) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(122) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(127) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(128) : error C2037: left of 'stacksize' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(129) : error C2037: left of 'errorJmp' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(130) : error C2037: left of 'hook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(131) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(131) : error C2037: left of 'hookinit' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(132) : error C2037: left of 'basehookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(133) : error C2037: left of 'allowhook' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(134) : error C2037: left of 'hookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(134) : error C2037: left of 'basehookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(135) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(136) : error C2037: left of 'size_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(137) : error C2037: left of 'nCcalls' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(138) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(138) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(139) : error C2037: left of 'errfunc' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(140) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(145) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(145) : error C2198: 'luaF_close' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(146) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(151) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(151) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(151) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(151) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(151) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(154) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(156) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(156) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(156) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(164) : error C2065: 'LUA_TTHREAD' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(166) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(166) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(168) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(168) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(174) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(174) : error C2198: 'luaF_close' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(184) : error C2037: left of 'tt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(185) : error C2037: left of 'marked' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(186) : error C2037: left of 'next' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(186) : error C2037: left of 'gclist' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(188) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(208) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(209) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(209) : error C2198: 'luaF_close' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(211) : error C2037: left of 'errfunc' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(213) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(213) : error C2037: left of 'base_ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(214) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(214) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(214) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c(215) : error C2037: left of 'nCcalls' specifies undefined struct/union 'lua_State'
+lstring.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(23) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(23) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(23) : error C2198: 'luaM_realloc' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(29) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(61) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(79) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(79) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c(79) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+ltable.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(107) : error C2065: 'LUA_TLIGHTUSERDATA' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(107) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(254) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(284) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(285) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c(330) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+ltests.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+ltm.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltm.c(38) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltm.c(39) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltm.c(60) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+lundump.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2146: syntax error : missing ')' before identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2081: 'lua_Chunkwriter' : name in formal parameter list illegal
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2061: syntax error : identifier 'w'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ';'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ','
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.h(20) : error C2059: syntax error : ')'
+lvm.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(149) : error C2061: syntax error : identifier 'lua_Hook'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(155) : error C2059: syntax error : '}'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.h(172) : error C2079: 'th' uses undefined struct 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(68) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(69) : error C2065: 'LUA_MASKLINE' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(70) : error C2037: left of 'hookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(71) : error C2037: left of 'hookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(71) : error C2037: left of 'basehookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(72) : error C2065: 'LUA_HOOKCOUNT' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(77) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(80) : error C2037: left of 'hookinit' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(90) : error C2065: 'LUA_HOOKLINE' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(91) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(100) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(101) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(102) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(103) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(103) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(104) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(105) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(105) : warning C4047: 'function' : 'struct lua_TObject *' differs in levels of indirection from 'const int '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(105) : warning C4024: 'luaD_call' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(105) : error C2198: 'luaD_call' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(106) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(113) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(114) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(115) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(116) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(117) : error C2037: left of 'stack_last' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(117) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(118) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(119) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(119) : error C2198: 'luaD_call' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(125) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(125) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(129) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(129) : warning C4033: 'luaV_index' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(141) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(141) : warning C4033: 'luaV_getnotable' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(177) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(177) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(197) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(203) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(204) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(211) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(211) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(215) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(215) : error C2198: 'luaT_gettm' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(232) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(232) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(232) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(232) : warning C4033: 'call_orderTM' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(295) : error C2065: 'LUA_TLIGHTUSERDATA' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(295) : error C2051: case expression not constant
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(311) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(311) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(311) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(311) : warning C4033: 'luaV_equalval' must return a value
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(317) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(333) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(333) : warning C4047: 'function' : 'struct Mbuffer *' differs in levels of indirection from 'unsigned long '
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(333) : warning C4024: 'luaZ_openspace' : different types for formal and actual parameter 2
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(333) : error C2198: 'luaZ_openspace' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(360) : error C2037: left of '_gt' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(360) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(360) : error C2198: 'luaH_getstr' : too few actual parameters
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(361) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(365) : error C2037: left of 'stack' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(366) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(402) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(403) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(403) : error C2065: 'LUA_MASKCALL' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(404) : error C2065: 'LUA_HOOKCALL' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(408) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(409) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(410) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(416) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(416) : error C2065: 'LUA_MASKCOUNT' : undeclared identifier
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(417) : error C2037: left of 'hookcount' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(417) : error C2037: left of 'hookmask' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(419) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(420) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(421) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(426) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(467) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(477) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(480) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(501) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(501) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(513) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(516) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(585) : error C2037: left of 'base' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(587) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(587) : error C2037: left of 'l_G' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(623) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(627) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(629) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(630) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(635) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(635) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(639) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(640) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(644) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(646) : error C2037: left of 'openupval' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(647) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(649) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(649) : error C2037: left of 'top' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(651) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(651) : error C2037: left of 'ci' specifies undefined struct/union 'lua_State'
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c(651) : fatal error C1003: error count exceeds 100; stopping compilation
+lzio.c
+D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lzio.c(21) : warning C4020: 'function through pointer' : too many actual parameters
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+core.lib - 648 error(s), 37 warning(s)
+</pre>
+</body>
+</html>

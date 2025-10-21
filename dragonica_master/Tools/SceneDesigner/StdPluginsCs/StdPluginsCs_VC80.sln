@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StdPluginsCs_VC80", "StdPluginsCs_VC80.csproj", "{D2B2A999-9974-4916-A6A6-4EF08B6AB747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Any CPU = Debug DLL|Any CPU
+		Release DLL|Any CPU = Release DLL|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B2A999-9974-4916-A6A6-4EF08B6AB747}.Debug DLL|Any CPU.ActiveCfg = Debug DLL|Any CPU
+		{D2B2A999-9974-4916-A6A6-4EF08B6AB747}.Debug DLL|Any CPU.Build.0 = Debug DLL|Any CPU
+		{D2B2A999-9974-4916-A6A6-4EF08B6AB747}.Release DLL|Any CPU.ActiveCfg = Release DLL|Any CPU
+		{D2B2A999-9974-4916-A6A6-4EF08B6AB747}.Release DLL|Any CPU.Build.0 = Release DLL|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

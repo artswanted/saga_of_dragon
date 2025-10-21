@@ -1,0 +1,187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+#define MANIFEST_RESOURCE_ID 1
+MANIFEST_RESOURCE_ID RT_MANIFEST "MP_Patcher.exe.manifest"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION PG_PRODUCT_VERSION_NUM
+ PRODUCTVERSION PG_PRODUCT_VERSION_NUM
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "CompanyName", "Barunson Interactive"
+            VALUE "FileDescription", "Dragonica Patcher"
+            VALUE "FileVersion", PG_PRODUCT_VERSION_STR
+            VALUE "InternalName", "Patcher.exe"
+            VALUE "LegalCopyright", "(c) Barunson Interactive.  All rights reserved."
+            VALUE "OriginalFilename", "Patcher.exe"
+            VALUE "ProductName", "Dragonica Patcher"
+            VALUE "ProductVersion", PG_PRODUCT_VERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ProjectD.ico"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 94, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "選項"
+FONT 12, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "畫??定",IDC_STATIC,2,3,44,33,BS_CENTER
+    GROUPBOX        "畫質?定",IDC_STATIC,49,3,43,33,BS_CENTER
+    GROUPBOX        "??",IDC_STATIC,2,38,90,55,BS_CENTER
+    PUSHBUTTON      "確? (&O)",IDC_BTN_OK,2,97,90,15
+    PUSHBUTTON      "取? (&C)",IDC_BTN_CANCEL,2,118,90,15
+    CONTROL         "視窗",IDC_RDO_WINDOW,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,7,13,38,10
+    CONTROL         "?螢幕",IDC_RDO_FULL,"Button",BS_AUTORADIOBUTTON | BS_TOP,7,24,37,10
+    CONTROL         "高規?",IDC_RDO_HIGH,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,54,13,37,10
+    CONTROL         "低規?",IDC_RDO_LOW,"Button",BS_AUTORADIOBUTTON | BS_TOP,54,24,37,10
+    LTEXT           "背景?樂",IDC_STATIC,8,48,37,8
+    LTEXT           "??",IDC_STATIC,8,71,54,8
+    CONTROL         "靜?",IDC_BGM_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,61,45,30,11
+    CONTROL         "靜?",IDC_SE_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,61,69,30,11
+    CONTROL         "",IDC_SD_BGM_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,8,58,78,12
+    CONTROL         "",IDC_SD_SE_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,8,80,78,12
+END
+
+IDD_PATCHPROC DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 92
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_PATCHPROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

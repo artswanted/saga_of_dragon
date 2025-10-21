@@ -1,0 +1,33 @@
+project(cosmos)
+
+set(PROJECT_FOLDER "cosmos")
+
+# Third Party
+add_subdirectory(include/tinyxml)
+add_subdirectory(include/RandomLib)
+add_subdirectory(include/Lzo)
+add_subdirectory(include/cximage)
+add_subdirectory(include/cximage/jpeg)
+add_subdirectory(include/LuaDev)
+add_subdirectory(include/lua_tinker)
+add_subdirectory(include/lua)
+add_subdirectory(include/Shiny)
+add_subdirectory(include/zlib)
+add_subdirectory(include/freetype)
+add_subdirectory(include/loki)
+add_subdirectory(include/ace)
+add_subdirectory(include/minizip)
+add_subdirectory(include/bugTrap)
+add_subdirectory(thirdparty)
+
+#Cosmos
+add_subdirectory(firstparty)
+add_subdirectory(include/BM)
+add_subdirectory(include/CEL)
+add_subdirectory(include/CSIME)
+add_subdirectory(include/CSMail)
+add_subdirectory(include/DataPack)
+add_subdirectory(include/SimpEnc)
+add_subdirectory(include/CSVQuery)
+add_subdirectory(include/libcsv)
+add_subdirectory(include/csvdb)

@@ -1,0 +1,17 @@
+project(Archangel)
+
+set(PROJECT_FOLDER ${PROJECT_NAME})
+
+add_subdirectory(Weapons)
+add_subdirectory(LoginServer)
+add_subdirectory(ContentsServer)
+add_subdirectory(Center)
+add_subdirectory(Immigration)
+add_subdirectory(LogServer)
+add_subdirectory(Switch)
+add_subdirectory(MapServer)
+add_subdirectory(GMServer)
+add_subdirectory(MControl/MMC)
+add_subdirectory(MControl/SMC)
+add_subdirectory(Dummy)
+add_subdirectory(Consent)

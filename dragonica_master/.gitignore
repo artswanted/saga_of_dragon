@@ -1,0 +1,24 @@
+# IDE
+.vs
+.vscode
+.idea
+*.user
+*.suo
+*.ncb
+
+# Build
+out/
+*.lib
+*.pdb
+*.exp
+*.exe
+*.dll
+*.htm
+*.cache
+*.user
+*.obj
+*.pch
+
+# Other
+*.log
+*.tlog

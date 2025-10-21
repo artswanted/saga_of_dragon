@@ -1,0 +1,38 @@
+﻿{
+    "configurations": [
+        {
+            "name": "Develop",
+            "generator": "Visual Studio 17 2022",
+            "configurationType": "RelWithDebInfo",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x86" ],
+            "variables": [
+                {
+                    "name": "BUILD_TOOLS",
+                    "value": "True",
+                    "type": "BOOL"
+                }
+            ]
+        },
+        {
+            "name": "Release",
+            "generator": "Visual Studio 17 2022",
+            "configurationType": "Release",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x86" ],
+            "variables": [
+                {
+                    "name": "BUILD_TOOLS",
+                    "value": "True",
+                    "type": "BOOL"
+                }
+            ]
+        }
+    ]
+}

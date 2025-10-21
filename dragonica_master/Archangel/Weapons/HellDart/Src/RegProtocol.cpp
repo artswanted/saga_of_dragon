@@ -1,0 +1,626 @@
+#include "stdafx.h"
+#include "Lohengrin/Lohengrin.h"
+#include "Lohengrin/packettype.h"
+#include "helldart/PgProtocolFilter.h"
+#include "helldart/ProtocolCheckFunc_01.h"
+
+#define RegFilterFunc(a)  extern HRESULT CALLBACK Check_##a( BM::Stream &kPacket ); g_kProtocolFilter.Regist(a, Check_##a);
+extern void ReqProtocolFunc_PvP();
+extern void ReqProtocolFunc_Emporia();
+extern void RegProtocolFunc_C_M();
+extern void RegProtocolFunc_Item();
+extern void RegProtocolFunc_Event();
+
+HRESULT CALLBACK Check_DefaultFunc( BM::Stream &kPacket )
+{
+	return E_FAIL;
+}
+
+void RegProtocolFunc()
+{
+// 기본 함수 등록
+	g_kProtocolFilter.RegistDefault( Check_DefaultFunc );
+
+//	로그인 인증 관련
+	RegFilterFunc(PT_C_L_TRY_LOGIN);
+	RegFilterFunc(PT_C_C_SELF_DISCONNECT_SERVER);
+
+	RegFilterFunc(PT_C_N_REQ_REALM_MERGE);
+
+//	맵로딩 관련
+	RegFilterFunc(PT_C_M_NFY_MAPLOADED);
+	RegFilterFunc(PT_C_T_REQ_SELECT_CHARACTER_OTHERMAP);
+	RegFilterFunc(PT_C_M_REQ_DEFAULT_MAP_MOVE);
+//	RegFilterFunc(PT_C_A_REQ_MAP_MOVE_TIMEOUT);
+	RegFilterFunc(PT_C_T_REQ_CHANNLE_INFORMATION);
+
+//	RegFilterFunc(PT_C_M_REQ_CHAT);
+	RegFilterFunc(PT_C_N_REQ_CHECK_CHARACTERNAME_OVERLAP);
+	RegFilterFunc(PT_C_S_REQ_CREATE_CHARACTER);
+	RegFilterFunc(PT_C_S_REQ_DELETE_CHARACTER);
+	RegFilterFunc(PT_C_S_REQ_SELECT_CHARACTER);
+	RegFilterFunc(PT_C_S_REQ_CHARACTER_LIST);
+	RegFilterFunc(PT_C_S_NFY_UNIT_POS);
+	RegFilterFunc(PT_C_S_ANS_ONLY_PING);
+
+	RegFilterFunc(PT_C_M_REQ_EFFECT_CONTROL);
+	RegFilterFunc(PT_C_M_NFY_POSITION);
+	RegFilterFunc(PT_C_M_NFY_RECENT_MAP_MOVE);
+	
+	RegFilterFunc(PT_C_M_REQ_RANK_PAGE);
+	RegFilterFunc(PT_C_M_REQ_RANK_TOP);	
+	RegFilterFunc(PT_C_M_REQ_TRIGGER);
+	RegFilterFunc(PT_C_M_REQ_SPEND_MONEY);
+	RegFilterFunc(PT_C_M_REQ_INDUN_START);
+	RegFilterFunc(PT_C_M_REQ_INDUN_START2);
+	RegFilterFunc(PT_C_M_REQ_SYNCTIME_CHECK);
+	RegFilterFunc(PT_C_M_REQ_TRIGGER_ACTION);
+	RegFilterFunc(PT_C_M_REQ_START_HYPER_MOVE);
+	RegFilterFunc(PT_C_M_NFY_END_HYPER_MOVE);
+	RegFilterFunc(PT_C_M_REQ_TRANSTOWER);
+	RegFilterFunc(PT_C_M_REQ_TRANSTOWER_BY_PET);
+
+	RegFilterFunc(PT_C_M_REQ_MISSION_RESTART);
+	RegFilterFunc(PT_C_M_REQ_MISSION_ROULETTE_STOP);
+	RegFilterFunc(PT_C_M_REQ_PARTY_LIST);
+	RegFilterFunc(PT_C_M_REQ_PARTY_NAME);
+	RegFilterFunc(PT_C_M_REQ_SEARCH_PEOPLE_LIST);
+	RegFilterFunc(PT_C_M_REQ_MSGBOX_CALL);
+	RegFilterFunc(PT_C_M_REQ_MISSION_TRIGGER_ACTION);
+	RegFilterFunc(PT_C_M_REQ_MISSION_CHAOS_ACTION);
+	RegFilterFunc(PT_C_M_REQ_ENTER_MISSION);
+	RegFilterFunc(PT_C_N_ANS_MISSION_RANK_INPUTMEMO);
+	RegFilterFunc(PT_C_C_NFY_MISSION_CLOSE);
+	RegFilterFunc(PT_C_N_REQ_MSN_FRIENDCOMMAND);
+	RegFilterFunc(PT_C_N_REQ_COUPLE_COMMAND);
+	RegFilterFunc(PT_C_M_REQ_REWORD_FRAN_EXP);
+	RegFilterFunc(PT_C_N_REQ_JOIN_PARTY);
+	RegFilterFunc(PT_C_N_ANS_JOIN_PARTY);
+	RegFilterFunc(PT_C_N_REQ_LEAVE_PARTY);
+	RegFilterFunc(PT_C_N_REQ_PARTY_CHANGE_MASTER);
+	RegFilterFunc(PT_C_N_REQ_PARTY_CHANGE_OPTION);
+	RegFilterFunc(PT_C_N_REQ_KICKOUT_PARTY_USER);
+	RegFilterFunc(PT_C_N_REQ_CREATE_PARTY);
+	RegFilterFunc(PT_C_N_REQ_PARTY_RENAME);
+	RegFilterFunc(PT_C_N_REQ_JOIN_PARTYFIND);
+	RegFilterFunc(PT_C_N_ANS_JOIN_PARTYFIND);	
+	RegFilterFunc(PT_C_M_REQ_MISSION_GADACOIN_ITEM);
+	RegFilterFunc(PT_C_M_REQ_MARRY_COMMAND);
+	RegFilterFunc(PT_C_M_REQ_FIND_PARTY_USER_LIST);
+	RegFilterFunc(PT_C_M_REQ_REGIST_PRIVATE_PARTY_FIND);
+	RegFilterFunc(PT_N_C_REQ_UNREGIST_PRIVATE);
+	RegFilterFunc(PT_C_M_REQ_JOIN_PARTY_REFUSE);
+
+	RegFilterFunc(PT_C_M_NFY_DEFENCE_STAGE);
+	RegFilterFunc(PT_C_M_NFY_DEFENCE_WAVE);
+	RegFilterFunc(PT_C_M_NFY_DEFENCE_ENDSTAGE);
+	RegFilterFunc(PT_C_M_NFY_DEFENCE_DIRECTION);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_INFALLIBLE_SELECTION);
+
+	RegFilterFunc(PT_C_M_NFY_SELECTED_BOX);
+	RegFilterFunc(PT_C_M_REQ_MON_BLOWSTATUS);
+	RegFilterFunc(PT_C_M_REQ_RESULT_END);
+
+	RegFilterFunc(PT_C_M_REQ_HIDDEN_ITEM);	
+	RegFilterFunc(PT_C_M_REQ_HIDDEN_REWORDITEM);		
+	RegFilterFunc(PT_C_M_REQ_HIDDEN_GIVE_REWORDITEM);	
+	RegFilterFunc(PT_C_M_REQ_HIDDEN_ITEM_PACK);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_TIMEPLUS);	
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_SELECT_CLOSE);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_POTION);
+	RegFilterFunc(PT_C_M_REQ_GUARDIAN_SET);
+	RegFilterFunc(PT_C_M_REQ_GUARDIAN_UPGRADE);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_ITEM_USE);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_SKILL_USE);
+	RegFilterFunc(PT_C_M_REQ_DEFENCE_PARTYLIST);
+	RegFilterFunc(PT_C_M_REQ_GUARDIAN_REMOVE);
+    RegFilterFunc(PT_C_M_REQ_MISSION_START);
+	RegFilterFunc(PT_C_M_MISSION_NEXT_STAGE);
+	RegFilterFunc(PT_C_M_REQ_GENMONSTER_GROUP_NUM);
+
+	RegFilterFunc(PT_C_M_REQ_CANCEL_JOBSKILL);	
+	
+	// 상호 이모션(왈츠) 
+	RegFilterFunc(PT_C_M_REQ_INTERACTIVE_EMOTION_REQUEST);	
+	RegFilterFunc(PT_C_M_ANS_INTERACTIVE_EMOTION_REQUEST);	
+	
+
+//	GMCommand
+	RegFilterFunc(PT_C_M_GODCMD);
+	RegFilterFunc(PT_C_NT_GODCMD);
+
+	// Pet
+	RegFilterFunc(PT_C_M_REQ_PET_RENAME);
+	RegFilterFunc(PT_C_M_REQ_PET_COLOR_CHANGE);
+	RegFilterFunc(PT_C_M_REQ_ITEM_CHANGE_TO_PET);
+	RegFilterFunc(PT_C_M_REQ_PET_ACTION);
+	RegFilterFunc(PT_C_M_REQ_PET_UPGRADE);
+
+	RegFilterFunc(PT_C_N_REQ_GET_ENTRANCE_OPEN_GUILD);
+	RegFilterFunc(PT_C_N_REQ_GUILD_ENTRANCE);
+	RegFilterFunc(PT_C_N_REQ_GUILD_ENTRANCE_CANCEL);
+	RegFilterFunc(PT_N_C_REQ_PAYMENT_GUILD_ENTRANCE_FEE);
+
+	RegFilterFunc(PT_C_M_REQ_QUESTSCROLL);
+
+	ReqProtocolFunc_PvP();
+	ReqProtocolFunc_Emporia();
+
+	RegProtocolFunc_C_M();
+
+	RegProtocolFunc_Item();
+
+	RegProtocolFunc_Event();
+
+	RegFilterFunc(PT_C_M_NFY_PROGRESS_POS);
+	RegFilterFunc(PT_C_M_NFY_RACE_CHECK_POINT);
+}
+
+void ReqProtocolFunc_PvP()
+{
+	RegFilterFunc(PT_C_M_REQ_OBMODE_END);
+	RegFilterFunc(PT_C_M_REQ_OBMODE_TARGET_CHANGE);
+	
+	RegFilterFunc(PT_C_M_REQ_DUEL_PVP);
+	RegFilterFunc(PT_C_M_ANS_DUEL_PVP);
+	RegFilterFunc(PT_C_M_NFY_DUEL_PVP_CANCEL);
+	RegFilterFunc(PT_C_M_ERROR_DUEL_PVP);
+
+	RegFilterFunc(PT_C_M_REQ_JOIN_LOBBY);
+	RegFilterFunc(PT_C_T_REQ_EXIT_LOBBY);
+	RegFilterFunc(PT_C_T_REQ_CREATE_ROOM);
+	RegFilterFunc(PT_C_T_REQ_JOIN_ROOM);
+	RegFilterFunc(PT_C_T_REQ_EXIT_ROOM);
+	RegFilterFunc(PT_C_T_REQ_TEAM_CHANGE);
+	RegFilterFunc(PT_C_T_REQ_GAME_READY);
+	RegFilterFunc(PT_C_T_REQ_MODIFY_ROOM);
+	RegFilterFunc(PT_C_T_REQ_KICK_ROOM_USER);
+	RegFilterFunc(PT_C_T_REQ_SLOTSTATUS_CHANGE);
+	RegFilterFunc(PT_C_T_REQ_ENTRUST_MASTER);
+	RegFilterFunc(PT_C_T_REQ_WITH_PVP);
+	RegFilterFunc(PT_C_T_REQ_INVITE_PVP);
+	RegFilterFunc(PT_C_T_REQ_CHANGE_LOBBY);
+	RegFilterFunc(PT_C_T_REQ_GET_PVPRANKING);
+	RegFilterFunc(PT_C_M_REQ_PVP_SELECTOR);
+	RegFilterFunc(PT_C_M_REQ_PVP_SELECTOR_CANCEL);
+	RegFilterFunc(PT_C_T_REQ_INVATE_FAIL);
+	RegFilterFunc(PT_C_T_REQ_ENTRY_CHANGE);
+
+	// HardCore Dungeon
+	RegFilterFunc(PT_C_M_REQ_RET_HARDCORE_VOTE);
+
+	// Battlesquare
+	RegFilterFunc(PT_C_T_REQ_BS_CHANNEL_INFO);
+
+	// PvP League
+	RegFilterFunc(PT_C_N_REQ_REGIST_PVPLEAGUE_TEAM);
+	RegFilterFunc(PT_C_N_REQ_GIVEUP_PVPLEAGUE_TEAM);
+
+	RegFilterFunc(PT_C_T_REQ_JOIN_LEAGUE_ROOM);
+	RegFilterFunc(PT_C_N_REQ_QUERY_PVPLEAGUE_TEAM);
+}
+
+void ReqProtocolFunc_Emporia()
+{
+	RegFilterFunc(PT_C_N_REQ_EMPORIA_STATUS_LIST);
+	RegFilterFunc(PT_C_M_REQ_JOIN_EMPORIA);
+	RegFilterFunc(PT_C_M_REG_JOIN_EMPORIA_MERCENARY);
+	RegFilterFunc(PT_C_M_REQ_EMPORIA_ADMINISTRATION);
+	RegFilterFunc(PT_C_M_REQ_USE_EMPORIA_FUNCTION);
+	RegFilterFunc(PT_C_M_REQ_GET_EMPORIA_ADMINISTRATOR);
+
+	RegFilterFunc(PT_C_M_REQ_SELECT_BATTLE_AREA);
+}
+
+void RegProtocolFunc_Item()
+{
+	RegFilterFunc(	PT_C_M_CS_REQ_LAST_RECVED_GIFT	);
+	RegFilterFunc(	PT_C_M_NFY_EXCHANGE_ITEM_ITEM	);
+	RegFilterFunc(	PT_C_M_NFY_EXCHANGE_ITEM_READY	);
+	RegFilterFunc(	PT_C_M_NOTI_DETECTION_HACKING	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_ACTION	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_CHANGE	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_DISCHARGE	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_DIVIDE	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_MAKING	);
+	RegFilterFunc(  PT_C_M_REQ_SOULSTONE_TRADE		);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_PLUS_UPGRADE	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_REPAIR	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_SMS	);
+	RegFilterFunc(	PT_C_M_REQ_MACRO_INPUT_PASSWORD	);
+	RegFilterFunc(	PT_C_M_REQ_MOVETOSUMMONER	);
+	RegFilterFunc(	PT_C_M_REQ_OXQUIZ_ANS_QUIZ	);
+	RegFilterFunc(	PT_C_M_REQ_OXQUIZ_ENTER	);
+	RegFilterFunc(	PT_C_M_REQ_PICKUPGBOX	);
+	RegFilterFunc(	PT_C_M_REQ_REGQUICKSLOT	);
+	RegFilterFunc(	PT_C_M_REQ_REGQUICKSLOT_VIEWPAGE	);
+	RegFilterFunc(	PT_C_M_REQ_STORE_ITEM_BUY	);
+	RegFilterFunc(	PT_C_M_REQ_STORE_ITEM_SELL	);
+	RegFilterFunc(	PT_C_M_TRY_TAKE_COUPON	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_ENTER	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_EXIT	);
+	RegFilterFunc(	PT_C_M_REQ_COUPON_EVENT_SYNC	);
+	RegFilterFunc(	PT_C_M_REQ_SYSTEM_INVENTORY_RECV	);
+	RegFilterFunc(	PT_C_M_REQ_SYSTEM_INVENTORY_REMOVE	);
+	RegFilterFunc(	PT_C_M_REQ_EXCHANGE_ITEM_REQ	);
+	RegFilterFunc(	PT_C_M_NFY_EXCHANGE_ITEM_ANS	);
+	RegFilterFunc(	PT_C_M_NFY_EXCHANGE_ITEM_QUIT	);
+	RegFilterFunc(	PT_C_M_REQ_VIEW_OTHER_EQUIP	);
+	RegFilterFunc(	PT_C_M_POST_REQ_MAIL_SEND	);
+	RegFilterFunc(	PT_C_M_POST_REQ_MAIL_RECV	);
+	RegFilterFunc(	PT_C_M_POST_REQ_MAIL_MODIFY	);
+	RegFilterFunc(	PT_C_M_POST_REQ_MAIL_MIN	);
+	RegFilterFunc(	PT_C_M_UM_REQ_ARTICLE_REG	);
+	RegFilterFunc(	PT_C_M_UM_REQ_ARTICLE_DEREG	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_QUERY	);
+	RegFilterFunc(	PT_C_M_UM_REQ_ARTICLE_BUY	);
+	RegFilterFunc(	PT_C_M_UM_REQ_DEALINGS_READ	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MINIMUM_COST_QUERY	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MY_MARKET_QUERY	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_OPEN	);
+	RegFilterFunc(	PT_C_M_UM_REQ_USE_MARKET_MODIFY_ITEM	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_ARTICLE_QUERY	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_MODIFY_STATE	);
+	RegFilterFunc(	PT_C_M_UM_REQ_MARKET_CLOSE	);
+	RegFilterFunc(	PT_C_M_CS_REQ_BUY_ARTICLE	);
+	RegFilterFunc(	PT_C_M_CS_REQ_SEL_ARTICLE	);
+	RegFilterFunc(	PT_C_M_CS_REQ_SEND_GIFT	);
+	RegFilterFunc(	PT_C_M_CS_REQ_ENTER_CASHSHOP	);
+	RegFilterFunc(	PT_C_M_CS_REQ_RECV_GIFT	);
+	RegFilterFunc(	PT_C_M_CS_REQ_MODIFY_VISABLE_RANK	);
+	RegFilterFunc(	PT_C_M_CS_REQ_EXIT_CASHSHOP	);
+	RegFilterFunc(	PT_C_M_CS_REQ_ADD_TIMELIMIT	);
+	RegFilterFunc(	PT_C_M_REQ_ACHIEVEMENT_TO_ITEM	);
+	RegFilterFunc(	PT_C_M_REQ_USER_MAP_MOVE	);
+	RegFilterFunc(	PT_C_M_REQ_MOVETOPARTYMEMBER	);
+	RegFilterFunc(	PT_C_M_REQ_MOVETOPARTYMASTERGROUND	);
+	RegFilterFunc(	PT_C_M_REQ_RENTALSAFE_EXTEND	);
+	RegFilterFunc(	PT_C_M_REQ_SUMMONPARTYMEMBER	);
+	RegFilterFunc(	PT_C_M_REQ_OXQUIZ_EXIT	);
+	RegFilterFunc(	PT_C_M_REMOVEITEM	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_RARITY_UPGRADE	);
+	RegFilterFunc(	PT_C_M_REQ_FIT2PRIMARYINV	);
+	RegFilterFunc(	PT_C_M_REQ_STORE_ITEM_LIST	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_ACTION_BIND	);
+	RegFilterFunc(	PT_C_M_REQ_ITEM_ACTION_UNBIND	);
+	RegFilterFunc(	PT_C_M_REQ_INVENTORY_EXTEND );
+
+	RegFilterFunc(	PT_C_M_REQ_CREATE_CHARACTER_CARD);
+	RegFilterFunc(	PT_C_M_REQ_MODIFY_CHARACTER_CARD);
+	RegFilterFunc(	PT_C_M_REQ_MODIFY_CHARACTER_CARD_COMMENT);
+	RegFilterFunc(	PT_C_M_REQ_RECOMMEND_CHARACTER);
+	RegFilterFunc(	PT_C_M_REQ_MODIFY_CHARACTER_CARD_STATE);
+	RegFilterFunc(	PT_C_M_REQ_SEARCH_MATCH_CARD);
+	RegFilterFunc(	PT_C_M_REQ_CHARACTER_CARD_INFO);
+
+	RegFilterFunc(	PT_C_M_REQ_REG_PORTAL);
+	RegFilterFunc(	PT_C_M_REQ_USE_PORTAL);
+
+	RegFilterFunc(	PT_C_M_REQ_GEN_SOCKET);
+	RegFilterFunc(	PT_C_M_REQ_SET_MONSTERCARD);
+	RegFilterFunc(  PT_C_M_REQ_REMOVE_MONSTERCARD);
+	RegFilterFunc(	PT_C_M_REQ_RESET_MONSTERCARD);
+	RegFilterFunc(	PT_C_M_REQ_EXTRACTION_MONSTERCARD);
+
+	RegFilterFunc(	PT_C_M_REQ_GEMSTOREINFO);
+	RegFilterFunc(	PT_C_M_REQ_GEMSTORE_BUY);
+
+	RegFilterFunc(	PT_C_M_REQ_SEAL_ITEM);
+
+	RegFilterFunc(	PT_C_M_UM_REQ_BEST_MARKET_LIST);
+
+	RegFilterFunc(	PT_C_M_REQ_ROLLBACK_ENCHANT);
+
+	RegFilterFunc(	PT_C_M_REQ_OPEN_LOCKED_CHEST);
+
+	RegFilterFunc(	PT_C_M_REQ_OPEN_GAMBLE);
+
+	RegFilterFunc(	PT_C_M_REQ_JOIN_EVENT);
+
+	RegFilterFunc(	PT_C_M_REQ_EVENT_LIST);
+
+	RegFilterFunc(	PT_C_M_REQ_CONVERTITEM);
+
+	RegFilterFunc(	PT_U_G_ABIL64_CHANGE);
+	RegFilterFunc(	PT_U_G_ABIL_CHANGE);
+
+	RegFilterFunc(	PT_C_M_REQ_EXIT_SAFE);
+
+	RegFilterFunc(	PT_C_M_REQ_EXPCARD_ACTIVATE);
+
+	RegFilterFunc(	PT_C_M_REQ_EXPCARD_DEACTIVATE);
+
+	RegFilterFunc(	PT_C_M_REQ_EXPCARD_USE);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_BUY);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_ENTER);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_EXIT);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_INFO);
+
+	RegFilterFunc(	PT_C_M_REQ_REALTYDEALER);
+
+	RegFilterFunc(	PT_C_M_REQ_MIXUPITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_HOMETOWN_ENTER);
+
+	RegFilterFunc(	PT_C_M_REQ_HOMETOWN_EXIT);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_EQUIP);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_UNEQUIP);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_VISITLOG_ADD);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_VISITLOG_LIST);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_VISITLOG_DELETE);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_USE_ITEM_EFFECT);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_VISITFLAG_MODIFY);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_AUCTION_REG);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_BIDDING);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_AUCTION_UNREG);
+
+	RegFilterFunc(	PT_C_M_REQ_HOMETOWN_INFO);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_PAY_TEX);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_POST_INVITATION_CARD);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_INVITATION_CARD);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_VISITORS);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_ITEM_MODIFY);
+
+	RegFilterFunc(	PT_C_M_REQ_HOME_USE_HOME_STYLEITEM);
+
+	RegFilterFunc(	PT_C_M_HOME_REQ_MAPMOVE);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_GAMBLEMACHINE);
+
+	RegFilterFunc(	PT_C_M_REQ_GAMBLEMACHINEINFO);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_GAMBLEMACHINE_CASH);
+
+	RegFilterFunc(	PT_C_M_REQ_STORE_CLOSE);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_REPAIR_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_ENCHANT_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_TELEPORT_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_REPAIR_MAX_DURATION_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_ACHIEVEMENT_RANK);
+
+	RegFilterFunc(	PT_C_M_REQ_HIDDEN_MOVE_CHECK);	
+
+	RegFilterFunc(	PT_C_M_REQ_NPC_TALK);
+
+	RegFilterFunc(	PT_C_M_REQ_START_SIDE_JOB);
+
+	RegFilterFunc(	PT_C_M_REQ_CANCEL_SIDE_JOB);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_GAMBLEMACHINE_READY);
+
+	RegFilterFunc(	PT_C_M_REQ_RELOAD_ROULETTE);
+
+	RegFilterFunc(	PT_C_M_REQ_ROULETTE_RESULT);
+
+	RegFilterFunc(	PT_C_M_REQ_INVENTORY_EXTENDIDX);
+
+	RegFilterFunc(	PT_C_M_REQ_ENTER_SIDE_JOB);
+
+	RegFilterFunc(	PT_C_M_CS_REQ_SIMPLE_ENTER_CASHSHOP);
+	RegFilterFunc(	PT_C_M_CS_REQ_SIMPLE_EXIT_CASHSHOP);
+	RegFilterFunc(	PT_C_M_CS_REQ_SIMPLE_BUY_ARTICLE);
+	RegFilterFunc(	PT_C_M_CS_REQ_SIMPLE_ADD_TIMELIMIT);
+
+	RegFilterFunc(	PT_C_M_REQ_SORT_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_REDICE_OPTION_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_REDICE_OPTION_PET);
+
+	RegFilterFunc(	PT_C_M_REQ_EXCHANGE_LOGCOUNTTOEXP);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_UPGRADE_OPTION_ITEM);
+
+	RegFilterFunc(	PT_C_M_REQ_BASIC_OPTION_AMP);
+
+	RegFilterFunc(	PT_C_M_REQ_USE_GAMBLEMACHINE_MIXUP_READY);
+	RegFilterFunc(	PT_C_M_REQ_RELOAD_ROULETTE_MIXUP);
+	RegFilterFunc(	PT_C_M_REQ_ROULETTE_MIXUP_RESULT);
+
+	RegFilterFunc(	PT_C_M_REQ_SKILL_EXTEND);
+
+	RegFilterFunc(	PT_C_M_REQ_RESET_ATTATCHED);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_SELL);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_ENTER);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_EXIT);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_MODIFY_ROOM);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_MODIFY_GUEST);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_ROOM_LIST);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_ROOM_CREATE);
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_SET_ROOMMASTER);
+
+	RegFilterFunc(	PT_C_M_REQ_ENCHANT_SHIFT);
+
+	RegFilterFunc(	PT_C_M_REQ_MYHOME_CHAT_KICK_GEUST);
+
+	RegFilterFunc(	PT_C_M_REQ_DEFGEMSTOREINFO);
+	RegFilterFunc(	PT_C_M_REQ_DEFGEMSTORE_BUY);
+	RegFilterFunc(	PT_C_M_REQ_COLLECT_ANTIQUE);
+	RegFilterFunc(	PT_C_M_REQ_EXCHANGE_GEMSTORE);
+
+	RegFilterFunc(  PT_C_M_REQ_OPEN_TREASURE_CHEST);
+	RegFilterFunc(  PT_C_M_REQ_TREASURE_CHEST_INFO);
+
+	RegFilterFunc(	PT_C_M_REQ_MANUFACTURE);
+	RegFilterFunc(	PT_C_M_REQ_BUNDLE_MANUFACTURE);
+}
+
+void RegProtocolFunc_C_M()
+{
+	RegFilterFunc(PT_C_M_ANS_SHOWDIALOG);
+	RegFilterFunc(PT_C_M_REQ_ACTION2);
+	RegFilterFunc(PT_C_M_REQ_ACTOR_SIMULATE);
+	RegFilterFunc(PT_C_M_REQ_CHAT);
+	RegFilterFunc(PT_C_M_REQ_CHAT_INPUTNOW);
+	RegFilterFunc(PT_C_M_REQ_DROPQUEST);
+	RegFilterFunc(PT_C_M_REQ_END_DAILYQUEST);
+	RegFilterFunc(PT_C_M_REQ_END_EVENT_SCRIPT);
+	RegFilterFunc(PT_C_M_REQ_ENTIRE_SYNC_TIME);
+	RegFilterFunc(PT_C_M_REQ_INTROQUEST);
+	RegFilterFunc(PT_C_M_REQ_PACTION);
+	RegFilterFunc(PT_C_M_REQ_RUN_EVENT_SCRIPT);
+	RegFilterFunc(PT_C_M_REQ_UPDATE_DIRECTION);
+	RegFilterFunc(PT_C_T_REQ_SAVE_OPTION);
+	RegFilterFunc(PT_C_N_REQ_GUILD_COMMAND);
+	RegFilterFunc(PT_C_N_REQ_CHAT_NOTICE);
+	RegFilterFunc(PT_C_M_REQ_FOLLOWING);
+	RegFilterFunc(PT_C_M_REQ_LEARN_SKILL);
+	RegFilterFunc(PT_C_M_REQ_BEGINCAST);
+	RegFilterFunc(PT_C_M_REQ_DELETEEFFECT);
+	RegFilterFunc(PT_C_O_REQ_GMCHAT);
+	RegFilterFunc(PT_C_GM_REQ_REMAINDER_PETITION);
+	RegFilterFunc(PT_C_GM_REQ_RECEIPT_PETITION);
+	RegFilterFunc(PT_C_M_CHECK_WORLDEVENT_CONDITION);
+	RegFilterFunc(PT_C_M_NFY_HACKSHIELD_CALLBACK);
+	RegFilterFunc(PT_C_M_REQ_DELETE_BUFFEFFECT);
+	RegFilterFunc(PT_C_M_REQ_EFFECT_ESCAPE_KEYDOWN);
+	RegFilterFunc(PT_C_M_REQ_EVENT_TW_USE_EFFECTQUEST);
+	RegFilterFunc(PT_C_M_REQ_RAGNAROK_EFFECT);
+	RegFilterFunc(PT_C_M_REQ_SHAREQUEST);
+	RegFilterFunc(PT_C_M_REQ_ACCEPT_SHAREQUEST);
+	RegFilterFunc(PT_C_M_REQ_COMPLETE_QUEST);
+	RegFilterFunc(PT_C_M_REQ_EVENT_QUEST_TALK);
+	RegFilterFunc(PT_C_M_REQ_WANT_JOIN_BS);
+	RegFilterFunc(PT_C_T_REQ_WANT_JOIN_BS_CHANNEL);
+	RegFilterFunc(PT_C_M_REQ_RANDOMQUEST_BUILD);
+	RegFilterFunc(PT_C_M_REQ_BEGIN_RANDOMQUEST);
+	RegFilterFunc(PT_C_M_REQ_END_RANDOMQUEST);
+	RegFilterFunc(PT_C_N_REQ_REALM_QUEST_INFO);
+	RegFilterFunc(PT_C_M_REQ_BS_EXIT);
+	RegFilterFunc(PT_C_M_REQ_RANDOMTACTICSQUEST_BUILD);
+	RegFilterFunc(PT_C_M_REQ_EXIT_SUPER_GROUND);
+	RegFilterFunc(PT_C_M_REQ_NPC_TALK_MAP_MOVE);
+
+	RegFilterFunc(PT_C_M_REQ_USE_EMOTION);
+	RegFilterFunc(PT_C_M_REQ_STATUS_CHANGE);
+
+	RegFilterFunc(PT_C_T_REQ_SAVE_SKILLSET);
+	RegFilterFunc(PT_C_M_REQ_CLIENT_CUSTOMDATA);
+
+	RegFilterFunc(PT_C_M_REQ_WANTEDQUEST_BUILD);
+	RegFilterFunc(PT_C_M_REQ_BEGIN_WANTEDQUEST);
+	RegFilterFunc(PT_C_M_REQ_END_WANTEDQUEST);
+
+	RegFilterFunc(PT_C_M_REQ_VENDOR_CREATE);
+	RegFilterFunc(PT_C_M_REQ_VENDOR_RENAME);
+	RegFilterFunc(PT_C_M_REQ_VENDOR_DELETE);
+	RegFilterFunc(PT_C_M_REQ_VENDOR_STATE);
+
+	RegFilterFunc(PT_C_M_UM_REQ_MY_VENDOR_QUERY);
+	RegFilterFunc(PT_C_M_UM_REQ_VENDOR_REFRESH_QUERY);
+	RegFilterFunc(PT_C_M_UM_REQ_VENDOR_ENTER);
+	RegFilterFunc(PT_C_M_UM_REQ_VENDOR_EXIT);
+
+	RegFilterFunc(PT_C_M_REQ_LEARN_JOBSKILL);
+	RegFilterFunc(PT_C_M_REQ_DELETE_JOBSKILL);
+
+	RegFilterFunc(PT_C_M_REQ_JOBSKILL3_CREATEITEM);
+
+	RegFilterFunc(PT_C_M_REQ_SOULTRANSFER_EXTRACT);
+	RegFilterFunc(PT_C_M_REQ_SOULTRANSFER_TRANSITION);
+	
+	RegFilterFunc(PT_C_M_REQ_ELEMENT_EXTRACT);
+	RegFilterFunc(PT_C_M_REQ_ELEMENT_GROUND_MOVE);
+
+	RegFilterFunc(PT_C_S_REQ_SAVE_CHARACTOR_SLOT);
+
+	RegFilterFunc(PT_C_N_REQ_CREATE_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_DISPERSE_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_INFO_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_JOIN_EXPEDITION);
+	RegFilterFunc(PT_C_N_ANS_JOIN_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_LEAVE_EXPEDITION);
+	RegFilterFunc(PT_C_M_REQ_LIST_USER_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_INVITE_EXPEDITION);
+	RegFilterFunc(PT_C_N_ANS_INVITE_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_TEAM_MOVE_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_CHANGEMASTER_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_RENAME_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_CHANGEOPTION_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_KICKOUT_EXPEDITION);
+	RegFilterFunc(PT_C_M_REQ_NPC_ENTER_EXPEDITION);
+	RegFilterFunc(PT_C_N_REQ_EXIT_EXPEDITION_COMPLETE);
+	RegFilterFunc(PT_C_N_REQ_LIST_EXPEDITION);
+	
+	RegFilterFunc(PT_C_M_REQ_ALARM_MINIMAP);
+	RegFilterFunc(PT_C_M_REQ_TRIGGER_ONENTER);
+	RegFilterFunc(PT_C_M_REQ_TRIGGER_ONLEAVE);
+
+	RegFilterFunc(PT_C_M_REQ_SCORE_TRIGGER_ONENTER);
+
+	RegFilterFunc(PT_C_N_REQ_TENDER_ITEM);
+	RegFilterFunc(PT_C_N_REQ_GIVEUP_TENDER);
+	RegFilterFunc(PT_C_M_REQ_REFRESH_NEED_ITEM_INFO);
+
+	RegFilterFunc(PT_C_L_TRY_LOGIN_CHANNELMAPMOVE);
+	
+	RegFilterFunc(PT_C_S_REQ_FIND_CHARACTOR_EXTEND_SLOT);
+
+	RegFilterFunc(PT_C_M_REQ_TOGGLSKILL_OFF);
+
+	RegFilterFunc(PT_C_M_REQ_OPEN_DEFENCE_WINDOW);
+	RegFilterFunc(PT_C_M_REQ_ENTER_DEFENCE);
+
+	RegFilterFunc(PT_C_M_REQ_CANCLE_DEFENCE);
+
+	RegFilterFunc(PT_C_M_REQ_POINT_COPY);
+	RegFilterFunc(PT_C_M_REQ_KILL_MONSTER_BY_ACCUMPOINT);
+
+	RegFilterFunc(PT_C_M_REQ_EXCHANGE_ACCUMPOINT_TO_STRATEGICPOINT);
+
+	RegFilterFunc(PT_C_M_REQ_REGIST_CHAT_BLOCK);
+	RegFilterFunc(PT_C_M_REQ_UNREGIST_CHAT_BLOCK);
+	RegFilterFunc(PT_C_M_REQ_CHANGE_CHAT_BLOCK_OPTION);
+
+	RegFilterFunc(PT_C_M_REQ_MOVE_EVENT_GROUND);
+
+	RegFilterFunc(PT_C_M_REQ_EVENT_PROGRESS_INFO);
+
+	RegFilterFunc(PT_C_M_REQ_INDUN_PARTY_LIST);
+	RegFilterFunc(PT_C_M_REQ_INDUN_PARTY_ENTER);
+	RegFilterFunc(PT_C_M_REQ_CHECK_CAN_KICK);
+
+	RegFilterFunc(PT_C_T_NFY_MAPMOVE_TO_PARTYMGR);
+
+	RegFilterFunc(PT_C_M_REQ_ENTER_CONSTELLATION);
+	RegFilterFunc(PT_C_M_REQ_ENTER_CONSTELLATION_BOSS);
+	RegFilterFunc(PT_C_M_REQ_CONSTELLATION_MISSION);
+	RegFilterFunc(PT_C_M_REQ_CONSTELLATION_PARTY_LIST);
+	RegFilterFunc(PT_C_M_REQ_CONSTELLATION_CASH_REWARD);
+	RegFilterFunc(PT_C_M_REQ_CONSTELLATION_CASH_REWARD_COMPLETE);
+	RegFilterFunc(PT_C_M_REQ_GET_DAILY);
+	RegFilterFunc(PT_C_M_REQ_BATTLE_PASS_QUEST);
+	RegFilterFunc(PT_C_M_REQ_LOCKEXP_TOGGEL);
+}
+
+void RegProtocolFunc_Event()
+{
+	RegFilterFunc( PT_C_M_REQ_LUCKYSTAR_ENTER);
+	RegFilterFunc( PT_C_M_REQ_LUCKYSTAR_CHANGE_STAR);
+}

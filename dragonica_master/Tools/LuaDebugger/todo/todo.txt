@@ -1,0 +1,69 @@
+
+- Lua Debugger를 프로그램에 설치 하는 방법.
+
+
+
+
+
+
+
+1. LIB 링크 시킨다. (cosmos/lib 에 있음)
+// stdafx.h
+//include
+#include "LuaDev/LuaDebuggerLIB.h"
+#ifdef _DEBUG
+#pragma comment(lib, "LuaDebuggerLIBd.lib")
+#else
+#pragma comment(lib, "LuaDebuggerLIB.lib")
+#endif
+
+
+
+
+2. 임베디드 할 곳에다가 다음 문장 추가
+// PgScripting.cpp에 추가
+// Global variable
+CPgLuaDebugger *g_pkScriptDebug;
+
+// Create
+g_pkScriptDebug = 0;
+
+// Initialize
+g_pkScriptDebug = new CPgLuaDebugger;
+g_pkScriptDebug->Initialize(
+	// 루아 스테이트
+	ms_pkState,
+	// 포트 (루아 디버거 전용 포트)
+	5001,
+	// char *IP (127.0.0.1 을 입력하면 한 컴퓨터에서 작동시킵니다.)
+	strIP.c_str(),
+	// 윈도우 핸들 (0 이면 브레이크 포인트 적중시 활성화 되지 않음.)
+	NiApplication::ms_pkApplication->GetWindowReference(),
+	// 함수포인터 (0 이면 수정시 Dofile을 하지 않음.)
+	DoFile(const char PgScripting::DoFile*)
+	);
+
+// Terminate
+if (g_pkScriptDebug)
+{
+	g_pkScriptDebug->Terminate();
+	delete g_pkScriptDebug;
+	g_pkScriptDebug = 0;
+}
+
+// Dofile
+// 루아 디버거에서 수정 했을 경우 즉시 적용 하게 Dofile 해주기.
+// 이 부분은 메인 루프에서 게임 루프 아래에 입력하면 됩니다.
+if (g_pkScriptDebug)
+	g_pkScriptDebug->Dofile();
+
+
+
+
+3. 클라이언트에서 실행 할 경우, 명령 인수 (Initialize() 할때 아래의 명령 인수를 참조함.)
+-luadebug 127.0.0.1,5001
+
+
+
+
+

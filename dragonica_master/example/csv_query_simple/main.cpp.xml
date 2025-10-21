@@ -1,0 +1,5 @@
+<QUERY TABLE="Z:/games/projectd/dragonica_master/example/csv_query_simple/TB_DefKek.csv">
+    <COLUMN NAME="f_Idx" TYPE="INT"/>
+    <COLUMN NAME="f_No" TYPE="BYTE"/>
+    <COLUMN NAME="f_Str" TYPE="STRING"/>
+</QUERY>

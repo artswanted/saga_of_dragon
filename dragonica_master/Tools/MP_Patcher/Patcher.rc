@@ -1,0 +1,186 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// �ѱ��� resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+MANIFEST_RESOURCE_ID    RT_MANIFEST             "MP_Patcher.exe.manifest"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef AMERICA
+#define PG_CLIENT_NAME "DragonSaga"
+#else
+#define PG_CLIENT_NAME "Dragonica"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 94, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Option"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Screen",IDC_STATIC,2,0,48,36,BS_CENTER
+    GROUPBOX        "Graphic",IDC_STATIC,52,0,40,36,BS_CENTER
+    GROUPBOX        "Sound",IDC_STATIC,2,36,90,58,BS_CENTER
+    PUSHBUTTON      "Apply",IDC_BTN_OK,2,97,90,15
+    PUSHBUTTON      "Cancel",IDC_BTN_CANCEL,2,118,90,15
+    CONTROL         "Window",IDC_RDO_WINDOW,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,12,38,8
+    CONTROL         "Full",IDC_RDO_FULL,"Button",BS_AUTORADIOBUTTON,7,23,28,8
+    CONTROL         "High",IDC_RDO_HIGH,"Button",BS_AUTORADIOBUTTON | WS_GROUP,58,12,27,8
+    CONTROL         "Low",IDC_RDO_LOW,"Button",BS_AUTORADIOBUTTON,58,23,26,8
+    LTEXT           "BGM",IDC_STATIC,10,46,26,8
+    LTEXT           "Effect",IDC_STATIC,10,71,26,8
+    CONTROL         "Mute",IDC_BGM_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,46,28,8
+    CONTROL         "Mute",IDC_SE_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,71,29,8
+    CONTROL         "",IDC_SD_BGM_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,55,78,12
+    CONTROL         "",IDC_SD_SE_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,79,78,12
+END
+
+IDD_PATCHPROC DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 92
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_PATCHPROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,3,6
+ PRODUCTVERSION 1,1,3,6
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", "Dragonica Mercy"
+            VALUE "FileDescription", PG_CLIENT_NAME " Patcher"
+            VALUE "FileVersion", "1.1.3.7"
+            VALUE "InternalName", "Patcher.exe"
+            VALUE "LegalCopyright", "(c) Dragonica Mercy.  All rights reserved."
+            VALUE "OriginalFilename", "Patcher.exe"
+            VALUE "ProductName", PG_CLIENT_NAME " Patcher"
+            VALUE "ProductVersion", "1.1.3.7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ProjectD.ico"
+#endif    // �ѱ��� resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

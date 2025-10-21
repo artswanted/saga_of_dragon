@@ -1,0 +1,1 @@
+xcopy /Y ..\release\QuestX2L.exe ..\..\..\ToolBin\QuestX2L\

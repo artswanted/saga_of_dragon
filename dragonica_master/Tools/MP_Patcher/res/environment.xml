@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="euc-en"?>
+<ENVIROMENT_SETTING>
+	<MAIN_BG IMG="BG.bmp"/>
+	<SUB_BG IMG="SUBBG.bmp"/>
+	<MSG X="25" Y="271"/>
+	<VERSION X="722" Y="619"/>
+	<PROGRASS1 IMG="progress1.bmp" X="49" Y="294"/>
+	<PROGRASS2 IMG="progress2.bmp" X="49" Y="309"/>	
+	<BROWSER X="364" Y="238" WIDTH="412" HEIGHT="240" LINK="file://D:\test.htm"/>	
+	<!-- Start TYPE ="1"-->
+	<BTN ID="1" X="626" Y="639" IMG="BtM02.bmp" STATE_CNT="4" TYPE="1"/>
+	<!-- Recovery TYPE ="2"-->
+	<BTN ID="2" X="540" Y="639" IMG="BtM01.bmp"  STATE_CNT="3" TYPE="3"/>
+	<!-- Exit TYPE ="3"-->
+	<BTN ID="3" X="713" Y="639" IMG="BtM03.bmp"  STATE_CNT="3" TYPE="2"/>
+	<!-- SubDlg Cancel Btn : TAIWAN Only -->
+	<BTN ID="4" X="439" Y="364" TEXT="Cancel" IMG="SUBCLOSE.bmp"  STATE_CNT="4" TYPE="4"/>
+	<!-- Option Button -->
+	<BTN ID="5" X="440" Y="364" TEXT="Cancel" IMG="SUBCLOSE.bmp"  STATE_CNT="4" TYPE="5"/>
+	
+	<!-- CustomBtn -->
+	<!-- Home -->
+	<BTN ID="6" X="348" Y="159" IMG="BtT01.bmp"  STATE_CNT="3" TYPE="0" LINK="https://gfb.gameflier.com/Billing/Login/login.asp"/>
+	<!-- Forum -->
+	<BTN ID="7" X="439" Y="159" IMG="BtT02.bmp" STATE_CNT="3" TYPE="0" LINK="http://ml.gameflier.com/news/news.asp?Type=B&ID=3&keepThis=true&TB_iframe=true&height=572&width=920&modal=true"/>
+	<!-- Home -->
+	<BTN ID="8" X="530" Y="159" IMG="BtT03.bmp"  STATE_CNT="3" TYPE="0" LINK="http://ml.gameflier.com"/>
+	<!-- Forum -->
+	<BTN ID="9" X="621" Y="159" IMG="BtT04.bmp" STATE_CNT="3" TYPE="0" LINK=""/>
+	<!--BTN ID="7" X="621" Y="159" IMG="BtForum.bmp" STATE_CNT="3" TYPE="0" LINK="https://www.mycard520.com.tw/MyCardMicropayment/MyCardAgreement.aspx?gameid=gf&AspxAutoDetectCookieSupport=1"/-->
+	<!-- Home -->
+	<BTN ID="10" X="276" Y="686" IMG="BtB01.bmp"  STATE_CNT="3" TYPE="0" LINK="http://forum.gamer.com.tw/B.php?bsn=11806"/>
+	<!-- Forum -->
+	<BTN ID="11" X="405" Y="686" IMG="BtB02.bmp" STATE_CNT="3" TYPE="0" LINK="http://www.gamebase.com.tw/forum/60067/thread/600670002"/>
+	<!-- Home -->
+	<BTN ID="12" X="543" Y="686" IMG="BtB03.bmp"  STATE_CNT="3" TYPE="0" LINK="http://www.glog.cc/blog/MLGLOG"/>
+	
+	<EDIT ID="15" X="100" Y="100" W="100" H="14" TYPE="0" BG_COLOR="0,0,0" TEXT_COLOR="255,255,255" LIMIT_LEN="10"/> 
+	<EDIT ID="16" X="100" Y="140" W="100" H="14" TYPE="1" BG_COLOR="0,255,0" TEXT_COLOR="255,0,255" LIMIT_LEN="5"/> 
+
+	<SITECONTROL1>
+		<SITECONTROL X="470" Y="565" W="180" BTN_COUNT="2">
+			<BTN ID="101" TYPE="0" STATE_CNT="3" IMG="taiwan1.bmp"/> 
+			<BTN ID="102" TYPE="0" STATE_CNT="3" IMG="taiwan2.bmp"/>
+			<PREV_BTN ID="9988" STATE_CNT="3" IMG="SITEPREV.bmp"/>
+			<NEXT_BTN ID="9989" STATE_CNT="3" IMG="SITENEXT.bmp"/>
+			<SITE IDX="0" NAME="" IP="211.232.145.177" PORT="11201"/>
+			<SITE IDX="1" NAME="" IP="211.232.145.177" PORT="11201"/>
+		</SITECONTROL>
+	</SITECONTROL1>
+	<SITECONTROL2>
+		<SITECONTROL X="470" Y="595" W="180" BTN_COUNT="2">
+			<BTN ID="201" TYPE="0" STATE_CNT="3" IMG="HKMA.bmp"/> 
+			<BTN ID="202" TYPE="0" STATE_CNT="3" IMG="cooperation.bmp"/>
+			<PREV_BTN ID="9998" STATE_CNT="3" IMG="SITEPREV.bmp"/>
+			<NEXT_BTN ID="9999" STATE_CNT="3" IMG="SITENEXT.bmp"/>
+			<SITE IDX="0" NAME="" IP="211.232.145.177" PORT="11201"/>
+			<SITE IDX="1" NAME="" IP="211.232.145.177" PORT="11201"/>
+		</SITECONTROL>	
+	</SITECONTROL2>
+</ENVIROMENT_SETTING>

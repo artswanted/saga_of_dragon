@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ERROR>
+	<ERRNO value ="0">
+		<BRIDGENO> 0 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="1">
+		<BRIDGENO> 17 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="2">
+		<BRIDGENO> 1 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="3">
+		<BRIDGENO> 9 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="4">
+		<BRIDGENO> 13 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="5">
+		<BRIDGENO> 8 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="6">
+		<BRIDGENO> 28 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="7">
+		<BRIDGENO> 6 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="8">
+		<BRIDGENO> 11 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="9">
+		<BRIDGENO> 44 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="10">
+		<BRIDGENO> 42 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="11">
+		<BRIDGENO> 45 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="13">
+		<BRIDGENO> 25 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="14">
+		<BRIDGENO> 46 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="17">
+		<BRIDGENO> 47 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="19">
+		<BRIDGENO> 37 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20">
+		<BRIDGENO> 41 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="21">
+		<BRIDGENO> 39 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="22">
+		<BRIDGENO> 40 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="23">
+		<BRIDGENO> 45 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="24">
+		<BRIDGENO> 48 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="25">
+		<BRIDGENO> 45 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="26">
+		<BRIDGENO> 5 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="27">
+		<BRIDGENO> 5 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="28">
+		<BRIDGENO> 4 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="29">
+		<BRIDGENO> 18 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30">
+		<BRIDGENO> 49 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="31">
+		<BRIDGENO> 48 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="32">
+		<BRIDGENO> 43 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="33">
+		<BRIDGENO> 7 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="34">
+		<BRIDGENO> 53 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="35">
+		<BRIDGENO> 54 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="36">
+		<BRIDGENO> 55 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="37">
+		<BRIDGENO> 56 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="38">
+		<BRIDGENO> 57 </BRIDGENO>
+	</ERRNO>
+
+	<ERRNO value ="10001">
+		<BRIDGENO> 2 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="10002">
+		<BRIDGENO> 1 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="10003">
+		<BRIDGENO> 54 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="10004">
+		<BRIDGENO> 55 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="10005">
+		<BRIDGENO> 3 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20002">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20004">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20005">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20006">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20007">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20008">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20009">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20010">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20011">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20012">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20013">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20014">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20015">
+		<BRIDGENO> 51 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20016">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20017">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20018">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20019">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20020">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20021">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20022">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20023">
+		<BRIDGENO> 52</BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="20024">
+		<BRIDGENO> 50 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30001">
+		<BRIDGENO> 2 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30003">
+		<BRIDGENO> 3 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30005">
+		<BRIDGENO> 16 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30007">
+		<BRIDGENO> 55 </BRIDGENO>
+	</ERRNO>
+	<ERRNO value ="30008">
+		<BRIDGENO> 54 </BRIDGENO>
+	</ERRNO>
+</ERROR>

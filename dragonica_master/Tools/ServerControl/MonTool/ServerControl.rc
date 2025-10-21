@@ -1,0 +1,381 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\ServerControl.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""afxres.rc""     // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServerControl.ico"
+IDI_STATE_O             ICON                    "res\\state_o.ico"
+IDI_STATE_X             ICON                    "res\\state_x.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ServerControl 정보"
+FONT 9, "MS 셸 대화 상자", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ServerControl 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_SERVERCONTROL_DIALOG DIALOGEX 0, 0, 198, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ServerControl"
+FONT 9, "굴림", 400, 0, 0x81
+BEGIN
+    EDITTEXT        IDC_EDIT1,45,6,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,45,26,90,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Connect",IDOK,141,6,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,141,25,50,16
+    LTEXT           "ID",IDC_STATIC,7,9,8,8
+    LTEXT           "Password",IDC_STATIC,7,25,34,8
+END
+
+IDD_GENERALDLG DIALOGEX 0, 0, 655, 399
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Server Control tool"
+MENU IDR_MENU2
+FONT 9, "굴림", 400, 0, 0x81
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    DEFPUSHBUTTON   "Refresh",IDC_BTN_REFRESH,9,335,96,20,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "On",IDC_BTN_ON,10,366,49,19,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "Off",IDC_BTN_OFF,63,366,40,19,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Kill",IDC_BTN_PROCESSKILL,113,363,38,18,WS_DISABLED,WS_EX_STATICEDGE
+    GROUPBOX        "On / Off",IDC_GROUP_SERVER_SWITCH,7,357,101,34
+    GROUPBOX        "Terminate",IDC_GROUP_TERMINATE,111,334,43,50
+    CONTROL         "",IDC_CONFIRM_KILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,128,345,9,16
+    CONTROL         "",IDD_TreeView,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,16,100,314
+    PUSHBUTTON      "ReSync",IDC_BTN_RESYNC,159,363,39,17,WS_DISABLED,WS_EX_STATICEDGE
+    GROUPBOX        "ReSync",IDC_GROUP_RESYNC,155,333,46,51
+    DEFPUSHBUTTON   "Change",IDC_BTN_PATCH2,208,351,41,29,0,WS_EX_STATICEDGE
+    GROUPBOX        "MaxUser",IDC_GROUP_MAX_USER,203,333,49,51
+    CONTROL         "",IDC_CONFIRM_RESYNC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,174,345,9,16
+    GROUPBOX        "Display",IDC_STATIC_VIEW,255,333,86,51
+    CONTROL         "Close",IDC_DISP_3,"Button",BS_AUTORADIOBUTTON,297,360,30,10
+    CONTROL         "Open",IDC_DISP_2,"Button",BS_AUTORADIOBUTTON,297,345,31,10
+    CONTROL         "All",IDC_DISP_1,"Button",BS_AUTORADIOBUTTON,260,345,24,10
+    CONTROL         "Alert",IDC_DISP_4,"Button",BS_AUTORADIOBUTTON,260,360,31,10
+    CONTROL         "",IDC_TAB4,"SysTabControl32",WS_GROUP,112,16,88,13
+    CONTROL         "",IDC_LIST_SERVER,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,112,29,534,301
+    LTEXT           "",IDC_TEXT_LIST_INFO,252,3,398,10
+    GROUPBOX        "Log Download Progress",IDC_GROUP_DOWNLOAD,109,334,333,60,NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",NOT WS_VISIBLE | 0x1,120,369,257,16
+    RTEXT           "",IDC_TEXT_FILE_NAME,123,343,257,14,SS_WORDELLIPSIS | NOT WS_VISIBLE
+    RTEXT           "",IDC_TEXT_FILE_SIZE,275,357,99,11,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "Download",IDC_BTN_ON3,384,340,49,44,NOT WS_VISIBLE,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "Expand",IDC_BTN_OFF3,14,2,40,14,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "Fold",IDC_BTN_OFF4,59,2,40,14,0,WS_EX_STATICEDGE
+    LTEXT           "",IDC_TEXT_FILE_COUNT,120,357,99,11,NOT WS_VISIBLE
+    DEFPUSHBUTTON   "SelectAll",IDC_BTN_SELECT_ALL,111,2,40,14,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "SelectRoot",IDC_BTN_SELECT_ROOT,152,2,43,14,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "SelectRealm",IDC_BTN_SELECT_REALM,196,2,49,14,0,WS_EX_STATICEDGE
+    GROUPBOX        "Process",IDC_GROUP_PROCESS,410,334,236,60,0,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_JOB_PROGRESS,"msctls_progress32",0x1,421,364,221,16
+    LTEXT           "",IDC_TEXT_PROCESS,421,348,220,13
+    DEFPUSHBUTTON   "BroadCast",IDC_BTN_NOTICE,354,351,41,29,0,WS_EX_STATICEDGE
+    GROUPBOX        "Notice",IDC_GROUP_MAX_USER2,349,333,49,51
+END
+
+IDD_SERVER_ON_DLG DIALOGEX 0, 0, 215, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,41,161,60,15
+    PUSHBUTTON      "취소",IDCANCEL,113,161,60,15
+    LTEXT           "",IDC_TEXT,7,17,201,8
+    LISTBOX         IDC_SERVER_ITEM,7,28,201,125,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Terminate",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,7,7,76,8
+END
+
+IDD_FILE_DOWN_DLG DIALOGEX 0, 0, 178, 239
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "File Download"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,219,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,219,50,14
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,16,197,65,12
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,96,197,65,12
+    LTEXT           "~",IDC_STATIC_PERIOD,86,198,9,13
+    CONTROL         "All File",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,17,183,36,10
+    CONTROL         "Date Select",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,61,183,53,10
+    GROUPBOX        "Option",IDC_GROUP_OPTION,7,172,164,47
+    GROUPBOX        "Info",IDC_STATIC,7,7,164,129
+    GROUPBOX        "Type",IDC_GROUP_TYPE,7,140,163,31
+    CONTROL         "Caution Log",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,153,54,10
+    CONTROL         "Hack Log",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,153,45,10
+    LISTBOX         IDC_LIST1,7,27,164,108,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_STATIC_TOTAL_INFO,7,16,164,11
+END
+
+IDD_CHANGE_MAX_USER_DLG DIALOGEX 0, 0, 167, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Max User"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,24,55,50,14
+    PUSHBUTTON      "취소",IDCANCEL,93,55,50,14
+    LTEXT           "Before :",IDC_STATIC,7,22,31,11
+    LTEXT           "After :",IDC_STATIC,89,23,31,11
+    LTEXT           "0",IDC_TEXT_BEFORE_COUNT,9,38,51,11
+    EDITTEXT        IDC_EDIT_MAX_USER,89,37,54,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_REALM,41,7,35,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CHANNEL,125,7,35,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Realm  :",IDC_STATIC,8,9,30,11
+    LTEXT           "Channel :",IDC_STATIC,87,8,32,11
+END
+
+IDD_NOTICE_DLG DIALOGEX 0, 0, 186, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Notice"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDOK,98,95,50,14
+    COMBOBOX        IDC_COMBO_REALM,41,7,35,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CHANNEL,125,7,35,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Realm  :",IDC_STATIC,8,9,30,11
+    LTEXT           "Channel :",IDC_STATIC,87,8,32,11
+    EDITTEXT        IDC_EDIT1,7,37,172,54,ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Content  :",IDC_STATIC,7,26,49,11
+    PUSHBUTTON      "Send",IDSEND,37,95,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,6,2,0
+ PRODUCTVERSION 8,10,21,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "Comments", "Dragonica™ Server Set : Server Manager"
+            VALUE "CompanyName", "Barunson Interactive, Inc."
+            VALUE "FileDescription", "Server Manager"
+            VALUE "FileVersion", "0, 6, 2, 0"
+            VALUE "InternalName", "ServerControl"
+            VALUE "LegalCopyright", "Copyright (C) 2007 Barunson Interactive, Inc."
+            VALUE "LegalTrademarks", "Dragonica™"
+            VALUE "OriginalFilename", "DragonicaMng.exe"
+            VALUE "PrivateBuild", "2008.03.24.01"
+            VALUE "ProductName", "Dragonica™"
+            VALUE "ProductVersion", "8, 10, 21, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SERVERCONTROL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_GENERALDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 650
+        VERTGUIDE, 7
+        VERTGUIDE, 484
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 394
+    END
+
+    IDD_SERVER_ON_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_FILE_DOWN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_CHANGE_MAX_USER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_NOTICE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_HDRUP               BITMAP                  "res\\hdrup.bmp"
+IDB_HDRDOWN             BITMAP                  "res\\hdrdown.bmp"
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "&Exit",                       ID_FILE_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "ServerControl 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\ServerControl.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "afxres.rc"     // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

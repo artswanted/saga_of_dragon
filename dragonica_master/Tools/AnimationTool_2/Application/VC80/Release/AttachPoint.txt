@@ -1,0 +1,9 @@
+char_root
+p_ef_center
+p_ef_head
+p_ef_heart
+p_ef_star
+p_pt_back
+p_pt_chest
+p_pt_hair
+p_pt_ride

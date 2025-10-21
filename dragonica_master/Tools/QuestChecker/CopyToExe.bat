@@ -1,0 +1,1 @@
+copy /Y .\Release\QuestChecker.exe ..\..\..\Dragonica_Exe\ToolBin\QuestChecker\.

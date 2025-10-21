@@ -1,0 +1,11 @@
+
+211.232.145.177,2433
+gamedesign
+DR2_Def
+TB_DefMonster
+TB_DefMapMonsterRegen_01
+D:\Work\ProjectD\Dragonica_Exe\SFreedom_Dev\Data\3_World\Map_Textures\
+E:\Works\2. ProjectD\Dragonica_Exe\SFreedom_Dev\Data\5_Effect\9_Tex\
+
+E:\MyWorks\2. ProjectD\Dragonica_Exe\SFreedom_Dev\XML
+

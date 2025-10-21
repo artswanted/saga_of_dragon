@@ -1,0 +1,1 @@
+MakeActionDataCode.exe ../Dragonica_Exe/SFreedom_Dev/XML/path.xml ../Dragonica_Exe/SFreedom_Dev/Script/skill.lua ./freedom/MobileSuit/PgActionXmlData.cpp

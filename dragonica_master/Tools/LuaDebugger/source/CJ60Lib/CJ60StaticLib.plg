@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CJ60StaticLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /out:"..\..\Library\release\CJ60StaticLib.lib" 
+.\StaticRelease\CJCaption.obj
+.\StaticRelease\CJControlBar.obj
+.\StaticRelease\CJDockBar.obj
+.\StaticRelease\CJDockContext.obj
+.\StaticRelease\CJExplorerBar.obj
+.\StaticRelease\CJFlatButton.obj
+.\StaticRelease\CJFlatComboBox.obj
+.\StaticRelease\CJFlatHeaderCtrl.obj
+.\StaticRelease\CJFrameWnd.obj
+.\StaticRelease\CJListCtrl.obj
+.\StaticRelease\CJListView.obj
+.\StaticRelease\CJMDIFrameWnd.obj
+.\StaticRelease\CJMiniDockFrameWnd.obj
+.\StaticRelease\CJOutlookBar.obj
+.\StaticRelease\CJPagerCtrl.obj
+.\StaticRelease\CJSearchEdit.obj
+.\StaticRelease\CJSizeDockBar.obj
+.\StaticRelease\CJTabctrlBar.obj
+.\StaticRelease\CJToolBar.obj
+.\StaticRelease\CoolBar.obj
+.\StaticRelease\CoolMenu.obj
+.\StaticRelease\FixTB.obj
+.\StaticRelease\FlatBar.obj
+.\StaticRelease\Globals.obj
+.\StaticRelease\hyperlink.obj
+.\StaticRelease\MenuBar.obj
+.\StaticRelease\ModulVer.obj
+.\StaticRelease\ShellPidl.obj
+.\StaticRelease\ShellTree.obj
+.\StaticRelease\SHFileInfo.obj
+.\StaticRelease\Subclass.obj
+.\Release\CJ60Lib.res
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP124.tmp"
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+CJ60StaticLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

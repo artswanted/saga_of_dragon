@@ -1,0 +1,576 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\Icons\scene_designer.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SceneDesigner_VC80</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Emergent.Gamebryo.SceneDesigner.GUI</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ProjectGuid>{0F831969-C008-4FD6-9256-C4792BCAC899}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug DLL|AnyCPU' ">
+    <OutputPath>..\Application\VC80\Debug DLL\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release DLL|AnyCPU' ">
+    <OutputPath>..\Application\VC80\Release DLL\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Shipping DLL|AnyCPU' ">
+    <OutputPath>..\Application\VC80\Shipping DLL\</OutputPath>
+    <DefineConstants>VC80</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="ListViewEx, Version=1.0.1753.24378, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>PluginCore\ListViewEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <Name>WeifenLuo.WinFormsUI.Docking</Name>
+      <HintPath>DockPanel\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <Content Include="Data\document_new.png" />
+    <Content Include="Data\document_open.png" />
+    <Content Include="Data\document_save.png" />
+    <Content Include="Data\Main.Menu.xml" />
+    <Content Include="Data\Main.OptBind.xml" />
+    <Content Include="Data\Main.Shortcuts.xml" />
+    <Content Include="Data\Main.Toolbar.xml" />
+    <Content Include="Data\options.png" />
+    <Content Include="Data\redo.png" />
+    <Content Include="Data\undo.png" />
+    <Content Include="Resources\Icons\properties_panel.ico" />
+    <Content Include="Resources\Icons\scene_designer.ico" />
+    <Content Include="Resources\Icons\selection_panel.ico" />
+    <Content Include="Resources\Icons\viewport_settings_panel.ico" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\00_select_all.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\01_select_none.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\02_invert_selection.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\03_hide_unhide.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\04_freeze_unfreeze.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\05_visible.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\06_hidden.png" />
+    <Content Include="Resources\Images\SelectionPanelToolbar\07_frozen.png" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommandPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnableThemingInScope.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Invalidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSceneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginCore\PluginManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\ServiceProviderImplementation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\CommandPanelAdapter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\CommandPanelServiceImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\MenuServiceImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\SettingsServiceImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\ShortCutServiceImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\StandardPlugin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\StandardServiceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\ToolBarServiceImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectG\AddNewWall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\AddNewWall.Designer.cs">
+      <DependentUpon>AddNewWall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\BreakObjectPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\BreakObjectPanel.Designer.cs">
+      <DependentUpon>BreakObjectPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\DecalPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\DecalPanel.Designer.cs">
+      <DependentUpon>DecalPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\ElevatorPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\ElevatorPanel.Designer.cs">
+      <DependentUpon>ElevatorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\FileChangeNotify.cs" />
+    <Compile Include="ProjectG\FogPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\FogPanel.Designer.cs">
+      <DependentUpon>FogPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MergePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MergePanel.Designer.cs">
+      <DependentUpon>MergePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MonsterArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MonsterArea.Designer.cs">
+      <DependentUpon>MonsterArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MonsterAreaDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MonsterAreaDialog.Designer.cs">
+      <DependentUpon>MonsterAreaDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MonsterBagForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MonsterBagForm.Designer.cs">
+      <DependentUpon>MonsterBagForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MonsterPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MonsterPanel.Designer.cs">
+      <DependentUpon>MonsterPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\MonsterPanelSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\MonsterPanelSetting.Designer.cs">
+      <DependentUpon>MonsterPanelSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\NotExistFilesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\NotExistFilesPanel.Designer.cs">
+      <DependentUpon>NotExistFilesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\NpcOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\NpcOptionForm.Designer.cs">
+      <DependentUpon>NpcOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\NpcPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\NpcPanel.Designer.cs">
+      <DependentUpon>NpcPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\NpcSayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\NpcSayForm.Designer.cs">
+      <DependentUpon>NpcSayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\PathPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\PathPanel.Designer.cs">
+      <DependentUpon>PathPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\qustion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\qustion.Designer.cs">
+      <DependentUpon>qustion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PluginCore\StandardServices\WinFormsUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProjectG\RainDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\RainDataDialog.Designer.cs">
+      <DependentUpon>RainDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\RainDataIgnoreListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\RainDataIgnoreListDialog.Designer.cs">
+      <DependentUpon>RainDataIgnoreListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\StonePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\StonePanel.Designer.cs">
+      <DependentUpon>StonePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\WayPointDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\WayPointDialog.Designer.cs">
+      <DependentUpon>WayPointDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\WayPointPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\WayPointPanel.Designer.cs">
+      <DependentUpon>WayPointPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\XmlManager.cs" />
+    <Compile Include="ProjectG\XmlPropertiesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\XmlPropertiesPanel.Designer.cs">
+      <DependentUpon>XmlPropertiesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\ZoneControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\ZoneControl.Designer.cs">
+      <DependentUpon>ZoneControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertiesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RenderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionSetNameDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionSetPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\TriggerOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\TriggerOptionForm.Designer.cs">
+      <DependentUpon>TriggerOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectG\TriggerPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectG\TriggerPanel.Designer.cs">
+      <DependentUpon>TriggerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\AssemblyUtilities.cs" />
+    <Compile Include="Utility\AssociateFileTypes.cs" />
+    <Compile Include="Utility\ComponentManagementUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\HelpManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\DirtyBitUtilities.cs" />
+    <Compile Include="Utility\EntityManagementUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\EventChecker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\MRUManager.cs" />
+    <Compile Include="Utility\OptionObjectDescriptor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\OptionPropertyDescriptor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\OptionUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\NativeWin32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\ConflictManagementUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\SceneManagementUtilities.cs" />
+    <Compile Include="Utility\TimedInvoker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewportSettingsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CommandPanel.resx">
+      <DependentUpon>CommandPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefaultDocking.config" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSceneForm.resx">
+      <DependentUpon>NewSceneForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDlg.resx">
+      <DependentUpon>OptionsDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PluginCore\StandardServices\CommandPanelAdapter.resx">
+      <DependentUpon>CommandPanelAdapter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\AddNewWall.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddNewWall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\BreakObjectPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BreakObjectPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\DecalPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DecalPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\ElevatorPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ElevatorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\FogPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FogPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MergePanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MergePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MonsterArea.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonsterArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MonsterAreaDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonsterAreaDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MonsterBagForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonsterBagForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MonsterPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonsterPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\MonsterPanelSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonsterPanelSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\NotExistFilesPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NotExistFilesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\NpcOptionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NpcOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\NpcPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NpcPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\NpcSayForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NpcSayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\PathPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PathPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\qustion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>qustion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\RainDataDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RainDataDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\RainDataIgnoreListDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RainDataIgnoreListDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\StonePanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StonePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\WayPointDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WayPointDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\WayPointPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WayPointPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\XmlPropertiesPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XmlPropertiesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\ZoneControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ZoneControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesPanel.resx">
+      <DependentUpon>PropertiesPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenderForm.resx">
+      <DependentUpon>RenderForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionPanel.resx">
+      <DependentUpon>SelectionPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionSetNameDlg.resx">
+      <DependentUpon>SelectionSetNameDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectionSetPanel.resx">
+      <DependentUpon>SelectionSetPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBoxForm.resx">
+      <DependentUpon>AboutBoxForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\TriggerOptionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriggerOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectG\TriggerPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriggerPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewportSettingsPanel.resx">
+      <DependentUpon>ViewportSettingsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SceneDesignerFramework\Win32\VC80\SceneDesignerFramework.vcproj">
+      <Project>{60C1FF6B-CF7E-4D83-BF7F-CA974EF1A753}</Project>
+      <Name>SceneDesignerFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>if not exist "$(TargetDir)\Data\" mkdir "$(TargetDir)\Data\"
+xcopy /D /F /I /R /Y "$(ProjectDir)\Data\*.*" "$(TargetDir)\Data\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

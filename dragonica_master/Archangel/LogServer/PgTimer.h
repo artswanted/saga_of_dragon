@@ -1,0 +1,6 @@
+#ifndef LOG_LOGSERVER_PGTIMER_H
+#define LOG_LOGSERVER_PGTIMER_H
+
+extern void CALLBACK Timer5s(DWORD dwUserData);
+
+#endif // LOG_LOGSERVER_PGTIMER_H

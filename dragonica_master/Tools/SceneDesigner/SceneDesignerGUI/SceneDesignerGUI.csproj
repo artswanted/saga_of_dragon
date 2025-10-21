@@ -1,0 +1,476 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{CB1623A1-AF2C-495D-B847-9637CB0F87F8}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ".\Resources\Icons\scene_designer.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "SceneDesigner"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = 'if not exist "$(TargetDir)\Data\" mkdir "$(TargetDir)\Data\"&#xd;&#xa;xcopy /D /F /I /R /Y "$(ProjectDir)\Data\*.*" "$(TargetDir)\Data\"'
+                RootNamespace = "Emergent.Gamebryo.SceneDesigner.GUI"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug DLL"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\Application\VC71\Debug DLL\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release DLL"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\Application\VC71\Release DLL\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+                <Reference
+                    Name = "SceneDesignerFramework"
+                    Project = "{60C1FF6B-CF7E-4D83-BF7F-CA974EF1A753}"
+                    Package = "{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "WeifenLuo.WinFormsUI.Docking"
+                    AssemblyName = "WeifenLuo.WinFormsUI.Docking"
+                    HintPath = "..\..\..\ThirdPartyCode\DockPanel\WinFormsUI\VC71\WeifenLuo.WinFormsUI.Docking.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AboutBoxForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AboutBoxForm.resx"
+                    DependentUpon = "AboutBoxForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CommandPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CommandPanel.resx"
+                    DependentUpon = "CommandPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DefaultDocking.config"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EnableThemingInScope.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Invalidator.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewSceneForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewSceneForm.resx"
+                    DependentUpon = "NewSceneForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OptionsDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OptionsDlg.resx"
+                    DependentUpon = "OptionsDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PropertiesPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PropertiesPanel.resx"
+                    DependentUpon = "PropertiesPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RenderForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RenderForm.resx"
+                    DependentUpon = "RenderForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SelectionPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectionPanel.resx"
+                    DependentUpon = "SelectionPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SelectionSetNameDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectionSetNameDlg.resx"
+                    DependentUpon = "SelectionSetNameDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SelectionSetPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectionSetPanel.resx"
+                    DependentUpon = "SelectionSetPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewportSettingsPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewportSettingsPanel.resx"
+                    DependentUpon = "ViewportSettingsPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Data\document_new.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\document_open.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\document_save.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\Main.Menu.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\Main.OptBind.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\Main.Shortcuts.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\Main.Toolbar.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\options.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\redo.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Data\undo.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PluginCore\PluginManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\ServiceProviderImplementation.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\CommandPanelAdapter.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\CommandPanelAdapter.resx"
+                    DependentUpon = "CommandPanelAdapter.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\CommandPanelServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\MenuServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\SettingsServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\ShortCutServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\StandardPlugin.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\StandardServiceBase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\ToolBarServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PluginCore\StandardServices\WinFormsUtility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Resources\Icons\properties_panel.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Icons\scene_designer.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Icons\selection_panel.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Icons\viewport_settings_panel.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\00_select_all.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\01_select_none.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\02_invert_selection.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\03_hide_unhide.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\04_freeze_unfreeze.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\05_visible.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\06_hidden.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\SelectionPanelToolbar\07_frozen.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Utility\AssemblyUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\AssociateFileTypes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\ComponentManagementUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\ConflictManagementUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\DirtyBitUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\EntityManagementUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\EventChecker.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\HelpManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\MRUManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\NativeWin32.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\OptionObjectDescriptor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\OptionPropertyDescriptor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\OptionUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\SceneManagementUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\TimedInvoker.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

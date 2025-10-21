@@ -1,0 +1,6 @@
+#ifndef CENTER_CENTERSERVER_CONTENTS_GLOBAL_H
+#define CENTER_CENTERSERVER_CONTENTS_GLOBAL_H
+
+extern bool GetDefString(int const iTextNo, std::wstring& rkOut);
+
+#endif // CENTER_CENTERSERVER_CONTENTS_GLOBAL_H

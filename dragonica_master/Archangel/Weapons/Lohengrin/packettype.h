@@ -1,0 +1,2571 @@
+#ifndef WEAPON_LOHENGRIN_PACKET_PACKETTYPE_H
+#define WEAPON_LOHENGRIN_PACKET_PACKETTYPE_H
+
+#include "BM/Stream.h"
+
+#define PACKET_ID_TYPE BM::Stream::DEF_STREAM_TYPE
+#define PACKET_DEF(name,num) PACKET_ID_TYPE const name = num;
+
+// Packet Encryption : 2007.07.13
+extern const wchar_t* PACKET_VERSION_C;
+extern const wchar_t* PACKET_VERSION_S;
+
+#include "PacketType2.h"
+#include "PacketType3.h"
+#include "PacketType4.h"
+#include "PacketType5.h"
+#include "PacketType6.h"
+
+unsigned short const PACKET_TYPE1_BASE = 1;
+unsigned short const PACKET_TYPE1_MAX = 19999;
+
+PACKET_DEF( PT_NONE,							0 )//! 0 �� ������ ����.
+PACKET_DEF( PT_A_S_REQ_GREETING,				1 )//All ����
+PACKET_DEF( PT_A_S_ANS_GREETING,				2 )
+PACKET_DEF( PT_C_L_TRY_LOGIN,					3 )
+PACKET_DEF( PT_L_IM_TRY_LOGIN,					4 )
+PACKET_DEF( PT_IM_L_TRY_LOGIN_RESULT,			5 )
+PACKET_DEF( PT_T_M_CONNECT_NEW_SWITCH,			6 )//���ο� ����ġ ������ �پ���.
+PACKET_DEF( PT_T_S_REQ_RESERVE_MEMBER,			7 )//����ġ���� ���� Reserve�ض� ���� REQ
+PACKET_DEF( PT_S_T_ANS_RESERVE_MEMBER,			8 )//����ġ���� ���� Reserve�ض� ���� ANS
+PACKET_DEF( PT_IM_L_NFY_RESERVED_SWITCH_INFO,	9 )//�α��μ����� ����ġ �Ҵ�Ȱ� �˸�
+PACKET_DEF( PT_L_C_NFY_RESERVED_SWITCH_INFO,	10 )//�α����� �������� ����
+
+PACKET_DEF( PT_C_S_TRY_ACCESS_SWITCH,			11 )
+PACKET_DEF( PT_S_C_TRY_ACCESS_SWITCH_RESULT,	12 )//�α����� �������� ����
+PACKET_DEF( PT_S_T_TRY_ACCESS_SWITCH_RESULT,	13 )//�α����� �������� ����
+
+PACKET_DEF( PT_S_T_NFY_RESERVED_MEMBER_LOGIN,	14 )//����ġ�� ���Ϳ� ����
+PACKET_DEF( PT_A_NFY_USER_DISCONNECT,			15 )//��� ���� ����. �������� �� ������ �����ش�.
+PACKET_DEF( PT_S_T_NFY_USER_CONNECT_SWITCH,		16 )//����ġ�� ���Ϳ� ����
+PACKET_DEF( PT_A_A_SERVER_SHUTDOWN,				17 )//Center/Switch ���� ���� ShutDown --> �������� �����ֱ�
+
+PACKET_DEF( PT_C_L_TRY_AUTH,					18 )//������ ID/PW �� ������ ��û.
+PACKET_DEF( PT_L_IM_TRY_AUTH,					19 )//�α����� ���Ϳ��� ID/PW �� ������ ��û.
+PACKET_DEF( PT_C_L_TRY_NC_AUTH,					20 )//
+PACKET_DEF( PT_L_IM_TRY_AUTH_AUTO,				21 )
+
+PACKET_DEF( PT_L_C_TRY_LOGIN_RESULT,			23 )//�α����� �������� ����
+PACKET_DEF( PT_M_T_ANS_RESERVE_PLAYER,			24 )//
+
+PACKET_DEF( PT_A_S_NFY_USER_DISCONNECT,			25 )// ����ġ���� �����������ٰ��� �䱸
+
+PACKET_DEF( PT_S_S_SEND_TO_SWITCH_USER,			26 )//�̰ɷ� ����ġ�� ������ ��
+PACKET_DEF( PT_C_C_SELF_DISCONNECT_SERVER,		27 )// �����κ��� ������ �������� ������ ������ �������� �˸������� ��Ŷ(�ƹ����� ���� ����)
+
+PACKET_DEF( PT_S_C_ANS_ACCESS_SWITCH_SECOND,	28 )// ACCESS�ϰ�, GameGuard���� ���� ���� üũ ���μ���
+PACKET_DEF( PT_C_S_TRY_ACCESS_SWITCH_SECOND,	29 )// ACCESS�ϰ�, GameGuard���� ���� ���� üũ ���μ���
+
+//PACKET_DEF( PT_R_L_NFY_SITE_STATE,				37 )//����Ʈ ���� ����
+PACKET_DEF( PT_T_C_ANS_RESERVE_PLAYER,			39 )//	39
+PACKET_DEF( PT_T_R_REQ_LOGINED_PLAYER,			40 )
+PACKET_DEF( PT_R_T_ANS_LOGINED_PLAYER,			41 )
+PACKET_DEF( PT_T_S_ANS_LOGINED_PLAYER,			42 )
+
+PACKET_DEF( PT_T_M_NFY_RELOAD_GAMEDATA,			48 )//���� ���ӵ����� ���ε�
+PACKET_DEF( PT_C_M_NFY_MAPLOADED,							49 )// Ŭ���̾�Ʈ�� �ʷε��� �������� �˸�... (49)
+
+// Controller Client -> Controller Server (Login)
+// SClientTryLogino
+PACKET_DEF( PT_CC_CS_REQ_LOGIN,					50 )
+// STryLoginResult
+PACKET_DEF( PT_CS_CC_RES_LOGIN,					51 )
+// SIMPLE_SVR_INFO kInfo
+// ADDR_INFO kCenterServerAddr
+PACKET_DEF( PT_CC_CS_REQ_STARTSERVER,			52 )
+// SIMPLE_SVR_INFO kInfo
+// int iErrorCode	(GetLastError())
+PACKET_DEF( PT_CS_CC_RES_STARTSERVER,			53 )
+// SIMPLE_SVR_INFO kInfo
+// ADDR_INFO kCenterServerAddr
+PACKET_DEF( PT_CC_CS_REQ_SERVERSTATUS,			54 )
+PACKET_DEF( PT_CS_T_REQ_SERVERSTATUS,			55 )	// MCtrl->Center : All Server Status request
+// short int sNum
+// {
+//		SIMPLE_SVR_INFO kInfo
+//		EServerStatus eStatus
+//		short int sUserCount
+// }
+PACKET_DEF( PT_CS_CC_RES_SERVERSTATUS,			56 )
+// short int sNum
+// {
+//		SIMPLE_SVR_INFO kInfo
+//		EServerStatus eStatus
+//		short int sUserCount
+// }
+PACKET_DEF(PT_T_CS_RES_SERVERSTATUS,			57 )
+
+PACKET_DEF(PT_M_C_NFY_MAPLOADED,				58 )// Ŭ���̾�Ʈ���� ��� �ʱ� ��ũ ��Ŷ ���������� �˸�... (50)
+
+PACKET_DEF(PT_M_C_NFY_AREA_DATA,				59 )//Area ���� ��Ŷ
+PACKET_DEF(PT_M_C_ADD_UNIT,						60 )//Unit ���� ��Ŷ
+
+PACKET_DEF(PT_N_T_REQ_DB_GROUND_LIST,			61 )// ������������ DB�� ��ε� �׶��帮��Ʈ�� ��û
+PACKET_DEF(PT_T_N_ANS_DB_GROUND_LIST,			62 )// 
+
+PACKET_DEF(PT_M_C_UNIT_POS_CHANGE,				63 )// 
+
+PACKET_DEF(PT_T_C_PLAYTIME_WARNING,				64 )// �ʹ� ���� �����ߴ�
+
+PACKET_DEF(PT_M_C_NFY_YOU_ARE_REVIVE,			65 )// ����ٲ�
+
+
+PACKET_DEF(PT_A_ENCRYPT_KEY,					70 )// ���� �� ��
+
+PACKET_DEF(PT_S_M_WRAPPED_USER_PACKET,			71 )//������Ŷ�� ������ ���� ��Ŷ.
+PACKET_DEF(PT_M_S_WRAPPED_USER_PACKET,			72 )//������Ŷ�� ������ ���� ��Ŷ. ���� ����ġ��
+
+PACKET_DEF(PT_S_C_REQ_GAME_GUARD_CHECK,			73 )//
+PACKET_DEF(PT_C_S_ANS_GAME_GUARD_CHECK,			74 )//
+
+PACKET_DEF(PT_M_C_UNIT_DIR_CHANGE,				75 )//
+
+// SYSTEMTIME kLocalTime
+// SYSTEMTIME kGameTime
+PACKET_DEF(PT_N_A_NFY_GAMETIME,		77)	// Synchronous GameTime sending
+
+PACKET_DEF(PT_T_C_NFY_OPTION,		78)	// Req Option
+PACKET_DEF(PT_C_T_REQ_SAVE_OPTION, 79)	// Req Save Client Info
+
+// SProjectileAction kInfo;
+// BYTE byTargetNum;
+// {
+//		BM::GUID kTargetGuid;
+// }
+PACKET_DEF(PT_C_M_REQ_PACTION, 80)	// �߻�ü ���� Req
+// SProjectileAction kInfo;
+// PgActionResult kResult;
+PACKET_DEF(PT_M_C_NFY_PACTION, 81)	// �߻�ü ���� Nfy
+
+PACKET_DEF(PT_M_T_REQ_SMS,		82)//
+PACKET_DEF(PT_T_A_EVENT_SYNC,	83)
+
+PACKET_DEF(PT_T_A_COUPON_EVENT_SYNC,84)// ���� �̺�Ʈ ������ ����ȭ
+PACKET_DEF(PT_C_M_REQ_COUPON_EVENT_SYNC,85)// ���� �̺�Ʈ ������ ����ȭ ��û
+PACKET_DEF(PT_M_C_ANS_COUPON_EVENT_SYNC,86)// ���� �̺�Ʈ ������ ����ȭ
+
+PACKET_DEF(PT_A_A_WRAPPER, 90)
+//PACKET_DEF(PT_IM_T_NFY_PRIME_CHANNEL, 91)
+PACKET_DEF(PT_T_T_SYNC_MISSION_RANK, 92)
+PACKET_DEF(PT_T_T_SYNC_MISSION_MGR, 93)
+PACKET_DEF(PT_A_A_WRAPPER_CHANNEL_EXCEPTME, 94)
+
+PACKET_DEF(PT_N_A_NFY_CHANNEL_ALIVE, 95)
+
+PACKET_DEF(PT_T_T_SYNC_REALMUSER_MGR, 96)
+PACKET_DEF(PT_T_T_SYNC_GUILD_MGR, 97)
+
+PACKET_DEF(PT_T_T_SEND_TO_SWITCH_USER, 98)
+PACKET_DEF(PT_T_T_SEND_TO_USER_MAP, 99)
+PACKET_DEF(PT_M_C_SYNC_GAMETIME, 100)
+PACKET_DEF(PT_A_N_REQ_GAMETIME, 101)
+PACKET_DEF(PT_C_M_REQ_SYNCTIME_CHECK, 102)//
+PACKET_DEF(PT_M_C_ANS_SYNCTIME_CHECK, 103)//
+PACKET_DEF(PT_N_M_RES_MISSIONUPDATE, 104)
+
+PACKET_DEF(PT_M_C_NFY_GROUNDOWNER_INFO,			105 )
+
+PACKET_DEF(PT_T_M_MISSION_RANK_RESULT_ITEM,		106 )
+PACKET_DEF(PT_M_C_MISSION_RANK_RESULT_ITEM,		107 )
+
+PACKET_DEF(PT_S_A_REQ_AUTOLOGIN,				110 )//
+PACKET_DEF(PT_IM_L_REQ_RESERVEMEMBER_LOGIN,		111 )//
+PACKET_DEF(PT_L_IM_ANS_RESERVEMEMBER_LOGIN,		113 )//
+PACKET_DEF(PT_IM_N_ANS_RESERVEMEMBER_LOGIN,		114 )//
+PACKET_DEF(PT_N_S_ANS_RESERVEMEMBER_LOGIN,		115 )//
+PACKET_DEF(PT_S_C_ANS_AUTOLOGIN,				116)
+PACKET_DEF(PT_C_L_AUTO_AUTH,					117 )
+
+PACKET_DEF(PT_M_T_USEITEM,118)
+PACKET_DEF(PT_M_C_NFY_USEITEM,119)
+
+PACKET_DEF(PT_M_N_REQ_GIVE_LIMITED_ITEM, 120)
+PACKET_DEF(PT_M_N_ANS_GIVE_LIMITED_ITEM, 121)
+
+PACKET_DEF( PT_IM_L_RELOAD_ACCEPT_IP,		130 )
+PACKET_DEF( PT_IM_L_ADD_ACCEPT_IP,			131 )
+
+
+PACKET_DEF( PT_M_C_REQ_HIDDEN_MOVE_CHECK,	150 )
+PACKET_DEF( PT_C_M_REQ_HIDDEN_MOVE_CHECK,	151 )
+PACKET_DEF( PT_M_C_NFY_HIDDEN_TIME_LIMIT,	152 )
+PACKET_DEF( PT_C_M_REQ_HIDDEN_ITEM,			153 )
+PACKET_DEF( PT_M_C_ANS_HIDDEN_ITEM,			154 )
+
+PACKET_DEF( PT_M_C_NFY_HIDDEN_REWORDITEM,		155 )
+PACKET_DEF( PT_C_M_REQ_HIDDEN_REWORDITEM,		156 )
+PACKET_DEF( PT_C_M_REQ_HIDDEN_GIVE_REWORDITEM,	157 )
+PACKET_DEF( PT_M_C_ANS_HIDDEN_GIVE_REWORDITEM,	158 )
+
+PACKET_DEF( PT_C_M_REQ_HIDDEN_ITEM_PACK,	159 )
+PACKET_DEF( PT_M_C_ANS_HIDDEN_ITEM_PACK,	160 )
+
+// ĳ�ü� ON_OFF SYNC
+PACKET_DEF(PT_N_M_NFY_SYNC_CASHSHOP_ON_OFF,		170)
+
+PACKET_DEF(PT_T_C_NFY_SKILLSET,			180)	// Req SkillSet
+PACKET_DEF(PT_C_T_REQ_SAVE_SKILLSET,	181)	// Req Save SkillSet Info
+PACKET_DEF(PT_M_C_ANS_SAVE_SKILLSET,	182)
+
+PACKET_DEF(PT_C_M_REQ_CLIENT_CUSTOMDATA,	190)	// Ŀ�����ϰ� �̿�Ǵ� ����Ÿ
+PACKET_DEF(PT_M_C_ANS_CLIENT_CUSTOMDATA,	191)
+
+PACKET_DEF( PT_M_N_NOTIFY_FIRST_LOGIN,		200)
+
+int const PT_NOTY_GEN_SYSTEM_INVENTORY_BASE = 200;
+
+PACKET_DEF(PT_I_N_NOTY_GEN_SYSTEM_INVENTORY,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+1)
+PACKET_DEF(PT_N_C_NOTY_GEN_SYSTEM_INVENTORY,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+2)
+PACKET_DEF(PT_C_M_REQ_SYSTEM_INVENTORY_RECV,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+3)
+PACKET_DEF(PT_M_C_ANS_SYSTEM_INVENTORY_RECV,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+4)
+PACKET_DEF(PT_C_M_REQ_SYSTEM_INVENTORY_REMOVE,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+5)
+PACKET_DEF(PT_M_C_ANS_SYSTEM_INVENTORY_REMOVE,PT_NOTY_GEN_SYSTEM_INVENTORY_BASE+6)
+
+PACKET_DEF( PT_A_N_REQ_RELOAD_DATA,				4000 )// ������ ���ε� �ض�.
+PACKET_DEF( PT_A_A_NFY_REFRESH_DB_DATA,			4001 )// ������ ���ε� �ض�.
+PACKET_DEF( PT_S_C_NFY_REFRESH_DATA,			4002 )// ������ ���ε� �ض�.
+
+PACKET_DEF( PT_C_S_REQ_CREATE_CHARACTER,		4097 )// ĳ���ͻ�����û
+PACKET_DEF( PT_S_C_ANS_CREATE_CHARACTER,		4112 )// ĳ���ͻ�������
+PACKET_DEF( PT_S_T_REQ_CREATE_CHARACTER,		4113 )
+PACKET_DEF( PT_T_S_ANS_CREATE_CHARACTER,		4114 )
+PACKET_DEF( PT_C_S_REQ_DELETE_CHARACTER,		4115 )// ĳ���ͻ�����û
+PACKET_DEF( PT_S_C_ANS_DELETE_CHARACTER,		4116 )// ĳ���ͻ�������
+PACKET_DEF( PT_S_T_REQ_DELETE_CHARACTER,		4117 )
+PACKET_DEF( PT_T_S_ANS_DELETE_CHARACTER,		4118 )
+
+PACKET_DEF( PT_S_C_ANS_CHARACTER_LIST,			4120 )	// 4120
+PACKET_DEF( PT_S_T_REQ_CHARACTER_LIST,			4121 )
+
+PACKET_DEF( PT_C_N_REQ_CHECK_CHARACTERNAME_OVERLAP,	4122 ) // ĳ���͸� �ߺ� �˻� ��û
+PACKET_DEF( PT_N_C_ANS_CHECK_CHARACTERNAME_OVERLAP,	4123 ) // ĳ���͸� �ߺ� �˻� ���
+
+PACKET_DEF( PT_C_N_REQ_REALM_MERGE,		4125 )
+PACKET_DEF( PT_N_C_ANS_REALM_MERGE,		4126 )
+
+PACKET_DEF( PT_C_S_REQ_SELECT_CHARACTER,		4128 )
+PACKET_DEF( PT_S_C_ANS_SELECT_CHARACTER,		4129 )
+
+PACKET_DEF( PT_S_T_REQ_SELECT_CHARACTER,		4130 )
+PACKET_DEF( PT_T_C_ANS_SELECT_CHARACTER,		4131 )//
+
+PACKET_DEF( PT_C_S_REQ_CHARACTER_LIST,			4132 )
+
+PACKET_DEF( PT_C_T_REQ_SELECT_CHARACTER_OTHERMAP,4133)//
+
+
+// int iSkillNum
+// bool bOn (true:On, false:Off)
+PACKET_DEF( PT_M_C_NFY_TOGGLSKILL_ON_OFF,		4134 )	// Toggle Skill�� On/Off ����Ȱ� �˸���
+PACKET_DEF( PT_M_C_NFY_COOLTIME_INIT,			4135 )	// Skill CoolTime �� �ʱ�ȭ �Ǿ���.
+
+PACKET_DEF( PT_T_IM_NFY_USERLIST,		4136 )
+PACKET_DEF( PT_C_M_REQ_TOGGLSKILL_OFF,		4137 )
+
+PACKET_DEF( PT_T_S_ANS_CHARACTER_LIST,			0x1120 )
+PACKET_DEF( PT_T_I_REQ_CHARACTER_EXTERIOR,		0x1121 )//������ ���� ������ �ްԵ�. -->��ü ��� ��
+PACKET_DEF( PT_I_T_ANS_CHARACTER_EXTERIOR,		0x1122 )
+
+PACKET_DEF( PT_T_I_REQ_RESERVE_CHARACTER_INV,	0x1123 )//�κ�����
+PACKET_DEF( PT_I_T_ANS_RESERVE_CHARACTER_INV,	0x1124 )
+
+
+PACKET_DEF( PT_T_I_REQ_CHARACTER_DISCONNECTED,	0x1125 )//������ ������. �κ��� �����ϵ��� �϶�.
+//PACKET_DEF( PT_T_I_ANS_CHARACTER_EXTERIOR,		0x1126 )
+PACKET_DEF( PT_T_S_REQ_CHARACTER_REMOVE,	4390)	// Switch Server�� User�� ������ �����϶�.
+
+
+//���̵� ��û -> ���� �Ǵ��� Ȯ��(��) -> �ش����� �׼� ���� ->���ͷ� ��û -> �̵��ϰ��� �ϴ¸ʿ� ���� �Ҵ� ��û -> ������ ���ͷ� �˷��� 
+//->���� ��û �ʿ� ��� �뺸 -> �����̵� ���ɰ� ���ÿ� ����ġ�� �ִ� ���� �� ���� ��ȣ ����
+PACKET_DEF( PT_C_M_REQ_TRIGGER_ACTION,			5001 )
+
+PACKET_DEF( PT_A_M_NFY_REQ_MAP_MOVE,			8223 )
+//PACKET_DEF( PT_C_A_REQ_MAP_MOVE_TIMEOUT,		8224 )//�� ���̵� ��û���ε� ������ ���� ��� �Ȱų�?(**���� �Ȼ�����ε� ���߿� ��� �� ���� �ִ�)
+PACKET_DEF( PT_M_C_NFY_MAPMOVE_COMPLETE,		8225 )// �� ĳ���Ͱ� ���̵��� �Ϸ� �߾�
+PACKET_DEF( PT_C_M_REQ_DEFAULT_MAP_MOVE,		8226 )// ���� �ʿ��� �⺻ �̵������� �̵���û
+
+PACKET_DEF( PT_M_C_ANS_MAP_MOVE,				8228 )//���̵� ������ ��.
+
+PACKET_DEF( PT_M_T_REQ_MAP_MOVE,				8229 )//���� ���ͷ� �̵��� �䱸
+PACKET_DEF( PT_M_T_REQ_MAP_MOVE_COME,			8230 )//���� ���ͷ� ������ ��������� �䱸
+PACKET_DEF( PT_T_M_ANS_MAP_MOVE_COME_FAILED,	8231 )//���� �������µ� ����
+PACKET_DEF( PT_T_M_REQ_MAP_MOVE,				8232 )//���̵� ������ ��.
+PACKET_DEF( PT_M_T_ANS_MAP_MOVE_RESULT,			8233 )//
+PACKET_DEF( PT_T_T_REQ_MAP_MOVE,				8234 )
+PACKET_DEF( PT_T_T_ANS_MAP_MOVE_RESULT,			8236 )
+
+PACKET_DEF( PT_M_N_REQ_MAP_MOVE_CHECK,			8237 )//���̵��� �������� üũ���ֶ�(PublicMap���� �̵��� ���� ���)
+PACKET_DEF( PT_N_M_ANS_MAP_MOVE_CHECK,			8238 )//���̵��� �������� �����̴�.
+PACKET_DEF( PT_N_C_ANS_MAP_MOVE_CHECK_FAILED,	8239 )// ���̵� �Ұ�.
+
+PACKET_DEF( PT_T_S_NFY_CHARACTER_MAP_MOVE,		8241 )//
+PACKET_DEF( PT_T_C_NFY_CHARACTER_MAP_MOVE,		8242 )//
+PACKET_DEF( PT_N_M_NFY_RECENT_MAP_MOVE,			8243 )// ����Ʈ������ ����������:������ġ�� �δ��� ��츸 ����
+PACKET_DEF( PT_C_M_NFY_RECENT_MAP_MOVE,			8244 )//
+PACKET_DEF( PT_M_S_NFY_CHARACTER_MAP_MOVE,		8245 )
+
+PACKET_DEF( PT_T_N_REQ_MAP_MOVE,				8246 )
+PACKET_DEF( PT_N_T_RES_MAP_MOVE,				8247 )
+PACKET_DEF( PT_T_T_REQ_RECENT_MAP_MOVE,			8248 )
+
+PACKET_DEF( PT_M_C_NFY_MAP_MOVING,					8250 )// Ŭ���̾�Ʈ���� ���̵� ��û ���̶�� �뺸.
+PACKET_DEF( PT_T_C_NFY_MAP_MOVING_CHANNEL_CHANGE,	8251 )
+
+PACKET_DEF( PT_T_M_REQ_MAP_MOVE_TARGET,			8255 )
+PACKET_DEF( PT_M_T_ANS_MAP_MOVE_TARGET_FAILED,	8256 )
+PACKET_DEF( PT_T_C_ANS_MAP_MOVE_TARGET_FAILED,	8257 )
+
+PACKET_DEF( PT_C_M_REQ_TRANSTOWER,				8258 )
+PACKET_DEF( PT_C_M_REQ_TRANSTOWER_BY_PET,		8259 )
+
+// SDmgInfo
+PACKET_DEF( PT_M_C_NFY_DAMAGE_RESULT,			0x3025 )//���� ����� ����
+PACKET_DEF( PT_M_C_NFY_GREETING,				0x3026 )//���� ��� �˷���.
+
+PACKET_DEF( PT_M_C_NFY_ADD_CHARACTER,			12329 )//	12329
+
+PACKET_DEF( PT_M_C_NFY_REMOVE_ALL_MONSTER,		12333 )
+PACKET_DEF( PT_M_C_NFY_REMOVE_ALL_OBJECT,		12334 )
+
+PACKET_DEF( PT_M_C_NFY_REMOVE_CHARACTER_TEST,	12335 )//
+PACKET_DEF( PT_M_C_NFY_REMOVE_CHARACTER,		12336 )//
+
+// BYTE byIsBeginO
+// BYTE byAction
+// POINT3 ptNowPos
+//PACKET_DEF( PT_C_M_SYNC_MOVE,		12337)
+
+// GUID kPlayer
+// BYTE byAction
+// POINT3 ptNowPos
+PACKET_DEF( PT_M_C_SYNC_MOVE_BEGIN,		12338)
+
+// SReqMove kMoveInfo
+// int iActionTerm
+// int iActionID
+// int iActionInstanceID (Client-Generated sequence number)
+// BYTE bActionParam (Action Status 0/Casting/Maintenance)
+// BYTE byTargetNum
+// {
+//		BM::GUID kTargetGuid
+//		BYTE byTargetParam (Collision sphere id)
+// }
+//PACKET_DEF( PT_C_M_REQ_ACTION,					0x3031 )//	12337
+// SReqMove kMoveInfo
+// int iActionTerm
+// int iActionID
+// int iActionInstanceID (Client-Generated sequence number)
+// BYTE bActionParam (Action Status 0/Casting/Maintenance)
+// BYTE byTargetNum
+// {
+//		BM::GUID kTargetGuid
+//		BYTE byTargetParam
+// }
+//PACKET_DEF( PT_M_C_NFY_ACTION,					12338 )//���� �̵��Ѱ�.
+
+PACKET_DEF( PT_M_C_NFY_ADD_MONSTER,				12339 )//���Ͱ� �߰���.
+
+// SReqDmg -- �÷��̾ �����ΰ��� �ƴ�!
+PACKET_DEF( PT_C_M_REQ_DAMAGE,					0x3034 )//������ �䱸
+// SReqDmg -- �÷��̾ �����ΰ����� �¾Ҵ�!
+PACKET_DEF( PT_C_M_REQ_DAMAGED,					0x3035 )//������ �䱸
+
+PACKET_DEF( PT_M_C_NFY_WEAPON_CHANGE,			0x303A )//12346
+
+PACKET_DEF( PT_C_M_REQ_ITEM_CHANGE,				0x303B )//12347
+PACKET_DEF( PT_M_C_NFY_ITEM_CHANGE,				0x303C )//12348
+
+
+// SPlayerDBData3
+PACKET_DEF( PT_M_T_REQ_SAVE_CHARACTER,			0x303D ) // Request Save Character
+
+
+// SDmgInfo
+PACKET_DEF( PT_M_C_NFY_ATTACKDAMAGE,			0x3041 )// Monster�� Player�� ������ (12353)
+
+// int iBosCount
+// BM::GUID kBoxGuid;
+// BM::GUID kOwnerGuid;
+// POINT3 pt3BoxPos;
+// DWORD dwItemID;
+// BYTE byMagic;	// 0:Normal, 1:Magic
+// BYTE byDetail;	// SEnchantInfo.dwDetail value
+PACKET_DEF( PT_M_C_NFY_DROPPEDBOX,				0x3042 ) // Item�� �ٴڿ� ��������..(12354)
+PACKET_DEF( PT_M_C_NFY_RM_DROPPEDBOX,			0x3043 ) // Disapeared GroundItem (12355)
+
+// QUICK_INV_INFO& rkCasterPos
+// int iTargetIndex
+PACKET_DEF( PT_C_M_REQ_REGQUICKSLOT,			0x3044 ) // Registeration of Quick Slot
+
+// QUICK_INV_INFO& rkCasterPos
+// int iTargetIndex
+PACKET_DEF( PT_M_C_NFY_QUICKSLOTCHANGE,			0x3045 ) // Quick Slot changed (12357)
+
+PACKET_DEF( PT_M_C_NFY_CHANGE_MONEY,			0x3046 ) //Changed Money + Cause (12358)
+PACKET_DEF( PT_C_M_REQ_REGQUICKSLOT_VIEWPAGE,	0x3047 ) // Registeration of Quick Slot
+PACKET_DEF( PT_M_C_NFY_CHANGE_EXPERIENCE,		0x3048 ) //Changed Experience    (12360)
+
+PACKET_DEF( PT_M_C_NFY_CHANGE_COMBO_COUNT,		12361 )
+
+
+//	BM::GUID kBoxGuid
+//	BYTE byItemNum;
+//	{
+//		SItemPos sFrom
+//		SItemPos sTo
+//	}
+//PACKET_DEF( PT_C_M_REQ_PICKUPITEM,			12364)	// Pickup Item request
+
+//	SGroundBoxInfo kGBoxInfo
+//	if (kGBoxInfo.eRet == GITEM_ANS_OK)
+//	{
+//		byte byItemNum
+//		{
+//			SItemPos sFrom
+//			SItemPos sTo
+//		}
+//	}
+
+// EPlayer_Follow_Mode eReqCode
+// BM::GUID kHeadGuid
+PACKET_DEF( PT_C_M_REQ_FOLLOWING,	12365 )	// ���󰡱� ��� ��û
+// EPlayer_Follow_Mode eReqCode
+// BM::GUID kHeadGuid
+// BM::GUID kFollowerGuid
+PACKET_DEF( PT_M_C_RES_FOLLOWING,	12366 )	// ���󰡱� ��� ����
+
+PACKET_DEF( PT_M_C_RES_PICKUPITEM,			12367)	// Pickup Item Response
+// BM::GUID kBoxGuid
+PACKET_DEF( PT_C_M_REQ_PICKUPGBOX,			12368)	// Pickup GroundBox request
+PACKET_DEF( PT_M_C_ANS_PICKUPGBOX,			12369)	// Pickup GroundBox request
+
+// Send ping to user
+// DWORD dwServerTime
+PACKET_DEF( PT_S_C_REQ_PING,				12370)
+
+// Respond ping
+//	DWORD dwServerTime
+//	POINT3 ptCurrentPos
+PACKET_DEF( PT_C_S_NFY_UNIT_POS,				12371)//�� ���� ��ǥ����
+
+PACKET_DEF( PT_M_C_NFY_CHANGE_CP,			12372 ) //Changed cp + Cause
+
+PACKET_DEF( PT_C_S_ANS_ONLY_PING,			12373)//�ܼ� �� üũ��
+
+PACKET_DEF( PT_M_C_REQ_REMOVE_ALLMONSTER,	12402 ) // ��� ���͸� �����϶�...
+// SItemPos sFrom
+PACKET_DEF( PT_C_M_REMOVEITEM,				12403 )	// �������� �����϶�.//
+
+// POINT3 pot3Now
+PACKET_DEF( PT_C_M_NFY_POSITION,			12416 ) // Ŭ���̾�Ʈ���� �ֱ������� �ڽ��� ��ġ�� �˷��� (0x3080)
+
+// BM::GUID kPlayerGuid
+// int iItemNo
+PACKET_DEF( PT_M_C_NFY_EQUIPCHANGE,			12417 )	// �ٸ� �÷��̾��� Equipment�� ����Ǿ���
+
+// std::string strActionID
+// byte bySuccess (1:Success, 91:MP����, 92:CP����)
+// int iCurrentMP
+// int iCurrentCP
+PACKET_DEF( PT_M_C_ANS_SKILL,				12418 ) // Skill ��뿡 ���� ����
+
+// BM::GUID PlayerGuid
+//	BYTE byNum
+//	{
+//		WORD wAbileType;
+//		int iNewValue;
+//	}
+PACKET_DEF( PT_M_C_NFY_STATE_CHANGE2,		12419 ) // Unit Abile�� ���� �˸���(�������� Abile ����)
+
+// int iSetType
+//PACKET_DEF( PT_C_M_REQ_GIVEITEMSET,			12420 )	// ������ ��Ʈ�� �޶� (�ӽ�....�����ۼ�Ʈ�� �����ϱ� ���� �ڵ�)
+
+// int iItemNum
+// {
+//		SItemPos sTargetPos
+//		PgBase_Item sItem
+//	}
+PACKET_DEF( PT_M_C_ANS_GIVEITEMSET,			12421 )
+
+
+PACKET_DEF( PT_C_M_REQ_ITEM_ACTION,			12422 )
+//PACKET_DEF( PT_C_M_NFT_ITEM_STATE,			12423 )//������ ���� �ٲ�
+
+
+// int iNpcNum
+// {
+//		SNpcInfo sInfo;
+// }
+PACKET_DEF( PT_M_C_NFY_ADD_NPC,				12424 ) // NPC �߰�
+
+PACKET_DEF( PT_M_C_NFY_ABIL_SYNC,			12425 ) // Unit Abil ��ũ.
+
+/*
+// BM::GUID CharacterGuid
+// int iInfoNum
+// {
+//		SUserQuestState sQuest
+// }
+PACKET_DEF( PT_C_M_NFY_EXTRAINFO,			12425 ) // Character Extra information
+*/
+
+//PACKET_DEF( PT_M_C_NFY_MYINFO,				12426 ) // Sending My Character information
+
+// short int sType	(Quest or trigger)
+// BM::GUID guidObject (Trigger or NPC)
+// short int sQuestID (0:all information request)
+//PACKET_DEF( PT_C_M_REQ_QUEST,				12427 ) // Request Trigger information (Quest, trigger etc)
+
+// short int sType
+// BM::GUID guidObject
+// short int sNum
+// {
+//		SQuestSimple info
+// }
+PACKET_DEF( PT_M_C_ANS_NPC_QUEST,			12428 )
+
+//PACKET_DEF( PT_C_M_REQ_CANCEL_QUEST_TALK, 12429 ) // ����Ʈ ��ȭ�� ��� �ߴ�
+
+PACKET_DEF( PT_M_C_SKILL_STATE_CHANGE,		12430 ) // MySkillState
+
+// short int sType	(Quest or trigger)	(OBJECT_TYPE_XXXX value)
+// BM::GUID guidObject (Trigger or NPC)
+// int iAction (Skillnum or TRIGGER_ACTION_XXXX value)
+PACKET_DEF( PT_C_M_REQ_TRIGGER,			12431 ) // Request Trigger information (Quest, trigger etc)
+
+// short int sType (DIALOG_TYPE_XXXX value)
+// short int sQuestID
+// short int sDialogID
+PACKET_DEF( PT_M_C_SHOWDIALOG,			12432 )
+
+// short int sNum
+// {
+//		BYTE byType (ADD, DELETE, MODIFY)
+//		SItemPos kPos
+//		PgBase_Item kItem
+// }
+//PACKET_DEF( PT_M_C_ITEMCHANGED,			12433 )
+
+// short int sQuestID
+// short int sType	(Quest or trigger)	(OBJECT_TYPE_XXXX value)
+// BM::GUID guidObject (Trigger or NPC)
+PACKET_DEF( PT_C_M_REQ_INTROQUEST,		12435 )
+
+// short int sQuestID
+// short int sDialogID
+// int iAns[5] 
+//	iAns[0] (�����ȣ)
+//	iAns[1-4] (��������۹�ȣ)
+PACKET_DEF( PT_C_M_ANS_SHOWDIALOG,		12436 )
+PACKET_DEF( PT_C_M_REQ_DROPQUEST,		12438 )
+
+PACKET_DEF( PT_M_C_NFY_USERABIL64,		12440 )
+PACKET_DEF( PT_M_C_NFY_STATE_CHANGE64,	12441 )
+
+// Damage
+PACKET_DEF( PT_M_C_NFY_CHANGE_MISSIONSCORE_COUNT,	12442 )
+PACKET_DEF( PT_M_C_MISSION_ABILITY_DEMAGE, 12443 )
+
+
+// Fran Exp
+PACKET_DEF( PT_C_M_REQ_REWORD_FRAN_EXP,		12452 )
+PACKET_DEF( PT_M_C_ANS_REWORD_FRAN_EXP,		12453 )
+
+PACKET_DEF( PT_T_N_NFY_USER_ENTER_GROUND,	12504 )// �δ� -> �ʵ�, �ʵ� -> �δ�
+PACKET_DEF( PT_T_IM_NFY_USER_LOGOUT,		12505 )// �α׾ƿ� �ߴ�.
+PACKET_DEF( PT_L_IM_WAITING_USER_CLEAR,		12507 )
+PACKET_DEF(PT_IM_N_REQ_RESERVE_SWITCH_MEMBER,12508 )
+PACKET_DEF( PT_L_IM_RESERVED_3,				12509 )
+PACKET_DEF( PT_T_IM_REQ_SWITCH_USER_ADD,	12510 )
+PACKET_DEF( PT_IM_T_ANS_SWITCH_USER_ADD,	12511 )
+PACKET_DEF( PT_T_IM_ANS_RESERVE_SWITCH_MEMBER_FAILED, 12514 )
+//PACKET_DEF( ,		12514 )//���� ������.
+PACKET_DEF( PT_T_IM_NFY_RESERVED_SWITCH_INFO,	12515 )//�α��μ����� ����ġ �Ҵ�Ȱ� �˸�
+
+//PACKET_DEF( PT_T_IM_REQ_CORRECT_CHANNEL, 12520 )
+PACKET_DEF( PT_T_IM_REQ_CHANNEL_INFORMATION, 12516)// ä�� ������ �ּ���.
+PACKET_DEF( PT_IM_T_ANS_CHANNEL_INFORMATION, 12517)// ä�� ���� ������.
+PACKET_DEF( PT_C_T_REQ_CHANNLE_INFORMATION,	12518)// ä�������� �ּ���.
+PACKET_DEF( PT_T_C_ANS_CHANNEL_INFORMATION, 12519)// ä������ ������.
+
+PACKET_DEF( PT_M_C_NFY_COMMON_MESSAGE,		12553 )//
+
+PACKET_DEF( PT_C_M_REQ_SHAREQUEST,			12554 )
+PACKET_DEF( PT_M_C_ANS_SHAREQUEST,			12555 )
+PACKET_DEF( PT_C_M_REQ_ACCEPT_SHAREQUEST,	12556 )
+PACKET_DEF( PT_M_C_ANS_ACCEPT_SHAREQUEST,	12557 )
+PACKET_DEF( PT_C_M_REQ_COMPLETE_QUEST,		12558 )
+/*PACKET_DEF( PT_M_C_ANS_COMPLETE_QUEST,		12559 )*/
+
+// int iNewSkillID
+PACKET_DEF( PT_C_M_REQ_LEARN_SKILL, 12560 )	// ���ο� ��ų�� ���� �ʹ�
+// int iNewSkill
+// int iRes
+//	=>	1 : success
+//		1 : success
+//		101 : Cannot find skill
+//		102 : learn lower level skill (Parent skill)
+//		103 : SkillPoint limit
+//		104 : Level limit
+//		105 : Class limit
+//		106 : NeedSkill limit
+//		107 : Main skill limit
+//		200 : system error
+// short int sRemainSkillPoint
+PACKET_DEF( PT_M_C_RES_LEARN_SKILL, 12561 ) // ���ο� ��ų ���濡 ���� ����
+
+// int iActionID
+// int iActionInstanceID (Client-Generated sequence number)
+// short int sErrorCode
+//		1 : OK
+//		101 : Cannot find SkillDef
+//		102 : Not Learned skill
+//		103 : Weapon limit error
+//		104 : Player State limit error
+//		105 : Casting failure
+//		201 : need hp error
+//		202 : need mp error
+//PACKET_DEF( PT_M_C_RES_ACTION, 12562 )	// PT_C_M_REQ_ACTION�� ���� ������
+
+// HP���� ����� ���� Ŭ���̾�Ʈ���� ȿ���� �����ְ� ������ ������.
+// BM::GUID rkGuid (Abil�� ����� Unit)
+// WORD wAbil
+// int iNewValue
+// BM::GUID rkCasterGuid (Effect�� �� Caster)
+// int iEffectNo (Abil�� �ٲ�� �� EffectNum)
+// int iDelta (iNewValue - GetAbil(wAbil) �ؼ� ���� ��ȭ��)
+PACKET_DEF( PT_M_C_NFY_ABILCHANGED, 12563 )
+
+// short int sNum
+// {
+//		BM::GUID kGuid
+//		int iObjectType
+//		float fQuaternion[4]
+//		POINT3 kTranslate;
+//		float fScale;
+// }
+
+
+PACKET_DEF( PT_N_T_REQ_RESERVE_SWITCH_MEMBER,			12570 )
+
+/*
+// int iSkillNo
+PACKET_DEF( PT_C_M_REQ_BEGINCHARGE,			12570 )
+// int iSkillNo
+// short int sErrorCode
+PACKET_DEF( PT_M_C_RES_BEGINCHARGE,			12571 )
+// BM::GUID kCharacter
+// int iSkillNo
+PACKET_DEF( PT_M_C_NFY_BEGINCHARGE,			12572 )
+*/
+
+// int iSkillNo
+PACKET_DEF( PT_C_M_REQ_BEGINCAST,			12573 )
+// int iSkillNo
+// short int sErrorCode
+PACKET_DEF( PT_M_C_RES_BEGINCAST,			12574 )
+
+
+//PACKET_DEF( PT_M_C_NFY_ADD_PUPPET,			12600 )
+
+// short  sNum
+// {
+//		BM::GUID kGuid
+// }
+//PACKET_DEF( PT_M_C_NFY_REMOVE_PUPPET,		12601 )
+
+// int iWorldActionID
+// unsigned long ulElapsedTime
+// ���� ������ iWorldActionID ���� ����
+// case iWorldActionID == WA_SAPHIREBOSS_APPEAR
+
+// case iWorldActionID == WA_SAPHIREBOSS_DIE
+
+// case iWorldActionID == WA_SB_CRYSTAL_APPEAR
+//		BM::GUID kCrystalGuid
+// case iWorldActionID == WA_SB_ATTACK1(�չٴ�ġ��)
+//		byte byRotateLeft
+//		int iBlockIndex
+// case iWorldActionID == WA_SB_ATTACK2(�չٴڱܱ�)
+//		byte byRotateLeft (1:left, 0:right)
+//		int iStartBlock
+//		int iBlockNum
+// case iWorldActionID == WA_SB_ATTACK3(������)
+//		int iTargetBlock	(������ ���� �����ְ�)
+// case iWorldActionID == WA_SB_ATTACK4(�����ߵ�)
+//PACKET_DEF( PT_M_C_NFY_BEGIN_WORLDACTION,	12602 )
+
+// BM::GUID kBossGuid
+PACKET_DEF( PT_M_C_NFY_BOSSMONSTER,			12603 )
+
+// Sending monster targets player (only for boss monster)
+// BM::GUID kMonsterGuid (From)
+// BM::GUID kTargetGuid (To)
+PACKET_DEF( PT_M_C_NFY_TARGETUNIT,			12604 )
+
+// BM::GUID kOwnerGuid
+// BM::GUID kBoxGuid
+PACKET_DEF( PT_M_C_NFY_PICKUPITEM,			12605 )	// �������� �ٸ������ �ݰ� �ִ�.
+//typedef enum eGroundActionNo
+//{
+//	GAN_NONE = 0,
+//	GAN_Refresh_All_Quest = 1,
+//} EGroundActionNo;
+
+PACKET_DEF( PT_C_M_REQ_MSGBOX_CALL,				12608)
+PACKET_DEF( PT_M_C_ANS_MSGBOX_CALL,				12609)
+PACKET_DEF( PT_M_C_ANS_MSGBOX_CALL_RESULT,		12610)
+// Lock Exp
+PACKET_DEF(PT_C_M_REQ_LOCKEXP_TOGGEL, 12611 ); // try lock exp
+PACKET_DEF(PT_M_C_ANS_LOCKEXP_TOGGEL, 12612 ); // try lock exp
+
+// God Command
+PACKET_DEF( PT_C_M_GODCMD,					12801 )
+PACKET_DEF( PT_A_C_ANS_GODCMD_FAILED,		12802 )
+
+PACKET_DEF( PT_C_NT_GODCMD,					12806 )// Contents Check GodCmd
+PACKET_DEF( PT_M_A_GODCMD,					12807 )
+PACKET_DEF( PT_T_N_GODCMD,					12808 )
+
+PACKET_DEF( PT_A_T_REQ_INDUN_CREATE,		12850 )// �δ����� ��û
+PACKET_DEF( PT_T_M_REQ_CREATE_GROUND,		12851 )// �ʼ������� �׶���(�δ�) ���� ��û
+PACKET_DEF( PT_M_T_ANS_CREATE_GROUND,		12852 )// �δ����� ��.
+
+PACKET_DEF( PT_N_T_REQ_CREATE_PUBLICMAP,	12853 )
+PACKET_DEF( PT_T_N_ANS_CREATE_PUBLICMAP,	12854 )
+
+PACKET_DEF( PT_N_T_REQ_DELETE_PUBLICMAP,	12855 )
+PACKET_DEF( PT_T_N_ANS_DELETE_PUBLICMAP,	12856 )
+
+PACKET_DEF( PT_T_N_REQ_PUBLIC_MAP_INFO,		12857 )// ����� ������ �� ����?
+PACKET_DEF( PT_N_T_ANS_PUBLIC_MAP_INFO,		12858 )// ����� ���������ִ�.
+
+PACKET_DEF( PT_M_T_NFY_DELETE_GROUND,		12860 )//�ʼ������� ���ͼ����� �δ��� ���� �Ǿ����� �뺸
+PACKET_DEF( PT_M_T_NFY_CREATE_GROUND,		12861 )//�ʼ������� ���ͼ����� Ground ��������� �뺸
+PACKET_DEF( PT_T_N_REQ_DELETE_GROUND,		12862 )
+
+PACKET_DEF( PT_T_M_NFY_DELETE_GROUND,		12865 )//Ư�������� ���ؼ� ���ͼ����� �ʼ������� �׶��带 �����϶�� �뺸
+PACKET_DEF( PT_M_T_NFY_REFRESH_USERCOUNT,	12866 )// Logical Channel UserCount Refresh
+
+PACKET_DEF( PT_M_C_NFY_GROUND_DYNAMIC_ATTR,	12990 ) // ���� �׶��� �Ӽ� ���� �˸�
+
+PACKET_DEF( PT_C_M_REQ_ITEM_DISCHARGE,	12997 )		// ITEM_DISCHARGE
+PACKET_DEF( PT_M_C_ANS_ITEM_DISCHARGE,	12998 )		// ITEM_DISCHARGE
+
+PACKET_DEF( PT_C_M_REQ_ITEM_RARITY_UPGRADE,	12999 ) // ITEM_RARITY_UPGRADE
+PACKET_DEF( PT_M_C_ANS_ITEM_RARITY_UPGRADE,	13000 ) // ITEM_RARITY_UPGRADE
+
+PACKET_DEF( PT_C_M_REQ_ITEM_PLUS_UPGRADE,	13001 ) // ITEM_PLUS_UPGRADE
+PACKET_DEF( PT_C_M_ANS_ITEM_PLUS_UPGRADE,	13002 ) // ITEM_PLUS_UPGRADE
+
+// int iErrorCode : Ŭ���̾�Ʈ�� Text ID�� �����ϰ� ������
+// SItemPos kSourcePos
+PACKET_DEF( PT_M_C_ANS_EQUIP_ITEM,			13003)
+
+PACKET_DEF( PT_C_M_REQ_FIT2PRIMARYINV,		13004)	// ������ �������� ������ �⺻ �κ��丮�� �̵�
+PACKET_DEF( PT_M_C_ANS_FIT2PRIMARYINV,		13005)
+
+PACKET_DEF( PT_C_M_REQ_SEAL_ITEM,			13006)	// ������ �ٽ� ����
+PACKET_DEF( PT_M_C_ANS_SEAL_ITEM,			13007)
+
+PACKET_DEF( PT_M_C_NOTI_MONEY_PACK,			13008)	// �Ӵ��� ��� 
+PACKET_DEF( PT_M_C_NOTI_CASH_PACK,			13009)	// ĳ���� ���
+
+// New Effect Added
+//  BM::GUID kUnit
+//  int iEffectID
+//	BM::GUID kCasterGuid
+//	int iActionInstanceID
+//  int iValue
+PACKET_DEF(PT_M_C_NFY_ADD_EFFECT,		13100 )
+
+// Delete Effect
+//  BM::GUID kUnit
+//  int iEffectID
+PACKET_DEF(PT_M_C_NFY_DELETE_EFFECT,	13101 )
+
+// Error Message
+// int iErrorType
+// int iErrorCode
+PACKET_DEF(PT_M_C_ANS_ERROR_MESSAGE,	13102 )
+
+// 	SActionInfo kInfo;
+//  DWORD dwSyncTime;
+// 	BYTE byTargetNum;
+//	{
+// 		BM::GUID kTargetGuid;
+// 		BYTE byTargetParam;
+// 	}
+
+PACKET_DEF(PT_C_M_REQ_EFFECT_CONTROL,	13103 )
+
+PACKET_DEF(PT_M_C_NFY_DELETE_ALL_EFFECT,	13104)
+
+PACKET_DEF(PT_C_M_REQ_SPEND_MONEY,	13105)
+
+PACKET_DEF(PT_M_C_NFY_ACTION_CUSTOM_CONTROL, 13106)
+
+PACKET_DEF( PT_A_M_ADDON_WARPPED_PACKET,	13107)
+
+PACKET_DEF( PT_C_M_REQ_EFFECT_ESCAPE_KEYDOWN,	13108)
+
+PACKET_DEF(PT_M_C_NFY_ADD_EFFECT_DURATIONTIME,	13109)
+
+PACKET_DEF(PT_C_M_REQ_ACTION2, 13110)
+
+//	SActionInfo kInfo;
+//	BYTE byTargetNum;
+//	{
+//		BM::GUID kTargetGuid;
+//		int iEffectID;
+//		POINT3 ptTargetPos
+//		BYTE byTargetParam;
+//	}
+PACKET_DEF( PT_M_C_RES_ACTION2, 13111)
+// OLD STYLE
+ 	//SActionInfo kInfo;
+	//int iMoveSpeed;
+	//int iJumpHeight;
+	// POINT3 pt3GoalPos;
+ 	//BYTE byTargetNum;
+ 	//{
+ 	//	BM::GUID kTargetGuid;
+	//	short int iRemainHP;
+	//	BYTE byEffectNum;
+	//	{
+ 	//		int iEffectID;
+	//	}
+ 	//	POINT3 ptTargetPos 		
+ 	//	BYTE byTargetParam;
+ 	//}
+// NEW (2007.09.06)
+ 	//SActionInfo kInfo;
+	//int iMoveSpeed;
+	//POINT3 pt3GoalPos;
+	//PgActionResult kResult;
+// NEW (2007.10.10)
+ 	//SActionInfo kInfo;
+	//DWORD dwTimeSync
+	//POINT3 pt3GoalPos;
+	//WORD wGoalDistance;
+	//PgActionResult kResult;
+PACKET_DEF(PT_M_C_NFY_ACTION2, 13112)
+
+PACKET_DEF(PT_M_C_NFY_MONSTERGOAL, 13113)
+
+// BM::GUID kPilotGuid
+// BYTE byDirection
+// bool bEnable
+PACKET_DEF(PT_C_M_REQ_UPDATE_DIRECTION_SLOT, 13114)
+
+
+// BM::GUID kPilotGuid
+// BYTE byDirection
+// bool bEnable
+PACKET_DEF(PT_M_C_NFY_UPDATE_DIRECTION_SLOT, 13115)
+
+
+// BYTE byDirection
+// POINT3BY ptDirection
+// DWORD dwActionTerm
+PACKET_DEF(PT_C_M_REQ_UPDATE_DIRECTION, 13116)
+
+
+// BM::GUID kPilotGuid
+// BYTE byDirection
+PACKET_DEF(PT_M_C_NFY_UPDATE_DIRECTION, 13117)
+
+
+// DWORD dwSyncTime
+PACKET_DEF(PT_C_M_REQ_ENTIRE_SYNC_TIME, 13118)
+
+
+// DWORD dwSyncTime
+PACKET_DEF(PT_M_C_NFY_ENTIRE_SYNC_TIME, 13119)
+
+
+/**
+ * \brief
+ * BM::GUID => ItemGuid
+ * unsiged short => usKillType
+ * int => iKillCount
+ */
+PACKET_DEF(PT_M_S_NFY_STAT_TRACK_INFO, 13150)
+/**
+* \brief
+* BM::GUID => ItemGuid
+* SStatTrackInfo => StatTrackInfo
+*/
+
+PACKET_DEF(PT_M_C_NFY_STAT_TRACK_INFO, 13151)
+PACKET_DEF(PT_U_G_NFY_STAT_TRACK_INFO, 13152)
+
+// Monster Goal Pos & Target Update
+// BM::GUID guidMonster
+// POINT3 pt3GoalPos
+// BM::GUID guidTarget
+
+// Monster Blow Status Update
+// BM::GUID		guidMonster
+// POINT3		pt3Pos
+PACKET_DEF(PT_C_M_REQ_MON_BLOWSTATUS,	13200 )
+
+PACKET_DEF(PT_C_M_REQ_INDUN_START,		13201 )
+PACKET_DEF(PT_M_C_ANS_INDUN_START,		13202 )
+
+PACKET_DEF(PT_S_C_NFY_NOACTION2,		13203 )	// ���Ӹ� �׼���Ŷ ������ ��
+
+PACKET_DEF(PT_C_M_REQ_INDUN_START2,		13204 )
+
+// 	SActionInfo kInfo;
+//  DWORD dwSyncTime;
+// 	BYTE byTargetNum;
+//	{
+// 		BM::GUID kTargetGuid;
+// 		BYTE byTargetParam;
+// 	}
+//	Some Data
+PACKET_DEF(PT_M_C_NFY_ACTION3, 13125)
+
+PACKET_DEF( PT_C_M_REQ_DELETEEFFECT,		12130 )
+
+PACKET_DEF(PT_C_M_REQ_EXCHANGE_ITEM_REQ,	13210)	//������ �ŷ� ��û
+PACKET_DEF(PT_M_C_NFY_EXCHANGE_ITEM_REQ,	13211)	//������ �ŷ� �ҷ�?
+PACKET_DEF(PT_C_M_NFY_EXCHANGE_ITEM_ANS,	13212)	//������ �ŷ� �Ѵ� or ���Ѵ� 
+PACKET_DEF(PT_M_C_NFY_EXCHANGE_ITEM,		13213)	//������ �ŷ�â ����
+PACKET_DEF(PT_C_M_NFY_EXCHANGE_ITEM_ITEM,	13214)	//�ŷ��� �������� ������ �ֳ�?
+PACKET_DEF(PT_M_C_NFY_EXCHANGE_ITEM_ITEM,	13215)	//�ŷ��� �������� ������ �ִ�
+PACKET_DEF(PT_C_M_NFY_EXCHANGE_ITEM_READY,	13216)	//������ �ŷ� ���� Ȥ�� ���
+PACKET_DEF(PT_M_C_NFY_EXCHANGE_ITEM_READY,	13217)	//������ �ŷ� ���� Ȥ�� ���
+PACKET_DEF(PT_M_C_NFY_EXCHANGE_ITEM_RESULT,	13218)	//������ �ŷ� ���� ���� or ��� �ŷ� �ߴ� or �ŷ� ���̴� or �ŷ� ���� ���е� ���⼭ ����
+PACKET_DEF(PT_C_M_NFY_EXCHANGE_ITEM_QUIT,	13219)	//������ ������ �ŷ� ���� Ȥ�� UI����
+
+PACKET_DEF(PT_C_M_REQ_VIEW_OTHER_EQUIP,		13220)	//���� ���� ���� ����
+PACKET_DEF(PT_M_C_ANS_VIEW_OTHER_EQUIP,		13221)	//���� ���� ���� ����
+
+PACKET_DEF(PT_M_T_REQ_ENTER_SUPER_GROUND,	13222)	//���۴������� �̵�
+PACKET_DEF(PT_T_M_ANS_ENTER_SUPER_GROUND,	13223)
+PACKET_DEF(PT_T_M_NFY_ENTER_SUPER_GROUND,	13224)
+PACKET_DEF(PT_C_M_REQ_EXIT_SUPER_GROUND,	13225)
+
+//PACKET_DEF(PT_C_M_REQ_INDUN_TREE,				13301 )
+//PACKET_DEF(PT_M_C_ANS_INDUN_TREE,				13302 )
+
+//	bool	bDoSimulate
+//  POINT3	ptPos
+PACKET_DEF(PT_C_M_REQ_ACTOR_SIMULATE, 13300)		// �÷��̾ �ùķ��̼� �ؾ� ���� ���ؾ� ���� �˷���.
+
+PACKET_DEF(PT_M_N_REQ_SAVE_PENALTY,		13310)			// �г�Ƽ
+PACKET_DEF(PT_M_N_REQ_CHECK_PENALTY,	13311)
+PACKET_DEF(PT_N_M_ANS_CHECK_PENALTY,	13312)			// �г�Ƽ
+PACKET_DEF(PT_N_C_NFY_HAVE_PENALTY,		13313)
+
+int const MISSION_PACKET_BASE = 13400;
+PACKET_DEF(PT_M_N_REQ_MISSION_INFO,				MISSION_PACKET_BASE+1 )//�̼� ����� ��û
+PACKET_DEF(PT_N_C_ANS_MISSION_INFO,				MISSION_PACKET_BASE+2 )//�̼� ���� Ŭ�󿡰�.
+
+PACKET_DEF(PT_C_M_REQ_ENTER_MISSION,			MISSION_PACKET_BASE+3 )//����� �޶�
+PACKET_DEF(PT_M_N_REQ_ENTER_MISSION,			MISSION_PACKET_BASE+4 )//����� �޶�
+PACKET_DEF(PT_N_M_ANS_ENTER_MISSION,			MISSION_PACKET_BASE+5 )//���� �غ��ض�
+PACKET_DEF(PT_M_N_ANS_ENTER_MISSION_FAILED,		MISSION_PACKET_BASE+6 )//���ü��� ����..
+
+PACKET_DEF(PT_T_M_NFY_PREPARE_MISSION,			MISSION_PACKET_BASE+7 )//�����.
+PACKET_DEF(PT_M_T_ANS_PREPARE_MISSION,			MISSION_PACKET_BASE+8 )//���� ���
+	
+PACKET_DEF(PT_C_N_ANS_MISSION_RANK_INPUTMEMO,	MISSION_PACKET_BASE+9 )// ��ũ���� �޸� �Է�
+PACKET_DEF(PT_C_M_REQ_MISSION_RESTART,			MISSION_PACKET_BASE+10 )//�̼��� �ٽ� ����!!
+PACKET_DEF(PT_N_C_NFY_MISSION_RESULT,			MISSION_PACKET_BASE+11 )//
+PACKET_DEF(PT_M_C_ANS_MISSION_RESTART_FAILED,	MISSION_PACKET_BASE+12 )//�̼� �ٽ� ���� ����
+PACKET_DEF(PT_M_C_NFY_MISSION_STATE,			MISSION_PACKET_BASE+13 )//
+PACKET_DEF(PT_M_C_NFY_MISSION_DATA,				MISSION_PACKET_BASE+15 )//�̼� ���� ����
+PACKET_DEF(PT_C_C_NFY_MISSION_CLOSE,			MISSION_PACKET_BASE+19 )//�̼� ���â�� �ݾҴٰ� BroadCast
+
+PACKET_DEF(PT_M_C_NFY_MISSION_UNLOCKINPUT,		MISSION_PACKET_BASE+20 )//�̼� ���â �� ������ �ñ�
+
+PACKET_DEF(PT_C_M_REQ_MISSION_REVIVE,			MISSION_PACKET_BASE+22 )//�� ��Ȱ ���� �ּ���(������)
+PACKET_DEF(PT_M_C_NFY_REST_MONSTER_NUM,			MISSION_PACKET_BASE+25 )//�� ������ ���� ���� �� �������� ��������
+
+PACKET_DEF(PT_N_M_ANS_MISSION_RESTART,			MISSION_PACKET_BASE+26 )
+PACKET_DEF(PT_M_N_NFY_MISSION_RESULT,			MISSION_PACKET_BASE+27 )
+PACKET_DEF(PT_T_T_NFY_MISSION_DELETE,			MISSION_PACKET_BASE+28 )
+PACKET_DEF(PT_M_C_NFY_REJECT_STAGE_MAP_MOVE,	MISSION_PACKET_BASE+30 )//���� �� �̵��� ���ؼ� ��� �𿩾� �մϴ�.
+PACKET_DEF(PT_T_N_NFY_MISSION_RANK_DATA,		MISSION_PACKET_BASE+33 )//�̼Ƿ�ũ���� �޾ƶ�!!!
+PACKET_DEF(PT_T_N_NFY_MISSION_REPORT_DATA,		MISSION_PACKET_BASE+34 )//�̼Ǳ������ �޾ƶ�!!!
+PACKET_DEF(PT_C_M_NFY_SELECTED_BOX,				MISSION_PACKET_BASE+40 )//Ŭ�� �ʼ������� ���ڼ����ߴٰ� ����
+PACKET_DEF(PT_M_C_NFY_SELECTED_BOX,				MISSION_PACKET_BASE+41 )//�������� �ٸ� ������ ���ڸ� �����ߴٰ� ��ε�ĳ����
+PACKET_DEF(PT_M_C_NFY_OPEN_BOX,					MISSION_PACKET_BASE+42 )//�ڽ� ����� ��ε�ĳ����
+
+PACKET_DEF(PT_C_M_MISSION_TEST,					MISSION_PACKET_BASE+44)// �̼� �׽�Ʈ
+PACKET_DEF(PT_C_M_REQ_RANK_PAGE,				MISSION_PACKET_BASE+45)// ��ũ ������ ��û
+PACKET_DEF(PT_C_M_REQ_RANK_TOP,						MISSION_PACKET_BASE+46)// ��Ű 1��
+PACKET_DEF(PT_N_C_ANS_RANK_TOP,						MISSION_PACKET_BASE+47)// ��Ű 1��
+PACKET_DEF(PT_T_N_NFY_MISSION_RANK_CLEAR,			MISSION_PACKET_BASE+48)// ��Ű �����
+
+PACKET_DEF(PT_M_C_ANS_MISSION_QUEST,			MISSION_PACKET_BASE+55)//�̼� ����Ʈ ����
+PACKET_DEF(PT_C_M_REQ_MISSION_QUEST,			MISSION_PACKET_BASE+56)//�̼� ����Ʈ ����
+//PACKET_DEF(PT_N_M_NFY_MISSION_RESULT_QUEST,		MISSION_PACKET_BASE+50)// �̼� ����� ����Ʈ üũ
+
+PACKET_DEF(PT_N_M_ANS_MISSION_INFO,				MISSION_PACKET_BASE+57 )//�̼� ���� �ʿ���
+PACKET_DEF(PT_M_C_ANS_MISSION_INFO,				MISSION_PACKET_BASE+58 )//�̼� ���� Ŭ�󿡰�.
+PACKET_DEF(PT_M_C_NFY_MISSION_PORTAL,			MISSION_PACKET_BASE+59 )//�̼� ���� �νñ�
+PACKET_DEF(PT_N_C_NFY_MISSION_CLOSETIMER,		MISSION_PACKET_BASE+60 )//�̼� Ÿ�̸� �ݱ�
+PACKET_DEF(PT_T_N_REQ_MISSION_RANKING,			MISSION_PACKET_BASE+61 )//�̼� Ranking ���� ��û
+PACKET_DEF(PT_N_T_RES_MISSION_RANKING,			MISSION_PACKET_BASE+62 )//�̼� Ranking ���� ����
+PACKET_DEF(PT_N_C_NFY_MISSION_CLOSESCORE,		MISSION_PACKET_BASE+63 )//�̼� Scoreâ �ݱ�
+
+PACKET_DEF(PT_C_M_REQ_MISSION_ROULETTE_STOP,	MISSION_PACKET_BASE+64 )//�̼� Roulette ���� �˸�
+PACKET_DEF(PT_M_C_REQ_MISSION_ROULETTE_STOP,	MISSION_PACKET_BASE+65 )//�̼� Roulette ���� �˸�
+
+PACKET_DEF(PT_C_M_REQ_MISSION_GADACOIN_ITEM,	MISSION_PACKET_BASE+66 )//�̼� �������� ������
+PACKET_DEF(PT_M_C_REQ_MISSION_GADACOIN_ITEM,	MISSION_PACKET_BASE+67 )//�̼� �������� ������
+
+PACKET_DEF(PT_M_C_NFY_STAGECLEAR_GOGO,			MISSION_PACKET_BASE+68 )//�������� Ŭ�����ϸ� GOGO ���
+PACKET_DEF(PT_M_C_NFY_MISSION_TIME_LIMIT,		MISSION_PACKET_BASE+69 )//
+
+PACKET_DEF(PT_M_C_NFY_DEFENCE_STAGE,			MISSION_PACKET_BASE+70 )//�������� ���� ����
+PACKET_DEF(PT_C_M_NFY_DEFENCE_STAGE,			MISSION_PACKET_BASE+71 )//�������� �����ض�
+PACKET_DEF(PT_M_C_NFY_DEFENCE_WAVE,				MISSION_PACKET_BASE+72 )//���̺� ���� ����
+PACKET_DEF(PT_C_M_NFY_DEFENCE_WAVE,				MISSION_PACKET_BASE+73 )//���̺� ���� ��ȯ ����
+PACKET_DEF(PT_M_C_NFY_DEFENCE_ENDSTAGE,			MISSION_PACKET_BASE+74 )//�ش� �������� ��
+PACKET_DEF(PT_C_M_NFY_DEFENCE_ENDSTAGE,			MISSION_PACKET_BASE+75 )//���� �������� �̵�
+PACKET_DEF(PT_M_C_NFY_DEFENCE_FAILSTAGE,		MISSION_PACKET_BASE+76 )//�������� ����
+PACKET_DEF(PT_C_M_NFY_DEFENCE_FAILSTAGE,		MISSION_PACKET_BASE+77 )//�������� ����
+
+PACKET_DEF(PT_M_C_NFY_DEFENCE_STAGETIME,		MISSION_PACKET_BASE+78 )//�������� �ð��޾ƶ�...
+
+PACKET_DEF(PT_C_M_NFY_DEFENCE_DIRECTION, MISSION_PACKET_BASE+79 )//���� ����
+PACKET_DEF(PT_M_C_NFY_DEFENCE_DIRECTION, MISSION_PACKET_BASE+80 )//���� ����
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_INFALLIBLE_SELECTION, MISSION_PACKET_BASE+81 )//ĳ���� ���
+PACKET_DEF(PT_U_G_NFY_DEFENCE_INFALLIBLE_SELECTION, MISSION_PACKET_BASE+82 )
+PACKET_DEF(PT_M_C_NFY_DEFENCE_INFALLIBLE_SELECTION, MISSION_PACKET_BASE+83 )
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_TIMEPLUS, MISSION_PACKET_BASE+84 )// ���ð� ����
+PACKET_DEF(PT_M_C_ANS_DEFENCE_TIMEPLUS, MISSION_PACKET_BASE+85 )// ���ð� ����
+PACKET_DEF(PT_U_G_NFY_DEFENCE_TIMEPLUS, MISSION_PACKET_BASE+86 )// ���ð� ����
+
+PACKET_DEF(PT_M_C_NFY_TOWER_ATTACK, MISSION_PACKET_BASE+87 )// ��ȣ�� ���� ������ ���� �޽���
+PACKET_DEF(PT_M_C_ANS_DEFENCE_RESTART,	MISSION_PACKET_BASE+88 )//���ҽ� �̼��� �ٽ� ����!!
+PACKET_DEF(PT_C_M_REQ_DEFENCE_SELECT_CLOSE,	MISSION_PACKET_BASE+89 )//���ҽ� �̼� ���� UI �ݱ�
+PACKET_DEF(PT_M_C_ANS_DEFENCE_SELECT_CLOSE,	MISSION_PACKET_BASE+90 )//���ҽ� �̼� ���� UI �ݱ�
+
+PACKET_DEF(PT_NFY_M_C_DEFENCE_ZEN_EFFECT,	MISSION_PACKET_BASE+91 )//���ҽ� �̼� ���� �� ����Ʈ
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_POTION,		MISSION_PACKET_BASE+92 )//���ҽ� �̼� ��ȣ�� ȸ��
+PACKET_DEF(PT_M_C_ANS_DEFENCE_POTION,		MISSION_PACKET_BASE+93 )//���ҽ� �̼� ��ȣ�� ȸ��
+PACKET_DEF(PT_U_G_NFY_DEFENCE_POTION,		 MISSION_PACKET_BASE+94 )//���ҽ� �̼� ��ȣ�� ȸ��
+
+PACKET_DEF(PT_M_C_NFY_DEFENCE_STRATEGIC_POINT,	 MISSION_PACKET_BASE+95 )//���� ����Ʈ
+PACKET_DEF(PT_M_C_NFY_DEFENCE_USEITEM_LIST,		 MISSION_PACKET_BASE+96 )//������ ����Ʈ
+
+PACKET_DEF(PT_C_M_REQ_GUARDIAN_SET,		 MISSION_PACKET_BASE+97 )// ����� ��ġ
+PACKET_DEF(PT_M_C_ANS_GUARDIAN_SET,		 MISSION_PACKET_BASE+98 )// ����� ��ġ
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_ITEM_USE,		 MISSION_PACKET_BASE+99 )// �ű� ���ҽ� ������ ���
+PACKET_DEF(PT_M_C_ANS_DEFENCE_ITEM_USE,		 MISSION_PACKET_BASE+100 )// �ű� ���ҽ� ������ ���
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_SKILL_USE,	 MISSION_PACKET_BASE+101 )// �ű� ���ҽ� ��ų ���
+PACKET_DEF(PT_M_C_ANS_DEFENCE_SKILL_USE,	 MISSION_PACKET_BASE+102 )// �ű� ���ҽ� ��ų ���
+
+PACKET_DEF(PT_M_T_NFY_DEFENCE_DELETE_PARTYINFO,	 MISSION_PACKET_BASE+103 )
+PACKET_DEF(PT_T_M_NFY_DEFENCE_DELETE_PARTYINFO,	 MISSION_PACKET_BASE+104 )
+
+PACKET_DEF(PT_M_T_NFY_DEFENCE_PLAY_PARTYINFO, MISSION_PACKET_BASE+105 )
+PACKET_DEF(PT_T_M_NFY_DEFENCE_PLAY_PARTYINFO, MISSION_PACKET_BASE+106 )
+
+PACKET_DEF(PT_C_M_REQ_GUARDIAN_UPGRADE,		 MISSION_PACKET_BASE+107 )// ����� ���׷��̵�
+PACKET_DEF(PT_M_C_ANS_GUARDIAN_UPGRADE,		 MISSION_PACKET_BASE+108 )// ����� ���׷��̵�
+
+PACKET_DEF(PT_C_M_REQ_TEAM_POINT,		 MISSION_PACKET_BASE+109 )// �� ����
+PACKET_DEF(PT_M_C_ANS_TEAM_POINT,		 MISSION_PACKET_BASE+110 )// �� ����
+
+PACKET_DEF(PT_C_M_REQ_DEFENCE_PARTYLIST,	 MISSION_PACKET_BASE+111 )// ��Ƽ ����Ʈ(���ҽ�)
+PACKET_DEF(PT_M_C_ANS_DEFENCE_PARTYLIST,	 MISSION_PACKET_BASE+112 )// ��Ƽ ����Ʈ(���ҽ�)
+
+PACKET_DEF(PT_NFY_M_C_DEFENCE_NOTICE_MSG,	 MISSION_PACKET_BASE+113 )// ���� �޽���
+
+PACKET_DEF(PT_C_M_REQ_GUARDIAN_REMOVE,	 MISSION_PACKET_BASE+114 )// ����� ����
+
+PACKET_DEF(PT_C_M_REQ_MISSION_START,        MISSION_PACKET_BASE+115 )//�̼� ����
+PACKET_DEF(PT_M_C_ANS_MISSION_START,		MISSION_PACKET_BASE+116 )//�̼� �����ض�
+
+PACKET_DEF(PT_C_M_REQ_MISSION_TRIGGER_ACTION,		MISSION_PACKET_BASE+117 ) // �̼� Ʈ���� �׼�
+PACKET_DEF(PT_M_C_ANS_MISSION_TRIGGER_ACTION,		MISSION_PACKET_BASE+118 ) // �̼� Ʈ���� �׼�
+
+PACKET_DEF(PT_M_C_NFY_MISSION_BONUS_TIME_LIMIT,		MISSION_PACKET_BASE+119 )// ���ʽ� �� Ÿ�̸�
+PACKET_DEF(PT_M_C_NFY_MISSION_BONUS_TIME_CLOSE,		MISSION_PACKET_BASE+120 )// ���ʽ� �� Ÿ�̸� ����
+PACKET_DEF(PT_C_M_MISSION_NEXT_STAGE,				MISSION_PACKET_BASE+121 )// ���� ���������� �̵�
+
+PACKET_DEF(PT_C_M_REQ_MISSION_CHAOS_ACTION,		MISSION_PACKET_BASE+122 ) // ī���� �̼� ����
+PACKET_DEF(PT_M_C_ANS_MISSION_CHAOS_ACTION,		MISSION_PACKET_BASE+123 ) // ī���� �̼� ����
+
+PACKET_DEF(PT_M_C_ANS_RESTART_MISSION_INFO_UI,	MISSION_PACKET_BASE+124 ) // �絵��
+
+PACKET_DEF(PT_C_M_REQ_GENMONSTER_GROUP_NUM,	MISSION_PACKET_BASE+125 ) // ���� ���� ���� �׷� ȸ��
+PACKET_DEF(PT_M_C_ANS_GENMONSTER_GROUP_NUM,	MISSION_PACKET_BASE+126 ) // ���� ���� ���� �׷� ȸ��
+
+PACKET_DEF(PT_M_C_ANS_DEFENCE7_RELAY_STAGE,	MISSION_PACKET_BASE+127 ) // ���潺7 �̾��ϱ� ������ ���
+PACKET_DEF(PT_N_T_NFY_RECOVERY_STRATEGY_FATIGUABILITY, MISSION_PACKET_BASE+128) // ���潺7 ���� �Ƿε� �ڵ� ȸ��(00��) Contents -> Center.
+PACKET_DEF(PT_T_M_NFY_RECOVERY_STRATEGY_FATIGUABILITY, MISSION_PACKET_BASE+129) // ���潺7 ���� �Ƿε� �ڵ� ȸ��(00��) Center -> Map.
+PACKET_DEF(PT_M_C_NFY_USE_POINT_COPY_ITEM, MISSION_PACKET_BASE+130)	// ����Ʈ ������ ������ ��� �˸�.
+PACKET_DEF(PT_M_C_NFY_ACCUMPOINT_TO_STRATEGICPOINT, MISSION_PACKET_BASE+131) // ��������Ʈ�� ��������Ʈ�� ��ȯ���� �˸�.
+PACKET_DEF(PT_M_C_NFY_CURRENT_ACCUMPOINT, MISSION_PACKET_BASE+132) // ���� ���� ����Ʈ �˸�.
+PACKET_DEF(PT_C_M_REQ_EXCHANGE_ACCUMPOINT_TO_STRATEGICPOINT, MISSION_PACKET_BASE+133) // ���� ��������Ʈ�� ��������Ʈ�� ��ȯ ��û.
+PACKET_DEF(PT_M_C_NFY_CHANGE_GUARDIAN_INSTALL_DICOUNT, MISSION_PACKET_BASE+134) // ����� ��ġ�� ���η� ��ȭ �˸�.
+PACKET_DEF(PT_C_M_REQ_KILL_MONSTER_BY_ACCUMPOINT, MISSION_PACKET_BASE+135) // ����Ʈ ������ ���� ������ ���� ����.
+PACKET_DEF(PT_M_C_NFY_KILL_MONSTER_BY_ACCUMPOINT, MISSION_PACKET_BASE+136) // ����Ʈ ������ ���� ������ ���� �׿��� ������ ��� ��. ����Ʈ �ʱ�ȭ.
+
+int const REALM_LOGIN_PACKET_BASE = 13900;
+
+PACKET_DEF(PT_T_A_NFY_USERCOUNT,	REALM_LOGIN_PACKET_BASE+0)	// Channel�� ���� ���� �� ����
+PACKET_DEF(PT_L_C_NFY_REALM_LIST,	REALM_LOGIN_PACKET_BASE+1)	// ������ ���
+PACKET_DEF(PT_L_C_NFY_CHANNEL_LIST,	REALM_LOGIN_PACKET_BASE+2)	// ������ ������ ä�� ���
+PACKET_DEF(PT_C_L_REQ_REALM_LIST,	REALM_LOGIN_PACKET_BASE+3)	// ä�� ���ÿ��� --> ���� �������� Back
+PACKET_DEF(PT_C_L_REQ_CHANNEL_LIST,	REALM_LOGIN_PACKET_BASE+4)	// ���� ���ÿ��� --> ä�� �������� Go
+PACKET_DEF(PT_IM_A_NFY_CHANNEL_NOTICE, REALM_LOGIN_PACKET_BASE+5)
+PACKET_DEF(PT_L_C_NFY_ACTIVE_FATIGUE, REALM_LOGIN_PACKET_BASE+6)
+PACKET_DEF(PT_L_C_NFY_LAST_LOGOUT_TIME, REALM_LOGIN_PACKET_BASE+7)
+
+//PACKET_DEF( PT_N_M_WRAPPED_PACKET,			12502 )// ���������� -> ���ͼ��� -> �ʼ���, ������Ŷ
+PACKET_DEF( PT_T_S_SND_DISCONNNECT_USER,	13950 )// ������ ������ �����!
+PACKET_DEF( PT_M_T_SND_DISCONNEECT_USER,	13951 )// �ʼ����� �������� ������ ������� �뺸((�߿�)�ʼ����� �̰� ������ �������� ���Ŵ� �ʼ����� ������ �ؾ� �Ѵ�!!!)
+
+int const WRAPPED_PACKET_BASE = 14000;
+PACKET_DEF( PT_A_A_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+1 )// ��� ������ ������
+PACKET_DEF( PT_A_N_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+2 )// ��缭���� ������������
+PACKET_DEF( PT_A_GND_WRAPPED_PACKET,		WRAPPED_PACKET_BASE+3 )// ��� ������ �׶����
+PACKET_DEF( PT_A_C_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+6 )// ��� ������ ������
+PACKET_DEF( PT_A_LOG_PACKET,				WRAPPED_PACKET_BASE+7 )// �α� ��Ŷ.
+
+PACKET_DEF( PT_A_GND_WRAPPED_PACKET_DIRECT,	WRAPPED_PACKET_BASE+11 )// ��� ������ �׶����
+PACKET_DEF( PT_A_CN_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+12 )	// ��� ������ ChannelContents(Center_Contents)��
+PACKET_DEF( PT_A_RN_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+13 )	// ��� ������ RealmContents(Contents_Contents)��
+PACKET_DEF( PT_A_IM_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+14 )	// ��� ������ ImmigrationServer ��
+PACKET_DEF( PT_A_T_WRAPPED_PACKET,			WRAPPED_PACKET_BASE+15 )	// ��� ������ CenterServer (Imm/Contents �� ChannelNo�ʿ�)
+PACKET_DEF( PT_M_C_NFY_WARN_MESSAGE_STR,	WRAPPED_PACKET_BASE+16 )	// Ŭ���̾�Ʈ�� ���ڿ��� ������
+
+PACKET_DEF( PT_CN_CN_WRAPPED_PACKET,		WRAPPED_PACKET_BASE+17 )// ChannelContents(Center_Contents)�� �ٸ� ChannelContents(Center_Contents)��
+PACKET_DEF( PT_A_CNGND_WRAPPED_PACKET,		WRAPPED_PACKET_BASE+18 )
+
+PACKET_DEF( PT_M_C_NFY_NEEDITEM_MESSAGE,	WRAPPED_PACKET_BASE+20 )
+PACKET_DEF( PT_M_C_NFY_WARN_MESSAGE,		WRAPPED_PACKET_BASE+21 )
+PACKET_DEF( PT_M_C_NFY_WARN_MESSAGE2,		WRAPPED_PACKET_BASE+22 )
+PACKET_DEF( PT_M_C_NFY_WARN_MESSAGE3,		WRAPPED_PACKET_BASE+23 )
+
+int const ITEM_PACKET_BASE = 14100;
+//������ ����� �޶� 
+PACKET_DEF( PT_A_I_WRAPPED_PACKET,			ITEM_PACKET_BASE+1 )// ��缭���� �����ۼ�����
+PACKET_DEF( PT_M_I_REQ_INV_DATA,			ITEM_PACKET_BASE+3 )//�� �κ� ���� ��û. 
+PACKET_DEF( PT_I_M_REQ_INV_DATA,			ITEM_PACKET_BASE+4 )//�� �κ� ���� ��û. 
+
+PACKET_DEF( PT_N_M_REQ_CREATE_ITEM,			ITEM_PACKET_BASE+5 )
+
+PACKET_DEF( PT_M_T_REQ_USEITEM_CHECK,		ITEM_PACKET_BASE+6 )
+PACKET_DEF( PT_T_M_ANS_USEITEM_CHECK,		ITEM_PACKET_BASE+7 )
+
+//PACKET_DEF( PT_M_I_REQ_CREATE_ITEM,			ITEM_PACKET_BASE+5 )//���� ��û.
+//PACKET_DEF( PT_I_M_ANS_CREATE_ITEM_MODIFY,	ITEM_PACKET_BASE+6 )//���� ��û.
+//PACKET_DEF( PT_I_M_ANS_CREATE_TEST_RESULT,	ITEM_PACKET_BASE+7 )//
+
+//PACKET_DEF( PT_M_I_REQ_EXCHANGE_ITEM,		ITEM_PACKET_BASE+8 )//��ȯ
+//PACKET_DEF( PT_I_M_ANS_EXCHANGE_ITEM,		ITEM_PACKET_BASE+9 )
+
+//PACKET_DEF( PT_M_I_REQ_ITEM_MODIFY,			ITEM_PACKET_BASE+10 )
+//PACKET_DEF( PT_I_M_ANS_ITEM_MODIFY,			ITEM_PACKET_BASE+11 )
+
+//PACKET_DEF( PT_M_I_REQ_PICK_ITEM,			ITEM_PACKET_BASE+12 )
+//PACKET_DEF( PT_I_M_ANS_PICK_ITEM,			ITEM_PACKET_BASE+13 )
+
+//PACKET_DEF( PT_M_I_REQ_MOVE_ITEM,			ITEM_PACKET_BASE+14 )//�̵�
+//PACKET_DEF( PT_I_M_ANS_MOVE_ITEM,			ITEM_PACKET_BASE+15 )
+
+//PACKET_DEF( PT_I_T_NFY_INV_DATA,				ITEM_PACKET_BASE+16 )
+
+//PACKET_DEF( PT_M_I_REQ_REMOVE_ITEM,			ITEM_PACKET_BASE+17 )// PT_I_M_ANS_MOVE_ITEM �̰ŷ� ����. PT_C_M_REMOVEITEM�� ��û
+
+//PACKET_DEF( PT_M_I_REQ_ITEM_USE,				ITEM_PACKET_BASE+18 )
+//PACKET_DEF( PT_I_M_ANS_ITEM_USE,				ITEM_PACKET_BASE+19 )
+
+//PACKET_DEF( PT_M_I_REQ_MODIFY_MONEY,		ITEM_PACKET_BASE+20 )//�� ����
+//PACKET_DEF( PT_I_M_ANS_MODIFY_MONEY,		ITEM_PACKET_BASE+21 )//�� ����
+
+PACKET_DEF( PT_M_I_REQ_MODIFY_ITEM,		ITEM_PACKET_BASE+22 )//
+PACKET_DEF( PT_I_M_ANS_MODIFY_ITEM,		ITEM_PACKET_BASE+23 )//
+PACKET_DEF( PT_C_M_REQ_ITEM_DIVIDE,		ITEM_PACKET_BASE+24)//������ ������.
+PACKET_DEF( PT_C_M_REQ_ITEM_SMS,		ITEM_PACKET_BASE+25)//��ġ��
+PACKET_DEF( PT_M_I_REQ_CASH_MODIFY,		ITEM_PACKET_BASE+26) // Cash ���� ��û
+//
+
+PACKET_DEF( PT_C_M_REQ_QUESTSCROLL, ITEM_PACKET_BASE+92 )
+PACKET_DEF( PT_M_I_REQ_AFTER_QUEST_ACCEPT, ITEM_PACKET_BASE+93 )
+PACKET_DEF( PT_M_I_REQ_QUEST_ACCEPT,	ITEM_PACKET_BASE+94 )
+PACKET_DEF( PT_M_I_REQ_QUEST_EVENT,		ITEM_PACKET_BASE+95 )
+PACKET_DEF( PT_M_I_REQ_RESUME_GUILD_COMMAND, ITEM_PACKET_BASE+96 )//
+PACKET_DEF( PT_M_I_REQ_START_MISSION_QUEST, ITEM_PACKET_BASE+97 )//
+PACKET_DEF( PT_M_I_REQ_QUEST_DIALOG_EVENT, ITEM_PACKET_BASE+98 )//
+PACKET_DEF( PT_M_I_REQ_QUEST_REWARD,	ITEM_PACKET_BASE+99 )// == 14199
+
+int const SHOP_PACKET_BASE = 14200;
+PACKET_DEF( PT_C_M_REQ_STORE_ITEM_LIST,	SHOP_PACKET_BASE+1 )
+PACKET_DEF( PT_M_C_ANS_STORE_ITEM_LIST,	SHOP_PACKET_BASE+2 )
+
+PACKET_DEF( PT_C_M_REQ_STORE_ITEM_BUY,		SHOP_PACKET_BASE+3 )//Ŭ���̾�Ʈ -> ��
+PACKET_DEF( PT_C_M_REQ_STORE_ITEM_SELL,		SHOP_PACKET_BASE+7 )//Ŭ���̾�Ʈ -> ��
+PACKET_DEF( PT_C_M_REQ_STORE_CLOSE,			SHOP_PACKET_BASE+8 )//Ŭ���̾�Ʈ -> ��
+
+int const SHINESTONE = 14300;
+PACKET_DEF(PT_M_C_NFY_SHINESTONE_MSG,	SHINESTONE+1)
+
+
+
+int const ITEM_REPAIR_PACKET_BASE = 14400;
+PACKET_DEF( PT_C_M_REQ_ITEM_REPAIR,	ITEM_REPAIR_PACKET_BASE+1 )
+
+//PACKET_DEF( PT_M_I_REQ_ITEM_REPAIR,	ITEM_REPAIR_PACKET_BASE+2 )//������ ���� ó��
+//PACKET_DEF( PT_I_M_ANS_ITEM_REPAIR,	ITEM_REPAIR_PACKET_BASE+3 )//������ ���� ó�� ��
+
+//PACKET_DEF( PT_M_C_ANS_ITEM_REPAIR,	ITEM_REPAIR_PACKET_BASE+4 )
+
+int const ITEM_MAKING_PACKET_BASE = 14500;
+PACKET_DEF( PT_C_M_REQ_ITEM_MAKING,			ITEM_MAKING_PACKET_BASE+1 ) // ITEM_MAKING
+PACKET_DEF( PT_M_C_ANS_ITEM_MAKING,			ITEM_MAKING_PACKET_BASE+2 ) // ITEM_MAKING
+PACKET_DEF( PT_M_C_NFY_ITEM_MAKING_RESULT,	ITEM_MAKING_PACKET_BASE+3 ) // ITEM_MAKING
+PACKET_DEF( PT_M_C_NFY_ITEM_MAKING_SUCCESS,	ITEM_MAKING_PACKET_BASE+4 ) // ITEM_MAKING
+PACKET_DEF( PT_C_M_REQ_SOULSTONE_TRADE,			ITEM_MAKING_PACKET_BASE+5 ) // �Ǹ��� ��ȥ�� �ŷ�
+PACKET_DEF( PT_M_C_ANS_SOULSTONE_TRADE,			ITEM_MAKING_PACKET_BASE+6 ) // �Ǹ��� ��ȥ�� �ŷ�
+PACKET_DEF( PT_M_C_NFY_SOULSTONE_TRADE_RESULT,	ITEM_MAKING_PACKET_BASE+7 ) // �Ǹ��� ��ȥ�� �ŷ�
+PACKET_DEF( PT_M_C_NFY_SOULSTONE_TRADE_SUCCESS, ITEM_MAKING_PACKET_BASE+8 ) // �Ǹ��� ��ȥ�� �ŷ�
+
+
+int const DELETE_BUFFEFFECT_BASE = 14600;
+PACKET_DEF( PT_C_M_REQ_DELETE_BUFFEFFECT,		DELETE_BUFFEFFECT_BASE+1 ) // Ŭ���̾�Ʈ -> �� - ���� ���� ����
+
+int const PARTY_PACKET_BASE = 15000;
+PACKET_DEF( PT_T_T_NFY_USER_ENTER_GROUND,	PARTY_PACKET_BASE )
+PACKET_DEF( PT_C_N_REQ_JOIN_PARTY,			PARTY_PACKET_BASE + 1 )// ��Ƽ�� -> ����������			- ��Ƽ ����/���� ��û
+PACKET_DEF( PT_N_C_REQ_JOIN_PARTY,			PARTY_PACKET_BASE + 2 )// ���������� -> ��Ƽ��������	- ��Ƽ���� ��û 
+PACKET_DEF( PT_N_C_ANS_JOIN_PARTY_TO_MASTER,PARTY_PACKET_BASE + 3 )// ���������� -> ��Ƽ��			- ��Ƽ ����/���� �� ���� <����>�� �˸�
+PACKET_DEF( PT_C_N_ANS_JOIN_PARTY,			PARTY_PACKET_BASE + 4 )// ��Ƽ���Կ�û�� �������� -> ����������	- ��Ƽ���� ���θ� �˸�
+PACKET_DEF( PT_N_C_NFY_JOIN_PARTY,			PARTY_PACKET_BASE + 5 )// ��Ƽ���鿡�� ���� ���� ������ �˷���
+PACKET_DEF( PT_N_C_ANS_JOIN_PARTY,			PARTY_PACKET_BASE + 6 )// ������������ ��Ƽ�����Ϸ��� �������� ����� �˸�
+
+PACKET_DEF( PT_C_N_REQ_LEAVE_PARTY,			PARTY_PACKET_BASE + 7 )// ��Ƽ��(��Ƽ������)�� ��Ƽ���� ������ ���� ��û
+PACKET_DEF( PT_N_M_NFY_DELETE_PARTY,		PARTY_PACKET_BASE + 8 )// ������������ �ʼ������� ��Ƽ�� ������ �뺸
+//PACKET_DEF( PT_N_M_NFY_JOIN_PARTY,		15009 )// ������������ �ʼ������� ��Ƽ���߰��� �˸� - ���� ��Ƽ��� ��Ƽ�� �����ϰ� �߰���Ŵ
+PACKET_DEF( PT_N_M_NFY_SYNC_PARTY_MEMBER,	PARTY_PACKET_BASE + 10 )// ������������ ��Ƽ����� ������ ��Ƽ����� ����ȭ��
+
+PACKET_DEF( PT_N_M_NFY_LEAVE_PARTY_USER,	PARTY_PACKET_BASE + 11 )// ��Ƽ������ �������� �ʿ��� �˷��ش� -> PT_N_M_NFY_SYNC_PARTY_MEMBER�� ��ü
+PACKET_DEF( PT_N_C_NFY_LEAVE_PARTY_USER,	PARTY_PACKET_BASE + 12 )// ��Ƽ������Ƽ���� �ٲ���ٸ� �ڿ� true �ְ� ��Ƽ�� �̸� ����	
+	
+PACKET_DEF( PT_N_C_NFY_PARTY_USER_MAP_MOVE,	PARTY_PACKET_BASE + 13 )// ��Ƽ������ ���̵��� ������ ��Ƽ���鿡�� �뺸 (�ʼ������� �˸��ʿ� ������)	
+PACKET_DEF( PT_N_M_NFY_PARTY_USER_MAP_MOVE, PARTY_PACKET_BASE + 14 )//
+
+PACKET_DEF( PT_N_C_NFY_PARTY_DESTROY,		PARTY_PACKET_BASE + 15 )
+PACKET_DEF( PT_C_N_REQ_PARTY_CHANGE_MASTER,	PARTY_PACKET_BASE + 16 )
+PACKET_DEF( PT_N_C_ANS_PARTY_CHANGE_MASTER, PARTY_PACKET_BASE + 17 )
+PACKET_DEF( PT_N_M_NFY_PARTY_CHANGE_MASTER, PARTY_PACKET_BASE + 18 )
+
+PACKET_DEF( PT_M_C_NFY_CHANGE_MEMBER_ABIL,	PARTY_PACKET_BASE + 19 )// ��Ƽ������ �ٲ� HP �� �뺸
+PACKET_DEF( PT_C_N_REQ_PARTY_CHANGE_OPTION,	PARTY_PACKET_BASE + 20 )// ��Ƽ �ɼ��� ���� ��û
+PACKET_DEF( PT_N_C_ANS_PARTY_CHANGE_OPTION,	PARTY_PACKET_BASE + 21 )// ��Ƽ �ɼ� ���� �뺸
+PACKET_DEF( PT_M_N_NFY_PARTY_USER_PROPERTY,	PARTY_PACKET_BASE + 22 )// �ٸ� �׶��忡 ����� �ִ� ����鿡�� ��� �˸������ؼ� �������� ����
+PACKET_DEF( PT_C_N_REQ_KICKOUT_PARTY_USER,	PARTY_PACKET_BASE + 23 )//Request kick user by CharGuid
+PACKET_DEF( PT_N_C_NFY_KICKOUT_PARTY_USER,	PARTY_PACKET_BASE + 24 )//Notify kick user
+PACKET_DEF( PT_M_C_NFY_PARTY_MEMBER_ITEM,	PARTY_PACKET_BASE + 25 )//��Ƽ�� ������ ������ �����ڰ� ���
+
+PACKET_DEF( PT_M_N_NFY_CHANGEABIL,			PARTY_PACKET_BASE + 26 )
+
+PACKET_DEF( PT_C_N_REQ_CREATE_PARTY,		PARTY_PACKET_BASE + 27 )//��Ƽ ����
+PACKET_DEF( PT_N_C_NFY_CREATE_PARTY,		PARTY_PACKET_BASE + 28 )
+PACKET_DEF( PT_C_M_REQ_PARTY_NAME,			PARTY_PACKET_BASE + 29 )//
+PACKET_DEF( PT_M_C_ANS_PARTY_NAME,			PARTY_PACKET_BASE + 30 )
+
+PACKET_DEF( PT_C_N_REQ_PARTY_RENAME,		PARTY_PACKET_BASE + 31 )
+PACKET_DEF( PT_N_C_ANS_PARTY_RENAME,		PARTY_PACKET_BASE + 32 )
+PACKET_DEF( PT_N_M_NFY_PARTY_RENAME,		PARTY_PACKET_BASE + 33 )
+PACKET_DEF( PT_M_C_NFY_PARTY_JOIN,			PARTY_PACKET_BASE + 34 )
+
+PACKET_DEF( PT_C_M_REQ_PARTY_LIST,			PARTY_PACKET_BASE + 35 )
+PACKET_DEF( PT_M_C_ANS_PARTY_LIST,			PARTY_PACKET_BASE + 36 )
+PACKET_DEF( PT_C_N_REQ_PARTY_RENAME_2ND,	PARTY_PACKET_BASE + 37 )
+
+PACKET_DEF( PT_C_N_REQ_JOIN_PARTY_2ND,		PARTY_PACKET_BASE + 38 )
+PACKET_DEF( PT_C_N_REQ_JOIN_PARTYFIND_2ND,	PARTY_PACKET_BASE + 39 )
+PACKET_DEF( PT_C_N_REQ_PARTY_CHANGE_MASTER_2ND,		PARTY_PACKET_BASE + 40 )
+PACKET_DEF( PT_C_N_ANS_JOIN_PARTY_2ND,		PARTY_PACKET_BASE + 41 )
+PACKET_DEF( PT_C_N_ANS_JOIN_PARTYFIND_2ND,	PARTY_PACKET_BASE + 42 )
+PACKET_DEF( PT_C_N_REQ_LEAVE_PARTY_2ND,		PARTY_PACKET_BASE + 43 )
+PACKET_DEF( PT_M_N_NFY_PARTY_USER_PROPERTY_2ND,		PARTY_PACKET_BASE + 44 )
+PACKET_DEF( PT_C_N_REQ_PARTY_CHANGE_OPTION_2ND,		PARTY_PACKET_BASE + 45 )
+PACKET_DEF( PT_C_N_REQ_CREATE_PARTY_2ND,	PARTY_PACKET_BASE + 46 )
+PACKET_DEF( PT_C_N_REQ_PARTY_RENAME_GM,		PARTY_PACKET_BASE + 47 )
+PACKET_DEF( PT_M_N_REQ_PARTY_COMMAND_2ND,	PARTY_PACKET_BASE + 48 )
+PACKET_DEF( PT_C_N_REQ_KICKOUT_PARTY_USER_2ND,		PARTY_PACKET_BASE + 49 )
+
+PACKET_DEF( PT_T_T_SYNC_USER_PARTY,			PARTY_PACKET_BASE + 50 )
+PACKET_DEF( PT_T_T_SYNC_USER_PARTY2,		PARTY_PACKET_BASE + 51 )
+
+PACKET_DEF( PT_C_T_ANS_JOIN_PARTYFIND_ITEM_CHECK,	PARTY_PACKET_BASE + 52 )
+PACKET_DEF( PT_T_M_ANS_JOIN_PARTYFIND_ITEM_CHECK,	PARTY_PACKET_BASE + 53 )
+PACKET_DEF( PT_M_T_ANS_JOIN_PARTYFIND_ITEM_CHECK,	PARTY_PACKET_BASE + 54 )
+PACKET_DEF( PT_M_C_ANS_JOIN_PARTYFIND_ITEM_CHECK,	PARTY_PACKET_BASE + 55 )
+PACKET_DEF( PT_T_T_ANS_JOIN_PARTYFIND_ITEM_CHECK,	PARTY_PACKET_BASE + 56 )
+
+PACKET_DEF( PT_M_N_REQ_PARTY_COMMAND,		PARTY_PACKET_BASE + 100 )
+PACKET_DEF( PT_N_M_ANS_PARTY_COMMAND,		PARTY_PACKET_BASE + 101 )
+
+PACKET_DEF( PT_C_N_REQ_JOIN_PARTYFIND,		PARTY_PACKET_BASE + 102 )// ���� -> ����������			- ��Ƽ ����/���� ��û
+PACKET_DEF( PT_N_C_REQ_JOIN_PARTYFIND,		PARTY_PACKET_BASE + 103 )// ���������� -> ��Ƽ��������	- ��Ƽ���� ��û 
+PACKET_DEF( PT_N_C_ANS_JOIN_PARTYFIND_TO_MASTER, PARTY_PACKET_BASE + 104 )// ���������� -> ��Ƽ��			- ��Ƽ ����/���� �� ���� <����>�� �˸�
+PACKET_DEF( PT_C_N_ANS_JOIN_PARTYFIND,		PARTY_PACKET_BASE + 105 )// ��Ƽ���Կ�û�� �������� -> ����������	- ��Ƽ���� ���θ� �˸�
+PACKET_DEF( PT_N_M_REQ_PARTY_BUFF,			PARTY_PACKET_BASE + 106 )
+PACKET_DEF( PT_M_T_REQ_PARTY_BUFF,			PARTY_PACKET_BASE + 107 )
+PACKET_DEF( PT_T_C_NFY_PARTY_MEMBER_MYHOME,	PARTY_PACKET_BASE + 108 )//��Ƽ���� ����Ȩ ���� ����
+
+PACKET_DEF(PT_C_M_REQ_SEARCH_PEOPLE_LIST,	15110 )
+PACKET_DEF(PT_M_C_ANS_SEARCH_PEOPLE_LIST,	15111 )
+
+PACKET_DEF(PT_N_T_WRAPPED_TO_SWITCH,		15120 )
+PACKET_DEF(PT_N_T_NFY_SELECT_CHARACTERS,	15121 )
+PACKET_DEF(PT_T_N_NFY_SELECT_CHARACTER_FAILED, 15122 )
+PACKET_DEF(PT_C_M_REQ_END_DAILYQUEST,		15123 )
+PACKET_DEF(PT_C_M_REQ_RANDOMQUEST_BUILD,	15124 )
+PACKET_DEF(PT_C_M_REQ_BEGIN_RANDOMQUEST,	15125 )
+PACKET_DEF(PT_C_M_REQ_END_RANDOMQUEST,		15126 )
+PACKET_DEF(PT_C_M_REQ_RANDOMTACTICSQUEST_BUILD,	15127 )
+
+PACKET_DEF(PT_C_M_REQ_WANTEDQUEST_BUILD,	15128 )
+PACKET_DEF(PT_C_M_REQ_BEGIN_WANTEDQUEST,	15129 )
+PACKET_DEF(PT_C_M_REQ_END_WANTEDQUEST,		15130 )
+
+PACKET_DEF(PT_IM_L_NFY_TERMINATE_USER,		15131)
+PACKET_DEF(PT_L_C_NFY_TERMINATE_USER,		15132)
+
+PACKET_DEF(PT_C_M_REQ_FIND_PARTY_USER_LIST, 15133)
+PACKET_DEF(PT_M_C_ANS_FIND_PARTY_USER_LIST, 15134)
+
+PACKET_DEF(PT_C_M_REQ_REGIST_PRIVATE_PARTY_FIND, 15135)
+PACKET_DEF(PT_M_C_ANS_REGIST_PRIVATE_PARTY_FIND, 15136)
+PACKET_DEF(PT_N_C_NFY_UNREGIST_PRIVATE, 15137)
+PACKET_DEF(PT_N_C_REQ_UNREGIST_PRIVATE, 15138)
+
+PACKET_DEF(PT_C_M_REQ_REGIST_PRIVATE_PARTY_FIND2ND, 15139)
+
+PACKET_DEF(PT_C_M_REQ_JOIN_PARTY_REFUSE, 15140)
+PACKET_DEF(PT_M_N_REQ_JOIN_PARTY_REFUSE, 15141)
+
+
+int const EXPEDITION_PACKET_BASE = 15600;
+PACKET_DEF(PT_C_N_REQ_CREATE_EXPEDITION,				EXPEDITION_PACKET_BASE)
+PACKET_DEF(PT_N_C_NFY_CREATE_EXPEDITION,				EXPEDITION_PACKET_BASE+1)
+PACKET_DEF(PT_N_C_ANS_CREATE_EXPEDITION,				EXPEDITION_PACKET_BASE+2)
+PACKET_DEF(PT_C_N_REQ_JOIN_EXPEDITION,					EXPEDITION_PACKET_BASE+3)	// 1. ������ �����뿡 ���� ��û.
+PACKET_DEF(PT_N_C_REQ_JOIN_EXPEDITION,					EXPEDITION_PACKET_BASE+4)	// 2. �������� �������忡�� ����.
+PACKET_DEF(PT_C_N_ANS_JOIN_EXPEDITION,					EXPEDITION_PACKET_BASE+5)	// 3. ���������� ���Լ������θ� ������ ����.
+PACKET_DEF(PT_N_C_ANS_JOIN_EXPEDITION,					EXPEDITION_PACKET_BASE+6)	// 4. ���������� ������ ���Կ�û�� �������� ����.
+PACKET_DEF(PT_N_C_NFY_JOIN_EXPEDITION,					EXPEDITION_PACKET_BASE+7)	// 5. ���ΰ����� ������ ������ ��������鿡�� �˸�.
+PACKET_DEF(PT_C_N_REQ_DISPERSE_EXPEDITION,				EXPEDITION_PACKET_BASE+8)	// ������ �ػ�
+PACKET_DEF(PT_N_C_NFY_DISPERSE_EXPEDITION,				EXPEDITION_PACKET_BASE+9)
+PACKET_DEF(PT_N_C_ANS_DISPERSE_EXPEDITION,				EXPEDITION_PACKET_BASE+10)
+PACKET_DEF(PT_C_N_REQ_LEAVE_EXPEDITION,					EXPEDITION_PACKET_BASE+11)	// ������ Ż��
+PACKET_DEF(PT_N_C_NFY_LEAVE_EXPEDITION,					EXPEDITION_PACKET_BASE+12)
+PACKET_DEF(PT_N_C_ANS_LEAVE_EXPEDITION,					EXPEDITION_PACKET_BASE+13)
+PACKET_DEF(PT_C_N_REQ_CHANGEMASTER_EXPEDITION,			EXPEDITION_PACKET_BASE+14)	// �������� ����
+PACKET_DEF(PT_N_C_NFY_CHANGEMASTER_EXPEDITION,			EXPEDITION_PACKET_BASE+15)
+PACKET_DEF(PT_N_C_ANS_CHANGEMASTER_EXPEDITION,			EXPEDITION_PACKET_BASE+16)
+PACKET_DEF(PT_C_N_REQ_LIST_EXPEDITION,					EXPEDITION_PACKET_BASE+17)	// ������ ����Ʈ
+PACKET_DEF(PT_N_C_NFY_LIST_EXPEDITION,					EXPEDITION_PACKET_BASE+18)
+PACKET_DEF(PT_N_C_ANS_LIST_EXPEDITION,					EXPEDITION_PACKET_BASE+19)
+PACKET_DEF(PT_C_N_REQ_RENAME_EXPEDITION,				EXPEDITION_PACKET_BASE+20)	// ������� ����
+PACKET_DEF(PT_N_C_NFY_RENAME_EXPEDITION,				EXPEDITION_PACKET_BASE+21)
+PACKET_DEF(PT_N_C_ANS_RENAME_EXPEDITION,				EXPEDITION_PACKET_BASE+22)
+PACKET_DEF(PT_C_N_REQ_INFO_EXPEDITION,					EXPEDITION_PACKET_BASE+23)	// ������ ����
+PACKET_DEF(PT_N_C_NFY_INFO_EXPEDITION,					EXPEDITION_PACKET_BASE+24)
+PACKET_DEF(PT_N_C_ANS_INFO_EXPEDITION,					EXPEDITION_PACKET_BASE+25)
+PACKET_DEF(PT_C_N_REQ_INVITE_EXPEDITION,				EXPEDITION_PACKET_BASE+26)	// 1. ������ �ʴ� ��û(�������� -> ����)
+PACKET_DEF(PT_N_C_REQ_INVITE_EXPEDITION,				EXPEDITION_PACKET_BASE+27)	// 2. ������ �ʴ� ���� ��û(���� -> �ʴ���� ����)
+PACKET_DEF(PT_C_N_ANS_INVITE_EXPEDITION,				EXPEDITION_PACKET_BASE+28)	// 3. ������ ���� ���� ����(���� -> ����)
+PACKET_DEF(PT_N_C_ANS_INVITE_EXPEDITION_TO_MASTER,		EXPEDITION_PACKET_BASE+29)	// 4. ������ �ʴ� �źν� ����(���� -> ��������)
+PACKET_DEF(PT_N_C_NFY_INVITE_EXPEDITION,				EXPEDITION_PACKET_BASE+30)	//
+PACKET_DEF(PT_N_C_ANS_INVITE_EXPEDITION,				EXPEDITION_PACKET_BASE+31)	//
+PACKET_DEF(PT_C_N_REQ_CHANGEOPTION_EXPEDITION,			EXPEDITION_PACKET_BASE+32)	// ������ɼ� ����
+PACKET_DEF(PT_N_C_NFY_CHANGEOPTION_EXPEDITION,			EXPEDITION_PACKET_BASE+33)
+PACKET_DEF(PT_N_C_ANS_CHANGEOPTION_EXPEDITION,			EXPEDITION_PACKET_BASE+34)
+PACKET_DEF(PT_C_N_REQ_KICKOUT_EXPEDITION,				EXPEDITION_PACKET_BASE+35)	// ������� �߹�
+PACKET_DEF(PT_N_C_NFY_KICKOUT_EXPEDITION,				EXPEDITION_PACKET_BASE+36)
+PACKET_DEF(PT_N_C_ANS_KICKOUT_EXPEDITION,				EXPEDITION_PACKET_BASE+37)
+PACKET_DEF(PT_C_N_REQ_TEAM_MOVE_EXPEDITION,				EXPEDITION_PACKET_BASE+38)	// ������ �� �̵�
+PACKET_DEF(PT_N_C_NFY_TEAM_MOVE_EXPEDITION,				EXPEDITION_PACKET_BASE+39)
+PACKET_DEF(PT_N_C_ANS_TEAM_MOVE_EXPEDITION,				EXPEDITION_PACKET_BASE+40)
+PACKET_DEF(PT_C_M_REQ_LIST_USER_EXPEDITION,				EXPEDITION_PACKET_BASE+41)	// ������ �ʴ� ���� ����Ʈ ��û
+PACKET_DEF(PT_M_C_NFY_LIST_USER_EXPEDITION,				EXPEDITION_PACKET_BASE+42)
+PACKET_DEF(PT_M_C_ANS_LIST_USER_EXPEDITION,				EXPEDITION_PACKET_BASE+43)
+
+PACKET_DEF(PT_C_N_REQ_EXIT_EXPEDITION_COMPLETE,			EXPEDITION_PACKET_BASE+47)	// ������ ���â���� ������
+PACKET_DEF(PT_N_C_NFY_EXIT_EXPEDITION_COMPLETE,			EXPEDITION_PACKET_BASE+48)
+PACKET_DEF(PT_N_C_ANS_EXIT_EXPEDITION_COMPLETE,			EXPEDITION_PACKET_BASE+49)
+PACKET_DEF(PT_M_C_NFY_EXPEDITION_JOIN,					EXPEDITION_PACKET_BASE+50)	// Ÿ���� ������ ����
+
+PACKET_DEF(PT_N_C_NFY_EXPEDITION_MODIFY_MEMBER_STATE,	EXPEDITION_PACKET_BASE+51)	// ��������� ���°� ������� Ŭ�� �˸�.
+PACKET_DEF(PT_M_N_NFY_EXPEDITION_MODIFY_MEMBER_STATE,	EXPEDITION_PACKET_BASE+52)	// ��������� ���°� ������� global manager�� �˸�.
+
+PACKET_DEF(PT_M_C_NFY_EXPEDITION_REMAIN_TIME,			EXPEDITION_PACKET_BASE+53)	// ���� �ð� ���� �˸�.
+PACKET_DEF(PT_M_C_NFY_EXPEDITION_LIMITED_TIME,			EXPEDITION_PACKET_BASE+54)	// �ð� �������� ���� ����.
+
+PACKET_DEF(PT_T_N_REQ_ADD_EXPEDITION_INFO,				EXPEDITION_PACKET_BASE+55)	// ������ ����Ʈ ���� �߰�.
+PACKET_DEF(PT_T_N_REQ_DEL_EXPEDITION_INFO,				EXPEDITION_PACKET_BASE+56)	// ������ ����Ʈ ���� ����.
+PACKET_DEF(PT_T_N_NFY_MODIFY_EXPEDITION_INFO,			EXPEDITION_PACKET_BASE+57)	// ������ ����Ʈ ���� ����.
+
+PACKET_DEF(PT_C_N_REQ_JOIN_EXPEDITION_BYLIST,			EXPEDITION_PACKET_BASE+58)	// ������ ����Ʈ�� ���� ������ ���� ��û.
+PACKET_DEF(PT_N_C_NFY_JOIN_EXPEDITION_BYLIST,			EXPEDITION_PACKET_BASE+59)
+PACKET_DEF(PT_C_N_ANS_JOIN_EXPEDITION_BYLIST,			EXPEDITION_PACKET_BASE+60)	// ���� ������ ����(����/����)
+PACKET_DEF(PT_N_C_ANS_JOIN_EXPEDITION_BYLIST,			EXPEDITION_PACKET_BASE+61)	// ���������� ������ ��û�ڿ��� �˸�.
+PACKET_DEF(PT_N_T_NFY_JOIN_EXPEDITION_BYLIST,			EXPEDITION_PACKET_BASE+62)	// ä���̵��� ������ �����뿡 ���Խ�Ŵ.
+PACKET_DEF(PT_N_M_NFY_JOIN_EXPEDITION_AWAITER,			EXPEDITION_PACKET_BASE+63)	// �����뿡 ������ ������ �ʿ� ��� ���ѵΰ�, �ʷε��� ������ �����뿡 ���Խ�Ŵ.
+
+PACKET_DEF(PT_M_T_NFY_MODIFY_EXPEDITION_OPTION,			EXPEDITION_PACKET_BASE+64)	// ������ã�� �������θ� ���ͼ����� �����뿡 �����Ѵ�.
+
+PACKET_DEF(PT_M_C_NFY_CHANGE_EXPEDITION_MEMBER_ABIL,	EXPEDITION_PACKET_BASE+65)	// ��������� HP/MP ��ȭ�� �˸�(PT_M_C_NFY_CHANGE_MEMBER_ABIL).
+PACKET_DEF(PT_T_T_REQ_CLEAR_JOIN_EXPEDITION_AWAITER,	EXPEDITION_PACKET_BASE+66)	// ������ ��Ŷ�� �ƴ�. Ÿ�̸ӿ��� �����ð����� ���Դ���� ������ ���� ���.
+
+PACKET_DEF(PT_C_M_REQ_REFRESH_NEED_ITEM_INFO,			EXPEDITION_PACKET_BASE+67)	// ������ ���� ������ ���� ���� ���� ��û.
+PACKET_DEF(PT_C_M_ANS_REFRESH_NEED_ITEM_INFO,			EXPEDITION_PACKET_BASE+68)	// ������ ���� ������ ���� ���� ���� ����.
+
+PACKET_DEF(PT_M_C_ANS_EXPEDITION_NAME,					EXPEDITION_PACKET_BASE+100)
+
+PACKET_DEF(PT_N_M_NFY_SYNC_EXPEDITION_MEMBER,			EXPEDITION_PACKET_BASE+101)	// Global Expedition ������ Local Expedition ������ Sync
+PACKET_DEF(PT_N_M_NFY_DELETE_EXPEDITION,				EXPEDITION_PACKET_BASE+102) // ���÷� ������ ���� �뺸.
+PACKET_DEF(PT_N_M_NFY_DISPERSE_EXPEDITION,				EXPEDITION_PACKET_BASE+103) // ������ �ػ� �뺸. �����밡 �ػ���� �ش� �ʿ� ��ε�ĳ������.
+PACKET_DEF(PT_N_M_NFY_CHANGEMASTER_EXPEDITION,			EXPEDITION_PACKET_BASE+104) // �������� ���� �뺸.
+PACKET_DEF(PT_N_M_NFY_RENAME_EXPEDITION,				EXPEDITION_PACKET_BASE+105) // ������ �̸� ���� �뺸.
+PACKET_DEF(PT_N_M_NFY_LEAVE_EXPEDITION,					EXPEDITION_PACKET_BASE+106) // �����뿡�� ���� ���� �뺸.
+
+PACKET_DEF(PT_M_L_TRY_LOGIN_CHANNELMAPMOVE,				EXPEDITION_PACKET_BASE+107) // ������� ä�η� �̵� ��û.
+PACKET_DEF(PT_M_C_TRY_LOGIN_CHANNELMAPMOVE,				EXPEDITION_PACKET_BASE+108)
+PACKET_DEF(PT_C_L_TRY_LOGIN_CHANNELMAPMOVE,				EXPEDITION_PACKET_BASE+109)
+PACKET_DEF(PT_M_C_NFY_LOGIN_CHANNELMAPMOVE,				EXPEDITION_PACKET_BASE+110)
+
+PACKET_DEF(PT_N_M_NFY_EXPEDITION_USER_MAP_MOVE,			EXPEDITION_PACKET_BASE+111) // ������� �� �̵�.
+
+PACKET_DEF(PT_C_M_REQ_NPC_ENTER_EXPEDITION,				EXPEDITION_PACKET_BASE+112) // NPC�� ���� ��������.
+PACKET_DEF(PT_M_C_ANS_NPC_ENTER_EXPEDITION,				EXPEDITION_PACKET_BASE+113) 
+PACKET_DEF(PT_M_C_NFY_NPC_ENTER_EXPEDITION,				EXPEDITION_PACKET_BASE+114) 
+
+unsigned short const CAPTUREMODE_PACKET_BASE = 15750; //��������� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_ALARM_MINIMAP,					CAPTUREMODE_PACKET_BASE)	// �̴ϸʿ� �˶� ǥ�ø� ��û�Ѵ�.
+PACKET_DEF(PT_M_C_NFY_ALARM_MINIMAP,					CAPTUREMODE_PACKET_BASE+1)	// �̴ϸʿ� �˶��� ǥ���Ѵ�.
+PACKET_DEF(PT_C_M_REQ_TRIGGER_ONENTER,					CAPTUREMODE_PACKET_BASE+2)	// �ڽ��� Ʈ���� ������ ���� �� �ʿ� �˸���.
+PACKET_DEF(PT_M_C_NFY_TRIGGER_ONENTER,					CAPTUREMODE_PACKET_BASE+3)
+PACKET_DEF(PT_C_M_REQ_TRIGGER_ONLEAVE,					CAPTUREMODE_PACKET_BASE+4)	// �ڽ��� Ʈ���� ������ ������ �� �ʿ� �˸���.
+PACKET_DEF(PT_M_C_NFY_TRIGGER_ONLEAVE,					CAPTUREMODE_PACKET_BASE+5)
+PACKET_DEF(PT_M_C_NFY_OCCUPY_POINT_SECTION_INFO,		CAPTUREMODE_PACKET_BASE+6)	// ��������Ʈ ���� ���� ����
+PACKET_DEF(PT_M_C_NFY_KOH_INSERT_GUARDIAN,				CAPTUREMODE_PACKET_BASE+7)	// ������ ��ϵ� ����� ����
+PACKET_DEF(PT_M_C_NFY_KTH_MESSAGE,						CAPTUREMODE_PACKET_BASE+8)	// ������ �޼��� ��Ŷ.
+
+unsigned short const LOVEMODE_PACKET_BASE = 15800; // ���� ��� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_SCORE_TRIGGER_ONENTER,			LOVEMODE_PACKET_BASE)	// ���ھ� Ʈ���ſ� �ö�.
+PACKET_DEF(PT_M_C_NFY_UPDATE_LOVE_FENCE,				LOVEMODE_PACKET_BASE+1)	// ��Ÿ�� �ı����� �˸�(Map->Client)
+PACKET_DEF(PT_M_M_NFY_BREAK_LOVE_FENCE,					LOVEMODE_PACKET_BASE+2)	// ��Ÿ���� �ı���. Ʈ���ſ� �˸�.(Map->Map)
+PACKET_DEF(PT_M_C_NFY_DISPLAY_DROPBEAR_TIMER,			LOVEMODE_PACKET_BASE+3)	// ���� ����Ǿ��� �� Ÿ�̸� ǥ�ø� ���� �˷���
+PACKET_DEF(PT_M_C_NFY_FOCUS_TOUCH_DOWN_USER,			LOVEMODE_PACKET_BASE+4)	// ���� ȹ�� �� ��, ���� �� ĳ���Ϳ� ī�޶� ����.
+
+unsigned short const DEFENCEMODE_PACKET_BASE = 15900; //���潺��� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_OPEN_DEFENCE_WINDOW,				DEFENCEMODE_PACKET_BASE)
+PACKET_DEF(PT_M_C_NFY_OPEN_DEFENCE_WINDOW,				DEFENCEMODE_PACKET_BASE+1)
+PACKET_DEF(PT_C_M_REQ_ENTER_DEFENCE,					DEFENCEMODE_PACKET_BASE+2)
+PACKET_DEF(PT_M_C_NFY_ENTER_DEFENCE,					DEFENCEMODE_PACKET_BASE+3)
+PACKET_DEF(PT_C_M_REQ_CANCLE_DEFENCE,					DEFENCEMODE_PACKET_BASE+4)
+PACKET_DEF(PT_M_C_NFY_CANCLE_DEFENCE,					DEFENCEMODE_PACKET_BASE+5)
+PACKET_DEF(PT_C_M_REQ_POINT_COPY,						DEFENCEMODE_PACKET_BASE+6)
+PACKET_DEF(PT_M_C_NFY_LOVEMODE_MESSAGE,					DEFENCEMODE_PACKET_BASE+7)
+
+// RESERVE : 16001 - 16100
+//	map -> Item �� ������ ��Ŷ
+unsigned short const PT_POST_BASE = 16001; //���� ���� �������� ����
+
+// ���� ���� 
+PACKET_DEF(PT_C_M_POST_REQ_MAIL_SEND,PT_POST_BASE+1)
+PACKET_DEF(PT_M_I_POST_REQ_MAIL_SEND,PT_POST_BASE+2)
+PACKET_DEF(PT_I_M_POST_ANS_MAIL_SEND,PT_POST_BASE+3)
+PACKET_DEF(PT_M_C_POST_ANS_MAIL_SEND,PT_POST_BASE+4)
+
+// ���� ���� 
+PACKET_DEF(PT_C_M_POST_REQ_MAIL_RECV,PT_POST_BASE+5)
+PACKET_DEF(PT_M_I_POST_REQ_MAIL_RECV,PT_POST_BASE+6)
+PACKET_DEF(PT_I_M_POST_ANS_MAIL_RECV,PT_POST_BASE+7)
+PACKET_DEF(PT_M_C_POST_ANS_MAIL_RECV,PT_POST_BASE+8)
+
+// ���� �б� 
+PACKET_DEF(PT_C_M_POST_REQ_MAIL_MODIFY,PT_POST_BASE+9)
+PACKET_DEF(PT_M_I_POST_REQ_MAIL_MODIFY,PT_POST_BASE+10)
+PACKET_DEF(PT_I_M_POST_ANS_MAIL_MODIFY,PT_POST_BASE+11)
+PACKET_DEF(PT_M_C_POST_ANS_MAIL_MODIFY,PT_POST_BASE+12)
+
+// ���� ���� ����
+PACKET_DEF(PT_I_M_POST_NOTI_NEW_MAIL,PT_POST_BASE+31)
+PACKET_DEF(PT_M_C_POST_NOTI_NEW_MAIL,PT_POST_BASE+32)
+
+// ���� ���� 
+PACKET_DEF(PT_C_M_POST_REQ_MAIL_MIN,PT_POST_BASE+33)
+PACKET_DEF(PT_M_I_POST_REQ_MAIL_MIN,PT_POST_BASE+34)
+PACKET_DEF(PT_I_M_POST_ANS_MAIL_MIN,PT_POST_BASE+35)
+PACKET_DEF(PT_M_C_POST_ANS_MAIL_MIN,PT_POST_BASE+36)
+
+// RESERVE : 16101 - 16200
+//	map -> Item �� ������ ��Ŷ
+unsigned short const PT_USER_MARKET_BASE = 16101; //���� ��� �������� ����
+
+//��� ��ǰ ���
+PACKET_DEF(PT_C_M_UM_REQ_ARTICLE_REG,PT_USER_MARKET_BASE+1)
+PACKET_DEF(PT_M_I_UM_REQ_ARTICLE_REG,PT_USER_MARKET_BASE+2)
+PACKET_DEF(PT_I_M_UM_ANS_ARTICLE_REG,PT_USER_MARKET_BASE+3)
+PACKET_DEF(PT_M_C_UM_ANS_ARTICLE_REG,PT_USER_MARKET_BASE+4)
+
+//��� ��� ��ǰ ���
+PACKET_DEF(PT_C_M_UM_REQ_ARTICLE_DEREG,PT_USER_MARKET_BASE+5)
+PACKET_DEF(PT_M_I_UM_REQ_ARTICLE_DEREG,PT_USER_MARKET_BASE+6)
+PACKET_DEF(PT_I_M_UM_ANS_ARTICLE_DEREG,PT_USER_MARKET_BASE+7)
+PACKET_DEF(PT_M_C_UM_ANS_ARTICLE_DEREG,PT_USER_MARKET_BASE+8)
+
+//���� ���� ��ȸ
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_QUERY,PT_USER_MARKET_BASE+9)
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_QUERY,PT_USER_MARKET_BASE+10)
+PACKET_DEF(PT_I_M_UM_ANS_MARKET_QUERY,PT_USER_MARKET_BASE+11)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_QUERY,PT_USER_MARKET_BASE+12)
+
+//��� ��ǰ ����
+PACKET_DEF(PT_C_M_UM_REQ_ARTICLE_BUY,PT_USER_MARKET_BASE+13)
+PACKET_DEF(PT_M_I_UM_REQ_ARTICLE_BUY,PT_USER_MARKET_BASE+14)
+PACKET_DEF(PT_I_M_UM_ANS_ARTICLE_BUY,PT_USER_MARKET_BASE+15)
+PACKET_DEF(PT_M_C_UM_ANS_ARTICLE_BUY,PT_USER_MARKET_BASE+16)
+
+//��� ���� ���� �б� (�д� ���ۿ��� ������ ���� �� �Ǹ� �ݾ� ������ ó���Ѵ�.)
+PACKET_DEF(PT_C_M_UM_REQ_DEALINGS_READ,PT_USER_MARKET_BASE+25)
+PACKET_DEF(PT_M_I_UM_REQ_DEALINGS_READ,PT_USER_MARKET_BASE+26)
+PACKET_DEF(PT_I_M_UM_ANS_DEALINGS_READ,PT_USER_MARKET_BASE+27)
+PACKET_DEF(PT_M_C_UM_ANS_DEALINGS_READ,PT_USER_MARKET_BASE+28)
+
+//��� ��ǰ ���ϰ� ��û
+PACKET_DEF(PT_C_M_UM_REQ_MINIMUM_COST_QUERY,PT_USER_MARKET_BASE+29)
+PACKET_DEF(PT_M_I_UM_REQ_MINIMUM_COST_QUERY,PT_USER_MARKET_BASE+30)
+PACKET_DEF(PT_I_M_UM_ANS_MINIMUM_COST_QUERY,PT_USER_MARKET_BASE+31)
+PACKET_DEF(PT_M_C_UM_ANS_MINIMUM_COST_QUERY,PT_USER_MARKET_BASE+32)
+
+//�� ��� ��ǰ ��ȸ
+PACKET_DEF(PT_C_M_UM_REQ_MY_MARKET_QUERY,PT_USER_MARKET_BASE+33)
+PACKET_DEF(PT_M_I_UM_REQ_MY_MARKET_QUERY,PT_USER_MARKET_BASE+34)
+PACKET_DEF(PT_I_M_UM_ANS_MY_MARKET_QUERY,PT_USER_MARKET_BASE+35)
+PACKET_DEF(PT_M_C_UM_ANS_MY_MARKET_QUERY,PT_USER_MARKET_BASE+36)
+
+//��� ��ǰ ���� �Ⱓ ���� ���� (�׽�Ʈ�� ��������)
+PACKET_DEF(PT_C_M_UM_DEV_REQ_SET_ARTICLE_STATE,PT_USER_MARKET_BASE+37)
+PACKET_DEF(PT_M_I_UM_DEV_REQ_SET_ARTICLE_STATE,PT_USER_MARKET_BASE+38)
+PACKET_DEF(PT_I_M_UM_DEV_ANS_SET_ARTICLE_STATE,PT_USER_MARKET_BASE+39)
+PACKET_DEF(PT_M_C_UM_DEV_ANS_SET_ARTICLE_STATE,PT_USER_MARKET_BASE+40)
+
+//���¸��� ����(���)
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_OPEN,PT_USER_MARKET_BASE+41)
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_OPEN,PT_USER_MARKET_BASE+42)
+PACKET_DEF(PT_I_M_UM_ANS_MARKET_OPEN,PT_USER_MARKET_BASE+43)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_OPEN,PT_USER_MARKET_BASE+44)
+
+//���¸��� ���� ���� (���� �ð� ����)
+PACKET_DEF(PT_C_M_UM_REQ_USE_MARKET_MODIFY_ITEM,PT_USER_MARKET_BASE+45)
+PACKET_DEF(PT_M_I_UM_REQ_USE_MARKET_MODIFY_ITEM,PT_USER_MARKET_BASE+46)
+PACKET_DEF(PT_M_C_UM_ANS_USE_MARKET_MODIFY_ITEM,PT_USER_MARKET_BASE+48)
+
+//���� ���� ��ǰ ��ȸ
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_ARTICLE_QUERY,PT_USER_MARKET_BASE+49)
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_ARTICLE_QUERY,PT_USER_MARKET_BASE+50)
+PACKET_DEF(PT_I_M_UM_ANS_MARKET_ARTICLE_QUERY,PT_USER_MARKET_BASE+51)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_ARTICLE_QUERY,PT_USER_MARKET_BASE+52)
+
+//���¸��� ���� ���� (�Ǹ� ����/����)
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_MODIFY_STATE,PT_USER_MARKET_BASE+53)
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_MODIFY_STATE,PT_USER_MARKET_BASE+54)
+PACKET_DEF(PT_I_M_UM_ANS_MARKET_MODIFY_STATE,PT_USER_MARKET_BASE+55)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_MODIFY_STATE,PT_USER_MARKET_BASE+56)
+
+//���¸��� ����
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_ENTER,PT_USER_MARKET_BASE+57)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_ENTER,PT_USER_MARKET_BASE+58)
+//���¸��� ������
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_EXIT,PT_USER_MARKET_BASE+59)
+
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_ENTER,PT_USER_MARKET_BASE+60)
+
+PACKET_DEF(PT_C_M_UM_REQ_MARKET_CLOSE,PT_USER_MARKET_BASE+61)
+PACKET_DEF(PT_M_I_UM_REQ_MARKET_CLOSE,PT_USER_MARKET_BASE+62)
+PACKET_DEF(PT_M_C_UM_ANS_MARKET_CLOSE,PT_USER_MARKET_BASE+63)
+
+PACKET_DEF(PT_C_M_UM_REQ_BEST_MARKET_LIST,PT_USER_MARKET_BASE+64)
+PACKET_DEF(PT_M_I_UM_REQ_BEST_MARKET_LIST,PT_USER_MARKET_BASE+65)
+PACKET_DEF(PT_M_C_UM_ANS_BEST_MARKET_LIST,PT_USER_MARKET_BASE+66)
+
+// Dealing Send Packet
+PACKET_DEF(PT_M_C_UM_ANS_MY_MARKET_DEALING_QUERY,PT_USER_MARKET_BASE+67)
+
+//���� �����
+PACKET_DEF(PT_C_M_REQ_VENDOR_CREATE,PT_USER_MARKET_BASE+68)
+PACKET_DEF(PT_C_M_REQ_VENDOR_RENAME,PT_USER_MARKET_BASE+69)
+PACKET_DEF(PT_C_M_REQ_VENDOR_DELETE,PT_USER_MARKET_BASE+70)
+PACKET_DEF(PT_C_M_REQ_VENDOR_STATE,PT_USER_MARKET_BASE+71)
+PACKET_DEF(PT_M_C_ANS_VENDOR_STATE,PT_USER_MARKET_BASE+72)
+PACKET_DEF(PT_M_C_NFY_VENDOR_STATE,PT_USER_MARKET_BASE+73)
+//�� ���� ��ȸ
+PACKET_DEF(PT_C_M_UM_REQ_MY_VENDOR_QUERY,PT_USER_MARKET_BASE+74)
+PACKET_DEF(PT_M_I_UM_REQ_MY_VENDOR_QUERY,PT_USER_MARKET_BASE+75)
+PACKET_DEF(PT_I_M_UM_REQ_MY_VENDOR_QUERY,PT_USER_MARKET_BASE+76)
+PACKET_DEF(PT_M_C_UM_ANS_MY_VENDOR_QUERY,PT_USER_MARKET_BASE+77)
+//���� ��ǰ ����
+PACKET_DEF(PT_C_M_UM_REQ_VENDOR_REFRESH_QUERY,PT_USER_MARKET_BASE+78)
+PACKET_DEF(PT_M_I_UM_REQ_VENDOR_REFRESH_QUERY,PT_USER_MARKET_BASE+79)
+PACKET_DEF(PT_I_M_UM_NFY_VENDOR_REFRESH_QUERY,PT_USER_MARKET_BASE+80)
+PACKET_DEF(PT_M_C_UM_NFY_VENDOR_REFRESH_QUERY,PT_USER_MARKET_BASE+81)
+//���� ����
+PACKET_DEF(PT_C_M_UM_REQ_VENDOR_ENTER,PT_USER_MARKET_BASE+82)
+PACKET_DEF(PT_M_I_UM_REQ_VENDOR_ENTER,PT_USER_MARKET_BASE+83)
+PACKET_DEF(PT_I_M_UM_ANS_VENDOR_ENTER,PT_USER_MARKET_BASE+84)
+PACKET_DEF(PT_M_C_UM_ANS_VENDOR_ENTER,PT_USER_MARKET_BASE+85)
+//���� ������
+PACKET_DEF(PT_C_M_UM_REQ_VENDOR_EXIT,PT_USER_MARKET_BASE+86)
+PACKET_DEF(PT_M_C_UM_ANS_VENDOR_EXIT,PT_USER_MARKET_BASE+87)
+
+// RESERVE : 16201 - 16300
+//	map -> Item �� ������ ��Ŷ
+unsigned short const PT_CASH_SHOP_BASE = 16201; //ĳ���� �������� ����
+
+PACKET_DEF(PT_I_M_CS_NOTI_CASH_MODIFY,PT_CASH_SHOP_BASE+1)
+PACKET_DEF(PT_M_C_CS_NOTI_CASH_MODIFY,PT_CASH_SHOP_BASE+2)
+
+PACKET_DEF(PT_I_M_CS_NOTI_CASH_MODIFY_NC, PT_CASH_SHOP_BASE+3)
+PACKET_DEF(PT_M_C_CS_NOTI_CASH_MODIFY_NC,PT_CASH_SHOP_BASE+4)
+
+//ĳ���� ������ ���� ��û
+PACKET_DEF(PT_C_M_CS_REQ_BUY_ARTICLE,PT_CASH_SHOP_BASE+5)
+PACKET_DEF(PT_M_I_CS_REQ_BUY_ARTICLE,PT_CASH_SHOP_BASE+6)
+PACKET_DEF(PT_I_M_CS_ANS_BUY_ARTICLE,PT_CASH_SHOP_BASE+7)
+PACKET_DEF(PT_M_C_CS_ANS_BUY_ARTICLE,PT_CASH_SHOP_BASE+8)
+
+//ĳ���� ������ �Ǹ� ��û
+PACKET_DEF(PT_C_M_CS_REQ_SEL_ARTICLE,PT_CASH_SHOP_BASE+9)
+PACKET_DEF(PT_M_I_CS_REQ_SEL_ARTICLE,PT_CASH_SHOP_BASE+10)
+PACKET_DEF(PT_I_M_CS_ANS_SEL_ARTICLE,PT_CASH_SHOP_BASE+11)
+PACKET_DEF(PT_M_C_CS_ANS_SEL_ARTICLE,PT_CASH_SHOP_BASE+12)
+
+//ĳ���� ������ ���� ��û
+PACKET_DEF(PT_C_M_CS_REQ_SEND_GIFT,PT_CASH_SHOP_BASE+13)
+PACKET_DEF(PT_M_I_CS_REQ_SEND_GIFT,PT_CASH_SHOP_BASE+14)
+PACKET_DEF(PT_I_M_CS_ANS_SEND_GIFT,PT_CASH_SHOP_BASE+15)
+PACKET_DEF(PT_M_C_CS_ANS_SEND_GIFT,PT_CASH_SHOP_BASE+16)
+
+//ĳ���� ����
+PACKET_DEF(PT_C_M_CS_REQ_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+17)
+PACKET_DEF(PT_M_I_CS_REQ_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+18)
+PACKET_DEF(PT_I_M_CS_ANS_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+19)
+PACKET_DEF(PT_M_C_CS_ANS_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+20)
+
+//ĳ���� ���� ���� ��û
+PACKET_DEF(PT_C_M_CS_REQ_RECV_GIFT,PT_CASH_SHOP_BASE+21)
+PACKET_DEF(PT_M_I_CS_REQ_RECV_GIFT,PT_CASH_SHOP_BASE+22)
+PACKET_DEF(PT_I_M_CS_ANS_RECV_GIFT,PT_CASH_SHOP_BASE+23)
+PACKET_DEF(PT_M_C_CS_ANS_RECV_GIFT,PT_CASH_SHOP_BASE+24)
+
+//ĳ���� ��ŷ ���� ��û
+PACKET_DEF(PT_C_M_CS_REQ_MODIFY_VISABLE_RANK,PT_CASH_SHOP_BASE+25)
+PACKET_DEF(PT_M_I_CS_REQ_MODIFY_VISABLE_RANK,PT_CASH_SHOP_BASE+26)
+PACKET_DEF(PT_I_M_CS_ANS_MODIFY_VISABLE_RANK,PT_CASH_SHOP_BASE+27)
+PACKET_DEF(PT_M_C_CS_ANS_MODIFY_VISABLE_RANK,PT_CASH_SHOP_BASE+28)
+
+//ĳ���� ������
+PACKET_DEF(PT_C_M_CS_REQ_EXIT_CASHSHOP,PT_CASH_SHOP_BASE+29)
+PACKET_DEF(PT_M_I_CS_REQ_EXIT_CASHSHOP,PT_CASH_SHOP_BASE+30)
+PACKET_DEF(PT_I_M_CS_ANS_EXIT_CASHSHOP,PT_CASH_SHOP_BASE+31)
+PACKET_DEF(PT_M_C_CS_ANS_EXIT_CASHSHOP,PT_CASH_SHOP_BASE+32)
+
+//ĳ�� ������ �ð� ����
+PACKET_DEF(PT_C_M_CS_REQ_ADD_TIMELIMIT,PT_CASH_SHOP_BASE+33)
+PACKET_DEF(PT_M_I_CS_REQ_ADD_TIMELIMIT,PT_CASH_SHOP_BASE+34)
+PACKET_DEF(PT_M_C_CS_ANS_ADD_TIMELIMIT,PT_CASH_SHOP_BASE+35)
+
+// ĳ�� ���� ���� ��û
+PACKET_DEF(PT_C_M_CS_REQ_LAST_RECVED_GIFT,PT_CASH_SHOP_BASE+36)
+PACKET_DEF(PT_M_I_CS_REQ_LAST_RECVED_GIFT,PT_CASH_SHOP_BASE+37)
+PACKET_DEF(PT_I_M_CS_ANS_LAST_RECVED_GIFT,PT_CASH_SHOP_BASE+38)
+PACKET_DEF(PT_M_C_CS_ANS_LAST_RECVED_GIFT,PT_CASH_SHOP_BASE+39)
+
+// ĳ�ñ��� ����(�ƹ��������� ĳ�ü� ���� ������ ����)
+PACKET_DEF(PT_C_M_CS_REQ_SIMPLE_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+40)
+PACKET_DEF(PT_C_M_CS_REQ_SIMPLE_EXIT_CASHSHOP,PT_CASH_SHOP_BASE+41)
+PACKET_DEF(PT_C_M_CS_REQ_SIMPLE_BUY_ARTICLE,PT_CASH_SHOP_BASE+42)
+PACKET_DEF(PT_C_M_CS_REQ_SIMPLE_ADD_TIMELIMIT,PT_CASH_SHOP_BASE+43)
+PACKET_DEF(PT_M_I_CS_REQ_SIMPLE_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+44)
+PACKET_DEF(PT_M_C_CS_ANS_SIMPLE_ENTER_CASHSHOP,PT_CASH_SHOP_BASE+45)
+
+// ĳ���� ������(�� ����)
+PACKET_DEF(PT_M_C_CS_ANS_EXIT_CASHSHOP_UNLOCK,PT_CASH_SHOP_BASE+46)
+
+// ĳ���� �����Ǹ� ������ ����
+PACKET_DEF(PT_N_C_ANS_CASHSHOP_LIMIT_ITEM_INFO,PT_CASH_SHOP_BASE+47)
+
+
+unsigned short const PT_ITEM_ACTION_BIND = 16260; //���ε� ������ ���
+
+PACKET_DEF(PT_C_M_REQ_ITEM_ACTION_BIND,PT_ITEM_ACTION_BIND+1)
+PACKET_DEF(PT_M_C_ANS_ITEM_ACTION_BIND,PT_ITEM_ACTION_BIND+2)
+
+PACKET_DEF(PT_C_M_REQ_ITEM_ACTION_UNBIND,PT_ITEM_ACTION_BIND+3)
+PACKET_DEF(PT_M_C_ANS_ITEM_ACTION_UNBIND,PT_ITEM_ACTION_BIND+4)
+
+unsigned short const PT_ITEM_ACTION_INVEXTEND = 16270; //�κ��丮 Ȯ��
+
+PACKET_DEF(PT_C_M_REQ_INVENTORY_EXTEND,PT_ITEM_ACTION_INVEXTEND+1)
+PACKET_DEF(PT_M_C_ANS_INVENTORY_EXTEND,PT_ITEM_ACTION_INVEXTEND+2)
+
+PACKET_DEF(PT_C_M_REQ_INVENTORY_EXTENDIDX,PT_ITEM_ACTION_INVEXTEND+3)
+PACKET_DEF(PT_M_C_ANS_INVENTORY_EXTENDIDX,PT_ITEM_ACTION_INVEXTEND+4)
+
+unsigned short const PT_GENERIC_ACHIEVEMENT_BASE = 16280; //���� �������� ����
+PACKET_DEF(PT_M_C_NFY_GENERIC_ACHIEVEMENT_NOTICE, PT_GENERIC_ACHIEVEMENT_BASE+1);
+PACKET_DEF(PT_M_N_NFY_GENERIC_ACHIEVEMENT_NOTICE, PT_GENERIC_ACHIEVEMENT_BASE+2);
+
+unsigned short const PT_ACHIEVEMENT_BASE = 16300; //���� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_ACHIEVEMENT_TO_ITEM,PT_ACHIEVEMENT_BASE+1);
+PACKET_DEF(PT_M_I_REQ_ACHIEVEMENT_TO_ITEM,PT_ACHIEVEMENT_BASE+2);
+PACKET_DEF(PT_M_C_ANS_ACHIEVEMENT_TO_ITEM,PT_ACHIEVEMENT_BASE+3);
+PACKET_DEF(PT_M_C_NOTI_ACHIEVEMENT_COMPLETE_FIRST,PT_ACHIEVEMENT_BASE+4);
+
+PACKET_DEF(PT_C_M_REQ_ACHIEVEMENT_RANK,PT_ACHIEVEMENT_BASE+5);
+PACKET_DEF(PT_M_I_REQ_ACHIEVEMENT_RANK,PT_ACHIEVEMENT_BASE+6);
+PACKET_DEF(PT_M_C_ANS_ACHIEVEMENT_RANK,PT_ACHIEVEMENT_BASE+7);
+
+PACKET_DEF(PT_N_M_REQ_COMPLETEACHIEVEMENT,PT_ACHIEVEMENT_BASE+8);
+
+unsigned short const PT_USER_MAP_MOVE_BASE = 16310; //���� �̵� ������ ��� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_USER_MAP_MOVE,PT_USER_MAP_MOVE_BASE+1);
+PACKET_DEF(PT_M_C_ANS_USER_MAP_MOVE,PT_USER_MAP_MOVE_BASE+2);
+
+unsigned short const PT_MOVETOPARTYMEMBER_BASE = 16320; //��Ƽ�����Է� �̵� ������ ��� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_MOVETOPARTYMEMBER,PT_MOVETOPARTYMEMBER_BASE+1);
+PACKET_DEF(PT_M_C_ANS_MOVETOPARTYMEMBER,PT_MOVETOPARTYMEMBER_BASE+2);
+
+PACKET_DEF(PT_M_T_REQ_PARTYMEMBERPOS,PT_MOVETOPARTYMEMBER_BASE+3);
+PACKET_DEF(PT_T_M_REQ_PARTYMEMBERPOS,PT_MOVETOPARTYMEMBER_BASE+4);
+PACKET_DEF(PT_M_T_ANS_PARTYMEMBERPOS,PT_MOVETOPARTYMEMBER_BASE+5);
+PACKET_DEF(PT_T_M_ANS_PARTYMEMBERPOS,PT_MOVETOPARTYMEMBER_BASE+6);
+
+unsigned short const PT_RENTALSAFE_BASE = 16330; // �ݰ� Ȯ�� �������� ����
+
+PACKET_DEF(PT_C_M_REQ_RENTALSAFE_EXTEND,PT_RENTALSAFE_BASE+1);
+PACKET_DEF(PT_M_C_ANS_RENTALSAFE_EXTEND,PT_RENTALSAFE_BASE+2);
+
+unsigned short const PT_SUMMONPARTYMEMBER_BASE = 16340; 
+
+PACKET_DEF(PT_C_M_REQ_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+1); // client -> map
+PACKET_DEF(PT_M_T_REQ_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+2); // map -> center
+PACKET_DEF(PT_T_M_REQ_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+3); // center -> client
+PACKET_DEF(PT_M_C_REQ_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+4); // center -> client
+
+PACKET_DEF(PT_M_T_ANS_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+5); // client -> map
+PACKET_DEF(PT_T_M_ANS_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+6); // client -> map
+PACKET_DEF(PT_M_C_ANS_SUMMONPARTYMEMBER,PT_SUMMONPARTYMEMBER_BASE+7); // client -> map
+
+PACKET_DEF(PT_C_M_REQ_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+8); // client -> map
+PACKET_DEF(PT_M_T_REQ_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+9); // client -> map
+PACKET_DEF(PT_T_M_REQ_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+10); // client -> map
+PACKET_DEF(PT_M_T_ANS_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+11); // client -> map
+PACKET_DEF(PT_T_M_ANS_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+12); // client -> map
+PACKET_DEF(PT_M_C_ANS_MOVETOSUMMONER,PT_SUMMONPARTYMEMBER_BASE+13); // client -> map
+
+unsigned short const PT_OXQUIZEVENT_BASE = 16400; 
+
+PACKET_DEF(PT_M_C_REQ_OXQUIZ_JOIN,PT_OXQUIZEVENT_BASE+1); // ���� -> Ŭ�� OX ���� ���� ��û
+
+PACKET_DEF(PT_C_M_REQ_OXQUIZ_ENTER,PT_OXQUIZEVENT_BASE+2); // Ŭ�� -> ���� OX ���� ���� ��û
+PACKET_DEF(PT_M_I_REQ_OXQUIZ_ENTER,PT_OXQUIZEVENT_BASE+3); // client -> map
+PACKET_DEF(PT_M_C_ANS_OXQUIZ_ENTER,PT_OXQUIZEVENT_BASE+20); // client -> map
+
+PACKET_DEF(PT_C_M_REQ_OXQUIZ_EXIT,PT_OXQUIZEVENT_BASE+4); // Ŭ�� -> ���� ���� ������
+PACKET_DEF(PT_M_I_REQ_OXQUIZ_EXIT,PT_OXQUIZEVENT_BASE+5); // client -> map
+PACKET_DEF(PT_M_C_ANS_OXQUIZ_EXIT,PT_OXQUIZEVENT_BASE+6); // client -> map
+
+PACKET_DEF(PT_M_C_REQ_OXQUIZ_REQ_QUIZ,PT_OXQUIZEVENT_BASE+7); // OX ���� ����
+PACKET_DEF(PT_C_M_REQ_OXQUIZ_ANS_QUIZ,PT_OXQUIZEVENT_BASE+8); // ���� ��� �ϱ�
+PACKET_DEF(PT_M_I_REQ_OXQUIZ_ANS_QUIZ,PT_OXQUIZEVENT_BASE+9); // client -> map
+PACKET_DEF(PT_M_C_ANS_OXQUIZ_ANS_QUIZ,PT_OXQUIZEVENT_BASE+10); // client -> map
+
+PACKET_DEF(PT_M_C_NOTI_OXQUIZ_OPEN,PT_OXQUIZEVENT_BASE+11); // OX ���� �� ���� �뺸
+PACKET_DEF(PT_M_C_NOTI_OXQUIZ_LOCK,PT_OXQUIZEVENT_BASE+12); // OX ���� �� �ݱ� �뺸
+PACKET_DEF(PT_M_C_NOTI_OXQUIZ_RESULT,PT_OXQUIZEVENT_BASE+13); // OX ���� ��� �뺸
+PACKET_DEF(PT_M_C_NOTI_OXQUIZ_CLOSE,PT_OXQUIZEVENT_BASE+14); // OX ���� �� �ݱ� �뺸
+PACKET_DEF(PT_I_M_NOTI_OXQUIZ_NOTI,PT_OXQUIZEVENT_BASE+15); // OX ���� ����
+
+PACKET_DEF(PT_M_I_GMCMD_OXQUIZ_OPEN,PT_OXQUIZEVENT_BASE+16); // OX ���� ������ ����
+PACKET_DEF(PT_M_I_GMCMD_OXQUIZ_STEP,PT_OXQUIZEVENT_BASE+17); // OX ���� ���� �ܰ� �̵�
+
+PACKET_DEF(PT_REQ_GMCMD_OXQUIZ_RELOAD,PT_OXQUIZEVENT_BASE+18); // OX ���� ���̺� �ٽ� �ε�
+PACKET_DEF(PT_ANS_GMCMD_OXQUIZ_RELOAD,PT_OXQUIZEVENT_BASE+19); // OX ���� ���̺� �ٽ� �ε�
+
+unsigned short const PT_M_I_POST_SYSTEM_MAIL = 16450; 
+unsigned short const PT_I_M_MACRO_CHECK_TABLE_SYNC = 16451;
+
+unsigned short const PT_MACRO_BASE = 16500;
+
+PACKET_DEF(PT_M_C_NOTI_MACRO_INPUT_PASSWORD,PT_MACRO_BASE+1); // ��ũ�� ��ȣ �Է� �䱸â
+PACKET_DEF(PT_C_M_REQ_MACRO_INPUT_PASSWORD,PT_MACRO_BASE+2); // ��ũ�� ��ȣ �Է�
+PACKET_DEF(PT_M_C_ANS_MACRO_INPUT_PASSWORD,PT_MACRO_BASE+3); // ��ũ�� ��ȣ �Է� ���
+
+unsigned short const PT_HACKING_BASE = 16550;
+
+PACKET_DEF(PT_C_M_NOTI_DETECTION_HACKING,PT_HACKING_BASE+1);	// Ŭ���̾�Ʈ ��ü ��ŷ üũ �뺸
+PACKET_DEF(PT_C_M_NFY_HACKSHIELD_CALLBACK,PT_HACKING_BASE+2);	// �ٽǵ� �˸� �޽���(�α׿�)
+
+unsigned short const PT_CONSTELLATION_BASE = 16600;
+
+PACKET_DEF(PT_C_M_REQ_ENTER_CONSTELLATION, PT_CONSTELLATION_BASE+1);			// ���� ��û
+PACKET_DEF(PT_M_C_NFY_ENTER_CONSTELLATION, PT_CONSTELLATION_BASE+2);			// ���� ��û ��� �˸�
+PACKET_DEF(PT_C_M_REQ_CONSTELLATION_MISSION, PT_CONSTELLATION_BASE+3);			// ���� �ӹ� ����Ʈ ��û
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_MISSION, PT_CONSTELLATION_BASE+4);			// Ŭ���̾�Ʈ�� ���� �ӹ� �˸�
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_MODIFY_MISSION, PT_CONSTELLATION_BASE+5);	// Ŭ���̾�Ʈ�� ���� �ӹ� ������� �˸�
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_MISSION_FAIL, PT_CONSTELLATION_BASE+6);		// ���ڸ� �̼� ����
+PACKET_DEF(PT_C_M_REQ_ENTER_CONSTELLATION_BOSS, PT_CONSTELLATION_BASE+7);		// ������ ���� ��û
+PACKET_DEF(PT_C_M_REQ_CONSTELLATION_PARTY_LIST, PT_CONSTELLATION_BASE+8);		// ������ ������ �ִ� ��Ƽ ����Ʈ ��û
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_RESULT_WAIT, PT_CONSTELLATION_BASE+10);		// ������ �Ϸ� �Ǿ����� �˸� (�����, ���ð� ����)
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_RESULT, PT_CONSTELLATION_BASE+11);			// �ʼ����� ������+�������� ������ ���� ��� �뺸
+PACKET_DEF(PT_C_M_REQ_CONSTELLATION_CASH_REWARD, PT_CONSTELLATION_BASE+12);		// �߰����� ������ ���� ��û (�����)
+PACKET_DEF(PT_M_C_NFY_CONSTELLATION_CASH_REWARD, PT_CONSTELLATION_BASE+13);		// �߰����� ������ ���� ��� �뺸
+PACKET_DEF(PT_C_M_REQ_CONSTELLATION_CASH_REWARD_COMPLETE, PT_CONSTELLATION_BASE+14);		// �߰����� ������ ���� ��û (���� ����)
+
+PACKET_DEF(PT_M_C_ANS_STEPBYSTEP_QUEST, 16699);		// STEPBYSTEP Ÿ�� ����Ʈ�� �ܰ������� �������� �ʾ��� �� �ý��۸޽��� ����
+
+unsigned short const PT_CHARACTER_CARD_BASE = 16960;
+
+PACKET_DEF(PT_C_M_REQ_CREATE_CHARACTER_CARD,PT_CHARACTER_CARD_BASE+1);	// ĳ���� ī�� ���� ��û
+PACKET_DEF(PT_M_C_ANS_CREATE_CHARACTER_CARD,PT_CHARACTER_CARD_BASE+2);	// ĳ���� ī�� ���� ��û
+
+PACKET_DEF(PT_C_M_REQ_MODIFY_CHARACTER_CARD,PT_CHARACTER_CARD_BASE+3);	// ĳ���� ī�� ���� ��û
+PACKET_DEF(PT_M_C_ANS_MODIFY_CHARACTER_CARD,PT_CHARACTER_CARD_BASE+4);	// ĳ���� ī�� ���� ��û
+
+PACKET_DEF(PT_C_M_REQ_MODIFY_CHARACTER_CARD_COMMENT,PT_CHARACTER_CARD_BASE+5);	// ĳ���� ī�� ���� ��û
+PACKET_DEF(PT_M_C_ANS_MODIFY_CHARACTER_CARD_COMMENT,PT_CHARACTER_CARD_BASE+6);	// ĳ���� ī�� ���� ��û
+
+PACKET_DEF(PT_C_M_REQ_RECOMMEND_CHARACTER,PT_CHARACTER_CARD_BASE+7);	// ĳ���� ��õ ��û
+PACKET_DEF(PT_M_C_ANS_RECOMMEND_CHARACTER,PT_CHARACTER_CARD_BASE+8);	// ĳ���� ��õ ��û
+
+PACKET_DEF(PT_C_M_REQ_MODIFY_CHARACTER_CARD_STATE,PT_CHARACTER_CARD_BASE+9);	// ĳ���� ī�� ���� ����(0:��Ȱ�� 1:Ȱ��)
+PACKET_DEF(PT_M_C_ANS_MODIFY_CHARACTER_CARD_STATE,PT_CHARACTER_CARD_BASE+10);	
+
+PACKET_DEF(PT_C_M_REQ_CHARACTER_CARD_INFO,PT_CHARACTER_CARD_BASE+11);	// ĳ���� ī�� ���� ��û
+PACKET_DEF(PT_M_I_REQ_CHARACTER_CARD_INFO,PT_CHARACTER_CARD_BASE+12);	// ĳ���� ī�� ���� ��û
+PACKET_DEF(PT_M_C_ANS_CHARACTER_CARD_INFO,PT_CHARACTER_CARD_BASE+13);	
+
+PACKET_DEF(PT_C_M_REQ_SEARCH_MATCH_CARD,PT_CHARACTER_CARD_BASE+14);	
+PACKET_DEF(PT_M_I_REQ_SEARCH_MATCH_CARD,PT_CHARACTER_CARD_BASE+15);	
+PACKET_DEF(PT_M_C_ANS_SEARCH_MATCH_CARD,PT_CHARACTER_CARD_BASE+16);	
+
+PACKET_DEF(PT_M_C_NOTI_CREATE_CARD,PT_CHARACTER_CARD_BASE+17);	
+PACKET_DEF(PT_M_C_NFY_CARD_REFRESH_ABIL, PT_CHARACTER_CARD_BASE+18);
+
+unsigned short const PT_EVENT_BASE = 17000;
+
+PACKET_DEF(PT_C_M_TRY_TAKE_COUPON,	PT_EVENT_BASE+1 )// ���� �߱�
+PACKET_DEF(PT_M_N_TRY_TAKE_COUPON,	PT_EVENT_BASE+2 )// ���� �䱸 ����Ī.
+PACKET_DEF(PT_N_M_ANS_TAKE_COUPON,	PT_EVENT_BASE+3 )// ���� �߱ް��
+PACKET_DEF(PT_M_C_TRY_TAKE_COUPON,	PT_EVENT_BASE+4 )// ���� �䱸 ����Ī.
+
+unsigned short const PT_USER_PORTAL_BASE = 17100;
+
+PACKET_DEF(PT_C_M_REQ_REG_PORTAL,	PT_USER_PORTAL_BASE+1)// ��Ż ����
+PACKET_DEF(PT_M_C_ANS_REG_PORTAL,	PT_USER_PORTAL_BASE+2)
+
+PACKET_DEF(PT_C_M_REQ_USE_PORTAL,	PT_USER_PORTAL_BASE+3)// ��Ż ���
+PACKET_DEF(PT_M_C_ANS_USE_PORTAL,	PT_USER_PORTAL_BASE+4)
+
+unsigned short const PT_SOCKET_BASE = 17105;
+
+PACKET_DEF(PT_C_M_REQ_GEN_SOCKET,	PT_SOCKET_BASE+1)
+PACKET_DEF(PT_M_C_ANS_GEN_SOCKET,	PT_SOCKET_BASE+2)
+
+PACKET_DEF(PT_C_M_REQ_SET_MONSTERCARD,	PT_SOCKET_BASE+3)
+PACKET_DEF(PT_M_C_ANS_SET_MONSTERCARD,	PT_SOCKET_BASE+4)
+
+PACKET_DEF(PT_C_M_REQ_RESET_MONSTERCARD,	PT_SOCKET_BASE+5)
+PACKET_DEF(PT_M_C_ANS_RESET_MONSTERCARD,	PT_SOCKET_BASE+6)
+
+PACKET_DEF(PT_C_M_REQ_REMOVE_MONSTERCARD,	PT_SOCKET_BASE+7)
+PACKET_DEF(PT_M_C_ANS_REMOVE_MONSTERCARD,	PT_SOCKET_BASE+8)
+
+PACKET_DEF(PT_C_M_REQ_EXTRACTION_MONSTERCARD,	PT_SOCKET_BASE+9)
+PACKET_DEF(PT_M_C_ANS_EXTRACTION_MONSTERCARD,	PT_SOCKET_BASE+10)
+
+unsigned short const PT_GEMSTORE_BASE = 17120;
+PACKET_DEF(PT_C_M_REQ_GEMSTOREINFO,PT_GEMSTORE_BASE+1)
+PACKET_DEF(PT_M_C_ANS_GEMSTOREINFO,PT_GEMSTORE_BASE+2)
+
+PACKET_DEF(PT_C_M_REQ_GEMSTORE_BUY,PT_GEMSTORE_BASE+3)
+PACKET_DEF(PT_M_C_ANS_GEMSTORE_BUY,PT_GEMSTORE_BASE+4)
+
+
+PACKET_DEF(PT_C_M_REQ_DEFGEMSTOREINFO,PT_GEMSTORE_BASE+5)
+PACKET_DEF(PT_M_C_ANS_DEFGEMSTOREINFO,PT_GEMSTORE_BASE+6)
+PACKET_DEF(PT_C_M_REQ_DEFGEMSTORE_BUY,PT_GEMSTORE_BASE+7)
+PACKET_DEF(PT_M_C_ANS_DEFGEMSTORE_BUY,PT_GEMSTORE_BASE+8)
+
+PACKET_DEF(PT_C_M_REQ_COLLECT_ANTIQUE,PT_GEMSTORE_BASE+9)
+PACKET_DEF(PT_M_C_ANS_COLLECT_ANTIQUE,PT_GEMSTORE_BASE+10)
+
+PACKET_DEF(PT_C_M_REQ_EXCHANGE_GEMSTORE,PT_GEMSTORE_BASE+11)
+PACKET_DEF(PT_M_C_ANS_EXCHANGE_GEMSTORE,PT_GEMSTORE_BASE+12)
+
+unsigned short const PT_ROLLBACK_ENCHANTINFO_BASE = 17135;
+PACKET_DEF(PT_C_M_REQ_ROLLBACK_ENCHANT,PT_ROLLBACK_ENCHANTINFO_BASE+1)
+PACKET_DEF(PT_M_C_ANS_ROLLBACK_ENCHANT,PT_ROLLBACK_ENCHANTINFO_BASE+2)
+
+unsigned short const PT_OPEN_LOCKED_CHEST_BASE = 17140;
+PACKET_DEF(PT_C_M_REQ_OPEN_LOCKED_CHEST,PT_OPEN_LOCKED_CHEST_BASE+1)
+PACKET_DEF(PT_M_C_ANS_OPEN_LOCKED_CHEST,PT_OPEN_LOCKED_CHEST_BASE+2)
+
+unsigned short const PT_OPEN_GAMBLE = 17150;
+PACKET_DEF(PT_C_M_REQ_OPEN_GAMBLE,PT_OPEN_GAMBLE+1)
+PACKET_DEF(PT_M_C_ANS_OPEN_GAMBLE,PT_OPEN_GAMBLE+2)
+PACKET_DEF(PT_M_C_NOTI_OPEN_GAMBLE,PT_OPEN_GAMBLE+3)
+
+unsigned short const PT_JOIN_EVENT = 17160;
+PACKET_DEF(PT_C_M_REQ_JOIN_EVENT,PT_JOIN_EVENT+1)
+PACKET_DEF(PT_M_C_ANS_JOIN_EVENT,PT_JOIN_EVENT+2)
+PACKET_DEF(PT_C_M_REQ_EVENT_LIST,PT_JOIN_EVENT+3)
+PACKET_DEF(PT_M_C_ANS_EVENT_LIST,PT_JOIN_EVENT+4)
+PACKET_DEF(PT_M_I_GEN_COUPON,PT_JOIN_EVENT+5)
+
+unsigned short const PT_CONVERTITEM = 17170;
+PACKET_DEF(PT_C_M_REQ_CONVERTITEM,PT_CONVERTITEM+1)
+PACKET_DEF(PT_M_C_ANS_CONVERTITEM,PT_CONVERTITEM+2)
+
+unsigned short const PT_CALLSAFE = 17180;
+PACKET_DEF(PT_C_M_REQ_EXIT_SAFE,PT_CALLSAFE+1)
+
+unsigned short const PT_EXPCARD = 17190;
+PACKET_DEF(PT_C_M_REQ_EXPCARD_ACTIVATE,PT_EXPCARD+1)
+PACKET_DEF(PT_M_C_ANS_EXPCARD_ACTIVATE,PT_EXPCARD+2)
+
+PACKET_DEF(PT_C_M_REQ_EXPCARD_DEACTIVATE,PT_EXPCARD+3)
+PACKET_DEF(PT_M_C_ANS_EXPCARD_DEACTIVATE,PT_EXPCARD+4)
+
+PACKET_DEF(PT_C_M_REQ_EXPCARD_USE,PT_EXPCARD+5)
+PACKET_DEF(PT_M_C_ANS_EXPCARD_USE,PT_EXPCARD+6)
+
+unsigned short const PT_MYHOME = 17200;
+PACKET_DEF(PT_T_N_REQ_LOAD_MYHOME,PT_MYHOME)
+PACKET_DEF(PT_C_M_REQ_MYHOME_BUY,PT_MYHOME+1)
+PACKET_DEF(PT_M_C_ANS_MYHOME_BUY,PT_MYHOME+2)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_ENTER,PT_MYHOME+3)
+PACKET_DEF(PT_M_I_REQ_MYHOME_ENTER,PT_MYHOME+4)
+PACKET_DEF(PT_I_M_ANS_MYHOME_ENTER,PT_MYHOME+5)
+PACKET_DEF(PT_M_C_ANS_MYHOME_ENTER,PT_MYHOME+6)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_EXIT,PT_MYHOME+7)
+PACKET_DEF(PT_M_C_ANS_MYHOME_EXIT,PT_MYHOME+8)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_INFO,PT_MYHOME+9)
+PACKET_DEF(PT_M_I_REQ_MYHOME_INFO,PT_MYHOME+10)
+PACKET_DEF(PT_M_C_ANS_MYHOME_INFO,PT_MYHOME+11)
+
+PACKET_DEF(PT_C_M_REQ_REALTYDEALER,PT_MYHOME+12)
+PACKET_DEF(PT_M_C_ANS_REALTYDEALER,PT_MYHOME+13)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_AUCTION_REG,PT_MYHOME+14)	// ��� ����Ʈ ��û
+PACKET_DEF(PT_M_I_REQ_MYHOME_AUCTION_REG,PT_MYHOME+15)	// ��� ����Ʈ ��û
+PACKET_DEF(PT_M_C_ANS_MYHOME_AUCTION_REG,PT_MYHOME+16)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_BIDDING,PT_MYHOME+17)	// ��� ���� ��û
+PACKET_DEF(PT_M_I_REQ_MYHOME_BIDDING,PT_MYHOME+29)	// ��� ���� ��û
+PACKET_DEF(PT_M_C_ANS_MYHOME_BIDDING,PT_MYHOME+18)
+
+PACKET_DEF(PT_C_M_REQ_HOMETOWN_INFO,PT_MYHOME+19)	// ȨŸ�� ���� ��û
+PACKET_DEF(PT_M_I_REQ_HOMETOWN_INFO,PT_MYHOME+20)
+PACKET_DEF(PT_I_M_ANS_HOMETOWN_INFO,PT_MYHOME+21)
+PACKET_DEF(PT_M_C_ANS_HOMETOWN_INFO,PT_MYHOME+22)
+
+PACKET_DEF(PT_C_M_REQ_HOMETOWN_ENTER,PT_MYHOME+23)	// ȨŸ�� ���� ��û
+PACKET_DEF(PT_M_I_REQ_HOMETOWN_ENTER,PT_MYHOME+24)	// ȨŸ�� ���� ��û
+PACKET_DEF(PT_I_M_ANS_HOMETOWN_ENTER,PT_MYHOME+25)
+PACKET_DEF(PT_M_C_ANS_HOMETOWN_ENTER,PT_MYHOME+26)
+
+PACKET_DEF(PT_C_M_REQ_HOMETOWN_EXIT,PT_MYHOME+25)	// ȨŸ�� ���� ��û
+PACKET_DEF(PT_M_I_REQ_HOMETOWN_EXIT,PT_MYHOME+26)	// ȨŸ�� ���� ��û
+PACKET_DEF(PT_I_M_ANS_HOMETOWN_EXIT,PT_MYHOME+27)
+PACKET_DEF(PT_M_C_ANS_HOMETOWN_EXIT,PT_MYHOME+28)
+
+PACKET_DEF(PT_I_M_REQ_HOME_CREATE,PT_MYHOME+29)	// ȨŸ�� ����
+PACKET_DEF(PT_I_M_REQ_HOME_DELETE,PT_MYHOME+30)	// ȨŸ�� ����
+
+PACKET_DEF(PT_C_M_REQ_HOME_EQUIP,PT_MYHOME+31)	// Ȩ ������ ����
+PACKET_DEF(PT_M_C_ANS_HOME_EQUIP,PT_MYHOME+32)	// Ȩ ������ ����
+
+PACKET_DEF(PT_C_M_REQ_HOME_UNEQUIP,PT_MYHOME+33)	// Ȩ ������ ���� ����
+PACKET_DEF(PT_M_C_ANS_HOME_UNEQUIP,PT_MYHOME+34)	// Ȩ ������ ���� ����
+
+PACKET_DEF(PT_C_M_REQ_HOME_VISITLOG_ADD,PT_MYHOME+35)	// Ȩ ����� ���
+PACKET_DEF(PT_M_I_REQ_HOME_VISITLOG_ADD,PT_MYHOME+36)	
+PACKET_DEF(PT_M_C_ANS_HOME_VISITLOG_ADD,PT_MYHOME+37)	
+
+PACKET_DEF(PT_C_M_REQ_HOME_VISITLOG_LIST,PT_MYHOME+38)	// Ȩ ����� ����Ʈ ��û
+PACKET_DEF(PT_M_I_REQ_HOME_VISITLOG_LIST,PT_MYHOME+39)	
+PACKET_DEF(PT_M_C_ANS_HOME_VISITLOG_LIST,PT_MYHOME+40)	
+
+PACKET_DEF(PT_C_M_REQ_HOME_VISITLOG_DELETE,PT_MYHOME+41)	// Ȩ ����� ����
+PACKET_DEF(PT_M_I_REQ_HOME_VISITLOG_DELETE,PT_MYHOME+42)	
+PACKET_DEF(PT_M_C_ANS_HOME_VISITLOG_DELETE,PT_MYHOME+43)	
+
+PACKET_DEF(PT_C_M_REQ_HOME_USE_ITEM_EFFECT,PT_MYHOME+44)	// Ȩ ������ ����Ʈ ��û
+PACKET_DEF(PT_M_C_ANS_HOME_USE_ITEM_EFFECT,PT_MYHOME+45)	
+
+PACKET_DEF(PT_C_M_REQ_HOME_VISITFLAG_MODIFY,PT_MYHOME+46)	// Ȩ �湮 ������ ����
+PACKET_DEF(PT_M_I_REQ_HOME_VISITFLAG_MODIFY,PT_MYHOME+47)	// Ȩ �湮 ������ ����
+PACKET_DEF(PT_M_C_ANS_HOME_VISITFLAG_MODIFY,PT_MYHOME+48)	
+
+PACKET_DEF(PT_I_M_MYHOME_NOTI_MODIFY_OWNER,PT_MYHOME+49)		// Ȩ ���� ������ �뺸
+PACKET_DEF(PT_M_C_MYHOME_NOTI_MODIFY_OWNER,PT_MYHOME+50)		// Ȩ ���� ������ �뺸
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_PAY_TEX,PT_MYHOME+54)			// ���� ����
+PACKET_DEF(PT_M_I_REQ_MYHOME_PAY_TEX,PT_MYHOME+55)			// ���� ����
+PACKET_DEF(PT_M_C_ANS_MYHOME_PAY_TEX,PT_MYHOME+56)	
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_POST_INVITATION_CARD,PT_MYHOME+57)	// ��û�� �߱�
+PACKET_DEF(PT_M_I_REQ_MYHOME_POST_INVITATION_CARD,PT_MYHOME+58)	// ��û�� �߱�
+PACKET_DEF(PT_M_C_ANS_MYHOME_POST_INVITATION_CARD,PT_MYHOME+59)	
+
+PACKET_DEF(PT_M_C_HOME_NOTI_INVITATION,PT_MYHOME+60)	// Ȩ �˸� (�ʴ����� �޾Ҵ�.)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_INVITATION_CARD,PT_MYHOME+61)	// ��û�� ��ȸ
+PACKET_DEF(PT_M_I_REQ_MYHOME_INVITATION_CARD,PT_MYHOME+62)	// ��û�� �߱�
+PACKET_DEF(PT_M_C_ANS_MYHOME_INVITATION_CARD,PT_MYHOME+63)	
+
+PACKET_DEF(PT_I_M_MYHOME_MODIFY_ABIL,PT_MYHOME+64)	
+PACKET_DEF(PT_I_M_MYHOME_MOVE_TO_HOMETOWN,PT_MYHOME+65)	// ���ȿ� �ִ� �÷��̾ ������ �ǵ��� ������
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_VISITORS,PT_MYHOME+66)	// �湮�� ����Ʈ
+PACKET_DEF(PT_M_I_REQ_MYHOME_VISITORS,PT_MYHOME+67)
+PACKET_DEF(PT_M_C_ANS_MYHOME_VISITORS,PT_MYHOME+68)	
+
+PACKET_DEF(PT_C_M_REQ_HOME_ITEM_MODIFY,PT_MYHOME+69)	// Ȩ ������ ���� ��ġ ���� ����
+PACKET_DEF(PT_M_C_ANS_HOME_ITEM_MODIFY,PT_MYHOME+70)
+
+PACKET_DEF(PT_C_M_REQ_HOME_USE_HOME_STYLEITEM,PT_MYHOME+71)	// Ȩ ���� ���� ������ ��� ��û
+PACKET_DEF(PT_M_C_ANS_HOME_USE_HOME_STYLEITEM,PT_MYHOME+72)
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_AUCTION_UNREG,PT_MYHOME+73)	// ��� ���
+PACKET_DEF(PT_M_I_REQ_MYHOME_AUCTION_UNREG,PT_MYHOME+74)	// ��� ���
+PACKET_DEF(PT_M_C_ANS_MYHOME_AUCTION_UNREG,PT_MYHOME+75)	
+
+PACKET_DEF(PT_M_C_HOME_NOTI_ATTACHMENT,PT_MYHOME+76)	// Ȩ �˸� (�� ���� ���ߴ�.)
+PACKET_DEF(PT_M_C_HOME_NOTI_TEX,PT_MYHOME+77)			// Ȩ �˸� (���� ����)
+PACKET_DEF(PT_M_C_HOME_NOTI_BIDDING,PT_MYHOME+78)		// Ȩ �˸� (���� �޾Ҵ�.)
+
+PACKET_DEF(PT_C_M_HOME_REQ_MAPMOVE,PT_MYHOME+79)		// Ȩ���� �ٸ� ������ �̵� ��û
+PACKET_DEF(PT_M_C_HOME_ANS_MAPMOVE,PT_MYHOME+80)		// Ȩ���� �ٸ� ������ �̵� ��û
+
+PACKET_DEF(PT_M_C_HOME_NOTI_CHANGE_TOP_BIDDER,PT_MYHOME+81)	// Ȩ �˸� (�ְ� �����ڰ� ����Ǿ���.)
+PACKET_DEF(PT_M_C_HOME_NOTI_AUCTION_CANCELED,PT_MYHOME+82)	// Ȩ �˸� (��Ű� ��� �Ǿ���.)
+
+PACKET_DEF(PT_C_M_REQ_START_SIDE_JOB,PT_MYHOME+83)	// �Ƹ�����Ʈ ���� ��û
+PACKET_DEF(PT_M_I_REQ_START_SIDE_JOB,PT_MYHOME+84)	// �Ƹ�����Ʈ ���� ��û
+PACKET_DEF(PT_M_C_ANS_START_SIDE_JOB,PT_MYHOME+85)	// �Ƹ�����Ʈ ���� ȸ��
+
+PACKET_DEF(PT_C_M_REQ_CANCEL_SIDE_JOB,PT_MYHOME+86)	// �Ƹ�����Ʈ ��� ��û
+PACKET_DEF(PT_M_I_REQ_CANCEL_SIDE_JOB,PT_MYHOME+87)	// �Ƹ�����Ʈ ��� ��û
+PACKET_DEF(PT_M_C_ANS_CANCEL_SIDE_JOB,PT_MYHOME+88)	// �Ƹ�����Ʈ ��� ȸ��
+
+PACKET_DEF(PT_C_M_REQ_ENTER_SIDE_JOB,PT_MYHOME+89)	// �Ƹ�����Ʈ �������� �̵�
+PACKET_DEF(PT_M_I_REQ_ENTER_SIDE_JOB,PT_MYHOME+90)	// �Ƹ�����Ʈ �������� �̵�
+PACKET_DEF(PT_M_C_ANS_ENTER_SIDE_JOB,PT_MYHOME+91)	// �Ƹ�����Ʈ �������� �̵�
+
+PACKET_DEF(PT_I_M_ANS_HOME_VISITLOG_ADD,PT_MYHOME+92)	
+
+PACKET_DEF(PT_C_M_REQ_EXCHANGE_LOGCOUNTTOEXP,PT_MYHOME+93)	// �湮�� ī��Ʈ�� ����ġ�� ȯ��
+PACKET_DEF(PT_M_I_REQ_EXCHANGE_LOGCOUNTTOEXP,PT_MYHOME+94)	// �湮�� ī��Ʈ�� ����ġ�� ȯ��
+PACKET_DEF(PT_M_C_ANS_EXCHANGE_LOGCOUNTTOEXP,PT_MYHOME+95)	// �湮�� ī��Ʈ�� ����ġ�� ȯ��
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_SELL,PT_MYHOME+96)	// ����Ʈ �Ǹ�
+PACKET_DEF(PT_M_I_REQ_MYHOME_SELL,PT_MYHOME+97)	// ����Ʈ �Ǹ�
+PACKET_DEF(PT_M_C_ANS_MYHOME_SELL,PT_MYHOME+98)	// ����Ʈ �Ǹ�
+
+PACKET_DEF(PT_M_C_ANS_MYHOME_PRICE, PT_MYHOME+99) // ����Ʈ ����
+
+unsigned short const PT_MIXUPITEM = 17300;
+PACKET_DEF(PT_C_M_REQ_MIXUPITEM,PT_MIXUPITEM+1)
+PACKET_DEF(PT_M_C_ANS_MIXUPITEM,PT_MIXUPITEM+2)
+
+unsigned short const PT_EVENTQUEST = 17400;
+PACKET_DEF(PT_M_C_NFY_EVENT_QUEST_INFO,			PT_EVENTQUEST+1)
+PACKET_DEF(PT_C_M_REQ_EVENT_QUEST_TALK,			PT_EVENTQUEST+2)
+PACKET_DEF(PT_M_C_ANS_EVENT_QUEST_TALK,			PT_EVENTQUEST+3)
+PACKET_DEF(PT_N_N_NFY_LOAD_EVENT_QUEST,			PT_EVENTQUEST+4)
+PACKET_DEF(PT_N_N_REQ_RELOAD_EVENT_QUEST,		PT_EVENTQUEST+5)
+PACKET_DEF(PT_M_C_NFY_EVENT_QUEST_NOTICE,		PT_EVENTQUEST+6)
+PACKET_DEF(PT_M_N_REQ_EVENT_QUEST_CHECKUSER,	PT_EVENTQUEST+7)
+PACKET_DEF(PT_M_N_REQ_EVENT_QUEST_ADDUSER,		PT_EVENTQUEST+8)
+PACKET_DEF(PT_N_C_NFY_EVENT_QUEST_COMPLETE,		PT_EVENTQUEST+9)
+PACKET_DEF(PT_N_N_REQ_EVENT_QUEST_UNLOCK_CHARS,	PT_EVENTQUEST+9)
+
+
+unsigned short const PT_GAMBLEMACHINE = 17500;
+PACKET_DEF(PT_C_M_REQ_USE_GAMBLEMACHINE,		PT_GAMBLEMACHINE+1)
+PACKET_DEF(PT_M_C_ANS_USE_GAMBLEMACHINE,		PT_GAMBLEMACHINE+2)
+PACKET_DEF(PT_SYNC_GAMBLEMACHINE,				PT_GAMBLEMACHINE+3)
+PACKET_DEF(PT_C_M_REQ_GAMBLEMACHINEINFO,		PT_GAMBLEMACHINE+4)
+PACKET_DEF(PT_M_C_ANS_GAMBLEMACHINEINFO,		PT_GAMBLEMACHINE+5)
+PACKET_DEF(PT_M_C_NFY_GAMBLEMACHINE_RESULT,		PT_GAMBLEMACHINE+6)
+PACKET_DEF(PT_M_I_REQ_USE_GAMBLEMACHINE,		PT_GAMBLEMACHINE+7)
+PACKET_DEF(PT_C_M_REQ_USE_GAMBLEMACHINE_CASH,	PT_GAMBLEMACHINE+8)
+PACKET_DEF(PT_M_I_REQ_GAMBLEMACHINEINFO,		PT_GAMBLEMACHINE+9)
+PACKET_DEF(PT_C_M_REQ_USE_GAMBLEMACHINE_READY,	PT_GAMBLEMACHINE+10)
+PACKET_DEF(PT_M_C_ANS_USE_GAMBLEMACHINE_READY,	PT_GAMBLEMACHINE+11)
+PACKET_DEF(PT_C_M_REQ_RELOAD_ROULETTE,			PT_GAMBLEMACHINE+12)
+PACKET_DEF(PT_M_C_ANS_RELOAD_ROULETTE,			PT_GAMBLEMACHINE+13)
+PACKET_DEF(PT_C_M_REQ_ROULETTE_RESULT,			PT_GAMBLEMACHINE+14)
+PACKET_DEF(PT_M_C_ANS_ROULETTE_RESULT,			PT_GAMBLEMACHINE+15)
+PACKET_DEF(PT_M_C_NOTI_ROULETTE_RESULT_MAIL,	PT_GAMBLEMACHINE+16)
+
+PACKET_DEF(PT_C_M_REQ_USE_GAMBLEMACHINE_MIXUP_READY,	PT_GAMBLEMACHINE+17)
+PACKET_DEF(PT_M_C_ANS_USE_GAMBLEMACHINE_MIXUP_READY,	PT_GAMBLEMACHINE+18)
+PACKET_DEF(PT_C_M_REQ_RELOAD_ROULETTE_MIXUP,			PT_GAMBLEMACHINE+19)
+PACKET_DEF(PT_M_C_ANS_RELOAD_ROULETTE_MIXUP,			PT_GAMBLEMACHINE+20)
+PACKET_DEF(PT_C_M_REQ_ROULETTE_MIXUP_RESULT,			PT_GAMBLEMACHINE+21)
+PACKET_DEF(PT_M_C_ANS_ROULETTE_MIXUP_RESULT,			PT_GAMBLEMACHINE+22)
+PACKET_DEF(PT_M_C_NOTI_ROULETTE_MIXUP_RESULT_MAIL,		PT_GAMBLEMACHINE+23)
+PACKET_DEF(PT_M_C_NFY_GAMBLEMACHINE_MIXUP_RESULT,		PT_GAMBLEMACHINE+24)
+
+unsigned short const PT_BATTLESQUARE = 17600;
+PACKET_DEF(PT_M_C_NFY_BS_DEAD,					PT_BATTLESQUARE+1 )
+PACKET_DEF(PT_A_N_REQ_INIT_BS_GAME,				PT_BATTLESQUARE+2 )
+PACKET_DEF(PT_A_N_NFY_GAME_STATUS,				PT_BATTLESQUARE+3 )
+PACKET_DEF(PT_M_M_NFY_RESERVE_PVPMAN,			PT_BATTLESQUARE+4 )
+PACKET_DEF(PT_C_M_REQ_WANT_JOIN_BS,				PT_BATTLESQUARE+5 )
+PACKET_DEF(PT_M_C_ANS_WANT_JOIN_BS,				PT_BATTLESQUARE+6 )
+PACKET_DEF(PT_M_C_NFY_WANT_JOIN_BS,				PT_BATTLESQUARE+7 )
+PACKET_DEF(PT_A_N_REQ_RELOAD_BS_GAME,			PT_BATTLESQUARE+8 )
+PACKET_DEF(PT_N_N_NFY_RELOAD_BS_GAME,			PT_BATTLESQUARE+9 )
+PACKET_DEF(PT_C_T_REQ_WANT_JOIN_BS_CHANNEL,		PT_BATTLESQUARE+10 )
+PACKET_DEF(PT_T_C_ANS_WANT_JOIN_BS_CHANNEL,		PT_BATTLESQUARE+11 )
+PACKET_DEF(PT_T_M_NFY_WANT_JOIN_BS_CHANNEL,		PT_BATTLESQUARE+12 )
+PACKET_DEF(PT_A_N_NFY_WANT_JOIN_BS_CHANNEL,		PT_BATTLESQUARE+13 )
+PACKET_DEF(PT_M_C_NFY_BS_REWARD,				PT_BATTLESQUARE+14 )
+PACKET_DEF(PT_A_A_REQ_BS_GAME_INFO,				PT_BATTLESQUARE+15 )
+PACKET_DEF(PT_A_A_NFY_BS_GAME_INFO,				PT_BATTLESQUARE+16 )
+PACKET_DEF(PT_N_C_NFY_BS_NOTICE,				PT_BATTLESQUARE+17 )
+PACKET_DEF(PT_M_C_NFY_BS_ITEM_USER_POS,			PT_BATTLESQUARE+18 )
+PACKET_DEF(PT_A_N_NFY_BS_SUSPEND,				PT_BATTLESQUARE+19 )
+PACKET_DEF(PT_N_C_NFY_BS_GND_NOTICE,			PT_BATTLESQUARE+20 )
+PACKET_DEF(PT_GM_N_REQ_SET_GAME_STATUS,			PT_BATTLESQUARE+21 )
+PACKET_DEF(PT_M_C_NFY_BS_SCORE,					PT_BATTLESQUARE+22 )
+PACKET_DEF(PT_C_M_REQ_BS_EXIT,					PT_BATTLESQUARE+23 )
+PACKET_DEF(PT_M_C_ANS_BS_EXIT,					PT_BATTLESQUARE+24 )
+PACKET_DEF(PT_M_C_NFY_BS_UNIT_POS,				PT_BATTLESQUARE+25 )
+PACKET_DEF(PT_U_G_GM_ADDSCORE,					PT_BATTLESQUARE+26 )
+PACKET_DEF(PT_M_C_NFY_BS_MONSTER_POS,			PT_BATTLESQUARE+27 )
+PACKET_DEF(PT_C_T_REQ_BS_CHANNEL_INFO,			PT_BATTLESQUARE+28 )
+PACKET_DEF(PT_T_C_ANS_BS_CHANNEL_INFO,			PT_BATTLESQUARE+29 )
+PACKET_DEF(PT_M_C_NFY_BS_DEATHCOUNT,			PT_BATTLESQUARE+30 )
+
+unsigned short const PT_USE_REPAIR_ITEM_BASE = 17700;
+PACKET_DEF(PT_C_M_REQ_USE_REPAIR_ITEM,			PT_USE_REPAIR_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_USE_REPAIR_ITEM,			PT_USE_REPAIR_ITEM_BASE+2 )
+
+unsigned short const PT_SORT_ITEM_BASE = 17705;
+PACKET_DEF(PT_C_M_REQ_SORT_ITEM,			PT_SORT_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_SORT_ITEM,			PT_SORT_ITEM_BASE+2 )
+
+unsigned short const PT_USE_ENCHANT_ITEM_BASE = 17710;
+PACKET_DEF(PT_C_M_REQ_USE_ENCHANT_ITEM,			PT_USE_ENCHANT_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_USE_ENCHANT_ITEM,			PT_USE_ENCHANT_ITEM_BASE+2 )
+
+unsigned short const PT_USE_TELEPORT_ITEM_BASE = 17720;
+PACKET_DEF(PT_C_M_REQ_USE_TELEPORT_ITEM,		PT_USE_TELEPORT_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_USE_TELEPORT_ITEM,		PT_USE_TELEPORT_ITEM_BASE+2 )
+
+unsigned short const PT_USE_REPAIR_MAX_DURATION_ITEM_BASE = 17730;
+PACKET_DEF(PT_C_M_REQ_USE_REPAIR_MAX_DURATION_ITEM,	PT_USE_REPAIR_MAX_DURATION_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_USE_REPAIR_MAX_DURATION_ITEM,	PT_USE_REPAIR_MAX_DURATION_ITEM_BASE+2 )
+
+unsigned short const PT_EVENT_ITEM_REWARD_BASE = 17740;
+PACKET_DEF(PT_SYNC_EVENT_ITEM_REWARD,	PT_EVENT_ITEM_REWARD_BASE+1 )
+PACKET_DEF(PT_M_C_NOTI_EVENT_ITEM_REWARD,	PT_EVENT_ITEM_REWARD_BASE+2 )
+PACKET_DEF(PT_M_C_ANS_EVENT_ITEM_REWARD,	PT_EVENT_ITEM_REWARD_BASE+3 )
+
+unsigned short const PT_ENCHANT_SHIFT_BASE = 17745;
+PACKET_DEF(PT_C_M_REQ_ENCHANT_SHIFT, PT_ENCHANT_SHIFT_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_ENCHANT_SHIFT, PT_ENCHANT_SHIFT_BASE+2 )
+
+unsigned short const PT_NPC_TALK_BASE = 17750;
+PACKET_DEF(PT_C_M_REQ_NPC_TALK,	PT_NPC_TALK_BASE+1 )
+PACKET_DEF(PT_C_M_REQ_NPC_TALK_MAP_MOVE, PT_NPC_TALK_BASE+2 )
+
+unsigned short const PT_REDICE_ITEM_BASE = 17760;
+PACKET_DEF(PT_C_M_REQ_USE_REDICE_OPTION_ITEM,	PT_REDICE_ITEM_BASE+1 )
+PACKET_DEF(PT_M_C_ANS_USE_REDICE_OPTION_ITEM,	PT_REDICE_ITEM_BASE+2 )
+PACKET_DEF(PT_C_M_REQ_USE_REDICE_OPTION_PET,	PT_REDICE_ITEM_BASE+3 )
+PACKET_DEF(PT_M_C_ANS_USE_REDICE_OPTION_PET,	PT_REDICE_ITEM_BASE+4 )
+PACKET_DEF(PT_C_M_REQ_USE_UPGRADE_OPTION_ITEM,	PT_REDICE_ITEM_BASE+5 )
+PACKET_DEF(PT_M_C_ANS_USE_UPGRADE_OPTION_ITEM,	PT_REDICE_ITEM_BASE+6 )
+PACKET_DEF(PT_C_M_REQ_BASIC_OPTION_AMP,			PT_REDICE_ITEM_BASE+7 )
+PACKET_DEF(PT_M_C_ANS_BASIC_OPTION_AMP,			PT_REDICE_ITEM_BASE+8 )
+
+PACKET_DEF(PT_C_M_REQ_SKILL_EXTEND,				PT_REDICE_ITEM_BASE+9 )
+PACKET_DEF(PT_M_C_ANS_SKILL_EXTEND,				PT_REDICE_ITEM_BASE+10 )
+
+PACKET_DEF(PT_C_M_REQ_RESET_ATTATCHED,			PT_REDICE_ITEM_BASE+11 )
+PACKET_DEF(PT_M_C_ANS_RESET_ATTATCHED,			PT_REDICE_ITEM_BASE+12 )
+
+unsigned short const PT_MYHOME_CHAT = 17800;
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_ENTER,		PT_MYHOME_CHAT+1 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_ENTER,		PT_MYHOME_CHAT+2 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_EXIT,			PT_MYHOME_CHAT+3 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_EXIT,			PT_MYHOME_CHAT+4 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_MODIFY_ROOM,	PT_MYHOME_CHAT+5 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_MODIFY_ROOM,	PT_MYHOME_CHAT+6 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_MODIFY_GUEST,	PT_MYHOME_CHAT+7 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_MODIFY_GUEST,	PT_MYHOME_CHAT+8 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_ROOM_LIST,	PT_MYHOME_CHAT+9 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_ROOM_LIST,	PT_MYHOME_CHAT+10 )
+
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_ROOM_ENTER,	PT_MYHOME_CHAT+11 )
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_ROOM_EXIT,	PT_MYHOME_CHAT+12 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_ROOM_CREATE,	PT_MYHOME_CHAT+13 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_ROOM_CREATE,	PT_MYHOME_CHAT+14 )
+
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_ROOM_MODIFY,	PT_MYHOME_CHAT+15 )
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_GUEST_MODIFY,PT_MYHOME_CHAT+16 )
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHANGE_ROOM_MASTER,PT_MYHOME_CHAT+17 )
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_RESULT,PT_MYHOME_CHAT+18 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_SET_ROOMMASTER,	PT_MYHOME_CHAT+19 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_SET_ROOMMASTER,	PT_MYHOME_CHAT+20 )
+
+PACKET_DEF(PT_C_M_REQ_MYHOME_CHAT_KICK_GEUST,	PT_MYHOME_CHAT+21 )
+PACKET_DEF(PT_M_C_ANS_MYHOME_CHAT_KICK_GEUST,	PT_MYHOME_CHAT+22 )
+PACKET_DEF(PT_M_C_NOTI_MYHOME_CHAT_KICK_GEUST,	PT_MYHOME_CHAT+23 )
+
+unsigned short const PT_EVENT_SCRIPT_BASE = 18000;
+PACKET_DEF(PT_C_M_REQ_RUN_EVENT_SCRIPT,	PT_EVENT_SCRIPT_BASE+1 )// �̺�Ʈ ��ũ��Ʈ�� ����
+PACKET_DEF(PT_C_M_REQ_END_EVENT_SCRIPT,	PT_EVENT_SCRIPT_BASE+2 )// �̺�Ʈ ��ũ��Ʈ�� ����
+PACKET_DEF(PT_M_C_REQ_LOCK_INPUT_EVENT_SCRIPT, PT_EVENT_SCRIPT_BASE+3) // �̺�Ʈ ��ũ��Ʈ�� �� ���� ��ǲ�� ������ Ŭ���̾�Ʈ�� ��û.
+PACKET_DEF(PT_M_C_REQ_UNLOCK_INPUT_EVENT_SCRIPT, PT_EVENT_SCRIPT_BASE+4) // �̺�Ʈ ��ũ��Ʈ�� ������ ��ǲ�� Ǯ���� ��û.
+
+unsigned short const PT_SUPER_GROUND_BASE = 18100;
+PACKET_DEF(NFY_M_C_REMAIN_MONSTER,		PT_SUPER_GROUND_BASE+1 )
+PACKET_DEF(NFY_M_C_REMAIN_TIME_MSEC,	PT_SUPER_GROUND_BASE+2 )
+PACKET_DEF(NFY_M_C_LIMITED_TIME_MSEC,	PT_SUPER_GROUND_BASE+3 )
+
+unsigned short const PT_WORLD_EVENT_BASE = 18500;
+PACKET_DEF(PT_C_M_CHECK_WORLDEVENT_CONDITION,	PT_WORLD_EVENT_BASE+1 )// ���� �̺�Ʈ ���� üũ
+PACKET_DEF(PT_M_C_NFY_CLIENTOBJECT_CHANGED,		PT_WORLD_EVENT_BASE+2 )// ���� �̺�Ʈ ������Ʈ ������Ʈ ���� �˸�
+PACKET_DEF(PT_M_C_NFY_WORLDEVENT_CHANGED,		PT_WORLD_EVENT_BASE+3 )// ���� �̺�Ʈ ������Ʈ ������Ʈ ���� �˸�
+PACKET_DEF(PT_M_C_NFY_TRIGGER_ENABLE,			PT_WORLD_EVENT_BASE+4 )// �ʼ��� Ʈ����, ���� ���� �˸�
+PACKET_DEF(PT_M_C_NFY_TRIGGER_SCRIPT,			PT_WORLD_EVENT_BASE+5 )// �ʼ��� Ʈ����, Ŭ���̾�Ʈ ��ũ��Ʈ ����
+
+unsigned short const PT_HYPER_MOVE_BASE = 19000;
+PACKET_DEF(PT_C_M_REQ_START_HYPER_MOVE,	PT_HYPER_MOVE_BASE+1 )// ������, Ȥ�� �ڷ����� �Ѵٰ� ������ �˸�
+PACKET_DEF(PT_M_C_ANS_START_HYPER_MOVE,	PT_HYPER_MOVE_BASE+2 )// ������ Ŭ�󿡰� �ӽ� GUID�� �߱�����
+PACKET_DEF(PT_C_M_NFY_END_HYPER_MOVE,	PT_HYPER_MOVE_BASE+3 )// Ŭ�� �������� �̵��� �����ٰ� �˷� ��
+PACKET_DEF(PT_M_C_NFY_PARTY_TELE_PORT,	PT_HYPER_MOVE_BASE+4 )// ��Ƽ�� ���� �̵�
+PACKET_DEF(PT_M_C_ANS_FAILED_HYPER_MOVE,PT_HYPER_MOVE_BASE+5 )//
+
+unsigned short const PT_EMOTION = 19010;
+PACKET_DEF(PT_C_M_REQ_USE_EMOTION,	PT_EMOTION+1 )// �̸�� ��û
+PACKET_DEF(PT_M_C_ANS_USE_EMOTION,	PT_EMOTION+2 )// �̸�� ����
+PACKET_DEF(PT_C_M_NFY_USE_EMOTION,	PT_EMOTION+3 )// �̸�� ��� �˸�
+
+unsigned short const PT_TW_EVENT = 19040;
+PACKET_DEF(PT_C_M_REQ_EVENT_TW_USE_EFFECTQUEST,	PT_TW_EVENT+1 )// ����Ʈ ��� ��û
+PACKET_DEF(PT_C_M_REQ_RAGNAROK_EFFECT,			PT_TW_EVENT+2 )// ����Ʈ��ȣ�� �޾� �ɾ�޶�� ��û
+PACKET_DEF(PT_M_C_ANS_RAGNAROK_EFFECT,			PT_TW_EVENT+3 )
+
+unsigned short const PT_PET = 19100;
+PACKET_DEF(PT_C_M_REQ_PET_RENAME,			PT_PET		);//�� �̸� ����
+PACKET_DEF(PT_C_M_REQ_PET_COLOR_CHANGE,		PT_PET+1	);//�� Į�� ����
+
+PACKET_DEF(PT_N_M_NFY_CREATE_PET,			PT_PET+2	);
+PACKET_DEF(PT_M_C_NFY_PET_INVENTORY,		PT_PET+4	);
+PACKET_DEF(PT_M_C_NFY_PET_INVENTORY_ACTION,	PT_PET+5	);
+
+PACKET_DEF(PT_M_C_NFY_PET_REVIVE,			PT_PET+7	);// ���� ���� ��Ƴ���.
+PACKET_DEF(PT_C_M_REQ_ITEM_CHANGE_TO_PET,	PT_PET+8	);
+PACKET_DEF(PT_C_M_REQ_PET_ACTION,			PT_PET+9	);
+
+PACKET_DEF(PT_C_M_REQ_DEACTIVATE_SKILL,		PT_PET+10	);
+
+PACKET_DEF(PT_C_M_REQ_PET_UPGRADE,			PT_PET+11	);
+PACKET_DEF(PT_M_C_NFY_PET_UPGRADE,			PT_PET+12	);
+
+unsigned short const PT_LUCKYSTAREVENT_BASE = 19200; 
+PACKET_DEF(PT_NFY_LUCKYSTAR_LOGINUSER,PT_LUCKYSTAREVENT_BASE+1);	// �̺�Ʈ�� �α����� ������ ������ �ѱ�
+PACKET_DEF(PT_NFY_LUCKYSTAR_LOGOUTUSER,PT_LUCKYSTAREVENT_BASE+2);	// �̺�Ʈ�� �α׾ƿ��� ������ ������ �ѱ�
+
+PACKET_DEF(PT_M_C_REQ_LUCKYSTAR_JOIN,PT_LUCKYSTAREVENT_BASE+4);		// ���� -> Ŭ�� "����� ���ڸ��� ã�Ƽ�" ���� ��û
+
+PACKET_DEF(PT_C_M_REQ_LUCKYSTAR_ENTER,PT_LUCKYSTAREVENT_BASE+5);	// Ŭ�� -> ���� ���� ��û
+PACKET_DEF(PT_M_I_REQ_LUCKYSTAR_ENTER,PT_LUCKYSTAREVENT_BASE+6);	// client -> map
+PACKET_DEF(PT_M_C_ANS_LUCKYSTAR_ENTER,PT_LUCKYSTAREVENT_BASE+7);	// client -> map
+
+PACKET_DEF(PT_C_M_REQ_LUCKYSTAR_CHANGE_STAR,PT_LUCKYSTAREVENT_BASE+8);	// Ŭ�� -> ���� ���� ��û
+PACKET_DEF(PT_M_I_REQ_LUCKYSTAR_CHANGE_STAR,PT_LUCKYSTAREVENT_BASE+9);	// client -> map
+PACKET_DEF(PT_M_C_ANS_LUCKYSTAR_CHANGE_STAR,PT_LUCKYSTAREVENT_BASE+10);	// client -> map
+
+PACKET_DEF(PT_M_M_ANS_LUCKYSTAR_COSTMONEY,PT_LUCKYSTAREVENT_BASE+11); // ������� ���� ���
+
+PACKET_DEF(PT_M_C_ANS_LUCKYSTAR_USERINFO,PT_LUCKYSTAREVENT_BASE+12);  // ��� �뺸
+PACKET_DEF(PT_M_C_LUCKYSTAR_RESULT,PT_LUCKYSTAREVENT_BASE+13);  // ��� �뺸
+PACKET_DEF(PT_M_C_LUCKYSTAR_RESULT_CUSTOM,PT_LUCKYSTAREVENT_BASE+14);  // ��� �뺸
+PACKET_DEF(PT_M_C_LUCKYSTAR_CLOSE,PT_LUCKYSTAREVENT_BASE+15);  // ���� �뺸
+
+PACKET_DEF(PT_M_I_GMCMD_LUCKYSTAR_OPEN,PT_LUCKYSTAREVENT_BASE+16);  // �̺�Ʈ ����
+PACKET_DEF(PT_M_I_GMCMD_LUCKYSTAR_STEP,PT_LUCKYSTAREVENT_BASE+17); // �̺�Ʈ ����
+
+PACKET_DEF(PT_REQ_GMCMD_LUCKYSTAR_RELOAD,PT_LUCKYSTAREVENT_BASE+18); // ���̺� �ٽ� �ε�
+PACKET_DEF(PT_ANS_GMCMD_LUCKYSTAR_RELOAD,PT_LUCKYSTAREVENT_BASE+19); // ���̺� �ٽ� �ε�
+PACKET_DEF(PT_REQ_GMCMD_LUCKYSTAR_UPDATE,PT_LUCKYSTAREVENT_BASE+20); // �̺�Ʈ ���� ����
+PACKET_DEF(PT_ANS_LUCKYSTAR_LOAD_JOINEDUSER,PT_LUCKYSTAREVENT_BASE+21); // ����� ���� ���� �ε�
+
+unsigned short const PT_SERVER_TIME_BASE = 19300;
+PACKET_DEF(PT_M_C_GMCMD_SERVERTIME, PT_SERVER_TIME_BASE+1);	// �����ð� ����
+
+unsigned short const PT_GODHAND_BASE = 19400;
+PACKET_DEF( PT_M_C_GMCMD_GODHAND_ON, PT_GODHAND_BASE + 1 );	// GODHAND Ȱ��ȭ
+PACKET_DEF( PT_M_C_GMCMD_GODHAND_OFF, PT_GODHAND_BASE + 2 );// GODHAND ��Ȱ��ȭ
+
+unsigned short const PT_PLAYERPLAYTIME_BASE = 19410;
+PACKET_DEF( PT_SYNC_DEF_PLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+2);		// �Ƿε� ���� ����to����
+PACKET_DEF( PT_M_M_UPDATE_PLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+3);		// ���� ���Ӱ��� ����(����>����)
+PACKET_DEF( PT_M_C_UPDATE_PLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+3);		// ���� ���Ӱ��� ����(����>Ŭ��)
+PACKET_DEF( PT_M_I_GMCMD_PLAYERPLAYTIMESTEP,PT_PLAYERPLAYTIME_BASE+4);	// �Ƿε����ü���(�� ���� �ǵ��� �ʱ�ȭ,�Ƿε����̺� ���ε� ��)
+PACKET_DEF( PT_I_M_GMCMD_RESETPLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+1);	// �� ���� �ǵ��� �ʱ�ȭ(imm>contents)
+PACKET_DEF( PT_M_I_GMCMD_SETPLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+5);	// Ư�� ���� �Ƿε� ����
+PACKET_DEF( PT_I_M_GMCMD_SETPLAYERPLAYTIME,PT_PLAYERPLAYTIME_BASE+6);	// Ư�� ���� �Ƿε� ����(imm>contents)
+
+
+unsigned short const PT_REALMEVENT_BASE = 19500;
+PACKET_DEF( PT_N_M_NFY_ALL_USER_ADDEFFECT, PT_REALMEVENT_BASE + 1);		// ��� �׶��� �������� ���� �߰�
+PACKET_DEF( PT_N_M_NFY_ALL_GROUND_WORLD_ENVIRONMENT_STATUS, PT_REALMEVENT_BASE + 2);	// ��� �׶��忡 ��/�� �� ȯ�� ��ȭ ����
+PACKET_DEF( PT_M_C_NFY_ALL_GROUND_WORLD_ENVIRONMENT_STATUS, PT_REALMEVENT_BASE + 3);
+PACKET_DEF( PT_C_N_REQ_REALM_QUEST_INFO,		PT_REALMEVENT_BASE + 4);		// Ư�� ���� ����Ʈ ���� ��û(UI ��)
+PACKET_DEF( PT_N_N_REQ_REALM_QUEST_ADD_COUNT,	PT_REALMEVENT_BASE + 5);		// Ư�� ���� ����Ʈ
+PACKET_DEF( PT_N_C_ANS_REALM_QUEST_INFO,		PT_REALMEVENT_BASE + 6);		// Ư�� ���� ����Ʈ ���� ����(UI ��)
+PACKET_DEF( PT_N_C_NFY_REALM_QUEST_INFO,		PT_REALMEVENT_BASE + 7);		// �ð��� ���� ����Ʈ ���� ����
+PACKET_DEF( PT_N_C_NFY_REALM_QUEST_REWARD,		PT_REALMEVENT_BASE + 8);		// ���� �ֱ� ������ ����
+PACKET_DEF( PT_N_N_NFY_LOAD_REALM_QUEST,		PT_REALMEVENT_BASE + 9);		// DB�� ���� ���� ���� �ε�
+
+unsigned short const PT_GM_BASE = 19600;
+PACKET_DEF( PT_A_N_REQ_COPY_THAT,				PT_GM_BASE + 1); // ����� ����,������,��ų ����
+
+unsigned short const PT_EFFECT_ARG_CHANGED = 19700;
+// Effect�� ������ �ִ� Argument���� ��ȭ�Ȱ��� Ŭ���̾�Ʈ�� �˷��ְ��� �Ҷ� ������
+// BM::GUID kGuid (Abil�� ����� Unit)
+// BM::GUID kCasterGuid (Effect�� �� Caster)
+// int iEffectNo (Abil�� �ٲ�� �� EffectNum)
+// SActArg kArg (kGuid�� iEffectNo�� �������ִ� SActArg���� �ٲ��� ������)
+PACKET_DEF( PT_M_C_NFY_EFFECT_ARGCHANGED, PT_EFFECT_ARG_CHANGED );
+
+unsigned short const PT_UNIT_AWAKE_CHARGE_STATE = 19800;
+// ���� í���� �����ϰ� �����Ҷ� ������ Ŭ���̾�Ʈ�� �����ϴ� �뵵
+// BYTE EAwakeChargeInfo, 
+
+// *�� EAwakeChargeInfo�� EACS_UI_CHANGE �ϰ�� 
+//		bool bAwakeChargeUI (í�� ������ UI�� �ٲܰ��ΰ�)
+
+// *�� EAwakeChargeInfo�� EACS_AWAKE_CHARGE_END �ϰ��.
+//		BM::GUID kTargetGuid (a_battle_idle)�� �׼��� �ٲ��� Unit
+PACKET_DEF( PT_M_C_NFY_UNIT_AWAKE_CHARGE_STATE, PT_UNIT_AWAKE_CHARGE_STATE );
+
+
+unsigned short const PT_GUILD_ITEM_BASE = 19900;
+PACKET_DEF(PT_N_M_REQ_ITEM_CHANGE_GUILD, PT_GUILD_ITEM_BASE + 1); //
+PACKET_DEF(PT_N_C_NFY_GUILD_INV_EXTEND, PT_GUILD_ITEM_BASE + 2); // ����κ� Ȯ�� ���
+
+unsigned short const PT_SOCIAL_PACKET = 19950;
+PACKET_DEF( PT_A_N_NFY_CHARACTER_INFO, PT_SOCIAL_PACKET );
+PACKET_DEF( PT_N_N_NFY_BUILD_BASE_ITEM_INFO, PT_SOCIAL_PACKET+1 );
+PACKET_DEF( PT_A_N_NFY_CHARACTER_COMBO_INFO, PT_SOCIAL_PACKET+2 );
+PACKET_DEF( PT_A_N_NFY_GROUND_PLAYER_COUNT_INFO, PT_SOCIAL_PACKET+3 );
+
+unsigned short const PT_DELETE_DEBUFF = 19990;
+PACKET_DEF( PT_M_C_ANS_DELETE_DEBUFF_SUCCESS, PT_DELETE_DEBUFF );
+PACKET_DEF( PT_M_C_ANS_DELETE_DEBUFF_FAIL, PT_DELETE_DEBUFF+1 );
+
+int const JOBSKILL_PACKET_BASE = 20000;
+PACKET_DEF(PT_M_C_NFY_LOCATION_ITEM,			JOBSKILL_PACKET_BASE+1 )//��� ���� ��ũ
+PACKET_DEF(PT_M_C_NFY_LOCATION_INFO,			JOBSKILL_PACKET_BASE+2 )//��� ���� ��ũ
+PACKET_DEF(PT_M_C_NFY_LOCATION_ACTION,			JOBSKILL_PACKET_BASE+3 )//��� �׼�
+PACKET_DEF(PT_M_C_NFY_COMPLETE_JOBSKILL,		JOBSKILL_PACKET_BASE+4 )//ä�� �׼� �Ϸ� �˸�
+PACKET_DEF(PT_C_M_REQ_CANCEL_JOBSKILL,			JOBSKILL_PACKET_BASE+5 )//ä�� �׼� ��� ��û
+
+PACKET_DEF(PT_C_M_REQ_LEARN_JOBSKILL,			JOBSKILL_PACKET_BASE+20 )//ä�� ��ų ���� ��û
+PACKET_DEF(PT_M_C_ANS_LEARN_JOBSKILL,			JOBSKILL_PACKET_BASE+21 )//ä�� ��ų ���� ȸ��
+PACKET_DEF(PT_C_M_REQ_DELETE_JOBSKILL,			JOBSKILL_PACKET_BASE+22 )//ä�� ��ų ���� ��û
+PACKET_DEF(PT_M_C_ANS_DELETE_JOBSKILL,			JOBSKILL_PACKET_BASE+23 )//ä�� ��ų ���� ȸ��
+
+PACKET_DEF(PT_M_C_NFY_JOBSKILL_ERROR,			JOBSKILL_PACKET_BASE+30 )//ä�� ���� �޽��� ��Ŷ
+
+PACKET_DEF(PT_M_C_NFY_JOBSKILL3_HISTORYITEM,	JOBSKILL_PACKET_BASE+40 )//ä��3�� �ֱ� ������ �����۸��
+PACKET_DEF(PT_N_T_REQ_JOBSKILL3_HISTORYITEM,	JOBSKILL_PACKET_BASE+41 )//ä��3�� �ֱ� ������ �����۸�� ����
+PACKET_DEF(PT_C_M_REQ_JOBSKILL3_CREATEITEM,		JOBSKILL_PACKET_BASE+42 )//ä��3�� ������ ���� ��û
+PACKET_DEF(PT_M_C_ANS_JOBSKILL3_CREATEITEM,		JOBSKILL_PACKET_BASE+43 )//ä��3�� ������ ���� ����
+
+int const INTERACTIVE_EMOTION_ACTION_PACKET_BASE = 20300;
+PACKET_DEF(PT_C_M_REQ_INTERACTIVE_EMOTION_REQUEST,	INTERACTIVE_EMOTION_ACTION_PACKET_BASE+1 )	// Ŭ�󿡼� ��뿡�� ���ͷ�Ƽ�� �̸�� �ǻ� ������ ������ ��û
+PACKET_DEF(PT_M_C_NFY_INTERACTIVE_EMOTION_REQUEST,	INTERACTIVE_EMOTION_ACTION_PACKET_BASE+2 )	// �������� ��뿡�� ���ͷ�Ƽ�� �̸�� �ǻ縦 ����
+PACKET_DEF(PT_C_M_ANS_INTERACTIVE_EMOTION_REQUEST,	INTERACTIVE_EMOTION_ACTION_PACKET_BASE+3 )	// ����� �ǻ縦 ����
+PACKET_DEF(PT_M_C_NFY_DO_INTERACTIVE_EMOTION,		INTERACTIVE_EMOTION_ACTION_PACKET_BASE+4 )	// ����, ���� ���ο� ���� �׼� or �ź� �ǻ� �˸�
+
+PACKET_DEF( PT_M_C_RES_DELETE_SKILL, 20400 ) // ��ų ������ ���� ����
+
+unsigned short const PT_GODHAND_JOBSKILL_BASE = 20500;
+PACKET_DEF( PT_M_C_GMCMD_GODHAND_JOBSKILL_SUBTOOL_ON, PT_GODHAND_JOBSKILL_BASE + 1 );	// ������ų ���Ȯ�� ���� Ȱ��ȭ
+PACKET_DEF( PT_M_C_GMCMD_GODHAND_JOBSKILL_SUBTOOL_OFF, PT_GODHAND_JOBSKILL_BASE + 2 );	// ������ų ���Ȯ�� ���� ��Ȱ��ȭ
+
+//Ŀ�´�Ƽ ���� ���� - �ϴ� ����Ȩ ���� �������� ����(20600-20700)
+unsigned short const PT_COMMUNITY_STATE = 20600;
+PACKET_DEF( PT_N_N_NFY_COMMUNITY_STATE_HOMEADDR_FRIEND, PT_COMMUNITY_STATE + 1 );	//ģ�� ���� ����
+PACKET_DEF( PT_N_N_NFY_COMMUNITY_STATE_HOMEADDR_GUILD, PT_COMMUNITY_STATE + 2 );	//��� ���� ����
+PACKET_DEF( PT_N_N_NFY_COMMUNITY_STATE_HOMEADDR_COUPLE, PT_COMMUNITY_STATE + 3 );	//Ŀ�� ���� ����
+PACKET_DEF( PT_N_T_NFY_COMMUNITY_STATE_HOMEADDR_PARTY, PT_COMMUNITY_STATE + 4 );	//��Ƽ ���� ����
+
+//��������
+unsigned short const PT_SOULTRANSFER = 20700;
+PACKET_DEF( PT_C_M_REQ_SOULTRANSFER_EXTRACT, PT_SOULTRANSFER + 1 );			//���������û
+PACKET_DEF( PT_C_M_REQ_SOULTRANSFER_TRANSITION, PT_SOULTRANSFER + 2 );		//���»��Կ�û
+PACKET_DEF( PT_M_C_ANS_SOULTRANSFER_EXTRACT, PT_SOULTRANSFER + 3 );			//����������
+PACKET_DEF( PT_M_C_ANS_SOULTRANSFER_TRANSITION, PT_SOULTRANSFER + 4 );		//���»��԰��
+
+const unsigned short PT_TREASURE_CHEST_BASE = 20800; //��������
+PACKET_DEF(PT_SYNC_TREASURE_CHEST, PT_TREASURE_CHEST_BASE + 1)
+PACKET_DEF(PT_M_C_NOTI_TREASURE_CHEST, PT_TREASURE_CHEST_BASE + 2)
+PACKET_DEF(PT_M_C_ANS_TREASURE_CHEST, PT_TREASURE_CHEST_BASE + 3)
+PACKET_DEF(PT_C_M_REQ_OPEN_TREASURE_CHEST, PT_TREASURE_CHEST_BASE + 4)
+PACKET_DEF(PT_M_C_ANS_TREASURE_CHEST_INFO, PT_TREASURE_CHEST_BASE + 5)
+PACKET_DEF(PT_C_M_REQ_TREASURE_CHEST_INFO, PT_TREASURE_CHEST_BASE + 6)
+
+const unsigned short PT_ELEMENT_EXTRACT = 20900;	//�Ӽ� ���� �ý���
+PACKET_DEF(PT_C_M_REQ_ELEMENT_EXTRACT, PT_ELEMENT_EXTRACT + 1)		//���� ���� ��û
+PACKET_DEF(PT_M_C_ANS_ELEMENT_EXTRACT, PT_ELEMENT_EXTRACT + 2)		//���� ���� ���
+
+const unsigned short PT_MOVETOPARTYMASTERGROUND_BASE = 21000;
+PACKET_DEF(PT_C_M_REQ_MOVETOPARTYMASTERGROUND, PT_MOVETOPARTYMASTERGROUND_BASE + 1);
+PACKET_DEF(PT_M_C_ANS_MOVETOPARTYMASTERGROUND, PT_MOVETOPARTYMASTERGROUND_BASE + 2);
+
+PACKET_DEF(PT_M_T_REQ_PARTYMASTERGROUNDKEY, PT_MOVETOPARTYMASTERGROUND_BASE + 3);
+PACKET_DEF(PT_T_M_REQ_PARTYMASTERGROUNDKEY, PT_MOVETOPARTYMASTERGROUND_BASE + 4);
+PACKET_DEF(PT_M_T_ANS_PARTYMASTERGROUNDKEY, PT_MOVETOPARTYMASTERGROUND_BASE + 5);
+PACKET_DEF(PT_T_M_ANS_PARTYMASTERGROUNDKEY, PT_MOVETOPARTYMASTERGROUND_BASE + 6);
+
+const unsigned short PT_M_C_NFY_END_ACTION_BASE = 21100; // �׼��� �����Ű�� ��Ŷ
+PACKET_DEF(PT_M_C_NFY_END_ACTION, PT_M_C_NFY_END_ACTION_BASE + 1);
+
+const unsigned short PT_SAVE_CHARACTOR_SLOT = 21200; // ĳ��â ���� ��ȣ ����
+PACKET_DEF(PT_C_S_REQ_SAVE_CHARACTOR_SLOT, PT_SAVE_CHARACTOR_SLOT + 1);
+PACKET_DEF(PT_S_T_REQ_SAVE_CHARACTOR_SLOT, PT_SAVE_CHARACTOR_SLOT + 2);
+
+const unsigned short PT_FIND_CHARACTOR_EXTEND_SLOT = 21210; // ĳ��â Ȯ�� ����
+PACKET_DEF(PT_C_S_REQ_FIND_CHARACTOR_EXTEND_SLOT, PT_FIND_CHARACTOR_EXTEND_SLOT + 1);
+PACKET_DEF(PT_S_T_REQ_FIND_CHARACTOR_EXTEND_SLOT, PT_FIND_CHARACTOR_EXTEND_SLOT + 2);
+PACKET_DEF(PT_T_S_ANS_FIND_CHARACTOR_EXTEND_SLOT, PT_FIND_CHARACTOR_EXTEND_SLOT + 3);
+PACKET_DEF(PT_S_C_ANS_FIND_CHARACTOR_EXTEND_SLOT, PT_FIND_CHARACTOR_EXTEND_SLOT + 4);
+
+const unsigned short PT_ITEM_USE_RESULT = 21220; // ������ ��� ��� ����
+PACKET_DEF(PT_T_C_ANS_ITEM_USE_RESULT, PT_ITEM_USE_RESULT + 1);
+
+const unsigned short PT_COMBAT_REVIVE = 21230; // ���� ��Ȱ ����
+PACKET_DEF(PT_M_C_DO_COMBAT_REVIVE_ACTION, PT_COMBAT_REVIVE + 1);
+
+const unsigned short PT_ELEMENT_GROUND_MOVE = 21240; // UI�� ���� ���۱׶��� �̵�
+PACKET_DEF(PT_C_M_REQ_ELEMENT_GROUND_MOVE, PT_ELEMENT_GROUND_MOVE + 1);
+
+const unsigned short PT_INDUN_ENTER = 21250; // ���� ����
+PACKET_DEF(PT_C_M_REQ_INDUN_PARTY_LIST, PT_INDUN_ENTER + 1);
+PACKET_DEF(PT_M_C_ANS_INDUN_PARTY_LIST, PT_INDUN_ENTER + 2);
+PACKET_DEF(PT_M_T_REQ_INDUN_PARTY_LIST, PT_INDUN_ENTER + 3);	//��Ƽ������ ���ͼ����� ��û
+PACKET_DEF(PT_M_T_ANS_INDUN_PARTY_LIST, PT_INDUN_ENTER + 4);
+PACKET_DEF(PT_C_M_REQ_INDUN_PARTY_ENTER, PT_INDUN_ENTER + 5);	//��Ʈ�忡�� ��Ƽ���� ��û
+PACKET_DEF(PT_M_C_ANS_INDUN_PARTY_ENTER, PT_INDUN_ENTER + 6);
+PACKET_DEF(PT_T_T_REQ_JOIN_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER + 7);
+PACKET_DEF(PT_T_M_REQ_JOIN_PARTY_MAP_MOVE, PT_INDUN_ENTER + 8);
+PACKET_DEF(PT_T_T_ANS_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER + 9);
+PACKET_DEF(PT_T_C_ANS_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER+10);
+PACKET_DEF(PT_T_T_ANS_JOIN_OTHER_CHANNEL_PARTY_TO_MASTER, PT_INDUN_ENTER+11);
+PACKET_DEF(PT_C_T_NFY_MAPMOVE_TO_PARTYMGR, PT_INDUN_ENTER+12);
+PACKET_DEF(PT_T_M_ANS_RETURN_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER + 13);
+PACKET_DEF(PT_M_T_ANS_RETURN_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER + 14);
+PACKET_DEF(PT_T_T_ANS_RETURN_OTHER_CHANNEL_PARTY, PT_INDUN_ENTER + 15);
+PACKET_DEF(PT_C_M_REQ_CHECK_CAN_KICK, PT_INDUN_ENTER + 16);
+PACKET_DEF(PT_M_C_ANS_CHECK_CAN_KICK, PT_INDUN_ENTER + 17);
+PACKET_DEF(PT_M_T_REQ_CLEAR_PARTY_WAITER, PT_INDUN_ENTER + 18);
+
+const unsigned short PT_MANUFACTURE_BASE = 21300;
+PACKET_DEF(PT_C_M_REQ_MANUFACTURE, PT_MANUFACTURE_BASE + 1);
+PACKET_DEF(PT_M_C_ANS_MANUFACTURE, PT_MANUFACTURE_BASE + 2);
+PACKET_DEF(PT_C_M_REQ_BUNDLE_MANUFACTURE, PT_MANUFACTURE_BASE + 3);
+PACKET_DEF(PT_M_C_ANS_BUNDLE_MANUFACTURE, PT_MANUFACTURE_BASE + 4);
+
+const unsigned short PT_PROGRESS_POS_BASE = 21350;
+PACKET_DEF(PT_C_M_NFY_PROGRESS_POS, PT_PROGRESS_POS_BASE + 1);
+
+
+const unsigned short PT_LEARN_SKILL_EVENT_BASE = 21400;
+PACKET_DEF(PT_M_C_NFY_LEARN_SKILL_EVENT, PT_LEARN_SKILL_EVENT_BASE + 1);
+
+const unsigned short PT_CHAT_BLOCK_BASE = 21600;
+PACKET_DEF(PT_C_M_REQ_REGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 1);
+PACKET_DEF(PT_C_M_REQ_UNREGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 2);
+PACKET_DEF(PT_C_M_REQ_CHANGE_CHAT_BLOCK_OPTION, PT_CHAT_BLOCK_BASE + 3);
+PACKET_DEF(PT_M_T_REQ_REGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 4);
+PACKET_DEF(PT_M_T_REQ_UNREGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 5);
+PACKET_DEF(PT_M_T_REQ_CHANGE_CHAT_BLOCK_OPTION, PT_CHAT_BLOCK_BASE + 6);
+PACKET_DEF(PT_T_M_NFY_RESULT_REGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 7);
+PACKET_DEF(PT_M_C_NFY_RESULT_REGIST_CHAT_BLOCK, PT_CHAT_BLOCK_BASE + 8);
+
+const unsigned short PT_COMMUNITY_EVENT_BASE = 21700;
+PACKET_DEF(PT_C_M_REQ_MOVE_EVENT_GROUND, PT_COMMUNITY_EVENT_BASE + 1);						// �̺�Ʈ ������ �̵� ��û.
+PACKET_DEF(PT_M_C_ANS_MOVE_EVENT_GROUND, PT_COMMUNITY_EVENT_BASE + 2);						// �̺�Ʈ �� �̵� ��û ���.
+PACKET_DEF(PT_M_N_PRE_MAKE_PARTY_EVENT_GROUND, PT_COMMUNITY_EVENT_BASE + 3);				// �̺�Ʈ ���� ä���� �ٸ��� ������ �̵��� �ʿ� �̸� ��Ƽ�� �����־��Ѵ�.
+PACKET_DEF(PT_N_T_PRE_MAKE_PARTY_EVENT_GROUND, PT_COMMUNITY_EVENT_BASE + 4);				// �̺�Ʈ ������ ��Ƽ�� ����� �ζ�� ����.
+PACKET_DEF(PT_M_N_REQ_JOIN_ANOTHER_CHANNEL_PARTY, PT_COMMUNITY_EVENT_BASE + 5);				// �ٸ� ä���� ���� ��Ƽ ���� ����Ʈ ���.
+PACKET_DEF(PT_N_M_NFY_JOIN_ANOTHER_CHANNEL_PARTY, PT_COMMUNITY_EVENT_BASE + 6);				// ��Ƽ �������� ������ ������ ����.
+PACKET_DEF(PT_M_T_REQ_JOIN_EVENT_GROUND_PARTY, PT_COMMUNITY_EVENT_BASE + 7);				// �̺�Ʈ �ʿ� ��������ִ� ��Ƽ�� ����.
+PACKET_DEF(PT_M_C_NFY_COMMUNITY_EVENT_READY, PT_COMMUNITY_EVENT_BASE + 8);					// �̺�Ʈ �غ� �ܰ����� �˸�.
+PACKET_DEF(PT_M_C_NFY_COMMUNITY_EVENT_START, PT_COMMUNITY_EVENT_BASE + 9);					// �̺�Ʈ �������� �˸�.
+PACKET_DEF(PT_M_C_NFY_COMMUNITY_EVENT_END, PT_COMMUNITY_EVENT_BASE + 10);					// �̺�Ʈ�� ���� ���� �˸�.
+PACKET_DEF(PT_M_N_NFY_COMMUNITY_EVENT_GROUND_STATE_CHANGE, PT_COMMUNITY_EVENT_BASE + 11);	// �̺�Ʈ �� ���� ������ �˸���.(���¿� ���� ���� ����/�Ұ���)
+PACKET_DEF(PT_N_T_NFY_COMMUNITY_EVENT_GROUND_STATE_CHANGE, PT_COMMUNITY_EVENT_BASE + 12);	// �̺�Ʈ �� ���� ������ �˸���.(���¿� ���� ���� ����/�Ұ���)
+PACKET_DEF(PT_T_M_NFY_COMMUNITY_EVENT_GROUND_STATE_CHANGE, PT_COMMUNITY_EVENT_BASE + 13);	// �̺�Ʈ �� ���� ������ �˸���.(���¿� ���� ���� ����/�Ұ���)
+PACKET_DEF(PT_M_C_NFY_EVENT_GROUND_MOVE_COMPLETE, PT_COMMUNITY_EVENT_BASE + 14);			// �̺�Ʈ ������ �̵��� �Ϸ������� Ŭ��� �˸�.
+PACKET_DEF(PT_M_C_NFY_EVENT_GROUND_USER_COUNT_MODIFY, PT_COMMUNITY_EVENT_BASE + 15);		// �̺�Ʈ ���� �ο��� ������� Ŭ��� �˸�.
+PACKET_DEF(PT_M_N_NFY_EVENT_GROUND_USER_COUNT_MODIFY, PT_COMMUNITY_EVENT_BASE + 16);
+PACKET_DEF(PT_N_T_NFY_EVENT_GROUND_USER_COUNT_MODIFY, PT_COMMUNITY_EVENT_BASE + 17);
+PACKET_DEF(PT_T_M_NFY_EVENT_GROUND_USER_COUNT_MODIFY, PT_COMMUNITY_EVENT_BASE + 18);
+PACKET_DEF(PT_M_C_NFY_REMAIN_TIME_MONSTER_GENERATE, PT_COMMUNITY_EVENT_BASE + 19);
+PACKET_DEF(PT_T_M_NFY_COERCION_START_EVENT, PT_COMMUNITY_EVENT_BASE + 20);					// �̺�Ʈ ���� ����.
+PACKET_DEF(PT_C_M_REQ_EVENT_PROGRESS_INFO, PT_COMMUNITY_EVENT_BASE + 21);
+PACKET_DEF(PT_M_C_ANS_EVENT_PROGRESS_INFO, PT_COMMUNITY_EVENT_BASE + 22);
+
+//�Ʒ��� �޸��� �̺�Ʈ
+PACKET_DEF(PT_M_C_NFY_RACE_EVENT_GROUND_MOVE_COMPLETE, PT_COMMUNITY_EVENT_BASE + 26);			// �̺�Ʈ ������ �̵��� �Ϸ������� Ŭ��� �˸�.
+PACKET_DEF(PT_M_C_NFY_RACE_EVENT_READY, PT_COMMUNITY_EVENT_BASE + 27);
+PACKET_DEF(PT_M_C_NFY_RACE_EVENT_START, PT_COMMUNITY_EVENT_BASE + 28);
+PACKET_DEF(PT_M_C_NFY_RACE_EVENT_END,	PT_COMMUNITY_EVENT_BASE + 29);
+PACKET_DEF(PT_C_M_NFY_RACE_CHECK_POINT, PT_COMMUNITY_EVENT_BASE + 30);
+PACKET_DEF(PT_M_C_NFY_RACE_RANK_INFO, PT_COMMUNITY_EVENT_BASE + 31);
+
+
+#endif // WEAPON_LOHENGRIN_PACKET_PACKETTYPE_H

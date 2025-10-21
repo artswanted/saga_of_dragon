@@ -1,0 +1,604 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CJ60Lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/CJ60Lib.res" /d "NDEBUG" /d "_AFXDLL" "D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJ60Lib.rc"" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "..\..\include\cj60" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/CJ60Lib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJ60Lib.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJCaption.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJControlBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJDockBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJDockContext.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJExplorerBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJFlatButton.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJFlatComboBox.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJFlatHeaderCtrl.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJFrameWnd.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJListCtrl.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJListView.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJMDIFrameWnd.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJMiniDockFrameWnd.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJOutlookBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJPagerCtrl.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJSearchEdit.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJSizeDockBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJTabctrlBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJToolBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CoolBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CoolMenu.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\FixTB.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\FlatBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\Globals.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\hyperlink.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\MenuBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\ModulVer.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\ShellPidl.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\ShellTree.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\SHFileInfo.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\Subclass.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP156.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "..\..\include\cj60" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/CJ60Lib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP156.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP157.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"..\..\executable\release/CJ60Lib.pdb" /machine:I386 /def:".\CJ60Lib.def" /out:"..\..\executable\release\CJ60Lib.dll" /implib:"..\..\Library\release/CJ60Lib.lib" /libpath:"cj60" 
+.\Release\CJ60Lib.obj
+.\Release\CJCaption.obj
+.\Release\CJControlBar.obj
+.\Release\CJDockBar.obj
+.\Release\CJDockContext.obj
+.\Release\CJExplorerBar.obj
+.\Release\CJFlatButton.obj
+.\Release\CJFlatComboBox.obj
+.\Release\CJFlatHeaderCtrl.obj
+.\Release\CJFrameWnd.obj
+.\Release\CJListCtrl.obj
+.\Release\CJListView.obj
+.\Release\CJMDIFrameWnd.obj
+.\Release\CJMiniDockFrameWnd.obj
+.\Release\CJOutlookBar.obj
+.\Release\CJPagerCtrl.obj
+.\Release\CJSearchEdit.obj
+.\Release\CJSizeDockBar.obj
+.\Release\CJTabCtrlBar.obj
+.\Release\CJToolBar.obj
+.\Release\CoolBar.obj
+.\Release\CoolMenu.obj
+.\Release\FixTB.obj
+.\Release\FlatBar.obj
+.\Release\Globals.obj
+.\Release\HyperLink.obj
+.\Release\MenuBar.obj
+.\Release\ModulVer.obj
+.\Release\ShellPidl.obj
+.\Release\ShellTree.obj
+.\Release\SHFileInfo.obj
+.\Release\StdAfx.obj
+.\Release\Subclass.obj
+.\Release\CJ60Lib.res
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP157.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CJ60Lib.cpp
+CJCaption.cpp
+CJControlBar.cpp
+CJDockBar.cpp
+CJDockContext.cpp
+CJExplorerBar.cpp
+CJFlatButton.cpp
+CJFlatComboBox.cpp
+CJFlatHeaderCtrl.cpp
+CJFrameWnd.cpp
+CJListCtrl.cpp
+CJListView.cpp
+CJMDIFrameWnd.cpp
+CJMiniDockFrameWnd.cpp
+CJOutlookBar.cpp
+CJPagerCtrl.cpp
+CJSearchEdit.cpp
+CJSizeDockBar.cpp
+CJTabctrlBar.cpp
+CJToolBar.cpp
+Generating Code...
+D:\Worek\LuaIDE\LuaIDESource\source\CJ60Lib\CJSizeDockBar.cpp(695) : warning C4717: 'CCJSizeDockBar::OnLButtonDblClk' : recursive on all control paths, function will cause runtime stack overflow
+Compiling...
+CoolBar.cpp
+CoolMenu.cpp
+FixTB.cpp
+FlatBar.cpp
+Globals.cpp
+hyperlink.cpp
+MenuBar.cpp
+ModulVer.cpp
+ShellPidl.cpp
+ShellTree.cpp
+SHFileInfo.cpp
+Subclass.cpp
+Generating Code...
+Linking...
+   Creating library ..\..\Library\release/CJ60Lib.lib and object ..\..\Library\release/CJ60Lib.exp
+<h3>
+--------------------Configuration: SciLexer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/ScintRes.res" /i "win32" /d "NDEBUG" "D:\Worek\LuaIDE\LuaIDESource\source\scintilla\win32\ScintRes.rc"" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /MD /W3 /O2 /I "." /I "..\..\include\scintilla" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SCI_LEXER" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\AutoComplete.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\CallTip.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\CellBuffer.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\ContractionState.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\Document.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\DocumentAccessor.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\Editor.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\win32\ExternalLexer.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\Indicator.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\KeyMap.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\KeyWords.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexAda.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexAVE.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexBaan.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexBullant.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexConf.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexCPP.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexCrontab.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexEiffel.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexHTML.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexLisp.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexLua.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexMatlab.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexOthers.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexPascal.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexPerl.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexPython.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexRuby.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexSQL.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LexVB.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\LineMarker.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\win32\PlatWin.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\PropSet.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\RESearch.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\ScintillaBase.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\win32\ScintillaWin.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\Style.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\StyleContext.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\UniConversion.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\ViewStyle.cxx"
+"D:\Worek\LuaIDE\LuaIDESource\source\scintilla\WindowAccessor.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15B.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib imm32.lib comctl32.lib /nologo /dll /incremental:no /pdb:"..\..\executable\Release/SciLexer.pdb" /machine:I386 /out:"..\..\executable\Release/SciLexer.dll" /implib:"..\..\executable\Release/SciLexer.lib" 
+.\Release\AutoComplete.obj
+.\Release\CallTip.obj
+.\Release\CellBuffer.obj
+.\Release\ContractionState.obj
+.\Release\Document.obj
+.\Release\DocumentAccessor.obj
+.\Release\Editor.obj
+.\Release\ExternalLexer.obj
+.\Release\Indicator.obj
+.\Release\KeyMap.obj
+.\Release\KeyWords.obj
+.\Release\LexAda.obj
+.\Release\LexAVE.obj
+.\Release\LexBaan.obj
+.\Release\LexBullant.obj
+.\Release\LexConf.obj
+.\Release\LexCPP.obj
+.\Release\LexCrontab.obj
+.\Release\LexEiffel.obj
+.\Release\LexHTML.obj
+.\Release\LexLisp.obj
+.\Release\LexLua.obj
+.\Release\LexMatlab.obj
+.\Release\LexOthers.obj
+.\Release\LexPascal.obj
+.\Release\LexPerl.obj
+.\Release\LexPython.obj
+.\Release\LexRuby.obj
+.\Release\LexSQL.obj
+.\Release\LexVB.obj
+.\Release\LineMarker.obj
+.\Release\PlatWin.obj
+.\Release\PropSet.obj
+.\Release\RESearch.obj
+.\Release\ScintillaBase.obj
+.\Release\ScintillaWin.obj
+.\Release\Style.obj
+.\Release\StyleContext.obj
+.\Release\UniConversion.obj
+.\Release\ViewStyle.obj
+.\Release\WindowAccessor.obj
+.\Release\ScintRes.res
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AutoComplete.cxx
+CallTip.cxx
+CellBuffer.cxx
+ContractionState.cxx
+Document.cxx
+DocumentAccessor.cxx
+Editor.cxx
+ExternalLexer.cxx
+Indicator.cxx
+KeyMap.cxx
+KeyWords.cxx
+LexAda.cxx
+LexAVE.cxx
+LexBaan.cxx
+LexBullant.cxx
+LexConf.cxx
+LexCPP.cxx
+LexCrontab.cxx
+LexEiffel.cxx
+LexHTML.cxx
+Generating Code...
+Compiling...
+LexLisp.cxx
+LexLua.cxx
+LexMatlab.cxx
+LexOthers.cxx
+LexPascal.cxx
+LexPerl.cxx
+LexPython.cxx
+LexRuby.cxx
+LexSQL.cxx
+LexVB.cxx
+LineMarker.cxx
+PlatWin.cxx
+PropSet.cxx
+RESearch.cxx
+ScintillaBase.cxx
+ScintillaWin.cxx
+Style.cxx
+StyleContext.cxx
+UniConversion.cxx
+ViewStyle.cxx
+Generating Code...
+Compiling...
+WindowAccessor.cxx
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\core" /I "..\..\include\lua" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "LUA_OPNAMES" /Fp"Release/core.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lapi.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lcode.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldebug.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldo.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ldump.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lfunc.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lgc.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\llex.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lmem.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lobject.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lopcodes.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lparser.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstate.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lstring.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltable.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltests.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\ltm.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lundump.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lvm.c"
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\core\lzio.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP15F.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP160.tmp" with contents
+[
+/nologo /out:"..\..\library\release\core.lib" 
+.\Release\lapi.obj
+.\Release\lcode.obj
+.\Release\ldebug.obj
+.\Release\ldo.obj
+.\Release\ldump.obj
+.\Release\lfunc.obj
+.\Release\lgc.obj
+.\Release\llex.obj
+.\Release\lmem.obj
+.\Release\lobject.obj
+.\Release\lopcodes.obj
+.\Release\lparser.obj
+.\Release\lstate.obj
+.\Release\lstring.obj
+.\Release\ltable.obj
+.\Release\ltests.obj
+.\Release\ltm.obj
+.\Release\lundump.obj
+.\Release\lvm.obj
+.\Release\lzio.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP160.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+lcode.c
+ldebug.c
+ldo.c
+ldump.c
+lfunc.c
+lgc.c
+llex.c
+lmem.c
+lobject.c
+lopcodes.c
+lparser.c
+lstate.c
+lstring.c
+ltable.c
+ltests.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+Creating library...
+<h3>
+--------------------Configuration: standard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP161.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\lua" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/standard.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lauxlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lbaselib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\ldblib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\liolib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lmathlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\loadlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lstrlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\ltablib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP161.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\library\release\standard.lib"  .\Release\lauxlib.obj .\Release\lbaselib.obj .\Release\ldblib.obj .\Release\liolib.obj .\Release\lmathlib.obj .\Release\loadlib.obj .\Release\lstrlib.obj .\Release\ltablib.obj "
+<h3>Output Window</h3>
+Compiling...
+lauxlib.c
+lbaselib.c
+ldblib.c
+liolib.c
+lmathlib.c
+loadlib.c
+lstrlib.c
+ltablib.c
+Creating library...
+<h3>
+--------------------Configuration: compiler - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP163.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\core" /I "..\..\include\lua" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Release/compiler.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\compiler\luac.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\compiler\print.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP163.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP164.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"..\..\executable\release/luac.pdb" /machine:I386 /out:"..\..\executable\release/luac.exe" 
+.\Release\luac.obj
+.\Release\print.obj
+\Worek\LuaIDE\LuaIDESource\library\release\core.lib
+\Worek\LuaIDE\LuaIDESource\library\release\standard.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP164.tmp"
+<h3>Output Window</h3>
+Compiling...
+luac.c
+print.c
+Linking...
+<h3>
+--------------------Configuration: libapi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP166.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libapi.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\libapi\libapi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP166.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP167.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libapi.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\libapi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP167.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\library\release\libapi.lib"  .\Release\libapi.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+libapi.cpp
+Creating library...
+<h3>
+--------------------Configuration: stdlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP168.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\lua" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "STDLIB_EXPORTS" /Fp"Release/stdlib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\stdlib\stdlib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP168.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP169.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\lua" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "STDLIB_EXPORTS" /Fp"Release/stdlib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\stdlib\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP169.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib core.lib standard.lib /nologo /dll /incremental:no /pdb:"..\..\executable\Release/stdlib.pdb" /machine:I386 /out:"..\..\executable\Release/stdlib.dll" /implib:"..\..\executable\Release/stdlib.lib" /libpath:"..\..\library\release" 
+.\Release\StdAfx.obj
+.\Release\stdlib.obj
+\Worek\LuaIDE\LuaIDESource\library\release\libapi.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+stdlib.cpp
+Linking...
+   Creating library ..\..\executable\Release/stdlib.lib and object ..\..\executable\Release/stdlib.exp
+<h3>
+--------------------Configuration: interpreter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\lua" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/interpreter.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\SOURCE\interpreter\lua.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16E.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"..\..\executable\release/lua.pdb" /machine:I386 /out:"..\..\executable\release/lua.exe" 
+.\Release\lua.obj
+\Worek\LuaIDE\LuaIDESource\library\release\core.lib
+\Worek\LuaIDE\LuaIDESource\library\release\standard.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP16F.tmp"
+<h3>Output Window</h3>
+Compiling...
+lua.c
+Linking...
+<h3>
+--------------------Configuration: ide2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x415 /fo"Release/ide2.res" /d "NDEBUG" /d "_AFXDLL" "D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ide2.rc"" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP171.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\core" /I "..\..\include\cj60" /I "..\..\include\lua" /I "..\..\include\scintilla" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ide2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\CallStack.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\Debugger.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\Executor.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ide2.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\LuaDoc.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\LuaEditor.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\LuaFrame.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\LuaHelper.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\LuaView.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\MainFrame.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\MDIClientWnd.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\OutputWnd.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\Project.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ProjectFile.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ProjectNew.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ProjectProperties.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ScintillaBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\ScintillaView.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\TreeViewFiles.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\VariablesBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\WatchBar.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\WatchList.cpp"
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\WorkspaceWnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP171.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP172.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\core" /I "..\..\include\cj60" /I "..\..\include\lua" /I "..\..\include\scintilla" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ide2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\Ide2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP172.tmp" 
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP173.tmp" with contents
+[
+CJ60Lib.lib core.lib standard.lib shlwapi.lib /nologo /subsystem:windows /incremental:no /pdb:"..\..\executable\Release/LuaIDE.pdb" /machine:I386 /out:"..\..\executable\Release/LuaIDE.exe" /libpath:"..\..\library\release" 
+.\Release\CallStack.obj
+.\Release\Debugger.obj
+.\Release\Executor.obj
+.\Release\ide2.obj
+.\Release\LuaDoc.obj
+.\Release\LuaEditor.obj
+.\Release\LuaFrame.obj
+.\Release\LuaHelper.obj
+.\Release\LuaView.obj
+.\Release\MainFrame.obj
+.\Release\MDIClientWnd.obj
+.\Release\OutputWnd.obj
+.\Release\Project.obj
+.\Release\ProjectFile.obj
+.\Release\ProjectNew.obj
+.\Release\ProjectProperties.obj
+.\Release\ScintillaBar.obj
+.\Release\ScintillaView.obj
+.\Release\StdAfx.obj
+.\Release\TreeViewFiles.obj
+.\Release\VariablesBar.obj
+.\Release\WatchBar.obj
+.\Release\WatchList.obj
+.\Release\WorkspaceWnd.obj
+.\Release\ide2.res
+\Worek\LuaIDE\LuaIDESource\Library\release\CJ60Lib.lib
+\Worek\LuaIDE\LuaIDESource\library\release\core.lib
+\Worek\LuaIDE\LuaIDESource\library\release\standard.lib
+\Worek\LuaIDE\LuaIDESource\executable\Release\stdlib.lib
+\Worek\LuaIDE\LuaIDESource\library\release\libapi.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP173.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Automatically linking with CJ60Lib.dll
+Compiling...
+CallStack.cpp
+Debugger.cpp
+Executor.cpp
+ide2.cpp
+LuaDoc.cpp
+LuaEditor.cpp
+LuaFrame.cpp
+LuaHelper.cpp
+LuaView.cpp
+MainFrame.cpp
+MDIClientWnd.cpp
+OutputWnd.cpp
+Project.cpp
+ProjectFile.cpp
+ProjectNew.cpp
+ProjectProperties.cpp
+ScintillaBar.cpp
+ScintillaView.cpp
+TreeViewFiles.cpp
+VariablesBar.cpp
+Generating Code...
+Compiling...
+WatchBar.cpp
+WatchList.cpp
+WorkspaceWnd.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LuaIDE.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

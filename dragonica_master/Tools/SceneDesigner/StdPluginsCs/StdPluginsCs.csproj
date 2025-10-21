@@ -1,0 +1,421 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{37A76DF9-AF7A-444F-B28E-8232B5E8FD63}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "StdPluginsCs"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = 'if not exist "..\..\..\Application\VC71\$(ConfigurationName)\Plugins\" mkdir "..\..\..\Application\VC71\$(ConfigurationName)\Plugins\"&#xd;&#xa;copy "$(TargetPath)" "..\..\..\Application\VC71\$(ConfigurationName)\Plugins\"'
+                RootNamespace = "Emergent.Gamebryo.SceneDesigner.StdPluginsCs"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug DLL"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE;VC71"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug DLL\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release DLL"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE;VC71"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release DLL\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "SceneDesignerFramework"
+                    Project = "{60C1FF6B-CF7E-4D83-BF7F-CA974EF1A753}"
+                    Package = "{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plugin.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UICommandUtility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Win32Utility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\PaletteTreeView.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Controls\PaletteTreeView.resx"
+                    DependentUpon = "PaletteTreeView.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewComponentDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewComponentDlg.resx"
+                    DependentUpon = "AddNewComponentDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewPaletteDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewPaletteDlg.resx"
+                    DependentUpon = "AddNewPaletteDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewTemplateDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\AddNewTemplateDlg.resx"
+                    DependentUpon = "AddNewTemplateDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\AddPropertyDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\AddPropertyDlg.resx"
+                    DependentUpon = "AddPropertyDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\EditTemplateDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\EditTemplateDlg.resx"
+                    DependentUpon = "EditTemplateDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\PickPaletteDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\PickPaletteDialog.resx"
+                    DependentUpon = "PickPaletteDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dialogs\TemplateConflictDlg.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dialogs\TemplateConflictDlg.resx"
+                    DependentUpon = "TemplateConflictDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editors\EntityCollectionEditor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editors\EntityCollectionEditorDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editors\EntityCollectionEditorDialog.resx"
+                    DependentUpon = "EntityCollectionEditorDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editors\EntityPointerEditor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editors\EntityPointerEditorDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editors\EntityPointerEditorDialog.resx"
+                    DependentUpon = "EntityPointerEditorDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Panels\ComponentPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Panels\ComponentPanel.resx"
+                    DependentUpon = "ComponentPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Panels\EntityTemplatePanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Panels\EntityTemplatePanel.resx"
+                    DependentUpon = "EntityTemplatePanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Panels\MessagesPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Panels\MessagesPanel.resx"
+                    DependentUpon = "MessagesPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Panels\PalettePanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Panels\PalettePanel.resx"
+                    DependentUpon = "PalettePanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Panels\UndoPanel.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Panels\UndoPanel.resx"
+                    DependentUpon = "UndoPanel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Resources\Icons\palette_panel.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Icons\template_panel.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\category.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\category_small.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\palette.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\palette_small.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\template.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelListView\template_small.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\00_import_palette.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\01_new_palette.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\02_rename_palette.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\03_delete_palette.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\04_new_template.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\05_clone_from_entity.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\06_move_copy_rename.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\07_delete_template.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\08_add_art_assets.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\09_large_icons.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Resources\Images\PalettePanelToolbar\10_small_icons.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Services\EntityPathServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Services\OptionsServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Services\UICommandServiceImpl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\AbstractBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\CommandBindingBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\DynamicMenuBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\DynamicShortCutBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\DynamicToolbarBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIBinding\OptionsBindingsBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\AnimationControlUtility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\ComponentPropertyUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility\PaletteUtilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

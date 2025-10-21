@@ -1,0 +1,59 @@
+#ifndef IMMIGRATION_IMMIGRATIONSERVER_MAINFRAME_PGSITEMGR_H
+#define IMMIGRATION_IMMIGRATIONSERVER_MAINFRAME_PGSITEMGR_H
+
+#include "Lohengrin/PgRealmManager.h"
+
+#define DECLARE_GETTABLE(type, value) \
+public:\
+	void Get(type &kCont) const\
+	{\
+	BM::CAutoMutex kLock(m_kMutex);\
+	kCont = value;\
+	}\
+protected:\
+	type value;\
+
+typedef enum eDBQueryType_Immgration
+{
+	DQT_LOAD_SITE_CONFIG				= 1000,
+	DQT_LOAD_REALM_CONFIG,
+	DQT_LOAD_RESTRICTIONS_ON_CHANNEL,
+	DQT_LOAD_MAP_CONFIG_STATIC,
+	DQT_LOAD_MAP_CONFIG_MISSION,
+	DQT_LOAD_MAP_CONFIG_PUBLIC,
+	DQT_PATCH_VERSION_EDIT,
+
+	DQT_LOAD_IP_FOR_ACCEPT,
+	DQT_LOAD_IP_FOR_BLOCK,
+	DQT_DEF_RESTRICTIONS,
+	DQT_ADD_IP_FOR_ACCEPT,
+	DQT_LOAD_CHANNEL_NOTICE,
+
+}EDBQueryType_Immgration;
+
+class PgSiteMgr
+{
+public:
+	PgSiteMgr(void);
+	virtual ~PgSiteMgr(void);
+
+public:
+	void LoadFromDB();
+
+	HRESULT Q_DQT_LOAD_REALM_CONFIG(CEL::DB_RESULT &rkResult);
+	HRESULT Q_DQT_LOAD_SITE_CONFIG(CEL::DB_RESULT &rkResult);
+
+	HRESULT Q_DQT_LOAD_MAP_CONFIG_STATIC(CEL::DB_RESULT &rkResult);
+	HRESULT Q_DQT_LOAD_MAP_CONFIG_MISSION(CEL::DB_RESULT &rkResult);
+	HRESULT Q_DQT_LOAD_MAP_CONFIG_PUBLIC(CEL::DB_RESULT &rkResult);
+
+	HRESULT Q_DQT_PATCH_VERSION_EDIT(CEL::DB_RESULT &rkResult);
+
+	DECLARE_GETTABLE( CONT_REALM_CANDIDATE,	m_kRealmCandi );
+protected:
+	mutable Loki::Mutex m_kMutex;
+};
+
+#define g_kSiteMgr SINGLETON_STATIC(PgSiteMgr)
+
+#endif // IMMIGRATION_IMMIGRATIONSERVER_MAINFRAME_PGSITEMGR_H

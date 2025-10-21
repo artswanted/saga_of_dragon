@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libapi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/libapi.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Worek\LuaDev\SOURCE\libapi\libapi.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP17D.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\library\release\libapi.lib"  .\Release\libapi.obj .\Release\StdAfx.obj "
+<h3>Output Window</h3>
+Compiling...
+libapi.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+libapi.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

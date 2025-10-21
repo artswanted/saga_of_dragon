@@ -1,0 +1,144 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINFRAME           ICON                    "res\\ProjectD.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "FileDescription", "WorldChecker"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "WorldChecker"
+            VALUE "LegalCopyright", "Copyright (C) 2008 baronson Interactive."
+            VALUE "OriginalFilename", "WorldChecker.exe"
+            VALUE "ProductName", "WorldChecker"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WORLDCHECKER DIALOGEX 0, 0, 667, 399
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_NOINHERITLAYOUT
+CAPTION "WorldChecker"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TXT_DEVFOLDER,0,11,206,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Reload",IDC_BTN_DEVCHANGE,0,24,206,16,BS_FLAT | WS_DISABLED
+    GROUPBOX        "Dev Folder",IDC_STATIC,0,0,206,11,BS_CENTER | BS_FLAT
+    CONTROL         "",IDC_LIST_ERRORTABLE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_TABSTOP,0,289,667,109,WS_EX_STATICEDGE
+    CONTROL         "",IDC_LIST_LOG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_TABSTOP,0,101,667,187,WS_EX_STATICEDGE
+    CONTROL         "",IDC_LIST_SYSTEM,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_TABSTOP,0,24,667,77,WS_EX_STATICEDGE
+    COMBOBOX        IDC_CMB_KIND,206,11,122,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "실  행",IDC_BUTTON_SELECT,330,10,42,15
+END
+
+IDD_TEXTVIEW DIALOGEX 0, 0, 537, 335
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "TextViewer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Text List",IDC_STATIC,0,0,537,11,BS_CENTER | BS_FLAT
+    CONTROL         "",IDC_LIST_TEXTTABLE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,11,537,124
+    PUSHBUTTON      "Exit",IDCANCEL,451,315,80,15,BS_FLAT
+    EDITTEXT        IDC_SELECTTEXT,0,136,537,172,ES_MULTILINE | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

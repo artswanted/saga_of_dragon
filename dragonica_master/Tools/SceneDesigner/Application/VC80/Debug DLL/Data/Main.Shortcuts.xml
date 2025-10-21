@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<Shortcuts>
+	<Shortcut name="NewFile">
+		<Command name="NewFile"/>
+		<Key name="Control"/>
+		<Key name="N"/>
+	</Shortcut>
+	<Shortcut name="OpenFile">
+		<Command name="OpenFile"/>
+		<Key name="Control"/>
+		<Key name="O"/>
+	</Shortcut>
+	<Shortcut name="SaveFile">
+		<Command name="SaveFile"/>
+		<Key name="Control"/>
+		<Key name="S"/>
+	</Shortcut>
+	<Shortcut name="CreateTemplateFromFiles">
+		<Command name="CreateTemplateFromFiles"/>
+		<Key name="Control"/>
+		<Key name="Alt"/>
+		<Key name="A"/>
+	</Shortcut>
+	<Shortcut name="Undo">
+		<Command name="Undo"/>
+		<Key name="Control"/>
+		<Key name="Z"/>	 
+	</Shortcut>
+	<Shortcut name="Redo">
+		<Command name="Redo"/>
+		<Key name="Control"/>
+		<Key name="Y"/>	 
+	</Shortcut>
+	<Shortcut name="TranslateInteractionMode">
+		<Command name="TranslateInteractionMode"/>
+		<Key name="W"/>
+	</Shortcut>
+	<Shortcut name="RotateInteractionMode">
+		<Command name="RotateInteractionMode"/>
+	  <Key name="E"/>
+	</Shortcut>
+	<Shortcut name="ScaleInteractionMode">
+	  <Command name="ScaleInteractionMode"/>
+	  <Key name="R"/>
+	</Shortcut>
+	<Shortcut name="OrbitInteractionMode">
+	  <Command name="OrbitInteractionMode"/>
+	  <Key name="O"/>
+	</Shortcut>
+	<Shortcut name="DeleteSelectedEntities">
+		<Command name="DeleteSelectedEntities"/>
+		<Key name="Control"/>
+		<Key name="Delete"/> 
+	</Shortcut>
+	<Shortcut name="SelectAllEntities">
+		<Command name="SelectAllEntities"/>
+		<Key name="Control"/>
+		<Key name="A"/>
+	</Shortcut>
+	<Shortcut name="DeselectAllEntities">
+		<Command name="DeselectAllEntities"/>
+		<Key name="Control"/>
+		<Key name="D"/>
+	</Shortcut>
+	<Shortcut name="Clone">
+		<Command name="CloneSelection"/>
+		<Key name="Control"/>
+		<Key name="Shift"/>
+		<Key name="C"/>
+	</Shortcut>
+	<Shortcut name="Launch External Application">
+		<Command name="LaunchExternalApplication"/>
+		<Key name="F5"/>
+	</Shortcut>
+	<!--Shortcut name="Create Camera From Viewport">
+		<Command name="CreateCameraFromViewport"/>
+		<Key name="Control"/>
+		<Key name="C"/>
+	</Shortcut-->
+	<Shortcut name="Select Interaction Mode">
+	  <Command name="SelectInteractionMode"/>
+	  <Key name="Q"/>
+	</Shortcut>
+	<Shortcut name="Pan Interaction Mode">
+	  <Command name="PanInteractionMode"/>
+	  <Key name="Space"/>
+	</Shortcut>
+	<Shortcut name="Zoom Interaction Mode">
+	  <Command name="ZoomInteractionMode"/>
+	  <Key name="Z"/>
+	</Shortcut>
+	<Shortcut name="Zoom Extents Selection/Scene">
+	  <Command name="MoveToSelection"/>
+	  <Key name="Shift"/>
+	  <Key name="Z"/>
+	</Shortcut>
+	<Shortcut name="Zoom Extents All">
+	  <Command name="ZoomExtentsAll"/>
+	  <Key name="Alt"/>
+	  <Key name="Z"/>
+	</Shortcut>
+	<Shortcut name="Zoom LookAtSelection All">
+	  <Command name="LookAtSelection"/>
+	  <Key name="Control"/>
+	  <Key name="Shift"/>
+	  <Key name="Z"/>
+	</Shortcut>
+	<Shortcut name="Toggle Viewports">
+	  <Command name="ToggleViewports"/>
+	  <Key name="Alt"/>
+	  <Key name="W"/>
+	</Shortcut>
+	<Shortcut name="Rotate Snap Toggle">
+	  <Command name="RotateSnapToggle"/>
+	  <Key name="A"/>
+	</Shortcut>
+	<Shortcut name="Snap To Surface Toggle">
+	  <Command name="SnapToSurfaceToggle"/>
+	  <Key name="S"/>
+	</Shortcut>
+	<Shortcut name="Snap To Point Toggle">
+	  <Command name="SnapToPointToggle"/>
+	  <Key name="I"/>
+	</Shortcut>
+	<Shortcut name="Align To Surface Toggle">
+	  <Command name="AlignToSurfaceToggle"/>
+	  <Key name="G"/>
+	</Shortcut>
+
+  <Shortcut name="Camera Change">
+    <Command name="CameraChange"/>
+  </Shortcut>
+ 
+  
+</Shortcuts>

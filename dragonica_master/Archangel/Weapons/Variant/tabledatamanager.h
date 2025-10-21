@@ -1,0 +1,353 @@
+#ifndef WEAPON_VARIANT_DATABASE_TABLEDATAMANAGER_H
+#define WEAPON_VARIANT_DATABASE_TABLEDATAMANAGER_H
+
+#include "BM/ThreadObject.h"
+#include "Lohengrin/dbtables.h"
+#include "Lohengrin/dbTables2.h"
+#include "Lohengrin/dbtables3.h"
+#include "Lohengrin/LockUtil.h"
+#include "localization/def_strings.h"
+
+#define DECLARE_TABLE(type, value) \
+public:\
+	void GetContDef(type const * &pData) const\
+	{\
+		pData = &value;\
+	}\
+	void SetContDef(type& rData)\
+	{\
+		value.swap(rData);\
+	}\
+protected:\
+	type value; \
+
+#define DECLARE_TABLE_LOCK(type, value) \
+public:\
+	void GetContDef(CObjLock<type, BM::ACE_RW_Thread_Mutex_Ext> &rkLock) const\
+	{\
+		rkLock.SetLock(&m_kMutex);\
+		rkLock.SetObj(&value);\
+	}\
+	void SetContDef(type& rData)\
+	{\
+		BM::CAutoMutex(m_kMutex, true); \
+		value.swap(rData);\
+	}\
+protected:\
+	type value; \
+
+/* �ش� Ŭ������ �ܼ���DB �����͸� �޸𸮿� �ø��� �뵵��. 
+	���ߵ��� ���� �Լ� �Ժη� �߰����� �� ��. */
+
+class CTableDataManager
+{
+	friend struct ::Loki::CreateStatic< CTableDataManager >;
+public:
+	CTableDataManager(void);//Temp Swap�� ���ؼ� �����ڸ� ����.
+	virtual ~CTableDataManager(void);
+
+public:
+	bool LoadAllDefStringXMLInFolder(std::wstring const& wstrFolderPath);
+	inline bool ParseDefStringXML(TiXmlNode const* pkNode)
+	{
+		return defstrings::parse_def_string_xml(pkNode, m_DefStrings, m_bUTF8);
+	}
+
+	void swap(CTableDataManager &rRight, bool bReload = false);
+	void Clear(bool bReload = false);
+	void DataToPacket(BM::Stream &rkPacket);
+	void PacketToData(BM::Stream &rkPacket, bool bReload = false);
+	bool GetStringName(int const iID, std::wstring& rkName);
+
+
+	bool Dump(std::wstring const &wstrFolder);
+	bool LoadDump(std::wstring const &strFolder);
+	//template< typename T_TABLE >
+	//HRESULT GetContDef(TB_REF_COUNT &rkLock, const T_TABLE* &pData)const;
+
+	//OBJLOCK_REFCOUNT* GetLock(){return &m_pLock;}
+	void GetReloadDef(SReloadDef& rkDef, int iUpdateType );
+
+protected:
+	
+//////////////
+//public:	
+private:
+	DECLARE_TABLE(CONT_DEFCLASS,			m_DefClass);
+	DECLARE_TABLE(CONT_DEFCLASS_ABIL,		m_DefClassAbil);
+	DECLARE_TABLE(CONT_DEFCLASS_PET,		m_DefClassPet);
+	DECLARE_TABLE(CONT_DEFCLASS_PET_LEVEL,	m_DefClassPetLevel);
+	DECLARE_TABLE(CONT_DEFCLASS_PET_SKILL,	m_DefClassPetSkill);
+	DECLARE_TABLE(CONT_DEFCLASS_PET_ITEMOPTION,	m_DefClassPetItemOption);
+	DECLARE_TABLE(CONT_DEFCLASS_PET_ABIL,	m_DefClassPetAbil);
+
+	//DECLARE_TABLE(CONT_DEFAIPATTERN,		m_DefAIPattern);
+	DECLARE_TABLE(CONT_DEF_ITEM_BAG,		m_DefItemBag);
+	DECLARE_TABLE(CONT_DEF_ABIL_TYPE,		m_DefAbilType);
+	DECLARE_TABLE(CONT_DEF_BASE_CHARACTER,	m_DefBaseCharacter);
+	
+	DECLARE_TABLE(CONT_DEFITEM,				m_DefItem);
+
+	DECLARE_TABLE(CONT_DEFITEMABIL,			m_DefItemAbil);
+	DECLARE_TABLE(CONT_DEFITEMRARE,			m_DefItemRare);
+	DECLARE_TABLE(CONT_DEFITEMRAREGROUP,	m_DefItemRareGroup);
+	DECLARE_TABLE(CONT_DEF_ITEM_RES_CONVERT,m_DefItemResConvert);
+
+	DECLARE_TABLE(CONT_DEFMAP,				m_DefMap);
+	DECLARE_TABLE(CONT_DEFMAP_ABIL,			m_DefMapAbil);
+//	DECLARE_TABLE(CONT_DEF_REVIVEPOS,		m_DefRevivePos);
+	DECLARE_TABLE(CONT_DEFMAPITEM	,		m_DefMapItem);
+	DECLARE_TABLE(CONT_DEF_MAP_REGEN_POINT,	m_DefMapRegenPoint);
+	DECLARE_TABLE(CONT_DEFMONSTER,			m_DefMonster);
+
+	DECLARE_TABLE(CONT_DEFMONSTERABIL,		m_DefMonsterAbil);
+	DECLARE_TABLE(CONT_DEFMONSTERTUNNINGABIL,	m_DefMonsterTunningAbil);
+	DECLARE_TABLE(CONT_DEFNPC,				m_DefNPC);
+	DECLARE_TABLE(CONT_DEFNPCABIL,			m_DefNPCAbil);
+//	DECLARE_TABLE(CONT_DEFSHOP,			m_DefShop);
+
+	DECLARE_TABLE(CONT_DEFSKILL,			m_DefSkill);
+	DECLARE_TABLE(CONT_DEFSKILLABIL,		m_DefSkillAbil);
+	DECLARE_TABLE(CONT_DEFSKILLSET,			m_DefSkillSet);
+	DECLARE_TABLE(CONT_DEFRES,				m_DefRes);
+	DECLARE_TABLE(CONT_DEF_CHANNEL_EFFECT,	m_DefChannelEffect);
+	DECLARE_TABLE(CONT_DEFSTRINGS,			m_DefStrings);
+//	DECLARE_TABLE(CONT_DEFGUILDHOUSE,		m_DefGuildHouse);
+	
+	DECLARE_TABLE(CONT_DEFEFFECT,			m_DefEffect);
+	DECLARE_TABLE(CONT_DEFEFFECTABIL,		m_DefEffectAbil);
+
+	DECLARE_TABLE(CONT_DEFUPGRADECLASS,				m_DefUpgradeClass);
+	DECLARE_TABLE(CONT_DEFITEMENCHANT,				m_DefItemEnchant);
+	DECLARE_TABLE(CONT_DEFCHARACTER_BASEWEAR,		m_DefCharacterBaseWear);
+	DECLARE_TABLE(CONT_DEF_ITEM_PLUS_UPGRADE,		m_DefItemPlusUpgrade);
+	DECLARE_TABLE(CONT_DEF_ITEM_RARITY_UPGRADE,		m_DefItemRarityUpgrade);
+	DECLARE_TABLE(CONT_DEF_ITEM_RARITY_CONTROL,		m_DefItemRarityControl);
+	DECLARE_TABLE(CONT_DEF_ITEM_PLUSUP_CONTROL,		m_DefItemPlusUpControl);
+	DECLARE_TABLE(CONT_DEF_ITEM_ENCHANT_SHIFT,		m_DefItemEnchantShift);
+	
+	DECLARE_TABLE(CONT_DEF_ITEM_DISASSEMBLE,		m_DefItemDisassemble);
+	DECLARE_TABLE(CONT_DEF_SUCCESS_RATE_CONTROL,	m_DefSuccessRateControl);
+	
+	DECLARE_TABLE(CONT_DEF_MONSTER_BAG,				m_DefMonsterBag);
+	DECLARE_TABLE(CONT_DEF_COUNT_CONTROL,			m_DefCountControl);
+
+	DECLARE_TABLE(CONT_DEF_MONSTER_BAG_CONTROL,		m_DefMonsterBagControl);
+
+    DECLARE_TABLE_LOCK(CONT_TBL_SHOP_IN_EMPORIA,	m_DefShopInEmporia);
+	DECLARE_TABLE_LOCK(CONT_TBL_SHOP_IN_GAME,		m_DefShopInGame);
+	DECLARE_TABLE_LOCK(CONT_TBL_SHOP_IN_STOCK,		m_DefShopInStock);
+	DECLARE_TABLE_LOCK(CONT_SHOPNPC_GUID,				m_DefShopNpcGuid);
+
+	DECLARE_TABLE(CONT_TBL_DEF_ITEM_OPTION,			m_DefItemOption);
+	DECLARE_TABLE(CONT_TBL_DEF_ITEM_OPTION_ABIL,	m_DefItemOptionAbil);
+
+	DECLARE_TABLE(CONT_DEF_DROP_MONEY_CONTROL,	m_DefDropMoneyControl);
+	DECLARE_TABLE(CONT_DEF_PVP_GROUNDGROUP,		m_DefPvPGroundGroup);
+	DECLARE_TABLE(CONT_DEF_PVP_GROUNDMODE,		m_DefPvPGroundMode);
+	DECLARE_TABLE(CONT_DEFITEMMAKING,			m_DefItemMaking);
+	DECLARE_TABLE(CONT_DEFCOOKING,				m_DefCooking);
+	DECLARE_TABLE(CONT_DEFRESULT_CONTROL,		m_DefResultControl);
+
+	DECLARE_TABLE(CONT_DEF_QUEST_REWARD,		m_DefQuestReward);
+	DECLARE_TABLE(CONT_DEF_QUEST_RANDOM,		m_DefQuestRandom);
+	DECLARE_TABLE(CONT_DEF_QUEST_RANDOM_EXP,	m_DefQuestRandomExp);
+	DECLARE_TABLE(CONT_DEF_QUEST_RANDOM_TACTICS_EXP, m_DefQuestRandomTacticsExp);
+	DECLARE_TABLE(CONT_DEF_QUEST_WANTED,		m_DefQuestWanted);
+
+	DECLARE_TABLE(CONT_DEF_MISSION_ROOT,		m_DefMissionRoot);
+	DECLARE_TABLE(CONT_DEF_MISSION_CANDIDATE,	m_DefMissionCandidate);
+
+	DECLARE_TABLE(CONT_DEF_DEFENCE_ADD_MONSTER,	m_DefDefenceAddMonster);
+
+
+	DECLARE_TABLE(CONT_DEF_ITEM_SET,		m_DefItemSet);
+	DECLARE_TABLE(CONT_DEF_SPEND_MONEY,		m_DefSpendMoney);
+
+	DECLARE_TABLE(CONT_DEF_GUILD_LEVEL, m_DefGuildLevel);
+	DECLARE_TABLE(CONT_DEF_GUILD_SKILL, m_DefGuildSkill);
+
+	DECLARE_TABLE(CONT_DEF_FILTER_UNICODE, m_DefFilterUnicode);
+
+	DECLARE_TABLE(CONT_DEF_OBJECT,		m_DefObject);
+	DECLARE_TABLE(CONT_DEF_OBJECTABIL,	m_DefObjectAbil);
+	DECLARE_TABLE(CONT_DEF_ITEM_BAG_GROUP, m_DefItemBagGroup);
+	DECLARE_TABLE(CONT_DEF_MAP_ITEM_BAG, m_DefMapItemBag);
+
+	DECLARE_TABLE(CONT_DEF_PROPERTY,m_kDefProperty);
+	DECLARE_TABLE(CONT_FIVE_ELEMENT_INFO,m_DefFiveElementInfo);
+	DECLARE_TABLE(CONT_ITEM_RARITY_UPGRADE_COST_RATE,m_DefItemRarityUpgradeCostRate);
+	DECLARE_TABLE(CONT_DEF_TACTICS_LEVEL, m_DefTacticsLevel);
+	DECLARE_TABLE(CONT_DEF_MONSTER_KILL_COUNT_REWARD, m_DefMonKillCountReward);
+
+	DECLARE_TABLE(CONT_DEF_TRANSTOWER,	m_DefTransTower);
+	DECLARE_TABLE(CONT_DEF_PARTY_INFO,	m_DefParty_Info);	
+
+	DECLARE_TABLE_LOCK(CONT_DEF_CASH_SHOP, m_DefCashShop);
+	DECLARE_TABLE(CONT_DEF_DAILY_REWARD, m_DefDailyReward);
+	DECLARE_TABLE(CONT_DEF_CART_MISSION_MONSTER, m_DefCartMissionMonster);
+	DECLARE_TABLE(CONT_DEF_EMPORIA, m_kDefEmporia);
+	DECLARE_TABLE(CONT_DEF_CONT_ACHIEVEMENTS, m_kDefContAchievements);
+	DECLARE_TABLE(CONT_DEF_ACHIEVEMENTS, m_kDefAchievements);
+	DECLARE_TABLE(CONT_DEF_ACHIEVEMENTS_SAVEIDX, m_kDefAchievements_SaveIdx);
+	DECLARE_TABLE(CONT_DEF_RECOMMENDATION_ITEM,m_kDefRecommendationItem);
+	DECLARE_TABLE(CONT_DEF_GROUND_RARE_MONSTER,m_kDefGroundRareMonster);
+	DECLARE_TABLE(CONT_DEF_RARE_MONSTER_SPEECH,m_kDefRareMonsterSpeech);
+	DECLARE_TABLE(CONT_CARD_LOCAL,m_kCardLocal);
+	DECLARE_TABLE(CONT_DEF_CARD_KEY_STRING,m_kDefCardKeyString);
+	DECLARE_TABLE(CONT_CARD_ABIL,m_kCardAbil);
+	DECLARE_TABLE(CONT_GEMSTORE,m_kGemStore);
+	DECLARE_TABLE(CONT_DEFGEMSTORE,m_kDefGemStore);
+	DECLARE_TABLE_LOCK(CONT_DEFANTIQUE,m_kDefAntique);
+
+	DECLARE_TABLE(CONT_MONSTERCARD,m_kDefMonsterCard);
+	DECLARE_TABLE(CONT_MARRYTEXT,m_kDefMarryText);
+	DECLARE_TABLE(CONT_HIDDENREWORDITEM,m_kDefHiddenRewordItem);
+	DECLARE_TABLE(CONT_HIDDENREWORDBAG,m_kDefHiddenRewordBag);	
+	DECLARE_TABLE(CONT_MISSION_CLASS_REWARD_BAG,m_kDefMissionClassReward);
+	DECLARE_TABLE(CONT_MISSION_RANK_REWARD_BAG,m_kDefMissionRankReward);
+	DECLARE_TABLE(CONT_MISSION_DEFENCE_STAGE_BAG,m_kMissionDefenceStage);
+	DECLARE_TABLE(CONT_MISSION_DEFENCE_WAVE_BAG,m_kMissionDefenceWave);	
+
+	DECLARE_TABLE(CONT_MISSION_DEFENCE7_MISSION_BAG,m_kMissionDefence7Mission);	
+	DECLARE_TABLE(CONT_MISSION_DEFENCE7_STAGE_BAG,m_kMissionDefence7Stage);	
+	DECLARE_TABLE(CONT_MISSION_DEFENCE7_WAVE_BAG,m_kMissionDefence7Wave);	
+	DECLARE_TABLE(CONT_MISSION_DEFENCE7_GUARDIAN_BAG,m_kMissionDefence7guardian);	
+
+	DECLARE_TABLE(CONT_MISSION_BONUSMAP,m_kMissionBonusMap);	
+
+	DECLARE_TABLE(CONT_EMOTION,m_kDefEmotion);
+	DECLARE_TABLE(CONT_EMOTION_GROUP,m_kDefEmotionGroup);
+	DECLARE_TABLE(CONT_DEF_CONVERTITEM,m_kDefConvertItem);
+	DECLARE_TABLE(CONT_GAMBLE_SHOUT_ITEM,m_kDefGambleShoutItem);
+	DECLARE_TABLE(CONT_DEF_PET_HATCH, m_kDefPetHatch);
+	DECLARE_TABLE(CONT_CCE_REWARD_TABLE,m_kCCERewardTable);
+	DECLARE_TABLE(CONT_IDX2SKILLNO,m_kIdx2SkillNo);
+	DECLARE_TABLE(CONT_TOWN2GROUND,m_kTown2Ground);
+	DECLARE_TABLE(CONT_MYHOME_TEX,m_kMyhomeTex);
+	DECLARE_TABLE(CONT_HOMETOWNTOMAPCOST,m_kHometownToMapCost);
+	DECLARE_TABLE(CONT_DEFITEMENCHANTABILWEIGHT,m_kDefItemEnchantAbilWeight);
+	DECLARE_TABLE(CONT_DEFSIDEJOBRATE,m_kDefSideJobRate);
+	DECLARE_TABLE(CONT_DEF_EVENT_ITEM_SET, m_kDefPartyEventItemSet);
+	DECLARE_TABLE(CONT_DEFREDICEOPTIONCOST,m_kContDefRediceOptionCost);
+	DECLARE_TABLE(CONT_DEFMYHOMESIDEJOBTIME,m_kContDefMyHomeSidejobTime);
+	DECLARE_TABLE(CONT_DEF_MONSTER_ENCHANT_GRADE,m_kContDefMonsterEnchantGrade);
+	DECLARE_TABLE(CONT_DEFMYHOMEBUILDINGS,m_kContDefMyhomeBuildings);
+	DECLARE_TABLE(CONT_DEFGROUNDBUILDINGS,m_kContDefGroundBuildings);
+	DECLARE_TABLE(CONT_DEFBASICOPTIONAMP,m_kContDefBasicOptionAmp);
+	DECLARE_TABLE(CONT_DEFITEM_AMP_SPECIFIC,m_kContDefItemAmpSpecific);
+	DECLARE_TABLE(CONT_DEFDEATHPENALTY, m_kContDefDeathPenalty);
+	DECLARE_TABLE(CONT_DEFSKILLEXTENDITEM, m_kContDefSkillExtendItem);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_ITEM_UPGRADE, m_kContDefJobSkillItemUpgrade);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SKILL,m_kContDefJobSkillSkill);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SKILLEXPERTNESS,m_kContDefJobSkillExpertness);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SAVEIDX, m_kContDefJobSkillSaveIdx);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_TOOL,m_kContDefJobSkillTool);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SOUL_EXTRACT, m_kContDefJobSkillSoulExtract);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SOUL_TRANSITION, m_kContDefJobSkillSoulTrasition);
+	DECLARE_TABLE(CONT_DEF_EVENT_SCHEDULE, m_ContEventSchedule);
+	DECLARE_TABLE(CONT_DEF_EVENT_BOSSBATTLE, m_ContEvent_BossBattle);
+	DECLARE_TABLE(CONT_DEF_EVENT_RACE, m_ContEvent_Race);
+	DECLARE_TABLE(CONT_DEF_QUEST_LEVEL_REWARD, m_kContDefQuestLevelReward);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_EVENT_LOCATION, m_kContJobSkillEventLocation);
+	// �� �ּ� ������ bin ���Ϸ� ����, ������ ��Ŷ�� �����
+	// ---------------------------------------------------------------
+	// �� �ּ� �Ʒ��͵��� bin ���Ϸ� ���� �ʴ´�
+	DECLARE_TABLE(CONT_DEF_OBJECT_BAG,				m_DefObjcetBag);
+	DECLARE_TABLE(CONT_DEF_OBJECT_BAG_ELEMENTS,		m_DefObjcetBagElements);
+	DECLARE_TABLE(CONT_DEF_ITEM_BAG_ELEMENTS,		m_DefItemBagElements);
+	DECLARE_TABLE(CONT_DEF_MONSTER_BAG_ELEMENTS,	m_DefMonsterBagElements);
+	DECLARE_TABLE(CONT_DEF_MISSION_RESULT, m_DefMissionResult);
+	DECLARE_TABLE(CONT_DEFGMCMD,			m_kDefGmCmd);
+	DECLARE_TABLE(CONT_DEF_PVP_REWARD,	m_kDefPvPReward);
+	DECLARE_TABLE(CONT_DEF_PVP_REWARD_ITEM, m_kDefPvPRewardItem);
+	DECLARE_TABLE(CONT_DEF_PLAYLIMIT_INFO, m_kDefPvPPlayTimeInfo);
+	DECLARE_TABLE(CONT_DEFDYNAMICABILRATE,		m_DefDynamicAbilRate);
+	DECLARE_TABLE(CONT_DEFDYNAMICABILRATE_BAG,	m_DefDynamicAbilRateBag);
+	DECLARE_TABLE(CONT_DEF_ITEM_CONTAINER,	m_DefItemContainer);
+	DECLARE_TABLE(CONT_MAP_EFFECT, m_DefMapEffect);
+	DECLARE_TABLE(CONT_MAP_ENTITY, m_DefMapEntity);
+	DECLARE_TABLE(CONT_MAP_STONE_CONTROL, m_DefMapStoneControl);
+	DECLARE_TABLE(CONT_DEF_TACTICS_QUEST_PSEUDO, m_DefTacticsQuestPseudo);
+	DECLARE_TABLE_LOCK(CONT_DEF_CASH_SHOP_ARTICLE,m_DefCashShopArticle);
+	DECLARE_TABLE_LOCK(CONT_CASH_SHOP_ITEM_LIMITSELL,m_DefCashShopLimitSell);
+	DECLARE_TABLE(CONT_DEF_ITEM2ACHIEVEMENT,m_DefItem2Achievement);
+	DECLARE_TABLE_LOCK(CONT_OXQUIZINFO, m_kOXQuizInfo);
+	DECLARE_TABLE_LOCK(CONT_OXQUIZREWARD, m_kOXQuizReward);
+	DECLARE_TABLE_LOCK(CONT_OXQUIZEVENTINFO, m_kOXQuizEventInfo);
+	DECLARE_TABLE(CONT_DEF_QUEST_RESET_SCHEDULE, m_DefQuestResetSchedule);
+	DECLARE_TABLE(CONT_CASHITEMABILFILTER,m_kDefCashItemAbilFilter);
+	DECLARE_TABLE(CONT_GAMBLE, m_kDefGamble);
+	DECLARE_TABLE(CONT_LIMITED_ITEM, m_kContLimitedItem);
+	DECLARE_TABLE(CONT_LIMITED_ITEM_CONTROL, m_kContLimitedItemCtrl);
+	DECLARE_TABLE(CONT_PCROOMIP,m_kPCRoom);
+	DECLARE_TABLE(CONT_PCCAFE,m_kPCCafe);
+	DECLARE_TABLE(CONT_PCCAFE_ABIL,m_kPCCafeAbil);
+	DECLARE_TABLE(CONT_DEF_PET_BONUSSTATUS, m_kDefPetBonusStatus);
+	DECLARE_TABLE(CONT_REALTYDEALER,m_kRealtyDealer);
+	DECLARE_TABLE(CONT_RAREOPT_SKILL,m_kRareOptSkill);
+	DECLARE_TABLE(CONT_RAREOPT_MAGIC,m_kRareOptMagic);
+	DECLARE_TABLE(CONT_MIXUPITEM,m_kMixupItem);
+	DECLARE_TABLE(CONT_MYHOME_DEFAULTITEM,m_kMyHomeDefaultItem);
+	DECLARE_TABLE(CONT_LUCKYSTAREVENTINFO, m_kLuckyStarInfo);
+	DECLARE_TABLE(CONT_LUCKYSTARREWARD, m_kLuckyStarReward);
+	DECLARE_TABLE(CONT_LUCKYSTARREWARDSTEP, m_kLuckyStarRewardStep);	
+	DECLARE_TABLE(CONT_LUCKYSTAREVENTJOINREWARD, m_kLuckyStarEventJoinReward);	
+	DECLARE_TABLE_LOCK(CONT_EVENT_ITEM_REWARD,m_kContEventItemReward);
+	DECLARE_TABLE_LOCK(CONT_TREASURE_CHEST,m_kContTreasureChest);
+	DECLARE_TABLE(CONT_DEF_ITEM_BY_LEVEL,		m_DefItemByLevel);
+	DECLARE_TABLE(CONT_DEFCHARCARDEFFECT,m_kContDefCharCardEffect);
+	DECLARE_TABLE(CONT_DEF_MONSTER_ENCHANT_GRADE_PROBABILITY_GROUP,m_kContDefMonsterGradeProbabilityGroup);
+	DECLARE_TABLE(CONT_DEF_SUPER_GROUND_GROUP,m_kContDefSuperGroundGroup);
+	DECLARE_TABLE(CONT_TBL_DEF_NPC_TALK_MAP_MOVE,m_kContDefNpcTalkMapMove);
+	DECLARE_TABLE(CONT_DEF_SPECIFIC_REWARD,m_kContDefSpecificReward);
+	DECLARE_TABLE(CONT_DEF_SPECIFIC_REWARD_EVENT, m_ContDefSpecificReward);
+
+	DECLARE_TABLE(CONT_DEF_ALRAM_MISSION,m_kContDefAlramMission);
+	DECLARE_TABLE(CONT_DEF_PVPLEAGUE_TIME,	m_kContDefPvPLeagueTime);
+	DECLARE_TABLE(CONT_DEF_PVPLEAGUE_SESSION, m_kContDefPvPLeagueSession);
+	DECLARE_TABLE(CONT_DEF_PVPLEAGUE_REWARD, m_kContDefPvPLeagueReward);
+
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_LOCATIONITEM,m_kContDefJobSkillLocationItem);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_PROBABILITY_BAG, m_kContDefJobSkillProbabilityBag);
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_SHOP, m_kContDefJobSkillShop);
+
+	DECLARE_TABLE(CONT_DEF_SOCKET_ITEM, m_kContDefSocketItem);
+
+	DECLARE_TABLE(CONT_DEF_BS_GEN_GROUND, m_kContDefBSGenGround);
+
+	DECLARE_TABLE(CONT_DEF_EVENT_GROUP, m_ContDefEventGroup);
+	DECLARE_TABLE(CONT_DEF_EVENT_MONSTER_GROUP, m_ContDefEventMonsterGroup);
+	DECLARE_TABLE(CONT_DEF_EVENT_REWARD_ITEM_GROUP, m_ContDefEventRewardItemGroup);
+
+	DECLARE_TABLE(CONT_DEF_PREMIUM_SERVICE, m_kContDefPremium);
+	DECLARE_TABLE(CONT_DEF_PREMIUM_ARTICLE, m_kContDefPremiumType);
+
+	// �� �� �͵��� bin ���Ϸ� ���� �ʴ´�
+	// -------------------------------------------------------------------
+	// �� �Ʒ��͵��� bin ���Ϸθ� ����, ��Ŷ���� �������� �ʴ´�(only bin)
+	DECLARE_TABLE(CONT_DEF_JOBSKILL_RECIPE, m_kContDefJobSkillRecipe);
+	DECLARE_TABLE(CONT_DEF_EXPEDITION_NPC, m_kContDefExpeditionNpc);
+	DECLARE_TABLE(CONT_DEF_JUMPINGCHAREVENT, m_kContDefJumpingCharEvent);
+	DECLARE_TABLE(CONT_DEF_JUMPINGCHAREVENT_REWARD, m_kContDefJumpingCharEventReward);
+	//DECLARE_TABLE(CONT_DEF_JUMPINGCHAREVENT_ITEM, m_kContDefJumpingCharEventItem);
+
+	// Character Base Wear
+	DECLARE_TABLE(CONT_DEF_CHARACTER_CREATE_SET, m_kContDefCharacterCreateSet);
+
+	// Mutators
+	DECLARE_TABLE(CONT_DEF_MISSION_MUTATOR, m_kContDefMissionMutator);
+	DECLARE_TABLE(CONT_DEF_MISSION_MUTATOR_ABIL, m_kContDefMissionMutatorAbil);
+
+	DECLARE_TABLE(CONT_DEF_BATTLE_PASS_QUEST, m_kBattlePassQuest);
+private:
+	bool m_bUTF8;
+	mutable BM::ACE_RW_Thread_Mutex_Ext m_kMutex;	//�ߺ�ȣ���� �����ؾ߸� �Ѵ�.
+
+	CLASS_DECLARATION_S(bool, IsInit);
+};
+
+#define g_kTblDataMgr SINGLETON_STATIC(CTableDataManager)
+#define TABLE_LOCK(_tb_type) CObjLock<_tb_type, BM::ACE_RW_Thread_Mutex_Ext>
+
+#endif // WEAPON_VARIANT_DATABASE_TABLEDATAMANAGER_H

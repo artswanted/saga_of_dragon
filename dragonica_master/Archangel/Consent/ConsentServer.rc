@@ -1,0 +1,103 @@
+// Microsoft Visual C++에서 생성한 리소스 스크립트입니다.
+//
+#include "resource.h"
+#include "../Weapons/Lohengrin/BuildNumber.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 2 리소스에서 생성되었습니다.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 리소스입니다.
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 18, 1
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE  
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION VERSION_FILEVERSION_CONSENT_NUM
+ PRODUCTVERSION VERSION_PRODUCTVERSION_NUM
+ FILEFLAGSMASK 0x1fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Dragonica™ Server Set : Consent Server"
+            VALUE "CompanyName", "Gravity Games, Inc."
+            VALUE "FileDescription", "Consent Server"
+            VALUE "FileVersion", VERSION_FILEVERSION_CONSENT_STR
+            VALUE "InternalName", "ConsentServer"
+            VALUE "LegalCopyright", "Copyright (C) 2007 Gravity Games, Inc."
+            VALUE "LegalTrademarks", "Dragonica™"
+            VALUE "OriginalFilename", "ConsentServer.exe"
+            VALUE "PrivateBuild", VERSION_PRIVATE_BUILD
+            VALUE "ProductName", "Dragonica™"
+            VALUE "ProductVersion", VERSION_PRODUCTVERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // 한국어 리소스입니다.
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 3 리소스에서 생성되었습니다.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED가 아닙니다.
+

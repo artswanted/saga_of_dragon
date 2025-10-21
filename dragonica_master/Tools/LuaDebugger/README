@@ -1,0 +1,34 @@
+2004-01-29 : LuaIDE 1.0 Final Released!
+Some bugfixes from Jan-Eric Duden:
+Debugger.cpp: - Fixed race-condition concernig m_pThread.
+LuaHelper.cpp:- Uses now new API call the register debug lines.
+                      - Changed hook callback to conform with LUA 5.0
+                      - Replace  lua_getglobals with lua_pushvalue(L, LUA_GLOBALSINDEX);
+ProjectFile.cpp:- fixed hang-up.
+                       - implemented pseudo search path for source-file paths that are not full-paths.
+ldebug.c:         - implemented lua_getlineinfo. code moved from luaide.
+
+2002-07-03 : LuaIDE 1.0 Beta Released!
+It's integrated environment for developing applications in lua. It's free for commercial and non-commercial use.
+
+Features:
+- Support for Lua 5.0 work1
+- Project management
+- Multi document interface, printer support
+- Output window for build/debug messages (jump to error when clicked)
+- Debugger (Go, Step into, Step over, Step out and Run to cursor commands)
+- Breakpoints
+- Callstack trace window (jump to any stack level during execution)
+- Locals trace window (shows local variables in current stack level)
+- Watch window (evaluate user expressions in current stack level)
+- API for dynamically loaded extensions for lua (sources for standard library extension and skeleton for new extensions)
+
+Environment is very similar to that used in Microsoft's Visual Studio. As now there is only version for Windows.
+Editor uses scintilla edit control. 
+To do your own extensions look at sources for standard library. There is also skeleton project, just fill it and you have new extension.
+Download it from http://www.gorlice.net.pl/~rybak/luaide/LuaIDE.zip
+send any comments, bugs to Tristan Rybak <rybak@gorlice.net.pl>
+
+TODO:
+save/restore environment state (windows)
+better variable description during debug

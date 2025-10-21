@@ -1,0 +1,6 @@
+#ifndef CENTER_CENTERSERVER_CONTENTS_PGRECVFROMMAP_H
+#define CENTER_CENTERSERVER_CONTENTS_PGRECVFROMMAP_H
+
+extern void OnRecvWrappedFromCenter(unsigned short const usType, BM::Stream* const pkPacket);
+
+#endif // CENTER_CENTERSERVER_CONTENTS_PGRECVFROMMAP_H

@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: standard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'd:\worek\luaide\luaidesource\include\lua\luadebug.h'
+
+Creating temporary file "C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP9A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\lua" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/standard.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lauxlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lbaselib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\ldblib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\liolib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lmathlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\lstrlib.c"
+"D:\Worek\LuaIDE\LuaIDESource\source\standard\ltablib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rybak\USTAWI~1\Temp\RSP9A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\library\release\standard.lib"  .\Release\lauxlib.obj .\Release\lbaselib.obj .\Release\ldblib.obj .\Release\liolib.obj .\Release\lmathlib.obj .\Release\lstrlib.obj .\Release\ltablib.obj "
+<h3>Output Window</h3>
+Compiling...
+lauxlib.c
+lbaselib.c
+ldblib.c
+liolib.c
+lmathlib.c
+lstrlib.c
+ltablib.c
+Creating library...
+
+
+
+<h3>Results</h3>
+standard.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

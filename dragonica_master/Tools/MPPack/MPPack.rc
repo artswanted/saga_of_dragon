@@ -1,0 +1,203 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MPPACK              ICON                    "MPPack.ico"
+IDI_SMALL               ICON                    "MPPack.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MPPACK DIALOGEX 0, 0, 436, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MP_PACK"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Diff",IDC_RDO_DIFF,"Button",BS_AUTORADIOBUTTON | WS_GROUP,10,13,77,8
+    CONTROL         "Pack",IDC_RDO_PACK,"Button",BS_AUTORADIOBUTTON,10,27,77,8
+    CONTROL         "CreateHeader",IDC_RDO_CREATEHEADER,"Button",BS_AUTORADIOBUTTON,10,41,77,8
+    CONTROL         "HeaderMerge",IDC_RDO_HDMERGE,"Button",BS_AUTORADIOBUTTON,10,55,77,8
+    CONTROL         "BindPack",IDC_RDO_BINDPACK,"Button",BS_AUTORADIOBUTTON,10,69,77,8
+    CONTROL         "UnBindPack",IDC_RDO_UNPACK,"Button",BS_AUTORADIOBUTTON,10,83,77,8
+    CONTROL         "Make INB",IDC_RDO_MAKEINB,"Button",BS_AUTORADIOBUTTON,10,97,77,8
+    CONTROL         "Export DAT FileList",IDC_RDO_EXPORT_DATLIST,"Button",BS_AUTORADIOBUTTON,10,111,77,8
+    CONTROL         "Create Patch ID",IDC_RDO_MAKEID,"Button",BS_AUTORADIOBUTTON,10,125,77,8
+    CONTROL         "Update DAT Version",IDC_RDO_UPDATE_DAT_VER,"Button",BS_AUTORADIOBUTTON,10,139,77,8
+    CONTROL         "DAT Version Check",IDC_RDO_DAT_VER_CHECK,"Button",BS_AUTORADIOBUTTON,10,153,77,8
+    CONTROL         "Convert DAT",IDC_RDO_CONVERT_DAT,"Button",BS_AUTORADIOBUTTON,10,167,77,8
+    CONTROL         "Make Manual Patch",IDC_RDO_MAKEMANUALPATCH,"Button",BS_AUTORADIOBUTTON,10,180,77,8
+    CONTROL         "Make Auto Patch",IDC_RDO_MAKEAUTOPATCH,"Button",BS_AUTORADIOBUTTON,10,194,77,8
+    CONTROL         "",IDC_PRG_STATE,"msctls_progress32",0x0,235,163,138,15
+    EDITTEXT        IDC_EDT_CONTENTS,105,11,317,62,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_EDT_TEXT1,182,96,211,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_TEXT2,182,120,211,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_TEXT3,182,144,211,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_MAJOR,107,215,44,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDT_MINOR,161,215,44,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDT_TINY,215,215,44,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "...",IDC_BTN_OPEN1,394,95,29,15
+    PUSHBUTTON      "...",IDC_BTN_OPEN2,394,119,30,15
+    PUSHBUTTON      "...",IDC_BTN_OPEN3,394,143,30,15
+    PUSHBUTTON      "Start",IDC_BTN_START,377,160,47,19
+    PUSHBUTTON      "Update >>",IDC_BTN_FIXID,267,207,44,23
+    GROUPBOX        "Job",IDC_STC_JOB,5,1,89,235
+    GROUPBOX        "Contents",IDC_STC_CONTENTS,98,1,331,77
+    GROUPBOX        "",IDC_STATIC,98,78,331,104
+    GROUPBOX        "Option",IDC_STC_OPTION,105,84,73,92
+    GROUPBOX        "Patch ID",IDC_STC_PATCHOUT,98,183,332,52
+    GROUPBOX        "Major",IDC_STC_MAJOR,104,205,50,25,BS_CENTER
+    GROUPBOX        "Minor",IDC_STC_MINOR,158,205,50,25,BS_CENTER
+    GROUPBOX        "Tiny",IDC_STC_TINY,212,205,50,25,BS_CENTER
+    LTEXT           "Dir1",IDC_STC_TEXT1,182,86,210,8
+    LTEXT           "Dir2",IDC_STC_TEXT2,182,110,210,8
+    LTEXT           "Dir3",IDC_STC_TEXT3,182,134,210,8
+    LTEXT           "Fixed Patch ID",IDC_STC_FIXEDID,369,208,56,8,WS_DISABLED
+    LTEXT           "Static",IDC_STC_PATCHID,381,219,43,8
+    RTEXT           "Static",IDC_STC_STATE,184,166,49,8
+    GROUPBOX        "Log",IDC_STC_LOG,5,237,424,10
+    CONTROL         "",IDC_LST_LOG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_TABSTOP,5,247,426,91
+    CONTROL         "",IDC_LST_OPTION,"SysListView32",LVS_LIST | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,110,93,63,79
+    LTEXT           "Fixed Patch ID",IDC_STC_PREVID,316,208,50,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Static",IDC_STC_PREVPATCHID,330,219,43,8,NOT WS_VISIBLE
+    CONTROL         "Prev Version",IDC_RDO_PREVID,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP,108,195,52,7
+    CONTROL         "Patch Version",IDC_RDO_PATCHID,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,161,195,57,7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MPPACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 431
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 338
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,2,8
+ PRODUCTVERSION 1,1,2,8
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", "Barunson Interactive"
+            VALUE "FileDescription", "Dragonica Update Pack Manager"
+            VALUE "FileVersion", "1, 1, 2, 8"
+            VALUE "InternalName", "MPPack"
+            VALUE "LegalCopyright", "(c) Barunson Interactive.  All rights reserved."
+            VALUE "OriginalFilename", "MPPack.exe"
+            VALUE "ProductName", "Dragonica Update Pack Manager"
+            VALUE "ProductVersion", "1, 1, 2, 8"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "MPPack.exe.manifest"
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

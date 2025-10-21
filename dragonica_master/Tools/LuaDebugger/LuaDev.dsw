@@ -1,0 +1,188 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CJ60Lib"=.\source\CJ60Lib\CJ60Lib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CJ60StaticLib"=.\source\CJ60Lib\CJ60StaticLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SciLexer"=.\source\scintilla\SciLexer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "compiler"=.\source\compiler\compiler.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name core
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name standard
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "core"=.\SOURCE\core\core.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dbg_stub"=.\SOURCE\dbg_stub\dbg_stub.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ide2"=.\source\Ide2\ide2.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name CJ60Lib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SciLexer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name compiler
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name core
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name standard
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name stdlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name interpreter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libapi
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "interpreter"=.\SOURCE\interpreter\interpreter.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name core
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name standard
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "libapi"=.\SOURCE\libapi\libapi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "standard"=.\source\standard\standard.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "stdlib"=.\SOURCE\stdlib\stdlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name libapi
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
