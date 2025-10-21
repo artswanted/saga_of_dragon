@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4329</ID> <!--T.T.10432900 하나의 열쇠 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	황제의 내성 조사-->
+<!--[완료NPC]	카오란 마을 - 로이드-->
+<!--[내용]	황제의 궁전 내부로 가기위해서는 열쇠의 나머지 조각을 구해야 한다. 황제의 내성[F2-카오스]으로 가서 나머지 조각을 구하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">EE46B18F-3DDB-40b7-A326-F7C45B80A763</PAYER> <!--완료NPC 카오란 마을 - 로이드 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+	    <MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7911800</MONSTER> 
+ <!--MON_NO=7911800/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<MONSTER OBJECTNO="2" TYPE="INSTDROP100_IN" VALUE="9600219/100/0/1/1/82001060">7911800</MONSTER><!--MON_NO=7911800/MAP_NO=9600219/[이벤트](중국 테마)카오스 정예,Item_NO=82001060/옥의 피리,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+		<ITEM OBJECTNO="2" TYPE="CHANGE_COUNT" VALUE="1">82001060</ITEM> <!--Item_NO=82001060/옥피리,-->
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10432911"/> <!--황제의 궁전 외성 조사-->
+		<OBJECT2 COUNT="1" TEXT="10432912"/> <!--옥피리-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="1">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+			<ITEM COUNT="1">82001060</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10432921" FACE="Roid_normal"/> <!--황제가 있는 내성으로 가기 위해선 열쇠가 필요 하답니다.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10432926" FACE="Roid_smile"/> <!--드디어 두개의 유물이 다 모였군요. 내성으로 갈 수가 있어요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10432923" FACE="Roid_normal"/> <!--기록에 따르면 열쇠는 옥구슬과 옥피리로 분리가 되었다고 합니다. 옥의 구슬은 이미 있으니, 좀 더 안쪽으로 들어가서 옥피리를 찾아야 합니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10432924" FACE="Roid_angly"/> <!--옥구슬 하나로는 내성으로 갈 수가 없습니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10432925" FACE="Roid_normal"/> <!--황궁 입구는 이쪽이 아닙니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10432902" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

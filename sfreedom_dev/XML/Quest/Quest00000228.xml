@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>228</ID> <!--T.T.10022800 얼음성으로 가는 초대권 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	산타와 대화하기-->
+<!--[완료NPC]	바람항구 - 산타-->
+<!--[내용]	산타는 얼음성으로 가는 초대권을 몇 장 가지고 있다고 한다. 얼음성은 얼음여왕이 살고 있어 위험하긴 하지만, 스릴을 즐기기엔 얼음성만한곳이 없다고 한다. 산타에게 자세한 얘기를 들어보자-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</CLIENT> <!--시작NPC 바람항구 - 산타 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</PAYER> <!--완료NPC 바람항구 - 산타 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</AGENT> <!--진행NPC 11 바람항구 - 산타 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="601/1">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022811"/> <!--산타와 대화-->
+		
+	</OBJECTS>
+
+
+	    <REWARD>
+            <SELECT1 COUNT="0">
+                <ITEM COUNT="1">82001150</ITEM>
+            </SELECT1>
+	    </REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022821" FACE="santa_smile"/> <!--(속삭이며)용사님~ 잠시만요. 드릴 말씀이 있어요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022826" FACE="santa_smile"/> <!--이거 받아 두시오.
+내가 뭐 딱히 시킬 일이 있어서 그런건 아니니 걱정 마시오.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022823" FACE="santa_smile"/> <!--이거 보시오. 이 초대권은 얼음성으로 갈 수 있는 초대권이요.
+얼음여왕 때문에 위험하지 않냐고?
+물론 위험하지. 근데 그 재미가 쏠쏠한거요. 후후-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022824" FACE="Nia_normal"/> <!--이게 필요 없단 말이오?
+있을 것 같은데… 아무튼 알겠소.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022825" FACE="Nia_normal"/> <!--이게 필요할거요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022802" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

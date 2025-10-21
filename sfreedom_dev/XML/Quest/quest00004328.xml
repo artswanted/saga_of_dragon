@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4328</ID> <!--T.T.10432800 황제의 흔적 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	황제의 궁전 조사-->
+<!--[완료NPC]	카오란 마을 - 로이드-->
+<!--[내용]	마을뒤 대나무숲 속에 버려진 황제의 궁전이 있다고 한다. 황제의 외성[F1-아케이드]으로 가서 사라진 물건들의 흔적을 찾자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">EE46B18F-3DDB-40b7-A326-F7C45B80A763</PAYER> <!--완료NPC 카오란 마을 - 로이드 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+	    <MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7911700</MONSTER> 
+ <!--MON_NO=7911700/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<MONSTER OBJECTNO="2" TYPE="INSTDROP100_IN" VALUE="9600209/100/0/1/1/82001050">7911700</MONSTER><!--MON_NO=7911700/돌사자 짱오 ,MAP_NO=9600209/[이벤트](중국 테마)아케이드 정예,Item_NO=82001050/옥구슬,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+		<ITEM OBJECTNO="2" TYPE="CHANGE_COUNT" VALUE="">82001050</ITEM> <!--Item_NO=82001050/옥구슬,-->
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10432811"/> <!--황제의 궁전 조사-->
+		<OBJECT2 COUNT="1" TEXT="10432812"/> <!--옥구슬-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="1">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+			<ITEM COUNT="1">82001050</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10432821" FACE="Roid_normal"/> <!--카오란 마을 근처 숲에 버려진 황궁이 있다던데.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10432826" FACE="Roid_smile"/> <!--옥구슬이라니. 기록이 사실이었군요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10432823" FACE="Roid_normal"/> <!--아무래도 소문이 사실인가 보군요. 이 문장은 후오황제의 문양입니다. 그자의 정체를 알려면 숲속에 있는 황제의 버려진 성으로 가보는 수밖에 없지요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10432824" FACE="Roid_angly"/> <!--숲에 어마어마한 궁전이 있다구요. 두렵습니까?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10432825" FACE="Roid_normal"/> <!--벌써 다녀오신건 아니지요?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10432802" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

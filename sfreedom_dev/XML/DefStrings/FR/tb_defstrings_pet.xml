@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="600000" Text="Puan"/>
+<TEXT ID="600100" Text="Ping Mao"/>
+<TEXT ID="600200" Text="Lion"/>
+<TEXT ID="80000001" Text="Partage l&#39;EXP"/>
+<TEXT ID="80000101" Text="Il est à moi"/>
+<TEXT ID="80000201" Text="Nous sommes ensemble"/>
+<TEXT ID="80000301" Text="Pouvoir du Lion"/>
+<TEXT ID="80000401" Text="Punch de chance"/>
+<TEXT ID="80000501" Text="L&#39;homme de Fer"/>
+<TEXT ID="80000601" Text="Dents de Lion"/>
+<TEXT ID="80000701" Text="Ruée vers l&#39;Or"/>
+<TEXT ID="80000801" Text="Ruée intense"/>
+<TEXT ID="80000901" Text="Rugissement de Lion"/>
+<TEXT ID="80001101" Text="Gardiennage"/>
+<TEXT ID="80001201" Text="Potion d&#39;amélioration"/>
+<TEXT ID="80001301" Text="Coup de tonnerre"/>
+<TEXT ID="80001401" Text="Boule de Feu"/>
+<TEXT ID="80001501" Text="Morsure"/>
+<TEXT ID="80001601" Text="Nuage empoisonné"/>
+<TEXT ID="80001901" Text="Vent tourbillonant"/>
+<TEXT ID="80002201" Text="Nuage sombre"/>
+<TEXT ID="80002501" Text="Fracas de chair"/>
+<TEXT ID="80002801" Text="Blizzard"/>
+<TEXT ID="80003101" Text="Météore"/>
+<TEXT ID="80003401" Text="Bonus d&#39;EXP supplémentaire pour la réussite de la misson"/>
+<TEXT ID="80004101" Text="Attaque automatique"/>
+<TEXT ID="80004201" Text="En avant !"/>
+<TEXT ID="80004301" Text="Largage monté"/>
+<TEXT ID="80004401" Text="Attaque en selle"/>
+<TEXT ID="80004501" Text="Taurine"/>
+<TEXT ID="89001101" Text="Manette de téléportation"/>
+<TEXT ID="89001201" Text="Rabais sur la téléportation"/>
+<TEXT ID="89001301" Text="Téléportation gratuite"/>
+<TEXT ID="800000011" Text="Le familier gagne 10% de l&#39;EXP de son propriétaire"/>
+<TEXT ID="800001011" Text="En fonction du niveau, le familier récupère automatiquement 2 objets sur une zone de 80 radius."/>
+<TEXT ID="800001021" Text="En fonction du niveau, le familier récupère automatiquement 3 objets sur une zone de 120 radius."/>
+<TEXT ID="800001031" Text="En fonction du niveau, le familier récupère automatiquement 5 objets sur une zone de 150 radius."/>
+<TEXT ID="800001041" Text="En fonction du niveau, le familier récupère automatiquement 7 objets sur une zone de 180 radius."/>
+<TEXT ID="800001051" Text="En fonction du niveau, le familier récupère automatiquement 10 objets sur une zone de 200 radius."/>
+<TEXT ID="800002011" Text="En fonction du niveau, 10 % de l&#39;EXP du familier est partagée avec son propriétaire."/>
+<TEXT ID="800002021" Text="En fonction du niveau, 20 % de l&#39;EXP du familier est partagée avec son propriétaire."/>
+<TEXT ID="800002031" Text="En fonction du niveau, 30 % de l&#39;EXP du familier est partagée avec son propriétaire."/>
+<TEXT ID="800002041" Text="En fonction du niveau, 40 % de l&#39;EXP du familier est partagée avec son propriétaire."/>
+<TEXT ID="800002051" Text="En fonction du niveau, 50 % de l&#39;EXP du familier est partagée avec son propriétaire."/>
+<TEXT ID="800003011" Text="En fonction du niveau, l&#39;attaque physique du propriétaire augmente de 50."/>
+<TEXT ID="800003021" Text="En fonction du niveau, l&#39;attaque physique du propriétaire augmente de 70."/>
+<TEXT ID="800003031" Text="En fonction du niveau, l&#39;attaque physique du propriétaire augmente de 90."/>
+<TEXT ID="800003041" Text="En fonction du niveau, l&#39;attaque physique du propriétaire augmente de 120."/>
+<TEXT ID="800003051" Text="En fonction du niveau, l&#39;attaque physique du propriétaire augmente de 150."/>
+<TEXT ID="800004011" Text="Un bonus permet, pendant 5 minutes, d&#39;augmenter le gain d&#39;or de 20 % avec une probabilité de 3 %."/>
+<TEXT ID="800004021" Text="Un bonus permet, pendant 5 minutes, d&#39;augmenter le gain d&#39;or de 40 % avec une probabilité de 4 %."/>
+<TEXT ID="800004031" Text="Un bonus permet, pendant 5 minutes, d&#39;augmenter le gain d&#39;or de 60 % avec une probabilité de 5 %."/>
+<TEXT ID="800004041" Text="Un bonus permet, pendant 5 minutes, d&#39;augmenter le gain d&#39;or de 80 % avec une probabilité de 7 %."/>
+<TEXT ID="800004051" Text="Un bonus permet, pendant 5 minutes, d&#39;augmenter le gain d&#39;or de 100 % avec une probabilité de 10 %."/>
+<TEXT ID="800005011" Text="Bonus offrant une augmentation de la défense physique de 5 % pendant 5min. "/>
+<TEXT ID="800005021" Text="Bonus offrant une augmentation de la défense physique de 7 % pendant 5min. "/>
+<TEXT ID="800005031" Text="Bonus offrant une augmentation de la défense physique de 9 % pendant 5min. "/>
+<TEXT ID="800005041" Text="Bonus offrant une augmentation de la défense physique de 12 % pendant 5min. "/>
+<TEXT ID="800005051" Text="Bonus offrant une augmentation de la défense physique de 15 % pendant 5min. "/>
+<TEXT ID="800006011" Text="Bonus offrant une augmentation des dommages critiques de 5 % pendant 5min. "/>
+<TEXT ID="800006021" Text="Bonus offrant une augmentation des dommages critiques de 7 % pendant 5min. "/>
+<TEXT ID="800006031" Text="Bonus offrant une augmentation des dommages critiques de 9 % pendant 5min. "/>
+<TEXT ID="800006041" Text="Bonus offrant une augmentation des dommages critiques de 12 % pendant 5min. "/>
+<TEXT ID="800006051" Text="Bonus offrant une augmentation des dommages critiques de 15 % pendant 5min. "/>
+<TEXT ID="800007011" Text="Le familier charge les monstres pour dérober de l&#39;or. Les 2 monstres attaqués lâcheront entre 1 et 4 pièces d&#39;argent."/>
+<TEXT ID="800007021" Text="Le familier charge les monstres pour dérober de l&#39;or. Les 2 monstres attaqués lâcheront entre 2 et 6 pièces d&#39;argent."/>
+<TEXT ID="800007031" Text="Le familier charge les monstres pour dérober de l&#39;or. Les 2 monstres attaqués lâcheront entre 3 et 8 pièces d&#39;argent."/>
+<TEXT ID="800007041" Text="Le familier charge les monstres pour dérober de l&#39;or. Les 2 monstres attaqués lâcheront entre 4 et 10 pièces d&#39;argent."/>
+<TEXT ID="800007051" Text="Le familier charge les monstres pour dérober de l&#39;or. Les 2 monstres attaqués lâcheront entre 5 et 12 pièces d&#39;argent."/>
+<TEXT ID="800008011" Text="Le familier se rue sur 2 monstres qui subissent un affaiblissement lent de Nv.6."/>
+<TEXT ID="800008021" Text="Le familier se rue sur 4 monstres qui subissent un affaiblissement lent de Nv.7."/>
+<TEXT ID="800008031" Text="Le familier se rue sur 6 monstres qui subissent un affaiblissement lent de Nv.8."/>
+<TEXT ID="800008041" Text="Le familier se rue sur 8 monstres qui subissent un affaiblissement lent de Nv.9."/>
+<TEXT ID="800008051" Text="Le familier se rue sur 10 monstres qui subissent un affaiblissement lent de Nv.10."/>
+<TEXT ID="800009011" Text="Le cri strident du familier inflige un étourdissement de Nv.1 à 2 monstres sur un rayon de 80 radius. "/>
+<TEXT ID="800009021" Text="Le cri strident du familier inflige un étourdissement de Nv.2 à 4 monstres sur un rayon de 90 radius. "/>
+<TEXT ID="800009031" Text="Le cri strident du familier inflige un étourdissement de Nv.3 à 6 monstres sur un rayon de 100 radius. "/>
+<TEXT ID="800009041" Text="Le cri strident du familier inflige un étourdissement de Nv.4 à 8 monstres sur un rayon de 110 radius. "/>
+<TEXT ID="800009051" Text="Le cri strident du familier inflige un étourdissement de Nv.5 à 10 monstres sur un rayon de 120 radius. "/>
+<TEXT ID="800011011" Text="Les PV/PM du propriétaire seront reconstitués de 50 toutes les 10 secs."/>
+<TEXT ID="800011021" Text="Les PV/PM du propriétaire seront reconstitués de 100 toutes les 15 secs."/>
+<TEXT ID="800011031" Text="Les PV/PM du propriétaire seront reconstitués de 150 toutes les 20 secs."/>
+<TEXT ID="800011041" Text="Les PV/PM du propriétaire seront reconstitués de 200 toutes les 25 secs."/>
+<TEXT ID="800011051" Text="Les PV/PM du propriétaire seront reconstitués de 250 toutes les 30 secs."/>
+<TEXT ID="800012011" Text="L&#39;utilisation de potions PV/PM sera améliorée de 5 %"/>
+<TEXT ID="800012021" Text="L&#39;utilisation de potions PV/PM sera améliorée de 7,5 %"/>
+<TEXT ID="800012031" Text="L&#39;utilisation de potions PV/PM sera améliorée de 10 %"/>
+<TEXT ID="800012041" Text="L&#39;utilisation de potions PV/PM sera améliorée de 12,5 %"/>
+<TEXT ID="800012051" Text="L&#39;utilisation de potions PV/PM sera améliorée de 15 %"/>
+<TEXT ID="800013011" Text="Attaque les monstres avec la foudre. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800013021" Text="Attaque les monstres avec la foudre. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800013031" Text="Attaque les monstres avec la foudre. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800013041" Text="Attaque les monstres avec la foudre. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800013051" Text="Attaque les monstres avec la foudre. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800014011" Text="Attaque les monstres avec une boule de feu. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800014021" Text="Attaque les monstres avec une boule de feu. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800014031" Text="Attaque les monstres avec une boule de feu. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800014041" Text="Attaque les monstres avec une boule de feu. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800014051" Text="Attaque les monstres avec une boule de feu. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800015011" Text="Attaque les monstres avec Morsure. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800015021" Text="Attaque les monstres avec Morsure. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800015031" Text="Attaque les monstres avec Morsure. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800015041" Text="Attaque les monstres avec Morsure. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800015051" Text="Attaque les monstres avec Morsure. Un niveau supérieur augmente la puissance d&#39;attaque."/>
+<TEXT ID="800016011" Text="Inflige un effet d&#39;Intoxication de Nv.16 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800016021" Text="Inflige un effet d&#39;Intoxication de Nv.17 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800016031" Text="Inflige un effet d&#39;Intoxication de Nv.18 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800016041" Text="Inflige un effet d&#39;Intoxication de Nv.19 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800016051" Text="Inflige un effet d&#39;Intoxication de Nv.20 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800017011" Text="Inflige un effet d&#39;Intoxication de Nv.16 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800017021" Text="Inflige un effet d&#39;Intoxication de Nv.17 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800017031" Text="Inflige un effet d&#39;Intoxication de Nv.18 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800017041" Text="Inflige un effet d&#39;Intoxication de Nv.19 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800017051" Text="Inflige un effet d&#39;Intoxication de Nv.20 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800018011" Text="Inflige un effet d&#39;Intoxication de Nv.16 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800018021" Text="Inflige un effet d&#39;Intoxication de Nv.17 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800018031" Text="Inflige un effet d&#39;Intoxication de Nv.18 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800018041" Text="Inflige un effet d&#39;Intoxication de Nv.19 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800018051" Text="Inflige un effet d&#39;Intoxication de Nv.20 à 10 monstres sur un rayon défini."/>
+<TEXT ID="800019011" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 3 monstres 2 fois."/>
+<TEXT ID="800019021" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 5 monstres 2 fois."/>
+<TEXT ID="800019031" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 7 monstres 2 fois."/>
+<TEXT ID="800019041" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 9 monstres 2 fois."/>
+<TEXT ID="800019051" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 12 monstres 2 fois."/>
+<TEXT ID="800020011" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 3 monstres 2 fois."/>
+<TEXT ID="800020021" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 5 monstres 2 fois."/>
+<TEXT ID="800020031" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 7 monstres 2 fois."/>
+<TEXT ID="800020041" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 9 monstres 2 fois."/>
+<TEXT ID="800020051" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 12 monstres 2 fois."/>
+<TEXT ID="800021011" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 3 monstres 2 fois."/>
+<TEXT ID="800021021" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 5 monstres 2 fois."/>
+<TEXT ID="800021031" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 7 monstres 2 fois."/>
+<TEXT ID="800021041" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 9 monstres 2 fois."/>
+<TEXT ID="800021051" Text="Effectue une attaque tournoyante qui attaque jusqu&#39;à 12 monstres 2 fois."/>
+<TEXT ID="800022011" Text="Inflige un effet d&#39;Etourdissement de Nv.6 sur 10 ennemis à portée."/>
+<TEXT ID="800022021" Text="Inflige un effet d&#39;Etourdissement de Nv.7 sur 10 ennemis à portée."/>
+<TEXT ID="800022031" Text="Inflige un effet d&#39;Etourdissement de Nv.8 sur 10 ennemis à portée."/>
+<TEXT ID="800022041" Text="Inflige un effet d&#39;Etourdissement de Nv.9 sur 10 ennemis à portée."/>
+<TEXT ID="800022051" Text="Inflige un effet d&#39;Etourdissement de Nv.10 sur 10 ennemis à portée."/>
+<TEXT ID="800023011" Text="Inflige un effet d&#39;Etourdissement de Nv.6 sur 10 ennemis à portée."/>
+<TEXT ID="800023021" Text="Inflige un effet d&#39;Etourdissement de Nv.7 sur 10 ennemis à portée."/>
+<TEXT ID="800023031" Text="Inflige un effet d&#39;Etourdissement de Nv.8 sur 10 ennemis à portée."/>
+<TEXT ID="800023041" Text="Inflige un effet d&#39;Etourdissement de Nv.9 sur 10 ennemis à portée."/>
+<TEXT ID="800023051" Text="Inflige un effet d&#39;Etourdissement de Nv.10 sur 10 ennemis à portée."/>
+<TEXT ID="800024011" Text="Inflige un effet d&#39;Etourdissement de Nv.6 sur 10 ennemis à portée."/>
+<TEXT ID="800024021" Text="Inflige un effet d&#39;Etourdissement de Nv.7 sur 10 ennemis à portée."/>
+<TEXT ID="800024031" Text="Inflige un effet d&#39;Etourdissement de Nv.8 sur 10 ennemis à portée."/>
+<TEXT ID="800024041" Text="Inflige un effet d&#39;Etourdissement de Nv.9 sur 10 ennemis à portée."/>
+<TEXT ID="800024051" Text="Inflige un effet d&#39;Etourdissement de Nv.10 sur 10 ennemis à portée."/>
+<TEXT ID="800025011" Text="Le familier se rue sur 1 monstre à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800025021" Text="Le familier se rue sur 2 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800025031" Text="Le familier se rue sur 3 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800025041" Text="Le familier se rue sur 4 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800025051" Text="Le familier se rue sur 5 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800026011" Text="Le familier se rue sur 1 monstre à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800026021" Text="Le familier se rue sur 2 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800026031" Text="Le familier se rue sur 3 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800026041" Text="Le familier se rue sur 4 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800026051" Text="Le familier se rue sur 5 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800027011" Text="Le familier se rue sur 1 monstre à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800027021" Text="Le familier se rue sur 2 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800027031" Text="Le familier se rue sur 3 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800027041" Text="Le familier se rue sur 4 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800027051" Text="Le familier se rue sur 5 monstres à portée avec son attaque de fracas de chair."/>
+<TEXT ID="800028011" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.10."/>
+<TEXT ID="800028021" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.11."/>
+<TEXT ID="800028031" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.12."/>
+<TEXT ID="800028041" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.13."/>
+<TEXT ID="800028051" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.14."/>
+<TEXT ID="800029011" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.10."/>
+<TEXT ID="800029021" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.11."/>
+<TEXT ID="800029031" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.12."/>
+<TEXT ID="800029041" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.13."/>
+<TEXT ID="800029051" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.14."/>
+<TEXT ID="800030011" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.10."/>
+<TEXT ID="800030021" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.11."/>
+<TEXT ID="800030031" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.12."/>
+<TEXT ID="800030041" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.13."/>
+<TEXT ID="800030051" Text="Invoque des cristaux de glace pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Congélation de Nv.14."/>
+<TEXT ID="800031011" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.10."/>
+<TEXT ID="800031021" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.11."/>
+<TEXT ID="800031031" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.12."/>
+<TEXT ID="800031041" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.13."/>
+<TEXT ID="800031051" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.14."/>
+<TEXT ID="800032011" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.10."/>
+<TEXT ID="800032021" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.11."/>
+<TEXT ID="800032031" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.12."/>
+<TEXT ID="800032041" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.13."/>
+<TEXT ID="800032051" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.14."/>
+<TEXT ID="800033011" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.10."/>
+<TEXT ID="800033021" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.11."/>
+<TEXT ID="800033031" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.12."/>
+<TEXT ID="800033041" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.13."/>
+<TEXT ID="800033051" Text="Invoque des Météores pour blesser jusqu&#39;à 10 monstres à portée avec un effet de Brûlure de Nv.14."/>
+<TEXT ID="800034011" Text="La Bonus d&#39;EXP de mission du propriétaire sera augmenté de 10%."/>
+<TEXT ID="800041011" Text="Cette commande permet de basculer sur l&#39;attaque automatique. Activée, le familier utilisera ses compétences de manière aléatoire selon leur efficacité."/>
+<TEXT ID="800042011" Text="Permet de monter ou de descendre de son familier. La vitesse de déplacement sera augmentée mais il n&#39;est alors plus possible de combattre."/>
+<TEXT ID="800043011" Text="Monté sur son familier, cette compétence est uitlisée avec la touche d&#39;attaque classique X. L&#39;ATQ et la MATQ dépendent du niveau du familier."/>
+<TEXT ID="800044011" Text="Monté sur son familier, cette compétence est uitlisée avec la touche d&#39;attaque classique X. L&#39;ATQ, la MATQ et le nombre de projectiles dépendent du niveau du familier."/>
+<TEXT ID="800045011" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 500 PV."/>
+<TEXT ID="800045021" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 1000 PV."/>
+<TEXT ID="800045031" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 1500 PV."/>
+<TEXT ID="800045041" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 2000 PV."/>
+<TEXT ID="800045051" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 2500 PV."/>
+<TEXT ID="800045061" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 3000 PV."/>
+<TEXT ID="800045071" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 3500 PV."/>
+<TEXT ID="800045081" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 4000 PV."/>
+<TEXT ID="800045091" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 4500 PV."/>
+<TEXT ID="800045101" Text="Grâce au support apporté par la Taurine, le propriétaire du familier récupère 5000 PV."/>
+<TEXT ID="890011011" Text="Uniquement à dos de familier, cette compétence permet d&#39;utiliser la téléportation n&#39;importe où, les coûts varient selon le familier."/>
+<TEXT ID="890012011" Text="Le coût de la Tour du Souffle est réduit de 30 % !"/>
+<TEXT ID="890013011" Text="La Tour du Souffle devient gratuite !!"/>
+<TEXT ID="80004601" Text="Ouragan"/>
+<TEXT ID="80004602" Text="Ouragan"/>
+<TEXT ID="80004603" Text="Ouragan"/>
+<TEXT ID="80004604" Text="Ouragan"/>
+<TEXT ID="80004605" Text="Ouragan"/>
+<TEXT ID="80004606" Text="Ouragan"/>
+<TEXT ID="80004607" Text="Ouragan"/>
+<TEXT ID="80004608" Text="Ouragan"/>
+<TEXT ID="80004609" Text="Ouragan"/>
+<TEXT ID="80004610" Text="Ouragan"/>
+<TEXT ID="80004701" Text="Steak"/>
+<TEXT ID="80004702" Text="Steak"/>
+<TEXT ID="80004703" Text="Steak"/>
+<TEXT ID="80004704" Text="Steak"/>
+<TEXT ID="80004705" Text="Steak"/>
+<TEXT ID="80004706" Text="Steak"/>
+<TEXT ID="80004707" Text="Steak"/>
+<TEXT ID="80004708" Text="Steak"/>
+<TEXT ID="80004709" Text="Steak"/>
+<TEXT ID="80004710" Text="Steak"/>
+<TEXT ID="80004801" Text="Nuage de Glace"/>
+<TEXT ID="80004802" Text="Nuage de Glace"/>
+<TEXT ID="80004803" Text="Nuage de Glace"/>
+<TEXT ID="80004804" Text="Nuage de Glace"/>
+<TEXT ID="80004805" Text="Nuage de Glace"/>
+<TEXT ID="80004806" Text="Nuage de Glace"/>
+<TEXT ID="80004807" Text="Nuage de Glace"/>
+<TEXT ID="80004808" Text="Nuage de Glace"/>
+<TEXT ID="80004809" Text="Nuage de Glace"/>
+<TEXT ID="80004810" Text="Nuage de Glace"/>
+<TEXT ID="80004901" Text="Nuage de Glace"/>
+<TEXT ID="80004902" Text="Nuage de Glace"/>
+<TEXT ID="80004903" Text="Nuage de Glace"/>
+<TEXT ID="80004904" Text="Nuage de Glace"/>
+<TEXT ID="80004905" Text="Nuage de Glace"/>
+<TEXT ID="80004906" Text="Nuage de Glace"/>
+<TEXT ID="80004907" Text="Nuage de Glace"/>
+<TEXT ID="80004908" Text="Nuage de Glace"/>
+<TEXT ID="80004909" Text="Nuage de Glace"/>
+<TEXT ID="80004910" Text="Nuage de Glace"/>
+<TEXT ID="80004711" Text="L&#39;ATQ et la MATQ du familier est améliorée de 5 %."/>
+<TEXT ID="80004712" Text="L&#39;ATQ et la MATQ du familier est améliorée de 7 %."/>
+<TEXT ID="80004713" Text="L&#39;ATQ et la MATQ du familier est améliorée de 9 %."/>
+<TEXT ID="80004714" Text="L&#39;ATQ et la MATQ du familier est améliorée de 12 %."/>
+<TEXT ID="80004715" Text="L&#39;ATQ et la MATQ du familier est améliorée de 15 %."/>
+<TEXT ID="80004716" Text="L&#39;ATQ et la MATQ du familier est améliorée de 20 %."/>
+<TEXT ID="80004717" Text="L&#39;ATQ et la MATQ du familier est améliorée de 25 %."/>
+<TEXT ID="80004718" Text="L&#39;ATQ et la MATQ du familier est améliorée de 30 %."/>
+<TEXT ID="80004719" Text="L&#39;ATQ et la MATQ du familier est améliorée de 35 %."/>
+<TEXT ID="80004721" Text="L&#39;ATQ et la MATQ du familier est améliorée de 40 %."/>
+<TEXT ID="80004911" Text="Les monstres perdent 15 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 15 %."/>
+<TEXT ID="80004912" Text="Les monstres perdent 25 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 20 %."/>
+<TEXT ID="80004913" Text="Les monstres perdent 35 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 25 %."/>
+<TEXT ID="80004914" Text="Les monstres perdent 45 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 30 %."/>
+<TEXT ID="80004915" Text="Les monstres perdent 55 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 35 %."/>
+<TEXT ID="80004916" Text="Les monstres perdent 65 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 40 %."/>
+<TEXT ID="80004917" Text="Les monstres perdent 75 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 45 %."/>
+<TEXT ID="80004918" Text="Les monstres perdent 85 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 50 %."/>
+<TEXT ID="80004919" Text="Les monstres perdent 100 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 55 %."/>
+<TEXT ID="80004921" Text="Les monstres perdent 125 PV par seconde et leur vitesse de mouvement et d&#39;ATQ est réduite de 60 %."/>
+<TEXT ID="80004611" Text="3 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004612" Text="4 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004613" Text="5 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004614" Text="6 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004615" Text="7 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004616" Text="8 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004617" Text="9 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004618" Text="10 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004619" Text="11 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80004621" Text="12 mini-ouragans sont lancés par le familier et affligent des dégâts aux monstres sur le passage. "/>
+<TEXT ID="80005001" Text="Ouragan"/>
+<TEXT ID="80005002" Text="Ouragan"/>
+<TEXT ID="80005003" Text="Ouragan"/>
+<TEXT ID="80005004" Text="Ouragan"/>
+<TEXT ID="80005005" Text="Ouragan"/>
+<TEXT ID="80005006" Text="Ouragan"/>
+<TEXT ID="80005007" Text="Ouragan"/>
+<TEXT ID="80005008" Text="Ouragan"/>
+<TEXT ID="80005009" Text="Ouragan"/>
+<TEXT ID="80005010" Text="Ouragan"/>
+<TEXT ID="80007011" Text="La compétence est activée au bout de 3 heures de temps de jeu."/>
+<TEXT ID="80007001" Text="Récompense du Tournesol"/>
+<TEXT ID="80005101" Text="Nuée ardente"/>
+<TEXT ID="80005102" Text="Nuée ardente"/>
+<TEXT ID="80005103" Text="Nuée ardente"/>
+<TEXT ID="80005104" Text="Nuée ardente"/>
+<TEXT ID="80005105" Text="Nuée ardente"/>
+<TEXT ID="80005106" Text="Nuée ardente"/>
+<TEXT ID="80005107" Text="Nuée ardente"/>
+<TEXT ID="80005108" Text="Nuée ardente"/>
+<TEXT ID="80005109" Text="Nuée ardente"/>
+<TEXT ID="80005110" Text="Nuée ardente"/>
+<TEXT ID="80005201" Text="Nuée ardente"/>
+<TEXT ID="80005202" Text="Nuée ardente"/>
+<TEXT ID="80005203" Text="Nuée ardente"/>
+<TEXT ID="80005204" Text="Nuée ardente"/>
+<TEXT ID="80005205" Text="Nuée ardente"/>
+<TEXT ID="80005206" Text="Nuée ardente"/>
+<TEXT ID="80005207" Text="Nuée ardente"/>
+<TEXT ID="80005208" Text="Nuée ardente"/>
+<TEXT ID="80005209" Text="Nuée ardente"/>
+<TEXT ID="80005210" Text="Nuée ardente"/>
+<TEXT ID="80005301" Text="Tornade de feu"/>
+<TEXT ID="80005302" Text="Tornade de feu"/>
+<TEXT ID="80005303" Text="Tornade de feu"/>
+<TEXT ID="80005304" Text="Tornade de feu"/>
+<TEXT ID="80005305" Text="Tornade de feu"/>
+<TEXT ID="80005306" Text="Tornade de feu"/>
+<TEXT ID="80005307" Text="Tornade de feu"/>
+<TEXT ID="80005308" Text="Tornade de feu"/>
+<TEXT ID="80005309" Text="Tornade de feu"/>
+<TEXT ID="80005310" Text="Tornade de feu"/>
+<TEXT ID="80005111" Text="Les monstres touchés par la Nuée ardente perdent 7 % de PV totaux. Les PM et PV seront également réduits de -7 et -8 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005112" Text="Les monstres touchés par la Nuée ardente perdent 10 % de PV totaux. Les PM et PV seront également réduits de -12 et -13 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005113" Text="Les monstres touchés par la Nuée ardente perdent 13 % de PV totaux. Les PM et PV seront également réduits de -17 et -18 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005114" Text="Les monstres touchés par la Nuée ardente perdent 16 % de PV totaux. Les PM et PV seront également réduits de -22 et -23 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005115" Text="Les monstres touchés par la Nuée ardente perdent 19 % de PV totaux. Les PM et PV seront également réduits de -27 et -28 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005116" Text="Les monstres touchés par la Nuée ardente perdent 22 % de PV totaux. Les PM et PV seront également réduits de -32 et -33 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005117" Text="Les monstres touchés par la Nuée ardente perdent 25 % de PV totaux. Les PM et PV seront également réduits de -37 et -38 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005118" Text="Les monstres touchés par la Nuée ardente perdent 28 % de PV totaux. Les PM et PV seront également réduits de -42 et -42 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005119" Text="Les monstres touchés par la Nuée ardente perdent 32 % de PV totaux. Les PM et PV seront également réduits de -52 et -52 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005121" Text="Les monstres touchés par la Nuée ardente perdent 35 % de PV totaux. Les PM et PV seront également réduits de -62 et -62 continuellement le temps de l&#39;effet. "/>
+<TEXT ID="80005311" Text="3 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005312" Text="4 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005313" Text="5 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005314" Text="6 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005315" Text="7 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005316" Text="8 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005317" Text="9 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005318" Text="10 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005319" Text="11 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="80005321" Text="12 tornades se déplacent vers les ennemis et affligent des dégâts aux monstres."/>
+<TEXT ID="601100" Text="Aéroglisseur"/>
+<TEXT ID="601101" Text="Aéroglisseur"/>
+<TEXT ID="601102" Text="Aéroglisseur"/>
+<TEXT ID="65202220" Text="Smilodon"/>
+<TEXT ID="65202225" Text="Œuf de Smilodon (7 jrs)"/>
+<TEXT ID="65202230" Text="Smilodon"/>
+<TEXT ID="65202235" Text="Œuf de Smilodon"/>
+<TEXT ID="65202240" Text="Smilodon"/>
+<TEXT ID="65202245" Text="Œuf de Smilodon"/>
+<TEXT ID="65202250" Text="Zufang"/>
+<TEXT ID="65202255" Text="Œuf de Zufang (7 jrs)"/>
+<TEXT ID="65202260" Text="Zufang"/>
+<TEXT ID="65202265" Text="Œuf de Zufang"/>
+<TEXT ID="65202270" Text="Zufang"/>
+<TEXT ID="65202275" Text="Œuf de Zufang"/>
+<TEXT ID="65202280" Text="Chiroptera"/>
+<TEXT ID="65202285" Text="Œuf de Chiroptera (7 jrs)"/>
+<TEXT ID="65202290" Text="Chiroptera"/>
+<TEXT ID="65202295" Text="Œuf de Chiroptera"/>
+<TEXT ID="65202300" Text="Chiroptera"/>
+<TEXT ID="65202305" Text="Œuf de Chiroptera"/>
+<TEXT ID="615100" Text="Smilodon"/>
+<TEXT ID="615101" Text="Smilodon"/>
+<TEXT ID="615102" Text="Smilodon"/>
+<TEXT ID="615200" Text="Zufang"/>
+<TEXT ID="615201" Text="Zufang"/>
+<TEXT ID="615202" Text="Zufang"/>
+<TEXT ID="80005401" Text="Rugissement"/>
+<TEXT ID="80005402" Text="Rugissement"/>
+<TEXT ID="80005403" Text="Rugissement"/>
+<TEXT ID="80005404" Text="Rugissement"/>
+<TEXT ID="80005405" Text="Rugissement"/>
+<TEXT ID="80005411" Text="Etourdis les monstres"/>
+<TEXT ID="65202221" Text="Un tigre sauvage et puissant et pourtant si mignon !
+(La Coloration pour Familier peut être utilisée sur ce familier)"/>
+<TEXT ID="65202236" Text="Cet œuf contient un Smilodon monture de combat
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Offre un bonus
+- Coloration pour Familier possible
+- Peut être vendu sur le marché"/>
+<TEXT ID="65202251" Text="Mi-lion et mi-tigre, le Zufang est le nouveau roi de la jungle !
+(La Coloration pour Familier peut être utilisée sur ce familier)"/>
+<TEXT ID="65202256" Text="Cet œuf contient un Zufang monture de combat
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Offre un bonus
+- Coloration pour Familier possible
+- Peut être vendu sur le marché"/>
+<TEXT ID="80005501" Text="Morsure"/>
+<TEXT ID="80005511" Text="Le familier se rue sur l&#39;ennemi avec son attaque."/>
+<TEXT ID="65202310" Text="Raton Laveur"/>
+<TEXT ID="65202311" Text="Cette petite boule de poils est très joueuse et farceuse !"/>
+<TEXT ID="65202320" Text="Oeuf de Raton Laveur (7 jrs)"/>
+<TEXT ID="65202321" Text="Cet Oeuf contient un Raton Laveur monture de combat"/>
+<TEXT ID="65202330" Text="Robby"/>
+<TEXT ID="65202331" Text="Cet étrange camarade vient d&#39;ailleurs."/>
+<TEXT ID="65202340" Text="Oeuf de Robby (7 jrs)"/>
+<TEXT ID="65202341" Text="Cet Oeuf contient un Robby Laveur monture de combat"/>
+<TEXT ID="65202350" Text="Poulpy"/>
+<TEXT ID="65202351" Text="Vous en avez de nombreuses tentacules ! C&#39;est pour mieux ma câliner ?"/>
+<TEXT ID="65202360" Text="Oeuf de Poulpy (7 jrs)"/>
+<TEXT ID="65202361" Text="Cet Oeuf contient un Poulpy monture de combat"/>
+<TEXT ID="65202370" Text="Oinky Feuillu"/>
+<TEXT ID="65202371" Text="Toujours joyeux, la feuille qu&#39;il a sur la tête exprime son humeur."/>
+<TEXT ID="65202380" Text="Oeuf de Oinky Feuillu (7 jrs)"/>
+<TEXT ID="65202381" Text="Cet Oeuf contient un Oinky Feuillu monture de combat"/>
+<TEXT ID="65202390" Text="Feu Follet"/>
+<TEXT ID="65202391" Text="Attention à ne pas te brûler toi-même !"/>
+<TEXT ID="65202400" Text="Oeuf de Feu Follet (7 jrs)"/>
+<TEXT ID="65202401" Text="Cet Oeuf contient un Feu Follet monture de combat"/>
+<TEXT ID="65202410" Text="Deviruchi"/>
+<TEXT ID="65202411" Text="Il me semble l&#39;avoir déjà rencontré dans un autre univers... !?"/>
+<TEXT ID="65202420" Text="Oeuf de Deviruchi (7 jrs)"/>
+<TEXT ID="65202421" Text="Cet oeuf contient un Deviruchi de combat
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Coloration pour Familier impossible
+- Offre un bonus"/>
+<TEXT ID="65202430" Text="Deviruchi"/>
+<TEXT ID="65202440" Text="Oeuf de Deviruchi"/>
+<TEXT ID="65202450" Text="Deviruchi"/>
+<TEXT ID="65202460" Text="Oeuf de Deviruchi"/>
+<TEXT ID="65202470" Text="Sohee"/>
+<TEXT ID="65202471" Text="Ce personnage de Ragnarök est très populaire"/>
+<TEXT ID="65202480" Text="Oeuf de Sohee (7 jrs)"/>
+<TEXT ID="65202481" Text="Cet oeuf contient un Sohee de combat
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Coloration pour Familier impossible
+- Offre un bonus"/>
+<TEXT ID="65202490" Text="Sohee"/>
+<TEXT ID="65202500" Text="Oeuf de Sohee"/>
+<TEXT ID="65202510" Text="Sohee"/>
+<TEXT ID="65202520" Text="Oeuf de Sohee"/>
+<TEXT ID="615400" Text="Raton Laveur"/>
+<TEXT ID="615500" Text="Robby"/>
+<TEXT ID="615600" Text="Poulpy"/>
+<TEXT ID="615700" Text="Oinky Feuillu"/>
+<TEXT ID="615800" Text="Feu Follet"/>
+<TEXT ID="615900" Text="Deviruchi"/>
+<TEXT ID="615901" Text="Deviruchi"/>
+<TEXT ID="615902" Text="Deviruchi"/>
+<TEXT ID="616000" Text="Sohee"/>
+<TEXT ID="616001" Text="Sohee"/>
+<TEXT ID="616002" Text="Sohee"/>
+<TEXT ID="65202281" Text="Créature de la nuit nourrissant de nombreuses légendes et qui engendre bien des superstitions. En réalité, bien qu&#39;elle ne soit pas sociable, la Chiroptera ne s&#39;attache qu&#39;à un maître durant sa vie.
+(La Coloration pour Familier ne fonctionne pas sur ce familier)"/>
+<TEXT ID="65202296" Text="Cet Oeuf contient un Chiroptera monture de combat
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Offre un bonus
+- Coloration pour Familier possible
+- Peut être vendu sur le marché"/>
+<TEXT ID="615300" Text="Chiroptera"/>
+<TEXT ID="615301" Text="Chiroptera"/>
+<TEXT ID="615302" Text="Chiroptera"/>
+<TEXT ID="65210010" Text="Griffon de Noël"/>
+<TEXT ID="65210011" Text="Griffon s&#39;est mis sur son trente-et-un pour guetter l&#39;arrivée du Père Noël."/>
+<TEXT ID="65210012" Text="Griffon de Noël"/>
+<TEXT ID="65210013" Text="Griffon de Noël"/>
+<TEXT ID="65210015" Text="Oeuf de Griffon de Noël (7 jrs)"/>
+<TEXT ID="65210016" Text="Cet Oeuf contient un Griffon de Noël monture de combat"/>
+<TEXT ID="65210020" Text="Furie de Noël"/>
+<TEXT ID="65210021" Text="Furie Nocturne s&#39;est mise sur son trente-et-un pour guetter l&#39;arrivée du Père Noël."/>
+<TEXT ID="65210022" Text="Furie de Noël"/>
+<TEXT ID="65210023" Text="Furie de Noël"/>
+<TEXT ID="65210025" Text="Oeuf de Furie de Noël (7 jrs)"/>
+<TEXT ID="65210026" Text="Cet Oeuf contient une Furie de Noël monture de combat"/>
+<TEXT ID="65210040" Text="Furie de Noël"/>
+<TEXT ID="65210041" Text="Griffon s&#39;est mis sur son trente-et-un pour guetter l&#39;arrivée du Père Noël."/>
+<TEXT ID="65210042" Text="Feilon de Noël"/>
+<TEXT ID="65210043" Text="Feilon de Noël"/>
+<TEXT ID="65210045" Text="Oeuf de Feilon de Noël (7 jrs)"/>
+<TEXT ID="65210046" Text="Cet Oeuf contient un Feilon de Noël monture de combat"/>
+<TEXT ID="616200" Text="Griffon de Noël"/>
+<TEXT ID="616201" Text="Griffon de Noël"/>
+<TEXT ID="616202" Text="Griffon de Noël"/>
+<TEXT ID="616300" Text="Furie de Noël"/>
+<TEXT ID="616301" Text="Furie de Noël"/>
+<TEXT ID="616302" Text="Furie de Noël"/>
+<TEXT ID="616400" Text="Feilon de Noël"/>
+<TEXT ID="616401" Text="Oeuf de Feilon de Noël"/>
+<TEXT ID="616402" Text="Oeuf de Feilon de Noël"/>
+<TEXT ID="65210050" Text="Pégase"/>
+<TEXT ID="65210055" Text="Oeuf de Pégase"/>
+<TEXT ID="616501" Text="Pégase"/>
+<TEXT ID="616502" Text="Pégase"/>
+<TEXT ID="616503" Text="Pégase"/>
+<TEXT ID="65210052" Text="Pégase"/>
+<TEXT ID="65210053" Text="Pégase"/>
+<TEXT ID="65210060" Text="Merlion"/>
+<TEXT ID="65210061" Text="Animal fantastique à la tête de lion et au corps de poisson."/>
+<TEXT ID="616600" Text="Merlion"/>
+<TEXT ID="65210070" Text="Oeuf de Merlion"/>
+<TEXT ID="65210071" Text="Cet Oeuf contient un Merlion monture de combat."/>
+<TEXT ID="66202700" Text="Andrinople"/>
+<TEXT ID="66202730" Text="Oeuf d&#39;Andrinople"/>
+<TEXT ID="66202800" Text="Charriot"/>
+<TEXT ID="66202830" Text="Oeuf de Charriot"/>
+<TEXT ID="66202900" Text="Jeep sauvage"/>
+<TEXT ID="66202930" Text="Oeuf de Jeep sauvage"/>
+<TEXT ID="66203000" Text="Tonnerre de feu"/>
+<TEXT ID="66203030" Text="Oeuf de Tonnerre de feu"/>
+<TEXT ID="66202701" Text="Un Andrinople vrombissant !"/>
+<TEXT ID="66202731" Text="Cet oeuf contient un Andrinople
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Ne se monte pas
+- Coloration pour Familier possible
+- Offre un bonus
+- Peut être vendu sur le marché"/>
+<TEXT ID="66202801" Text="Ronronne de plaisir !"/>
+<TEXT ID="66202831" Text="Cet oeuf contient un Charriot 
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Ne se monte pas
+- Coloration pour Familier possible
+- Offre un bonus
+- Peut être vendu sur le marché"/>
+<TEXT ID="66202901" Text="La Jeep sauvage fonce à la vitesse du vent !"/>
+<TEXT ID="66202931" Text="Cet oeuf contient une Jeep sauvage
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Ne se monte pas
+- Coloration pour Familier possible
+- Offre un bonus
+- Peut être vendu sur le marché"/>
+<TEXT ID="66203001" Text="Au volant de votre Tonnerre de feu vous aurez belle allure !"/>
+<TEXT ID="66203031" Text="Cet oeuf contient un Tonnerre de feu
+- Durée : 7 j.
+- Durée prolongeable grâce à la Nourriture pour familier (monture/combat)
+- Ne se monte pas
+- Coloration pour Familier possible
+- Offre un bonus
+- Peut être vendu sur le marché"/>
+<TEXT ID="616700" Text="Andrinople"/>
+<TEXT ID="616800" Text="Charriot"/>
+<TEXT ID="616900" Text="Jeep sauvage"/>
+<TEXT ID="617000" Text="Tonnerre de feu"/>
+<TEXT ID="80006501" Text="Faisceau de foudre"/>
+<TEXT ID="80006601" Text="Explosifs"/>
+<TEXT ID="80006521" Text="Une fois en selle, utilisez le bouton d&#39;attaque (X) pour produire une animation. Cette compétence n&#39;inflige aucun dégât."/>
+<TEXT ID="80006511" Text="Lance des faisceaux de foudre en ligne droite."/>
+<TEXT ID="80006611" Text="Lance des grenades explosives en avant."/>
+<TEXT ID="65210350" Text="Pégase"/>
+<TEXT ID="65210351" Text="Voici le cheval céleste : Pégase"/>
+<TEXT ID="65210355" Text="Oeuf de Pégase"/>
+<TEXT ID="65210361" Text="Oeuf de Pégase"/>
+<TEXT ID="65210380" Text="Pégase"/>
+<TEXT ID="65210381" Text="Voici le cheval céleste : Pégase"/>
+<TEXT ID="65210385" Text="Oeuf de Pégase"/>
+<TEXT ID="65210391" Text="Oeuf de Pégase"/>
+<TEXT ID="65210410" Text="Pégase"/>
+<TEXT ID="65210411" Text="Voici le cheval céleste : Pégase"/>
+<TEXT ID="65210415" Text="Oeuf de pégase"/>
+<TEXT ID="65210421" Text="Oeuf de pégase"/>
+<TEXT ID="65210440" Text="Oeuf de pégase"/>
+<TEXT ID="65210441" Text="Oeuf de pégase"/>
+<TEXT ID="65210445" Text="Oeuf de pégase"/>
+<TEXT ID="65210451" Text="Oeuf de pégase"/>
+<TEXT ID="65211350" Text="Larry"/>
+<TEXT ID="65211351" Text="Voici le mouton galactique : Larry"/>
+<TEXT ID="65211355" Text="Oeuf de Larry"/>
+<TEXT ID="65211361" Text="Oeuf de Larry"/>
+<TEXT ID="65211380" Text="Larry"/>
+<TEXT ID="65211381" Text="Voici le mouton galactique : Larry"/>
+<TEXT ID="65211385" Text="Oeuf de Larry"/>
+<TEXT ID="65211391" Text="Oeuf de Larry"/>
+<TEXT ID="65211410" Text="Larry"/>
+<TEXT ID="65211411" Text="Voici le mouton galactique : Larry"/>
+<TEXT ID="65211415" Text="Oeuf de Larry"/>
+<TEXT ID="65211421" Text="Oeuf de Larry"/>
+<TEXT ID="65211440" Text="Larry"/>
+<TEXT ID="65211441" Text="Voici le mouton galactique : Larry"/>
+<TEXT ID="65211445" Text="Oeuf de Larry"/>
+<TEXT ID="65211451" Text="Oeuf de Larry"/>
+<TEXT ID="65211470" Text="S_201 1st"/>
+<TEXT ID="65211480" Text="S_201 2nd"/>
+<TEXT ID="65211490" Text="S_201 3rd"/>
+<TEXT ID="65211475" Text="S_201 Egg 1st"/>
+<TEXT ID="65211485" Text="S_201 Egg 2nd"/>
+<TEXT ID="65211495" Text="S_201 Egg 3rd"/>
+<TEXT ID="65211500" Text="X_201 1st"/>
+<TEXT ID="65211510" Text="X_201 2nd"/>
+<TEXT ID="65211520" Text="X_201 3rd"/>
+<TEXT ID="65211505" Text="X_201 Egg 1st"/>
+<TEXT ID="65211515" Text="X_201 Egg 2nd"/>
+<TEXT ID="65211525" Text="X_201 Egg 3rd"/>
+<TEXT ID="65211530" Text="Z_201 1st"/>
+<TEXT ID="65211540" Text="Z_201 2nd"/>
+<TEXT ID="65211550" Text="Z_201 3rd"/>
+<TEXT ID="65211535" Text="Z_201 Egg 1st"/>
+<TEXT ID="65211545" Text="Z_201 Egg 2nd"/>
+<TEXT ID="65211555" Text="Z_201 Egg 3rd"/>
+<TEXT ID="618900" Text="S_201 1st"/>
+<TEXT ID="618901" Text="S_201 2nd"/>
+<TEXT ID="618902" Text="S_201 3rd"/>
+<TEXT ID="618700" Text="X_201 1st"/>
+<TEXT ID="618701" Text="X_201 2nd"/>
+<TEXT ID="618702" Text="X_201 3rd"/>
+<TEXT ID="618800" Text="Z_201 1st"/>
+<TEXT ID="618801" Text="Z_201 2nd"/>
+<TEXT ID="618802" Text="Z_201 3rd"/>
+<TEXT ID="66203060" Text="Gardien"/>
+<TEXT ID="66203061" Text="Gardien"/>
+<TEXT ID="66203065" Text="Oeuf de Gardien (7 jrs)"/>
+<TEXT ID="66203066" Text="Oeuf de Gardien (7 jrs)"/>
+<TEXT ID="66203070" Text="Gardien"/>
+<TEXT ID="66203075" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203080" Text="Gardien"/>
+<TEXT ID="66203085" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618200" Text="Larry"/>
+<TEXT ID="618201" Text="Larry"/>
+<TEXT ID="618202" Text="Larry"/>
+<TEXT ID="618300" Text="Larry"/>
+<TEXT ID="618301" Text="Larry"/>
+<TEXT ID="618302" Text="Larry"/>
+<TEXT ID="618400" Text="Larry"/>
+<TEXT ID="618401" Text="Larry"/>
+<TEXT ID="618402" Text="Larry"/>
+<TEXT ID="618500" Text="Larry"/>
+<TEXT ID="618501" Text="Larry"/>
+<TEXT ID="618502" Text="Larry"/>
+<TEXT ID="616600" Text="Merlion"/>
+<TEXT ID="616700" Text="Mini Red"/>
+<TEXT ID="616800" Text="Yellow Cat"/>
+<TEXT ID="616900" Text="Wild Green"/>
+<TEXT ID="617000" Text="Blue Thunder"/>
+<TEXT ID="617100" Text="Pégase"/>
+<TEXT ID="617101" Text="Pégase"/>
+<TEXT ID="617102" Text="Pégase"/>
+<TEXT ID="617200" Text="Pégase"/>
+<TEXT ID="617201" Text="Pégase"/>
+<TEXT ID="617202" Text="Pégase"/>
+<TEXT ID="617300" Text="Pégase"/>
+<TEXT ID="617301" Text="Pégase"/>
+<TEXT ID="617302" Text="Pégase"/>
+<TEXT ID="616500" Text="Pégase"/>
+<TEXT ID="616501" Text="Pégase"/>
+<TEXT ID="616502" Text="Pégase"/>
+<TEXT ID="616503" Text="Pégase"/>
+</STRING_TABLE_LOCAL>

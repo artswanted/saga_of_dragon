@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4347</ID> <!--T.T.10434700 무슨홀? 싱크홀? -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	바람항구에 나타난 싱크홀 조사-->
+<!--[완료NPC]	바람항구 - 콜린-->
+<!--[내용]	호위대장 콜린이 바람항구 물의 신전 근처에 큰 구멍이 생겼다고 한다. 아직 정확한 정보가 없어서 사람들의 접근을 막아 놓긴 했지만. 마을 사람들이 불안해 하고 있다. 싱크홀을 조사한 후에 호위대장 콜린에게 말해주자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001" Mark="END">2FF6590B-6648-4D73-9A61-7B4FA9065498</CLIENT> <!--시작NPC 바람항구 - 콜린 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031" Mark="END">2FF6590B-6648-4D73-9A61-7B4FA9065498</PAYER> <!--완료NPC 바람항구 - 콜린 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10021" Mark="END">39495073-9D0C-49ed-9AA0-84B94FCE1DF5</AGENT> <!--진행NPC 1 바람항구 - 이벤트 포탈 -->
+		<AGENT TYPE="NPC" EVENTNO="10011">2FF6590B-6648-4D73-9A61-7B4FA9065498</AGENT> <!--진행NPC 11 바람항구 - 콜린 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<LOCATION OBJECTNO="1" TYPE="LOCATION_ENTER" VALUE="9018100">4</LOCATION>  <!--MAP_NO=9018100/[20]바람항구 [마을],-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> <!---->	
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10021</NPC> <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="STEPBYSTEP">
+		<OBJECT1 COUNT="1" TEXT="10434711"/> <!--싱크홀 조사-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10434721" FACE="Colin_normal"/> <!--요즘 마을 주민들이 불안해 하고 있네.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10434726" FACE="Colin_smile"/> <!--큰 차원의 구멍이라고? 이거 큰일 났군.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10434723" FACE="Colin_normal"/> <!--얼마전 물의 신전 근처에 싱크홀이 생겼다네. 어떠한 정보도 없기에 섣불리 조사도 못하고 있지. 마을 주민들은 접근금지 시켰지만, 아무래도 주민들이 동요를 하고 있어. %name% 자네가 조사를 해주지 않겠나?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10434724" FACE="Colin_angly"/> <!--마을 주민들이 불안해 하고있다네. 흉흉한 소문도 돌고 있꼬.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10434725" FACE="Colin_normal"/> <!--한시바삐 서둘러 주게.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10434702" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		<DIALOG ID="511" > <!--기타-->
+			<BODY TEXT="10434751" FACE="없음_X"/> <!--(…안으로 빨려 들어 갈것만 같다. 어딘가로 통하는 통로 같다.)-->
+			<SELECT ID="0"  TEXT=""></SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

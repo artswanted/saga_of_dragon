@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4336</ID> <!--T.T.10433600 신나는 용탈춤 놀이 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	용탈춤 놀이 지키기-->
+<!--[완료NPC]	카오란 마을 - 돈파치-->
+<!--[내용]	용의 탈춤 공연이 곧 시작된다. 하지만 황제의부하들이 공연을 망치려고 한다. 공연이 끝날때까지 지켜내자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</CLIENT> <!--시작NPC 카오란 마을 - 돈파치 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</PAYER> <!--완료NPC 카오란 마을 - 돈파치 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</AGENT> <!--진행NPC 11 카오란 마을 - 돈파치 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MISSION OBJECTNO="1" TYPE="DEFENCE_STAGE_CLEAR" VALUE="10">13</MISSION> 
+ <!--Mission_Key=13/[중국테마] 카오란 마을 탈춤놀이(F6),-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433611"/> <!--용탈춤 놀이 공연-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="3">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433621" FACE="Donpachi_normal"/> <!--어서오게나. 덕분에 용탈춤 공연을 볼 수가 있다네.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433626" FACE="Donpachi_smile"/> <!--덕분에 공연이 무사히 끝났네.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433623" FACE="Donpachi_normal"/> <!--숲에서 후오황제의 부하들이 움직이고 있다고 하네. 곧 공연 시간인데, 공연이 무사히 마칠 수 있도록 좀 도와주게나.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433624" FACE="Donpachi_angly"/> <!--모두 이 공연을 기다린다네.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433625" FACE="Donpachi_normal"/> <!--공연장에서 봅세나.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433602" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

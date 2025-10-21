@@ -1,0 +1,2111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><TEXT_TABLE><TEXT ID="10428900" Text="Clé pour le donjon du Sagittaire"/>
+<TEXT ID="10428902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Demande à Crête de te donner un {C=0xFF016295/}Trophée de la victoire{C=0xFF4D0D08/} pour entrer sur le Sagittaire."/>
+<TEXT ID="10428921" Text="Tu as besoin de retourner sur le Sagittaire ?"/>
+<TEXT ID="10428926" Text="Fais attention.
+Je compte sur toi, dirige-toi vers le donjon du Sagittaire et ne te perds pas en route.
+Pas de bêtise, je te surveille !"/>
+<TEXT ID="10428923" Text="Tu as besoin de rendre visite à Chiron ? J&#39;espère que tout va bien.
+Prends ce Trophée de la victoire, il te permettra d&#39;entrer sur le Sagittaire."/>
+<TEXT ID="10428924" Text="Tu n&#39;as pas besoin d&#39;aller sur le Sagittaire ? Voilà qui est réconfortant à entendre !"/>
+<TEXT ID="10428925" Text="Comment puis-je t&#39;aider ?"/>
+<TEXT ID="10428911" Text="Parle à Crête"/>
+<TEXT ID="10432300" Text="Gardien des étoiles."/>
+<TEXT ID="10432302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Restauration d&#39;Ophiuchus
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Ophiuchus a été corrompu par Serpentis. Les étoiles sont en train de se désaligner à cause de la corruption. Voyage jusqu&#39;à l&#39;Ophiuchus et vaincs Serpentis."/>
+<TEXT ID="10432321" Text="Ophiuchus a été corrompu."/>
+<TEXT ID="10432326" Text="La paix va maintenant revenir."/>
+<TEXT ID="10432323" Text="Serpentis essaie de corrompre Ophiuchus pour apporter le chaos. Péas cherche à l&#39;arrêter, mais j&#39;ai bien peur qu&#39;il ne soit pas de taille. Aide-le, %name% !"/>
+<TEXT ID="10432324" Text="Une menace dans les constellations est une menace pour le royaume."/>
+<TEXT ID="10432325" Text="Je crains que nous n&#39;ayons pas beaucoup de temps !"/>
+<TEXT ID="10432311" Text="Restaure l&#39;Ophiuchus"/>
+<TEXT ID="10432200" Text="Serpentis persistant."/>
+<TEXT ID="10432202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre Serpentis
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Serpentis ne cesse de chercher à corrompre {C=0xFFFF0000/}Péas{C=0xFF4D0D08/}. Défais Serpentis pour qu&#39;il ne puisse plus jamais tenter {C=0xFFFF0000/}Péas{C=0xFF4D0D08/}."/>
+<TEXT ID="10432221" Text="Il parait que Serpentis s&#39;intéresse un peu trop à Péas..."/>
+<TEXT ID="10432226" Text="Serpentis n&#39;osera plus s&#39;approcher de Péas."/>
+<TEXT ID="10432223" Text="Il semble que Serpentis cherche à entourlouper Péas. Rends-toi sur l&#39;Ophiuchus, et transforme Serpentis en carpette, %name% !"/>
+<TEXT ID="10432224" Text="Craindrais-tu les reptiles ?"/>
+<TEXT ID="10432225" Text="Sauve Péas !"/>
+<TEXT ID="10432211" Text="Serpentis vaincu."/>
+<TEXT ID="10432100" Text="Péas, l&#39;amant de Crête."/>
+<TEXT ID="10432102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Retrouver Péas
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Crête nous a averti que {C=0xFFFF0000/}Péas{C=0xFF4D0D08/} a encore disparu. Il s&#39;est probablement rendu sur l&#39;Ophiuchus pour ses recherches. Retrouve-le !"/>
+<TEXT ID="10432121" Text="Péas s&#39;est rendu sur l&#39;Ophiuchus pour récupérer ses recherches."/>
+<TEXT ID="10432126" Text="Merci d&#39;avoir retrouvé Péas."/>
+<TEXT ID="10432123" Text="Péas est parti pour récupérer ses recherches mais n&#39;est jamais revenu. Voyagez jusqu&#39;à l&#39;Ophiuchus pour le retrouver."/>
+<TEXT ID="10432124" Text="Je m&#39;inquiète pour Péas."/>
+<TEXT ID="10432125" Text="Va, cours, vole !"/>
+<TEXT ID="10432111" Text="Retrouve Péas"/>
+<TEXT ID="10432000" Text="Restaure l&#39;Ophiuchus"/>
+<TEXT ID="10432002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Restauration d&#39;Ophiuchus
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Les étoiles sont en train de se désaligner. Quelque chose est encore arrivé sur l&#39;Ophiuchus. Va et vaincs Serpentis."/>
+<TEXT ID="10432021" Text="Quelque chose a dû arriver dans les constellations..."/>
+<TEXT ID="10432026" Text="Merci, %name%. Tout devrait rentrer dans l&#39;ordre."/>
+<TEXT ID="10432023" Text="Serpentis doit encore préparer un sale coup sur l&#39;Ophiuchus. Les étoiles sont en train de se désaligner."/>
+<TEXT ID="10432024" Text="Je m&#39;inquiète pour Péas."/>
+<TEXT ID="10432025" Text="Va, cours, vole !"/>
+<TEXT ID="10432011" Text="Restaure l&#39;Ophiuchus"/>
+<TEXT ID="10431900" Text="La source de corruption"/>
+<TEXT ID="10431902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre Serpentis
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Serpentis est réapparu, probablement pour corrompre {C=0xFFFF0000/}Péas{C=0xFF4D0D08/} à nouveau. Défais Serpentis sur l&#39;Ophiuchus."/>
+<TEXT ID="10431921" Text="Serpentis est réapparu sur l&#39;Ophiuchus."/>
+<TEXT ID="10431926" Text="Nous en sommes débarrassé pour de bon ?"/>
+<TEXT ID="10431923" Text="La réapparition de Serpentis semble coïncider avec la disparition de Péas. Je crains que Serpentis cherche encore à le corrompre."/>
+<TEXT ID="10431924" Text="Je m&#39;inquiète pour Péas."/>
+<TEXT ID="10431925" Text="Va, cours, vole !"/>
+<TEXT ID="10431911" Text="Serpentis vaincu."/>
+<TEXT ID="10431800" Text="La disparition de Péas"/>
+<TEXT ID="10431802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Retrouver Péas
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFFFF0000/}Péas{C=0xFF4D0D08/} a disparu. II a dû retourner sur l&#39;Ophiuchus dans l&#39;espoir de soigner Crête. Retrouvez {C=0xFFFF0000/}Péas{C=0xFF4D0D08/}."/>
+<TEXT ID="10431821" Text="Péas s&#39;est à nouveau rendu sur l&#39;Ophiuchus."/>
+<TEXT ID="10431826" Text="Merci d&#39;avoir retrouvé Péas."/>
+<TEXT ID="10431823" Text="Il est parti pour l&#39;Ophiuchus il y a quelque jours et depuis, plus aucune nouvelle. %name%, pourrais-tu chercher Péas ?"/>
+<TEXT ID="10431824" Text="Je m&#39;inquiète pour Péas."/>
+<TEXT ID="10431825" Text="Va, cours, vole !"/>
+<TEXT ID="10431811" Text="Retrouve Péas"/>
+<TEXT ID="10431700" Text="Aider ses amis"/>
+<TEXT ID="10431702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre l&#39;Hydre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Aussi imposante soit-elle avec ses trois tête, l&#39;Hydre est lâche si isolée. Crée un groupe et vaincs l&#39;{C=0xFFFF0000/}Hydre{C=0xFF4D0D08/}."/>
+<TEXT ID="10431721" Text="Sa puissance pourrait-elle venir de ses trois têtes ? En tout cas, elle n&#39;a pas trois cervelles !"/>
+<TEXT ID="10431726" Text="Tes camarades ont l&#39;air robuste."/>
+<TEXT ID="10431723" Text="%name%, tu n&#39;as aucune chance si tu affrontes les trois têtes seul. Trouve des alliés pour t&#39;assister dans ton combat contre l&#39;Hydre."/>
+<TEXT ID="10431724" Text="Oh, tu as peur !"/>
+<TEXT ID="10431725" Text="Tu sais où trouver l&#39;Hydre, n&#39;est-ce pas ?"/>
+<TEXT ID="10431711" Text="Hydre vaincue."/>
+<TEXT ID="10431600" Text="L&#39;identité du serpent de mer"/>
+<TEXT ID="10431602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre l&#39;Hydre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+L&#39;{C=0xFFFF0000/}Hydre{C=0xFF4D0D08/} a trois tête, mais il est dit qu&#39;une seule d&#39;entre elle est réelle. Détruis la véritable tête pour sauver l&#39;Ophiuchus."/>
+<TEXT ID="10431621" Text="Même les monstres les plus redoutables ont un point faible."/>
+<TEXT ID="10431626" Text="Elle avait véritablement un point faible !"/>
+<TEXT ID="10431623" Text="Elle a beau avoir trois têtes, en détruire une seule devrait suffire."/>
+<TEXT ID="10431624" Text="Oh, tu as peur !"/>
+<TEXT ID="10431625" Text="Tu sais où trouver l&#39;Hydre, n&#39;est-ce pas ?"/>
+<TEXT ID="10431611" Text="Hydre vaincue."/>
+<TEXT ID="10431500" Text="Une ? Deux ? Trois ?!"/>
+<TEXT ID="10431502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre l&#39;Hydre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Pour le prix d&#39;une {C=0xFFFF0000/}Hydre{C=0xFF4D0D08/}, nous ne vous fournissons pas une, pas deux, mais TROIS têtes ! Rendez-vous sur l&#39;Ophiuchus pour vaincre l&#39;{C=0xFFFF0000/}Hydre{C=0xFF4D0D08/}."/>
+<TEXT ID="10431521" Text="Une Hydre est apparue et terrorise les voyageurs à juste titre."/>
+<TEXT ID="10431526" Text="Elle a vraiment trois têtes."/>
+<TEXT ID="10431523" Text="Les rapports que l&#39;on reçoit sont fous : personne n&#39;est d&#39;accord sur le nombre de têtes du monstre !"/>
+<TEXT ID="10431524" Text="Oh, tu as peur !"/>
+<TEXT ID="10431525" Text="Tu sais où trouver l&#39;Hydre, n&#39;est-ce pas ?"/>
+<TEXT ID="10431511" Text="Hydre vaincue."/>
+<TEXT ID="10431400" Text="Misère de Persée."/>
+<TEXT ID="10431402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre l&#39;Hydre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La femme de Persée est une cuisinière désastreuse. Persée doit donc toujours se procurer un antidote avant de pouvoir partager un repas avec sa femme. Vainquez le Roi Scorpion pour fournir l&#39;antidote à Persée."/>
+<TEXT ID="10431421" Text="Pour une épouse charmante."/>
+<TEXT ID="10431426" Text="Cela devrait suffire."/>
+<TEXT ID="10431423" Text="La femme de Persée doit vraiment être une exécrable cuisinière... Il est parti seul pour obtenir un antidote à sa nourriture, sur Scorpion."/>
+<TEXT ID="10431424" Text="Aide Persée, s&#39;il te plait."/>
+<TEXT ID="10431425" Text="Il n&#39;y a pas de temps à perdre."/>
+<TEXT ID="10431411" Text="Roi Scorpion"/>
+<TEXT ID="10431300" Text="Poison de Scorpion."/>
+<TEXT ID="10431302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Roi Scorpion
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le poison du Roi Scorpion permet aussi de confectionner un puissant antidote. Persée en a besoin pour soigner sa femme, tombée malade après avoir goûté à sa propre cuisine ! Aidez Persée, vainquez le Roi Scorpion."/>
+<TEXT ID="10431321" Text="Le poison du Roi Scorpion peut être utilisé pour obtenir un puissant antidote."/>
+<TEXT ID="10431326" Text="Merci %name%, j&#39;ai pu préparer un antidote grâce à toi."/>
+<TEXT ID="10431323" Text="La femme de Persée est malade. Ironiquement, le seul moyen de la soigner est d&#39;obtenir du poison du Roi Scorpion. Aide Persée à en acquérir."/>
+<TEXT ID="10431324" Text="La femme de Persée est terriblement malaaade."/>
+<TEXT ID="10431325" Text="Il n&#39;y a pas de temps à perdre."/>
+<TEXT ID="10431311" Text="Roi Scorpion"/>
+<TEXT ID="10431200" Text="Le destructeur de Scorpion."/>
+<TEXT ID="10431202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Roi Scorpion
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le Roi Scorpion est revenu au donjon du même nom. Le nuage de poison qu&#39;il répand infecte tous les voyageurs. Vainquez le Roi Scorpion pour dissiper le nuage."/>
+<TEXT ID="10431221" Text="Beaucoup de voyageurs sont tombés malades en passant par Scorpion."/>
+<TEXT ID="10431226" Text="Le nuage de poison se dissipe doucement."/>
+<TEXT ID="10431223" Text="Le Roi Scorpion est réapparu et génère un nuage empoisonné, dangereux pour les voyageurs."/>
+<TEXT ID="10431224" Text="De nombreux voyageurs se font infecter à l&#39;heure où nous parlons !"/>
+<TEXT ID="10431225" Text="Il n&#39;y a pas de temps à perdre."/>
+<TEXT ID="10431211" Text="Roi Scorpion"/>
+<TEXT ID="10431100" Text="La beauté a un prix."/>
+<TEXT ID="10431102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Sauver Persée
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Hadès a de nouveau capturé Perséphone. Sa beauté légendaire est montée à la tête d&#39;Hadès, qui ne cesse de la harceler.  Vainquez Hadès pour sauver Perséphone."/>
+<TEXT ID="10431121" Text="La mauvaise nouvelle vient de nous parvenir : Perséphone a de nouveau été enlevée."/>
+<TEXT ID="10431126" Text="Pas de repos pour les beaux. Quoi, je devrais éviter les rimes ?"/>
+<TEXT ID="10431123" Text="Hadès harcèle à nouveau Perséphone. Assure-toi qu&#39;il la laisse définitivement tranquille."/>
+<TEXT ID="10431124" Text="Tu vas le regretter, des gens donneraient leurs deux mains pour pouvoir apercevoir Perséphone."/>
+<TEXT ID="10431125" Text="Je m&#39;inquiète pour Perséphone."/>
+<TEXT ID="10431111" Text="Sauve Perséphone"/>
+<TEXT ID="10431000" Text="Hadès, le coureur de jupons."/>
+<TEXT ID="10431002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Sauver Perséphone
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Hadès est réputé pour ses ardeurs, il ne cesse de harceler Perséphone. Aidez-la en vainquant Hadès."/>
+<TEXT ID="10431021" Text="Hadès, le coureur de jupons, est revenu."/>
+<TEXT ID="10431026" Text="Hadès ne nous causera plus de soucis, n&#39;est-ce pas ?"/>
+<TEXT ID="10431023" Text="Il semble qu&#39;Hadès ait kidnappé Perséphone, la pauvre... Rends-toi sur la Vierge et sauve ses jupons !"/>
+<TEXT ID="10431024" Text="Tu vas le regretter, des gens donneraient leurs deux mains pour pouvoir apercevoir Perséphone."/>
+<TEXT ID="10431025" Text="Je m&#39;inquiète pour Perséphone."/>
+<TEXT ID="10431011" Text="Sauve Perséphone"/>
+<TEXT ID="10430900" Text="Gros ennuis sur la Vierge."/>
+<TEXT ID="10430902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Sauver Perséphone
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+C&#39;est l&#39;horreur sur la Vierge ! Aux dernières nouvelles de Crête, quelqu&#39;un pourchassait Perséphone jusque dans les fourrés. Faites un saut dans les fourrés de la Vierge pour vous assurer que Perséphone va bien."/>
+<TEXT ID="10430921" Text="Nous avons perdu contact avec Perséphone."/>
+<TEXT ID="10430926" Text="Merci d&#39;avoir sauvé la belle !"/>
+<TEXT ID="10430923" Text="Cela fait longtemps que nous n&#39;avons pas eu de nouvelles de Perséphone, ce qui ne lui ressemble pas. Fais un saut sur la Vierge pour vérifier que rien ne lui est arrivé."/>
+<TEXT ID="10430924" Text="Tu vas le regretter, des gens donneraient leurs deux mains pour pouvoir apercevoir Perséphone."/>
+<TEXT ID="10430925" Text="Je m&#39;inquiète pour Perséphone."/>
+<TEXT ID="10430911" Text="Sauve Perséphone"/>
+<TEXT ID="10430800" Text="Crustacés au menu."/>
+<TEXT ID="10430802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Cancer
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Héraclès est parti à la chasse au crabe seul. Le chasseur s&#39;est retrouvé chassé ! Rendez-vous avec lui sur le {C=0xFFFF0000/}Cancer{C=0xFF4D0D08/} afin de chasser le monstre du même nom."/>
+<TEXT ID="10430821" Text="Héraclès est encore parti affronter le Cancer seul."/>
+<TEXT ID="10430826" Text="Ce soir, nos assiettes seront pleines !"/>
+<TEXT ID="10430823" Text="Héraclès s&#39;est à nouveau rendu sur le Cancer. Probablement une petite envie de crustacés. %name%, pourrais-tu le suivre ? Il est bien trop risqué, même pour Héraclès, de s&#39;y rendre seul."/>
+<TEXT ID="10430824" Text="Craindrais-tu les crabes ?"/>
+<TEXT ID="10430825" Text="Le Cancer revient."/>
+<TEXT ID="10430811" Text="Cancer vaincu."/>
+<TEXT ID="10430700" Text="Est-ce comestible ?"/>
+<TEXT ID="10430702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Cancer
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Héraclès rapporte toujours du crabe pour le dîner. Partez à la chasse au {C=0xFFFF0000/}Cancer{C=0xFF4D0D08/} avec lui."/>
+<TEXT ID="10430721" Text="Le Cancer, c&#39;est un gros crabe. On peut le manger ?"/>
+<TEXT ID="10430726" Text="Comment cuisiner un si gros machin ?"/>
+<TEXT ID="10430723" Text="Héraclès voyage souvent jusqu&#39;au Cancer pour rapporter du crabe à dîner. Aujourd&#39;hui, il n&#39;est pas revenu. Rends-toi sur le Cancer pour l&#39;aider."/>
+<TEXT ID="10430724" Text="Craindrais-tu les crabes ?"/>
+<TEXT ID="10430725" Text="Le Cancer revient."/>
+<TEXT ID="10430711" Text="Cancer vaincu."/>
+<TEXT ID="10430600" Text="Le Cancer s&#39;est révélé."/>
+<TEXT ID="10430602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Cancer
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le revoilà ! Partez avec Héraclès pour vaincre le {C=0xFFFF0000/}Cancer{C=0xFF4D0D08/}."/>
+<TEXT ID="10430621" Text="Le Cancer, un crabe monstrueux, est réapparu."/>
+<TEXT ID="10430626" Text="Hmm... Est-ce le même monstre qu&#39;avant ?"/>
+<TEXT ID="10430623" Text="D&#39;après les rumeurs, le Cancer serait revenu. J&#39;étais pourtant convaincu que tu l&#39;avais tué pour de bon, %name%. Pourrais-tu te rendre sur le Cancer pour vaincre le monstre à nouveau ?"/>
+<TEXT ID="10430624" Text="Craindrais-tu les crabes ?"/>
+<TEXT ID="10430625" Text="Le Cancer revient."/>
+<TEXT ID="10430611" Text="Cancer vaincu."/>
+<TEXT ID="10430500" Text="Ecoutez-moi."/>
+<TEXT ID="10430502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Minotaure
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+L&#39;étourderie d&#39;{C=0xFF00863C/}Europe{C=0xFF4D0D08/} pourrait-être un problème plus important encore que le {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}. Chercher une solution par le dialogue est encore plus dangereux pour le Taureau. Arrêtez la folie furieuse du {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}."/>
+<TEXT ID="10430521" Text="Europe est tellement étourdie..."/>
+<TEXT ID="10430526" Text="Europe devrait reprendre ses esprits à présent."/>
+<TEXT ID="10430523" Text="Il est impossible de raisonner Europe, elle n&#39;arrête pas d&#39;oublier qui je suis ! Il va falloir que tu donnes une leçon à Europe et son Minotaure, %name%."/>
+<TEXT ID="10430524" Text="Les constellations courent un grand danger !"/>
+<TEXT ID="10430525" Text="Tu dois te hâter, le Minotaure devient plus violent d&#39;heure en heure."/>
+<TEXT ID="10430511" Text="Cancer vaincu."/>
+<TEXT ID="10430400" Text="Du calme, l&#39;ami."/>
+<TEXT ID="10430402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Minotaure
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF00863C/}Europe{C=0xFF4D0D08/} n&#39;a rien préparé pour calmer le {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}. Rendez-vous sur le Taureau et arrêtez le {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}."/>
+<TEXT ID="10430421" Text="Je me demande ce qu&#39;Europe fabrique."/>
+<TEXT ID="10430426" Text="Combien de temps resterons-nous en paix ?"/>
+<TEXT ID="10430423" Text="Le Minotaure est en train de tout détruire, mais Europe ne fait rien pour le calmer. %name%, c&#39;est à toi de mettre un terme à la folie sanguinaire du Minotaure."/>
+<TEXT ID="10430424" Text="Les constellations courent un grand danger !"/>
+<TEXT ID="10430425" Text="Tu dois te hâter, le Minotaure devient plus violent d&#39;heure en heure."/>
+<TEXT ID="10430411" Text="Cancer vaincu."/>
+<TEXT ID="10430300" Text="La course au taureau sauvage."/>
+<TEXT ID="10430302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Vaincre le Minotaure
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Pour une raison qui nous échappe, le {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/} est fou furieux. Rencontrez {C=0xFF00863C/}Europe{C=0xFF4D0D08/} et demandez-lui de le calmer."/>
+<TEXT ID="10430321" Text="Le Minotaure est fou furieux."/>
+<TEXT ID="10430326" Text="Merci %name%."/>
+<TEXT ID="10430323" Text="Le Taureau est devenu instable par les destructions causées par le Minotaure. Rends-toi sur le Taureau pour mettre fin à tout cela."/>
+<TEXT ID="10430324" Text="Les constellations courent un grand danger !"/>
+<TEXT ID="10430325" Text="Tu dois te hâter, le Minotaure devient plus violent d&#39;heure en heure."/>
+<TEXT ID="10430311" Text="Cancer vaincu."/>
+<TEXT ID="10429500" Text="Dos Gardien des étoiles."/>
+<TEXT ID="10429502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Essence de Dragon Noir
+Fragment d&#39;étoile d&#39;Ophiuchus
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Combinez l&#39;Essence de Dragon Noir [Dos] avec un Fragment d&#39;étoile d&#39;Ophiuchus pour créer un Dos Gardien des étoiles."/>
+<TEXT ID="10429521" Text="Es-tu prêt ?"/>
+<TEXT ID="10429526" Text="Vois ! La puissance des étoiles palpite dans cette cape."/>
+<TEXT ID="10429523" Text="Donne-moi l&#39;Essence de Dragon Noir et un Fragment d&#39;étoile d&#39;Ophiuchus. Il me faudra une concentration absolue pour harmoniser le pouvoir de ces deux objets."/>
+<TEXT ID="10429524" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429525" Text="M&#39;as-tu apporté l&#39;Essence de Dragon Noir ?"/>
+<TEXT ID="10429511" Text="Essence de Dragon Noir [Dos]"/>
+<TEXT ID="10429512" Text="Fragment d&#39;étoile d&#39;Ophiuchus"/>
+<TEXT ID="10429400" Text="Essence de Dragon Noir."/>
+<TEXT ID="10429402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Ailes du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Apportez des Ailes du Dragon Noir pour en extraire leur essence."/>
+<TEXT ID="10429421" Text="Pour obtenir des Essences de Dragon Noir, il me faut de l&#39;équipement de Dragon Noir."/>
+<TEXT ID="10429426" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10429423" Text="Apporte-moi les ailes du Dragon Noir. J&#39;en extrairai leur essence pour toi."/>
+<TEXT ID="10429424" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429425" Text="Où sont les ailes ?"/>
+<TEXT ID="10429411" Text="Ailes du Dragon Noir"/>
+<TEXT ID="10430200" Text="Bottes Gardien des étoiles."/>
+<TEXT ID="10430202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Bottes du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez les Bottes du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Bottes]{C=0xFF4D0D08/}."/>
+<TEXT ID="10430221" Text="Les Bottes du Dragon Noir symbolisent sa vitesse."/>
+<TEXT ID="10430226" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10430223" Text="Apporte-moi les Bottes du Dragon Noir. J&#39;en extrairai leur magie ténébreuse pour toi."/>
+<TEXT ID="10430224" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10430225" Text="Montre-moi ta célérité."/>
+<TEXT ID="10430211" Text="[Héros] Bottes du Dragon Noir"/>
+<TEXT ID="10430100" Text="Gants Gardien des étoiles."/>
+<TEXT ID="10430102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Gants du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez les Gants du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Gants]{C=0xFF4D0D08/}."/>
+<TEXT ID="10430121" Text="Les Gants du Dragon Noir symbolisent sa précision."/>
+<TEXT ID="10430126" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10430123" Text="Apporte-moi les Gants du Dragon Noir. J&#39;en extrairai leur magie ténébreuse pour toi."/>
+<TEXT ID="10430124" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10430125" Text="Soyez précis !"/>
+<TEXT ID="10430111" Text="[Héros] Gants du Dragon Noir"/>
+<TEXT ID="10430000" Text="Epaulières Gardien des étoiles."/>
+<TEXT ID="10430002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Epaulières du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez les Epaulières du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Epaulières]{C=0xFF4D0D08/}."/>
+<TEXT ID="10430021" Text="Les Epaulières du Dragon Noir symbolisent le renoncement."/>
+<TEXT ID="10430026" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10430023" Text="Apporte-moi les Epaulières du Dragon Noir. J&#39;en extrairai leur magie ténébreuse pour toi."/>
+<TEXT ID="10430024" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10430025" Text="Il faut parfois savoir faire des sacrifices."/>
+<TEXT ID="10430011" Text="[Héros] Epaulières du Dragon Noir"/>
+<TEXT ID="10429900" Text="Jambières Gardien des étoiles."/>
+<TEXT ID="10429902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Jambières du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez les Jambières du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Jambières]{C=0xFF4D0D08/}."/>
+<TEXT ID="10429921" Text="Les Jambières du Dragon Noir symbolisent la résilience."/>
+<TEXT ID="10429926" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10429923" Text="Apporte-moi les Jambières du Dragon Noir. J&#39;en extrairai leur magie ténébreuse pour toi."/>
+<TEXT ID="10429924" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429925" Text="Sois résistant !"/>
+<TEXT ID="10429911" Text="[Héros] Jambières du Dragon Noir"/>
+<TEXT ID="10429800" Text="Plastron Gardien des étoiles."/>
+<TEXT ID="10429802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Plastron du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez le Plastron du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Plastron]{C=0xFF4D0D08/}."/>
+<TEXT ID="10429821" Text="Le Plastron du Dragon Noir symbolise son honneur."/>
+<TEXT ID="10429826" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10429823" Text="Apporte-moi le Plastron du Dragon Noir. J&#39;en extrairai sa magie ténébreuse pour toi."/>
+<TEXT ID="10429824" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429825" Text="Force et honneur !"/>
+<TEXT ID="10429811" Text="[Héros] Plastron du Dragon Noir"/>
+<TEXT ID="10429700" Text="Heaume Gardien des étoiles."/>
+<TEXT ID="10429702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+[Héros] Heaume du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez le Heaume du Dragon noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Heaume]{C=0xFF4D0D08/}."/>
+<TEXT ID="10429721" Text="Le Heaume du Dragon Noir symbolise sa sagesse."/>
+<TEXT ID="10429726" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10429723" Text="Laisse-moi un moment pour me préparer. Je dois être parfaitement concentrée, c&#39;est la première fois pour moi."/>
+<TEXT ID="10429724" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429725" Text="Le Port des Quatre Vents ne s&#39;est pas fait en un jour. Patience."/>
+<TEXT ID="10429711" Text="[Héros] Heaume du Dragon Noir"/>
+<TEXT ID="10429600" Text="Arme Gardien des étoiles."/>
+<TEXT ID="10429602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Arme du Dragon Noir
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Rapportez une des armes du Dragon Noir et Crête vous récompensera par une{C=0xFFFF0000/}Essence de Dragon Noir [Arme]{C=0xFF4D0D08/}."/>
+<TEXT ID="10429621" Text="Une arme du Dragon Noir symbolise son courage."/>
+<TEXT ID="10429626" Text="Fiou... la puissance magique du Dragon Noir est maintenant stockée en sécurité."/>
+<TEXT ID="10429623" Text="J&#39;ai appris que la plus importante partie de la magie du Dragon Noir était contenue dans ces armes. Il risque de me falloir un peu de temps..."/>
+<TEXT ID="10429624" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429625" Text="Fais ce qui est juste."/>
+<TEXT ID="10429611" Text="[Héros] Arme du Dragon Noir"/>
+<TEXT ID="10428912" Text="Donjon d&#39;Ophiuchus terminé"/>
+<TEXT ID="10429200" Text="La paix au Port des Quatre Vents."/>
+<TEXT ID="10429202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle aux villageois
+(en suivant un ordre précis)
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Steven Jr., Souverain
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le royaume est à nouveau prospère. Une violente crise financière l&#39;a pourtant frappé, mais le port est retourné à la normale et les rues bouillonnent d&#39;activité. Parle aux marchands pour découvrir ce qu&#39;il s&#39;est passé."/>
+<TEXT ID="10429221" Text="Comme c&#39;est étrange... Le Royaume allait aussi mal que ses marchands il y a peu. Maintenant, ils peuvent non seulement payer les taxes mais ont en plus décidé d&#39;investir dans la ville ! Le port n&#39;a jamais été aussi actif."/>
+<TEXT ID="10429226" Text="Nos difficultés venaient bien du climat. Tout est rentré dans l&#39;ordre à présent."/>
+<TEXT ID="10429223" Text="Je me demande pourquoi le vent de la prospérité souffle à nouveau au port, cependant... Des gens déboulent de tout Dragotaka pour se fournir chez nos marchands, la qualité de leurs biens a gagné un coup en réputation. Renseigne-toi auprès des marchands pour découvrir pourquoi."/>
+<TEXT ID="10429224" Text="Tout ce que je te demande, c&#39;est de discuter un peu avec les gens en ville. Est-ce insurmontable ?"/>
+<TEXT ID="10429225" Text="C&#39;est tout ? Ils n&#39;ont rien évoqué d&#39;autre ?"/>
+<TEXT ID="10429251" Text="Je ne sais pas exactement pourquoi, mais de larges quantités de matières premières arrivent à très bas prix. La nourriture que nous produisons est donc meilleure et moins chère grâce à cela."/>
+<TEXT ID="10429252" Text="J&#39;envisage d&#39;ouvrir de nouvelles échoppes : le métal que je reçois est de si bonne qualité qu&#39;on s&#39;arrache mes produits à prix d&#39;or ! J&#39;ai commencé à rénover certaines façades avec l&#39;argent accumulé."/>
+<TEXT ID="10429253" Text="Les horoscopes de notre Maître Magicien, Gwen, sont très précis. C&#39;est bien pratique pour les récoltes, entre autres."/>
+<TEXT ID="10429254" Text="Ce n&#39;est plus le chaos dans les astres, je peux à nouveau travailler correctement."/>
+<TEXT ID="10429255" Text="Les constellations ne sont plus sens dessus dessous. Les corbeaux ne volent plus à l&#39;envers non plus !"/>
+<TEXT ID="10429211" Text="Parler au Chef cuisinier, Brutus"/>
+<TEXT ID="10429212" Text="Parler au Forgeron, Davy"/>
+<TEXT ID="10429213" Text="Parler à l&#39;Expert en production, Max"/>
+<TEXT ID="10429214" Text="Parler au Maître Magicien, Gwen"/>
+<TEXT ID="10429215" Text="Parle au sage, Jérémy"/>
+<TEXT ID="10429000" Text="La clé unifiée."/>
+<TEXT ID="10429002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Anneau de constellation
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Pour accéder à l&#39;{C=0xFFFF0000/}Ophiuchus{C=0xFF4D0D08/}, un {C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/} doit être créé en assemblant 5 clés des étoiles. Parlez à Crête pour créer l&#39;{C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/}."/>
+<TEXT ID="10429021" Text="Grâce à tes efforts, les 5 clés ont été récupérés. Cependant, elles ne suffisent pas pour pénétrer sur l&#39;Ophiuchus."/>
+<TEXT ID="10429026" Text="Tu as assemblé l&#39;Anneau de constellation. Tu peux à présent entrer sur l&#39;Ophiuchus."/>
+<TEXT ID="10429023" Text="En combinant 5 clés des étoiles, vous pouvez obtenir un Anneau de constellation pour accéder à l&#39;Ophiuchus. Forgez ces 5 clés en un anneau et apporte-le moi."/>
+<TEXT ID="10429024" Text="Tu ne peux pas accéder à l&#39;Ophiuchus sans avoir assembler les 5 clés en un anneau."/>
+<TEXT ID="10429025" Text="Où est l&#39;Anneau de Constellation ?"/>
+<TEXT ID="10429011" Text="Anneau de Constellation"/>
+<TEXT ID="10429300" Text="Gardien des étoiles."/>
+<TEXT ID="10429302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parler à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Pour récompenser les héros qui ont sauvé {C=0xFF00863C/}Péas{C=0xFF4D0D08/} et restauré la paix dans les constellations, Crête a mis au point une méthode pour concentrer la puissance des étoiles dans un nouvel équipement."/>
+<TEXT ID="10429321" Text="Tu es un véritable héros, %name% ! Grâce à toi, ni Péas ni les constellations ne courent plus aucun danger. Accepte ce gage de ma gratitude."/>
+<TEXT ID="10429326" Text="Si tu m&#39;apportes la preuve que tu as vaincu le Dragon Noir, je devrais pouvoir puiser dans sa magie et la purifier."/>
+<TEXT ID="10429323" Text="Pour pouvoir manufacturer l&#39;équipement du Gardien des étoiles, nous avons besoin d&#39;une magie extrêmement puissante. Elle doit être capable de contenir la puissance des constellations ! La magie du Dragon Noir devrait pouvoir contenir cette puissance."/>
+<TEXT ID="10429324" Text="Reviens quand tu voudras, tu seras récompensé."/>
+<TEXT ID="10429325" Text="0"/>
+<TEXT ID="10429311" Text="Discussion avec Crête"/>
+<TEXT ID="10429100" Text="En quête de Péas"/>
+<TEXT ID="10429102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Guérison de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Les 5 clés pour l&#39;{C=0xFFFF0000/}Ophiuchus{C=0xFF4D0D08/} ont été collectées. Chaque samedi et dimanche, rendez-vous sur l&#39;{C=0xFFFF0000/}Ophiuchus{C=0xFF4D0D08/} pour retrouver {C=0xFF00863C/}Péas{C=0xFF4D0D08/}, l&#39;amant de Crête et maître des constellations."/>
+<TEXT ID="10429121" Text="Grâce à tes efforts, les 5 clés ont été récupérées. Il est temps d&#39;approcher l&#39;Ophiuchus."/>
+<TEXT ID="10429126" Text="Péas est guéri, les constellations se réalignent... Je te suis infiniment reconnaissante, %name%."/>
+<TEXT ID="10429123" Text="Utilise l&#39;Anneau de constellation et accède à l&#39;Ophiuchus, %name%. Péas s&#39;y trouve et il a besoin de ton aide."/>
+<TEXT ID="10429124" Text="N&#39;y-a-t-il personne pour arrêter la progression du chaos ?"/>
+<TEXT ID="10429125" Text="Tu es le plus a même de sauver Péas et restaurer la paix dans la galaxie !"/>
+<TEXT ID="10429111" Text="Retrouve Péas"/>
+<TEXT ID="10429151" Text="Je ne sais pas exactement pourquoi, mais de larges quantités de matières premières arrivent à très bas prix. La nourriture que nous produisons est donc meilleure et moins chère grâce à cela."/>
+<TEXT ID="10429152" Text="J&#39;envisage d&#39;ouvrir de nouvelles échoppes : le métal que je reçois est de si bonne qualité qu&#39;on s&#39;arrache mes produits à prix d&#39;or ! J&#39;ai commencé à rénover certaines façades avec l&#39;argent accumulé."/>
+<TEXT ID="10429153" Text="Les horoscopes de notre Maître Magicien, Gwen, sont très précis. C&#39;est bien pratique pour les récoltes, entre autres."/>
+<TEXT ID="10429154" Text="Ce n&#39;est plus le chaos dans les astres, je peux à nouveau travailler correctement."/>
+<TEXT ID="10429155" Text="Les constellations ne sont plus sens dessus dessous. Les corbeaux ne volent plus à l&#39;envers non plus !"/>
+<TEXT ID="10429112" Text="Parler au Forgeron, Davy"/>
+<TEXT ID="10429113" Text="Parler à l&#39;Expert en production, Max"/>
+<TEXT ID="10429114" Text="Parler au Maître Magicien, Gwen"/>
+<TEXT ID="10429115" Text="Parle au sage, Jérémy"/>
+<TEXT ID="524120" Text="Nos ressources s&#39;amenuisent dangereusement... Il parait que la récolte sera mauvaise, ça ne s&#39;annonce pas bien..."/>
+<TEXT ID="524121" Text="Depuis que Péas a disparu, le chaos s&#39;empare de la galaxie. Aide-nous, je t&#39;en prie."/>
+<TEXT ID="524122" Text="S&#39;il te plaît, aide-nous."/>
+<TEXT ID="524123" Text="Je prie pour Péas également."/>
+<TEXT ID="524124" Text="Pourquoi m&#39;abandonnes-tu ? A cause de ma maladie incurable ? Kof kof."/>
+<TEXT ID="524125" Text="Nos finances vont mal, tout le monde a du mal à joindre les deux bouts, il ne faut pas espérer d&#39;entrée d&#39;argent faramineuse. Je vais prévenir le souverain."/>
+<TEXT ID="524126" Text="Pourquoi les denrées alimentaires sont-elles si chères ? On dit que ça a un rapport avec le changement climatique..."/>
+<TEXT ID="524127" Text="Les cultures de nos champs meurent et la qualité du sol se dégrade."/>
+<TEXT ID="524128" Text="Des changements dans la constellation s&#39;opèrent. Ce qui ne présage rien de bon..."/>
+<TEXT ID="524129" Text="Un bouleversement a lieu dans la constellation... Ce n&#39;est pas de bon présage, ça c&#39;est sûr..."/>
+<TEXT ID="524130" Text="Le temps s&#39;affole et les cultures n&#39;apprécient pas..."/>
+<TEXT ID="524131" Text="Hey ! Viens échanger tes objets contre des coffrets pour pouvoir les vendre au marché. Ces coffrets sont obligatoires pour tous les objets pouvant être cumulés par paquets."/> 
+<TEXT ID="99801000" Text="ID_99801000"/>
+<TEXT ID="99801001" Text="ID_99801001"/>
+<TEXT ID="99801011" Text="Débarrasse-toi des monstres"/>
+<TEXT ID="99801012" Text="ID_99801012"/>
+<TEXT ID="99801013" Text="ID_99801013"/>
+<TEXT ID="99801014" Text="ID_99801014"/>
+<TEXT ID="99801015" Text="ID_99801015"/>
+<TEXT ID="99801016" Text="ID_99801016"/>
+<TEXT ID="99801051" Text="Crête"/>
+<TEXT ID="99801052" Text="Péas"/>
+<TEXT ID="99801053" Text="Pollux"/>
+<TEXT ID="99801054" Text="Typhon"/>
+<TEXT ID="99801055" Text="Europe"/>
+<TEXT ID="99801056" Text="Minotaure"/>
+<TEXT ID="99801057" Text="Pollux"/>
+<TEXT ID="99801058" Text="Castor"/>
+<TEXT ID="99801059" Text="Héraclès"/>
+<TEXT ID="99801060" Text="Cancer"/>
+<TEXT ID="99801061" Text="Chiron"/>
+<TEXT ID="99801062" Text="Perséphone"/>
+<TEXT ID="99801063" Text="Hadès"/>
+<TEXT ID="99801064" Text="Persée"/>
+<TEXT ID="99801065" Text="Pégase"/>
+<TEXT ID="99801066" Text="Roi Scorpion"/>
+<TEXT ID="99801067" Text="Chiron"/>
+<TEXT ID="99801068" Text="Hydre"/>
+<TEXT ID="99801069" Text="Serpent"/>
+<TEXT ID="99801070" Text="ID_99801070"/>
+<TEXT ID="99801100" Text="Salle du boss du Bélier"/>
+<TEXT ID="99801101" Text="ID_99801101"/>
+<TEXT ID="99801102" Text="Typhon"/>
+<TEXT ID="99801103" Text="Protège Pollux"/>
+<TEXT ID="99801104" Text="ID_99801104"/>
+<TEXT ID="99801110" Text="Bélier"/>
+<TEXT ID="99801111" Text="[Histoire du Bélier]
+Phrixos s&#39;est rendu sur le Bélier afin de s&#39;emparer de la Toison d&#39;or. En effet, la naïade Ondine retient sa soeur Hellé en otage afin d&#39;obtenir la fameuse toison.
+Une fois sur le Bélier, Phrixos doit faire face à Typhon, un pirate qui lui aussi en a après la Toison d&#39;or.
+
+Faites en sorte de sauver Phrixos afin d&#39;obtenir un peu de la Toison d&#39;or, clé d&#39;entrée pour le donjon du Taureau.
+
+[Mythe du Bélier]
+Il était une fois un prince et une princesse du nom de Phrixos et Helle. Leur mère fut chassée du palais et les enfants restèrent sous la garde de leur belle-mère. Une année de mauvaise récolte, la belle-mère des enfants tenta de sacrifier Phrixos pour apaiser les dieux.
+Sa véritable mère, apprenant la nouvelle, pria Zeus de le sauver. Le jour du sacrifice arriva et Hermès, fils de Zeus, envoya sur terre un bélier d&#39;or.
+Phrixos et Hellé purent alors s&#39;échapper sur son dos mais Hellé, atteinte de vertige, finit par lâcher prise et tomba dans les eaux sombres en dessous (appelées détroit d&#39;Hellé depuis).
+
+Arrivé en Colchide, Phrixos sacrifia le bélier en l&#39;honneur de Zeus et offrit sa toison d&#39;or au roi de Colchide.
+
+Zeus fît ensuite du bélier un signe du zodiaque afin de le remercier d&#39;avoir honoré sa tâche."/>
+<TEXT ID="99801112" Text="ID_99801112"/>
+<TEXT ID="99801113" Text="ID_99803054"/>
+<TEXT ID="99801114" Text="ID_99801114"/>
+<TEXT ID="99801121" Text="Ouch ! Aide-moi.
+Le pirate Typhon tente de me voler le bélier d&#39;or !"/>
+<TEXT ID="99801122" Text="Sale petit voleur !
+Rends-moi vite mon bélier d&#39;or !!
+Ou sinon tu iras rejoindre tes ancêtres !"/>
+<TEXT ID="99801123" Text="Mais sans le bélier d&#39;or je ne pourrais retrouver ma soeur !%%
+Elle est tombée au fond de la mer et Ondine refuse de la libérer si elle n&#39;obtient pas la Toison d&#39;or.%%"/>
+<TEXT ID="99801124" Text="Le bélier d&#39;or n&#39;appartient pas à Typhon, j&#39;ai trouvé le bélier paissant.
+Je ne l&#39;ai pas volé.%%
+Aide-moi, je t&#39;en prie. Mon nom est Phrixos et je t&#39;en serais reconnaissant."/>
+<TEXT ID="99801125" Text="ID_99801125"/>
+<TEXT ID="99801131" Text="ID_99801131"/>
+<TEXT ID="99801132" Text="ID_99801132"/>
+<TEXT ID="99801133" Text="ID_99801133"/>
+<TEXT ID="99801134" Text="ID_99801134"/>
+<TEXT ID="99801135" Text="ID_99801135"/>
+<TEXT ID="99801141" Text="Merci !
+Je suis maintenant en sécurité avec le bélier.%%
+Je vais pouvoir voir ma soeur.
+Je n&#39;ai pas de temps à perdre."/>
+<TEXT ID="99801142" Text="Nous avons été envoyés ici afin de trouver Péas.
+Depuis qu&#39;il a disparu, notre monde est en danger.
+Il nous faut également mettre la main sur la Toison d&#39;or."/>
+<TEXT ID="99801143" Text="Comment ??
+Mais je dois apporter la Toison d&#39;or à Ondine... que faire ?"/>
+<TEXT ID="99801144" Text="Regarde bien.
+Retirons ce morceau de la toison, Ondine ne le remarquera pas.
+Voilà, la toison est partagée entre nous."/>
+<TEXT ID="99801145" Text="Je t&#39;en supplie, trouve Péas et sauve la galaxie du chaos. Depuis sa disparition, les monstres ont pris le dessus et nous ne pourrons pas les contenir longtemps."/>
+<TEXT ID="99801151" Text="Hey ! Mais c&#39;est toi, oui, la personne qui m&#39;a aidé récemment !"/>
+<TEXT ID="99801152" Text="Tu m&#39;as de nouveau aidé.
+Grâce à toi, nous vivons heureux désormais."/>
+<TEXT ID="99801153" Text="Nous avons perdu nos parents alors je dois m&#39;occuper de ma famille."/>
+<TEXT ID="99801154" Text="La Toison d&#39;or vaut une fortune !
+C&#39;est pourquoi je continue à revenir ici malgré le danger."/>
+<TEXT ID="99801155" Text="ID_99801155"/>
+<TEXT ID="99801200" Text="Salle du boss du Taureau"/>
+<TEXT ID="99801201" Text="ID_99801201"/>
+<TEXT ID="99801202" Text="Minotaure"/>
+<TEXT ID="99801203" Text="ID_99801203"/>
+<TEXT ID="99801204" Text="ID_99801204"/>
+<TEXT ID="99801210" Text="Taureau"/>
+<TEXT ID="99801211" Text="[Histoire du Taureau]
+Crête nous apprend que la clé du clair de lune peut être obtenue chez Europe au donjon du Taureau. Mais il ne sera pas simple de convaincre Hadès, le dieu des enfers.
+Europe d&#39;ailleurs a fui la première fois qu&#39;elle a rencontré la Communauté du Dragon, pensant avoir à faire aux sbires d&#39;Hadès. Une fois éclipsée, le Minotaure, chargé de la protection d&#39;Europe, se mit à attaquer la Communauté du Dragon.
+
+Il faudra donc espérer qu&#39;Europe arrive à convaincre le Minotaure de nous donner la clé du clair de lune et éviter son attaque.
+
+[Mythe du Taureau]
+Un jour, alors que Zeus se promenait sur une plage de Sidon en Phénicie, il aperçu la princesse Europe. Il tomba immédiatement sous le charme de sa beauté. Afin de l&#39;approcher sans l&#39;apeurer, il se métamorphosa en taureau blanc et se mêla aux autres taureaux alentours. Imprudente, attirée par l&#39;odeur d&#39;un crocus qui se trouvait dans sa bouche, Europe s&#39;approcha de lui et le toucha.
+
+Chevauchant l&#39;animal, elle fut emmenée sur l&#39;île de Crète. Une fois sur place, Zeus se révéla à Europe et la convainquit de devenir sa femme. Europe est aussi à l&#39;origine du nom qui est donné à notre continent éponyme."/>
+<TEXT ID="99801212" Text="ID_99801212"/>
+<TEXT ID="99801213" Text="ID_99801213"/>
+<TEXT ID="99801214" Text="ID_99801214"/>
+<TEXT ID="99801221" Text="Hiiii ! Quoi encore ?"/>
+<TEXT ID="99801222" Text="Encore des hommes de main de Hadès...
+Mon cher Minotaure, piétine-les un bon coup !"/>
+<TEXT ID="99801223" Text="Nous venons de la part de Crête ! Nous n&#39;avons rien à voir avec Hadès !"/>
+<TEXT ID="99801224" Text="Tseuh ! Vous pensez vraiment que je vais tomber dans un piège aussi grossier ? Ridicule... Minotaure, débarrasse-moi de ces petites gens !"/>
+<TEXT ID="99801225" Text="C&#39;est la vérité ! Whouuupla ! C&#39;est le moment de s&#39;abriter."/>
+<TEXT ID="99801231" Text="Hiiii ! Quoi encore ?"/>
+<TEXT ID="99801232" Text="Encore des hommes de main de Hadès...
+Mon cher Minotaure, piétine-les un bon coup !"/>
+<TEXT ID="99801233" Text="Europe, nous nous sommes déjà rencontrés. Tu te souviens ?"/>
+<TEXT ID="99801234" Text="Tseuh ! Vous pensez vraiment que je vais tomber dans un piège aussi grossier ? Ridicule... Minotaure, débarrasse-moi de ces petites gens !"/>
+<TEXT ID="99801235" Text="Sa mémoire est aussi courte que sa patience..."/>
+<TEXT ID="99801241" Text="Ah... Minotaure ? Tout va bien ?"/>
+<TEXT ID="99801242" Text="Nous avons été dépêchés par Crête. Nous avons besoin de Clés du clair de lune pour retrouver et soigner Péas."/>
+<TEXT ID="99801243" Text="Envoyés par Crête ?
+Pourquoi ne l&#39;avez-vous pas dit plus tôt !
+Ces jeunes, aujourd&#39;hui..."/>
+<TEXT ID="99801244" Text="... C&#39;est un peu lourd le coup du Minotaure pour saluer les gens."/>
+<TEXT ID="99801245" Text="Voilà la clé. Va aider Crête à présent. Si vous rencontrez Hadès en chemin, passez-le à tabac de ma part !"/>
+<TEXT ID="99801251" Text="Ah... Minotaure ? Tout va bien ?"/>
+<TEXT ID="99801252" Text="Europe, c&#39;est à nous que tu as donné les Clés du clair de lune pour..."/>
+<TEXT ID="99801253" Text="Quoi ? Oh ? Hmm... Ah oui, ça m&#39;avait échappé.
+ Vous auriez pu me prévenir."/>
+<TEXT ID="99801254" Text="... Certes, bref. Parlons d&#39;autre chose."/>
+<TEXT ID="99801255" Text="ID_99801255"/>
+<TEXT ID="99801300" Text="Salle du boss du Gémeaux"/>
+<TEXT ID="99801301" Text="ID_99801301"/>
+<TEXT ID="99801302" Text="Aide Pollux"/>
+<TEXT ID="99801303" Text="Aide Castor"/>
+<TEXT ID="99801304" Text="ID_99801304"/>
+<TEXT ID="99801310" Text="Gémeaux"/>
+<TEXT ID="99801311" Text="[Histoire du Gémeaux]
+La communauté du Dragon doit visiter le Cancer pour obtenir la clé de l&#39;étoile ardente, mais le faire au milieu des étoiles sombres sera une tâche ardue. Seuls Castor et Pollux, qui se trouvent dans le Gémeaux, semblent en mesure d&#39;aider la Communauté.
+Cependant, la venue du chaos a déstabilisé Castor, elle est devenu folle. Pollux, ayant un lien télépathique très fort avec sa soeur, se met lui aussi à perdre la tête.
+
+Il est donc essentiel pour la Communauté du Dragon de venir en aide au deux soeurs afin qu&#39;à leur tour elles puissent l&#39;aider à pénétrer le Cancer.
+
+[Mythe du Gémeaux]
+Léda, reine de Sparte, est mère des jumeaux Castor et Pollux. Bien qu&#39;étant nés d&#39;un oeuf différent, ils se ressemblent comme deux gouttes d&#39;eau et sont inséparables. Pollux est le fils de Zeus alors que son jeune frère est simple mortel.
+Ils vivent de nombreuses aventures, au cours desquelles ils deviennent maîtres à l&#39;épée. Il est dit que même Hadès s&#39;est instruit à l&#39;épée auprès de Castor.
+
+Le destin s&#39;assombrit pour nos deux frères le jour où ils décident d&#39;enlever les filles d&#39;un souverain dont ils sont tombés amoureux pour les épouser de force. Une guerre s&#39;ensuit.
+Castor finit par succomber et, fou de tristesse, Pollux tente de mettre fin à ses jours, sans succès étant un demi-dieu. Zeus répond alors aux prières de Pollux en faisant de son frère et lui des étoiles, afin qu&#39;ils puissent se retrouver pour l&#39;éternité."/>
+<TEXT ID="99801312" Text="ID_99801312"/>
+<TEXT ID="99801313" Text="ID_99801313"/>
+<TEXT ID="99801314" Text="ID_99801314"/>
+<TEXT ID="99801321" Text="ID_99801321"/>
+<TEXT ID="99801322" Text="ID_99801322"/>
+<TEXT ID="99801323" Text="ID_99801323"/>
+<TEXT ID="99801324" Text="ID_99801324"/>
+<TEXT ID="99801325" Text="ID_99801325"/>
+<TEXT ID="99801331" Text="ID_99801331"/>
+<TEXT ID="99801332" Text="ID_99801332"/>
+<TEXT ID="99801333" Text="ID_99801333"/>
+<TEXT ID="99801334" Text="ID_99801334"/>
+<TEXT ID="99801335" Text="ID_99801335"/>
+<TEXT ID="99801341" Text="Ah... mon soeur...
+Que nous arrive-t-il ?
+Pourquoi ?"/>
+<TEXT ID="99801342" Text="Grande-soeur, je ne sais pas ce qu&#39;il m&#39;arrive, je perds la tête.%%
+Depuis la disparition de Péas quelque chose est en moi.
+Fais que cela cesse..."/>
+<TEXT ID="99801343" Text="Oh... je... je suis désolé.%%
+Nous n&#39;essayions pas de vous faire du mal. Nous sommes la Communauté du Dragon, nous avons fait tout ce chemin depuis Dragotaka.%%
+Crête nous a demandé d&#39;aller à la recherche de Péas, le maître des signes du zodiaque afin d&#39;obtenir le 4ème signe du zodiaque, le &#39;Cancer&#39;.%%Nous n&#39;avons attaqué personne, mais nous avons dû nous défendre quand on nous a attaqué."/>
+<TEXT ID="99801344" Text="Alors comme ça vous aussi êtes à la recherche de Péas..."/>
+<TEXT ID="99801345" Text="Je pense pouvoir vous aider à atteindre le Cancer.%%
+Le Cancer se trouve au milieu des étoiles sombres, passer par là relève de l&#39;impossible. Le mieux serait que je vous accompagne mais je dois rester auprès de ma soeur.%%
+Prenez ma boussole, elle vous guidera.%%
+Je vous en supplie, retrouvez Péas afin que ma soeur se sente mieux.
+Merci de votre aide les amis."/>
+<TEXT ID="99801351" Text="Oh... petite soeur !%%
+Quand s&#39;arrêtera cette folie ?"/>
+<TEXT ID="99801352" Text="ID_99801352"/>
+<TEXT ID="99801353" Text="ID_99801353"/>
+<TEXT ID="99801354" Text="ID_99801354"/>
+<TEXT ID="99801355" Text="ID_99801355"/>
+<TEXT ID="99801400" Text="Salle du boss du Cancer"/>
+<TEXT ID="99801401" Text="ID_99801401"/>
+<TEXT ID="99801402" Text="Cancer"/>
+<TEXT ID="99801403" Text="Aide Héraclès"/>
+<TEXT ID="99801404" Text="ID_99801404"/>
+<TEXT ID="99801410" Text="Cancer"/>
+<TEXT ID="99801411" Text="[Histoire du Cancer]
+A l&#39;aide de la boussole, la Communauté du Dragon parvient à atteindre le donjon du Cancer. Elle rencontre Héraclès sur place, qui est à la recherche de crabe pour le dîner. La Communauté l&#39;informe alors que quelqu&#39;un est responsable du chaos causé dans les signes du zodiaque. C&#39;est là que le monstre personnifiant le Cancer fait irruption et les attaque.
+
+Ce monstre possède la clé de l&#39;étoile ardente nécessaire pour atteindre le donjon de l&#39;Ophiuchus, leur prochaine destination. Il faut donc le combattre.
+
+[Mythe du Cancer]
+Héraclès est le fils de Zeus et d&#39;Alcmène, une humaine. Haineuse, Héra, la femme de Zeus, fait ordonner à Héraclès par le biais du roi Eurysthée de réaliser 12 travaux. L&#39;un d&#39;eux est de tuer l&#39;Hydre de Lerne. Pendant le combat, Héra fait accompagner l&#39;hydre d&#39;un crabe géant dans le but de distraire Héraclès lors du combat. Agacé par les pincements du crabe, Héraclès l&#39;écrase du talon. Héra en fera un signe du Zodiaque : le Cancer."/>
+<TEXT ID="99801412" Text="ID_99801412"/>
+<TEXT ID="99801413" Text="ID_99801413"/>
+<TEXT ID="99801414" Text="ID_99801414"/>
+<TEXT ID="99801421" Text="Qui êtes-vous ? Je ne vous connais ni de Crête, ni de Péas !"/>
+<TEXT ID="99801422" Text="Nous sommes là pour récupérer la Clé de l&#39;étoile ardente.
+On nous a dit que nous pourrions l&#39;obtenir en vainquant le Cancer."/>
+<TEXT ID="99801423" Text="Excellente nouvelle.
+J&#39;allais partir à la chasse pour le dîner tout seul. Vous pouvez rester en arrière et profiter du show !"/>
+<TEXT ID="99801424" Text="Hey, face de crabe ! Prêt à finir dans mon assiette ?"/>
+<TEXT ID="99801425" Text="(Diantre... Il est costaud, ce beau diable. Je ne peux pas perdre la face devant tout le monde !) Allons bon, ce tout petit crabe est bien résistant ! Ne vous en faites pas, il n&#39;a aucune chance (surtout s&#39;ils pouvaient me donner un coup de main...)."/>
+<TEXT ID="99801426" Text="On ne peut pas te laisser t&#39;amuser tout seul ! À l&#39;assaut !"/>
+<TEXT ID="99801431" Text="Hey, face de crabe ! Prêt à finir dans mon assiette ?"/>
+<TEXT ID="99801432" Text="Est-ce vraiment le destin d&#39;un héros ? Combattre des crabes géants nuit et jour ?"/>
+<TEXT ID="99801433" Text="Héraclès, on va te donner un coup de pouce !"/>
+<TEXT ID="99801434" Text="(Sauvé par le gong)"/>
+<TEXT ID="99801435" Text="ID_99801435"/>
+<TEXT ID="99801441" Text="Haha, vous avez la tête de gens qui voudraient finir dans mes mémoires. Ce minuscule crabe n&#39;allait pas faire long feu de toute façon.
+V&#39;z&#39;êtes pas du coin. Vous venez d&#39;un autre monde ?!
+(Haha génial pour ma biographie : Héraclès à la rescousse des héros venus d&#39;ailleurs !)"/>
+<TEXT ID="99801442" Text="Nous sommes une expédition de Dragotaka, à la recherche de Péas sur l&#39;Ophiuchus.
+Vous êtes Héraclès, le héros de la mythologie ! (Il semblait plus sérieux dans les histoires...)"/>
+<TEXT ID="99801443" Text="Hahaha, tout le monde a donc entendu parlé de moi ! (Il faut que je file un pourboire à mon barde.)"/>
+<TEXT ID="99801444" Text="Péas ? De nombreuses rumeurs courent à son sujet, ces temps-ci. Il a donc réellement un problème, hm..."/>
+<TEXT ID="99801445" Text="Crête nous envoie. Nous cherchons à soigner Péas de sa condition, quelle qu&#39;elle soit."/>
+<TEXT ID="99801446" Text="H&#39;m&#39;oui, j&#39;vois. Si vous avez besoin d&#39;un vrai héros, venez me voir ! Je dois une faveur à Péas de toute façon."/>
+<TEXT ID="99801451" Text="Ha ha ha ! On en a fait qu&#39;une bouchée !
+(Mon dos ! J&#39;suis trop vieux pour ces bêtises.)"/>
+<TEXT ID="99801452" Text="Grâce à Héraclès, nous avons obtenu la Clé de l&#39;étoile ardente."/>
+<TEXT ID="99801453" Text="ID_99801453"/>
+<TEXT ID="99801454" Text="ID_99801454"/>
+<TEXT ID="99801455" Text="ID_99801455"/>
+<TEXT ID="99801500" Text="Salle du boss du Lion"/>
+<TEXT ID="99801501" Text="ID_99801501"/>
+<TEXT ID="99801502" Text="Lion Kaïon"/>
+<TEXT ID="99801503" Text="Aide Héraclès"/>
+<TEXT ID="99801504" Text="Corne de licorne"/>
+<TEXT ID="99801510" Text="Lion"/>
+<TEXT ID="99801511" Text="[Histoire du Lion]
+La clé de l&#39;étoile bleue est nécessaire pour entrer au donjon d&#39;Ophiuchus. Il faut aller à la rencontre de Perséphone sur le donjon de la Vierge pour cela. Cependant, il sera difficile de l&#39;approcher, sa mère Déméter ayant placée un puissant sceau magique afin de la protéger. Une corne de licorne, symbole de pureté, suffirait à briser ce sortilège. Bien sûr, il faudra d&#39;abord s&#39;emparer de ce précieux objet jalousement gardé par le lion Kaïon.
+
+Tuez donc le lion pour obtenir une corne de licorne. Héraclès vous aidera à le combattre, il se trouve sur place pour récupérer la peau du lion, réputée &#39;impénétrable&#39;.
+
+[Mythe du Lion]
+Héraclès est le fils de Zeus et d&#39;Alcmène, une humaine. Haineuse, Héra, la femme de Zeus, fait ordonner à Héraclès par le biais du roi Eurysthée de réaliser 12 travaux. L&#39;un d&#39;eux est d&#39;obtenir la peau du lion de Némée, réputée impénétrable. Héraclès finit par terrasser le lion et utilise l&#39;une de ses griffes pour entamer la peau et la récupérer.
+Héra finit par faire du lion un signe du Zodiaque : le Lion."/>
+<TEXT ID="99801512" Text="ID_99801512"/>
+<TEXT ID="99801513" Text="ID_99801513"/>
+<TEXT ID="99801514" Text="ID_99801514"/>
+<TEXT ID="99801521" Text="Qui es-tu ?%%
+J&#39;ai besoin d&#39;aide, est-ce que je peux compter sur toi ?"/>
+<TEXT ID="99801522" Text="Je suis Héraclès, le héros des signes du zodiaque. Je suis le plus fort, et tout... mais le lion m&#39;embête vachement quand même !%%
+Si tu m&#39;aides à le battre, je te mentionnerai dans mes mémoires, ok ?"/>
+<TEXT ID="99801523" Text="(J&#39;ai intérêt à maquiller l&#39;Histoire, qu&#39;on n&#39;aille pas dire que j&#39;ai reçu de l&#39;aide de n&#39;importe qui...)"/>
+<TEXT ID="99801524" Text="ID_99801524"/>
+<TEXT ID="99801525" Text="ID_99801525"/>
+<TEXT ID="99801531" Text="Tant de gens veulent obtenir cette fourrure.
+En as-tu après la corne de licorne ?"/>
+<TEXT ID="99801532" Text="D&#39;accord, allons-y !"/>
+<TEXT ID="99801533" Text="ID_99801533"/>
+<TEXT ID="99801534" Text="ID_99801534"/>
+<TEXT ID="99801535" Text="ID_99801535"/>
+<TEXT ID="99801541" Text="Incroyable.
+Euh, je veux dire &#39;il n&#39;est pas trop tôt !&#39;, nous avons battu le lion !
+Tu n&#39;es pas d&#39;ici. Vous venez d&#39;un autre monde c&#39;est ça ?"/>
+<TEXT ID="99801542" Text="(Ca fera super dans mes mémoires : le grand Héraclès ne sauve pas seulement ses semblables mais l&#39;ensemble DES univers !)"/>
+<TEXT ID="99801543" Text="Nous sommes la Communauté du Dragon, venus tout droit de Dragotaka. Nous sommes à la recherche de Péas d&#39;Ophiuchus.%%
+On est ici pour la corne de licorne que possède le lion de Némée.%%
+Tu es Héraclès, le demi-dieu de la mythologie ?!
+(Il est pas du tout musclé...)"/>
+<TEXT ID="99801544" Text="Ahahah ! Ma réputation me précède !
+Oui je suis venu lui piquer son pyjama au lion.
+Quand j&#39;en aurai fini, prenez la corne, je n&#39;en ai pas besoin. (Joue le gars blasé, ces gens là sont fans ça se voit...)"/>
+<TEXT ID="99801545" Text="A la recherche d&#39;un corne de licorne ? Vous vous rendez tous sur le donjon de la Vierge, c&#39;est ça ?"/>
+<TEXT ID="99801546" Text="Les sbires d&#39;Hadès, le dieu des enfers, sont là. Soyez prudents.%%
+J&#39;espère vous revoir bientôt, n&#39;hésite pas à me demander de l&#39;aide."/>
+<TEXT ID="99801551" Text="Tout le monde veut obtenir cette fourrure."/>
+<TEXT ID="99801552" Text="Ca commence à bien faire, ils veulent tous de cette fourrure !%%
+Je suis un héros bon sang, pas un tanneur !"/>
+<TEXT ID="99801553" Text="ID_99801553"/>
+<TEXT ID="99801554" Text="ID_99801554"/>
+<TEXT ID="99801555" Text="ID_99801555"/>
+<TEXT ID="99801600" Text="Salle du boss de la Vierge"/>
+<TEXT ID="99801601" Text="ID_99801601"/>
+<TEXT ID="99801602" Text="Sauve Perséphone"/>
+<TEXT ID="99801603" Text="ID_99801603"/>
+<TEXT ID="99801604" Text="ID_99801604"/>
+<TEXT ID="99801610" Text="Vierge"/>
+<TEXT ID="99801611" Text="[Histoire de la Vierge]
+La Communauté du Dragon est allée à la rencontre de Perséphone pour récupérer la clé de l&#39;étoile bleue.
+Arrivés sur le donjon de la Vierge, nos héros constatent qu&#39;elle est envahie par une horde de monstres venue de l&#39;enfer.
+Envoyés par Hadès, ils sont là pour capturer Perséphone dont la beauté l&#39;a ébloui.
+
+Elle remettra la clé de l&#39;étoile bleue à quiconque la sauvera.
+
+[Mythe de la Vierge]
+Déméter, déesse de l&#39;agriculture a une fille nommée Perséphone, liée au printemps.
+Un jour qu&#39;elle sort pour aller cueillir des fleurs, la terre s&#39;ouvre soudainement sous ses pieds et l&#39;engouffre. Hadès l&#39;a tient maintenant en son pouvoir.
+Déméter entend son enfant crier et tente de la trouver, sans succès. Hélio, dieu du soleil la met au courant de la fourberie d&#39;Hadès et Déméter supplie alors Zeus d&#39;agir. Hadès et Zeus étant frère, il ne sait que répondre dans un premier temps. C&#39;est pourquoi Déméter décide de se retirer du monde quitte à l&#39;affamer.
+Zeus décide d&#39;un compromis : la jeune fille passera six mois aux côtés de son époux imposé en tant que reine des enfers. Les six autres mois de l&#39;année, elle retournera sur Terre aider sa mère pour le printemps et l&#39;été.
+Lorsque Perséphone se trouve aux enfers, sa mère est triste et se cache donc, c&#39;est pourquoi l&#39;hiver survient."/>
+<TEXT ID="99801612" Text="ID_99801612"/>
+<TEXT ID="99801613" Text="ID_99801613"/>
+<TEXT ID="99801614" Text="ID_99801614"/>
+<TEXT ID="99801621" Text="Au secours ! Quelqu&#39;un ! Il y a des monstres partout !"/>
+<TEXT ID="99801622" Text="ID_99801622"/>
+<TEXT ID="99801623" Text="ID_99801623"/>
+<TEXT ID="99801624" Text="ID_99801624"/>
+<TEXT ID="99801625" Text="ID_99801625"/>
+<TEXT ID="99801631" Text="ID_99801631"/>
+<TEXT ID="99801632" Text="ID_99801632"/>
+<TEXT ID="99801633" Text="ID_99801633"/>
+<TEXT ID="99801634" Text="ID_99801634"/>
+<TEXT ID="99801635" Text="ID_99801635"/>
+<TEXT ID="99801641" Text="Merci, vous m&#39;avez sauvé la vie.
+D&#39;où venez-vous ?"/>
+<TEXT ID="99801642" Text="Perséphone, nous venons de Dragotaka pour chercher à guérir Péas. Pour accéder à l&#39;Ophiuchus, il nous faut absolument une Clé de l&#39;étoile bleue."/>
+<TEXT ID="99801643" Text="La clé de l&#39;étoile bleue ? Je l&#39;ai ! Tenez, la voilà."/>
+<TEXT ID="99801644" Text="Depuis que Péas s&#39;est mis à se comporter bizarrement, Hadès et ses hommes de main sont revenus à la charge et ne cessent de me harceler.
+Je vous en prie, trouvez une cure pour Péas."/>
+<TEXT ID="99801645" Text="ID_99801645"/>
+<TEXT ID="99801651" Text="Encore une fois, vous nous sauvez la mise. Merci."/>
+<TEXT ID="99801652" Text="ID_99801652"/>
+<TEXT ID="99801653" Text="ID_99801653"/>
+<TEXT ID="99801654" Text="ID_99801654"/>
+<TEXT ID="99801655" Text="ID_99801655"/>
+<TEXT ID="99801700" Text="Salle du boss de Pégase"/>
+<TEXT ID="99801701" Text="ID_99801701"/>
+<TEXT ID="99801702" Text="Protège Pégase"/>
+<TEXT ID="99801703" Text="ID_99801703"/>
+<TEXT ID="99801704" Text="ID_99801704"/>
+<TEXT ID="99801710" Text="Pégase"/>
+<TEXT ID="99801711" Text="[Histoire de Pégase]
+Pour récupérer la clé de l&#39;étoile verte, il faut visiter le donjon du Scorpion. Le problème, c&#39;est qu&#39;un nuage de poison recouvre le sol, ce qui explique évidemment pourquoi il est nécessaire de chevaucher Pégase pour s&#39;y rendre !
+Arrivé sur place, la situation est alarmante, les monstres attaquent violemment Pégase et le blessent bien que Persée tente de le protéger.
+Les monstres, sbires d&#39;Hadès veulent s&#39;emparer de Pégase.
+
+Il faut le protéger à tout prix avec l&#39;aide de Persée, seul moyen de pénétrer le donjon du Scorpion.
+
+[Mythe de Pégase]
+Méduse était à l&#39;origine une femme magnifique avant d&#39;être métamorphosée. Persée combat Méduse et la blesse, de son sang jaillit Pégase, le fabuleux cheval ailé.
+
+Bellérophon est le dernier à chevaucher Pégase. Il combat la Chimère et vit de nombreuses aventures avant de réussir à apprivoiser Pégase près de la fontaine de Pirène où le cheval ailé aimait s&#39;abreuver. Au sommet de sa gloire, il entreprit de voler vers l&#39;Olympe, s&#39;estimant digne de séjourner avec les dieux. Mais Zeus, furieux, envoya un taon qui piqua Pégase. Bellérophon tomba dans un buisson d&#39;épines et erra sur la terre jusqu&#39;à sa mort avant qu&#39;il ne monte au ciel afin de devenir la constellation que l&#39;on connaît."/>
+<TEXT ID="99801712" Text="ID_99801712"/>
+<TEXT ID="99801713" Text="ID_99801713"/>
+<TEXT ID="99801714" Text="ID_99801714"/>
+<TEXT ID="99801721" Text="Non ! Pégase...%%
+J&#39;ai besoin de vous pour m&#39;aider à trouver un remède pour soigner ma femme qui a été empoisonnée."/>
+<TEXT ID="99801722" Text="Qui va là...
+Que se passe-t-il ?%%
+Nous avons besoin de l&#39;aide de Pégase.
+Pouvons-nous vous aider à ce propos ?"/>
+<TEXT ID="99801723" Text="Ah, bonne idée.
+Je vais faire barrage aux monstres.%%
+Pégase peut se régénérer rapidement, si je peux lui faire gagner du temps ça devrait aller."/>
+<TEXT ID="99801724" Text="ID_99801724"/>
+<TEXT ID="99801725" Text="ID_99801725"/>
+<TEXT ID="99801731" Text="ID_99801731"/>
+<TEXT ID="99801732" Text="ID_99801732"/>
+<TEXT ID="99801733" Text="ID_99801733"/>
+<TEXT ID="99801734" Text="ID_99801734"/>
+<TEXT ID="99801735" Text="ID_99801735"/>
+<TEXT ID="99801741" Text="Merci infiniment !
+Je peux enfin me rendre sur le donjon du Scorpion.%%"/>
+<TEXT ID="99801742" Text="Andromède, ma femme a été empoisonnée%%
+Il me faut un poison puissant qui puisse annuler les effets de celui dont ma femme est victime. (N&#39;essayez pas à la maison !)%%Celui du Scorpion devrait faire l&#39;affaire."/>
+<TEXT ID="99801743" Text="Avec cette plume de Pégase je peux me rendre sur le donjon du Scorpion facilement."/>
+<TEXT ID="99801744" Text="Nous mêmes nous dirigeons vers le donjon du Scorpion.
+Il nous faut donc la plume de Pégase."/>
+<TEXT ID="99801745" Text="Oh, ok, ce n&#39;est pas un problème.
+Il y a suffisamment de plumes.%%"/>
+<TEXT ID="99801746" Text="Nous nous rencontrerons peut-être au donjon du Scorpion.
+Si c&#39;est le cas, je vous aiderai.
+Merci encore."/>
+<TEXT ID="99801751" Text="Heureux de vous revoir mes amis.
+J&#39;ai réussi à obtenir du poison du Scorpion, ce qui a sauvé ma femme."/>
+<TEXT ID="99801752" Text="Non... 
+Il ne s&#39;agit pas d&#39;une morsure de serpent mais d&#39;un empoisonnement alimentaire.%%
+Andromède n&#39;est pas bonne cuisinière, c&#39;est sûr, mais de là à s&#39;empoisonner soi-même..."/>
+<TEXT ID="99801753" Text="Je vais continuer à amasser de ce remède.%%
+J&#39;aime ma femme et j&#39;aimerais qu&#39;elle continue à m&#39;aimer... alors je dois goûter à sa nourriture pour ne pas la vexer !"/>
+<TEXT ID="99801754" Text="Ahah, oui jusqu&#39;à ce que mort s&#39;ensuive comme on dit !
+AHAHAH !"/>
+<TEXT ID="99801755" Text="ID_99801755"/>
+<TEXT ID="99801800" Text="Salle du boss du Scorpion"/>
+<TEXT ID="99801801" Text="ID_99801801"/>
+<TEXT ID="99801802" Text="Roi Scorpion"/>
+<TEXT ID="99801803" Text="Protège Persée"/>
+<TEXT ID="99801804" Text="Dard de scorpion"/>
+<TEXT ID="99801810" Text="Scorpion"/>
+<TEXT ID="99801811" Text="[Histoire du Scorpion]
+Le roi Scorpion doit être combattu afin de récupérer la clé de l&#39;étoile verte.
+Persée, qui a également besoin d&#39;un dard de Scorpion pour soigner sa femme empoisonnée, sera d&#39;une aide précieuse.
+Le chemin menant au terrible roi Scorpion est infesté de bestioles venimeuses, il faut être aux aguets.
+
+Eviter son dard et détruire le roi Scorpion est la priorité pour obtenir la clé de l&#39;étoile verte.
+
+[Mythe du Scorpion]
+Orion est le fils de Poséidon, dieu des océans et d&#39;Euryale.
+C&#39;est un chasseur et sa qualité de géant lui permet de se déplacer rapidement pour chasser les créatures les plus fantastiques.
+De ce fait, il est extrêmement sûr de lui et ne cesse de se vanter de ses prouesses. Cette arrogance déplut à Héra qui, pour donner une leçon d&#39;humilité à Orion, commanda à un scorpion de se dissimuler et d&#39;attendre le passage du chasseur.
+Orion le géant ne voit pas la minuscule bête et mourut, foudroyé par le venin de ce petit animal.
+Il fut transformé en constellation, mais Héra n&#39;oublia pas de porter également au ciel le scorpion qui l&#39;avait si loyalement servie. Zeus intervint pour qu&#39;Orion et le Scorpion ne puissent s&#39;atteindre ; c&#39;est pour cela que lorsqu&#39;Orion se lève à l&#39;est et le Scorpion se couche à l&#39;ouest."/>
+<TEXT ID="99801812" Text="ID_99801812"/>
+<TEXT ID="99801813" Text="ID_99801813"/>
+<TEXT ID="99801814" Text="ID_99801814"/>
+<TEXT ID="99801821" Text="En garde, monstre ! J&#39;ai besoin de ta queue empoisonnée pour sauver ma femme."/>
+<TEXT ID="99801822" Text="ID_99801822"/>
+<TEXT ID="99801823" Text="ID_99801823"/>
+<TEXT ID="99801824" Text="ID_99801824"/>
+<TEXT ID="99801825" Text="ID_99801825"/>
+<TEXT ID="99801831" Text="ID_99801831"/>
+<TEXT ID="99801832" Text="ID_99801832"/>
+<TEXT ID="99801833" Text="ID_99801833"/>
+<TEXT ID="99801834" Text="ID_99801834"/>
+<TEXT ID="99801835" Text="ID_99801835"/>
+<TEXT ID="99801841" Text="Je devrais pouvoir sauver ma femme en me basant sur ce poison.
+Vous avez besoin d&#39;aller sur l&#39;Ophiuchus et donc de la Clé de l&#39;étoile verte ? La voilà.
+J&#39;espère que vous trouverez Péas et pourrez l&#39;aider."/>
+<TEXT ID="99801842" Text="Oh, je n&#39;oublierai jamais ce que vous avez fait pour moi. Le Pégase ne risque plus rien, et j&#39;ai pu obtenir la queue empoisonnée du scorpion."/>
+<TEXT ID="99801843" Text="ID_99801843"/>
+<TEXT ID="99801844" Text="ID_99801844"/>
+<TEXT ID="99801845" Text="ID_99801845"/>
+<TEXT ID="99801851" Text="Qu&#39;il est bon de vous revoir !
+Ma femme est sauve grâce à vous."/>
+<TEXT ID="99801852" Text="Misère... Ma femme s&#39;était vraiment empoisonnée toute seule avec sa cuisine. Je ne la pensais pas désastreuse à ce point !"/>
+<TEXT ID="99801853" Text="Qu&#39;importe, j&#39;aime ma femme et je continuerai à adorer sa cuisine, aussi dégoûtante soit-elle."/>
+<TEXT ID="99801854" Text="... mais juste au cas ou, j&#39;accumule quelques dards empoisonnés en cas d&#39;urgence.
+J&#39;imagine que je vais devoir continuer à en accumuler éternellement. *soupir*"/>
+<TEXT ID="99801855" Text="ID_99801855"/>
+<TEXT ID="99801900" Text="Salle du boss du Sagittaire"/>
+<TEXT ID="99801901" Text="ID_99801901"/>
+<TEXT ID="99801902" Text="Retrouve Chiron"/>
+<TEXT ID="99801903" Text="ID_99801903"/>
+<TEXT ID="99801904" Text="ID_99801904"/>
+<TEXT ID="99801910" Text="Sagittaire"/>
+<TEXT ID="99801911" Text="[Histoire du Sagittaire]
+Il ne reste plus que la clé de l&#39;étoile dorée à trouver, un centaure se trouvant sur le donjon du Sagittaire devrait aider à mettre la main dessus.
+Une fois sur place, la Communauté du Dragon se retrouve face à Chiron, qui semble avoir perdu l&#39;esprit.
+Le centaure est une créature mi-homme, mi-cheval ; il possède l&#39;esprit de l&#39;homme et a les caractéristiques sauvages de l&#39;animal.
+Le chaos a détruit ce qu&#39;il restait d&#39;humain chez Chiron et tout ce qu&#39;il reste est une bête sauvage.
+
+Il faut à tout prix lui rendre la raison afin d&#39;obtenir son aide.
+
+[Mythe du Sagittaire]
+Mi-homme, mi-cheval, le centaures possèdent cette dualité, humaine et animale.
+La plupart ne sont que bêtes sauvages, Chiron lui est &#39;avisé&#39;, jusqu&#39;à même parfois fréquenter et rivaliser avec les dieux. Réputé pour ses connaissances, il se fit confier l&#39;éducation de nombreux héros, notamment Héraclès.
+
+Chiron avait été l&#39;hôte d&#39;Héraclès qui l&#39;aimait et l&#39;estimait, il se rallia donc à ce héros dans sa lutte contre les centaures. Au cours du combat Héraclès le blessa par mégarde d&#39;une flèche. Il tenta d&#39;appliquer un onguent sur la plaie, mais la blessure n&#39;était pas guérissable : Héraclès avait trempé les pointes de ses flèches dans le sang de l&#39;Hydre de Lerne, poison incurable. Trouvant ces douleurs intolérables, Chiron, bien qu&#39;immortel, demanda la mort aux dieux. Zeus la lui accorda après qu&#39;il eut légué son immortalité à Prométhée. Zeus fit de Chiron la constellation du Sagittaire."/>
+<TEXT ID="99801912" Text="ID_99801912"/>
+<TEXT ID="99801913" Text="ID_99801913"/>
+<TEXT ID="99801914" Text="ID_99801914"/>
+<TEXT ID="99801921" Text="ID_99801921"/>
+<TEXT ID="99801922" Text="ID_99801922"/>
+<TEXT ID="99801923" Text="ID_99801923"/>
+<TEXT ID="99801924" Text="ID_99801924"/>
+<TEXT ID="99801925" Text="ID_99801925"/>
+<TEXT ID="99801931" Text="ID_99801931"/>
+<TEXT ID="99801932" Text="ID_99801932"/>
+<TEXT ID="99801933" Text="ID_99801933"/>
+<TEXT ID="99801934" Text="ID_99801934"/>
+<TEXT ID="99801935" Text="ID_99801935"/>
+<TEXT ID="99801941" Text="Ouh, ma tête ! Que s&#39;est-il passé ?
+Je ne me souviens de rien...%%
+Qui êtes-vous ?
+Vous ai-je fait du mal ?"/>
+<TEXT ID="99801942" Text="Chiron, te sens-tu bien ?
+Ton comportement était erratique.
+Cela doit être dû au chaos qui se répand à travers la galaxie.%%
+Nous sommes à la recherche de Péas afin de remédier à la situation.
+Il faut réveiller l&#39;Hydre de mer et nous avons besoin de toi pour cela.
+Nous aideras-tu ?"/>
+<TEXT ID="99801943" Text="Oui... oui la mémoire me revient.
+Le chaos a soudainement envahi la galaxie à la disparition de Péas.
+Depuis, nombreux sont les gens touchés par cette plaie.%%
+Je ne suis pas aussi bon que Péas mais j&#39;ai de solides connaissances en médecine, j&#39;ai apporté mon aide aux malades.%%
+Cependant l&#39;origine du chaos m&#39;est toujours inconnue, il faut trouver Péas !"/>
+<TEXT ID="99801944" Text="Prennez cette harpe, ainsi vous serez en mesure de réveiller l&#39;Hydre.
+Bonne chance."/>
+<TEXT ID="99801945" Text="L&#39;Hydre est très violente, c&#39;est pourquoi je l&#39;ai plongé dans un sommeil profond. Maintenant, nous avons besoin de son aide, l&#39;heure est grave.
+Soyez sûrs de rendormir l&#39;Hydre par la suite. Et trouvez Péas."/>
+<TEXT ID="99801946" Text="ID_99801946"/>
+<TEXT ID="99801951" Text="Oh, je perds l&#39;esprit.
+Moi, dont l&#39;érudition est reconnue des dieux, quelle déchéance..."/>
+<TEXT ID="99801952" Text="Péas n&#39;est toujours pas là ?
+Je peux vous donner une harpe si besoin est, l&#39;essentiel est que vous ne perdiez pas de temps !"/>
+<TEXT ID="99801953" Text="ID_99801953"/>
+<TEXT ID="99801954" Text="ID_99801954"/>
+<TEXT ID="99801955" Text="ID_99801955"/>
+<TEXT ID="99802000" Text="Salle du boss de l&#39;Hydre"/>
+<TEXT ID="99802001" Text="ID_99802001"/>
+<TEXT ID="99802002" Text="Hydre"/>
+<TEXT ID="99802003" Text="ID_99802003"/>
+<TEXT ID="99802004" Text="ID_99802004"/>
+<TEXT ID="99802010" Text="Hydre"/>
+<TEXT ID="99802011" Text="[Histoire de l&#39;Hydre]
+Pour obtenir la clé de l&#39;étoile dorée il faut réveiller l&#39;Hydre et la combattre.
+Bien sûr, cela sera périlleux et il faudra rester sur ses gardes.
+La harpe des dieux permettra de réveiller l&#39;Hydre ; après cela, il faudra lui subtiliser la clé et la plonger de nouveau dans un sommeil profond. Crête assure que c&#39;est la seule solution possible.
+
+L&#39;Hydre a trois têtes qui, une fois coupées, se régénèrent.
+Cependant la tête du milieu possède un point faible, c&#39;est là qu&#39;il faut viser !
+
+[Mythe de l&#39;Hydre]
+Héraclès est le fils de Zeus et d&#39;Alcmène, une humaine. Haineuse, Héra, la femme de Zeus, fait ordonner à Héraclès par le biais du roi Eurysthée de réaliser 12 travaux. L&#39;un d&#39;eux est de tuer l&#39;Hydre immortelle.
+Héraclès se rend au combat avec son neveu Iolaus, mais il a beau couper et couper encore les têtes de l&#39;Hydre, elles repoussent sans cesse. Iolaus, armé d&#39;une torche, à l&#39;idée de cautériser la plaie béante créée par Héraclès, là où l&#39;instant d&#39;avant se trouvait une des têtes de l&#39;Hydre. Ainsi, la tête ne peut repousser et, répétant l&#39;opération, ils finissent par battre l&#39;Hydre.
+
+Afin de l&#39;honorer, Héra fait de l&#39;Hydre une constellation."/>
+<TEXT ID="99802012" Text="ID_99802012"/>
+<TEXT ID="99802013" Text="ID_99802013"/>
+<TEXT ID="99802014" Text="ID_99802014"/>
+<TEXT ID="99802021" Text="Cela devrait être dans le coin..."/>
+<TEXT ID="99802022" Text="Je sais qu&#39;elle n&#39;est pas loin...
+Uh ? Je rêve ou le sol s&#39;est mis à trembler ?"/>
+<TEXT ID="99802023" Text="ID_99802023"/>
+<TEXT ID="99802024" Text="ID_99802024"/>
+<TEXT ID="99802025" Text="ID_99802025"/>
+<TEXT ID="99802031" Text="ID_99802031"/>
+<TEXT ID="99802032" Text="ID_99802032"/>
+<TEXT ID="99802033" Text="ID_99802033"/>
+<TEXT ID="99802034" Text="ID_99802034"/>
+<TEXT ID="99802035" Text="ID_99802035"/>
+<TEXT ID="99802041" Text="C&#39;est enfin fini... Heureusement qu&#39;Héraclès était là, peut-être rentrerez-vous dans l&#39;Histoire grâce à lui !"/>
+<TEXT ID="99802042" Text="Pas du tout, c&#39;est Persée le vrai héros."/>
+<TEXT ID="99802043" Text="Bon, arrêtez de vous envoyer des fleurs !
+Maintenant que nous avons la Clé de l&#39;étoile dorée, il est temps de se diriger vers l&#39;Ophiuchus."/>
+<TEXT ID="99802044" Text="ID_99802044"/>
+<TEXT ID="99802045" Text="ID_99802045"/>
+<TEXT ID="99802046" Text="ID_99802046"/>
+<TEXT ID="99802051" Text="ID_99802051"/>
+<TEXT ID="99802052" Text="ID_99802052"/>
+<TEXT ID="99802053" Text="ID_99802053"/>
+<TEXT ID="99802054" Text="ID_99802054"/>
+<TEXT ID="99802055" Text="ID_99802054"/>
+<TEXT ID="99803000" Text="Salle du boss d&#39;Ophiuchus"/>
+<TEXT ID="99803001" Text="ID_99803001"/>
+<TEXT ID="99803002" Text="Retrouve Péas au milieu du chaos"/>
+<TEXT ID="99803003" Text="Serpentis"/>
+<TEXT ID="99803004" Text="Rétablissement complet de Péas"/>
+<TEXT ID="99803010" Text="Ophiuchus"/>
+<TEXT ID="99803011" Text="[Histoire d&#39;Ophiuchus]
+L&#39;assemblage des 5 clés obtenues donne un anneau de constellation permettant d&#39;accéder au Ophiuchus. Crête demande à la Communauté du Dragon de l&#39;y accompagner.
+Sur place, tout le monde est soulagé de voir Péas mais il ne semble pas dans son état normal. Il reconnait Crête et lui sourit, mais soudainement son regard se vide et il attaque ses amis au moment où les serpentis alentours lui susurrent des mots incompréhensibles.
+
+Péas doit être sauvé pour sauver la galaxie et, par extension, le monde de Dragonica. Il faut découvrir l&#39;origine du mal mais également un remède pour faire revenir Péas à la normale.
+
+[Mythe d&#39;Ophiuchus]
+Asclépios est le dieu de la médecine, fils d&#39;Apollon et de Coronis. Il fut notamment formé par Chiron le centaure et fut le premier médecin que le monde ait connu.
+Il découvre que le sang des gorgones, celui de Méduse pour être précis, est capable de ressusciter les morts. S&#39;activant et sauvant l&#39;humanité, il s&#39;attire les foudres d&#39;Hadès, qui se plaint à Zeus. Asclépios refuse d&#39;obéir à la requête de Zeus qui, en colère, le foudroie et le tue.
+Se rendant compte par la suite du bien qu&#39;Asclépios avait apporté aux hommes, Zeus le place parmi les étoiles sous la forme de la constellation d&#39;Ophiuchus."/>
+<TEXT ID="99803012" Text="ID_99803012"/>
+<TEXT ID="99803013" Text="ID_99803013"/>
+<TEXT ID="99803014" Text="ID_99803014"/>
+<TEXT ID="99803021" Text="Hého, Péas ! Du nerf ! Ton amante, Crête, a tout fait pour te retrouver et attend ton retour !"/>
+<TEXT ID="99803022" Text="Mon instinct me dit que qu&#39;il n&#39;est pas tout à fait normal qu&#39;un truc sorte du corps de Péas..."/>
+<TEXT ID="99803023" Text="Comment osez-vous me déranger ! Vos vies s&#39;achèvent ici."/>
+<TEXT ID="99803024" Text="C&#39;était donc toi à l&#39;origine de la corruption de Péas. Tu vas grignoter des pissenlits par la racine, ça va te changer !"/>
+<TEXT ID="99803025" Text="ID_99803025"/>
+<TEXT ID="99803031" Text="Comment osez-vous me déranger ! Vos vies s&#39;achèvent ici."/>
+<TEXT ID="99803032" Text="ID_99803032"/>
+<TEXT ID="99803033" Text="ID_99803033"/>
+<TEXT ID="99803034" Text="ID_99803034"/>
+<TEXT ID="99803035" Text="ID_99803035"/>
+<TEXT ID="99803041" Text="Vade retro ! Péas, debout !"/>
+<TEXT ID="99803042" Text="Noooooon, c&#39;est impossible ! Ma vengeance sera terrible."/>
+<TEXT ID="99803043" Text="Péas ! Tu... Tout va bien, tu es à nouveau toi-même ? Pourquoi as-tu disparu ainsi, j&#39;étais morte d&#39;inquiétude !"/>
+<TEXT ID="99803044" Text="Je suis désolé Crête, je voulais absolument trouver un remède à tes maux par moi-même."/>
+<TEXT ID="99803045" Text="Alors que je cherchais des herbes pour ton traitement, un serpent s&#39;est présenté à moi, Serpentis. Il m&#39;a convaincu qu&#39;un certain art de guérison pouvait venir à bout de n&#39;importe quelle maladie, et même faire revenir les morts à la vie."/>
+<TEXT ID="99803046" Text="Désespéré, je me suis laissé tenté..."/>
+<TEXT ID="99803047" Text="Pardonne-moi. Ou tu seras encore proie au chaos et au désordre."/>
+<TEXT ID="99803048" Text="Je n&#39;oublierai jamais ton amour, Péas. Même dans l&#39;au-delà."/>
+<TEXT ID="99803051" Text="Ce n&#39;est pas fini !"/>
+<TEXT ID="99803052" Text="ID_99803052"/>
+<TEXT ID="99803053" Text="ID_99803053"/>
+<TEXT ID="99803054" Text="ID_99803054"/>
+<TEXT ID="99803055" Text="ID_99803055"/>
+<TEXT ID="10427100" Text="Royaume en crise"/>
+<TEXT ID="10427102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle aux PNJ en ville en suivant un ordre précis
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Steven Jr., Souverain
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Steven Jr. s&#39;inquiète du manque de rentrées d&#39;argent, les caisses sont vides et les récoltes s&#39;annoncent mauvaises. Tente d&#39;en découvrir la cause en discutant avec les {C=0xFF7D0000/}différents PNJ en ville.{C=0xFF4D0D08/}"/>
+<TEXT ID="10427121" Text="C&#39;est un problème épineux... la santé du royaume dépend de la santé de nos finances."/>
+<TEXT ID="10427126" Text="On ne peut décemment pas demander à nos citoyens de redoubler d&#39;efforts..."/>
+<TEXT ID="10427123" Text="Jeremy ne trouve pas de solution au problème, il ne peut malheureusement rien faire au sujet des récoltes. Va le voir pour obtenir des détails sur la situation."/>
+<TEXT ID="10427124" Text="Il n&#39;y a pas de royaume sans ces sujets ; avoir à manger dans l&#39;assiette permet d&#39;avoir confiance dans la royaume et non l&#39;inverse."/>
+<TEXT ID="10427125" Text="Tu as des informations, bonnes ou mauvaises ?
+Bon... fais-vite, je compte sur toi !"/>
+<TEXT ID="10427151" Text="Je ne suis plus en mesure de subvenir à mes besoins !
+L&#39;inflation est trop forte et les denrées trop chères !"/>
+<TEXT ID="10427152" Text="Des armes de qualité se font avec des matériaux de qualité... je n&#39;en trouve nulle part ces derniers temps. Les temps sont durs."/>
+<TEXT ID="10427153" Text="On raconte que les plantations de la Ferme du Vent produisent moins qu&#39;avant. La qualité des métaux en ville est de plus en plus dégradée. Même notre maître magicien Gwen ne sait plus prédire le temps des récoltes, elle qui ne se trompait jamais auparavant."/>
+<TEXT ID="10427154" Text="L&#39;ensemble de nos corps de métiers viennent m&#39;adresser leurs doléances et me demandent de gérer les affaires...%%
+L&#39;horoscope tenu par Gwen qui permet de prédire le temps des récoltes ne semble plus fonctionner.
+Le peuple perd espoir.%%
+Le sage Jeremy sait peut-être quelque chose...
+Peux-tu aller lui parler ?"/>
+<TEXT ID="10427155" Text="L&#39;horoscope n&#39;est plus fiable, humm.
+Les récents bouleversements planétaires en sont peut-être la cause.%%
+Un changement dans les cieux et tous les êtres vivants s&#39;en trouvent impactés.
+Nous devons trouver un moyen d&#39;y mettre un terme avant qu&#39;il ne soit trop tard."/>
+<TEXT ID="10427111" Text="Parle à Brutus le cuisinier"/>
+<TEXT ID="10427112" Text="Parle au forgeron Davy"/>
+<TEXT ID="10427113" Text="Parle à l&#39;expert en production Max"/>
+<TEXT ID="10427114" Text="Parle au maître magicien Gwen"/>
+<TEXT ID="10427115" Text="Parle au sage Jeremy"/>
+<TEXT ID="10427200" Text="Choc Météo"/>
+<TEXT ID="10427202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Enquête sur les lieux de chutes de météorites.
+(Il est possible de valider la quête à distance une fois l&#39;enquête terminée)
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Capitaine de la garde Colin
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Colin s&#39;inquiète des {C=0xFF7D0000/}chutes de météorites{C=0xFF4D0D08/}. Cela peut être fatal au royaume et à Dragotaka dans son ensemble. Enquête sur les météorites !"/>
+<TEXT ID="10427221" Text="Les gens s&#39;inquiètent..."/>
+<TEXT ID="10427226" Text="Des pierres tombent du ciel...
+Enquête là-dessus et puisse le ciel ne pas te tomber sur la tête !"/>
+<TEXT ID="10427223" Text="On raconte qu&#39;une {C=0xFF7D0000/}chute de météorites{C=0xFF4D0D08/} a provoqué des dégâts au Port des Quatre Vents, il faut enquêter au plus vite.%%
+Fais bien attention une fois sur place et tente d&#39;estimer l&#39;ampleur de la menace.%%
+Nous comptons tous sur toi."/>
+<TEXT ID="10427224" Text="Tu te présentes comme membre de la Communauté du Dragon seulement quand ça t&#39;arranges, c&#39;est ça ?!"/>
+<TEXT ID="10427225" Text="Il semble que le gros des dégâts se concentre là où se trouvent les Mamaisons au Port des Quatre Vents.
+Il parait même qu&#39;un portail vers une autre dimension s&#39;y serait formé."/>
+<TEXT ID="10427211" Text="Mène l&#39;enquête sur la chute de météorites."/>
+<TEXT ID="10427212" Text="Mène une enquête poussée"/>
+<TEXT ID="10427300" Text="Crête, l&#39;amante de Péas"/>
+<TEXT ID="10427302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}Crête{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Crête te demande de retrouver son fiancé {C=0xFF00863C/}Péas, maître des 10 constellations{C=0xFF4D0D08/}. Elle raconte qu&#39;il s&#39;est rendu dans la {C=0xFF016295/}11ème constellation, l&#39;Ophiuchus{C=0xFF4D0D08/} après avoir fait la rencontre d&#39;un {C=0xFFFF0000/}mystérieux serpent nommé Serpentis{C=0xFF4D0D08/} qui l&#39;a aidé à améliorer ses connaissances médicales. Essaye d&#39;en savoir plus auprès de Crête."/>
+<TEXT ID="10427321" Text="Aide-moi s&#39;il te plait."/>
+<TEXT ID="10427326" Text="Mon fiancé se nomme Péas et se trouve à l&#39;Ophiuchus. Je vais te dire comment t&#39;y rendre."/>
+<TEXT ID="10427323" Text="Mon amoureux, le beau {C=0xFF00863C/}Péas, maître des 10 constellations{C=0xFF4D0D08/} a disparu !
+Depuis, le chaos règne dans les étoiles et une influence néfaste se répand dans toutes les constellations.%%
+Péas est spécialisé en médecine et le maître des signes du zodiaque. Il a toujours aimé étudier et enrichir ses connaissances afin d&#39;aider les populations, il est très aimé pour cela.%%
+Un jour, un serpent persifleur s&#39;appelant Serpentis (à répéter très rapidement chez soi) lui rend visite afin de lui apprendre ses techniques médicales inédites.%%Péas n&#39;avait aucune raison de refuser, il pourrait améliorer la vie de tant de monde.%%
+Cependant, ses nouvelles connaissances le rendirent peu affable, morne et plutôt colérique, l&#39;opposé de ce qu&#39;il était auparavant.%%Puis, tout aussi soudainement... il disparut."/>
+<TEXT ID="10427324" Text="Tu commets une terrible erreur.
+{C=0xFF00863C/}%name%{C=0xFF4D0D08/} est responsable de la destruction de ce monde et des constellations car il n&#39;a pu assumer ses responsabilités."/>
+<TEXT ID="10427325" Text="Aucun"/>
+<TEXT ID="10427311" Text="Parle à Crête"/>
+<TEXT ID="10427400" Text="Anneau de constellation"/>
+<TEXT ID="10427402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Il faut mettre la main sur l&#39;{C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/} afin d&#39;entrer dans le donjon de l&#39;Ophiuchus, la 11ème constellation. Cet anneau est formé de 5 clés, chacune se trouvant sur une constellation différente. Chaque constellation est liée à un jour précis de la semaine et ne s&#39;ouvre que le jour consacré. L&#39;entrée vers le donjon de l&#39;Ophiuchus se fait le samedi et le dimanche, c&#39;est ces jours-là que tu auras une chance de retrouver Péas. Va parler à Crête et choisis le menu {C=0xFFFF0000/}Forge{C=0xFF4D0D08/} pour tenter de créer un {C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/}."/>
+<TEXT ID="10427421" Text="Obtiens tout d&#39;abord un {C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/} pour pouvoir entrer dans le donjon de l&#39;Ophiuchus et retrouver Péas."/>
+<TEXT ID="10427426" Text="Ensuite, note l&#39;ordre d&#39;entrée dans les constellations, il te faut toutes les visiter."/>
+<TEXT ID="10427423" Text="L&#39;anneau peut être créé en combinant les clés des différentes constellations.
+
+La 1ère des 5 clés est la clé du clair de lune qu&#39;on trouve sur le donjon du Taureau, ouvert le lundi.
+La {C=0xFF016295/}clé de l&#39;étoile ardente{C=0xFF4D0D08/} se trouve sur le donjon du Cancer, le mardi.%%
+Celle de l&#39;étoile bleue sur le donjon de la Vierge le mercredi.
+La clé de l&#39;étoile verte peut être obtenue sur le donjon du Scorpion le jeudi.
+Enfin, le vendredi sur le donjon de l&#39;Hydre tu pourras obtenir la clé de l&#39;étoile dorée."/>
+<TEXT ID="10427424" Text="Retiens-bien mes instructions, c&#39;est la seule manière d&#39;entrer au donjon de l&#39;Ophiuchus."/>
+<TEXT ID="10427425" Text="Aucun"/>
+<TEXT ID="10427411" Text="Ecoute attentivement les instructions de Crête."/>
+<TEXT ID="10427500" Text="Trouve la Toison d&#39;or"/>
+<TEXT ID="10427502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Trouve la Toison d&#39;or sur le donjon du Bélier
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La clé du clair de lune est la première sur notre liste. Elle se trouve chez {C=0xFF00863C/}Europe{C=0xFF4D0D08/} dans le donjon du Taureau qui ouvre le lundi. Mais il faudra d&#39;abord obtenir la {C=0xFF00863C/}Toison d&#39;or{C=0xFF4D0D08/} pour y pénétrer. Rends-toi donc sur le donjon du {C=0xFFFF0000/}Bélier{C=0xFF4D0D08/} pour obtenir la Toison d&#39;or."/>
+<TEXT ID="10427521" Text="{C=0xFF00863C/}Europe{C=0xFF4D0D08/} se trouve au donjon du Taureau qui ouvre le lundi."/>
+<TEXT ID="10427526" Text="Parfait, tu as obtenu la Toison d&#39;or. Tu peux donc te rendre au donjon du Taureau."/>
+<TEXT ID="10427523" Text="{C=0xFF00863C/}Europe{C=0xFF4D0D08/} et moi sommes amies, demande-lui la {C=0xFF016295/}Clé du clair de lune{C=0xFF4D0D08/} de ma part, elle te la remettra.%%
+Cependant, {C=0xFF00863C/}Europe{C=0xFF4D0D08/} est protégée par un sort puissant, nécessaire pour qu&#39;elle échappe à Hadès, le dieu des enfers. Pour traverser ce sort, il te faut avoir la {C=0xFF00863C/}Toison d&#39;or{C=0xFF4D0D08/}.%%
+La {C=0xFF00863C/}Toison d&#39;or{C=0xFF4D0D08/} est sur le donjon du Bélier qui ouvre le lundi."/>
+<TEXT ID="10427524" Text="Kof kof... il ne me reste plus beaucoup de temps... je me meurs."/>
+<TEXT ID="10427525" Text="Je constate que tu n&#39;as pas mis la main sur la {C=0xFF00863C/}Toison d&#39;or{C=0xFF4D0D08/}..."/>
+<TEXT ID="10427511" Text="Toison d&#39;or"/>
+<TEXT ID="10427512" Text="Réussis le donjon du Bélier"/>
+<TEXT ID="10427600" Text="Clé du clair de lune"/>
+<TEXT ID="10427602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Pars à la rencontre d&#39;Europe au donjon du Taureau.
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF00863C/}Europe{C=0xFF4D0D08/} refuse tout contact, {C=0xFF7D0000/}Hadès, le dieu des enfers,{C=0xFF4D0D08/} l&#39;a tant ennuyée qu&#39;elle préfère rester seule, sous un sortilège qui la protège. Approche {C=0xFF00863C/}Europe{C=0xFF4D0D08/} afin de récupérer la {C=0xFF016295/}Clé du clair de lune{C=0xFF4D0D08/} qu&#39;elle possède. Prends-garde au {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/} qui la protège."/>
+<TEXT ID="10427621" Text="Le donjon du Taureau porte bien son nom, c&#39;est infesté de taureaux là-bas !"/>
+<TEXT ID="10427626" Text="Tu as la première clé.
+Bien joué, torero !"/>
+<TEXT ID="10427623" Text="{C=0xFF00863C/}Europe{C=0xFF4D0D08/} aime les taureaux qui l&#39;entourent mais son préféré reste le {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}.%%
+Comme je te l&#39;ai expliqué, {C=0xFF00863C/}Europe{C=0xFF4D0D08/} est assez fragile et préfère rester seule, ne la froisse pas !%%Au moindre faux-pas, si {C=0xFF00863C/}Europe{C=0xFF4D0D08/} se sent menacé, tu entendras parler du {C=0xFFFF0000/}Minotaure{C=0xFF4D0D08/}. Il prend la protection d&#39;{C=0xFF00863C/}Europe{C=0xFF4D0D08/} par les cornes !"/>
+<TEXT ID="10427624" Text="...es-tu sérieux ?!!"/>
+<TEXT ID="10427625" Text="S&#39;il te plait {C=0xFF00863C/}%name%{C=0xFF4D0D08/}."/>
+<TEXT ID="10427611" Text="Clé du clair de lune"/>
+<TEXT ID="10427612" Text="Réussis le donjon du Taureau"/>
+<TEXT ID="10427700" Text="Soeurs de choc"/>
+<TEXT ID="10427702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Demande l&#39;aide des jumeaux au donjon du Gémeaux.
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/} se trouve sur le crustacé monstrueux nommé Cancer sur le...Cancer ! Il ne sera pas aisé de naviguer parmi les étoiles sombres qui entourent le Cancer.
+Les soeurs {C=0xFF00863C/}Castor et Pollux{C=0xFF4D0D08/} qui patrouillent dans les constellations seront d&#39;une aide utile. Le {C=0xFFFF0000/}Gémeaux ouvre le mardi{C=0xFF4D0D08/}, va leur demander. Et prends-garde au chaos !"/>
+<TEXT ID="10427721" Text="La {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/} est la seconde à obtenir. Elle se trouve sur le donjon du Cancer, mais..."/>
+<TEXT ID="10427726" Text="Maintenant, tu peux te mettre en chasse de la {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/}."/>
+<TEXT ID="10427723" Text="Les étoiles sombres entourant le Cancer empêchent d&#39;y approcher. C&#39;est aussi la première fois pour toi {C=0xFF00863C/}%name%{C=0xFF4D0D08/}, non ?%%
+Dans ce cas les {C=0xFF00863C/}soeurs{C=0xFF4D0D08/} {C=0xFF00863C/}Castor et Pollux{C=0xFF4D0D08/} pourront t&#39;aider...
+Elles connaissent la galaxie mieux que leur poche !"/>
+<TEXT ID="10427724" Text="Je n&#39;ai rien à ajouter..."/>
+<TEXT ID="10427725" Text="Péas, je pense fort à toi..."/>
+<TEXT ID="10427711" Text="Boussole"/>
+<TEXT ID="10427712" Text="Réussis le donjon du Gémeaux"/>
+<TEXT ID="10427713" Text="Retrouve Castor et Pollux"/>
+<TEXT ID="10427800" Text="Clé de l&#39;étoile ardente"/>
+<TEXT ID="10427802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Obtiens la Clé de l&#39;étoile ardente sur le donjon du Cancer
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/} est détenue par le {C=0xFFFF0000/}monstre Cancer{C=0xFF4D0D08/} qui se trouve sur le donjon du Cancer bien évidemment. Utilise la {C=0xFF016295/}Boussole{C=0xFF4D0D08/} offerte par Castor et Pollux pour arriver à bon port. Tu auras la {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/} une fois le monstre vaincu."/>
+<TEXT ID="10427821" Text="Avec la Boussole tu n&#39;auras aucun problème pour entrer dans le donjon du Cancer."/>
+<TEXT ID="10427826" Text="Tu as la seconde clé !
+Continue ainsi, %name% !"/>
+<TEXT ID="10427823" Text="Le {C=0xFFFF0000/}monstre Cancer{C=0xFF4D0D08/} possède la {C=0xFF016295/}Clé de l&#39;étoile ardente{C=0xFF4D0D08/}.%%
+C&#39;est un crabe énorme, il faut te méfier, notamment de ses terribles pinces ! Il se fait généralement discret mais si un truc le turlupine, il détruit tout sur son passage. Tu ne veux certainement pas voir ça !"/>
+<TEXT ID="10427824" Text="...es-tu sérieux ?!!"/>
+<TEXT ID="10427825" Text="S&#39;il te plait {C=0xFF00863C/}%name%{C=0xFF4D0D08/}."/>
+<TEXT ID="10427811" Text="Clé de l&#39;étoile ardente"/>
+<TEXT ID="10427812" Text="Réussis le donjon du Cancer"/>
+<TEXT ID="10427900" Text="Corne de licorne, symbole de pureté"/>
+<TEXT ID="10427902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Obtiens une corne de licorne au donjon de Lion
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La {C=0xFF016295/}Clé de l&#39;étoile bleue{C=0xFF4D0D08/}, la troisième, peut être trouvée sur le donjon de la {C=0xFFFF0000/}Vierge qui ouvre le mercredi{C=0xFF4D0D08/}. Il sera difficile d&#39;y entrer, un sceau magique en protège l&#39;entrée. Pour passer outre le sceau, il te faut une {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/}, symbole de pureté. Tu peux obtenir la {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/} en combattant {C=0xFFFF0000/}Chiron{C=0xFF4D0D08/} au donjon du Lion qui ouvre le mercredi."/>
+<TEXT ID="10427921" Text="La Clé de l&#39;étoile bleue est la troisième sur ta route, tu peux l&#39;obtenir le mercredi, au donjon de la Vierge."/>
+<TEXT ID="10427926" Text="Avec la {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/} tu pourras entrer le donjon de la Vierge."/>
+<TEXT ID="10427923" Text="Il paraît que {C=0xFF00863C/}Perséphone{C=0xFF4D0D08/} possède la Clé de l&#39;étoile bleue. Mais elle est embêtée par {C=0xFF7D0000/}Hadès, le dieu des enfers{C=0xFF4D0D08/}.%%
+Il leur court toutes après, {C=0xFF00863C/}Europe{C=0xFF4D0D08/}, {C=0xFF00863C/}Perséphone{C=0xFF4D0D08/}... mais pas moi... (je m&#39;en moque j&#39;ai un fiancé, ahah !)%%
+Déméter, la mère de Perséphone a créé un sceau magique puissant pour la protéger d&#39;Hadès. C&#39;est pourquoi le symbole de pureté qu&#39;est la {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/} est nécessaire pour l&#39;approcher. Ce symbole est jalousement gardé par {C=0xFFFF0000/}Chiron{C=0xFF4D0D08/}.%%
+Rends-toi sur le donjon du Lion et obtiens la {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/}. Tu pourras ensuite rejoindre le donjon de la Vierge."/>
+<TEXT ID="10427924" Text="{C=0xFF00863C/}%name%{C=0xFF4D0D08/}, aurais-tu peur ?"/>
+<TEXT ID="10427925" Text="Le chaos a de plus en plus d&#39;emprise sur les constellations."/>
+<TEXT ID="10427911" Text="Corne de licorne"/>
+<TEXT ID="10427912" Text="Réussis le donjon du Lion"/>
+<TEXT ID="10428000" Text="Clé de l&#39;étoile bleue"/>
+<TEXT ID="10428002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Demande de l&#39;aide à Perséphone au donjon de la Vierge
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+L&#39;entrée vers le donjon de la Vierge est ouverte si tu possèdes la {C=0xFF016295/}Corne de licorne{C=0xFF4D0D08/}. Tu peux t&#39;y rendre le {C=0xFFFF0000/}mercredi{C=0xFF4D0D08/}. Parle à Perséphone afin d&#39;obtenir la {C=0xFF016295/}Clé de l&#39;étoile bleue{C=0xFF4D0D08/}."/>
+<TEXT ID="10428021" Text="Perséphone te donnera la Clé de l&#39;étoile bleue au donjon de la Vierge."/>
+<TEXT ID="10428026" Text="Hadès a encore essayé de la dérober ? Il est flippant ce mec... ce dieu je veux dire !"/>
+<TEXT ID="10428023" Text="Comme je te l&#39;ai expliqué, Perséphone est un peu nerveuse, elle pense voir Hadès partout. Le chaos alentours affaiblit le sceau qui la protège. Ce n&#39;est pas bon pour son moral mais si Hadès fait une tentative d&#39;enlèvement c&#39;est pire que tout !%%
+Va à la rencontre de Perséphone pour lui expliquer la situation. Prends-garde à Hadès et ses sbires !"/>
+<TEXT ID="10428024" Text="Si tu ne fais rien, Perséphone risque l&#39;enfer."/>
+<TEXT ID="10428025" Text="J&#39;espère que tu verras Perséphone bientôt."/>
+<TEXT ID="10428011" Text="Clé de l&#39;étoile bleue"/>
+<TEXT ID="10428012" Text="Réussis le donjon de la Vierge"/>
+<TEXT ID="10428100" Text="Pégase le cheval volant"/>
+<TEXT ID="10428102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Récupère une Plume de Pégase au donjon de Pégase
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Il est temps de se mettre en branle à la recherche de la {C=0xFF016295/}Clé de l&#39;étoile verte{C=0xFF4D0D08/}, la quatrième. Elle se trouve sur le donjon du Scorpion, mais l&#39;endroit est empoisonné. Pégase le cheval volant peut t&#39;amener à destination. Rends-toi donc dans le {C=0xFFFF0000/}donjon du Pégase ouvert le jeudi{C=0xFF4D0D08/} et demande de l&#39;aide à Pégase."/>
+<TEXT ID="10428121" Text="La quatrième clé se trouve au donjon du Scorpion ouvert le jeudi."/>
+<TEXT ID="10428126" Text="La {C=0xFF016295/}Plume de Pégase{C=0xFF4D0D08/} te rends léger comme l&#39;air, ce qui te permet de voler au dessus du nuage de poison."/>
+<TEXT ID="10428123" Text="Il est impossible de s&#39;y rendre à pied à cause du poison. Bien sûr Pégase pourrait te faire survoler la zone contaminée.%%
+Le problème, c&#39;est que beaucoup de gens aimeraient posséder Pégase, à commencer par le terrible Hadès...
+Le {C=0xFF7D0000/}dieu des enfers{C=0xFF4D0D08/} a d&#39;ailleurs ordonné à ses sbires de s&#39;en emparer.
+Si tu le vois en danger, sauve-le s&#39;il te plait."/>
+<TEXT ID="10428124" Text="{C=0xFF00863C/}%name%{C=0xFF4D0D08/}, tu es l&#39;image de l&#39;épuisement même."/>
+<TEXT ID="10428125" Text="Je me demande si nous arriverons à ramener la paix... Quoi qu&#39;il en soit, je compte sur toi {C=0xFF00863C/}%name%{C=0xFF4D0D08/} !"/>
+<TEXT ID="10428111" Text="Plume de Pégase"/>
+<TEXT ID="10428112" Text="Réussis le donjon du Pégase"/>
+<TEXT ID="10428200" Text="Clé de l&#39;étoile verte"/>
+<TEXT ID="10428202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Obtiens la Clé de l&#39;étoile verte sur le donjon du Scorpion
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Avec la {C=0xFF016295/}Plume de Pégase{C=0xFF4D0D08/}, tu peux éviter le poison entourant le donjon du {C=0xFFFF0000/}Scorpion qui ouvre le jeudi{C=0xFF4D0D08/}, et ainsi y obtenir la {C=0xFFFF0000/}Clé de l&#39;étoile verte{C=0xFF4D0D08/}."/>
+<TEXT ID="10428221" Text="Le roi Scorpion possède la quatrième clé, la Clé de l&#39;étoile verte."/>
+<TEXT ID="10428226" Text="Tu as la quatrième clé en ta possession ? Parfait, plus qu&#39;une à trouver !"/>
+<TEXT ID="10428223" Text="La {C=0xFF016295/}Plume de Pégase{C=0xFF4D0D08/} rend ton corps plus léger que l&#39;air. Utilise-la pour éviter le nuage de poison entourant le donjon du Scorpion.%%
+Fais également attention aux bestioles venimeuses sur le chemin te menant au roi Scorpion."/>
+<TEXT ID="10428224" Text="Aurais-tu peur du roi Scorpion ?"/>
+<TEXT ID="10428225" Text="{C=0xFF00863C/}%name%{C=0xFF4D0D08/}, fais attention aux bestioles venimeuses !"/>
+<TEXT ID="10428211" Text="Clé de l&#39;étoile verte"/>
+<TEXT ID="10428212" Text="Réussis le donjon du Scorpion"/>
+<TEXT ID="10428300" Text="Docte Centaure"/>
+<TEXT ID="10428302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Demande de l&#39;aide au centaure au donjon du Sagittaire
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Plus qu&#39;une clé au compteur ! La dernière clé est gardée par l&#39;{C=0xFFFF0000/}Hydre, le serpent de mer{C=0xFF4D0D08/} aux têtes multiples. Utilise la {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/} que possède Chiron afin de réveiller l&#39;Hydre. Le donjon du Sagittaire ouvre le vendredi, rends-toi y et renseigne-toi auprès de Chiron à propos de la {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/}."/>
+<TEXT ID="10428321" Text="L&#39;Hydre aux multiples têtes détient la Clé de l&#39;étoile dorée."/>
+<TEXT ID="10428326" Text="Je vais enfin retrouver Péas, merci infiniment {C=0xFF00863C/}%name%{C=0xFF4D0D08/} !"/>
+<TEXT ID="10428323" Text="L&#39;Hydre fut plongée dans un profond sommeil afin de confiner sa colère. Il semble désormais nécessaire de la réveiller...%%
+La {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/} a ce pouvoir. Chiron, fier représentant centaure de la tribu des Kentar, respecté pour son érudition et sa sagesse, possède la {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/}.%%
+Explique-lui la situation afin qu&#39;il te remette la {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/}."/>
+<TEXT ID="10428324" Text="Un peu de volonté bon sang, après ça nous pourrons retrouver Péas ! Aide-moi, {C=0xFF00863C/}%name%{C=0xFF4D0D08/}. Tu es mon seul espoir."/>
+<TEXT ID="10428325" Text="Chiron est très respecté pour sa sagesse et son érudition. Il est aussi excellent musicien et médecin accompli."/>
+<TEXT ID="10428311" Text="Harpe céleste"/>
+<TEXT ID="10428312" Text="Réussis le donjon du Sagittaire"/>
+<TEXT ID="10428400" Text="Clé de l&#39;étoile dorée"/>
+<TEXT ID="10428402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Obtiens la Clé de l&#39;étoile dorée au donjon de l&#39;Hydre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La cinquième clé, la {C=0xFF016295/}Clé de l&#39;étoile dorée{C=0xFF4D0D08/}, se trouve au {C=0xFFFF0000/}donjon de l&#39;Hydre, ouvert le vendredi{C=0xFF4D0D08/}. Le donjon est jalousement gardé par l&#39;{C=0xFFFF0000/}Hydre{C=0xFF4D0D08/}, un terrible serpent de mer. Il faudra la neutraliser. Utilise la {C=0xFF016295/}Harpe céleste{C=0xFF4D0D08/} afin de réveiller le monstre à trois têtes et récupère la {C=0xFF016295/}Clé de l&#39;étoile dorée{C=0xFF4D0D08/}."/>
+<TEXT ID="10428421" Text="L&#39;Hydre possède de multiples têtes."/>
+<TEXT ID="10428426" Text="Maintenant que l&#39;Hydre est neutralisée, tu possèdes les 5 clés. Maintenant combine-les pour créer un {C=0xFF016295/}Anneau de constellation{C=0xFF4D0D08/} et rends-toi vite sur le donjon de l&#39;Ophiuchus."/>
+<TEXT ID="10428423" Text="L&#39;Hydre a le pouvoir de régénérer ses têtes lorsqu&#39;elles sont tranchées, ce ne sera pas facile de la vaincre.%%
+Si cela n&#39;était pas absolument nécessaire, je la laisserais dans son état léthargique. Il faut la réveiller, coûte que coûte, pour nous sauver du chaos.%%{C=0xFF00863C/}%name%{C=0xFF4D0D08/}, surtout, replonge-la dans le sommeil après avoir obtenu la Clé de l&#39;étoile dorée."/>
+<TEXT ID="10428424" Text="Serais-tu effrayé(e) à l&#39;idée de combattre l&#39;Hydre ?"/>
+<TEXT ID="10428425" Text="Ceci est la dernière clé, courage."/>
+<TEXT ID="10428411" Text="Clé de l&#39;étoile dorée"/>
+<TEXT ID="10428412" Text="Réussis le donjon de l&#39;Hydre"/>
+<TEXT ID="10428500" Text="Clé pour le donjon du Bélier"/>
+<TEXT ID="10428502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Il faut des clés pour aller sur les constellations du signe. Parle à Crête afin d&#39;obtenir le Bracelet de la Sororité qui ouvre la voie du Bélier."/>
+<TEXT ID="10428521" Text="Es-tu décidé(e) à aller sur le donjon du Bélier ?"/>
+<TEXT ID="10428526" Text="Je t&#39;expliquerai la suite plus tard, prends-ça.
+Fais-attention à toi."/>
+<TEXT ID="10428523" Text="Je te donnerai un Bracelet de la Sororité par semaine, le lundi uniquement.
+Ça te servira à entrer dans le donjon du Bélier.
+Tu n&#39;en auras pas d&#39;autre cette semaine, c&#39;est que c&#39;est une denrée rare !"/>
+<TEXT ID="10428524" Text="Si tu as assez de bracelets, dis-le moi.
+En tout cas, garde-bien à l&#39;esprit que je ne peux t&#39;en donner que le lundi."/>
+<TEXT ID="10428525" Text="Aucun"/>
+<TEXT ID="10428511" Text="Parle à Crête"/>
+<TEXT ID="10428800" Text="Clé pour le donjon du Pégase"/>
+<TEXT ID="10428802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Demande à Crête de te donner une {C=0xFF016295/}Essence de licorne{C=0xFF4D0D08/} pour entrer au donjon du Pégase."/>
+<TEXT ID="10428821" Text="Tu as réussi {C=0xFF00863C/}%name%{C=0xFF4D0D08/} ! Bon travail."/>
+<TEXT ID="10428826" Text="Pégase a une nature peu sauvage, il n&#39;est pas à l&#39;aise avec le monde.
+Pour l&#39;approcher il te faudra cet objet.
+Utilise-le pour entrer sur le donjon du Pégase."/>
+<TEXT ID="10428823" Text="Je te donnerai une Essence de licorne tous les jeudi.
+Cela te servira à entrer sur le donjon du Pégase."/>
+<TEXT ID="10428824" Text="N&#39;oublie pas : les Essences de licorne c&#39;est le jeudi et le jeudi seulement !"/>
+<TEXT ID="10428825" Text="Aucun"/>
+<TEXT ID="10428811" Text="Parle à Crête"/>
+<TEXT ID="10428700" Text="Clé pour le donjon du Lion."/>
+<TEXT ID="10428702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Demande à Crête de te donner une {C=0xFF016295/}Insigne de Babylone{C=0xFF4D0D08/} pour entrer au donjon du Lion."/>
+<TEXT ID="10428721" Text="Tu as réussi {C=0xFF00863C/}%name%{C=0xFF4D0D08/} ! Bon travail."/>
+<TEXT ID="10428726" Text="Voici une Insigne de Babylone.
+On dit qu&#39;il était remis aux combattants dont la force égale celle du lion.
+Avec cette insigne, tu peux aller sur le donjon du Lion."/>
+<TEXT ID="10428723" Text="Viens tous les mercredis et je te donnerai une Insigne de Babylone.
+Tu pourras ensuite batailler dans le donjon du Lion."/>
+<TEXT ID="10428724" Text="Pour aller au donjon du Lion, il te faut une Insigne de Babylone."/>
+<TEXT ID="10428725" Text="Aucun"/>
+<TEXT ID="10428711" Text="Parle à Crête"/>
+<TEXT ID="10428600" Text="Clé pour le donjon du Gémeaux"/>
+<TEXT ID="10428602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Crête
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Crête, amante de Péas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Demande à Crête de te donner un {C=0xFF016295/}Pendentif de la Sororité{C=0xFF4D0D08/} pour entrer au donjon du Gémeaux."/>
+<TEXT ID="10428621" Text="Te voilà de retour du donjon du Bélier !"/>
+<TEXT ID="10428626" Text="Prends ce Pendentif de la Sororité.
+Tu n&#39;en auras pas d&#39;autre.
+Courage, nous sommes à tes côtés !"/>
+<TEXT ID="10428623" Text="Viens tous les mardis et je te donnerai un Pendentif de la Sororité.
+Tu pourras ensuite batailler dans le donjon du Gémeaux."/>
+<TEXT ID="10428624" Text="Les Pendentifs de la Sororité sont très rares, il en reste peu.
+Viens le mardi et je t&#39;en donnerai un."/>
+<TEXT ID="10428625" Text="Aucun"/>
+<TEXT ID="10428611" Text="Parle à Crête"/>
+<TEXT ID="2017100001" Text="Arcadia, un lieu de conflits planetaires, quel dommage..."/>
+<TEXT ID="2017100002" Text="Si seulement les ressources étaient inépuisables, les planetes seraient des paradis..."/>
+<TEXT ID="2017100003" Text="Nous voilà 5 ans après Elga, les larmes n&#39;ont pas eu le temps de couler, et un nouveau conflit commence."/>
+<TEXT ID="2017100004" Text="Et si une collaboration était possible?"/>
+<TEXT ID="2017100005" Text="Pourquoi ce paradis est sur notre planète? Nous sommes dans un danger imminent..."/>
+<TEXT ID="2017100006" Text="Heros, sauvez-nous une fois de plus, nous avons besoin de vous!"/>
+<TEXT ID="2017100007" Text="Cela fait plusieurs semaines que nous résistons, mais sans vous, notre monde est fini."/>
+<TEXT ID="2017100008" Text="Je reve du jour ou tout le monde sera content de nous, car nous travaillons sans relache contre ces tyrans..."/>
+<TEXT ID="2017100009" Text="Il faut trouver un moyen de remplacer ces sucrites"/>
+<TEXT ID="2017100010" Text="Les sucrites sont contitués de la magie d&#39;Elga, nous pouvons nous préparer au pire..."/>
+<TEXT ID="2017100011" Text="Je le savais! Ces sucrites permettent à ces créatures d&#39;alimenter leurs engins!"/>
+<TEXT ID="2017100012" Text="Je me demande si le continent d&#39;Arcadia possède de nouveaux familiers?"/>
+<TEXT ID="2017100013" Text="Ma femme et mon fils doivent jouer aux échecs pendant que je risque ma vie..."/>
+<TEXT ID="2017100014" Text="Marine est très investi dans le Front, surtout lorsqu&#39;il s&#39;agit d&#39;extermination!"/>
+<TEXT ID="2017100015" Text="Je trouve notre Fondateur très mignon!"/>
+
+<!-- GROUPNAME TEXT QUESTS: titre du nom de groupe des quêtes-->
+<TEXT ID="2017050000" Text="Arcadia"/>
+<!-- TITLE TEXT QUEST: titre des quêtes-->
+<TEXT ID="2017050001" Text="Arcadia - Une nouvelle menace (1)"/>
+<TEXT ID="2017050002" Text="Arcadia - Une nouvelle menace (2)"/>
+<TEXT ID="2017050003" Text="Arcadia - Le rassemblement du Front Arcadien (1)"/>
+<TEXT ID="2017050004" Text="Arcadia - Le rassemblement du Front Arcadien (2)"/>
+<TEXT ID="2017050005" Text="Arcadia - La préparation(1)"/>
+<TEXT ID="2017050006" Text="Arcadia - La préparation (2)"/>
+<TEXT ID="2017050007" Text="Arcadia - La préparation (3)"/>
+<TEXT ID="2017050008" Text="Arcadia - Contre-attaque du Front Arcadien (1)"/>
+<TEXT ID="2017050009" Text="Arcadia - Contre-attaque du Front Arcadien (2)"/>
+<TEXT ID="2017050010" Text="Arcadia - Contre-attaque du Front Arcadien (3)"/>
+<TEXT ID="2017050011" Text="Arcadia - Contre-attaque du Front Arcadien (4)"/> <!-- 7565-->
+<TEXT ID="2017050012" Text="Arcadia - Station Alpha (1)"/>
+<TEXT ID="2017050013" Text="Arcadia - Station Alpha (2)"/>
+<TEXT ID="2017050014" Text="Arcadia - Station Alpha (3)"/>
+<TEXT ID="2017050015" Text="Arcadia - Station Alpha (4)"/>
+<TEXT ID="2017050016" Text="Arcadia - Station Alpha (5)"/>
+<TEXT ID="2017050017" Text="Arcadia - La menace continue"/>
+<TEXT ID="2017050018" Text="Arcadia - Station Beta (1)"/>
+<TEXT ID="2017050019" Text="Arcadia - Station Beta (2)"/>
+<TEXT ID="2017050020" Text="Arcadia - Station Beta (3)"/> <!-- 7574-->
+<TEXT ID="2017050021" Text="Arcadia - Station Beta (4)"/>
+<TEXT ID="2017050022" Text="Arcadia - Station Beta (5)"/>
+<TEXT ID="2017050023" Text="Arcadia - L&#39;Allée des Tempêtes (1)"/>
+<TEXT ID="2017050024" Text="Arcadia - L&#39;Allée des Tempêtes (2)"/>
+<TEXT ID="2017050025" Text="Arcadia - L&#39;Allée des Tempêtes (3)"/>
+<TEXT ID="2017050026" Text="Arcadia - Une révélation, des répercussions"/>
+<TEXT ID="2017050027" Text="Arcadia - L&#39;Achèvement du Destin"/>
+<TEXT ID="2017050028" Text="Arcadia - Le déchaînement Divin"/>
+<TEXT ID="2017050029" Text="Arcadia - La fin du Front Arcadien"/>
+<TEXT ID="2017050030" Text="Arcadia - Les séparations"/>
+<!--_________________________________________________________________________________________________________-->
+<!-- 						QUETE PARLER > PARLER        /       MONSTRE UNIQUE/GROUPE    			         -->
+<!--_________________________________________________________________________________________________________-->
+
+<!-- CONSIGNES DE QUETES brève(object NOSTEP apres EVENT)-->
+<TEXT ID="2017200001" Text="Parlez à Pierrick"/>
+<TEXT ID="2017200002" Text="Revoir Barbara"/>
+<TEXT ID="2017200003" Text="Parlez à Saraya"/>
+<TEXT ID="2017200005" Text="Parlez à Pierrick"/>
+<TEXT ID="2017200006" Text="Sacs de Sable"/>
+<TEXT ID="2017200007" Text="Réaliser 1092 combos"/>
+<TEXT ID="2017200008" Text="Parlez à Saraya"/>
+<TEXT ID="2017200009" Text="Parlez à Marine"/>
+<TEXT ID="2017200101" Text="Allez dans les environs de la Zone de Forage"/>
+<TEXT ID="2017200102" Text="Kalkes de Metal"/>
+<TEXT ID="2017200111" Text="Harpies Blondes"/>
+<TEXT ID="2017200112" Text="Harpies Brunes"/>
+<TEXT ID="2017200121" Text="Esprits Chasseur"/>
+<TEXT ID="2017200122" Text="Esprits Pillard"/>
+<TEXT ID="2017200123" Text="Esprits Frappeur"/>
+<TEXT ID="2017200131" Text="Harpies pourpres"/>
+<TEXT ID="2017200132" Text="Drakes de Metal"/>
+<TEXT ID="2017200133" Text="Molosses de Metal"/>
+<TEXT ID="2017200014" Text="Parlez à Saraya"/>
+<TEXT ID="2017200015" Text="Parlez à Marine"/>
+<TEXT ID="2017200016" Text="Akanai"/>
+<TEXT ID="2017200017" Text="Parlez à Saraya"/>
+<TEXT ID="2017200181" Text="Pignons Mécaniques"/>
+<TEXT ID="2017200182" Text="Pignons Cuirassés"/>
+<TEXT ID="2017200183" Text="Satyres Laser"/>
+<TEXT ID="20172000191" Text="Piers Guard-SP"/>
+<TEXT ID="20172000192" Text="Barriques Cuirassées"/>
+<TEXT ID="20172000193" Text="Kalkes de Metal"/>
+<TEXT ID="2017200020" Text="Esprits Chasseur"/>
+<TEXT ID="2017200021" Text="Satyre"/>
+<TEXT ID="2017200023" Text="Allez aux alentours de l&#39;Allée des Tempêtes"/>
+<TEXT ID="2017200241" Text="Van Cliff"/>
+<TEXT ID="2017200242" Text="Esprits Pillards"/>
+<TEXT ID="2017200025" Text="Parlez à Saraya"/>
+<TEXT ID="2017200026" Text="Parlez à Kionesque"/>
+<TEXT ID="2017200271" Text="Elga P23"/>
+<TEXT ID="2017200272" Text="Avice B49"/>
+<TEXT ID="2017200273" Text="Lavalon Z9X"/>
+<TEXT ID="2017200274" Text="Mutisha Y8A"/>
+<TEXT ID="2017200281" Text="Titan de Glace"/>
+<TEXT ID="2017200282" Text="Titan de Feu"/>
+<TEXT ID="2017200283" Text="Titan Celeste"/>
+<TEXT ID="2017200029" Text="Prendre la récompense"/>
+<TEXT ID="2017200301" Text="Barbara"/>
+<TEXT ID="2017200302" Text="Pierrick"/>
+<TEXT ID="2017200303" Text="Marine"/>
+		<!-- DEBUT avant acceptation (DIALOG ID="101" TYPE="PROLOG")-->
+<TEXT ID="2017300001" Text="%name%, Bienvenue à Arcadia! %%
+Tu te doutes de quelque chose je suppose, c&#39;est un continent magnifique!"/>
+<TEXT ID="2017300002" Text="Bon, je pense qu&#39;il faut des personnes comme toi, reviens me voir dés que tu auras mis au courant Barbara, je vais avoir besoin de toi."/>
+<TEXT ID="2017300003" Text="%name%, tu es revenu, enfin! Je pense que nous allons devoir demander à Saraya de commencer les opérations."/>
+<TEXT ID="2017300005" Text="Ah, mais tu n&#39;es pas encore confirmé, va voir Pierrick afin de terminer ta formation!"/>
+<TEXT ID="2017300006" Text="Bon, tes bras ne m&#39;ont pas l&#39;air assez agité %%
+Va détruire des Sacs de Sables, présents spécialement pour toi, à Arcadia bien sûr!"/>
+<TEXT ID="2017300007" Text="Je me demande si t&#39;arriveras à tenir mentalement, %%
+dernier test!"/>
+<TEXT ID="2017300008" Text="Bon, Saraya veut te voir rapidement."/>
+<TEXT ID="2017300009" Text="Va voir la Capitaine, Marine, elle a une mission pour toi"/>
+<TEXT ID="2017300010" Text="Bien, il est l&#39;heure que tu découvres ce continent, va à la Zone de Forage et suis mes instructions"/>
+<TEXT ID="2017300011" Text="Nous nous sommes occupé des Kalkes de Metal, mais il restes les Harpies!"/>
+<TEXT ID="2017300012" Text="Les esprits ont décidé d&#39;aider ce peuple monstrueux!"/>
+<TEXT ID="2017300013" Text="On va terminer le nettoyage de la Station Alpha une bonne fois pour toute!"/>
+<TEXT ID="2017300014" Text="Nous pouvons nous féliciter, nous avons nettoyer l&#39;ouest du continent! %%
+Va le faire savoir à Saraya"/>
+<TEXT ID="2017300015" Text="Je ne doute pas de vous, mais la Station Alpha est toujours infectée!!! %%
+Le conseil suppose que Marine a oublié de vous demander de tuer le dirigeant de cette Station. Quelle incompétence!"/>
+<TEXT ID="2017300016" Text="J&#39;espère que tu es prêt, un grand défi t&#39;attend."/>
+<TEXT ID="2017300017" Text="Salut, ça fait un bail! Je suis enfin membre du Front! %%
+Mais j&#39;ai un petit problème...j&#39;ai trouvé une autre Station, la Station Beta!!!!! %%
+Il faut que tu demandes l&#39;autorisation à Saraya d&#39;y aller!!!"/>
+<TEXT ID="2017300018" Text="Bien! On commence par les plus faciles?!"/>
+<TEXT ID="2017300019" Text="Il y en a encore...c&#39;est l&#39;enfer!"/>
+<TEXT ID="2017300020" Text="Les satanés alliés des Arnakiens! %%
+Opss...c&#39;est le surnom que je leur donne, il faut exterminer ces esprits!!"/>
+<TEXT ID="2017300021" Text="Il ne reste que Satyre, celui qui dirige la Station Beta et tous les esprits!!"/>
+<TEXT ID="2017300023" Text="Arcadia est bien plus grand que l&#39;on pensait..."/>
+<TEXT ID="2017300024" Text="Une station abandonnée?! MON CUL OUI!!!"/>
+<TEXT ID="2017300025" Text="Tu as réussis...bravo...c&#39;est un honneur de te connaître!"/>
+<TEXT ID="2017300026" Text="Kionesque, un ami à moi, agent secret du Front Arcadien, veut te voir."/>
+<TEXT ID="2017300027" Text="Demi-dieu, prêt à faire face à ton destin?"/>
+<TEXT ID="2017300028" Text="Es-tu prêt à tuer ton Grand Père une bonne fois pour toute?"/>
+<TEXT ID="2017300029" Text="Tu as terminé ton destin, %name%  %%
+Il est maintenant temps de fermer la boîte et de se dire adieu."/>
+<TEXT ID="2017300030" Text="Je le savais depuis un bon moment que tu étais un demi-dieu, %class% %%
+J&#39;espère juste que tu ne feras pas les mêmes erreurs que tes ancêtres. %%
+N&#39;oublie pas que tout le monde mérite la vie, autant que les demi-dieux. %%
+Allez, fais un adieu à tes amis, le Front Arcadien est terminé et c&#39;est l&#39;heure des séparations."/>
+		<!-- QUAND LE MEC ACCEPTE LA QUETE (DIALOG ID="301")-->
+<TEXT ID="2017400001" Text="%class%, je te remercie de ton investissement."/>
+<TEXT ID="2017400002" Text="Merci de ton aide, comme toujours."/>
+<TEXT ID="2017400003" Text="Allons-y!"/>
+<TEXT ID="2017400005" Text="J&#39;espère que tu as toujours la forme, bonne chance!"/>
+<TEXT ID="2017400007" Text="D&#39;après Isophyr, on réussit ses combos avec des armes de bas niveaux (conseil)"/>
+<TEXT ID="2017400008" Text="Allez allez!"/>
+<TEXT ID="2017400009" Text="Bonne chance!"/>
+<TEXT ID="2017400010" Text="J&#39;espère que tu ne te perdras pas!"/>
+<TEXT ID="2017400014" Text="Merci!"/>
+<TEXT ID="2017400015" Text="Bien, bonne chance et à très vite."/>
+<TEXT ID="2017400017" Text="Merci! Je ne savais pas quoi faire..."/>
+<TEXT ID="2017400023" Text="Tiens moi au courant!"/>
+<TEXT ID="2017400025" Text="Courage pour la suite, c&#39;est surement la dernière fois qu&#39;on se voit."/>
+<TEXT ID="2017400026" Text="Puissions nous revoir, %class%"/>
+<TEXT ID="2017400030" Text="Je me demande d&#39;ou viennent ces machines? J&#39;ai le pressentiment qu&#39;Arcadia n&#39;a été que le début de l&#39;enfer."/>
+		<!-- QUAND LE MEC PARLE AU PNJ ALORS QU'IL A PAS FINI (DIALOG ID="501")-->
+<TEXT ID="2017500001" Text="%class%, Tu veux abandonner? Ce n&#39;est pourtant pas une tâche compliquée."/>
+<TEXT ID="2017500002" Text="Si tu te desistes, c&#39;est maintenant."/>
+<TEXT ID="2017500003" Text="Quoi? Tu as peur?! Toi ?"/>
+<TEXT ID="2017500005" Text="Je t&#39;en crois capable, je me trompe?"/>
+<TEXT ID="2017500006" Text="Tu ne te sens pas capable de détruire ces sacs?"/>
+<TEXT ID="2017500007" Text="Ces 1092 combos sont indispensables, désolé!"/>
+<TEXT ID="2017500008" Text="Tu attends quoi ?!"/>
+<TEXT ID="2017500009" Text="Je suis occupé."/>
+<TEXT ID="2017500010" Text="Ah? tu n&#39;a pas terminé!"/>
+<TEXT ID="2017500011" Text="Tu parles trop, agis!"/>
+<TEXT ID="2017500012" Text="Je n&#39;ai rien à ajouter."/>
+<TEXT ID="2017500013" Text="Quoi encore?! Rien."/>
+<TEXT ID="2017500014" Text="Alors?"/>
+<TEXT ID="2017500015" Text="Oui? %%
+Non."/>
+<TEXT ID="2017500016" Text="Tu veux abandonner?"/>
+<TEXT ID="2017500017" Text="Tu ne veux pas m&#39;aider?"/>
+<TEXT ID="2017500018" Text="Tu as du mal? Je ne peux pas encore t&#39;aider."/>
+<TEXT ID="2017500019" Text="Encore un peu, tiens bon!"/>
+<TEXT ID="2017500020" Text="Les fameux esprits, ils sont pas facile hein"/>
+<TEXT ID="2017500021" Text="Tu as peur? Moi aussi..."/>
+<TEXT ID="2017500023" Text="Tu ne sais pas ou c&#39;est? On m&#39;a dis qu&#39;une mini-station était le passage qui mène vers l&#39;Allée."/>
+<TEXT ID="2017500024" Text="Je crois que son nom est Van Cliff, fais attention à toi!"/>
+<TEXT ID="2017500025" Text="Je suis triste de te voir partir..."/>
+<TEXT ID="2017500026" Text="Des questions? Kionesque va te répondre"/>
+<TEXT ID="2017500027" Text="Tu es demi-dieu, je crois en toi!"/>
+<TEXT ID="2017500028" Text="Ton grand-père est le Titan Celeste, ça doit être difficile pour toi de l&#39;admettre!"/>
+<TEXT ID="2017500029" Text="..."/>
+		<!-- QUAND LE MEC PARLE AU PNJ QUIL DOIT VOIR (DIALOG ID="552")-->
+<TEXT ID="2017600001" Text="Eh bien...nous voilà! Une nouvelle menace est arrivée et on doit faire face une fois de plus. %%
+Tu ne sais rien de ce qui s&#39;est passé? %%
+Bien, je vais te résumer, ce continent d&#39;Arcadia est au dessus des continents de nos cartes. %%
+Il était contrôlé par les Spiritiens, des créatures bleues uniques crées par Pâris grâce à des fragments d&#39;Elga. %%
+Depuis, ces créatures ont crée ce territoire avec leur science unique, et des pierres aux pouvoirs uniques... %%
+Et ces pierres sont le centre du conflit qui risque la fin des Hommes... Arcadia se fait envahir!!"/>
+<TEXT ID="2017600002" Text="Oh! Tu es revenu, que peux-tu me dire à propos de ce continent remplie de secrets?"/>
+<TEXT ID="2017600003" Text="Qui es tu? %%
+Oh, une nouvelle recrue! Je suis le Chaman, le fondateur de ce groupe. %%
+Que veux-tu?"/>
+<TEXT ID="2017600005" Text="Maintenant que tu fais parties du Front, je dois te donner des épreuves."/>
+<TEXT ID="2017600008" Text="Merci d&#39;être venu, j&#39;ai une requête de la part de Marine"/>
+<TEXT ID="2017600009" Text="%class%, merci d&#39;être venu."/>
+<TEXT ID="2017600014" Text="Oh, vous avez nettoyé la zone?! bien joué!"/>
+<TEXT ID="2017600015" Text="Que me vaut votre visite? %%
+Quoi ?! Encore ?! %%
+Un boss? J&#39;aurai dû m&#39;en douter..."/>
+<TEXT ID="2017600017" Text="Que dis tu ?! %%
+Une autre Station... Oh non...
+Oui vous avez mon autorisation!"/>
+<TEXT ID="2017600025" Text="La station abandonnée, des esprits alliés à des machines, qui aurait cru? %%
+Les esprits voulaient probablement utiliser ces machines afin d&#39;avoir un corps mécanique, dommage pour eux, c'est raté! %%
+Mais...un mal redoutable est proche...il faut agir immédiatement!!"/>
+<TEXT ID="2017600026" Text="%name%, c&#39;est un honneur pour moi de te rencontrer... %%
+Tu ne sais pas ton origine, mais tu es le fils de mon créateur, Ryder, Le Dragon et le Dieu de Foudre %%
+Il a crée de nombreux enfants mais ce n&#39;est pas le problème... %%
+Tu es l&#39;un des seuls dans ce monde qui peut arrêter son père, donc ton grand père...le Titan Celeste! %%
+Il a été réssuscité par les esprits et les machines et il veut se venger de son fils en détruisant ses fils! %%
+Tu es le seul qui peut nous sauver, %name%. %%"/>
+<TEXT ID="2017600030" Text="%name%, j&#39;espère que tout ira bien pour toi."/>
+		<!--AVANT QUE LE MEC NE CONFIRME (DIALOG ID="601" TYPE="COMPLETE")-->
+<TEXT ID="2017700001" Text="Voilà, tu sais presque tout maintenant %name%."/>
+<TEXT ID="2017700002" Text="...Je n&#39;aurai jamais espéré ça, la magie de ce monde est sans limite..."/>
+<TEXT ID="2017700003" Text="Qui es tu? %%
+Oh, une nouvelle recrue! Je suis Saraya, le fondateur du Front Arcadien.
+Que veux-tu? %%
+Oui, ne vous inquietez pas. Nous allons commencer le nettoyage."/>
+<TEXT ID="2017600115" Text="Bien!"/>
+<TEXT ID="2017700005" Text="Tu es prêt à terminer ta formation?!"/>
+<TEXT ID="2017600006" Text="Oh, tu t&#39;en sors, tant mieux!"/>
+<TEXT ID="2017600007" Text="C&#39;était easy pizzy non ?! %%
+Tu es maintenant membre du Front Arcadien, BIENVENUE!"/>
+<TEXT ID="2017600010" Text="Oh, bien. Mais tu te doutes que les Kalkes de Metal ne sont pas seuls..."/>
+<TEXT ID="2017600011" Text="Wow, encore un peu et le génocide aurait été un succès!"/>
+<TEXT ID="2017600012" Text="Bon, une chose de faite!"/>
+<TEXT ID="2017600013" Text="Excellent! Il ne reste plus qu&#39;une seule chose..."/>
+<TEXT ID="2017610014" Text="Une petite chose me tracasse, reviens me voir."/>
+<TEXT ID="2017600016" Text="Fais attention à toi!"/>
+<TEXT ID="2017600117" Text="Sans vous, le monde serait déjà perdu, merci!"/>
+<TEXT ID="2017600018" Text="Tu as été rapide! J&#39;ai essayé mais...tu es bien plus fort que moi"/>
+<TEXT ID="2017600019" Text="Bravo, %name%!"/>
+<TEXT ID="2017600020" Text="Les esprits 0-1 %name%, tu as géré!"/>
+<TEXT ID="2017600021" Text="Pour moi,tu es mon capitaine, %name%"/>
+<TEXT ID="2017600023" Text="Oh non...encore des Arnakiens..."/>
+<TEXT ID="2017600024" Text="Oh my god...j&#39;ai vraiment cru que j&#39;allais te perdre!!!!"/>
+<TEXT ID="2017600029" Text="Ah, et si tu te posais la question, Elga était le jumeau de ton père, c&#39;est d&#39;ailleurs pour ça que tu as pu le tuer. %%
+Adieu, demi-dieu..."/>
+		<!-- INFORMATIONS DE QUETES (901 type INFO)-->
+<TEXT ID="2017800001" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Pierrick
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Pierrick (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois te rendre à {C=0xFF016295/}Arcadia{C=0xFF4D0D08/} pour savoir {C=0xFF016295/}les raisons de l&#39;émergence du problème imminent{C=0xFF4D0D08/}."/>
+<TEXT ID="2017800002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Revoir Barbara
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Recrue du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois reparler à Barbara pour le mettre au courant."/>
+<TEXT ID="2017800003" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Saraya
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois parler à Saraya pour que le Front Arcadien commence à se déployer."/>
+<TEXT ID="2017800005" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Pierrick
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Pierrick (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois parler à Pierrick afin de terminer ta formation"/>
+<TEXT ID="2017800006" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Détruire 25 Sacs de Sable
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Pierrick (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu commences ta formation! Détruis 25 Sacs de Sable présents à Arcadia."/>
+<TEXT ID="2017800007" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Réaliser 1092 combos!
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Pierrick (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu termines ta formation!
+Réalisez 1092 combos et reviens voir Pierrick."/>
+<TEXT ID="2017800008" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Saraya
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Saraya a besoin de toi, va le voir!"/>
+<TEXT ID="2017800009" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Marine
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine a une mission très importante pour toi, va la voir!"/>
+<TEXT ID="2017800010" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 20 Kalkes de Metal
+- Allez dans la Zone de Forage.
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine te demande d&#39;aller dans la Zone de Forage afin de tuer 20 Kalkes de Metal!"/>
+<TEXT ID="2017800011" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 20 Harpies Blondes
+- Tuez 20 Harpies Brunes
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine te demande d&#39;aller dans la Zone de Forage afin de tuer 20 Harpies Blondes et Brunes!"/>
+<TEXT ID="2017800012" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 20 Esprits Chasseur
+- Tuez 15 Esprits Pillard
+- Tuez 10 Esprits Frappeur
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine te demande de viser les esprits qui aident les machines."/>
+<TEXT ID="2017800013" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 20 Harpies Pourpres
+- Tuez 15 Drakes de Metal
+- Tuez 10 Molosses de Metal
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine vous demande de terminer le nettoyage de la Station Alpha"/>
+<TEXT ID="2017800014" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Saraya
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Allez faire votre rapport à Saraya"/>
+<TEXT ID="2017800015" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Marine
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Prevenez Marine de son erreur."/>
+<TEXT ID="2017800016" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Tuez Akanai
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Marine (Capitaine du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Marine veut que vous finissiez une bonne fois pour toute votre travail, tuez Akanai."/>
+<TEXT ID="2017800017" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez à Saraya
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut l&#39;autorisation de Saraya afin de nettoyer la Station Beta"/>
+<TEXT ID="2017800018" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 20 Pignons Mecaniques
+- Tuez 15 Pignons Cuirasses
+- Tuez 10 Satyres Laser
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous tuez 20 Pignons mécaniques,15 Pignons Cuirasses et 10 Satyres Laser présents dans la Station Beta"/>
+<TEXT ID="2017800019" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 15 Piers Guard-SP
+- Tuez 15 Barriques Cuirassees
+- Tuez 15 Kalkes de Metal
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous tuez 15 Piers Guard-SP, 15 Barriques Cuirassees et 15 Kalkes de Metal présents dans la Station Beta"/>
+<TEXT ID="2017800020" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez 30 Esprits Chasseur dans la Station Beta
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous tuez 30 esprits chasseur présents dans la Station Beta!"/>
+<TEXT ID="2017800021" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez Satyre
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous tuez Satyre, le dirigeant de la Station Beta!"/>
+<TEXT ID="2017800023" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Allez aux alentours de l&#39;Allée des Tempêtes.
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous vérifiez la nouvelle zone que le Front a découvers, l&#39;Allée des Tempêtes!"/>
+<TEXT ID="2017800024" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez Van Cliff (3x), le chef des esprits (allié des Arnakiens)
+- Tuez 30 Esprits Pillards
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara veut que vous tuez le Chef des esprits (station abandonnée) 3 fois et 30 Esprits Pillands, pour être sûr que ce fantôme ne revienne pas avec ses troupes!"/>
+<TEXT ID="2017800025" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Parlez à Saraya 
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Barbara vous demande de faire votre rapport, et vous dis un gros au revoir."/>
+<TEXT ID="2017800026" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Parlez à Kionesque
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Kionesque (Agent secret du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Kionesque a une révélation pour vous, allez le voir."/>
+<TEXT ID="2017800027" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez Elga P23, le clone des Esprits tenebreux
+- Tuez Avice B49, le clone des Esprits givrant
+- Tuez Lavalon Z9X, le clone des Esprits enflammés
+- Tuez Mutisha Y8A, le clone des Esprits terrestres
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Kionesque (Agent secret du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tuez les 4 clones des 4 éléments qui protègent votre grand père."/>
+<TEXT ID="2017800028" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Tuez le Titan de Glace
+- Tuez le Titan de Feu
+- Tuez le Titan Celeste, votre Grand Père
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Kionesque (Agent secret du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tuez votre Grand père et les deux autres titans qui veulent détruire l&#39;Humanité."/>
+<TEXT ID="2017800029" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Kionesque a des cadeaux pour toi, fais en bonne usage!
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Kionesque (Agent secret du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La Mission Arcadia se termine, Kionesque vous donne les récompenses."/>
+<TEXT ID="2017800291" Text="Erreur, verifiez votre place dans votre inventaire ou autre chose"/>
+		<!-- 902 PAS BESOIN DE TOUCHER-->
+		<!-- 903 PAS BESOIN DE TOUCHER-->
+<!--_________________________________________________________________________________________________________-->
+<!--											PARLER A PLUSIEURS PERSONNES								-->
+<!--_________________________________________________________________________________________________________-->
+<!-- CONSIGNES DE QUETES brève(object NOSTEP apres EVENT)-->
+<TEXT ID="2017200041" Text="Parlez à Barbara"/>
+<TEXT ID="2017200042" Text="Parlez à Pierrick"/>
+<TEXT ID="2017200043" Text="Parlez à Saraya"/>
+<TEXT ID="2017200044" Text="Parlez à Homer"/>
+<TEXT ID="2017200045" Text="Parlez à Marine"/>
+<TEXT ID="2017200221" Text="Parlez à Saraya"/>
+<TEXT ID="2017200222" Text="Parlez à Marine"/>
+		<!-- DEBUT avant acceptation (DIALOG ID="101" TYPE="PROLOG")-->
+<TEXT ID="2017300004" Text="toi et Barbara avez raison! %%
+Nous devons commencer la résistance! Il faut mettre au courant les membres présents à Arcadia!"/>
+<TEXT ID="2017300022" Text="Il n&#39;y a plus qu&#39;à se féliciter auprès des dirigeants de notre groupe!"/>
+		<!-- QUAND LE MEC ACCEPTE LA QUETE (DIALOG ID="301")-->
+<TEXT ID="2017400004" Text="Nous sommes composé de toutes sortes de personnes à différents endroits d&#39;Arcadia. %%
+Va donc les tenir au courant qu&#39;ils doivent se tenir prêt face à des représailles des machines, et vois si ils ont changé d&#39;avis ou pas."/>
+		<!-- QUAND LE MEC REFUSE LA QUETE (DIALOG ID="401")-->
+<TEXT ID="2017900004" Text="Si tel est ton souhait, vas-t-en!"/>
+<TEXT ID="2017900006" Text="Tu es faible et tu le resteras!"/>
+<TEXT ID="2017900007" Text="Je m&#39;en doutais, tu ne sais pas réfléchir!"/>
+<TEXT ID="2017900010" Text="Tu nous laisses tomber, hahahaha!"/>
+<TEXT ID="2017900011" Text="Faible!"/>
+<TEXT ID="2017900012" Text="Tant pis..."/>
+<TEXT ID="2017900013" Text="Très bien."/>
+<TEXT ID="2017900016" Text="Je te comprend, mon ami."/>
+<TEXT ID="2017900018" Text="Mais....je n&#39;ai que toi!!!!"/>
+<TEXT ID="2017900019" Text="Bon...beh ok!"/>
+<TEXT ID="2017900020" Text="Esprits 1-0 %name%"/>
+<TEXT ID="2017900021" Text="Je te comportais comme mon capitaine...mais tu n&#39;es qu&#39;un lâche!!!!"/>
+<TEXT ID="2017900022" Text="Tu ne veux pas te faire complimenter? Je peux y aller à ta place!"/>
+<TEXT ID="2017900023" Text="Hum...ton combat s&#39;arrête?"/>
+<TEXT ID="2017900024" Text="J&#39;espère que les esprits vont te hanter!!!!"/>
+<TEXT ID="2017900027" Text="Tu mourras comme nous tous tu sais..."/>
+<TEXT ID="2017900028" Text="Traitre............"/>
+<TEXT ID="2017900029" Text="Ne refuse pas ce cadeau, %name%"/>
+<TEXT ID="2017900030" Text="Tu ne veux pas leur dire adieu? Je vois"/>
+		<!-- QUAND LE MEC PARLE AU PNJ ALORS QU'IL A PAS FINI (DIALOG ID="501")-->
+<TEXT ID="2017500004" Text="Peut être que des membres vont se désister?"/>
+		<!-- QUAND LE MEC CONFIRME LA QUETE (DIALOG ID="601" TYPE="COMPLETE")-->
+<TEXT ID="2017700004" Text="Oh, je ne m&#39;attendais pas à ce que Homer, notre sponsor officiel change d&#39;avis. %%
+Bien, ça fera l&#39;affaire avec toi et le reste, merci!"/>
+		<!-- INFORMATIONS DE QUETES (901 type INFO)-->
+<TEXT ID="2017800004" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Parlez aux différents membres du Front Arcadien.
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Saraya (Fondateur du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois demander aux membres du Front Arcadien si ils veulent toujours suivre Saraya ou non."/>
+<TEXT ID="2017800022" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Parlez à Saraya
+- Parlez à Marine
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois mettre au courant Saraya et Marine du nettoyage de la Station Beta"/>
+<TEXT ID="2017800030" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+- Parlez à Barbara
+- Parlez à Pierrick
+- Parlez à Marine
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Arcadia - Barbara (Membre du Front Arcadien)
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Tu dois mettre au courant Saraya et Marine du nettoyage de la Station Beta"/>
+		<!-- 904,905,906,907,908 REPONSE DES PNJS DANS L'ORDRE (Barbara,2,3,4,5)-->
+<TEXT ID="2018000041" Text="Je suivrai Saraya jusqu&#39;au bout!"/>
+<TEXT ID="2018000042" Text="Saraya et moi sommes des amis, je serai à ses côtés, et avec vous, %class%!"/>
+<TEXT ID="2018000043" Text="J&#39;ai murement réfléchis et je me désiste...j&#39;ai des enfants, et une femme!"/>
+<TEXT ID="2018000044" Text="Je mourrai pour la paix!"/>
+<TEXT ID="2018000045" Text="Qu&#39;est-ce-qu&#39;on attend?!"/>
+<TEXT ID="2018000441" Text="Barbara"/>
+<TEXT ID="2018000442" Text="Violetta"/>
+<TEXT ID="2018000443" Text="Homer"/>
+<TEXT ID="2018000444" Text="Marine"/>
+<TEXT ID="2018000445" Text="Rachelle"/>
+<TEXT ID="2018000221" Text="Je vois, je te remercie. Tu mérites largement ta place parmis nous"/>
+<TEXT ID="2018000222" Text="Putin! Je suis fier de toi! C&#39;est moi qui t&#39;ai formé, n&#39;oublie pas"/>
+<TEXT ID="2018000301" Text="Adieu, mon ami...si un jour tu t&#39;ennuis, viens me voir!!"/>
+<TEXT ID="2018000302" Text="Maintenant qu&#39;Arcadia est nettoyé, il faut le peupler! Adieu, %name%"/>
+<TEXT ID="2018000303" Text="Sache que la prophétie ne s&#39;est pas terminée. Adieu, %class%"/>
+<TEXT ID="1018999100" Text="Gagne des DPs et un orbe ExCo !"/>
+<TEXT ID="1018999101" Text="Paris"/>
+<TEXT ID="1018999103" Text="Chef de Bande"/>
+<TEXT ID="1018999105" Text="Casharp"/>
+<TEXT ID="1018999102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Tuez Paris
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Steven
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Steven veut que vous finissez une bonne fois pour toute votre travail, tuez Paris."/>
+<TEXT ID="1018999104" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Tuez le Chef de Bande dans la zone de mission du Chemin des Cieux
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Steven
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Steven veut que vous finissez une bonne fois pour toute votre travail, tuez le Chef de Bande."/>
+<TEXT ID="1018999106" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+ 
+Tuez Casharp dans la zone de mission au Bord du Monde
+ 
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Steven
+ 
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Steven veut que vous finissez une bonne fois pour toute votre travail, tuez Casharp."/>
+</TEXT_TABLE>

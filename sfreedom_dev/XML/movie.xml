@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<MOVIE>
+<!--ID "��ü����", TYPE "2" �÷���, "4" WMV, "3" ������ ��üȭ�� �ƴ� ������ ��� TIME ���� �� �� ����. -->
+	<ITEM ID="fighter" TYPE="4" TIME="240">../Movie/Archer.wmv</ITEM>
+	<ITEM ID="magician" TYPE="4" TIME="240">../Movie/Archer.wmv</ITEM>
+	<ITEM ID="thief" TYPE="4" TIME="240">../Movie/Archer.wmv</ITEM>
+	<ITEM ID="archer" TYPE="4" TIME="240">../Movie/Archer.wmv</ITEM>
+	<ITEM ID="opening" TYPE="4" TIME="240">../Movie/OpeningMovie.wmv</ITEM>
+	<ITEM ID="2DIntro" TYPE="4" TIME="240">../Movie/2D Intro Trailer.wmv</ITEM>
+
+	<ITEM ID="Scenario_part_chaos" TYPE="2" TIME="300">../Movie/flash/part_chaos.swf</ITEM> <!-- ���Ҹ����� -->
+	<ITEM ID="Scenario_part_wind" TYPE="2" TIME="300">../Movie/flash/part_wind.swf</ITEM> <!-- �ٶ����ױ� -->
+	<ITEM ID="Scenario_part_moonLight" TYPE="2" TIME="300">../Movie/flash/part_moonLight.swf</ITEM> <!-- �޺��ؾȸ��� -->
+	<ITEM ID="Scenario_part_merchant" TYPE="2" TIME="300">../Movie/flash/part_merchant.swf</ITEM> <!-- �����Ǹ��� -->
+	<ITEM ID="Scenario_part_kazura" TYPE="2" TIME="300">../Movie/flash/part_kazura.swf</ITEM> <!-- ī����� -->
+	<ITEM ID="Scenario_part_mashroom" TYPE="2" TIME="300">../Movie/flash/part_mashroom.swf</ITEM> <!-- �������� -->
+	<ITEM ID="Scenario_part_ellora" TYPE="2" TIME="300">../Movie/flash/part_ellora.swf</ITEM> <!-- ���ζ��ֵ��� -->
+	<ITEM ID="Scenario_part_fog" TYPE="2" TIME="300">../Movie/flash/part_fog.swf</ITEM> <!-- �����Ȱ����� -->
+
+	<ITEM ID="Combo_Fighter" TYPE="3" TIME="8">../Movie/QuestMovie/fighter_combo.wmv</ITEM>
+	<ITEM ID="Combo_Magician" TYPE="3" TIME="8">../Movie/QuestMovie/Magician_combo.wmv</ITEM>
+	<ITEM ID="Combo_Archer" TYPE="3" TIME="8">../Movie/QuestMovie/Archer_combo.wmv</ITEM>
+	<ITEM ID="Combo_Thief" TYPE="3" TIME="8">../Movie/QuestMovie/Thief_combo.wmv</ITEM>
+	<ITEM ID="Mistelf_ending" TYPE="2" TIME="300">../Movie/QuestMovie/45lvDG.swf</ITEM>
+	<ITEM ID="DarkToenail" TYPE="2" TIME="300">../Movie/QuestMovie/newF.swf</ITEM>
+	<ITEM ID="valentine" TYPE="2" TIME="300">../Movie/QuestMovie/valentine.swf</ITEM>
+
+
+</MOVIE>

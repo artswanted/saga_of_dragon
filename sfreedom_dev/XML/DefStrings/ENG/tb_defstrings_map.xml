@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="0" Text="Black Hole"/>
+<TEXT ID="90909" Text="Exclusive PvP Test Map"/>
+<TEXT ID="9002000" Text="Chaos"/>
+<TEXT ID="9010100" Text="Bearded Whale Coast"/>
+<TEXT ID="9010101" Text="Bearded Whale Coast Arcade 1"/>
+<TEXT ID="9010102" Text="Bearded Whale Coast Arcade 2"/>
+<TEXT ID="9010103" Text="Bearded Whale Coast Arcade 3"/>
+<TEXT ID="9010104" Text="Bearded Whale Coast Arcade 4"/>
+<TEXT ID="9010105" Text="Bearded Whale Coast Arcade 5"/>
+<TEXT ID="9010106" Text="Bearded Whale Coast Arcade 6"/>
+<TEXT ID="9010107" Text="Bearded Whale Coast Arcade 7"/>
+<TEXT ID="9010108" Text="Bearded Whale Coast Arcade 8"/>
+<TEXT ID="9010109" Text="Captain Hookah Villa"/>
+<TEXT ID="9010110" Text="Jigsaw Pincers Coast"/>
+<TEXT ID="9010120" Text="Decker Shark Piers"/>
+<TEXT ID="9010121" Text="Decker Shark Mission 1"/>
+<TEXT ID="9010122" Text="Decker Shark Mission 2"/>
+<TEXT ID="9010123" Text="Decker Shark Mission 3"/>
+<TEXT ID="9010124" Text="Decker Shark Mission 4"/>
+<TEXT ID="9010125" Text="Decker Shark Mission 5"/>
+<TEXT ID="9010126" Text="Decker Shark Mission 6"/>
+<TEXT ID="9010127" Text="Decker Shark Mission 7"/>
+<TEXT ID="9010128" Text="Decker Shark Mission 8"/>
+<TEXT ID="9010129" Text="Decker Shark Mission 9"/>
+<TEXT ID="9010130" Text="Steven Trading Port"/>
+<TEXT ID="9010131" Text="Steven Trading Port Arcade 1"/>
+<TEXT ID="9010132" Text="Steven Trading Port Arcade 2"/>
+<TEXT ID="9010133" Text="Steven Trading Port Arcade 3"/>
+<TEXT ID="9010134" Text="Steven Trading Port Arcade 4"/>
+<TEXT ID="9010135" Text="Steven Trading Port Arcade 5"/>
+<TEXT ID="9010136" Text="Steven Trading Port Arcade 6"/>
+<TEXT ID="9010137" Text="Steven Trading Port Arcade 7"/>
+<TEXT ID="9010138" Text="Steven Trading Port Arcade 8"/>
+<TEXT ID="9010139" Text="Furious Captain Alvida"/>
+<TEXT ID="9010140" Text="Nautilus Port"/>
+<TEXT ID="9010150" Text="Kalygon Fleet"/>
+<TEXT ID="9010151" Text="Kalygon Fleet Arcade 1"/>
+<TEXT ID="9010152" Text="Kalygon Fleet Arcade 2"/>
+<TEXT ID="9010153" Text="Kalygon Fleet Arcade 3"/>
+<TEXT ID="9010154" Text="Kalygon Fleet Arcade 4"/>
+<TEXT ID="9010155" Text="Kalygon Fleet Arcade 5"/>
+<TEXT ID="9010156" Text="Kalygon Fleet Arcade 6"/>
+<TEXT ID="9010157" Text="Kalygon Fleet Arcade 7"/>
+<TEXT ID="9010158" Text="Kalygon Fleet Arcade 8"/>
+<TEXT ID="9010159" Text="Crazy Kalygon Captain"/>
+<TEXT ID="9010190" Text="Martini Shore"/>
+<TEXT ID="9010200" Text="Milkyway Sanctuary"/>
+<TEXT ID="9010201" Text="Milkyway Sanctuary Arcade 1"/>
+<TEXT ID="9010202" Text="Milkyway Sanctuary Arcade 2"/>
+<TEXT ID="9010203" Text="Milkyway Sanctuary Arcade 3"/>
+<TEXT ID="9010204" Text="Milkyway Sanctuary Arcade 4"/>
+<TEXT ID="9010205" Text="Milkyway Sanctuary Arcade 5"/>
+<TEXT ID="9010206" Text="Milkyway Sanctuary Arcade 6"/>
+<TEXT ID="9010207" Text="Milkyway Sanctuary Arcade 7"/>
+<TEXT ID="9010208" Text="Milkyway Sanctuary Arcade 8"/>
+<TEXT ID="9010209" Text="Evil Spirit Artis"/>
+<TEXT ID="9010210" Text="Skypie Sanctuary"/>
+<TEXT ID="9010211" Text="Skypie Sanctuary Arcade 1"/>
+<TEXT ID="9010212" Text="Skypie Sanctuary Arcade 2"/>
+<TEXT ID="9010213" Text="Skypie Sanctuary Arcade 3"/>
+<TEXT ID="9010214" Text="Skypie Sanctuary Arcade 4"/>
+<TEXT ID="9010215" Text="Skypie Sanctuary Arcade 5"/>
+<TEXT ID="9010216" Text="Skypie Sanctuary Arcade 6"/>
+<TEXT ID="9010217" Text="Skypie Sanctuary Arcade 7"/>
+<TEXT ID="9010218" Text="Skypie Sanctuary Arcade 8"/>
+<TEXT ID="9010219" Text="Evil Spirit, the Dead Master"/>
+<TEXT ID="9010220" Text="Belkan Sanctuary"/>
+<TEXT ID="9010221" Text="Belkan Sanctuary Mission 1"/>
+<TEXT ID="9010222" Text="Belkan Sanctuary Mission 2"/>
+<TEXT ID="9010223" Text="Belkan Sanctuary Mission 3"/>
+<TEXT ID="9010224" Text="Belkan Sanctuary Mission 4"/>
+<TEXT ID="9010225" Text="Belkan Sanctuary Mission 5"/>
+<TEXT ID="9010226" Text="Belkan Sanctuary Mission 6"/>
+<TEXT ID="9010227" Text="Belkan Sanctuary Mission 7"/>
+<TEXT ID="9010228" Text="Belkan Sanctuary Mission 8"/>
+<TEXT ID="9010229" Text="Belkan Sanctuary Mission 9"/>
+<TEXT ID="9010230" Text="Parmir Sanctuary"/>
+<TEXT ID="9010231" Text="Parmir Sanctuary Mission 1"/>
+<TEXT ID="9010232" Text="Parmir Sanctuary Mission 2"/>
+<TEXT ID="9010233" Text="Parmir Sanctuary Mission 3"/>
+<TEXT ID="9010234" Text="Parmir Sanctuary Mission 4"/>
+<TEXT ID="9010235" Text="Parmir Sanctuary Mission 5"/>
+<TEXT ID="9010236" Text="Parmir Sanctuary Mission 6"/>
+<TEXT ID="9010237" Text="Parmir Sanctuary Mission 7"/>
+<TEXT ID="9010238" Text="Parmir Sanctuary Mission 8"/>
+<TEXT ID="9010239" Text="Parmir Sanctuary Mission 9"/>
+<TEXT ID="9010300" Text="Windia Plains"/>
+<TEXT ID="9010301" Text="Windia Plains Arcade 1"/>
+<TEXT ID="9010302" Text="Windia Plains Arcade 2"/>
+<TEXT ID="9010303" Text="Windia Plains Arcade 3"/>
+<TEXT ID="9010304" Text="Windia Plains Arcade 4"/>
+<TEXT ID="9010305" Text="Windia Plains Arcade 5"/>
+<TEXT ID="9010306" Text="Windia Plains Arcade 6"/>
+<TEXT ID="9010307" Text="Windia Plains Arcade 7"/>
+<TEXT ID="9010308" Text="Windia Plains Arcade 8"/>
+<TEXT ID="9010309" Text="Breathless Vegabond"/>
+<TEXT ID="9010310" Text="North Windia Plains"/>
+<TEXT ID="9010320" Text="South Windia Plains"/>
+<TEXT ID="9010330" Text="Advanced Windia Plains"/>
+<TEXT ID="9010331" Text="Windia Plains Arcade 1"/>
+<TEXT ID="9010332" Text="Advanced Windia Plains Arcade 2"/>
+<TEXT ID="9010333" Text="Advanced Windia Plains Arcade 3"/>
+<TEXT ID="9010334" Text="Advanced Windia Plains Arcade 4"/>
+<TEXT ID="9010335" Text="Advanced Windia Plains Arcade 5"/>
+<TEXT ID="9010336" Text="Advanced Windia Plains Arcade 6"/>
+<TEXT ID="9010337" Text="Advanced Windia Plains Arcade 7"/>
+<TEXT ID="9010338" Text="Advanced Windia Plains Arcade 8"/>
+<TEXT ID="9010339" Text="Wild Vega"/>
+<TEXT ID="9010400" Text="Traitor&#39;s Ridge"/>
+<TEXT ID="9010401" Text="Traitor&#39;s Ridge Arcade 1"/>
+<TEXT ID="9010402" Text="Traitor&#39;s Ridge Arcade 2"/>
+<TEXT ID="9010403" Text="Traitor&#39;s Ridge Arcade 3"/>
+<TEXT ID="9010404" Text="Traitor&#39;s Ridge Arcade 4"/>
+<TEXT ID="9010405" Text="Traitor&#39;s Ridge Arcade 5"/>
+<TEXT ID="9010406" Text="Traitor&#39;s Ridge Arcade 6"/>
+<TEXT ID="9010407" Text="Traitor&#39;s Ridge Arcade 7"/>
+<TEXT ID="9010408" Text="Traitor&#39;s Ridge Arcade 8"/>
+<TEXT ID="9010409" Text="Giant Axe Brother Sangka"/>
+<TEXT ID="9010410" Text="Howling Wind&#39;s Hill"/>
+<TEXT ID="9010420" Text="Wailing Hill"/>
+<TEXT ID="9010430" Text="Canyon of Oblivion"/>
+<TEXT ID="9010431" Text="Canyon of Oblivion Arcade 1"/>
+<TEXT ID="9010432" Text="Canyon of Oblivion Arcade 2"/>
+<TEXT ID="9010433" Text="Canyon of Oblivion Arcade 3"/>
+<TEXT ID="9010434" Text="Canyon of Oblivion Arcade 4"/>
+<TEXT ID="9010435" Text="Canyon of Oblivion Arcade 5"/>
+<TEXT ID="9010436" Text="Canyon of Oblivion Arcade 6"/>
+<TEXT ID="9010437" Text="Canyon of Oblivion Arcade 7"/>
+<TEXT ID="9010438" Text="Canyon of Oblivion Arcade 8"/>
+<TEXT ID="9010439" Text="Giant Axe Brother Kunkah"/>
+<TEXT ID="9010440" Text="Silky Wave Coast "/>
+<TEXT ID="9010450" Text="Howling Wind&#39;s Hill Wolves&#39; Den"/>
+<TEXT ID="9010460" Text="Wailing Hill Wolves&#39; Den"/>
+<TEXT ID="9010501" Text="Dr. Farrell&#39;s Mansion Entrance"/>
+<TEXT ID="9010502" Text="City Hall Sewer"/>
+<TEXT ID="9010503" Text="Dr. Farrell&#39;s Laboratory"/>
+<TEXT ID="9010600" Text="Dangerous Caverns"/>
+<TEXT ID="9010601" Text="Dangerous Caverns Arcade 1"/>
+<TEXT ID="9010602" Text="Dangerous Caverns Arcade 2"/>
+<TEXT ID="9010603" Text="Dangerous Caverns Arcade 3"/>
+<TEXT ID="9010604" Text="Dangerous Caverns Arcade 4"/>
+<TEXT ID="9010605" Text="Dangerous Caverns Arcade 5"/>
+<TEXT ID="9010606" Text="Dangerous Caverns Arcade 6"/>
+<TEXT ID="9010607" Text="Dangerous Caverns Arcade 7"/>
+<TEXT ID="9010608" Text="Dangerous Caverns Arcade 8"/>
+<TEXT ID="9010609" Text="Mambo Raccoon Ahtoo"/>
+<TEXT ID="9010610" Text="Culvert "/>
+<TEXT ID="9010620" Text="Mining Area"/>
+<TEXT ID="9010701" Text="Temple of Water"/>
+<TEXT ID="9010708" Text="Temple of Water"/>
+<TEXT ID="9010709" Text="Spirit of Water Endairon"/>
+<TEXT ID="9010801" Text="Specter&#39;s Tower"/>
+<TEXT ID="9010809" Text="Altar of Hero"/>
+<TEXT ID="9010910" Text="Lv.30 Underground Graveyard"/>
+<TEXT ID="9010920" Text="Lv.35 Underground Graveyard"/>
+<TEXT ID="9012100" Text="Dark Bearded Whale Coast"/>
+<TEXT ID="9012101" Text="Bearded Whale Coast Chaos 1"/>
+<TEXT ID="9012102" Text="Bearded Whale Coast Chaos 2"/>
+<TEXT ID="9012103" Text="Bearded Whale Coast Chaos 3"/>
+<TEXT ID="9012104" Text="Bearded Whale Coast Chaos 4"/>
+<TEXT ID="9012105" Text="Bearded Whale Coast Chaos 5"/>
+<TEXT ID="9012106" Text="Bearded Whale Coast Chaos 6"/>
+<TEXT ID="9012107" Text="Bearded Whale Coast Chaos 7"/>
+<TEXT ID="9012108" Text="Bearded Whale Coast Chaos 8"/>
+<TEXT ID="9012109" Text="Dark Captain Hookah Villa"/>
+<TEXT ID="9012130" Text="Dark Steven Trading Port"/>
+<TEXT ID="9012131" Text="Steven Trading Port Chaos 1"/>
+<TEXT ID="9012132" Text="Steven Trading Port Chaos 2"/>
+<TEXT ID="9012133" Text="Steven Trading Port Chaos 3"/>
+<TEXT ID="9012134" Text="Steven Trading Port Chaos 4"/>
+<TEXT ID="9012135" Text="Steven Trading Port Chaos 5"/>
+<TEXT ID="9012136" Text="Steven Trading Port Chaos 6"/>
+<TEXT ID="9012137" Text="Steven Trading Port Chaos 7"/>
+<TEXT ID="9012138" Text="Steven Trading Port Chaos 8"/>
+<TEXT ID="9012139" Text="Dark Furious Captain Alvida"/>
+<TEXT ID="9012150" Text="Dark Kalygon Fleet"/>
+<TEXT ID="9012151" Text="Kalygon Fleet Chaos 1"/>
+<TEXT ID="9012152" Text="Kalygon Fleet Chaos 2"/>
+<TEXT ID="9012153" Text="Kalygon Fleet Chaos 3"/>
+<TEXT ID="9012154" Text="Kalygon Fleet Chaos 4"/>
+<TEXT ID="9012155" Text="Kalygon Fleet Chaos 5"/>
+<TEXT ID="9012156" Text="Kalygon Fleet Chaos 6"/>
+<TEXT ID="9012157" Text="Kalygon Fleet Chaos 7"/>
+<TEXT ID="9012158" Text="Kalygon Fleet Chaos 8"/>
+<TEXT ID="9012159" Text="Dark Mad Kalygon Captain"/>
+<TEXT ID="9012200" Text="Dark Milkyway Sanctuary"/>
+<TEXT ID="9012201" Text="Milkyway Sanctuary Chaos 1"/>
+<TEXT ID="9012202" Text="Milkyway Sanctuary Chaos 2"/>
+<TEXT ID="9012203" Text="Milkyway Sanctuary Chaos 3"/>
+<TEXT ID="9012204" Text="Milkyway Sanctuary Chaos 4"/>
+<TEXT ID="9012205" Text="Milkyway Sanctuary Chaos 5"/>
+<TEXT ID="9012206" Text="Milkyway Sanctuary Chaos 6"/>
+<TEXT ID="9012207" Text="Milkyway Sanctuary Chaos 7"/>
+<TEXT ID="9012208" Text="Milkyway Sanctuary Chaos 8"/>
+<TEXT ID="9012209" Text="Death Master Spirit"/>
+<TEXT ID="9012211" Text="Skypie Sanctuary Chaos 1"/>
+<TEXT ID="9012212" Text="Dark Skypie Sanctuary"/>
+<TEXT ID="9012213" Text="Skypie Sanctuary Chaos 3"/>
+<TEXT ID="9012214" Text="Skypie Sanctuary Chaos 4"/>
+<TEXT ID="9012216" Text="Skypie Sanctuary Chaos 6"/>
+<TEXT ID="9012217" Text="Skypie Sanctuary Chaos 7"/>
+<TEXT ID="9012218" Text="Skypie Sanctuary Chaos 8"/>
+<TEXT ID="9012219" Text="Evil Spirit, the Dead Master"/>
+<TEXT ID="9012300" Text="Windia Plains"/>
+<TEXT ID="9012301" Text="Streets of Beast"/>
+<TEXT ID="9012302" Text="Sunflower Garden"/>
+<TEXT ID="9012303" Text="Windmill Fields"/>
+<TEXT ID="9012304" Text="Empty Pumpkin Garden"/>
+<TEXT ID="9012305" Text="Sheep Rush"/>
+<TEXT ID="9012306" Text="Isolated Village"/>
+<TEXT ID="9012307" Text="Madlin Ruins"/>
+<TEXT ID="9012308" Text="Invader"/>
+<TEXT ID="9012309" Text="Breathless Vegabond"/>
+<TEXT ID="9012330" Text="Advanced Windia Plains"/>
+<TEXT ID="9012331" Text="Seed Garden"/>
+<TEXT ID="9012332" Text="Shepherd Boy"/>
+<TEXT ID="9012333" Text="Windia Hills"/>
+<TEXT ID="9012334" Text="Pumpkin Plantation"/>
+<TEXT ID="9012335" Text="Rams&#39; Anger"/>
+<TEXT ID="9012336" Text="Longing for the Village"/>
+<TEXT ID="9012337" Text="Rebuilding the Village"/>
+<TEXT ID="9012338" Text="Street of Challenge"/>
+<TEXT ID="9012339" Text="Wild Vega"/>
+<TEXT ID="9012400" Text="Traitor&#39;s Ridge"/>
+<TEXT ID="9012401" Text="Rumored Forest"/>
+<TEXT ID="9012402" Text="Wolf Road"/>
+<TEXT ID="9012403" Text="Execution Hill"/>
+<TEXT ID="9012404" Text="Ridge of Shadows"/>
+<TEXT ID="9012405" Text="Repositorium"/>
+<TEXT ID="9012406" Text="Ridge of Echos"/>
+<TEXT ID="9012407" Text="Windy Road"/>
+<TEXT ID="9012408" Text="Thieves&#39; Den"/>
+<TEXT ID="9012409" Text="Giant Axe Brother Sangka"/>
+<TEXT ID="9012432" Text="Mark of the Wolf"/>
+<TEXT ID="9012433" Text="Wailing Ridge"/>
+<TEXT ID="9012434" Text="Kunkah&#39;s Warehouse"/>
+<TEXT ID="9012435" Text="Thieves&#39; Den"/>
+<TEXT ID="9012436" Text="Mark of the Fugitive"/>
+<TEXT ID="9012437" Text="Swaying Reed"/>
+<TEXT ID="9012438" Text="Pillager&#39;s Graveyard"/>
+<TEXT ID="9012439" Text="Giant Axe Brother Kunkah"/>
+<TEXT ID="9012600" Text="Dark Dangerous Caverns"/>
+<TEXT ID="9012601" Text="Dangerous Caverns Chaos 1"/>
+<TEXT ID="9012602" Text="Dangerous Caverns Chaos 2"/>
+<TEXT ID="9012603" Text="Dangerous Caverns Chaos 3"/>
+<TEXT ID="9012604" Text="Dangerous Caverns Chaos 4"/>
+<TEXT ID="9012605" Text="Dangerous Caverns Chaos 5"/>
+<TEXT ID="9012606" Text="Dangerous Caverns Chaos 6"/>
+<TEXT ID="9012607" Text="Dangerous Caverns Chaos 7"/>
+<TEXT ID="9012608" Text="Dangerous Caverns Chaos 8"/>
+<TEXT ID="9012609" Text="Dark Mambo Raccoon Ahtoo"/>
+<TEXT ID="9013100" Text="Wrath of Nautilus"/>
+<TEXT ID="9013200" Text="Dangerous Meca"/>
+<TEXT ID="9013300" Text="Crisis of Wind Plains"/>
+<TEXT ID="9013400" Text="Bandits&#39; Hide-out"/>
+<TEXT ID="9013600" Text="Barlok&#39;s Lair"/>
+<TEXT ID="9014101" Text="Bearded Whale Coast"/>
+<TEXT ID="9014102" Text="Disordered Port"/>
+<TEXT ID="9014131" Text="Steven Trading Port"/>
+<TEXT ID="9014132" Text="Ocean Grave"/>
+<TEXT ID="9014139" Text="Steven Trading Port Defense Mode"/>
+<TEXT ID="9014150" Text="Kalygon Fleet Defense Mode"/>
+<TEXT ID="9014200" Text="Paris Extermination"/>
+<TEXT ID="9014201" Text="Silent Sanctuary"/>
+<TEXT ID="9014202" Text="Forgotten Temple"/>
+<TEXT ID="9014209" Text="Milkyway Sanctuary Defense Mode"/>
+<TEXT ID="9014219" Text="Skypie Sanctuary Defense Mode"/>
+<TEXT ID="9014301" Text="Streets of Beast"/>
+<TEXT ID="9014333" Text="Wind Hills"/>
+<TEXT ID="9014400" Text="Haruka&#39;s Sushi Restaurant Defense mode"/>
+<TEXT ID="9014401" Text="Rumored Forest"/>
+<TEXT ID="9014402" Text="Forest of Greed"/>
+<TEXT ID="9014433" Text="Wailing Ridge"/>
+<TEXT ID="9014435" Text="Thieves&#39; Den"/>
+<TEXT ID="9014500" Text="Red Queen Castle strategic Defense mode"/>
+<TEXT ID="9014600" Text="Chocolate Meister&#39;s house"/>
+<TEXT ID="9014601" Text="Mining Area"/>
+<TEXT ID="9014603" Text="Coral Fields"/>
+<TEXT ID="9014609" Text="Dangerous Caverns Defense Mode"/>
+<TEXT ID="9014700" Text="Chocolate Storage"/>
+<TEXT ID="9015101" Text="Death Game Set"/>
+<TEXT ID="9015102" Text="Death Game Set Mission 2"/>
+<TEXT ID="9015103" Text="Death Game Set Mission 3"/>
+<TEXT ID="9015104" Text="Death Game Set Mission 4"/>
+<TEXT ID="9015105" Text="Death Game Set Mission 5"/>
+<TEXT ID="9015106" Text="Death Game Set Mission 6"/>
+<TEXT ID="9015109" Text="Boss&#39;s Room"/>
+<TEXT ID="9015110" Text="Boss&#39;s Room"/>
+<TEXT ID="9015120" Text="Master Machine"/>
+<TEXT ID="9015121" Text="Cookie Factory Mission"/>
+<TEXT ID="9015122" Text="Cookie Factory Mission 2"/>
+<TEXT ID="9015123" Text="Cookie Factory Mission 3"/>
+<TEXT ID="9015124" Text="Cookie Factory Mission 4"/>
+<TEXT ID="9015125" Text="Cookie Factory Mission 5"/>
+<TEXT ID="9015126" Text="Cookie Factory Mission 6"/>
+<TEXT ID="9015129" Text="Mallow Woodi"/>
+<TEXT ID="9015130" Text="Cookie Factory Biscuit Street"/>
+<TEXT ID="9015200" Text="Wedding Hall"/>
+<TEXT ID="9015400" Text="Cherry Blossom Hill"/>
+<TEXT ID="9015401" Text="Cherry Blossom Event Mission"/>
+<TEXT ID="9015402" Text="Cherry Blossom Event Mission 3"/>
+<TEXT ID="9015403" Text="Cherry Blossom Event Mission 4"/>
+<TEXT ID="9015404" Text="Cherry Blossom Event Mission 5"/>
+<TEXT ID="9015405" Text="Cherry Blossom Event Mission 6"/>
+<TEXT ID="9015406" Text="Cherry Blossom Event Mission 7"/>
+<TEXT ID="9015407" Text="Cherry Blossom Event Mission 8"/>
+<TEXT ID="9015408" Text="Cherry Blossom Event Mission 9"/>
+<TEXT ID="9015409" Text="Lantern Jaw Chef"/>
+<TEXT ID="9015500" Text="Red Queen Castle Entrance"/>
+<TEXT ID="9015508" Text="Red Queen Castle "/>
+<TEXT ID="9015509" Text="Red Queen"/>
+<TEXT ID="9015600" Text="Geffen Town"/>
+<TEXT ID="9015610" Text="Orc Field"/>
+<TEXT ID="9015620" Text="Glast Heim"/>
+<TEXT ID="9015630" Text="Glast Heim"/>
+<TEXT ID="9015640" Text="Glast Heim"/>
+<TEXT ID="9015700" Text="Ice Palace Snow shield"/>
+<TEXT ID="9015701" Text="Ice Palace White valley"/>
+<TEXT ID="9015702" Text="Ice Palace White valley mission 2"/>
+<TEXT ID="9015703" Text="Ice Palace White valley mission 3"/>
+<TEXT ID="9015707" Text="Ice Palace White valley mission Bonus map"/>
+<TEXT ID="9015708" Text="Ice Palace White valley mission Bonus map"/>
+<TEXT ID="9015709" Text="Ice Palace White valley Elite"/>
+<TEXT ID="9015711" Text="Ice Palace Garden of night"/>
+<TEXT ID="9015712" Text="Ice Palace Garden of night mission 2"/>
+<TEXT ID="9015713" Text="Ice Palace Garden of night mission 3"/>
+<TEXT ID="9015717" Text="Ice Palace Garden of night Bonus map (Chaos)"/>
+<TEXT ID="9015718" Text="Ice Palace Garden of night Bonus map (Chaos)"/>
+<TEXT ID="9015719" Text="Ice Palace Garden of night Elite"/>
+<TEXT ID="9015721" Text="Ice Palace Gate of Silence"/>
+<TEXT ID="9015722" Text="Ice Palace Freezing Corridor"/>
+<TEXT ID="9015723" Text="Ice Palace Chamber of queen"/>
+<TEXT ID="9015725" Text="Frozen Corridor in Ice Castle"/>
+<TEXT ID="9015729" Text="Queen&#39;s Room in Ice Castle"/>
+<TEXT ID="9016100" Text="Woodi Village"/>
+<TEXT ID="9016101" Text="Bearded Whale Coast Bonus Stage"/>
+<TEXT ID="9016102" Text="Bearded Whale Coast Bonus 2"/>
+<TEXT ID="9016110" Text="Erin Village"/>
+<TEXT ID="9016120" Text="Hua Mei Village"/>
+<TEXT ID="9016131" Text="Steven Trading Port Bonus Stage"/>
+<TEXT ID="9016132" Text="Steven Trading Port Bonus 2"/>
+<TEXT ID="9016151" Text="Kalygon Fleet Bonus Stage"/>
+<TEXT ID="9016152" Text="Kalygon Fleet Bonus 2"/>
+<TEXT ID="9016201" Text="Milkyway Sanctuary Bonus Stage"/>
+<TEXT ID="9016202" Text="Milkyway Sanctuary Bonus 2"/>
+<TEXT ID="9016211" Text="Skypie Sanctuary Bonus Stage"/>
+<TEXT ID="9016212" Text="Skypie Sanctuary Bonus 2"/>
+<TEXT ID="9016301" Text="Windia Plains Bonus Stage"/>
+<TEXT ID="9016302" Text="Windia Plains Bonus 2"/>
+<TEXT ID="9016331" Text="Advanced Windia Plains Bonus Stage"/>
+<TEXT ID="9016332" Text="Advanced Windia Plains Bonus 2"/>
+<TEXT ID="9016401" Text="Traitor&#39;s Ridge Bonus Stage"/>
+<TEXT ID="9016402" Text="Traitor&#39;s Ridge Bonus 2"/>
+<TEXT ID="9016431" Text="Canyon of Oblivion Bonus Stage"/>
+<TEXT ID="9016432" Text="Canyon of Oblivion Bonus 2"/>
+<TEXT ID="9016601" Text="Dangerous Caverns Bonus Stage"/>
+<TEXT ID="9016602" Text="Dangerous Caverns Bonus 2"/>
+<TEXT ID="9017101" Text="Bearded Whale Coast Bonus Stage"/>
+<TEXT ID="9017102" Text="Bearded Whale Coast Bonus 2"/>
+<TEXT ID="9017131" Text="Steven Trading Port Bonus Stage"/>
+<TEXT ID="9017132" Text="Steven Trading Port Bonus 2"/>
+<TEXT ID="9017151" Text="Kalygon Fleet Bonus Stage"/>
+<TEXT ID="9017152" Text="Kalygon Fleet Bonus 2"/>
+<TEXT ID="9017201" Text="Milkyway Sanctuary Bonus Stage"/>
+<TEXT ID="9017202" Text="Milkyway Sanctuary Bonus 2"/>
+<TEXT ID="9017211" Text="Skypie Sanctuary Bonus Stage"/>
+<TEXT ID="9017212" Text="Skypie Sanctuary Bonus 2"/>
+<TEXT ID="9017601" Text="Dangerous Caverns Bonus Stage"/>
+<TEXT ID="9017602" Text="Dangerous Caverns Bonus 2"/>
+<TEXT ID="9018100" Text="Port of the Winds"/>
+<TEXT ID="9018200" Text="Odellia"/>
+<TEXT ID="9018210" Text="Honor&#39;s Path"/>
+<TEXT ID="9018220" Text="Mystia Lane"/>
+<TEXT ID="9018230" Text="Archer&#39;s Range"/>
+<TEXT ID="9018240" Text="Backalley"/>
+<TEXT ID="9018250" Text="Emporia"/>
+<TEXT ID="9018251" Text="1 Star Emporia"/>
+<TEXT ID="9018252" Text="2 Star Emporia"/>
+<TEXT ID="9018253" Text="3 Star Emporia"/>
+<TEXT ID="9018254" Text="4 Star Emporia"/>
+<TEXT ID="9018255" Text="5 Star Emporia"/>
+<TEXT ID="9018300" Text="Libra"/>
+<TEXT ID="9018310" Text="Moonlight Shore Village"/>
+<TEXT ID="9018320" Text="Libra"/>
+<TEXT ID="9019109" Text="Captain Hookah Villa"/>
+<TEXT ID="9019139" Text="Furious Captain Alvida"/>
+<TEXT ID="9019151" Text="Kalygon Fleet"/>
+<TEXT ID="9019152" Text="Wrecked Ship"/>
+<TEXT ID="9019159" Text="Mad Kalygon Captain"/>
+<TEXT ID="9019209" Text="Evil Spirit Artis(Milkyway Sanctuary Elite)"/>
+<TEXT ID="9019309" Text="Breathless Vegabond(Windia Plains Elite)"/>
+<TEXT ID="9019339" Text="Wild Vegas(Advanced Windia Plains Elite)"/>
+<TEXT ID="9019409" Text="Giant Axe Brother Sangka(Traitor&#39;s Ridge Elite)"/>
+<TEXT ID="9019439" Text="Giant Axe Brother Kunkah(Canyon of Oblivion Elite)"/>
+<TEXT ID="9019609" Text="Mambo Raccoon Ahtoo(Dangerous Caverns Elite)"/>
+<TEXT ID="9020100" Text="Valid Raeth"/>
+<TEXT ID="9020101" Text="Valid Raeth Arcade 1"/>
+<TEXT ID="9020102" Text="Valid Raeth Arcade 2"/>
+<TEXT ID="9020103" Text="Valid Raeth Arcade 3"/>
+<TEXT ID="9020104" Text="Valid Raeth Arcade 4"/>
+<TEXT ID="9020105" Text="Valid Raeth Arcade 5"/>
+<TEXT ID="9020106" Text="Valid Raeth Arcade 6"/>
+<TEXT ID="9020107" Text="Valid Raeth Arcade 7"/>
+<TEXT ID="9020108" Text="Valid Raeth Arcade 8"/>
+<TEXT ID="9020109" Text="Chief Rokko"/>
+<TEXT ID="9020110" Text="Abyss of Fire"/>
+<TEXT ID="9020120" Text="Volcano Ash Hill"/>
+<TEXT ID="9020130" Text="Magma Coral Fields"/>
+<TEXT ID="9020200" Text="Magma Drake Lavalon"/>
+<TEXT ID="9020201" Text="Magma Dungeon"/>
+<TEXT ID="9020202" Text="Drake Lavalon"/>
+<TEXT ID="9020300" Text="Smoldering Swamp"/>
+<TEXT ID="9020301" Text="Smoldering Swamp Arcade 1"/>
+<TEXT ID="9020302" Text="Smoldering Swamp Arcade 2"/>
+<TEXT ID="9020303" Text="Smoldering Swamp Arcade 3"/>
+<TEXT ID="9020304" Text="Smoldering Swamp Arcade 4"/>
+<TEXT ID="9020305" Text="Smoldering Swamp Arcade 5"/>
+<TEXT ID="9020306" Text="Smoldering Swamp Arcade 6"/>
+<TEXT ID="9020307" Text="Smoldering Swamp Arcade 7"/>
+<TEXT ID="9020308" Text="Smoldering Swamp Arcade 8"/>
+<TEXT ID="9020309" Text="Queen Vella"/>
+<TEXT ID="9020310" Text="Dried Woods Swamp"/>
+<TEXT ID="9020320" Text="Reed Swamp"/>
+<TEXT ID="9020330" Text="악어 늪"/>
+<TEXT ID="9020400" Text="Ocher Forest"/>
+<TEXT ID="9020401" Text="Log Bridge A"/>
+<TEXT ID="9020402" Text="Fairy&#39;s Log House"/>
+<TEXT ID="9020403" Text="Wind Flute Forest"/>
+<TEXT ID="9020404" Text="Tree of Wisdom"/>
+<TEXT ID="9020405" Text="Singing Tree"/>
+<TEXT ID="9020406" Text="Sunken Village"/>
+<TEXT ID="9020407" Text="Ant&#39;s Spa"/>
+<TEXT ID="9020408" Text="Ocher&#39;s End"/>
+<TEXT ID="9020409" Text="Rotten Ent Elluman"/>
+<TEXT ID="9020410" Text="Vine Forest"/>
+<TEXT ID="9020420" Text="Misty Lane"/>
+<TEXT ID="9020430" Text="Pine Cone Hills"/>
+<TEXT ID="9020431" Text="Pine Cone Hills Arcade 1"/>
+<TEXT ID="9020432" Text="Pine Cone Hills Arcade 2"/>
+<TEXT ID="9020433" Text="Pine Cone Hills Arcade 3"/>
+<TEXT ID="9020434" Text="Pine Cone Hills Arcade 4"/>
+<TEXT ID="9020435" Text="Pine Cone Hills Arcade 5"/>
+<TEXT ID="9020436" Text="Pine Cone Hills Arcade 6"/>
+<TEXT ID="9020437" Text="Pine Cone Hills Arcade 7"/>
+<TEXT ID="9020438" Text="Pine Cone Hills Arcade 8"/>
+<TEXT ID="9020439" Text="Woodsman Burnaun"/>
+<TEXT ID="9020440" Text="Grass Wind Hills"/>
+<TEXT ID="9020500" Text="Gods&#39; Sanctuary"/>
+<TEXT ID="9020501" Text="Gods&#39; Sanctuary Arcade 1"/>
+<TEXT ID="9020502" Text="Gods&#39; Sanctuary Arcade 2"/>
+<TEXT ID="9020503" Text="Gods&#39; Sanctuary Arcade 3"/>
+<TEXT ID="9020504" Text="Gods&#39; Sanctuary Arcade 4"/>
+<TEXT ID="9020505" Text="Gods&#39; Sanctuary Arcade 5"/>
+<TEXT ID="9020506" Text="Gods&#39; Sanctuary Arcade 6"/>
+<TEXT ID="9020507" Text="Gods&#39; Sanctuary Arcade 7"/>
+<TEXT ID="9020508" Text="Gods&#39; Sanctuary Arcade 8"/>
+<TEXT ID="9020509" Text="Karkharous"/>
+<TEXT ID="9020510" Text="Collapsed Sanctuary"/>
+<TEXT ID="9020520" Text="Remains of Trace"/>
+<TEXT ID="9020530" Text="Kayron Altar"/>
+<TEXT ID="9020600" Text="Ancient Golem Aram"/>
+<TEXT ID="9020601" Text="Kundara Dungeon"/>
+<TEXT ID="9020700" Text="Altar of Verdure"/>
+<TEXT ID="9020701" Text="Verdurous Forest"/>
+<TEXT ID="9022100" Text="Dark Valid Raeth"/>
+<TEXT ID="9022101" Text="Valid Raeth Chaos 1"/>
+<TEXT ID="9022102" Text="Valid Raeth Chaos 2"/>
+<TEXT ID="9022103" Text="Valid Raeth Chaos 3"/>
+<TEXT ID="9022104" Text="Valid Raeth Chaos 4"/>
+<TEXT ID="9022105" Text="Valid Raeth Chaos 5"/>
+<TEXT ID="9022106" Text="Valid Raeth Chaos 6"/>
+<TEXT ID="9022107" Text="Valid Raeth Chaos 7"/>
+<TEXT ID="9022108" Text="Valid Raeth Chaos 8"/>
+<TEXT ID="9022109" Text="Dark Chief Rokko"/>
+<TEXT ID="9022300" Text="Dark Smoldering Swamp"/>
+<TEXT ID="9022301" Text="Smoldering Swamp Chaos 1"/>
+<TEXT ID="9022302" Text="Smoldering Swamp Chaos 2"/>
+<TEXT ID="9022303" Text="Smoldering Swamp Chaos 3"/>
+<TEXT ID="9022304" Text="Smoldering Swamp Chaos 4"/>
+<TEXT ID="9022305" Text="Smoldering Swamp Chaos 5"/>
+<TEXT ID="9022306" Text="Smoldering Swamp Chaos 6"/>
+<TEXT ID="9022307" Text="Smoldering Swamp Chaos 7"/>
+<TEXT ID="9022308" Text="Smoldering Swamp Chaos 8"/>
+<TEXT ID="9022309" Text="Dark Queen Vella"/>
+<TEXT ID="9022400" Text="Ocher Forest"/>
+<TEXT ID="9022401" Text="Log Bridge"/>
+<TEXT ID="9022402" Text="Fairy&#39;s Log House"/>
+<TEXT ID="9022403" Text="Wind Flute Forest"/>
+<TEXT ID="9022404" Text="Tree of Wisdom"/>
+<TEXT ID="9022405" Text="Singing Tree"/>
+<TEXT ID="9022406" Text="Burlune&#39;s Tomb"/>
+<TEXT ID="9022407" Text="Ant&#39;s Spa"/>
+<TEXT ID="9022408" Text="Ocher&#39;s End"/>
+<TEXT ID="9022409" Text="Rotten Ent Elluman"/>
+<TEXT ID="9022430" Text="Dark Pine Cone Hills"/>
+<TEXT ID="9022431" Text="Pine Cone Hills Chaos 1"/>
+<TEXT ID="9022432" Text="Pine Cone Hills Chaos 2"/>
+<TEXT ID="9022433" Text="Pine Cone Hills Chaos 3"/>
+<TEXT ID="9022434" Text="Pine Cone Hills Chaos 4"/>
+<TEXT ID="9022435" Text="Pine Cone Hills Chaos 5"/>
+<TEXT ID="9022436" Text="Pine Cone Hills Chaos 6"/>
+<TEXT ID="9022437" Text="Pine Cone Hills Chaos 7"/>
+<TEXT ID="9022438" Text="Pine Cone Hills Chaos 8"/>
+<TEXT ID="9022439" Text="Dark Woodsman Burnaun"/>
+<TEXT ID="9022500" Text="Deserted Gods&#39; Sanctuary"/>
+<TEXT ID="9022501" Text="Gods&#39; Sanctuary Chaos 1"/>
+<TEXT ID="9022502" Text="Gods&#39; Sanctuary Chaos 2"/>
+<TEXT ID="9022503" Text="Gods&#39; Sanctuary Chaos 3"/>
+<TEXT ID="9022504" Text="Gods&#39; Sanctuary Chaos 4"/>
+<TEXT ID="9022505" Text="Gods&#39; Sanctuary Chaos 5"/>
+<TEXT ID="9022506" Text="Gods&#39; Sanctuary Chaos 6"/>
+<TEXT ID="9022507" Text="Gods&#39; Sanctuary Chaos 7"/>
+<TEXT ID="9022508" Text="Gods&#39; Sanctuary Chaos 8"/>
+<TEXT ID="9022509" Text="Karkharous"/>
+<TEXT ID="9023300" Text="Muddy Swamp"/>
+<TEXT ID="9023400" Text="Oak Lumbermill Field"/>
+<TEXT ID="9023500" Text="Cursed Shrine"/>
+<TEXT ID="9024101" Text="Lava Factory"/>
+<TEXT ID="9024102" Text="Crimson Field"/>
+<TEXT ID="9024108" Text="Valid Raeth Tactic Mode"/>
+<TEXT ID="9024109" Text="Valid Raeth Defense Mode"/>
+<TEXT ID="9024301" Text="Smoldering Swamp"/>
+<TEXT ID="9024308" Text="Smoldering Swamp Tactic Mode"/>
+<TEXT ID="9024309" Text="Smoldering Swamp Defense Mode"/>
+<TEXT ID="9024401" Text="Log Bridge"/>
+<TEXT ID="9024408" Text="Ocher Forest Tactic Mode"/>
+<TEXT ID="9024409" Text="Ocher Forest Defense Mode"/>
+<TEXT ID="9024431" Text="Pine Cone Lumbermill Field"/>
+<TEXT ID="9024432" Text="Wasted Lumbermill Field"/>
+<TEXT ID="9024438" Text="Pine Cone Hills Tactic Mode"/>
+<TEXT ID="9024439" Text="Pine Cone Hills Defense Mode"/>
+<TEXT ID="9024501" Text="Azure Altar"/>
+<TEXT ID="9024502" Text="Stone Statue Road"/>
+<TEXT ID="9024508" Text="Gods&#39; Sanctuary Tactic Mode"/>
+<TEXT ID="9024509" Text="Gods&#39; Sanctuary Defense Mode"/>
+<TEXT ID="9026101" Text="Valid Raeth Bonus Stage"/>
+<TEXT ID="9026102" Text="Valid Raeth Bonus 2"/>
+<TEXT ID="9026301" Text="Smoldering Swamp Bonus Stage"/>
+<TEXT ID="9026302" Text="Smoldering Swamp Bonus 2"/>
+<TEXT ID="9026431" Text="Pine Cone Hills Bonus Stage"/>
+<TEXT ID="9026432" Text="Pine Cone Hills Bonus 2"/>
+<TEXT ID="9026501" Text="Gods&#39; Sanctuary Bonus Stage"/>
+<TEXT ID="9026502" Text="Gods&#39; Sanctuary Bonus 2"/>
+<TEXT ID="9027101" Text="Valid Raeth Bonus Stage"/>
+<TEXT ID="9027102" Text="Valid Raeth Bonus 2"/>
+<TEXT ID="9027301" Text="Smoldering Swamp Bonus Stage"/>
+<TEXT ID="9027302" Text="Smoldering Swamp Bonus 2"/>
+<TEXT ID="9027431" Text="Pine Cone Hills Bonus Stage"/>
+<TEXT ID="9027432" Text="Pine Cone Hills Bonus 2"/>
+<TEXT ID="9027501" Text="Gods&#39; Sanctuary Bonus Stage"/>
+<TEXT ID="9027502" Text="Gods&#39; Sanctuary Bonus 2"/>
+<TEXT ID="9028100" Text="Fungoid Village"/>
+<TEXT ID="9029109" Text="Chief Rokko(Valid Raeth Elite)"/>
+<TEXT ID="9029302" Text="Smoldering Swamp scenario2"/>
+<TEXT ID="9029309" Text="Queen Vella(Smoldering Swamp Elite)"/>
+<TEXT ID="9029409" Text="Rotten Ent Elluman"/>
+<TEXT ID="9029509" Text="Karkharous(Gods&#39; Sanctuary Elite)"/>
+<TEXT ID="9030100" Text="Forgotten Village"/>
+<TEXT ID="9030101" Text="Forgotten Village Arcade 1"/>
+<TEXT ID="9030102" Text="Forgotten Village Arcade 2"/>
+<TEXT ID="9030103" Text="Forgotten Village Arcade 3"/>
+<TEXT ID="9030104" Text="Forgotten Village Arcade 4"/>
+<TEXT ID="9030105" Text="Forgotten Village Arcade 5"/>
+<TEXT ID="9030106" Text="Forgotten Village Arcade 6"/>
+<TEXT ID="9030107" Text="Forgotten Village Arcade 7"/>
+<TEXT ID="9030108" Text="Forgotten Village Arcade 8"/>
+<TEXT ID="9030109" Text="Mimir King Laloom"/>
+<TEXT ID="9030110" Text="Tutu Tree Forest"/>
+<TEXT ID="9030120" Text="Pococo Garden"/>
+<TEXT ID="9030130" Text="Village of Slumber"/>
+<TEXT ID="9030131" Text="Village of Slumber Arcade 1"/>
+<TEXT ID="9030132" Text="Village of Slumber Arcade 2"/>
+<TEXT ID="9030133" Text="Village of Slumber Arcade 3"/>
+<TEXT ID="9030134" Text="Village of Slumber Arcade 4"/>
+<TEXT ID="9030135" Text="Village of Slumber Arcade 5"/>
+<TEXT ID="9030136" Text="Village of Slumber Arcade 6"/>
+<TEXT ID="9030137" Text="Village of Slumber Arcade 7"/>
+<TEXT ID="9030138" Text="Village of Slumber Arcade 8"/>
+<TEXT ID="9030139" Text="Flickering Burlune"/>
+<TEXT ID="9030140" Text="Ruined Mushroom Factory"/>
+<TEXT ID="9030200" Text="Land of Temptation"/>
+<TEXT ID="9030201" Text="Land of Temptation Arcade 1"/>
+<TEXT ID="9030202" Text="Land of Temptation Arcade 2"/>
+<TEXT ID="9030203" Text="Land of Temptation Arcade 3"/>
+<TEXT ID="9030204" Text="Land of Temptation Arcade 4"/>
+<TEXT ID="9030205" Text="Land of Temptation Arcade 5"/>
+<TEXT ID="9030206" Text="Land of Temptation Arcade 6"/>
+<TEXT ID="9030207" Text="Land of Temptation Arcade 7"/>
+<TEXT ID="9030208" Text="Land of Temptation Arcade 8"/>
+<TEXT ID="9030209" Text="Golem Pythanous"/>
+<TEXT ID="9030210" Text="Blizzard Ridge"/>
+<TEXT ID="9030220" Text="Frost Lake"/>
+<TEXT ID="9030230" Text="Frigid Canyon"/>
+<TEXT ID="9030231" Text="Frigid Canyon Arcade 1"/>
+<TEXT ID="9030232" Text="Frigid Canyon Arcade 2"/>
+<TEXT ID="9030233" Text="Frigid Canyon Arcade 3"/>
+<TEXT ID="9030234" Text="Frigid Canyon Arcade 4"/>
+<TEXT ID="9030235" Text="Frigid Canyon Arcade 5"/>
+<TEXT ID="9030236" Text="Frigid Canyon Arcade 6"/>
+<TEXT ID="9030237" Text="Frigid Canyon Arcade 7"/>
+<TEXT ID="9030238" Text="Frigid Canyon Arcade 8"/>
+<TEXT ID="9030239" Text="Ice Princess Arka"/>
+<TEXT ID="9030240" Text="Storm Snowfield"/>
+<TEXT ID="9030300" Text="Altar of Truth"/>
+<TEXT ID="9030301" Text="Drakos 1st Fl."/>
+<TEXT ID="9030302" Text="Drakos 2nd Fl."/>
+<TEXT ID="9030303" Text="Drakos 3rd Fl."/>
+<TEXT ID="9030304" Text="Drakos 4th Fl."/>
+<TEXT ID="9030305" Text="Drakos 5th Fl."/>
+<TEXT ID="9030306" Text="Drakos 6th Fl."/>
+<TEXT ID="9030307" Text="Drakos 7th Fl."/>
+<TEXT ID="9030308" Text="Drakos 8th Fl."/>
+<TEXT ID="9030309" Text="Drakos 9th Fl."/>
+<TEXT ID="9030310" Text="Drakos 10th Fl."/>
+<TEXT ID="9030311" Text="Drakos 11th Fl."/>
+<TEXT ID="9030312" Text="Drakos 12th Fl."/>
+<TEXT ID="9030313" Text="Drakos 13th Fl."/>
+<TEXT ID="9030314" Text="Drakos 14th Fl."/>
+<TEXT ID="9030315" Text="Drakos 15th Fl."/>
+<TEXT ID="9030316" Text="Drakos 16th Fl."/>
+<TEXT ID="9030317" Text="Drakos 17th Fl."/>
+<TEXT ID="9030318" Text="Drakos 18th Fl."/>
+<TEXT ID="9030319" Text="Drakos 19th Fl."/>
+<TEXT ID="9030320" Text="Drakos 20th Fl."/>
+<TEXT ID="9030321" Text="Drakos 21st Fl."/>
+<TEXT ID="9030322" Text="Drakos 22nd Fl."/>
+<TEXT ID="9030323" Text="Drakos 23rd Fl."/>
+<TEXT ID="9030324" Text="Drakos 24th Fl."/>
+<TEXT ID="9030325" Text="Drakos 25th Fl."/>
+<TEXT ID="9030326" Text="Drakos 26th Fl."/>
+<TEXT ID="9030327" Text="Drakos 27th Fl."/>
+<TEXT ID="9030328" Text="Drakos 28th Fl."/>
+<TEXT ID="9030329" Text="Drakos 29th Fl."/>
+<TEXT ID="9030330" Text="Drakos 30th Fl."/>
+<TEXT ID="9030331" Text="Drakos 31st Fl."/>
+<TEXT ID="9030332" Text="Drakos 32nd Fl."/>
+<TEXT ID="9030333" Text="Drakos 33rd Fl."/>
+<TEXT ID="9030334" Text="Drakos 34th Fl."/>
+<TEXT ID="9030335" Text="Drakos 35th Fl."/>
+<TEXT ID="9030336" Text="Drakos 36th Fl."/>
+<TEXT ID="9030337" Text="Drakos 37th Fl."/>
+<TEXT ID="9030338" Text="Drakos 38th Fl."/>
+<TEXT ID="9030339" Text="Drakos 39th Fl."/>
+<TEXT ID="9030340" Text="Drakos 40th Fl."/>
+<TEXT ID="9030341" Text="Drakos 41st Fl."/>
+<TEXT ID="9030342" Text="Drakos 42nd Fl."/>
+<TEXT ID="9030343" Text="Drakos 43rd Fl."/>
+<TEXT ID="9030344" Text="Drakos 44th Fl."/>
+<TEXT ID="9030345" Text="Drakos 45th Fl."/>
+<TEXT ID="9030346" Text="Drakos 46th Fl."/>
+<TEXT ID="9030347" Text="Drakos 47th Fl."/>
+<TEXT ID="9030348" Text="Drakos 48th Fl."/>
+<TEXT ID="9030349" Text="Drakos 49th Fl."/>
+<TEXT ID="9030350" Text="Drakos 50th Fl."/>
+<TEXT ID="9030500" Text="Bottomless Dark Altar"/>
+<TEXT ID="9030501" Text="VanCliff Fortress 1th Fl. Library"/>
+<TEXT ID="9030502" Text="VanCliff Fortress 2nd Fl. Library"/>
+<TEXT ID="9030503" Text="VanCliff Fortress 3rd Fl. Library"/>
+<TEXT ID="9030504" Text="VanCliff Fortress 4th Fl. Library"/>
+<TEXT ID="9030505" Text="VanCliff Fortress 5th Fl. Library"/>
+<TEXT ID="9030506" Text="VanCliff Fortress 6th Fl. Botanic Garden"/>
+<TEXT ID="9030507" Text="VanCliff Fortress 7th Fl. Botanic Garden"/>
+<TEXT ID="9030508" Text="VanCliff Fortress 8th Fl. Botanic Garden"/>
+<TEXT ID="9030509" Text="VanCliff Fortress 9th Fl. Botanic Garden"/>
+<TEXT ID="9030510" Text="VanCliff Fortress 10th Fl. Botanic Garden"/>
+<TEXT ID="9030511" Text="VanCliff Fortress B1 Exhibition Hall"/>
+<TEXT ID="9030512" Text="VanCliff Fortress B2 Exhibition Hall"/>
+<TEXT ID="9030513" Text="VanCliff Fortress B3 Exhibition Hall"/>
+<TEXT ID="9030514" Text="VanCliff Fortress B4 Exhibition Hall"/>
+<TEXT ID="9030515" Text="VanCliff Fortress B5 Exhibition Hall"/>
+<TEXT ID="9030516" Text="VanCliff Fortress B6 Exhibition Hall"/>
+<TEXT ID="9030517" Text="VanCliff Fortress B7 Exhibition Hall"/>
+<TEXT ID="9030518" Text="VanCliff Fortress B8 Exhibition Hall"/>
+<TEXT ID="9030519" Text="VanCliff Fortress B9 Exhibition Hall"/>
+<TEXT ID="9030520" Text="VanCliff Fortress B10 Exhibition Hall"/>
+<TEXT ID="9030521" Text="VanCliff Fortress B11 Underground Prison"/>
+<TEXT ID="9030522" Text="VanCliff Fortress B12 Underground Prison"/>
+<TEXT ID="9030523" Text="VanCliff Fortress B13 Underground Prison"/>
+<TEXT ID="9030524" Text="VanCliff Fortress B14 Underground Prison"/>
+<TEXT ID="9030525" Text="VanCliff Fortress B15 Underground Prison"/>
+<TEXT ID="9030526" Text="VanCliff Fortress B16 Underground Prison"/>
+<TEXT ID="9030527" Text="VanCliff Fortress B17 Underground Prison"/>
+<TEXT ID="9030528" Text="VanCliff Fortress B18 Underground Prison"/>
+<TEXT ID="9030529" Text="VanCliff Fortress B19 Underground Prison"/>
+<TEXT ID="9030530" Text="VanCliff Fortress B20 Underground Prison"/>
+<TEXT ID="9030531" Text="VanCliff Fortress B21 Pitch-Dark Prison"/>
+<TEXT ID="9030532" Text="VanCliff Fortress B22 Pitch-Dark Prison"/>
+<TEXT ID="9030533" Text="VanCliff Fortress B23 Pitch-Dark Prison"/>
+<TEXT ID="9030534" Text="VanCliff Fortress B24 Pitch-Dark Prison"/>
+<TEXT ID="9030535" Text="VanCliff Fortress B25 Pitch-Dark Prison"/>
+<TEXT ID="9030599" Text="VanCliff Fortress Lobby"/>
+<TEXT ID="9030600" Text="Frozen Altar"/>
+<TEXT ID="9030601" Text="Ice Temple"/>
+<TEXT ID="9030602" Text="Igloo - Trainer(Mammoth)"/>
+<TEXT ID="9030603" Text="Glacial Castle Tower - Door Keeper"/>
+<TEXT ID="9030604" Text="Ice Maze - Chief"/>
+<TEXT ID="9030605" Text="Ice Garden - Ice Queen"/>
+<TEXT ID="9030610" Text="Glacial Cave"/>
+<TEXT ID="9030611" Text="Glacial Cave1"/>
+<TEXT ID="9030612" Text="Glacial Cave2"/>
+<TEXT ID="9030613" Text="Glacial Cave3"/>
+<TEXT ID="9030614" Text="Glacial Cave4"/>
+<TEXT ID="9030615" Text="Glacial Cave5"/>
+<TEXT ID="9030619" Text="Trainer Marker"/>
+<TEXT ID="9030620" Text="Glacial Castle Tower"/>
+<TEXT ID="9030621" Text="Igloo1"/>
+<TEXT ID="9030622" Text="Igloo2"/>
+<TEXT ID="9030623" Text="Igloo3"/>
+<TEXT ID="9030624" Text="Igloo4"/>
+<TEXT ID="9030625" Text="Igloo5"/>
+<TEXT ID="9030626" Text="Igloo6"/>
+<TEXT ID="9030627" Text="Igloo7"/>
+<TEXT ID="9030628" Text="Igloo8"/>
+<TEXT ID="9030629" Text="Igloo9"/>
+<TEXT ID="9030630" Text="Igloo10"/>
+<TEXT ID="9030631" Text="East Glacial Castle Tower"/>
+<TEXT ID="9030632" Text="West Glacial Castle Tower"/>
+<TEXT ID="9030639" Text="Ice Fairy Ukoko"/>
+<TEXT ID="9030640" Text="Ice Garden"/>
+<TEXT ID="9030641" Text="Ice Labirynth Zone 1"/>
+<TEXT ID="9030642" Text="Ice Labirynth Zone 2"/>
+<TEXT ID="9030643" Text="Ice Labirynth Zone 3"/>
+<TEXT ID="9030644" Text="Ice Labirynth Zone 4"/>
+<TEXT ID="9030645" Text="Ice Labirynth Zone 5"/>
+<TEXT ID="9030646" Text="Ice Labirynth Zone 6"/>
+<TEXT ID="9030647" Text="Ice Labirynth Zone 7"/>
+<TEXT ID="9030648" Text="Ice Labirynth Zone 8"/>
+<TEXT ID="9030649" Text="Ice Labirynth Zone 9"/>
+<TEXT ID="9030650" Text="Ice Labirynth Zone 10"/>
+<TEXT ID="9030651" Text="Ice Labirynth Zone 11"/>
+<TEXT ID="9030652" Text="Ice Labirynth Zone 12"/>
+<TEXT ID="9030653" Text="Ice Labirynth Zone 13"/>
+<TEXT ID="9030654" Text="Ice Labirynth Zone 14"/>
+<TEXT ID="9030655" Text="Ice Labirynth Zone 15"/>
+<TEXT ID="9030661" Text="Ice "/>
+<TEXT ID="9030691" Text="Dealing Event - Crossroads"/>
+<TEXT ID="9030692" Text="Foot - Tail Battle"/>
+<TEXT ID="9030693" Text="Jump - Flee"/>
+<TEXT ID="9030694" Text="Left, Right Arm"/>
+<TEXT ID="9030695" Text="Door Open Event"/>
+<TEXT ID="9030700" Text="Rancorous Forest"/>
+<TEXT ID="9030701" Text="Tower of Truth"/>
+<TEXT ID="9030702" Text="Chamber of Truth"/>
+<TEXT ID="9030703" Text="Chamber of Truth"/>
+<TEXT ID="9030704" Text="Cubicle of Black Magic"/>
+<TEXT ID="9030710" Text="Chaser’s Ridge"/>
+<TEXT ID="9030711" Text="Chaser’s Ridge Arcade1"/>
+<TEXT ID="9030712" Text="Chaser’s Ridge Arcade2"/>
+<TEXT ID="9030713" Text="Chaser’s Ridge Arcade3"/>
+<TEXT ID="9030714" Text="Chaser’s Ridge Arcade4"/>
+<TEXT ID="9030715" Text="Chaser’s Ridge Arcade5"/>
+<TEXT ID="9030716" Text="Chaser’s Ridge Arcade6"/>
+<TEXT ID="9030717" Text="Chaser’s Ridge Arcade7"/>
+<TEXT ID="9030718" Text="Chaser’s Ridge Arcade8"/>
+<TEXT ID="9030719" Text="Chaser’s Ridge Arcade Elite"/>
+<TEXT ID="9030720" Text="Haven of Peace"/>
+<TEXT ID="9030721" Text="Haven of Peace Arcade 1"/>
+<TEXT ID="9030722" Text="Haven of Peace Arcade 2"/>
+<TEXT ID="9030723" Text="Haven of Peace Arcade 3"/>
+<TEXT ID="9030724" Text="Haven of Peace Arcade 4"/>
+<TEXT ID="9030725" Text="Haven of Peace Arcade 5"/>
+<TEXT ID="9030726" Text="Haven of Peace Arcade 6"/>
+<TEXT ID="9030727" Text="Haven of Peace Arcade 7"/>
+<TEXT ID="9030728" Text="Haven of Peace Arcade 8"/>
+<TEXT ID="9030729" Text="Haven of Peace Arcade Elite"/>
+<TEXT ID="9030730" Text="Snowy Graveyard"/>
+<TEXT ID="9030800" Text="Marshmallow Valley"/>
+<TEXT ID="9030810" Text="Verglas Ridge"/>
+<TEXT ID="9030811" Text="Verglas Ridge Arcade 1"/>
+<TEXT ID="9030812" Text="Verglas Ridge Arcade 2"/>
+<TEXT ID="9030813" Text="Verglas Ridge Arcade 3"/>
+<TEXT ID="9030814" Text="Verglas Ridge Arcade 4"/>
+<TEXT ID="9030815" Text="Verglas Ridge Arcade 5"/>
+<TEXT ID="9030816" Text="Verglas Ridge Arcade 6"/>
+<TEXT ID="9030817" Text="Verglas Ridge Arcade 7"/>
+<TEXT ID="9030818" Text="Verglas Ridge Arcade 8"/>
+<TEXT ID="9030819" Text="Verglas Ridge Arcade Elite"/>
+<TEXT ID="9030820" Text="Bear Claw Mine"/>
+<TEXT ID="9030821" Text="Bear Claw Mine Arcade 1"/>
+<TEXT ID="9030822" Text="Bear Claw Mine Arcade 2"/>
+<TEXT ID="9030823" Text="Bear Claw Mine Arcade 3"/>
+<TEXT ID="9030824" Text="Bear Claw Mine Arcade 4"/>
+<TEXT ID="9030825" Text="Bear Claw Mine Arcade 5"/>
+<TEXT ID="9030826" Text="Bear Claw Mine Arcade 6"/>
+<TEXT ID="9030827" Text="Bear Claw Mine Arcade 7"/>
+<TEXT ID="9030828" Text="Bear Claw Mine Arcade 8"/>
+<TEXT ID="9030829" Text="Bear Claw Mine Arcade Elite"/>
+<TEXT ID="9030830" Text="Ice Rock Hill"/>
+<TEXT ID="9032100" Text="Dark Forgotten Village"/>
+<TEXT ID="9032101" Text="Forgotten Village Chaos 1"/>
+<TEXT ID="9032102" Text="Forgotten Village Chaos 2"/>
+<TEXT ID="9032103" Text="Forgotten Village Chaos 3"/>
+<TEXT ID="9032104" Text="Forgotten Village Chaos 4"/>
+<TEXT ID="9032105" Text="Forgotten Village Chaos 5"/>
+<TEXT ID="9032106" Text="Forgotten Village Chaos 6"/>
+<TEXT ID="9032107" Text="Forgotten Village Chaos 7"/>
+<TEXT ID="9032108" Text="Forgotten Village Chaos 8"/>
+<TEXT ID="9032109" Text="Mimir King Laloom"/>
+<TEXT ID="9032130" Text="Dark Sleeping Village"/>
+<TEXT ID="9032131" Text="Village of Slumber Chaos 1"/>
+<TEXT ID="9032132" Text="Dark Village of Slumber"/>
+<TEXT ID="9032133" Text="Village of Slumber Chaos 3"/>
+<TEXT ID="9032134" Text="Village of Slumber Chaos 4"/>
+<TEXT ID="9032135" Text="Village of Slumber Chaos 5"/>
+<TEXT ID="9032136" Text="Village of Slumber Chaos 6"/>
+<TEXT ID="9032137" Text="Village of Slumber Chaos 7"/>
+<TEXT ID="9032138" Text="Village of Slumber Chaos 8"/>
+<TEXT ID="9032139" Text="Flickering Burlune"/>
+<TEXT ID="9032200" Text="Dark Land of Temptation"/>
+<TEXT ID="9032201" Text="Land of Temptation Chaos 1"/>
+<TEXT ID="9032202" Text="Land of Temptation Chaos 2"/>
+<TEXT ID="9032203" Text="Land of Temptation Chaos 3"/>
+<TEXT ID="9032204" Text="Land of Temptation Chaos 4"/>
+<TEXT ID="9032205" Text="Land of Temptation Chaos 5"/>
+<TEXT ID="9032206" Text="Land of Temptation Chaos 6"/>
+<TEXT ID="9032207" Text="Land of Temptation Chaos 7"/>
+<TEXT ID="9032208" Text="Land of Temptation Chaos 8"/>
+<TEXT ID="9032209" Text="Golem Pythanous"/>
+<TEXT ID="9032231" Text="Frigid Canyon Chaos 1"/>
+<TEXT ID="9032232" Text="Frigid Canyon"/>
+<TEXT ID="9032233" Text="Frigid Canyon Chaos 3"/>
+<TEXT ID="9032234" Text="Frigid Canyon Chaos 4"/>
+<TEXT ID="9032235" Text="Frigid Canyon Chaos 5"/>
+<TEXT ID="9032236" Text="Frigid Canyon Chaos 6"/>
+<TEXT ID="9032237" Text="Frigid Canyon Chaos 7"/>
+<TEXT ID="9032238" Text="Frigid Canyon Chaos 8"/>
+<TEXT ID="9032239" Text="Ice Princess Arka"/>
+<TEXT ID="9032300" Text="Grand Hall"/>
+<TEXT ID="9032301" Text="Hallway of Breaths"/>
+<TEXT ID="9032302" Text="Secret Stairway"/>
+<TEXT ID="9032303" Text="Booty Pavilion"/>
+<TEXT ID="9032304" Text="The Last Supper"/>
+<TEXT ID="9032305" Text="Large Living Room"/>
+<TEXT ID="9032306" Text="Warriors&#39; Glory"/>
+<TEXT ID="9032307" Text="Bloodlight Terrace"/>
+<TEXT ID="9032308" Text="Cursed Equipment from Wagon"/>
+<TEXT ID="9032309" Text="Machine Soldier Gaiden"/>
+<TEXT ID="9032330" Text="Machina Center"/>
+<TEXT ID="9032331" Text="Doubt Machine"/>
+<TEXT ID="9032332" Text="Purification Pump "/>
+<TEXT ID="9032333" Text="Torture Chamber"/>
+<TEXT ID="9032334" Text="Steam Pipe"/>
+<TEXT ID="9032335" Text="Long Corridor"/>
+<TEXT ID="9032336" Text="Tower Core"/>
+<TEXT ID="9032337" Text="Secret Safe"/>
+<TEXT ID="9032338" Text="Punisher&#39;s Vengeance"/>
+<TEXT ID="9032339" Text="Hot-blooded Red Dong"/>
+<TEXT ID="9032361" Text="Moonlight Pavilion"/>
+<TEXT ID="9032362" Text="Knife in the Dark"/>
+<TEXT ID="9032363" Text="Lost in a Maze"/>
+<TEXT ID="9032364" Text="Twilight Terrace"/>
+<TEXT ID="9032365" Text="Maze of Sorrows"/>
+<TEXT ID="9032366" Text="Prelude to Death"/>
+<TEXT ID="9032367" Text="Moonlight Warehouse"/>
+<TEXT ID="9032368" Text="Surreal Agent"/>
+<TEXT ID="9032369" Text="Death Knight"/>
+<TEXT ID="9032710" Text="Dark Chaser’s Ridge"/>
+<TEXT ID="9032711" Text="Chaser’s Ridge Chaos1"/>
+<TEXT ID="9032712" Text="Chaser’s Ridge Chaos2"/>
+<TEXT ID="9032713" Text="Chaser’s Ridge Chaos3"/>
+<TEXT ID="9032714" Text="Chaser’s Ridge Chaos4"/>
+<TEXT ID="9032715" Text="Chaser’s Ridge Chaos5"/>
+<TEXT ID="9032716" Text="Chaser’s Ridge Chaos6"/>
+<TEXT ID="9032717" Text="Chaser’s Ridge Chaos7"/>
+<TEXT ID="9032718" Text="Chaser’s Ridge Chaos8"/>
+<TEXT ID="9032719" Text="Chaser’s Ridge Chaos Elite"/>
+<TEXT ID="9032720" Text="Dark Haven of Peace"/>
+<TEXT ID="9032721" Text="Haven of Peace Chaos 1"/>
+<TEXT ID="9032722" Text="Haven of Peace Chaos 2"/>
+<TEXT ID="9032723" Text="Haven of Peace Chaos 3"/>
+<TEXT ID="9032724" Text="Haven of Peace Chaos 4"/>
+<TEXT ID="9032725" Text="Haven of Peace Chaos 5"/>
+<TEXT ID="9032726" Text="Haven of Peace Chaos 6"/>
+<TEXT ID="9032727" Text="Haven of Peace Chaos 7"/>
+<TEXT ID="9032728" Text="Haven of Peace Chaos 8"/>
+<TEXT ID="9032729" Text="Haven of Peace Chaos Elite"/>
+<TEXT ID="9032810" Text="Dark Verglas Ridge"/>
+<TEXT ID="9032811" Text="Verglas Ridge Chaos 1"/>
+<TEXT ID="9032812" Text="Verglas Ridge Chaos 2"/>
+<TEXT ID="9032813" Text="Verglas Ridge Chaos 3"/>
+<TEXT ID="9032814" Text="Verglas Ridge Chaos 4"/>
+<TEXT ID="9032815" Text="Verglas Ridge Chaos 5"/>
+<TEXT ID="9032816" Text="Verglas Ridge Chaos 6"/>
+<TEXT ID="9032817" Text="Verglas Ridge Chaos 7"/>
+<TEXT ID="9032818" Text="Verglas Ridge Chaos 8"/>
+<TEXT ID="9032819" Text="Verglas Ridge Chaos Elite"/>
+<TEXT ID="9032820" Text="Dark Bear Claw Mine"/>
+<TEXT ID="9032821" Text="Bear Claw Mine Chaos 1"/>
+<TEXT ID="9032822" Text="Bear Claw Mine Chaos 2"/>
+<TEXT ID="9032823" Text="Bear Claw Mine Chaos 3"/>
+<TEXT ID="9032824" Text="Bear Claw Mine Chaos 4"/>
+<TEXT ID="9032825" Text="Bear Claw Mine Chaos 5"/>
+<TEXT ID="9032826" Text="Bear Claw Mine Chaos 6"/>
+<TEXT ID="9032827" Text="Bear Claw Mine Chaos 7"/>
+<TEXT ID="9032828" Text="Bear Claw Mine Chaos 8"/>
+<TEXT ID="9032829" Text="Bear Claw Mine Chaos Elite"/>
+<TEXT ID="9033100" Text="Forest of Illusion"/>
+<TEXT ID="9033200" Text="Crystal Lake of Spirit"/>
+<TEXT ID="9033300" Text="Secret Basement Storage"/>
+<TEXT ID="9034101" Text="Mushroom Tree Felling Area"/>
+<TEXT ID="9034102" Text="Firefly Mushroom Forest"/>
+<TEXT ID="9034108" Text="Forgotten Village Tactic Mode"/>
+<TEXT ID="9034109" Text="Forgotten Village Defense Mode"/>
+<TEXT ID="9034131" Text="Poison Shroom Lake"/>
+<TEXT ID="9034132" Text="Poison Fog Road"/>
+<TEXT ID="9034138" Text="Village of Slumber Tactic Mode"/>
+<TEXT ID="9034139" Text="Village of slumber Defense Mode"/>
+<TEXT ID="9034201" Text="Fugitive&#39;s Forest"/>
+<TEXT ID="9034202" Text="Frozen Mushroom Forest"/>
+<TEXT ID="9034208" Text="Land of Temptation  Tactic Mode"/>
+<TEXT ID="9034209" Text="Land of Temptation Defense Mode"/>
+<TEXT ID="9034231" Text="Moonlight Lake"/>
+<TEXT ID="9034232" Text="Frozen Field"/>
+<TEXT ID="9034238" Text="Frigid Canyon Tactic Mode"/>
+<TEXT ID="9034239" Text="Frigid Canyon Defense Mode"/>
+<TEXT ID="9034301" Text="Corridor of Breeze"/>
+<TEXT ID="9034331" Text="Mysterious Device"/>
+<TEXT ID="9034361" Text="Moonlight Exhibit"/>
+<TEXT ID="9034391" Text="Gaiden"/>
+<TEXT ID="9034392" Text="Kimart"/>
+<TEXT ID="9034393" Text="Antares"/>
+<TEXT ID="9034710" Text="Chaser’s Ridge Defense Mode"/>
+<TEXT ID="9034711" Text="Chaser’s Ridge Tactic Mode"/>
+<TEXT ID="9034720" Text="Haven of Peace Defense Mode"/>
+<TEXT ID="9034721" Text="Haven of Peace Tactic Mode"/>
+<TEXT ID="9034810" Text="Verglas Ridge Defense Mode"/>
+<TEXT ID="9034811" Text="Verglas Ridge Tactic Mode"/>
+<TEXT ID="9034820" Text="Bear Claw Mine Defense Mode"/>
+<TEXT ID="9034821" Text="Bear Claw Mine Tactic Mode"/>
+<TEXT ID="9036101" Text="Forgotten Village Bonus Stage"/>
+<TEXT ID="9036102" Text="Forgotten Village Bonus 2"/>
+<TEXT ID="9036131" Text="Village of Slumber Bonus Stage"/>
+<TEXT ID="9036132" Text="Village of Slumber Bonus 2"/>
+<TEXT ID="9036201" Text="Land of Temptation Bonus Stage"/>
+<TEXT ID="9036202" Text="Land of Temptation Bonus 2"/>
+<TEXT ID="9036231" Text="Frigid Canyon Bonus Stage"/>
+<TEXT ID="9036232" Text="Frigid Canyon Bonus 2"/>
+<TEXT ID="9036711" Text="Chaser’s Ridge Bonus1"/>
+<TEXT ID="9036712" Text="Chaser’s Ridge Bonus2"/>
+<TEXT ID="9036721" Text="Haven of Peace Bonus Stage"/>
+<TEXT ID="9036722" Text="Haven of Peace Bonus 2"/>
+<TEXT ID="9036811" Text="Verglas Ridge Bonus Stage"/>
+<TEXT ID="9036812" Text="Verglas Ridge Bonus 2"/>
+<TEXT ID="9036821" Text="Bear Claw Mine Bonus Stage"/>
+<TEXT ID="9036822" Text="Bear Claw Mine Bonus 2"/>
+<TEXT ID="9037101" Text="Forgotten Village Bonus Stage"/>
+<TEXT ID="9037102" Text="Forgotten Village Bonus 2"/>
+<TEXT ID="9037131" Text="Village of Slumber Bonus Stage"/>
+<TEXT ID="9037132" Text="Village of Slumber Bonus 2"/>
+<TEXT ID="9037201" Text="Land of Temptation Bonus Stage"/>
+<TEXT ID="9037202" Text="Land of Temptation Bonus 2"/>
+<TEXT ID="9037231" Text="Frigid Canyon Bonus Stage"/>
+<TEXT ID="9037232" Text="Frigid Canyon Bonus 2"/>
+<TEXT ID="9037711" Text="Chaser’s Ridge Bonus1"/>
+<TEXT ID="9037712" Text="Chaser’s Ridge Bonus2"/>
+<TEXT ID="9037721" Text="Haven of Peace Bonus Stage"/>
+<TEXT ID="9037722" Text="Haven of Peace Bonus 2"/>
+<TEXT ID="9037811" Text="Verglas Ridge Bonus Stage"/>
+<TEXT ID="9037812" Text="Verglas Ridge Bonus 2"/>
+<TEXT ID="9037821" Text="Bear Claw Mine Bonus Stage"/>
+<TEXT ID="9037822" Text="Bear Claw Mine Bonus 2"/>
+<TEXT ID="9038100" Text="Arcadia City"/>
+<TEXT ID="9038101" Text="Arcadia City - Upper"/>
+<TEXT ID="9038102" Text="Arcadia City - Center"/>
+<TEXT ID="9038103" Text="Arcadia City - Lower"/>
+<TEXT ID="9038200" Text="Ellora Camp"/>
+<TEXT ID="9038300" Text="Village of Ash Mist"/>
+<TEXT ID="9039109" Text="Bubobubo(Forgotten Village Elite)"/>
+<TEXT ID="9039139" Text="Flickering Burlune(Village of Slumber Elite)"/>
+<TEXT ID="9039209" Text="Golem Pythanous(Land of Temptation Elite)"/>
+<TEXT ID="9039239" Text="Ice Princess Arka(Frigid Canyon Elite)"/>
+<TEXT ID="9039309" Text="Gaiden"/>
+<TEXT ID="9039339" Text="Kimart"/>
+<TEXT ID="9039369" Text="Antares"/>
+<TEXT ID="9039711" Text="Chaser’s Ridge"/>
+<TEXT ID="9039712" Text="Frozen Bridge"/>
+<TEXT ID="9039719" Text="Ice Golem Agnes Elite"/>
+<TEXT ID="9039721" Text="Frozen Grave"/>
+<TEXT ID="9039722" Text="Haven of Peace"/>
+<TEXT ID="9039729" Text="Grim Reaper Abyss Elite"/>
+<TEXT ID="9039811" Text="Verglas Forest"/>
+<TEXT ID="9039812" Text="Verglas Ridge"/>
+<TEXT ID="9039819" Text="Ice Dragon Legno Elite"/>
+<TEXT ID="9039821" Text="Bear Claw Ridge"/>
+<TEXT ID="9039822" Text="Bear Claw Hill"/>
+<TEXT ID="9039829" Text="Alexandre"/>
+<TEXT ID="9048100" Text="Sky Garden"/>
+<TEXT ID="9050100" Text="Salvalon"/>
+<TEXT ID="9050101" Text="Salvalon Arcade 1"/>
+<TEXT ID="9050102" Text="Salvalon Arcade 2"/>
+<TEXT ID="9050103" Text="Salvalon Arcade 3"/>
+<TEXT ID="9050104" Text="Salvalon Arcade 4"/>
+<TEXT ID="9050105" Text="Salvalon Arcade 5"/>
+<TEXT ID="9050106" Text="Salvalon Arcade 6"/>
+<TEXT ID="9050107" Text="Salvalon Arcade 7"/>
+<TEXT ID="9050108" Text="Salvalon Arcade 8"/>
+<TEXT ID="9050109" Text="Guardian Captain Jaro"/>
+<TEXT ID="9050110" Text="Lamieta"/>
+<TEXT ID="9050111" Text="Lamieta Arcade 1"/>
+<TEXT ID="9050112" Text="Lamieta Arcade 2"/>
+<TEXT ID="9050113" Text="Lamieta Arcade 3"/>
+<TEXT ID="9050114" Text="Lamieta Arcade 4"/>
+<TEXT ID="9050115" Text="Lamieta Arcade 5"/>
+<TEXT ID="9050116" Text="Lamieta Arcade 6"/>
+<TEXT ID="9050117" Text="Lamieta Arcade 7"/>
+<TEXT ID="9050118" Text="Lamieta Arcade 8"/>
+<TEXT ID="9050119" Text="Lamieta Kelo"/>
+<TEXT ID="9050120" Text="Eruda Valley"/>
+<TEXT ID="9050200" Text="Dragon Valley"/>
+<TEXT ID="9050201" Text="Dragon Valley Arcade 1"/>
+<TEXT ID="9050202" Text="Dragon Valley Arcade 2"/>
+<TEXT ID="9050203" Text="Dragon Valley Arcade 3"/>
+<TEXT ID="9050204" Text="Dragon Valley Arcade 4"/>
+<TEXT ID="9050205" Text="Dragon Valley Arcade 5"/>
+<TEXT ID="9050206" Text="Dragon Valley Arcade 6"/>
+<TEXT ID="9050207" Text="Dragon Valley Arcade 7"/>
+<TEXT ID="9050208" Text="Dragon Valley Arcade 8"/>
+<TEXT ID="9050209" Text="Dragon Valley Arcade Elite"/>
+<TEXT ID="9050210" Text="Nail Hill"/>
+<TEXT ID="9050220" Text="Wing Gorge"/>
+<TEXT ID="9050230" Text="Edge of the World"/>
+<TEXT ID="9050231" Text="Edge of the World Arcade 1"/>
+<TEXT ID="9050232" Text="Edge of the World Arcade 2"/>
+<TEXT ID="9050233" Text="Edge of the World Arcade 3"/>
+<TEXT ID="9050234" Text="Edge of the World Arcade 4"/>
+<TEXT ID="9050235" Text="Edge of the World Arcade 5"/>
+<TEXT ID="9050236" Text="Edge of the World Arcade 6"/>
+<TEXT ID="9050237" Text="Edge of the World Arcade 7"/>
+<TEXT ID="9050238" Text="Edge of the World Arcade 8"/>
+<TEXT ID="9050239" Text="Edge of the World Arcade Elite"/>
+<TEXT ID="9050300" Text="Depraved Altar"/>
+<TEXT ID="9050301" Text="Akia Cave"/>
+<TEXT ID="9050302" Text="Depraved Altar"/>
+<TEXT ID="9050400" Text="Dark Altar"/>
+<TEXT ID="9050401" Text="Black Claw Nest "/>
+<TEXT ID="9050402" Text="Dimensional Room Entrance"/>
+<TEXT ID="9050510" Text="Mirage Hill"/>
+<TEXT ID="9050520" Text="Sandstorm Desert"/>
+<TEXT ID="9050521" Text="Sandstorm Desert Arcade 1"/>
+<TEXT ID="9050522" Text="Sandstorm Desert Arcade 2"/>
+<TEXT ID="9050523" Text="Sandstorm Desert Arcade 3"/>
+<TEXT ID="9050524" Text="Sandstorm Desert Arcade 4"/>
+<TEXT ID="9050525" Text="Sandstorm Desert Arcade 5"/>
+<TEXT ID="9050526" Text="Sandstorm Desert Arcade 6"/>
+<TEXT ID="9050527" Text="Sandstorm Desert Arcade 7"/>
+<TEXT ID="9050528" Text="Sandstorm Desert Arcade 8"/>
+<TEXT ID="9050529" Text="Sandstorm Desert Arcade Elite"/>
+<TEXT ID="9050530" Text="Wasteland"/>
+<TEXT ID="9050531" Text="Wasteland Arcade 1"/>
+<TEXT ID="9050532" Text="Wasteland Arcade 2"/>
+<TEXT ID="9050533" Text="Wasteland Arcade 3"/>
+<TEXT ID="9050534" Text="Wasteland Arcade 4"/>
+<TEXT ID="9050535" Text="Wasteland Arcade 5"/>
+<TEXT ID="9050536" Text="Wasteland Arcade 6"/>
+<TEXT ID="9050537" Text="Wasteland Arcade 7"/>
+<TEXT ID="9050538" Text="Wasteland Arcade 8"/>
+<TEXT ID="9050539" Text="Wasteland Arcade Elite"/>
+<TEXT ID="9050600" Text="Hydron Core"/>
+<TEXT ID="9050601" Text="Red Fox Delta"/>
+<TEXT ID="9050610" Text="Vartika Hill"/>
+<TEXT ID="9050611" Text="Vartika Hill Arcade 1"/>
+<TEXT ID="9050612" Text="Vartika Hill Arcade 2"/>
+<TEXT ID="9050613" Text="Vartika Hill Arcade 3"/>
+<TEXT ID="9050614" Text="Vartika Hill Arcade 4"/>
+<TEXT ID="9050615" Text="Vartika Hill Arcade 5"/>
+<TEXT ID="9050616" Text="Vartika Hill Arcade 6"/>
+<TEXT ID="9050617" Text="Vartika Hill Arcade 7"/>
+<TEXT ID="9050618" Text="Vartika Hill Arcade 8"/>
+<TEXT ID="9050619" Text="Coco Tooth"/>
+<TEXT ID="9050620" Text="Vanshi Gorge"/>
+<TEXT ID="9052100" Text="Dark Salvalon"/>
+<TEXT ID="9052101" Text="Salvalon Chaos 1"/>
+<TEXT ID="9052102" Text="Salvalon Chaos 2"/>
+<TEXT ID="9052103" Text="Salvalon Chaos 3"/>
+<TEXT ID="9052104" Text="Salvalon Chaos 4"/>
+<TEXT ID="9052105" Text="Salvalon Chaos 5"/>
+<TEXT ID="9052106" Text="Salvalon Chaos 6"/>
+<TEXT ID="9052107" Text="Salvalon Chaos 7"/>
+<TEXT ID="9052108" Text="Salvalon Chaos 8"/>
+<TEXT ID="9052109" Text="Guardian Captain Jaro"/>
+<TEXT ID="9052110" Text="Dark Lamieta"/>
+<TEXT ID="9052111" Text="Lamieta Chaos 1"/>
+<TEXT ID="9052112" Text="Lamieta Chaos 2"/>
+<TEXT ID="9052113" Text="Lamieta Chaos 3"/>
+<TEXT ID="9052114" Text="Lamieta Chaos 4"/>
+<TEXT ID="9052115" Text="Lamieta Chaos 5"/>
+<TEXT ID="9052116" Text="Lamieta Chaos 6"/>
+<TEXT ID="9052117" Text="Lamieta Chaos 7"/>
+<TEXT ID="9052118" Text="Lamieta Chaos 8"/>
+<TEXT ID="9052119" Text="Lamieta Kelo"/>
+<TEXT ID="9052200" Text="Dark Dragon Valley"/>
+<TEXT ID="9052201" Text="Dragon Valley Chaos 1"/>
+<TEXT ID="9052202" Text="Dragon Valley Chaos 2"/>
+<TEXT ID="9052203" Text="Dragon Valley Chaos 3"/>
+<TEXT ID="9052204" Text="Dragon Valley Chaos 4"/>
+<TEXT ID="9052205" Text="Dragon Valley Chaos 5"/>
+<TEXT ID="9052206" Text="Dragon Valley Chaos 6"/>
+<TEXT ID="9052207" Text="Dragon Valley Chaos 7"/>
+<TEXT ID="9052208" Text="Dragon Valley Chaos 8"/>
+<TEXT ID="9052209" Text="Dragon Valley Chaos Elite"/>
+<TEXT ID="9052230" Text="Dark Edge of the World"/>
+<TEXT ID="9052231" Text="Edge of the World Chaos 1"/>
+<TEXT ID="9052232" Text="Edge of the World Chaos 2"/>
+<TEXT ID="9052233" Text="Edge of the World Chaos 3"/>
+<TEXT ID="9052234" Text="Edge of the World Chaos 4"/>
+<TEXT ID="9052235" Text="Edge of the World Chaos 5"/>
+<TEXT ID="9052236" Text="Edge of the World Chaos 6"/>
+<TEXT ID="9052237" Text="Edge of the World Chaos 7"/>
+<TEXT ID="9052238" Text="Edge of the World Chaos 8"/>
+<TEXT ID="9052239" Text="Edge of the World Chaos Elite"/>
+<TEXT ID="9052521" Text="Sandstorm Desert Chaos 1"/>
+<TEXT ID="9052522" Text="Sandstorm Desert Chaos 2"/>
+<TEXT ID="9052523" Text="Sandstorm Desert Chaos 3"/>
+<TEXT ID="9052524" Text="Sandstorm Desert Chaos 4"/>
+<TEXT ID="9052525" Text="Sandstorm Desert Chaos 5"/>
+<TEXT ID="9052526" Text="Sandstorm Desert Chaos 6"/>
+<TEXT ID="9052527" Text="Sandstorm Desert Chaos 7"/>
+<TEXT ID="9052528" Text="Sandstorm Desert Chaos 8"/>
+<TEXT ID="9052529" Text="Sandstorm Desert Chaos Elite"/>
+<TEXT ID="9052531" Text="Wasteland Chaos 1"/>
+<TEXT ID="9052532" Text="Wasteland Chaos 2"/>
+<TEXT ID="9052533" Text="Wasteland Chaos 3"/>
+<TEXT ID="9052534" Text="Wasteland Chaos 4"/>
+<TEXT ID="9052535" Text="Wasteland Chaos 5"/>
+<TEXT ID="9052536" Text="Wasteland Chaos 6"/>
+<TEXT ID="9052537" Text="Wasteland Chaos 7"/>
+<TEXT ID="9052538" Text="Wasteland Chaos 8"/>
+<TEXT ID="9052539" Text="Wasteland Chaos Elite"/>
+<TEXT ID="9052610" Text="Dark Vartika Hill"/>
+<TEXT ID="9052611" Text="Vartika Hill Chaos 1"/>
+<TEXT ID="9052612" Text="Vartika Hill Chaos 2"/>
+<TEXT ID="9052613" Text="Vartika Hill Chaos 3"/>
+<TEXT ID="9052614" Text="Vartika Hill Chaos 4"/>
+<TEXT ID="9052615" Text="Vartika Hill Chaos 5"/>
+<TEXT ID="9052616" Text="Vartika Hill Chaos 6"/>
+<TEXT ID="9052617" Text="Vartika Hill Chaos 7"/>
+<TEXT ID="9052618" Text="Vartika Hill Chaos 8"/>
+<TEXT ID="9052619" Text="Coco Tooth"/>
+<TEXT ID="9054100" Text="Salvalon Defense mode"/>
+<TEXT ID="9054110" Text="Lamieta Defense mode"/>
+<TEXT ID="9054200" Text="Dragon Valley Defense mode"/>
+<TEXT ID="9054201" Text="Dragon Valley Strategic Defense mode"/>
+<TEXT ID="9054230" Text="Edge of the World Defense mode"/>
+<TEXT ID="9054610" Text="Vartika Hill Defense Mode"/>
+<TEXT ID="9056101" Text="Salvalon Bonus Stage"/>
+<TEXT ID="9056102" Text="Salvalon Bonus 2"/>
+<TEXT ID="9056111" Text="Lamieta Bonus Stage"/>
+<TEXT ID="9056112" Text="Lamieta Bonus 2"/>
+<TEXT ID="9056201" Text="Dragon Valley Bonus Stage"/>
+<TEXT ID="9056202" Text="Dragon Valley Bonus 2"/>
+<TEXT ID="9056231" Text="Edge of the World Bonus Stage"/>
+<TEXT ID="9056232" Text="Edge of the World Bonus 2"/>
+<TEXT ID="9056521" Text="Sandstorm Desert Bonus Stage"/>
+<TEXT ID="9056522" Text="Sandstorm Desert Bonus 2"/>
+<TEXT ID="9056531" Text="Wasteland Bonus Stage"/>
+<TEXT ID="9056532" Text="Wasteland Bonus 2"/>
+<TEXT ID="9056611" Text="Vartika Hill Bonus Stage"/>
+<TEXT ID="9056612" Text="Vartika Hill Bonus 2"/>
+<TEXT ID="9057101" Text="Salvalon Bonus Stage"/>
+<TEXT ID="9057102" Text="Salvalon Bonus 2"/>
+<TEXT ID="9057111" Text="Lamieta Bonus Stage"/>
+<TEXT ID="9057112" Text="Lamieta Bonus 2"/>
+<TEXT ID="9057201" Text="Dragon Valley Bonus Stage"/>
+<TEXT ID="9057202" Text="Dragon Valley Bonus 2"/>
+<TEXT ID="9057231" Text="Edge of the World Bonus Stage"/>
+<TEXT ID="9057232" Text="Edge of the World Bonus 2"/>
+<TEXT ID="9057521" Text="Sandstorm Desert Bonus Stage"/>
+<TEXT ID="9057522" Text="Sandstorm Desert Bonus 2"/>
+<TEXT ID="9057531" Text="Wasteland Bonus Stage"/>
+<TEXT ID="9057532" Text="Wasteland Bonus 2"/>
+<TEXT ID="9057611" Text="Vartika Hill Bonus Stage"/>
+<TEXT ID="9057612" Text="Vartika Hill Bonus 2"/>
+<TEXT ID="9058100" Text="Kazeura Village"/>
+<TEXT ID="9059101" Text="Salvalon scenario 1"/>
+<TEXT ID="9059102" Text="Salvalon scenario 2"/>
+<TEXT ID="9059109" Text="Salvalon Jaro"/>
+<TEXT ID="9059111" Text="Lamieta scenario 1"/>
+<TEXT ID="9059112" Text="Lamieta scenario 2"/>
+<TEXT ID="9059119" Text="Lamieta Kelo"/>
+<TEXT ID="9059201" Text="Dragon Valley scenario 1"/>
+<TEXT ID="9059202" Text="Dragon Valley scenario 2"/>
+<TEXT ID="9059209" Text="Dragon Valley Deomn Peurogel"/>
+<TEXT ID="9059231" Text="Edge of the World scenario 1"/>
+<TEXT ID="9059232" Text="Edge of the World scenario 2"/>
+<TEXT ID="9059239" Text="Edge of the World Kashape"/>
+<TEXT ID="9059611" Text="Vartika Hill scenario 1"/>
+<TEXT ID="9059612" Text="Vartika Hill scenario 2"/>
+<TEXT ID="9059619" Text="Coco Tooth"/>
+<TEXT ID="9090941" Text="Nymph&#39;s Tears"/>
+<TEXT ID="9090983" Text="Test Map 1"/>
+<TEXT ID="9090984" Text="Test Map 2"/>
+<TEXT ID="9090985" Text="Test Map 3"/>
+<TEXT ID="9090986" Text="Test Map 4"/>
+<TEXT ID="9090987" Text="Test Map 5"/>
+<TEXT ID="9090988" Text="Test Map 6"/>
+<TEXT ID="9090989" Text="Test Map 7"/>
+<TEXT ID="9090990" Text="Test Map 8"/>
+<TEXT ID="9090991" Text="Test Map 9"/>
+<TEXT ID="9090992" Text="Test Map 10"/>
+<TEXT ID="9090993" Text="Test Map 11"/>
+<TEXT ID="9090994" Text="Test Map 12"/>
+<TEXT ID="9090995" Text="Test Map 13"/>
+<TEXT ID="9090996" Text="Test Map 14"/>
+<TEXT ID="9090997" Text="Test Map 15"/>
+<TEXT ID="9090998" Text="Test Map 16"/>
+<TEXT ID="9090999" Text="Test Map 17"/>
+<TEXT ID="9600200" Text="Wind village"/>
+<TEXT ID="9600201" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600208" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600209" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600211" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600218" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600219" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600241" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600242" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600249" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600259" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600260" Text="Abandoned Emperor's Palace"/>
+<TEXT ID="9600401" Text="Secret Foggy Forest"/>
+<TEXT ID="9600402" Text="Secret Foggy Forest"/>
+<TEXT ID="9600403" Text="Secret Foggy Forest"/>
+<TEXT ID="9600408" Text="Secret Foggy Ground"/>
+<TEXT ID="9600409" Text="Secret Foggy Forest"/>
+<TEXT ID="9600411" Text="Sweety Ghost Forest"/>
+<TEXT ID="9600412" Text="Sweety Ghost Forest"/>
+<TEXT ID="9600413" Text="Sweety Ghost Forest"/>
+<TEXT ID="9600418" Text="Sweety Ghost Ground"/>
+<TEXT ID="9600419" Text="Sweety Ghost Forest"/>
+<TEXT ID="9600441" Text="Jack&#39;s Chilly Mansion Entrance"/>
+<TEXT ID="9600442" Text="Jack&#39;s Chilly Mansion Entrance"/>
+<TEXT ID="9600443" Text="Jack&#39;s Chilly Mansion Entrance"/>
+<TEXT ID="9600449" Text="Jack&#39;s Chilly Mansion"/>
+<TEXT ID="9600459" Text="Jack&#39;s Chilly Mansion"/>
+<TEXT ID="9600460" Text="Foggy Ghost Forest"/>
+<TEXT ID="9710100" Text="Ice Spirit Boss stage"/>
+<TEXT ID="9710101" Text="Ice Spirit Dungeon"/>
+<TEXT ID="9710200" Text="Fire Spirit Boss stage"/>
+<TEXT ID="9710201" Text="Fire Spirit Dungeon"/>
+<TEXT ID="9710300" Text="Dark Spirit Boss stage"/>
+<TEXT ID="9710301" Text="Dark Spirit Dungeon"/>
+<TEXT ID="9710400" Text="Nature Spirit Boss stage"/>
+<TEXT ID="9710401" Text="Nature Spirit Dungeon"/>
+<TEXT ID="9850400" Text="Black Claw Nest Outpost"/>
+<TEXT ID="9910100" Text="Warrior Tutorial"/>
+<TEXT ID="9910200" Text="Magician Tutorial"/>
+<TEXT ID="9910300" Text="Archer Tutorial"/>
+<TEXT ID="9910400" Text="Thief Tutorial"/>
+<TEXT ID="9920101" Text="Woodie&#39;s Checkpoint"/>
+<TEXT ID="9920102" Text="Traitor&#39;s Ridge Corner"/>
+<TEXT ID="9920103" Text="Martini Coast Corner"/>
+<TEXT ID="9920104" Text="Soldier&#39;s Valley Corner"/>
+<TEXT ID="9920105" Text="Valid Raeth Corner"/>
+<TEXT ID="9920106" Text="Scalding Swamps Corner"/>
+<TEXT ID="9920107" Text="Grove Playground"/>
+<TEXT ID="9920108" Text="Gods&#39; Sanctuary Corner"/>
+<TEXT ID="9920109" Text="Fungoid Yard"/>
+<TEXT ID="9920110" Text="Ellora Corner"/>
+<TEXT ID="9920111" Text="Drakos Corner"/>
+<TEXT ID="9920201" Text="Rampart of Armageddon"/>
+<TEXT ID="9920202" Text="Fiery Heart"/>
+<TEXT ID="9920203" Text="Magma Belt"/>
+<TEXT ID="9920204" Text="Labyrinth of Mystery"/>
+<TEXT ID="9920301" Text="Battle of Frozen Lake"/>
+<TEXT ID="9920302" Text="Emperor&#39;s Hill"/>
+<TEXT ID="9920400" Text="Jack&#39;s Workplace"/>
+<TEXT ID="9920500" Text="Dew Lake Foundation"/>
+<TEXT ID="9930100" Text="Kanath Emporia War"/>
+<TEXT ID="9930101" Text="Kanath Emporia War"/>
+<TEXT ID="9930200" Text="Dragon Defense War"/>
+<TEXT ID="9930210" Text="Dragon Defense War"/>
+<TEXT ID="9931100" Text="Emporia War Test"/>
+<TEXT ID="9940101" Text="Fire Dragon Flag Battle Area"/>
+<TEXT ID="9940102" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940103" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940104" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940105" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940106" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940107" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940108" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940109" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940110" Text="Water Dragon Flag Battle Area"/>
+<TEXT ID="9940111" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940112" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940113" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940114" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940115" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940116" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940117" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940118" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940119" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940120" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940121" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940122" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940123" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940124" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940125" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940126" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940127" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940128" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940129" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940130" Text="Flag Fight Battle Area"/>
+<TEXT ID="9940201" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940202" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940203" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940204" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940205" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940206" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940207" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940208" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940209" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940210" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940211" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940212" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940213" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940214" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940215" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940216" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940217" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940218" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940219" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940220" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940221" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940222" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940223" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940224" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940225" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940226" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940227" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940228" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940229" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9940230" Text="Aqua Square Battle Area(Flag Battle)"/>
+<TEXT ID="9950101" Text="Hooroo Plain"/>
+<TEXT ID="9950200" Text="Magma Drake Lavalon"/>
+<TEXT ID="9950201" Text="Magma Dungeon"/>
+<TEXT ID="9950301" Text="Love Love Domination"/>
+<TEXT ID="9950600" Text="Ancient Golem Aram"/>
+<TEXT ID="9950601" Text="Kundara Dungeon"/>
+<TEXT ID="9970100" Text="Swish Specter&#39;s tower"/>
+<TEXT ID="9970300" Text="Risky Ghost House"/>
+<TEXT ID="9980100" Text="Zodiac Event Map"/>
+<TEXT ID="9980110" Text="Aries"/>
+<TEXT ID="9980111" Text="Aries"/>
+<TEXT ID="9980120" Text="Taurus"/>
+<TEXT ID="9980121" Text="Taurus"/>
+<TEXT ID="9980130" Text="Gemini"/>
+<TEXT ID="9980131" Text="Gemini"/>
+<TEXT ID="9980140" Text="Cancer"/>
+<TEXT ID="9980141" Text="Cancer"/>
+<TEXT ID="9980150" Text="Leo"/>
+<TEXT ID="9980151" Text="Leo"/>
+<TEXT ID="9980160" Text="Virgo"/>
+<TEXT ID="9980161" Text="Virgo"/>
+<TEXT ID="9980170" Text="Pegasi"/>
+<TEXT ID="9980171" Text="Pegasi"/>
+<TEXT ID="9980180" Text="Scorpio"/>
+<TEXT ID="9980181" Text="Scorpio"/>
+<TEXT ID="9980190" Text="Sagittarius"/>
+<TEXT ID="9980191" Text="Sagittarius"/>
+<TEXT ID="9980200" Text="Hydra"/>
+<TEXT ID="9980201" Text="Hydra"/>
+<TEXT ID="9980300" Text="Ophiuchus"/>
+<TEXT ID="9980301" Text="Ophiuchus"/>
+<TEXT ID="9990101" Text="Chamber of Time"/>
+<TEXT ID="9990102" Text="Chamber of Darkness"/>
+<TEXT ID="9990103" Text="GM Room"/>
+<TEXT ID="9990104" Text="UNKNOWN Map #9990104"/>
+<TEXT ID="9990105" Text="UNKNOWN Map #9990105"/>
+<TEXT ID="9990106" Text="UNKNOWN Map #9990106"/>
+<TEXT ID="9990107" Text="UNKNOWN Map #9990107"/>
+<TEXT ID="9990200" Text="Port of Winds Farm"/>
+<TEXT ID="9991001" Text="My Home"/>
+<TEXT ID="9600300" Text="Nicola&#39;s Laboratory"/>
+<TEXT ID="9600301" Text="Metro City Port"/>
+<TEXT ID="9990520" Text="Catacombs of Geffen"/>
+<TEXT ID="9990521" Text="Catacombs of Geffen"/>
+<TEXT ID="9018155" Text="Rock festival"/>
+<TEXT ID="9600500" Text="Oberburg"/>
+<TEXT ID="9600501" Text="Path to Bruges"/>
+<TEXT ID="9600502" Text="Path to Bruges"/>
+<TEXT ID="9600503" Text="Path to Bruges"/>
+<TEXT ID="9600504" Text="Bruges"/>
+<TEXT ID="9600505" Text="Oberburg mansions"/>
+<TEXT ID="9600506" Text="Oberburg mansions"/>
+<TEXT ID="9600507" Text="Oberburg beach"/>
+<TEXT ID="9600600" Text="The Santa Claus Village"/>
+</STRING_TABLE_LOCAL>

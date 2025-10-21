@@ -1,0 +1,23 @@
+# Dump
+*.dmp
+*.txt
+
+# Compiler
+*.idb
+*.pdb
+*.map
+*.exp
+*.lib
+
+# Client Generated
+Release/Log/
+Shader/Generated/
+Release/RANK.DAT
+Release/Config.xml
+
+# Updater
+last.hash
+VERSION.MD
+patch.ver
+TEMP_UPDATE/
+

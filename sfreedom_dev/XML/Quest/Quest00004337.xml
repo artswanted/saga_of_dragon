@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4337</ID> <!--T.T.10433700 하늘을 나는 랜턴 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	랜디에게 소울 30개를 가져다 주자.-->
+<!--[완료NPC]	바람항구 - 렌디-->
+<!--[내용]	바람항구 근처에 랜턴이 하늘을 날아다닌다는 소문이 돌고 있다. 혹시나 하고 랜디에게 물어보니 그건 친구 잭이라고 하면서, 잭에 대한 이야기가 궁금하면 소울 30개를 가져다 달라고 한다.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</CLIENT> <!--시작NPC 바람항구 - 렌디 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</PAYER> <!--완료NPC 바람항구 - 렌디 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</AGENT> <!--진행NPC 11 바람항구 - 렌디 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">79000030</ITEM> 
+ <!--Item_NO=79000030/소울,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="30" TEXT="10433711"/> <!--소울 30개 수집-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433721" FACE="Randy_normal"/> <!--올해도 어김없이 할로윈!!! 그런데 분위기가 어수선 하지? 이게다 그 소문 때문이지 케르케르케르-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433726" FACE="Randy_smile"/> <!--왜 이렇게 늦어!!! 이게 뭐야? 고작 이거야? 그래도 가져온 성의를 봐서 받아주지. 케르케르케르-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433723" FACE="Randy_normal"/> <!--흠…소문이 뭐냐면 바람항구 근처에 잭이란 녀석이 나타났어. 응? 잭이 누구냐구? 그녀석은 내 친구인데 말이야…아니지 아니지. 이봐 궁금하면 나에게 소울을 좀 가져와. 나같은 유령에겐 소울은 참 좋은 간식이거든.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433724" FACE="Randy_angly"/> <!--싫으면 말고. 나야 손해 보는건 없지.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433725" FACE="Randy_normal"/> <!--소울이 어디있어? 장난치는 거야? 가만 안두겟어!!!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433702" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

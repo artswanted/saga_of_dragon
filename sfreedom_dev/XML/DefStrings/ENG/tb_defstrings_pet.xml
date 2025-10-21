@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="600000" Text="Puan"/>
+<TEXT ID="600100" Text="Ping Mao"/>
+<TEXT ID="600200" Text="Leo"/>
+<TEXT ID="615100" Text="Tiger"/>
+<TEXT ID="615101" Text="Tiger"/>
+<TEXT ID="615102" Text="Tiger"/>
+<TEXT ID="615200" Text="Liger"/>
+<TEXT ID="615201" Text="Liger"/>
+<TEXT ID="615202" Text="Liger"/>
+<TEXT ID="615300" Text="Midnight Calm"/>
+<TEXT ID="615301" Text="Midnight Calm"/>
+<TEXT ID="615302" Text="Midnight Calm"/>
+<TEXT ID="615400" Text="Raccoony"/>
+<TEXT ID="615500" Text="Roggy"/>
+<TEXT ID="615600" Text="Mong mong"/>
+<TEXT ID="615700" Text="Leaf Oinky"/>
+<TEXT ID="615800" Text="Faya"/>
+<TEXT ID="615900" Text="Deviruchi"/>
+<TEXT ID="615901" Text="Deviruchi"/>
+<TEXT ID="615902" Text="Deviruchi"/>
+<TEXT ID="616000" Text="Sohee"/>
+<TEXT ID="616001" Text="Sohee"/>
+<TEXT ID="616002" Text="Sohee"/>
+<TEXT ID="616200" Text="Santa Griffon"/>
+<TEXT ID="616201" Text="Santa Griffon"/>
+<TEXT ID="616202" Text="Santa Griffon"/>
+<TEXT ID="616300" Text="Santa Dark Flip"/>
+<TEXT ID="616301" Text="Santa Dark Flip"/>
+<TEXT ID="616302" Text="Santa Dark Flip"/>
+<TEXT ID="616400" Text="Santa Feilon"/>
+<TEXT ID="616401" Text="Feilon Egg 2"/>
+<TEXT ID="616402" Text="Feilon Egg 3"/>
+<TEXT ID="616500" Text="Pegasus"/>
+<TEXT ID="616501" Text="Pegasus"/>
+<TEXT ID="616502" Text="Pegasus"/>
+<TEXT ID="616503" Text="Pegasus"/>
+<TEXT ID="616600" Text="Merlion"/>
+<TEXT ID="616700" Text="Mini Red"/>
+<TEXT ID="616800" Text="Yellow Cat"/>
+<TEXT ID="616900" Text="Wild Green"/>
+<TEXT ID="617000" Text="Blue Thunder"/>
+<TEXT ID="617100" Text="Gold Pegasus"/>
+<TEXT ID="617101" Text="Gold Pegasus"/>
+<TEXT ID="617102" Text="Gold Pegasus"/>
+<TEXT ID="617200" Text="Dark Pegasus "/>
+<TEXT ID="617201" Text="Dark Pegasus "/>
+<TEXT ID="617202" Text="Dark Pegasus "/>
+<TEXT ID="617300" Text="Fire Pegasus "/>
+<TEXT ID="617301" Text="Fire Pegasus "/>
+<TEXT ID="617302" Text="Fire Pegasus"/>
+<TEXT ID="617800" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="617801" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="617802" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="617900" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="617901" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="617902" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618000" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618001" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618002" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618100" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618101" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618102" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618200" Text="Flix Egg "/>
+<TEXT ID="618201" Text="Flix Egg "/>
+<TEXT ID="618202" Text="Flix Egg "/>
+<TEXT ID="618300" Text="Pink Flix"/>
+<TEXT ID="618301" Text="Pink Flix"/>
+<TEXT ID="618302" Text="Pink Flix"/>
+<TEXT ID="618400" Text="Gold Flix Egg"/>
+<TEXT ID="618401" Text="Gold Flix Egg"/>
+<TEXT ID="618402" Text="Gold Flix Egg"/>
+<TEXT ID="618500" Text="Tabby Flix Egg"/>
+<TEXT ID="618501" Text="Tabby Flix Egg"/>
+<TEXT ID="618502" Text="Tabby Flix Egg"/>
+<TEXT ID="618600" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618601" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="618602" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65202220" Text="Tiger"/>
+<TEXT ID="65202221" Text="Fierce but gentle to you."/>
+<TEXT ID="65202225" Text="Tiger Egg"/>
+<TEXT ID="65202230" Text="Tiger"/>
+<TEXT ID="65202235" Text="Tiger Egg"/>
+<TEXT ID="65202236" Text="Tiget will born."/>
+<TEXT ID="65202240" Text="Tiger"/>
+<TEXT ID="65202245" Text="Tiger Egg"/>
+<TEXT ID="65202250" Text="Liger"/>
+<TEXT ID="65202251" Text="Fierce cat. Liger."/>
+<TEXT ID="65202255" Text="Liger Egg"/>
+<TEXT ID="65202256" Text="Liger will born."/>
+<TEXT ID="65202260" Text="Liger"/>
+<TEXT ID="65202265" Text="Liger Egg"/>
+<TEXT ID="65202270" Text="Liger"/>
+<TEXT ID="65202275" Text="Liger Egg"/>
+<TEXT ID="65202280" Text="Midnight Calm"/>
+<TEXT ID="65202281" Text="In the legend, it has been believed that Midnight Calm only comes up to hero and gives challenge to choose its master."/>
+<TEXT ID="65202285" Text="Midnight Calm Pet Egg"/>
+<TEXT ID="65202290" Text="Midnight Calm"/>
+<TEXT ID="65202295" Text="Midnight Calm Pet Egg"/>
+<TEXT ID="65202296" Text="Midnight Calm hatches from this egg."/>
+<TEXT ID="65202300" Text="Midnight Calm"/>
+<TEXT ID="65202305" Text="Midnight Calm Pet Egg"/>
+<TEXT ID="65202310" Text="Raccoony"/>
+<TEXT ID="65202311" Text="Playful Raccoony will keep you busy."/>
+<TEXT ID="65202320" Text="Raccoony Pet Egg"/>
+<TEXT ID="65202321" Text="Raccoony hatches from this egg."/>
+<TEXT ID="65202330" Text="Roggy"/>
+<TEXT ID="65202331" Text="Roggy. Are you from outer space?"/>
+<TEXT ID="65202340" Text="Roggy Pet Egg"/>
+<TEXT ID="65202341" Text="Roggy hatches from this egg."/>
+<TEXT ID="65202350" Text="Mong mong"/>
+<TEXT ID="65202351" Text="How many tentacles do you have?"/>
+<TEXT ID="65202360" Text="Mong mong Pet Egg"/>
+<TEXT ID="65202361" Text="Mong mong hatches from this egg."/>
+<TEXT ID="65202370" Text="Leaf Oinky"/>
+<TEXT ID="65202371" Text="Joyful Leaf Oinky loves playing with the leaf on his head."/>
+<TEXT ID="65202380" Text="Leaf Oinky"/>
+<TEXT ID="65202381" Text="Leaf Oinky hatches from this egg."/>
+<TEXT ID="65202390" Text="Faya"/>
+<TEXT ID="65202391" Text="Ooops! You may burn yourself."/>
+<TEXT ID="65202400" Text="Faya Pet Egg"/>
+<TEXT ID="65202401" Text="Faya hatches from this egg."/>
+<TEXT ID="65202410" Text="Deviruchi"/>
+<TEXT ID="65202411" Text="I think I once met Deviruchi in RO."/>
+<TEXT ID="65202420" Text="Deviruchi Pet Egg"/>
+<TEXT ID="65202421" Text="Deviruchi hatches from this egg."/>
+<TEXT ID="65202430" Text="Deviruchi"/>
+<TEXT ID="65202440" Text="Deviruchi Pet Egg"/>
+<TEXT ID="65202450" Text="Deviruchi"/>
+<TEXT ID="65202460" Text="Deviruchi Pet Egg"/>
+<TEXT ID="65202470" Text="Sohee"/>
+<TEXT ID="65202471" Text="Have you heard of Sohee&#39;s popularity in RO?"/>
+<TEXT ID="65202480" Text="Sohee Pet Egg"/>
+<TEXT ID="65202481" Text="Sohee hatches from this egg."/>
+<TEXT ID="65202490" Text="Sohee"/>
+<TEXT ID="65202500" Text="Sohee Pet Egg"/>
+<TEXT ID="65202510" Text="Sohee"/>
+<TEXT ID="65202520" Text="Sohee Pet Egg"/>
+<TEXT ID="65210010" Text="Santa Griffon"/>
+<TEXT ID="65210011" Text="Christmas special limited edition Griffon."/>
+<TEXT ID="65210012" Text="Santa Griffon"/>
+<TEXT ID="65210013" Text="Santa Griffon"/>
+<TEXT ID="65210015" Text="Santa Griffon Egg"/>
+<TEXT ID="65210016" Text="Santa Griffon will be born."/>
+<TEXT ID="65210020" Text="Santa Dark Flip"/>
+<TEXT ID="65210021" Text="Christmas special limited edition Dark Flip."/>
+<TEXT ID="65210022" Text="Santa Dark Flip"/>
+<TEXT ID="65210023" Text="Santa Dark Flip"/>
+<TEXT ID="65210025" Text="Santa Dark Flip Egg"/>
+<TEXT ID="65210026" Text="Santa Dark Flip will be born."/>
+<TEXT ID="65210040" Text="Santa Feilon"/>
+<TEXT ID="65210041" Text="Christmas special limited edition Feilon."/>
+<TEXT ID="65210042" Text="Santa Feilon"/>
+<TEXT ID="65210043" Text="Santa Feilon"/>
+<TEXT ID="65210045" Text="Santa Feilon Egg"/>
+<TEXT ID="65210046" Text="Santa Feilon will be born."/>
+<TEXT ID="65210050" Text="Pegasus"/>
+<TEXT ID="65210052" Text="Pegasus"/>
+<TEXT ID="65210053" Text="Pegasus"/>
+<TEXT ID="65210055" Text="Pegasus Egg"/>
+<TEXT ID="65210060" Text="Merlion"/>
+<TEXT ID="65210061" Text="Cute creature, Merlion."/>
+<TEXT ID="65210070" Text="Merlion Egg"/>
+<TEXT ID="65210071" Text="Merlion hatches from the egg."/>
+<TEXT ID="65210076" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210077" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210078" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210079" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210080" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210081" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210082" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210083" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210084" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210085" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210086" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210087" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210088" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210089" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210090" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210091" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210092" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210093" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210094" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210095" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210096" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210097" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210098" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210099" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210176" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210177" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210178" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210179" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210180" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210181" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210182" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210183" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210184" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210185" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210186" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210187" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210188" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210189" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210190" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210191" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210192" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210193" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210194" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210195" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210196" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210197" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210198" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210199" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="65210350" Text="Pegasus"/>
+<TEXT ID="65210351" Text="Elegant and graceful Sky horse, Pegasus."/>
+<TEXT ID="65210355" Text="Pegasus Egg"/>
+<TEXT ID="65210361" Text="Egg that has Pegasus in it"/>
+<TEXT ID="65210380" Text="Gold Pegasus"/>
+<TEXT ID="65210381" Text="Elegant and graceful sky horse, Gold Pegasus."/>
+<TEXT ID="65210385" Text="Gold Pegasus Egg  "/>
+<TEXT ID="65210391" Text="Egg that has Gold Pegasus in it."/>
+<TEXT ID="65210410" Text="Dark Pegasus"/>
+<TEXT ID="65210411" Text="Elegant and graceful sky horse, Dark Pegasus."/>
+<TEXT ID="65210415" Text="Dark Pegasus Egg"/>
+<TEXT ID="65210421" Text="Egg that has Dark Pegasus in it."/>
+<TEXT ID="65210440" Text="Fire Pegasus"/>
+<TEXT ID="65210441" Text="Elegant and graceful sky horse, Fire Pegasus."/>
+<TEXT ID="65210445" Text="Fire Pegasus Egg"/>
+<TEXT ID="65210451" Text="Egg that has Fire Pegasus in it."/>
+<TEXT ID="65211350" Text="Flix"/>
+<TEXT ID="65211351" Text="Our lovely friend, Flix."/>
+<TEXT ID="65211355" Text="Flix Egg"/>
+<TEXT ID="65211361" Text="Egg that has Flix in it."/>
+<TEXT ID="65211380" Text="Pink Flix"/>
+<TEXT ID="65211381" Text="Our lovely friend, Pink Flix."/>
+<TEXT ID="65211385" Text="Pink Flix Egg"/>
+<TEXT ID="65211391" Text="Egg that has Pink Flix in it."/>
+<TEXT ID="65211410" Text="Gold Flix"/>
+<TEXT ID="65211411" Text="Our lovely friend, Gold Flix."/>
+<TEXT ID="65211415" Text="Gold Flix Egg"/>
+<TEXT ID="65211421" Text="Egg that has Gold Flix in it."/>
+<TEXT ID="65211440" Text="Tabby Flix"/>
+<TEXT ID="65211441" Text="Our lovely friend, Tabby Flix."/>
+<TEXT ID="65211445" Text="Tabby Flix Egg"/>
+<TEXT ID="65211451" Text="Egg that has Tabby Flix in it."/>
+<TEXT ID="66100119" Text="[Riding] Halloween Event Al"/>
+<TEXT ID="66202700" Text="Mini Red"/>
+<TEXT ID="66202701" Text="Cute Mini Red car."/>
+<TEXT ID="66202730" Text="Mini Red Egg"/>
+<TEXT ID="66202731" Text="Mini Red will be summoned from the egg."/>
+<TEXT ID="66202800" Text="Yellow Cat"/>
+<TEXT ID="66202801" Text="Yellow Cat has a little tail. "/>
+<TEXT ID="66202830" Text="Yellow Cat Egg"/>
+<TEXT ID="66202831" Text="Yellow Cat will be summoned from the egg."/>
+<TEXT ID="66202900" Text="Wild Green"/>
+<TEXT ID="66202901" Text="Wild Green likes the off roads."/>
+<TEXT ID="66202930" Text="Wild Green Egg"/>
+<TEXT ID="66202931" Text="Wild Green will be summoned from the egg."/>
+<TEXT ID="66203000" Text="Blue Thunder"/>
+<TEXT ID="66203001" Text="Blue Thunder is a super car."/>
+<TEXT ID="66203030" Text="Blue Thunder Egg"/>
+<TEXT ID="66203031" Text="Blue Thunder will be summoned from the egg."/>
+<TEXT ID="66203060" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203061" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203065" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203066" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203070" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203075" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203080" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="66203085" Text="DDDD - Translation not needed this time"/>
+<TEXT ID="80000001" Text="Share EXP"/>
+<TEXT ID="80000101" Text="This is Mine!"/>
+<TEXT ID="80000201" Text="We are getting old"/>
+<TEXT ID="80000301" Text="Power of Lion"/>
+<TEXT ID="80000401" Text="Lucky Strike"/>
+<TEXT ID="80000501" Text="Rock body"/>
+<TEXT ID="80000601" Text="Teeth of Lion"/>
+<TEXT ID="80000701" Text="Gold Rush"/>
+<TEXT ID="80000801" Text="Strong Dash"/>
+<TEXT ID="80000901" Text="Roar of Lion"/>
+<TEXT ID="80001101" Text="Nursing"/>
+<TEXT ID="80001201" Text="Better Potion"/>
+<TEXT ID="80001301" Text="Lighting"/>
+<TEXT ID="80001401" Text="Fire ball"/>
+<TEXT ID="80001501" Text="Bite off"/>
+<TEXT ID="80001601" Text="Poison Cloud"/>
+<TEXT ID="80001901" Text="Wheel Wind"/>
+<TEXT ID="80002201" Text="Dark Cloud"/>
+<TEXT ID="80002501" Text="Body Bash"/>
+<TEXT ID="80002801" Text="Blizzard"/>
+<TEXT ID="80003101" Text="Meteor"/>
+<TEXT ID="80003401" Text="More EXP for mission"/>
+<TEXT ID="80004101" Text="Auto Attack"/>
+<TEXT ID="80004201" Text="Ride!"/>
+<TEXT ID="80004301" Text="Launch Attack from Riding Pet"/>
+<TEXT ID="80004401" Text="Riding Pet Attack"/>
+<TEXT ID="80004501" Text="Tarurine Support"/>
+<TEXT ID="80004601" Text="Hurricane"/>
+<TEXT ID="80004602" Text="Hurricane"/>
+<TEXT ID="80004603" Text="Hurricane"/>
+<TEXT ID="80004604" Text="Hurricane"/>
+<TEXT ID="80004605" Text="Hurricane"/>
+<TEXT ID="80004606" Text="Hurricane"/>
+<TEXT ID="80004607" Text="Hurricane"/>
+<TEXT ID="80004608" Text="Hurricane"/>
+<TEXT ID="80004609" Text="Hurricane"/>
+<TEXT ID="80004610" Text="Hurricane"/>
+<TEXT ID="80004611" Text="3 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004612" Text="4 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004613" Text="5 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004614" Text="6 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004615" Text="7 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004616" Text="8 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004617" Text="9 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004618" Text="10 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004619" Text="11 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004621" Text="12 Thorns are fired around the pet&#39;s body and damages nearby enemies"/>
+<TEXT ID="80004701" Text="Pet food"/>
+<TEXT ID="80004702" Text="Pet food"/>
+<TEXT ID="80004703" Text="Pet food"/>
+<TEXT ID="80004704" Text="Pet food"/>
+<TEXT ID="80004705" Text="Pet food"/>
+<TEXT ID="80004706" Text="Pet food"/>
+<TEXT ID="80004707" Text="Pet food"/>
+<TEXT ID="80004708" Text="Pet food"/>
+<TEXT ID="80004709" Text="Pet food"/>
+<TEXT ID="80004710" Text="Pet food"/>
+<TEXT ID="80004711" Text="Pet&#39;s Phy/Mag attack power increased by 5%."/>
+<TEXT ID="80004712" Text="Pet&#39;s Phy/Mag attack power increased by 7%."/>
+<TEXT ID="80004713" Text="Pet&#39;s Phy/Mag attack power increased by 9%."/>
+<TEXT ID="80004714" Text="Pet&#39;s Phy/Mag attack power increased by 12%."/>
+<TEXT ID="80004715" Text="Pet&#39;s Phy/Mag attack power increased by 15%."/>
+<TEXT ID="80004716" Text="Pet&#39;s Phy/Mag attack power increased by 20%."/>
+<TEXT ID="80004717" Text="Pet&#39;s Phy/Mag attack power increased by 25%."/>
+<TEXT ID="80004718" Text="Pet&#39;s Phy/Mag attack power increased by 30%."/>
+<TEXT ID="80004719" Text="Pet&#39;s Phy/Mag attack power increased by 35%."/>
+<TEXT ID="80004721" Text="Pet&#39;s Phy/Mag attack power increased by 40%."/>
+<TEXT ID="80004801" Text="Frozen Cloud"/>
+<TEXT ID="80004802" Text="Frozen Cloud"/>
+<TEXT ID="80004803" Text="Frozen Cloud"/>
+<TEXT ID="80004804" Text="Frozen Cloud"/>
+<TEXT ID="80004805" Text="Frozen Cloud"/>
+<TEXT ID="80004806" Text="Frozen Cloud"/>
+<TEXT ID="80004807" Text="Frozen Cloud"/>
+<TEXT ID="80004808" Text="Frozen Cloud"/>
+<TEXT ID="80004809" Text="Frozen Cloud"/>
+<TEXT ID="80004810" Text="Frozen Cloud"/>
+<TEXT ID="80004901" Text="Frozen Cloud"/>
+<TEXT ID="80004902" Text="Frozen Cloud"/>
+<TEXT ID="80004903" Text="Frozen Cloud"/>
+<TEXT ID="80004904" Text="Frozen Cloud"/>
+<TEXT ID="80004905" Text="Frozen Cloud"/>
+<TEXT ID="80004906" Text="Frozen Cloud"/>
+<TEXT ID="80004907" Text="Frozen Cloud"/>
+<TEXT ID="80004908" Text="Frozen Cloud"/>
+<TEXT ID="80004909" Text="Frozen Cloud"/>
+<TEXT ID="80004910" Text="Frozen Cloud"/>
+<TEXT ID="80004911" Text="Movement/Attack speed of monsters around the Cloud is decreased by 15%, and monsters lose 15 HP per second."/>
+<TEXT ID="80004912" Text="Movement/Attack speed of monsters around the Cloud is decreased by 20%, and monsters lose 25 HP per second."/>
+<TEXT ID="80004913" Text="Movement/Attack speed of monsters around the Cloud is decreased by 25%, and monsters lose 35 HP per second."/>
+<TEXT ID="80004914" Text="Movement/Attack speed of monsters around the Cloud is decreased by 30%, and monsters lose 45 HP per second."/>
+<TEXT ID="80004915" Text="Movement/Attack speed of monsters around the Cloud is decreased by 35%, and monsters lose 55 HP per second."/>
+<TEXT ID="80004916" Text="Movement/Attack speed of monsters around the Cloud is decreased by 40%, and monsters lose 65 HP per second."/>
+<TEXT ID="80004917" Text="Movement/Attack speed of monsters around the Cloud is decreased by 45%, and monsters lose 75 HP per second."/>
+<TEXT ID="80004918" Text="Movement/Attack speed of monsters around the Cloud is decreased by 50%, and monsters lose 85 HP per second."/>
+<TEXT ID="80004919" Text="Movement/Attack speed of monsters around the Cloud is decreased by 55%, and monsters lose 100 HP per second."/>
+<TEXT ID="80004921" Text="Movement/Attack speed of monsters around the Cloud is decreased by 60%, and monsters lose 125 HP per second."/>
+<TEXT ID="80005001" Text="Hurricane"/>
+<TEXT ID="80005002" Text="Hurricane"/>
+<TEXT ID="80005003" Text="Hurricane"/>
+<TEXT ID="80005004" Text="Hurricane"/>
+<TEXT ID="80005005" Text="Hurricane"/>
+<TEXT ID="80005006" Text="Hurricane"/>
+<TEXT ID="80005007" Text="Hurricane"/>
+<TEXT ID="80005008" Text="Hurricane"/>
+<TEXT ID="80005009" Text="Hurricane"/>
+<TEXT ID="80005010" Text="Hurricane"/>
+<TEXT ID="80005101" Text="Fire Cloud"/>
+<TEXT ID="80005102" Text="Fire Cloud"/>
+<TEXT ID="80005103" Text="Fire Cloud"/>
+<TEXT ID="80005104" Text="Fire Cloud"/>
+<TEXT ID="80005105" Text="Fire Cloud"/>
+<TEXT ID="80005106" Text="Fire Cloud"/>
+<TEXT ID="80005107" Text="Fire Cloud"/>
+<TEXT ID="80005108" Text="Fire Cloud"/>
+<TEXT ID="80005109" Text="Fire Cloud"/>
+<TEXT ID="80005110" Text="Fire Cloud"/>
+<TEXT ID="80005111" Text="Monsters around fire cloud are -7% of overall HP. HP and MP are continuously decreasing by 8 and 7."/>
+<TEXT ID="80005112" Text="Monsters around fire cloud are -10% of overall HP. HP and MP are continuously decreasing by 13 and 12."/>
+<TEXT ID="80005113" Text="Monsters around fire cloud are -13% of overall HP. HP and MP are continuously decreasing by 18 and 17."/>
+<TEXT ID="80005114" Text="Monsters around fire cloud are -16% of overall HP. HP and MP are continuously decreasing by 23 and 22."/>
+<TEXT ID="80005115" Text="Monsters around fire cloud are -19% of overall HP. HP and MP are continuously decreasing by 28 and 27."/>
+<TEXT ID="80005116" Text="Monsters around fire cloud are -22% of overall HP. HP and MP are continuously decreasing by 33 and 32."/>
+<TEXT ID="80005117" Text="Monsters around fire cloud are -25% of overall HP. HP and MP are continuously decreasing by 38 and 37."/>
+<TEXT ID="80005118" Text="Monsters around fire cloud are -28% of overall HP. HP and MP are continuously decreasing by 42 and 42."/>
+<TEXT ID="80005119" Text="Monsters around fire cloud are -32% of overall HP. HP and MP are continuously decreasing by 52 and 52."/>
+<TEXT ID="80005121" Text="Monsters around fire cloud are -35% of overall HP. HP and MP are continuously decreasing by 62 and 62."/>
+<TEXT ID="80005201" Text="Fire Cloud"/>
+<TEXT ID="80005202" Text="Fire Cloud"/>
+<TEXT ID="80005203" Text="Fire Cloud"/>
+<TEXT ID="80005204" Text="Fire Cloud"/>
+<TEXT ID="80005205" Text="Fire Cloud"/>
+<TEXT ID="80005206" Text="Fire Cloud"/>
+<TEXT ID="80005207" Text="Fire Cloud"/>
+<TEXT ID="80005208" Text="Fire Cloud"/>
+<TEXT ID="80005209" Text="Fire Cloud"/>
+<TEXT ID="80005210" Text="Fire Cloud"/>
+<TEXT ID="80005301" Text="Fire Hurricane"/>
+<TEXT ID="80005302" Text="Fire Hurricane"/>
+<TEXT ID="80005303" Text="Fire Hurricane"/>
+<TEXT ID="80005304" Text="Fire Hurricane"/>
+<TEXT ID="80005305" Text="Fire Hurricane"/>
+<TEXT ID="80005306" Text="Fire Hurricane"/>
+<TEXT ID="80005307" Text="Fire Hurricane"/>
+<TEXT ID="80005308" Text="Fire Hurricane"/>
+<TEXT ID="80005309" Text="Fire Hurricane"/>
+<TEXT ID="80005310" Text="Fire Hurricane"/>
+<TEXT ID="80005311" Text="3 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005312" Text="4 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005313" Text="5 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005314" Text="6 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005315" Text="7 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005316" Text="8 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005317" Text="9 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005318" Text="10 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005319" Text="11 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005321" Text="12 hurricanes are forwarding toward damaging to the monsters."/>
+<TEXT ID="80005401" Text="Roar"/>
+<TEXT ID="80005402" Text="Roar"/>
+<TEXT ID="80005403" Text="Roar"/>
+<TEXT ID="80005404" Text="Roar"/>
+<TEXT ID="80005405" Text="Roar"/>
+<TEXT ID="80005411" Text="Stun the monsters."/>
+<TEXT ID="80005501" Text="Bite Off"/>
+<TEXT ID="80005511" Text="Rush and attack enemy."/>
+<TEXT ID="80006501" Text="Thunder Beam"/>
+<TEXT ID="80006511" Text="Shoots a lazer beam straight ahead."/>
+<TEXT ID="80006521" Text="Animation that can be seen by pressing default attack button(X key) during the riding status. So you can show off your ride."/>
+<TEXT ID="80006601" Text="Wild Boom"/>
+<TEXT ID="80006611" Text="Launches a explosive grenade."/>
+<TEXT ID="80007001" Text="Gift from Sunflower"/>
+<TEXT ID="80007011" Text="The skill activated every 3 hours of play time."/>
+<TEXT ID="89001101" Text="Call Teleport menu"/>
+<TEXT ID="89001201" Text="Teleport cost discount"/>
+<TEXT ID="89001301" Text="Teleport cost free"/>
+<TEXT ID="800000011" Text="10% of users EXP goes to pet"/>
+<TEXT ID="800001011" Text="Depending on the Level, pet pick up the items automatically. Pick up 2 from 80 radius."/>
+<TEXT ID="800001021" Text="Depending on the Level, pet pick up the items automatically. Pick up 3 from 120 radius."/>
+<TEXT ID="800001031" Text="Depending on the Level, pet pick up the items automatically. Pick up 5 from 150 radius."/>
+<TEXT ID="800001041" Text="Depending on the Level, pet pick up the items automatically. Pick up 7 from 180 radius."/>
+<TEXT ID="800001051" Text="Depending on the Level, pet pick up the items automatically. Pick up 10 from 200 radius."/>
+<TEXT ID="800002011" Text="Depending on the level, pet EXP is shared by the user. 10% of pet EXP will be shared with the user."/>
+<TEXT ID="800002021" Text="Depending on the level, pet EXP is shared by the user. 20% of pet EXP will be shared with the user."/>
+<TEXT ID="800002031" Text="Depending on the level, pet EXP is shared by the user. 30% of pet EXP will be shared with the user."/>
+<TEXT ID="800002041" Text="Depending on the level, pet EXP is shared by the user. 40% of pet EXP will be shared with the user."/>
+<TEXT ID="800002051" Text="Depending on the level, pet EXP is shared by the user. 50% of pet EXP will be shared with the user."/>
+<TEXT ID="800003011" Text="Depending on the level, Character Attack point is increased. Player&#39;s physical attack get increased by 50."/>
+<TEXT ID="800003021" Text="Depending on the level, Character Attack point is increased. Player&#39;s physical attack get increased by 70."/>
+<TEXT ID="800003031" Text="Depending on the level, Character Attack point is increased. Player&#39;s physical attack get increased by 90."/>
+<TEXT ID="800003041" Text="Depending on the level, Character Attack point is increased. Player&#39;s physical attack get increased by 120."/>
+<TEXT ID="800003051" Text="Depending on the level, Character Attack point is increased. Player&#39;s physical attack get increased by 150."/>
+<TEXT ID="800004011" Text="A buff get activated that will get more gold. For 5 minutes, 3% of gold drop will be increased by 20%."/>
+<TEXT ID="800004021" Text="A buff get activated that will get more gold. For 5 minutes, 4% of gold drop will be increased by 40%."/>
+<TEXT ID="800004031" Text="A buff get activated that will get more gold. For 5 minutes, 5% of gold drop will be increased by 60%."/>
+<TEXT ID="800004041" Text="A buff get activated that will get more gold. For 5 minutes, 7% of gold drop will be increased by 80%."/>
+<TEXT ID="800004051" Text="A buff get activated that will get more gold. For 5 minutes, 10% of gold drop will be increased by 100%."/>
+<TEXT ID="800005011" Text="A buff giving player Additional physical defence point is activated. 5% physical defence for 5 minutes."/>
+<TEXT ID="800005021" Text="A buff giving player Additional physical defence point is activated. 7% physical defence for 5 minutes."/>
+<TEXT ID="800005031" Text="A buff giving player Additional physical defence point is activated. 9% physical defence for 5 minutes."/>
+<TEXT ID="800005041" Text="A buff giving player Additional physical defence point is activated. 12% physical defence for 5 minutes."/>
+<TEXT ID="800005051" Text="A buff giving player Additional physical defence point is activated. 15% physical defence for 5 minutes."/>
+<TEXT ID="800006011" Text="A buff giving player additional critical attack point is activated. 5% critical attack point for 5 minutes."/>
+<TEXT ID="800006021" Text="A buff giving player additional critical attack point is activated. 7% critical attack point for 5 minutes."/>
+<TEXT ID="800006031" Text="A buff giving player additional critical attack point is activated. 9% critical attack point for 5 minutes."/>
+<TEXT ID="800006041" Text="A buff giving player additional critical attack point is activated. 12% critical attack point for 5 minutes."/>
+<TEXT ID="800006051" Text="A buff giving player additional critical attack point is activated. 15% critical attack point for 5 minutes."/>
+<TEXT ID="800007011" Text="When this skill activated, pet rush to monster and steal gold. 2 monsters will drop 1~4 silvers."/>
+<TEXT ID="800007021" Text="When this skill activated, pet rush to monster and steal gold. 4 monsters will drop 2~6 silvers."/>
+<TEXT ID="800007031" Text="When this skill activated, pet rush to monster and steal gold. 6 monsters will drop 3~8 silvers."/>
+<TEXT ID="800007041" Text="When this skill activated, pet rush to monster and steal gold. 8 monsters will drop 4~10 silvers."/>
+<TEXT ID="800007051" Text="When this skill activated, pet rush to monster and steal gold. 10 monsters will drop 5~12 silvers."/>
+<TEXT ID="800008011" Text="When this skill activated, pet rush to monster and set a debuff. 2 monsters will have Lv 6 slow debuff."/>
+<TEXT ID="800008021" Text="When this skill activated, pet rush to monster and set a debuff. 4 monsters will have Lv 7 slow debuff."/>
+<TEXT ID="800008031" Text="When this skill activated, pet rush to monster and set a debuff. 6 monsters will have Lv 8 slow debuff."/>
+<TEXT ID="800008041" Text="When this skill activated, pet rush to monster and set a debuff. 8 monsters will have Lv 9 slow debuff."/>
+<TEXT ID="800008051" Text="When this skill activated, pet rush to monster and set a debuff. 10 monsters will have Lv 10 slow debuff."/>
+<TEXT ID="800009011" Text="When this skill activated, pet shout loud noice and set a debuff. 2 monsters in radius of 80 will have Lv1 faint debuff."/>
+<TEXT ID="800009021" Text="When this skill activated, pet shout loud noice and set a debuff. 4 monsters in radius of 90 will have Lv2 faint debuff."/>
+<TEXT ID="800009031" Text="When this skill activated, pet shout loud noice and set a debuff. 6 monsters in radius of 100 will have Lv3 faint debuff."/>
+<TEXT ID="800009041" Text="When this skill activated, pet shout loud noice and set a debuff. 8 monsters in radius of 110 will have Lv4 faint debuff."/>
+<TEXT ID="800009051" Text="When this skill activated, pet shout loud noice and set a debuff. 10 monsters in radius of 120 will have Lv5 faint debuff."/>
+<TEXT ID="800011011" Text="Every 10 secondes, users HP and MP get recover by 50."/>
+<TEXT ID="800011021" Text="Every 15 secondes, users HP and MP get recover by 100."/>
+<TEXT ID="800011031" Text="Every 20 secondes, users HP and MP get recover by 150."/>
+<TEXT ID="800011041" Text="Every 25 secondes, users HP and MP get recover by 200."/>
+<TEXT ID="800011051" Text="Every 30 secondes, users HP and MP get recover by 250."/>
+<TEXT ID="800012011" Text="When Hp and MP potion is used, it&#39;s effect is increased by 5%."/>
+<TEXT ID="800012021" Text="When Hp and MP potion is used, it&#39;s effect is increased by 7.5%."/>
+<TEXT ID="800012031" Text="When Hp and MP potion is used, it&#39;s effect is increased by 10%."/>
+<TEXT ID="800012041" Text="When Hp and MP potion is used, it&#39;s effect is increased by 12.5%."/>
+<TEXT ID="800012051" Text="When Hp and MP potion is used, it&#39;s effect is increased by 15%."/>
+<TEXT ID="800013011" Text="Summon a lighting towards a target and attack. Higher the level, higher the attack point."/>
+<TEXT ID="800013021" Text="Summon a lighting towards a target and attack. Higher the level, higher the attack point."/>
+<TEXT ID="800013031" Text="Summon a lighting towards a target and attack. Higher the level, higher the attack point."/>
+<TEXT ID="800013041" Text="Summon a lighting towards a target and attack. Higher the level, higher the attack point."/>
+<TEXT ID="800013051" Text="Summon a lighting towards a target and attack. Higher the level, higher the attack point."/>
+<TEXT ID="800014011" Text="Fire a fireball towards a target. Higher the level, higher the attack point."/>
+<TEXT ID="800014021" Text="Fire a fireball towards a target. Higher the level, higher the attack point."/>
+<TEXT ID="800014031" Text="Fire a fireball towards a target. Higher the level, higher the attack point."/>
+<TEXT ID="800014041" Text="Fire a fireball towards a target. Higher the level, higher the attack point."/>
+<TEXT ID="800014051" Text="Fire a fireball towards a target. Higher the level, higher the attack point."/>
+<TEXT ID="800015011" Text="Attack a target by biting them. Higher the level, higher the attack point."/>
+<TEXT ID="800015021" Text="Attack a target by biting them. Higher the level, higher the attack point."/>
+<TEXT ID="800015031" Text="Attack a target by biting them. Higher the level, higher the attack point."/>
+<TEXT ID="800015041" Text="Attack a target by biting them. Higher the level, higher the attack point."/>
+<TEXT ID="800015051" Text="Attack a target by biting them. Higher the level, higher the attack point."/>
+<TEXT ID="800016011" Text="Using this skill would attack 10 enemies within range and Lv16 poison debuff."/>
+<TEXT ID="800016021" Text="Using this skill would attack 10 enemies within range and Lv17 poison debuff."/>
+<TEXT ID="800016031" Text="Using this skill would attack 10 enemies within range and Lv18 poison debuff."/>
+<TEXT ID="800016041" Text="Using this skill would attack 10 enemies within range and Lv19 poison debuff."/>
+<TEXT ID="800016051" Text="Using this skill would attack 10 enemies within range and Lv20 poison debuff."/>
+<TEXT ID="800017011" Text="Using this skill would attack 10 enemies within range and Lv16 poison debuff."/>
+<TEXT ID="800017021" Text="Using this skill would attack 10 enemies within range and Lv17 poison debuff."/>
+<TEXT ID="800017031" Text="Using this skill would attack 10 enemies within range and Lv18 poison debuff."/>
+<TEXT ID="800017041" Text="Using this skill would attack 10 enemies within range and Lv19 poison debuff."/>
+<TEXT ID="800017051" Text="Using this skill would attack 10 enemies within range and Lv20 poison debuff."/>
+<TEXT ID="800018011" Text="Using this skill would attack 10 enemies within range and Lv16 poison debuff."/>
+<TEXT ID="800018021" Text="Using this skill would attack 10 enemies within range and Lv17 poison debuff."/>
+<TEXT ID="800018031" Text="Using this skill would attack 10 enemies within range and Lv18 poison debuff."/>
+<TEXT ID="800018041" Text="Using this skill would attack 10 enemies within range and Lv19 poison debuff."/>
+<TEXT ID="800018051" Text="Using this skill would attack 10 enemies within range and Lv20 poison debuff."/>
+<TEXT ID="800019011" Text="Perform a spin attack that will attack 3 enemies 2 times."/>
+<TEXT ID="800019021" Text="Perform a spin attack that will attack 5 enemies 2 times."/>
+<TEXT ID="800019031" Text="Perform a spin attack that will attack 7 enemies 2 times."/>
+<TEXT ID="800019041" Text="Perform a spin attack that will attack 9 enemies 2 times."/>
+<TEXT ID="800019051" Text="Perform a spin attack that will attack 12 enemies 2 times."/>
+<TEXT ID="800020011" Text="Perform a spin attack that will attack 3 enemies 2 times."/>
+<TEXT ID="800020021" Text="Perform a spin attack that will attack 5 enemies 2 times."/>
+<TEXT ID="800020031" Text="Perform a spin attack that will attack 7 enemies 2 times."/>
+<TEXT ID="800020041" Text="Perform a spin attack that will attack 9 enemies 2 times."/>
+<TEXT ID="800020051" Text="Perform a spin attack that will attack 12 enemies 2 times."/>
+<TEXT ID="800021011" Text="Perform a spin attack that will attack 3 enemies 2 times."/>
+<TEXT ID="800021021" Text="Perform a spin attack that will attack 5 enemies 2 times."/>
+<TEXT ID="800021031" Text="Perform a spin attack that will attack 7 enemies 2 times."/>
+<TEXT ID="800021041" Text="Perform a spin attack that will attack 9 enemies 2 times."/>
+<TEXT ID="800021051" Text="Perform a spin attack that will attack 12 enemies 2 times."/>
+<TEXT ID="800022011" Text="Using this skill would attack 10 enemies within range and Lv6 stun debuff."/>
+<TEXT ID="800022021" Text="Using this skill would attack 10 enemies within range and Lv7 stun debuff."/>
+<TEXT ID="800022031" Text="Using this skill would attack 10 enemies within range and Lv8 stun debuff."/>
+<TEXT ID="800022041" Text="Using this skill would attack 10 enemies within range and Lv9 stun debuff."/>
+<TEXT ID="800022051" Text="Using this skill would attack 10 enemies within range and Lv10 stun debuff."/>
+<TEXT ID="800023011" Text="Using this skill would attack 10 enemies within range and Lv6 stun debuff."/>
+<TEXT ID="800023021" Text="Using this skill would attack 10 enemies within range and Lv7 stun debuff."/>
+<TEXT ID="800023031" Text="Using this skill would attack 10 enemies within range and Lv8 stun debuff."/>
+<TEXT ID="800023041" Text="Using this skill would attack 10 enemies within range and Lv9 stun debuff."/>
+<TEXT ID="800023051" Text="Using this skill would attack 10 enemies within range and Lv10 stun debuff."/>
+<TEXT ID="800024011" Text="Using this skill would attack 10 enemies within range and Lv6 stun debuff."/>
+<TEXT ID="800024021" Text="Using this skill would attack 10 enemies within range and Lv7 stun debuff."/>
+<TEXT ID="800024031" Text="Using this skill would attack 10 enemies within range and Lv8 stun debuff."/>
+<TEXT ID="800024041" Text="Using this skill would attack 10 enemies within range and Lv9 stun debuff."/>
+<TEXT ID="800024051" Text="Using this skill would attack 10 enemies within range and Lv10 stun debuff."/>
+<TEXT ID="800025011" Text="Rush forward fast, and attack 1 monster by crash into them"/>
+<TEXT ID="800025021" Text="Rush forward fast, and attack 2 monster by crash into them"/>
+<TEXT ID="800025031" Text="Rush forward fast, and attack 3 monster by crash into them"/>
+<TEXT ID="800025041" Text="Rush forward fast, and attack 4 monster by crash into them"/>
+<TEXT ID="800025051" Text="Rush forward fast, and attack 5 monster by crash into them"/>
+<TEXT ID="800026011" Text="Rush forward fast, and attack 1 monster by crash into them"/>
+<TEXT ID="800026021" Text="Rush forward fast, and attack 2 monster by crash into them"/>
+<TEXT ID="800026031" Text="Rush forward fast, and attack 3 monster by crash into them"/>
+<TEXT ID="800026041" Text="Rush forward fast, and attack 4 monster by crash into them"/>
+<TEXT ID="800026051" Text="Rush forward fast, and attack 5 monster by crash into them"/>
+<TEXT ID="800027011" Text="Rush forward fast, and attack 1 monster by crash into them"/>
+<TEXT ID="800027021" Text="Rush forward fast, and attack 2 monster by crash into them"/>
+<TEXT ID="800027031" Text="Rush forward fast, and attack 3 monster by crash into them"/>
+<TEXT ID="800027041" Text="Rush forward fast, and attack 4 monster by crash into them"/>
+<TEXT ID="800027051" Text="Rush forward fast, and attack 5 monster by crash into them"/>
+<TEXT ID="800028011" Text="By summoning ice crystal, attack 10 enemies within range and Lv10 freeze debuff."/>
+<TEXT ID="800028021" Text="By summoning ice crystal, attack 10 enemies within range and Lv11 freeze debuff."/>
+<TEXT ID="800028031" Text="By summoning ice crystal, attack 10 enemies within range and Lv12 freeze debuff."/>
+<TEXT ID="800028041" Text="By summoning ice crystal, attack 10 enemies within range and Lv13 freeze debuff."/>
+<TEXT ID="800028051" Text="By summoning ice crystal, attack 10 enemies within range and Lv14 freeze debuff."/>
+<TEXT ID="800029011" Text="By summoning ice crystal, attack 10 enemies within range and Lv10 freeze debuff."/>
+<TEXT ID="800029021" Text="By summoning ice crystal, attack 10 enemies within range and Lv11 freeze debuff."/>
+<TEXT ID="800029031" Text="By summoning ice crystal, attack 10 enemies within range and Lv12 freeze debuff."/>
+<TEXT ID="800029041" Text="By summoning ice crystal, attack 10 enemies within range and Lv13 freeze debuff."/>
+<TEXT ID="800029051" Text="By summoning ice crystal, attack 10 enemies within range and Lv14 freeze debuff."/>
+<TEXT ID="800030011" Text="By summoning ice crystal, attack 10 enemies within range and Lv10 freeze debuff."/>
+<TEXT ID="800030021" Text="By summoning ice crystal, attack 10 enemies within range and Lv11 freeze debuff."/>
+<TEXT ID="800030031" Text="By summoning ice crystal, attack 10 enemies within range and Lv12 freeze debuff."/>
+<TEXT ID="800030041" Text="By summoning ice crystal, attack 10 enemies within range and Lv13 freeze debuff."/>
+<TEXT ID="800030051" Text="By summoning ice crystal, attack 10 enemies within range and Lv14 freeze debuff."/>
+<TEXT ID="800031011" Text="By summoning a huge metero, attack 10 enemies within range and Lv10 burn debuff."/>
+<TEXT ID="800031021" Text="By summoning a huge metero, attack 10 enemies within range and Lv11 burn debuff."/>
+<TEXT ID="800031031" Text="By summoning a huge metero, attack 10 enemies within range and Lv12 burn debuff."/>
+<TEXT ID="800031041" Text="By summoning a huge metero, attack 10 enemies within range and Lv13 burn debuff."/>
+<TEXT ID="800031051" Text="By summoning a huge metero, attack 10 enemies within range and Lv14 burn debuff."/>
+<TEXT ID="800032011" Text="By summoning a huge metero, attack 10 enemies within range and Lv10 burn debuff."/>
+<TEXT ID="800032021" Text="By summoning a huge metero, attack 10 enemies within range and Lv11 burn debuff."/>
+<TEXT ID="800032031" Text="By summoning a huge metero, attack 10 enemies within range and Lv12 burn debuff."/>
+<TEXT ID="800032041" Text="By summoning a huge metero, attack 10 enemies within range and Lv13 burn debuff."/>
+<TEXT ID="800032051" Text="By summoning a huge metero, attack 10 enemies within range and Lv14 burn debuff."/>
+<TEXT ID="800033011" Text="By summoning a huge metero, attack 10 enemies within range and Lv10 burn debuff."/>
+<TEXT ID="800033021" Text="By summoning a huge metero, attack 10 enemies within range and Lv11 burn debuff."/>
+<TEXT ID="800033031" Text="By summoning a huge metero, attack 10 enemies within range and Lv12 burn debuff."/>
+<TEXT ID="800033041" Text="By summoning a huge metero, attack 10 enemies within range and Lv13 burn debuff."/>
+<TEXT ID="800033051" Text="By summoning a huge metero, attack 10 enemies within range and Lv14 burn debuff."/>
+<TEXT ID="800034011" Text="When complete a mission, player experience is increased by 10%"/>
+<TEXT ID="800041011" Text="This toggle button activates pet’s battle. They will be in action in battle but they will use random skills for their effectiveness."/>
+<TEXT ID="800042011" Text="This button is for mounting, dismounting a pet. Movement speed will be increased. With mounting status, cannot attack."/>
+<TEXT ID="800043011" Text="While on riding pet, this skill can be cast by hitting the normal attack(X key). ATTK/MATK depends on the riding pet&#39;s level."/>
+<TEXT ID="800044011" Text="While on riding pet, this skill can be cast by hitting the normal attack(X key). ATTK/MATK and number of launches depend on the riding pet&#39;s level."/>
+<TEXT ID="800045011" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 500"/>
+<TEXT ID="800045021" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 1000"/>
+<TEXT ID="800045031" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 1500"/>
+<TEXT ID="800045041" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 2000"/>
+<TEXT ID="800045051" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 2500"/>
+<TEXT ID="800045061" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 3000"/>
+<TEXT ID="800045071" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 3500"/>
+<TEXT ID="800045081" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 4000"/>
+<TEXT ID="800045091" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 4500"/>
+<TEXT ID="800045101" Text="Gaining Taurine Support effect from pet, the pet owner&#39;s HP recovers by 5000"/>
+<TEXT ID="890011011" Text="This skill is only able to use while mounting a pet. Teleport tower’s menu will be called anywhere. Cost will vary according in accordance with pets."/>
+<TEXT ID="890012011" Text="Teleport tower&#39;s cost will be decreased by 30%!!"/>
+<TEXT ID="890013011" Text="Teleport tower&#39;s cost will be FREE!!!"/>
+<TEXT ID="65211470" Text="S_201 1st"/>
+<TEXT ID="65211480" Text="S_201 2nd"/>
+<TEXT ID="65211490" Text="S_201 3rd"/>
+<TEXT ID="65211475" Text="S_201 Egg 1st"/>
+<TEXT ID="65211485" Text="S_201 Egg 2nd"/>
+<TEXT ID="65211495" Text="S_201 Egg 3rd"/>
+<TEXT ID="65211500" Text="X_201 1st"/>
+<TEXT ID="65211510" Text="X_201 2nd"/>
+<TEXT ID="65211520" Text="X_201 3rd"/>
+<TEXT ID="65211505" Text="X_201 Egg 1st"/>
+<TEXT ID="65211515" Text="X_201 Egg 2nd"/>
+<TEXT ID="65211525" Text="X_201 Egg 3rd"/>
+<TEXT ID="65211530" Text="Z_201 1st"/>
+<TEXT ID="65211540" Text="Z_201 2nd"/>
+<TEXT ID="65211550" Text="Z_201 3rd"/>
+<TEXT ID="65211535" Text="Z_201 Egg 1st"/>
+<TEXT ID="65211545" Text="Z_201 Egg 2nd"/>
+<TEXT ID="65211555" Text="Z_201 Egg 3rd"/>
+<TEXT ID="618900" Text="S_201 1st"/>
+<TEXT ID="618901" Text="S_201 2nd"/>
+<TEXT ID="618902" Text="S_201 3rd"/>
+<TEXT ID="618700" Text="X_201 1st"/>
+<TEXT ID="618701" Text="X_201 2nd"/>
+<TEXT ID="618702" Text="X_201 3rd"/>
+<TEXT ID="618800" Text="Z_201 1st"/>
+<TEXT ID="618801" Text="Z_201 2nd"/>
+<TEXT ID="618802" Text="Z_201 3rd"/>
+<TEXT ID="165001285" Text="Husky [Mount]"/>
+<TEXT ID="165001290" Text="Husky Egg [Mount]"/>
+<TEXT ID="6210010" Text="Husky"/>
+</STRING_TABLE_LOCAL>

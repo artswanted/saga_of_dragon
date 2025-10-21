@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>224</ID> <!--T.T.10022400 회오리 사탕은 내꺼야! -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	얼음성(F5히든모드)에서 스노이크를 처리하고, 회오리 사탕을 구해오자.-->
+<!--[완료NPC]	바람항구 - 산타의 조수 루돌프-->
+<!--[내용]	루돌프가 제일 좋아하는 간식은 사탕이라고 한다. 루돌프는 회오리 스노이크가 들고 있는 사탕이 너무너무 먹고 싶다고 한다. 얼음성(F5히든모드)으로 가서 회오리 스노이크를 처리하고 회오리 사탕을 구해오자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">4B90A0ED-46FD-4379-8266-F9C4C9A825C3</CLIENT> <!--시작NPC 바람항구 - 산타의 조수 루돌프 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">4B90A0ED-46FD-4379-8266-F9C4C9A825C3</PAYER> <!--완료NPC 바람항구 - 산타의 조수 루돌프 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">4B90A0ED-46FD-4379-8266-F9C4C9A825C3</AGENT> <!--진행NPC 11 바람항구 - 산타의 조수 루돌프 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9015725/10000/10000/1/1/160022400">7916500</MONSTER> 
+ <!--MON_NO=7916500/해당값 없거나 입력 안함!! 확인요망 ,MAP_NO=9015725/해당값 없거나 입력 안함!! 확인요망 ,Item_NO=160022400/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">160022400</ITEM> 
+ <!--Item_NO=160022400/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9015729/10000/0/1/1/160022400">7916500</MONSTER> 
+ <!--MON_NO=7916500/해당값 없거나 입력 안함!! 확인요망 ,MAP_NO=9015729/해당값 없거나 입력 안함!! 확인요망 ,Item_NO=160022400/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">160022400</ITEM> 
+ <!--Item_NO=160022400/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022411"/> <!--회오리 사탕-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022421" FACE="Event_Rudolph_normal"/> <!--용사님. 용사님은 회오리 사탕에 대해 아시나요?!-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022426" FACE="Event_Rudolph_smile"/> <!--이..이게..말로만 듣던.. 회오리 사탕인가요?
+정말 감사해요.%%
+앗! 그 눈은 뭐에요? 왜 회오리 사탕을 보고 계신건가요?
+혹시 나눠먹자 그런 어이없는 소리를 하시려는건 아니겠지요?!%%
+저기로 가세요! 안 줄거에요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022423" FACE="Event_Rudolph_normal"/> <!--회오리 스노이크가 가지고 있는 사탕에 대한 얘기예요.
+그 사탕은 메론에 버터를 섞은 맛이 난다고 해요.%%
+메론과 버터. 둘 다 제가 좋아하는 음식이죠.
+그 사탕을 용사님이 구해주신다면, 정말 좋겠어요.%%
+얼음성(F5히드몬드)으로 가서 스노이크를 처리하면 회오리 사탕을 얻을 수 있을거에요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022424" FACE="Event_Rudolph_angly"/> <!--사탕에는 관심이 없다고요? 
+혹시 용사님은 Solo인가요? 그래서 화이트데이날 집에만 계셔서
+사탕에 관심이 없으신건가요?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022425" FACE="Event_Rudolph_normal"/> <!--회오리 사탕을 생각하니 벌써부터 입에 군침이 도네요. -->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022402" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

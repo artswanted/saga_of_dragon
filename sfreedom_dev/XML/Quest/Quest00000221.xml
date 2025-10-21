@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>221</ID> <!--T.T.10022100 상처를 회복한 눈의 여왕 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	바람항구 니아와 대화하자-->
+<!--[완료NPC]	바람항구 - 니아-->
+<!--[내용]	산타와 행복한 미래를 건설중인 니아는 얼마전에 안 좋은 소식을 들었다고 한다. 자신들을 괴롭혔던 눈의 여왕 바토르가 상처를 회복하고 호시탐탐 산타와 니아에게 복수를 하기 위해 칼날을 갈고 있다고 한다. 니아에게 자세한 얘기를 들어보자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">8CE11B05-75B4-48c7-888E-96D78B794BAD</CLIENT> <!--시작NPC 바람항구 - 니아 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">8CE11B05-75B4-48c7-888E-96D78B794BAD</PAYER> <!--완료NPC 바람항구 - 니아 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">8CE11B05-75B4-48c7-888E-96D78B794BAD</AGENT> <!--진행NPC 11 바람항구 - 니아 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="601/1">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022111"/> <!--니아와 대화-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022121" FACE="nia_cry"/> <!--용사님. 용사님.
+큰일이에요. 제 얘기 좀 들어주세요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022126" FACE="nia_cry"/> <!--눈의 여왕이 상처를 회복하고, 또 다른 계획을 세우고 있다고 하더라고요.
+용사님이 산타님과 저의 행복을 지켜주시면 좋겠어요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022123" FACE="nia_cry"/> <!--얼마전 아주 좋지 않은 소식을 들었어요.
+숲의 요청 친구들이 얼마 전 눈의여왕에 대한 소식을 제가 알려 주더군요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022124" FACE="nia_cry"/> <!--흑흑… 매정하신 용사님.
+나쁜 남자 스타일이시네요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022125" FACE="nia_cry"/> <!--숲의 요정 친구들 얘기를 들어보니…-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022102" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

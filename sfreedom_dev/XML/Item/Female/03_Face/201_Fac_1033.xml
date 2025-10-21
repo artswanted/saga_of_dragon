@@ -1,0 +1,10 @@
+<!--
+By reOiL and marika for https://dragonica-mercy.online
+-->
+<?xml version="1.0" encoding="euc-kr"?>
+<ITEM NAME="face_1">
+	<FEMALE>	
+	<MESH>../Data/4_item/1_Armor/2_Female/03_Face/Jahy-sama_Female_Face_0001.nif</MESH>
+	<TEXTURE SRC="Jahy-sama_Female_Face_0001.dds">../Data/4_item/1_Armor/2_Female/03_Face/Texture/Jahy-sama_Female_Face_0001.dds</TEXTURE>
+	</FEMALE>
+</ITEM>

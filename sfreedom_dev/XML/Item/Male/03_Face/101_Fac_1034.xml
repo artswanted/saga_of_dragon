@@ -1,0 +1,10 @@
+<!--
+By reOiL and marika for https://dragonica-mercy.online
+-->
+<?xml version="1.0" encoding="euc-kr"?>
+<ITEM NAME="face_34">
+	<MALE>
+	<MESH>../Data/4_item/1_Armor/1_Male/03_Face/Zack_Male_Face_0001.nif</MESH>
+	<TEXTURE SRC="Zack_Male_Face_0001.dds">../Data/4_item/1_Armor/1_Male/03_Face/Texture/Zack_Male_Face_0001.dds</TEXTURE>
+	</MALE>
+</ITEM>

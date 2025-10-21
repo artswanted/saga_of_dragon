@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4354</ID> <!--T.T.10435400 죠죠의 기묘한 탈옥 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	죠죠형제 처치-->
+<!--[완료NPC]	니콜라의 연구실 - 니콜라-->
+<!--[내용]	알캄 수용소에 갇혀있던 죠죠형제가 탈옥을 했다. 그 소식을 들은 니콜라느느 불안해 하며 잠을 못 이루고 있다. 게다가 메트로시티에는 다시금 어두운 그림자가 드리워 지고 있다. 죠죠형제를 잡아 다시 알캄 수용소로 보내자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</CLIENT> <!--시작NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</PAYER> <!--완료NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</AGENT> <!--진행NPC 11 니콜라의 연구실 - 니콜라 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918500</MONSTER> 
+ <!--MON_NO=7918500/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<MONSTER OBJECTNO="2" TYPE="INCPARAM100" VALUE="1">7918600</MONSTER> 
+ <!--MON_NO=7918600/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10435411"/> <!--죠나단 처치-->
+		<OBJECT2 COUNT="1" TEXT="10435412"/> <!--죠셉 처치-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="3">82001220</ITEM><!--전체지급/전체/1)/82001220(봉인아님)3개-[14_01 싱가포르테마] 니콜라의 열쇠 -->
+			<ITEM COUNT="3">82001210</ITEM><!--전체지급/전체/1)/82001210(봉인아님)3개-[14_01 싱가포르테마] 메트로시티 입장권(퀘스트용) -->
+
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10435421" FACE="Nikola_normal"/> <!--죠죠형제가 알캄 수용소를 탈출 했다고 합니다.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10435426" FACE="Nikola_smile"/> <!--죠죠형제는 알캄 수용소에서 어떻게 탈출 했을까요?-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10435423" FACE="Nikola_normal"/> <!--알캄 수용소는 경비가 삼엄하기로 유명한데 죠죠형제가 탈출해서 [메트로시티 항구]로 돌아 왔다고 합니다. 언제 연구소를 습격할지 걱정이 되서 장이 안옵답니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10435424" FACE="Nikola_cry"/> <!--죠죠형제가 이번엔 부품을 훔치는게 아닌 연구소르르 파괴 할지도 모릅니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10435425" FACE="Nikola_normal"/> <!--밖에서 무슨 소리가? 설마 죠죠형제가?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10435402" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

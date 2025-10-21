@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="5" Text="Seigneur"/>
+<TEXT ID="6" Text="Général"/>
+<TEXT ID="7" Text="Conseiller"/>
+<TEXT ID="8" Text="Capitaine"/>
+<TEXT ID="9" Text="Soldat"/>
+<TEXT ID="10" Text="Groupe de  %"/>
+<TEXT ID="11" Text="NOUVEAU"/>
+<TEXT ID="12" Text="COOL"/>
+<TEXT ID="13" Text="VENTE"/>
+<TEXT ID="14" Text="EVENEMENT"/>
+<TEXT ID="15" Text="SUPER"/>
+<TEXT ID="1029630" Text="Pere Noel"/>
+<TEXT ID="1029640" Text="Portail"/>
+<TEXT ID="12000" Text="Ceci est le premier courrier de notification concernant la réglemantation de guilde"/>
+<TEXT ID="12001" Text="Ceci est le deuxième courrier de notification concernant la réglemantation de guilde"/>
+<TEXT ID="12002" Text="Ce courrier est est la notification en accord avec la réglementation de guilde"/>
+<TEXT ID="12003" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 7 jours. Il sera remplacé s&#39;il ne se connecte pas dans les 10 prochains jours"/>
+<TEXT ID="12004" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 14 jours. Il sera remplacé s&#39;il ne se connecte pas dans les 19 prochains jours"/>
+<TEXT ID="12005" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 20 jours. Il sera remplacé s&#39;il ne se connecte pas dans les 30 prochains jours"/>
+<TEXT ID="12006" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 30 jours. Il sera remplacé s&#39;il ne se connecte pas dans les 45 prochains jours"/>
+<TEXT ID="12007" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 10 jours. A minuit aujourd&#39;hui, d&#39;après la réglementation, ["/>
+<TEXT ID="12008" Text="] bénéficie du transfert des droits de Guilde. (A noter toutefois que le candidat suivant obtiendra les droits si le transfert initiale est invalide)"/>
+<TEXT ID="12009" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 19 jours. A minuit aujourd&#39;hui, d&#39;après la réglementation, ["/>
+<TEXT ID="12010" Text="] bénéficie du transfert des droits de Guilde. (A noter toutefois que le candidat suivant obtiendra les droits si le transfert initiale est invalide)"/>
+<TEXT ID="12011" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 30 jours. A minuit aujourd&#39;hui, d&#39;après la réglementation, ["/>
+<TEXT ID="12012" Text="] bénéficie du transfert des droits de Guilde. (A noter toutefois que le candidat suivant obtiendra les droits si le transfert initiale est invalide)"/>
+<TEXT ID="12013" Text="Le Maître de guilde ne s&#39;est pas connecté depuis 45 jours. A minuit aujourd&#39;hui, d&#39;après la réglementation, ["/>
+<TEXT ID="12014" Text="] bénéficie du transfert des droits de Guilde. (A noter toutefois que le candidat suivant obtiendra les droits si le transfert initiale est invalide)"/>
+<TEXT ID="12015" Text="Les droits de Maître de guilde ont été transférés à ["/>
+<TEXT ID="12016" Text="]."/>
+<TEXT ID="12017" Text="En accord avec la réglementation de guilde de Dragonica, votre guilde sera dissolue ce soir à minuit étant donné que ni le Chef de guilde, ni les membres de la guilde souhaitent entretenir celle-ci."/>
+<TEXT ID="12018" Text="En accord avec la règlemantation des guildes de Dragonica, votre guilde a été dissolue."/>
+<TEXT ID="12019" Text="MJ"/>
+<TEXT ID="90101" Text="Côte des Baleines"/>
+<TEXT ID="90102" Text="Sanctuaire de Mirinae"/>
+<TEXT ID="90103" Text="Plaines de Windia"/>
+<TEXT ID="90104" Text="Crête du Fourbe"/>
+<TEXT ID="90106" Text="Caverne des Dangers"/>
+<TEXT ID="90121" Text="Sanctuaire de Skippy"/>
+<TEXT ID="90130" Text="Plaines de Windia Est"/>
+<TEXT ID="90143" Text="Canyon de l&#39;Oubli"/>
+<TEXT ID="90156" Text="Palais des Glaces"/>
+<TEXT ID="90201" Text="Souffle du Démon"/>
+<TEXT ID="90203" Text="Marais Ardents"/>
+<TEXT ID="90204" Text="Forêt d&#39;Ocre"/>
+<TEXT ID="1029455" Text="Alba"/>
+<TEXT ID="90205" Text="Sanctuaire des Dieux"/>
+<TEXT ID="90243" Text="Colline aux Pins"/>
+<TEXT ID="91013" Text="Port Steven"/>
+<TEXT ID="91015" Text="Mission de la Flotte de Kalygon"/>
+<TEXT ID="91210" Text="Côte des Baleines (Chaos)"/>
+<TEXT ID="91213" Text="Port de Nautilus (Chaos)"/>
+<TEXT ID="91220" Text="Vallée du Brave (Chaos)"/>
+<TEXT ID="91230" Text="Plaines de Windia Sud (Chaos)"/>
+<TEXT ID="91233" Text="Plaines de Windia Est (Chaos)"/>
+<TEXT ID="91240" Text="Crête du Fourbe (Chaos)"/>
+<TEXT ID="91243" Text="Canyon de l&#39;Oubli (Chaos)"/>
+<TEXT ID="91260" Text="Caverne des Dangers (Chaos)"/>
+<TEXT ID="92210" Text="Souffle du Démon (Chaos)"/>
+<TEXT ID="92223" Text="Maraîs Ardents (Chaos)"/>
+<TEXT ID="92240" Text="Forêt d&#39;Ocre (Chaos)"/>
+<TEXT ID="92250" Text="Sanctuaire des Dieux (Chaos)"/>
+<TEXT ID="93010" Text="Village Oublié"/>
+<TEXT ID="93013" Text="Village Endormi"/>
+<TEXT ID="93020" Text="Terre de l&#39;Envie"/>
+<TEXT ID="93023" Text="Canyon Glacé"/>
+<TEXT ID="93030" Text="Grand Hall"/>
+<TEXT ID="93033" Text="Salle des Machines"/>
+<TEXT ID="93036" Text="Terrasse Eclairée"/>
+<TEXT ID="93071" Text="Mission de la Crête du Poursuivant"/>
+<TEXT ID="93072" Text="Mission du Refuge de la Paix"/>
+<TEXT ID="93081" Text="Mission de la Crête du Verglas"/>
+<TEXT ID="93082" Text="Mission de la Mine de la Griffe d&#39;Ours"/>
+<TEXT ID="93210" Text="Village Oublié (Chaos)"/>
+<TEXT ID="93213" Text="Village Endormi (Chaos)"/>
+<TEXT ID="93220" Text="Terre de l&#39;Envie (Chaos)"/>
+<TEXT ID="93223" Text="Canyon Glacé (Chaos)"/>
+<TEXT ID="93230" Text="Grand Hall (Chaos)"/>
+<TEXT ID="93233" Text="Salle des Machines (Chaos)"/>
+<TEXT ID="93236" Text="Terrasse Eclairée (Chaos)"/>
+<TEXT ID="95010" Text="Mission de Salvalon"/>
+<TEXT ID="95011" Text="Mission de Lamieta"/>
+<TEXT ID="95020" Text="Mission de la Vallée du Dragon"/>
+<TEXT ID="95023" Text="Le Bord du Monde"/>
+<TEXT ID="1000102" Text="Gardien de la Salle secrète"/>
+<TEXT ID="1000110" Text="..."/>
+<TEXT ID="1000111" Text="..."/>
+<TEXT ID="1000112" Text="..."/>
+<TEXT ID="1000113" Text="..."/>
+<TEXT ID="1000114" Text="..."/>
+<TEXT ID="1000115" Text="..."/>
+<TEXT ID="1000116" Text="..."/>
+<TEXT ID="1000117" Text="..."/>
+<TEXT ID="1010301" Text="Garde &#xA;[Guppy]"/>
+<TEXT ID="1018101" Text="Aubergiste &#xA;[Florane]"/>
+<TEXT ID="1018102" Text="Banquière &#xA;[Sofia]"/>
+<TEXT ID="1018103" Text="Agent immobilier &#xA;[James]"/>
+<TEXT ID="1018104" Text="Armurier &#xA;[Crispin]"/>
+<TEXT ID="1018105" Text="Commerçante &#xA;[Daisy]"/>
+<TEXT ID="1018106" Text="Forgeron &#xA;[Davy]"/>
+<TEXT ID="1018107" Text="Dame aux familiers &#xA;[Amy]"/>
+<TEXT ID="1018108" Text="Greffier de guilde &#xA;[Dony]"/>
+<TEXT ID="1018109" Text="Maître Guerrier &#xA;[Evan]"/>
+<TEXT ID="1018110" Text="Maître Voleur &#xA;[Cindy]"/>
+<TEXT ID="1018111" Text="Maître Archer &#xA;[Rony]"/>
+<TEXT ID="1018112" Text="Maître Magicien &#xA;[Edeline]"/>
+<TEXT ID="1018113" Text="Barman &#xA;[Rudolph]"/>
+<TEXT ID="1018114" Text="Arcaniste &#xA;[Pablo]"/>
+<TEXT ID="1018115" Text="Capitaine de la garde &#xA;[Colin]"/>
+<TEXT ID="1018116" Text="Garde &#xA;[Walter]"/>
+<TEXT ID="1018117" Text="Souverain &#xA;[Steven Jr.]"/>
+<TEXT ID="1018118" Text="Vieil ermite &#xA;[Alvin]"/>
+<TEXT ID="1018119" Text="Mercenaire &#xA;[Thomas]"/>
+<TEXT ID="1018120" Text="Voleur sournois &#xA;[Jeff]"/>
+<TEXT ID="1018121" Text="Majordome &#xA;[Vincent]"/>
+<TEXT ID="1018122" Text="Villageois &#xA;[Léo]"/>
+<TEXT ID="1018123" Text="Villageoise &#xA;[Leena]"/>
+<TEXT ID="1018124" Text="Garde &#xA;[Victor]"/>
+<TEXT ID="1018125" Text="Mage Fungoid &#xA;[Spooky]"/>
+<TEXT ID="1018126" Text="Forgeron &#xA;[Sanson]"/>
+<TEXT ID="1018127" Text="Pêcheur &#xA;[Primo]"/>
+<TEXT ID="1018128" Text="Colporteur &#xA;[Ponga]"/>
+<TEXT ID="1018129" Text="Villageois &#xA;[Ersil]"/>
+<TEXT ID="1018130" Text="Villageoise &#xA;[Anna]"/>
+<TEXT ID="1018131" Text="Marchand d&#39;outils &#xA;[Sen]"/>
+<TEXT ID="1018132" Text="Sentinelle &#xA;[Sigin]"/>
+<TEXT ID="1018201" Text="Aubergiste &#xA;[Florence]"/>
+<TEXT ID="1018202" Text="Armurier &#xA;[Billy]"/>
+<TEXT ID="1018203" Text="Commerçante &#xA;[Heidi]"/>
+<TEXT ID="1018206" Text="Marchande de vins &#xA;[Pamela]"/>
+<TEXT ID="1018207" Text="Capitaine de la garde &#xA;[Dustin]"/>
+<TEXT ID="1018208" Text="Garde &#xA;[Oliver]"/>
+<TEXT ID="1018209" Text="Chasseur de primes &#xA;[Adélio]"/>
+<TEXT ID="1018210" Text="Voleur sournois &#xA;[Jack]"/>
+<TEXT ID="1018214" Text="Batelier &#xA;[Zaza]"/>
+<TEXT ID="1018301" Text="Aubergiste &#xA;[Nyla]"/>
+<TEXT ID="1018302" Text="Banquière &#xA;[Herna]"/>
+<TEXT ID="1018303" Text="Armurier &#xA;[Dwayne]"/>
+<TEXT ID="1018304" Text="Marchand &#xA;[Koneil]"/>
+<TEXT ID="1018305" Text="Forgeron &#xA;[Anders]"/>
+<TEXT ID="1018306" Text="Agent immobilier &#xA;[Bowen]"/>
+<TEXT ID="1018307" Text="Garde &#xA;[Doug]"/>
+<TEXT ID="1018308" Text="Garde &#xA;[Balder]"/>
+<TEXT ID="1020103" Text="Mineur fugitif &#xA;[Turner]"/>
+<TEXT ID="1020402" Text="Bûcheron &#xA;[Robbie]"/>
+<TEXT ID="1020502" Text="Garde forestier &#xA;[Gallia]"/>
+<TEXT ID="1028101" Text="Aubergiste &#xA;[Mosanra]"/>
+<TEXT ID="1028102" Text="Banquière &#xA;[Camilla]"/>
+<TEXT ID="1028103" Text="Armurier &#xA;[Massenran]"/>
+<TEXT ID="1028104" Text="Commerçant &#xA;[Missontun]"/>
+<TEXT ID="1028105" Text="Forgeron &#xA;[Darwin]"/>
+<TEXT ID="1028106" Text="Dame aux familiers &#xA;[Edith]"/>
+<TEXT ID="1028107" Text="Maître Guerrier &#xA;[Dean]"/>
+<TEXT ID="1028108" Text="Maître Voleur &#xA;[Dina]"/>
+<TEXT ID="1028109" Text="Maître Archer &#xA;[Erynden]"/>
+<TEXT ID="1028110" Text="Maître Magicien &#xA;[Elsa]"/>
+<TEXT ID="1028111" Text="Agent immobilier &#xA;[Fidélio]"/>
+<TEXT ID="1028112" Text="Colporteur &#xA;[Ponga]"/>
+<TEXT ID="1028113" Text="Capitaine de la garde &#xA;[Hubert]"/>
+<TEXT ID="1028114" Text="Garde &#xA;[Jared]"/>
+<TEXT ID="1028116" Text="Chef Fungoid &#xA;[Fungarf]"/>
+<TEXT ID="1028117" Text="Sage &#xA;[Jeremy]"/>
+<TEXT ID="1028118" Text="Panneau &#xA;[On recherche]"/>
+<TEXT ID="1028119" Text="Panneau &#xA;[Danger]"/>
+<TEXT ID="1028120" Text="Panneau &#xA;[On recherche]"/>
+<TEXT ID="1028121" Text="Avatar &#xA;[Seigneur Junior]"/>
+<TEXT ID="1028122" Text="Distributeur de Pièces Gada"/>
+<TEXT ID="1028123" Text="Distributeur de Pièces Gada"/>
+<TEXT ID="1028124" Text="Soldat &#xA;[Kaun]"/>
+<TEXT ID="1028125" Text="Soldat &#xA;[Ronald]"/>
+<TEXT ID="1028126" Text="Soldat &#xA;[Horin]"/>
+<TEXT ID="1028127" Text="Soldat &#xA;[Lucas]"/>
+<TEXT ID="1028128" Text="Soldat &#xA;[Camek]"/>
+<TEXT ID="1028129" Text="Soldat &#xA;[Roméro]"/>
+<TEXT ID="1028130" Text="Infirmière &#xA;[Mimi]"/>
+<TEXT ID="1028131" Text="Magicien noir &#xA;[Baron]"/>
+<TEXT ID="1028132" Text="Fée des bois &#xA;[Grania]"/>
+<TEXT ID="1028133" Text="Voyageur égaré &#xA;[Matthew]"/>
+<TEXT ID="1028134" Text="Villageois &#xA;[Ringo]"/>
+<TEXT ID="1028135" Text="Garde &#xA;[Victor]"/>
+<TEXT ID="1028136" Text="Gorille &#xA;[Cori]"/>
+<TEXT ID="1028137" Text="Garde &#xA;[Yanick]"/>
+<TEXT ID="1028138" Text="Garde &#xA;[Chris]"/>
+<TEXT ID="1028139" Text="Commandant Guerrier &#xA;[Evan]"/>
+<TEXT ID="1028140" Text="Soldat"/>
+<TEXT ID="1028141" Text="Soldat"/>
+<TEXT ID="1028142" Text="Mercenaire &#xA;[Thomas]"/>
+<TEXT ID="1028143" Text="Soldat"/>
+<TEXT ID="1028144" Text="Renforcement &#xA;[Julie]"/>
+<TEXT ID="1028145" Text="[Boîte aux lettres]"/>
+<TEXT ID="1028146" Text="Greffier de ventes &#xA;[Gatto]"/>
+<TEXT ID="1028147" Text="Servante &#xA;[Rose]"/>
+<TEXT ID="1028148" Text="Intendant &#xA;[Dun Morgan]"/>
+<TEXT ID="1028149" Text="Villageoise &#xA;[Dina]"/>
+<TEXT ID="1028150" Text="[Quête-tutoriel 1]"/>
+<TEXT ID="1028151" Text="[Quête-tutoriel 2]"/>
+<TEXT ID="1028152" Text="[Quête-tutoriel 3]"/>
+<TEXT ID="1028153" Text="Fille de l&#39;Intendant &#xA;[Lylia]"/>
+<TEXT ID="1028154" Text="Quête héroïque de test"/>
+<TEXT ID="1028155" Text="Quête héroïque de test"/>
+<TEXT ID="1028156" Text="Garde &#xA;[Beron]"/>
+<TEXT ID="1028157" Text="Soldat"/>
+<TEXT ID="1028158" Text="Soldat"/>
+<TEXT ID="1028159" Text="Guide &#xA;[Pororing]"/>
+<TEXT ID="1028160" Text="ID_1028160"/>
+<TEXT ID="1028161" Text="ID_1028161"/>
+<TEXT ID="1028162" Text="ID_1028162"/>
+<TEXT ID="1028163" Text="ID_1028163"/>
+<TEXT ID="1028164" Text="Intendant &#xA;[Dun Morgan]"/>
+<TEXT ID="1028165" Text="ID_1028165"/>
+<TEXT ID="1028166" Text="Garde &#xA;[Guppy]"/>
+<TEXT ID="1028167" Text="Elite &#xA;[Vegas]"/>
+<TEXT ID="1028168" Text="Elite &#xA;[Sanka]"/>
+<TEXT ID="1028169" Text="Elite &#xA;[Kunka]"/>
+<TEXT ID="1028170" Text="Elite &#xA;[Capitaine Hookah]"/>
+<TEXT ID="1028171" Text="Elite &#xA;[Capitaine Alvida]"/>
+<TEXT ID="1028172" Text="Elite &#xA;[Seigneur de la nuit]"/>
+<TEXT ID="1028173" Text="Elite &#xA;[Atoo]"/>
+<TEXT ID="1028174" Text="Elite &#xA;[Chef Rocker]"/>
+<TEXT ID="1028175" Text="Garde &#xA;[Mette]"/>
+<TEXT ID="1028176" Text="Soldat blessé &#xA;[Mario]"/>
+<TEXT ID="1028177" Text="Alvida"/>
+<TEXT ID="1028178" Text="Alvida"/>
+<TEXT ID="1028179" Text="Pororing"/>
+<TEXT ID="1028180" Text="Lylia"/>
+<TEXT ID="1028181" Text="Elite &#xA;[Sanka]"/>
+<TEXT ID="1028182" Text="Elite &#xA;[Kunka]"/>
+<TEXT ID="1028183" Text="Gentil Kentar &#xA;[Pyrei]"/>
+<TEXT ID="1028184" Text="Elite &#xA;[Pythanuth]"/>
+<TEXT ID="1028185" Text="Mineur &#xA;[Dennis]"/>
+<TEXT ID="1028186" Text="Elite &#xA;[Gaiden]"/>
+<TEXT ID="1028187" Text="Elite &#xA;[Kimart]"/>
+<TEXT ID="1028188" Text="Elite &#xA;[Antarès]"/>
+<TEXT ID="1028189" Text="Mystérieux docteur &#xA;[Farrell]"/>
+<TEXT ID="1028190" Text="Agent de secours &#xA;[John]"/>
+<TEXT ID="1028191" Text="Gentil soldat Kentar"/>
+<TEXT ID="1028192" Text="Gentil soldat Kentar"/>
+<TEXT ID="1028193" Text="Gentil soldat Kentar"/>
+<TEXT ID="1028194" Text="Mauvais soldat Kentar"/>
+<TEXT ID="1028195" Text="Mauvais soldat Kentar"/>
+<TEXT ID="1028196" Text="Mauvais soldat Kentar"/>
+<TEXT ID="1028197" Text="Pyrei"/>
+<TEXT ID="1028198" Text="Karkarous"/>
+<TEXT ID="1028199" Text="Quête héroïque 25"/>
+<TEXT ID="1028200" Text="Quête héroïque 26"/>
+<TEXT ID="1028201" Text="Quête héroïque 27"/>
+<TEXT ID="1028202" Text="Elite &#xA;[Arka]"/>
+<TEXT ID="1028203" Text="Quête héroïque 29"/>
+<TEXT ID="1028204" Text="Quête héroïque 30"/>
+<TEXT ID="1028205" Text="Quête héroïque 31"/>
+<TEXT ID="1028206" Text="Quête héroïque 32"/>
+<TEXT ID="1028207" Text="Woodie malin"/>
+<TEXT ID="1028208" Text="Grand prêtre &#xA;[William]"/>
+<TEXT ID="1028209" Text="ID_1028209"/>
+<TEXT ID="1028210" Text="Eclaireur &#xA;[Parker]"/>
+<TEXT ID="1028211" Text="Gérant événementiel &#xA;[Gatto]"/>
+<TEXT ID="1028212" Text="[Artéfact d&#39;Eau]"/>
+<TEXT ID="1028213" Text="Soldat blessé &#xA;[Montero]"/>
+<TEXT ID="1028214" Text="Capitaine &#xA;[Kalygon]"/>
+<TEXT ID="1028215" Text="Renne de Noël &#xA;[Rudolf]"/>
+<TEXT ID="1028216" Text="Soldat &#xA;[Mark]"/>
+<TEXT ID="1028217" Text="Capitaine de la garde &#xA;[Hofman]"/>
+<TEXT ID="1028218" Text="Soldat blessé &#xA;[Montero]"/>
+<TEXT ID="1028219" Text="Chasseur débutant &#xA;[Hunter G]"/>
+<TEXT ID="1028220" Text="Chasseur confirmé &#xA;[Hunter P]"/>
+<TEXT ID="1028221" Text="Détective &#xA;[Gordon]"/>
+<TEXT ID="1028222" Text="Ame d&#39;Elga &#xA;[Elga Jr.]"/>
+<TEXT ID="1028223" Text="Tribu Mika &#xA;[Naoi]"/>
+<TEXT ID="1028224" Text="Tribu Mika &#xA;[Shangdor]"/>
+<TEXT ID="1028225" Text="Tribu Mika &#xA;[Kunteran]"/>
+<TEXT ID="1028226" Text="Tribu Mika &#xA;[Gurnek]"/>
+<TEXT ID="1028227" Text="Tribu Mika &#xA;[Syamalky]"/>
+<TEXT ID="1028228" Text="Tribu Mika &#xA;[Rugor]"/>
+<TEXT ID="1028229" Text="Elfe moine &#xA;[Hel Krouzer]"/>
+<TEXT ID="1028230" Text="Elfe moine &#xA;[Ruduella]"/>
+<TEXT ID="1028231" Text="Elfe moine &#xA;[Mohamo]"/>
+<TEXT ID="1028232" Text="Ancien énygmatique &#xA;[Veron]"/>
+<TEXT ID="1028233" Text="Gentil Chango &#xA;[WookiBooki]"/>
+<TEXT ID="1028234" Text="Colporteur &#xA;[Alex]"/>
+<TEXT ID="1028235" Text="Chasseur de vampires &#xA;[Veron]"/>
+<TEXT ID="1028236" Text="Chasseur de vampires &#xA;[Veron]"/>
+<TEXT ID="1028237" Text="Marchand de bijoux &#xA;[Edward]"/>
+<TEXT ID="1028238" Text="[PNJ événementiel CHN]"/>
+<TEXT ID="1028239" Text="Evénement &#xA;[Jenny]"/>
+<TEXT ID="1028240" Text="Maître &#xA;[June]"/>
+<TEXT ID="1028241" Text="Forgeron &#xA;[Nicolas]"/>
+<TEXT ID="1028242" Text="Armurier &#xA;[Eric]"/>
+<TEXT ID="1028243" Text="Soldat &#xA;[Tod]"/>
+<TEXT ID="1028244" Text="Marché noir &#xA;[Shyloc]"/>
+<TEXT ID="1028245" Text="Renforcement &#xA;[Ryan]"/>
+<TEXT ID="1028246" Text="Entremetteuse &#xA;[Jodie]"/>
+<TEXT ID="1028247" Text="Producteur de films &#xA;[Marv]"/>
+<TEXT ID="1028248" Text="Producteur de films &#xA;[Marv]"/>
+<TEXT ID="1028249" Text="Manager du ring &#xA;[Gérard]"/>
+<TEXT ID="1028250" Text="Officier &#xA;[Boris]"/>
+<TEXT ID="1028251" Text="Boîte à dons"/>
+<TEXT ID="1028252" Text="Panneau de Ma Maison 1"/>
+<TEXT ID="1028253" Text="[Alvida]"/>
+<TEXT ID="1028254" Text="[Seigneur de la Nuit]"/>
+<TEXT ID="1028255" Text="[Rocker]"/>
+<TEXT ID="1028256" Text="[Esprit du Vieil Arbre]"/>
+<TEXT ID="1028257" Text="Guichetier &#xA;[Yamaki]"/>
+<TEXT ID="1028258" Text="Patron de l&#39;Usine &#xA;[Derek]"/>
+<TEXT ID="1028259" Text="Fils de Florence &#xA;[Chuck]"/>
+<TEXT ID="1028260" Text="Distributeur de boîtes surprises"/>
+<TEXT ID="1028261" Text="Noceur d&#39;Halloween &#xA;[Randy]"/>
+<TEXT ID="1028262" Text="Chasseur &#xA;[Averno]"/>
+<TEXT ID="1028263" Text="Marchand d&#39;outils &#xA;[Taylor]"/>
+<TEXT ID="1028264" Text="Dame aux Familiers &#xA;[Iona]"/>
+<TEXT ID="1028265" Text="Pêcheuse &#xA;[Railey]"/>
+<TEXT ID="1028266" Text="Armurier &#xA;[Franck]"/>
+<TEXT ID="1028267" Text="Forgeron &#xA;[Smith]"/>
+<TEXT ID="1028268" Text="Gardien du Cimetière &#xA;[Larell]"/>
+<TEXT ID="1028269" Text="[Tombe apparente]"/>
+<TEXT ID="1028270" Text="Garde &#xA;[Swirl]"/>
+<TEXT ID="1028271" Text="Aubergiste &#xA;[Claire]"/>
+<TEXT ID="1028272" Text="[Tour du Souffle]"/>
+<TEXT ID="1028273" Text="Forgeron &#xA;[Hans]"/>
+<TEXT ID="1028274" Text="Sapin de Noël"/>
+<TEXT ID="1028275" Text="Marchand d&#39;outils &#xA;[Hime]"/>
+<TEXT ID="1028276" Text="Forgeron &#xA;[Ferguson]"/>
+<TEXT ID="1028277" Text="ID_1028277"/>
+<TEXT ID="1028278" Text="Soldat &#xA;[Vender]"/>
+<TEXT ID="1028279" Text="Forgeron &#xA;[Eldo]"/>
+<TEXT ID="1028280" Text="ID_1028280"/>
+<TEXT ID="1028281" Text="ID_1028281"/>
+<TEXT ID="1028282" Text="ID_1028282"/>
+<TEXT ID="1028283" Text="ID_1028283"/>
+<TEXT ID="1028284" Text="ID_1028284"/>
+<TEXT ID="1028285" Text="Majordome &#xA;[Vilbort 3ème]"/>
+<TEXT ID="1028286" Text="[Gemme de la vérité]"/>
+<TEXT ID="1028287" Text="Panneau des jobs à mi-temps"/>
+<TEXT ID="1028288" Text="Ville Natale"/>
+<TEXT ID="1028290" Text="[Deckard]"/>
+<TEXT ID="1028291" Text="[Fée de la Vérité]"/>
+<TEXT ID="1028292" Text="[Elga]"/>
+<TEXT ID="1028293" Text="[Gâteau d&#39;anniversaire]"/>
+<TEXT ID="1028294" Text="ID_1028294"/>
+<TEXT ID="1028295" Text="Haruka"/>
+<TEXT ID="1028296" Text="[Pâris 1]"/>
+<TEXT ID="1028297" Text="[Pâris 2]"/>
+<TEXT ID="1028298" Text="[Pâris 3]"/>
+<TEXT ID="1028299" Text="Soldat &#xA;[Jim]"/>
+<TEXT ID="1028300" Text="Maître stratège F7 [Bleu]"/>
+<TEXT ID="1028301" Text="Maître stratège F7 [Rouge]"/>
+<TEXT ID="1028302" Text="Capitaine Renard des Neiges &#xA;[Blair]"/>
+<TEXT ID="10283020" Text="Marchand ExCo &#xA;[Blair]"/>
+<TEXT ID="1028303" Text="Soldat Renard des Neiges &#xA;[Zac]"/>
+<TEXT ID="1028304" Text="Soldat Renard des Neiges &#xA;[Franck]"/>
+<TEXT ID="1028305" Text="Forgeron Renards des Neiges &#xA;[Pollack]"/>
+<TEXT ID="1028306" Text="Soldat Renard des Neiges &#xA;[Théo]"/>
+<TEXT ID="1028307" Text="Capitaine de la tribu Neckel &#xA;[Aigle Blanc]"/>
+<TEXT ID="1028308" Text="Soldat de la tribu Neckel [Ulrich]"/>
+<TEXT ID="1028309" Text="Soldat Renard des Neiges &#xA;[Shabby]"/>
+<TEXT ID="1028310" Text="Capitaine Pirate &#xA;[Capitaine Hookah]"/>
+<TEXT ID="1028320" Text="[Dragon de Glace Freonos]"/>
+<TEXT ID="1028330" Text="[Dragon de Glace Freonos]"/>
+<TEXT ID="1028340" Text="JP"/>
+<TEXT ID="1028350" Text="Scientifique en chef &#xA;[Sikorsky]"/>
+<TEXT ID="1028360" Text="Voyageur blessé &#xA;[Keion]"/>
+<TEXT ID="1028370" Text="ID_1028370"/>
+<TEXT ID="1028380" Text="ID_1028380"/>
+<TEXT ID="1028390" Text="Sourire &#xA;[Pleine Lune]"/>
+<TEXT ID="1028400" Text="Expert en production &#xA;[Max]"/>
+<TEXT ID="1028410" Text="[Kajimodo]"/>
+<TEXT ID="1028420" Text="[Niveus]"/>
+<TEXT ID="1028430" Text="[Niveus]"/>
+<TEXT ID="1028440" Text="Chaman &#xA;[Orhah]"/>
+<TEXT ID="1028510" Text="Mutisha"/>
+<TEXT ID="1028520" Text="[Gina2]"/>
+<TEXT ID="1028530" Text="Vouivre &#xA;[Keryo]"/>
+<TEXT ID="1028540" Text="Grande Prêtresse &#xA;de la Foudre [Maitri]"/>
+<TEXT ID="1028550" Text="Grand Prêtre &#xA;de Kazeura [Ganu]"/>
+<TEXT ID="1028560" Text="Grand Prêtre du Temple &#xA;[Mukapa]"/>
+<TEXT ID="1028570" Text="Maître Invocateur &#xA;[Bartie]"/>
+<TEXT ID="1028580" Text="Maître Valkyrie &#xA;[Chanpio]"/>
+<TEXT ID="1028590" Text="Pirate &#xA;[Johnny]"/>
+<TEXT ID="1028600" Text="Pirate &#xA;[Kalygon]"/>
+<TEXT ID="1028610" Text="Mamie &#xA;[Andrée]"/>
+<TEXT ID="1028620" Text="Princesse en devenir &#xA;[Princessia]"/>
+<TEXT ID="1028630" Text="Marchand d&#39;équipement &#xA;[Obiku]"/>
+<TEXT ID="1028640" Text="Commerçant &#xA;[ChiChai]"/>
+<TEXT ID="1028650" Text="Forgeron &#xA;[Tonpa]"/>
+<TEXT ID="1028660" Text="Forgeron &#xA;[Tatanka]"/>
+<TEXT ID="1028670" Text="Marchande de potion &#xA;[Khairy]"/>
+<TEXT ID="1028680" Text="Renforcement &#xA;[Ratai]"/>
+<TEXT ID="1028690" Text="Vétéran &#xA;[Bubay]"/>
+<TEXT ID="1028700" Text="Vétéran &#xA;[Jadume]"/>
+<TEXT ID="1028710" Text="Eclaireur &#xA;[Rophu]"/>
+<TEXT ID="1028720" Text="Eclaireur &#xA;[Maruphu]"/>
+<TEXT ID="1028730" Text="Garde Royal &#xA;[Ranotah]"/>
+<TEXT ID="1028740" Text="Druide &#xA;[Ochukoe]"/>
+<TEXT ID="1028750" Text="Sage &#xA;[Tarubu]"/>
+<TEXT ID="1028760" Text="Grande Prêtresse &#xA;du Vent [Quechua]"/>
+<TEXT ID="1028770" Text="Jeune Drakan &#xA;[Oulu]"/>
+<TEXT ID="1028780" Text="Jeune Drakan &#xA;[Beruta]"/>
+<TEXT ID="1028790" Text="Maître Valkyrie &#xA;[Paï]"/>
+<TEXT ID="1028800" Text="Grande Prêtresse &#xA;de la Lumière [Yanai]"/>
+<TEXT ID="1028810" Text="Dessinateur &#xA;[Ringo]"/>
+<TEXT ID="1028820" Text="Duc &#xA;[Monadron]"/>
+<TEXT ID="1028830" Text="Robot &#xA;[Cuistomatic5]"/>
+<TEXT ID="1028840" Text="Maître Magicien &#xA;[Edeline]"/>
+<TEXT ID="1028850" Text="La fin de Mutisha"/>
+<TEXT ID="1028860" Text="Vendeur à la sauvette &#xA;[Danku]"/>
+<TEXT ID="1028870" Text="Bébé Dragon &#xA;[Yonga]"/>
+<TEXT ID="1028880" Text="Aventurier Drakan &#xA;[Croquis]"/>
+<TEXT ID="1028890" Text="[Trésor précieux des mers]"/>
+<TEXT ID="1028900" Text="Créatures invoquée &#xA;[Golgone]"/>
+<TEXT ID="1028910" Text="Créatures invoquée &#xA;[Dunamic]"/>
+<TEXT ID="1028920" Text="Familier-Monture &#xA;[Feilon]"/>
+<TEXT ID="1028930" Text="Invocateur Drakan &#xA;[Bartie]"/>
+<TEXT ID="1028940" Text="Protecteur de l&#39;Esprit &#xA;de Feu [Skippy]"/>
+<TEXT ID="1028950" Text="Protecteur de l&#39;Esprit &#xA;de l&#39;Eau [Mirinae]"/>
+<TEXT ID="1028960" Text="Protecteur de l&#39;Esprit du Vent &#xA;[Belkan]"/>
+<TEXT ID="1028970" Text="Protecteur de l&#39;Esprit &#xA;de la Terre [Parmir]"/>
+<TEXT ID="1028980" Text="Machine du temps &#xA;[Kyoneske]"/>
+<TEXT ID="1028990" Text="Savant Fou &#xA;[Dr. Farrell]"/>
+<TEXT ID="1029000" Text="VRP &#xA;[Skippy]"/>
+<TEXT ID="1029010" Text="Chasseuse mystérieuse"/>
+<TEXT ID="1029020" Text="Marchand d&#39;équipement &#xA;[Raltaï]"/>
+<TEXT ID="1029030" Text="Aventurier Drakan &#xA;[Zantaï]"/>
+<TEXT ID="1029040" Text="Marchand de potion &#xA;[Asta] "/>
+<TEXT ID="1029050" Text="Marchand &#xA;[Chandra]"/>
+<TEXT ID="1029060" Text="Grande Prêtresse &#xA;de l&#39;Ombre &#xA;[Rue]"/>
+<TEXT ID="1029070" Text="Forgeron &#xA;[Dankaï]"/>
+<TEXT ID="1029080" Text="Mission de l&#39;Elfe Moine &#xA;[Herusa]"/>
+<TEXT ID="1029090" Text="[Trésor précieux de Feu]"/>
+<TEXT ID="1029100" Text="[Trésor précieux de la Terre]"/>
+<TEXT ID="1029110" Text="[Trésor précieux du Tonnerre]"/>
+<TEXT ID="1029120" Text="[Trésor précieux de Lumière]"/>
+<TEXT ID="1029130" Text="[Trésor précieux de l&#39;Ombre]"/>
+<TEXT ID="1029140" Text="Esprit du Trésor [Krunaï]"/>
+<TEXT ID="1029150" Text="[Trésor précieux du Vent]"/>
+<TEXT ID="1029160" Text="Voleur sournois &#xA;[Jeff]"/>
+<TEXT ID="1029170" Text="Voleur sournois &#xA;[Jack]"/>
+<TEXT ID="1029180" Text="Commandant de la garnison &#xA;[Jundo]"/>
+<TEXT ID="1029190" Text="Gâteau d&#39;Anniversaire"/>
+<TEXT ID="1029200" Text="Grande Prêtresse  &#xA;de la Terre [Syari]"/>
+<TEXT ID="1029210" Text="Maître Magicien &#xA;[Gwen]"/>
+<TEXT ID="1029220" Text="Camelote mystérieuse"/>
+<TEXT ID="1029230" Text="Gourou de la Production &#xA;[Betty]"/>
+<TEXT ID="1029240" Text="Apprenti de Betty &#xA;[Jérôme]"/>
+<TEXT ID="1029250" Text="Apprentie de Betty &#xA;[Romy]"/>
+<TEXT ID="1029260" Text="Chef cuisinier &#xA;[Brutus]"/>
+<TEXT ID="1029270" Text="Dimension d&#39;échange"/>
+<TEXT ID="1029280" Text="Physicien &#xA;[Nico]"/>
+<TEXT ID="1029290" Text="Chat"/>
+<TEXT ID="1029300" Text="Employée &#xA;[Pauline]"/>
+<TEXT ID="1029310" Text="Employée &#xA;[Jeanne]"/>
+<TEXT ID="1029320" Text="Employée &#xA;[Catherine]"/>
+<TEXT ID="1029330" Text="Garde &#xA;[Victor]"/>
+<TEXT ID="1029340" Text="Garde &#xA;[Walter]"/>
+<TEXT ID="1029350" Text="Vestale &#xA;[Arielle]"/>
+<TEXT ID="1029360" Text="[Gâteau d&#39;anniversaire]"/>
+<TEXT ID="1029600" Text="4ème anniversaire [Chocolate Boy]"/>
+<TEXT ID="1029610" Text="ID_1029610"/>
+<TEXT ID="1029380" Text="Evénement &#xA;[Clitea]"/>
+<TEXT ID="1029420" Text="Emissaire &#xA;[Deckard]"/>
+<TEXT ID="1029430" Text="Emissaire &#xA;[Elga]"/>
+<TEXT ID="1029440" Text="Fée d&#39;Hiver &#xA;[Nia]"/>
+<TEXT ID="1029450" Text="Fée du Printemps &#xA;[Fierys]"/>
+<TEXT ID="1029460" Text="Amante de Péas &#xA;[Crête]"/>
+<TEXT ID="1029470" Text="Héros &#xA;[Persée]"/>
+<TEXT ID="1029480" Text="Bélier - Ouverture"/>
+<TEXT ID="1029485" Text="Bélier - Fermeture"/>
+<TEXT ID="1029490" Text="Taureau - Ouverture"/>
+<TEXT ID="1029495" Text="Taureau - Fermeture"/>
+<TEXT ID="1029500" Text="Gémeaux - Ouverture"/>
+<TEXT ID="1029505" Text="Gémeaux - Fermeture"/>
+<TEXT ID="1029510" Text="Cancer - Ouverture"/>
+<TEXT ID="1029515" Text="Cancer - Fermeture"/>
+<TEXT ID="1029520" Text="Lion - Ouverture"/>
+<TEXT ID="1029525" Text="Lion - Fermeture"/>
+<TEXT ID="1029530" Text="Vierge - Ouverture"/>
+<TEXT ID="1029535" Text="Vierge - Fermeture"/>
+<TEXT ID="1029540" Text="Pégase - Ouverture"/>
+<TEXT ID="1029545" Text="Pégase - Fermeture"/>
+<TEXT ID="1029550" Text="Scorpion - Ouverture"/>
+<TEXT ID="1029555" Text="Scorpion - Fermeture"/>
+<TEXT ID="1029560" Text="Sagittaire - Ouverture"/>
+<TEXT ID="1029565" Text="Sagittaire - Fermeture"/>
+<TEXT ID="1029570" Text="Hydre - Ouverture"/>
+<TEXT ID="1029575" Text="Hydre - Fermeture"/>
+<TEXT ID="1029580" Text="Ophiuchus - Ouverture"/>
+<TEXT ID="1029585" Text="Ophiuchus - Fermeture"/>
+<TEXT ID="1029590" Text="Ophiuchus 2 - Ouverture"/>
+<TEXT ID="1029595" Text="Ophiuchus 2 - Fermeture"/>
+<TEXT ID="1029620" Text="Perséphone"/>
+<TEXT ID="5000100" Text="TB_DefObject"/>
+<TEXT ID="5000200" Text="TB_DefObject"/>
+<TEXT ID="5000300" Text="TB_DefObject"/>
+<TEXT ID="5000400" Text="TB_DefObject"/>
+<TEXT ID="5000500" Text="TB_DefObject"/>
+<TEXT ID="6089103" Text="Temps d&#39;explosion"/>
+<TEXT ID="6091199" Text="Invoque la grande corne"/>
+<TEXT ID="6126101" Text="Réflexion des dégâts (10 sec.)"/>
+<TEXT ID="6126102" Text="Réflexion des dégâts (20 sec.)"/>
+<TEXT ID="6126103" Text="Réflexion des dégâts (40 sec.)"/>
+<TEXT ID="6126104" Text="Réflexion des dégâts (60 sec.)"/>
+<TEXT ID="9000100" Text="Bataille d&#39;Emporia"/>
+<TEXT ID="9000101" Text="Résultat du tournoi d&#39;Emporia"/>
+<TEXT ID="9000102" Text="Félicitations ! Vous faites partie des participants au tournoi d&#39;Emporia."/>
+<TEXT ID="9000103" Text="Or de guilde :"/>
+<TEXT ID="9000104" Text="Guilde challengeuse :"/>
+<TEXT ID="9000105" Text="Montant moyenne d&#39;or de la guilde :"/>
+<TEXT ID="9000106" Text="Durée de la bataille"/>
+<TEXT ID="9000107" Text="#GUILDNAME# a gagné le tournoi."/>
+<TEXT ID="9000108" Text="#GUILDNAME# a gagné le tournoi en obtenant #POINT# points."/>
+<TEXT ID="9000109" Text="#GUILDNAME# a gagné le tournoi grâce à #USER# de la guilde #GUILDNAME# qui a détruit le noyau."/>
+<TEXT ID="9000110" Text="#GUILDNAME# a gagné le tournoi grâce à #USER# de la guilde #GUILDNAME# qui remporté la Défense des Dragons."/>
+<TEXT ID="19010103" Text="Sortie : Côte des Baleines"/>
+<TEXT ID="19010113" Text="Sortie : Côte des Pinces"/>
+<TEXT ID="19010123" Text="Sortie : Ponton des Pirates"/>
+<TEXT ID="19010133" Text="Sortie : Port Steven"/>
+<TEXT ID="19010143" Text="Sortie : Port de Nautilus"/>
+<TEXT ID="19010153" Text="Sortie : Flotte de Kalygon"/>
+<TEXT ID="19010202" Text="Sanctuaire de Mirinae"/>
+<TEXT ID="19010212" Text="Sanctuaire de Skippy"/>
+<TEXT ID="19010222" Text="Sanctuaire de Belkan"/>
+<TEXT ID="19010232" Text="Sanctuaire de Parmir"/>
+<TEXT ID="19010301" Text="Entrée : Plaines de Windia"/>
+<TEXT ID="19010331" Text="Entrée : Plaines de Windia Est"/>
+<TEXT ID="19010401" Text="Entrée : Crête du Fourbe"/>
+<TEXT ID="19010411" Text="Entrée : Colline de Hurlevent"/>
+<TEXT ID="19010421" Text="Entrée : Colline des Lamentations"/>
+<TEXT ID="19010431" Text="Entrée : Canyon de l&#39;Oubli"/>
+<TEXT ID="19010441" Text="Entrée : Côte de l&#39;Ecume"/>
+<TEXT ID="19010602" Text="Caverne des Dangers"/>
+<TEXT ID="19010612" Text="La Source"/>
+<TEXT ID="19010622" Text="La Mine"/>
+<TEXT ID="19018101" Text="Port des Quatre Vents - Est"/>
+<TEXT ID="19018102" Text="Port des Quatre Vents Centre"/>
+<TEXT ID="19018103" Text="Port des Quatre Vents - Ouest"/>
+<TEXT ID="19018211" Text="Odélia"/>
+<TEXT ID="19020102" Text="Souffle du Démon"/>
+<TEXT ID="19020112" Text="Mission des Abysses de Feu"/>
+<TEXT ID="19020122" Text="Cendres Volcaniques"/>
+<TEXT ID="19020132" Text="Coraux Magmatiques"/>
+<TEXT ID="19020301" Text="Entrée : Marais Ardents"/>
+<TEXT ID="19020311" Text="Entrée : Marais du Bois Mort"/>
+<TEXT ID="19020321" Text="Entrée : Marais aux Roseaux"/>
+<TEXT ID="19020331" Text="Entrée : Marais aux Alligators"/>
+<TEXT ID="19020401" Text="Entrée : Forêt d&#39;Ocre"/>
+<TEXT ID="19020411" Text="Entrée : Forêt des Grimpantes"/>
+<TEXT ID="19020421" Text="Entrée : Chemin Brumeux"/>
+<TEXT ID="19020431" Text="Entrée : Colline aux Pins"/>
+<TEXT ID="19020441" Text="Entrée : La Prairie"/>
+<TEXT ID="19020501" Text="Entrée : Sanctuaire des Dieux"/>
+<TEXT ID="19020511" Text="Entrée : Sanctuaire en Ruine"/>
+<TEXT ID="19020521" Text="Entrée : Vallée des Vestiges"/>
+<TEXT ID="19020531" Text="Entrée : Autel de Kayron"/>
+<TEXT ID="19028101" Text="Village Fungoid"/>
+<TEXT ID="19030103" Text="Sortie : Village Oublié"/>
+<TEXT ID="19030113" Text="Sortie : Forêt des Arbres Tutu"/>
+<TEXT ID="19030123" Text="Sortie : Jardin de Pococo"/>
+<TEXT ID="19030133" Text="Sortie : Village Endormi"/>
+<TEXT ID="19030143" Text="Sortie : Usine de Champignons"/>
+<TEXT ID="19030203" Text="Sortie : Terre de l&#39;Envie"/>
+<TEXT ID="19030213" Text="Sortie : Crête du Blizzard"/>
+<TEXT ID="19030223" Text="Sortie : Lac Gelé"/>
+<TEXT ID="19030233" Text="Sortie : Canyon Glacé"/>
+<TEXT ID="19030243" Text="Sortie : Champ de Neige"/>
+<TEXT ID="29010101" Text="Entrée : Côte des Baleines"/>
+<TEXT ID="29010111" Text="Entrée : Côte des Pinces"/>
+<TEXT ID="29010121" Text="Entrée : Ponton des Pirates"/>
+<TEXT ID="29010131" Text="Entrée : Port Steven"/>
+<TEXT ID="29010141" Text="Entrée : Port de Nautilus"/>
+<TEXT ID="29010151" Text="Entrée : Flotte de Kalygon"/>
+<TEXT ID="29010203" Text="Sortie : Sanctuaire de Mirinae"/>
+<TEXT ID="29010213" Text="Sortie : Sanctuaire de Skippy"/>
+<TEXT ID="29010223" Text="Sortie : Sanctuaire de Belkan"/>
+<TEXT ID="29010233" Text="Sortie : Sanctuaire de Parmir"/>
+<TEXT ID="29010234" Text="Citadelle du Tourment"/>
+<TEXT ID="29010302" Text="Plaines de Windia"/>
+<TEXT ID="29010332" Text="Plaines de Windia Est"/>
+<TEXT ID="29010402" Text="Crête du Fourbe"/>
+<TEXT ID="29010412" Text="Colline de Hurlevent"/>
+<TEXT ID="29010422" Text="Colline des Lamentations"/>
+<TEXT ID="29010432" Text="Canyon de l&#39;Oubli"/>
+<TEXT ID="29010442" Text="Côte de l&#39;Ecume"/>
+<TEXT ID="29010603" Text="Sortie : Caverne des Dangers"/>
+<TEXT ID="29010613" Text="Sortie : La Source"/>
+<TEXT ID="29010623" Text="Sortie : La Mine"/>
+<TEXT ID="29018311" Text="Village du Clair de Lune"/>
+<TEXT ID="29020103" Text="Sortie : Souffle du Démon"/>
+<TEXT ID="29020113" Text="Sortie : Abysses de Feu"/>
+<TEXT ID="29020123" Text="Sortie : Cendres Volcaniques"/>
+<TEXT ID="29020133" Text="Sortie : Coraux Magmatiques"/>
+<TEXT ID="29020302" Text="Marais Ardents"/>
+<TEXT ID="29020312" Text="Marais du Bois Mort"/>
+<TEXT ID="29020322" Text="Marais aux Roseaux"/>
+<TEXT ID="29020332" Text="Marais aux Alligators"/>
+<TEXT ID="29020402" Text="Forêt d&#39;Ocre"/>
+<TEXT ID="29020412" Text="Forêt des Grimpantes"/>
+<TEXT ID="29020422" Text="Chemin Brumeux"/>
+<TEXT ID="29020423" Text="Forêt verdoyante"/>
+<TEXT ID="29020432" Text="Colline aux Pins"/>
+<TEXT ID="29020442" Text="La Prairie"/>
+<TEXT ID="29020502" Text="Sanctuaire des Dieux"/>
+<TEXT ID="29020512" Text="Sanctuaire en Ruine"/>
+<TEXT ID="29020522" Text="Vallée des Vestiges"/>
+<TEXT ID="29020532" Text="Autel de Kayron"/>
+<TEXT ID="29030101" Text="Entrée : Village Oublié"/>
+<TEXT ID="29030111" Text="Entrée : Forêt des Arbres Tutu"/>
+<TEXT ID="29030121" Text="Entrée : Jardin de Pococo"/>
+<TEXT ID="29030131" Text="Entrée : Village Endormi"/>
+<TEXT ID="29030141" Text="Entrée : Usine de Champignons"/>
+<TEXT ID="29030201" Text="Entrée : Terre de l&#39;Envie"/>
+<TEXT ID="29030211" Text="Entrée : Crête du Blizzard"/>
+<TEXT ID="29030221" Text="Entrée : Lac Gelé"/>
+<TEXT ID="29030231" Text="Entrée : Canyon Glacé"/>
+<TEXT ID="29030241" Text="Entrée : Champ de Neige"/>
+<TEXT ID="29038201" Text="Camp d&#39;Ellora"/>
+<TEXT ID="39010102" Text="Côte des Baleines"/>
+<TEXT ID="39010112" Text="Côte des Pinces"/>
+<TEXT ID="39010122" Text="Ponton des Pirates"/>
+<TEXT ID="39010132" Text="Port Steven"/>
+<TEXT ID="39010142" Text="Port de Nautilus"/>
+<TEXT ID="39010152" Text="Flotte de Kalygon"/>
+<TEXT ID="39010201" Text="Entrée : Sanctuaire de Mirinae"/>
+<TEXT ID="39010211" Text="Entrée : Sanctuaire de Skippy"/>
+<TEXT ID="39010221" Text="Entrée : Sanctuaire de Belkan"/>
+<TEXT ID="39010231" Text="Entrée : Sanctuaire de Parmir"/>
+<TEXT ID="39010303" Text="Sortie : Plaines de Windia"/>
+<TEXT ID="39010333" Text="Sortie : Plaines de Windia Est"/>
+<TEXT ID="39010403" Text="Sortie : Crête du Fourbe"/>
+<TEXT ID="39010413" Text="Sortie : Colline de Hurlevent"/>
+<TEXT ID="39010423" Text="Sortie : Colline des Lamentations"/>
+<TEXT ID="39010433" Text="Sortie : Canyon de l&#39;Oubli"/>
+<TEXT ID="39010443" Text="Sortie : Côte de l&#39;Ecume"/>
+<TEXT ID="39010601" Text="Entrée : Caverne des Dangers"/>
+<TEXT ID="39010611" Text="Entrée : La Source"/>
+<TEXT ID="39010621" Text="Entrée : La Mine"/>
+<TEXT ID="39018321" Text="Libra"/>
+<TEXT ID="39020101" Text="Entrée : Souffle du Démon"/>
+<TEXT ID="39020111" Text="Entrée : Abysses de Feu"/>
+<TEXT ID="39020121" Text="Entrée : Cendres Volcaniques"/>
+<TEXT ID="39020131" Text="Entrée : Coraux Magmatiques"/>
+<TEXT ID="39020303" Text="Sortie : Marais Ardents"/>
+<TEXT ID="39020313" Text="Sortie : Marais du Bois Mort"/>
+<TEXT ID="39020323" Text="Sortie : Marais aux Roseaux"/>
+<TEXT ID="39020333" Text="Sortie : Marais aux Alligators"/>
+<TEXT ID="39020403" Text="Sortie : Forêt d&#39;Ocre"/>
+<TEXT ID="39020413" Text="Sortie : Forêt des Grimpantes"/>
+<TEXT ID="39020423" Text="Sortie : Chemin Brumeux"/>
+<TEXT ID="39020433" Text="Sortie : Colline aux Pins"/>
+<TEXT ID="39020443" Text="Sortie : La Prairie"/>
+<TEXT ID="39020503" Text="Sortie : Sanctuaire des Dieux"/>
+<TEXT ID="39020513" Text="Sortie : Sanctuaire en Ruine"/>
+<TEXT ID="39020523" Text="Sortie : Vallée des Vestiges"/>
+<TEXT ID="39020533" Text="Sortie : Autel de Kayron"/>
+<TEXT ID="39030102" Text="Village Oublié"/>
+<TEXT ID="39030112" Text="Forêt des Arbres Tutu"/>
+<TEXT ID="39030122" Text="Jardin de Pococo"/>
+<TEXT ID="39030132" Text="Village Endormi"/>
+<TEXT ID="39030142" Text="Usine de Champignons"/>
+<TEXT ID="39030202" Text="Terre de l&#39;Envie"/>
+<TEXT ID="39030212" Text="Crête du Blizzard"/>
+<TEXT ID="39030222" Text="Lac Gelé"/>
+<TEXT ID="39030232" Text="Canyon Glacé"/>
+<TEXT ID="39030242" Text="Champ de Neige"/>
+<TEXT ID="39030252" Text="Mont Vartika"/>
+<TEXT ID="39030262" Text="Delta du Renard Rouge"/>
+<TEXT ID="99887001" Text="Intoxication"/>
+<TEXT ID="99887002" Text="Rugissement"/>
+<TEXT ID="99887003" Text="Haleine fétide"/>
+<TEXT ID="99887004" Text="Vengeance"/>
+<TEXT ID="99887005" Text="Sombre sortilège "/>
+<TEXT ID="99887006" Text="Pétrification"/>
+<TEXT ID="99887007" Text="Obscurité"/>
+<TEXT ID="100000010" Text="Bat un ennemi 1 fois"/>
+<TEXT ID="100000011" Text="Bat un ennemi 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000020" Text="Bat n&#39;importe quel Guerrier"/>
+<TEXT ID="100000021" Text="Bat n&#39;importe quel Guerrier : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000030" Text="Bat n&#39;importe quel Magicien"/>
+<TEXT ID="100000031" Text="Bat n&#39;importe quel Magicien : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000040" Text="Bat n&#39;importe quel Archer"/>
+<TEXT ID="100000041" Text="Bat n&#39;importe quel Archer : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000050" Text="Bat n&#39;importe quel Voleur"/>
+<TEXT ID="100000051" Text="Bat n&#39;importe quel Voleur : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000060" Text="Bat un ennemi 3 fois"/>
+<TEXT ID="100000061" Text="Bat un ennemi 3 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000070" Text="Survit durant 30 secondes après 3 attaques"/>
+<TEXT ID="100000071" Text="Survit durant 30 secondes après 3 attaques : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000080" Text="Survit durant 30 secondes après 3 attaques de coeur"/>
+<TEXT ID="100000081" Text="Survit durant 30 secondes après 3 attaques de coeur : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000090" Text="Utilise Potion éternelle de PV (L) 3000"/>
+<TEXT ID="100000091" Text="Utilise Potion éternelle de PV (L) 3000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000100" Text="Utilise Potion éternelle de PV (XL) 5000"/>
+<TEXT ID="100000101" Text="Utilise Potion éternelle de PV (XL) 5000  : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000110" Text="Utilise Potion éternelle de PM (L) 3000"/>
+<TEXT ID="100000111" Text="Utilise Potion éternelle de PM (L) 3000  : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000120" Text="Utilise Potion éternelle de PM (XL) 5000"/>
+<TEXT ID="100000121" Text="Utilise Potion éternelle de PM (XL) 5000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000130" Text="Attaque 3 fois le Coeur"/>
+<TEXT ID="100000131" Text="Attaque 3 fois le Coeur : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000140" Text="Attaque 1 fois n&#39;importe quel Guerrier"/>
+<TEXT ID="100000141" Text="Attaque 1 fois n&#39;importe quel Guerrier : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000150" Text="Attaque 1 fois n&#39;importe quel Magicien"/>
+<TEXT ID="100000151" Text="Attaque 1 fois n&#39;importe quel Magicien : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000160" Text="Attaque 1 fois n&#39;importe quel Archer"/>
+<TEXT ID="100000161" Text="Attaque 1 fois n&#39;importe quel Archer : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000170" Text="Attaque 1 fois n&#39;importe quel Voleur"/>
+<TEXT ID="100000171" Text="Attaque 1 fois n&#39;importe quel Voleur : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000180" Text="Utilise Mégaphone renforcé"/>
+<TEXT ID="100000181" Text="Utilise Mégaphone renforcé : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000190" Text="Attaque 1 fois à l&#39;aide de Tempête d&#39;épées"/>
+<TEXT ID="100000191" Text="Attaque 1 fois à l&#39;aide de Tempête d&#39;épées : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000200" Text="Attaque 1 fois à l&#39;aide de Forteresse"/>
+<TEXT ID="100000201" Text="Attaque 1 fois à l&#39;aide de Forteresse : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000210" Text="Attaque 1 fois à l&#39;aide de Chute de météore"/>
+<TEXT ID="100000211" Text="Attaque 1 fois à l&#39;aide de Chute de météore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000220" Text="Attaque 1 fois à l&#39;aide de Venin"/>
+<TEXT ID="100000221" Text="Attaque 1 fois à l&#39;aide de Venin : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000230" Text="Attaque 1 fois à l&#39;aide de Coup de poing roquette !"/>
+<TEXT ID="100000231" Text="Attaque 1 fois à l&#39;aide de Coup de poing roquette ! : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000240" Text="Attaque 1 fois à l&#39;aide de Sonic boum"/>
+<TEXT ID="100000241" Text="Attaque 1 fois à l&#39;aide de Sonic boum : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000250" Text="Attaque 1 fois à l&#39;aide de Plantage de lance"/>
+<TEXT ID="100000251" Text="Attaque 1 fois à l&#39;aide de Plantage de lance : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000260" Text="Attaque 1 fois à l&#39;aide de Pression"/>
+<TEXT ID="100000261" Text="Attaque 1 fois à l&#39;aide de Pression : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000270" Text="Attaque 1 fois à l&#39;aide de Missile magique"/>
+<TEXT ID="100000271" Text="Attaque 1 fois à l&#39;aide de Missile magique : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000280" Text="Attaque 1 fois à l&#39;aide de la Pluie de flèches"/>
+<TEXT ID="100000281" Text="Attaque 1 fois à l&#39;aide de la Pluie de flèches : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000290" Text="Attaque 1 fois à l&#39;aide du Saignement"/>
+<TEXT ID="100000291" Text="Attaque 1 fois à l&#39;aide du Saignement : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000300" Text="Attaque 1 fois à l&#39;aide de Claymore"/>
+<TEXT ID="100000301" Text="Attaque 1 fois à l&#39;aide de Claymore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000310" Text="Attaque 1 fois à l&#39;aide de Douche à la fleur de cerisier"/>
+<TEXT ID="100000311" Text="Attaque 1 fois à l&#39;aide de Douche à la fleur de cerisier : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000320" Text="Attaqué(e) 1 fois à l&#39;aide de Tempête d&#39;épées"/>
+<TEXT ID="100000321" Text="Attaqué(e) 1 fois à l&#39;aide de Tempête d&#39;épées : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000330" Text="Attaqué(e) 1 fois à l&#39;aide de Forteresse"/>
+<TEXT ID="100000331" Text="Attaqué(e) 1 fois à l&#39;aide de Forteresse : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000340" Text="Attaqué(e) 1 fois à l&#39;aide de Chute de météore"/>
+<TEXT ID="100000341" Text="Attaqué(e) 1 fois à l&#39;aide de Chute de météore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000350" Text="Attaqué(e) 1 fois à l&#39;aide de Venin"/>
+<TEXT ID="100000351" Text="Attaqué(e) 1 fois à l&#39;aide de Venin : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000360" Text="Attaqué(e) 1 fois à l&#39;aide de Coup de poing roquette !"/>
+<TEXT ID="100000361" Text="Attaqué(e) 1 fois à l&#39;aide de Coup de poing roquette ! : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000370" Text="Attaqué(e) 1 fois à l&#39;aide de Sonic Boum"/>
+<TEXT ID="100000371" Text="Attaqué(e) 1 fois à l&#39;aide de Sonic Boum : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000380" Text="Attaqué(e) 1 fois à l&#39;aide de Plantage de lance"/>
+<TEXT ID="100000381" Text="Attaqué(e) 1 fois à l&#39;aide de Plantage de lance : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000390" Text="Attaqué(e) 1 fois à l&#39;aide de Pression"/>
+<TEXT ID="100000391" Text="Attaqué(e) 1 fois à l&#39;aide de Pression : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000400" Text="Attaqué(e) 1 fois à l&#39;aide de Missile magique"/>
+<TEXT ID="100000401" Text="Attaqué(e) 1 fois à l&#39;aide de Missile magique : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000410" Text="Attaqué(e) 1 fois à l&#39;aide de Pluie de flèches"/>
+<TEXT ID="100000411" Text="Attaqué(e) 1 fois à l&#39;aide de Pluie de flèches : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000420" Text="Attaqué(e) 1 fois à l&#39;aide de Saignement"/>
+<TEXT ID="100000421" Text="Attaqué(e) 1 fois à l&#39;aide de Saignement : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000430" Text="Attaqué(e) 1 fois à l&#39;aide de Claymore"/>
+<TEXT ID="100000431" Text="Attaqué(e) 1 fois à l&#39;aide de Claymore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000440" Text="Attaqué(e) à l&#39;aide de Douche à la fleur de cerisier"/>
+<TEXT ID="100000441" Text="Attaqué(e) à l&#39;aide de Douche à la fleur de cerisier : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000450" Text="Attaque 1 fois à l&#39;aide de Chute de météore (Rafale de météores)"/>
+<TEXT ID="100000451" Text="Attaque 1 fois à l&#39;aide de Chute de météore (Rafale de météores) : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000460" Text="Elimine les invocateurs"/>
+<TEXT ID="100000461" Text="Elimine les invocateurs : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000470" Text="Attaque un Invocateur"/>
+<TEXT ID="100000471" Text="Attaque un Invocateur 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000480" Text="Combat avec une dent de Dragon 1 fois"/>
+<TEXT ID="100000481" Text="Combat avec une dent de Dragon 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000490" Text="Combat avec Inferno 1 fois"/>
+<TEXT ID="100000491" Text="Combat avec Inferno 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000500" Text="Combat avec Fracas Aérien 1 fois"/>
+<TEXT ID="100000501" Text="Combat avec Fracas Aérien 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000510" Text="Triomphe de tous les combattants"/>
+<TEXT ID="100000511" Text="Triomphe de tous les combattants : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000520" Text="Défie n&#39;importe quel combattant 1 fois"/>
+<TEXT ID="100000521" Text="Défie n&#39;importe quel combattant 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000530" Text="Utilise l&#39;attaque Cyclone 1 fois"/>
+<TEXT ID="100000531" Text="Utilise l&#39;attaque Cyclone 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000540" Text="Utilise l&#39;attaque Chasseur Débusqueur 1 fois"/>
+<TEXT ID="100000541" Text="Utilise l&#39;attaque Chasseur Débusqueur 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000550" Text="Utilise l&#39;attaque Uppercut du Dragon 1 fois"/>
+<TEXT ID="100000551" Text="Utilise l&#39;attaque Uppercut du Dragon 1 fois : #COUNT#/#TOTAL#"/>
+<TEXT ID="1000000000" Text="Husky"/>
+<TEXT ID="1000000001" Text="Félix"/>
+<TEXT ID="1000000002" Text="Griffon"/>
+<TEXT ID="1000000003" Text="Xybove"/>
+<TEXT ID="1000000004" Text="Esprit de Glog"/>
+<TEXT ID="1000000005" Text="Woodia"/>
+<TEXT ID="1000000006" Text="Plante jaune"/>
+<TEXT ID="1000000007" Text="Erable"/>
+<TEXT ID="1000000008" Text="Pomme de pin"/>
+<TEXT ID="1000000009" Text="Verdie"/>
+<TEXT ID="1000000010" Text="Speculos"/>
+<TEXT ID="1000000011" Text="Chocobûche"/>
+<TEXT ID="2000000001" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000002" Text="Avis de changement d&#39;état du statut d&#39;enchère de Ma Maison"/>
+<TEXT ID="2000000003" Text="D&#39;autres joueurs ont surenchéri votre offre. Veuillez récupérer l&#39;argent de votre enchère auprès de la boîte aux lettres."/>
+<TEXT ID="2000000004" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000005" Text="Avis du succès de vente de ma Maison"/>
+<TEXT ID="2000000006" Text="Félicitations !
+Ma Maison enregistrée sur le panneau local a été vendue avec succès. Veuillez collecter votre argent auprès de la boîte aux lettres.
+Une comission de 10 % du prix d&#39;enchère le plus haut sera déduite."/>
+<TEXT ID="2000000007" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000008" Text="Avis d&#39;échéance pour le paiement des taxes de Ma Maison"/>
+<TEXT ID="2000000009" Text="Pour garder MaMaison vous devez payer des taxes. Si vous ne payer pas vos taxes auprès du NPC à temps vous devrez payer un surplus.
+
+Veuillez vérifier la date de votre paiement et payer vos taxes auprès du NPC de MaMaison.
+
+Au bout de 4 semaines de non-paiement, vous perdez la possession de MaMaison achetée aux enchères et devrez payer des taxes afin de pouvoir la réutiliser."/>
+<TEXT ID="2000000013" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000014" Text="Avis du succès de l&#39;enchère sur Ma Maison"/>
+<TEXT ID="2000000015" Text="Félicitations !
+Vous avez remporté l&#39;enchère de Ma Maison.
+Vous pourrez découvrir l&#39;emplacement de votre maison en parlant à l&#39;agent immobilier James qui se trouve en ville."/>
+<TEXT ID="2000000016" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000017" Text="Avis de l&#39;échec de l&#39;enchère sur Ma Maison"/>
+<TEXT ID="2000000018" Text="L&#39;enchère de MaMaison a échoué.
+Veuillez réessayer plus tard en reparlant au NPC atitré. Merci."/>
+<TEXT ID="2000000019" Text="Gérant de Ma Maison"/>
+<TEXT ID="2000000020" Text="Avis d&#39;expulsion de Ma Maison"/>
+<TEXT ID="2000000021" Text="Pour garder MaMaison vous devez payer des taxes.
+Comme vous n&#39;avez pas payé vos taxes depuis plus de 4 semaines, vous perdez la possession de MaMaison.
+
+Toutes les fournitures s&#39;y trouvant vous seront envoyées par courrier."/>
+<TEXT ID="2000000022" Text="Gérant des jobs à mi-temps"/>
+<TEXT ID="2000000023" Text="Paiement du job à mi-temps"/>
+<TEXT ID="2000000024" Text="Bon travail, voilà ton salaire"/>
+<TEXT ID="2000000025" Text="Gérant de la grande roue"/>
+<TEXT ID="2000000026" Text="Guide de récupération des objets de la Grande roue"/>
+<TEXT ID="2000000027" Text="Un objet venant de la Grande Roue vous a été livré."/>
+<TEXT ID="2000000028" Text="Vous avez obtenu un objet en récompense pour l&#39;événement."/>
+<TEXT ID="2000000029" Text="Vous avez obtenu un objet en récompense pour le quizz OX."/>
+<TEXT ID="2000000030" Text="Vous avez obtenu un objet en récompense pour l&#39;événement coupons"/>
+<TEXT ID="2000000031" Text="Vous avez obtenu un objet en récompense pour l&#39;événement Boutique."/>
+<TEXT ID="2000000032" Text="Gérant de l&#39;atélier d&#39;assemblage de costumes"/>
+<TEXT ID="2000000033" Text="Résultat de l&#39;assemblage de costumes"/>
+<TEXT ID="2000000034" Text="Si vous subissez une déconnexion lors de la fabrication ou que vous n&#39;avez pas suffisamment de place dans votre inventaire, le costume assemblé vous sera envoyé sur votre boîte aux lettres."/>
+<TEXT ID="2000000035" Text="Restitution de l&#39;appartement Ma Maison"/>
+<TEXT ID="2000000036" Text="Bonjour,
+ceci est une lettre officielle du gérant de MaMaison.
+L&#39;appartement de MaMaison nous est revenu sans problème, toutes vos fournitures (papier peint, objets d&#39;extension, etc.) d&#39;intérieures vous seront envoyées par courrier. Le livre d&#39;or et l&#39;historique des invités seront réinitialisés ou effacés.
+N&#39;hésitez pas à nous recontacter si vous deviez vouloir récupérer votre appartement."/>
+<TEXT ID="2000000100" Text="Récompense du tournoi"/>
+<TEXT ID="2000000102" Text="Quart de finale"/>
+<TEXT ID="2000000103" Text="Demi-finale"/>
+<TEXT ID="2000000104" Text="2ème place"/>
+<TEXT ID="2000000105" Text="Champion"/>
+<TEXT ID="2000000106" Text="Emporia 1 étoile"/>
+<TEXT ID="2000000107" Text="Emporia 2 étoiles"/>
+<TEXT ID="2000000108" Text="Gérant de l&#39;Emporia"/>
+<TEXT ID="2000000109" Text="Félicitations ! En récompense au tournoi de #GRADE# vous recevez l&#39;objet #ITEMNAME#. Vous pouvez utiliser cet objet pour une durée de #LIMITDAY# jours après terme de laquelle l&#39;objet disparaîtra."/>
+<TEXT ID="2000000110" Text="Recrue du Front Arcadien &#xA;[Barbara]"/>
+<TEXT ID="2000000111" Text="Membre du Front Arcadien &#xA;[Pierrick]"/>
+<TEXT ID="2000000112" Text="Fondateur du Front Arcadien &#xA;[Saraya]"/>
+<TEXT ID="2000000113" Text="Fondateur du Front Arcadien &#xA;[Saraya]"/>
+<TEXT ID="2000000114" Text="Membre du Front Arcadien &#xA;[Violetta]"/>
+<TEXT ID="2000000115" Text="Sponsor du Front Arcadien &#xA;[Homer]"/>
+<TEXT ID="2000000116" Text="Capitaine - Responsable Alpha &#xA;[Marine]"/>
+<TEXT ID="2000000117" Text="Membre du Front Arcadien &#xA;[Rachelle]"/>
+<TEXT ID="2000000118" Text="Agent secret du Front Arcadien &#xA;[Kionesque]"/>
+<TEXT ID="1028575" Text="Forgeron Céleste &#xA;[Valgon]"/>
+<TEXT ID="9040001" Text="Garde &#xA;[Pierre]"/>
+<TEXT ID="9040002" Text=" "/>
+<TEXT ID="9040003" Text="Garde &#xA;[Paul]"/>
+<TEXT ID="9040004" Text="Garde &#xA;[Nelson]"/>
+<TEXT ID="9040005" Text="Herboriste &#xA;[Radomir]"/>
+<TEXT ID="9040006" Text="Familier &#xA;[Pierrot]"/>
+<TEXT ID="9040007" Text="Cuisinier du camp &#xA;[Boris]"/>
+<TEXT ID="9040008" Text="Commandant du camp &#xA;[Evan]"/>
+<TEXT ID="9040009" Text="Séparou"/>
+<TEXT ID="1018100" Text="Sinua"/>
+<TEXT ID="1018008" Text="Mami-Khobz"/>
+<TEXT ID="1018009" Text="Roi d&#39;Isoris &#xA;[Anaton]"/>
+<TEXT ID="1018010" Text="Dieu Soleil &#xA;[Râ]"/>
+<TEXT ID="1018011" Text="Samir"/>
+<TEXT ID="1018012" Text="Damir"/>
+<TEXT ID="1018013" Text="Khalid"/>
+<TEXT ID="1018014" Text="Paraton"/>
+<TEXT ID="1018015" Text="Mohamed"/>
+<TEXT ID="1018016" Text="Natiris"/>
+<TEXT ID="2018016" Text="Nezy"/>
+<TEXT ID="2018017" Text="Varizi"/>
+<TEXT ID="2018018" Text="Samot"/>
+<TEXT ID="2018019" Text="Kroog"/>
+<TEXT ID="2018020" Text="Nalio"/>
+<TEXT ID="2018021" Text="Forgeron Séraphique &#xA;[Pollack]"/>
+<TEXT ID="2018022" Text="Marius"/>
+<TEXT ID="700002" Text="Monsters' HP Amplification (x3)" />
+<TEXT ID="700004" Text="Monsters' ATK Power Amplification (x3)" />
+<TEXT ID="700005" Text="Hydra" />
+<TEXT ID="700012" Text="Monsters' HP Amplification (x3)" />
+<TEXT ID="700013" Text="Monsters' ATK Power Amplification (x3)" />
+<TEXT ID="700014" Text="After death, the monster will spawn 3 of its clones" />
+<TEXT ID="2028264" Text="Escargot mystérieux" />
+</STRING_TABLE_LOCAL>

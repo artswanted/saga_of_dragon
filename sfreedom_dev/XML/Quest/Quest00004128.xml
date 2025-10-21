@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4128</ID> <!--T.T.10412801 ���ε��� ���� (2) -->
+
+
+<!-- �ۼ��� : ������-->
+<!--[�Ϸ�����]	������ ��Ŀ ��ġ-->
+<!--[�Ϸ�NPC]	�Ǹ��� ���� - ���̵�-->
+<!--[����]	���̵�� ����� ���ε��� ���縦 �����Ϸ� �Ѵ�. ���� ���̵带 ���� �Ǹ��� ����[�ó����� ���(F5)]���� ���� ��Ŀ�� ��ġ����.-->
+
+
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">8B0A39CD-FB19-4b6c-8242-3F866F9A7166</CLIENT> <!--����NPC �Ǹ��� ���� - ���̵� -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">8B0A39CD-FB19-4b6c-8242-3F866F9A7166</PAYER> <!--�Ϸ�NPC �Ǹ��� ���� - ���̵� -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">8B0A39CD-FB19-4b6c-8242-3F866F9A7166</AGENT> <!--����NPC 11 �Ǹ��� ���� - ���̵� -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100_M" VALUE="8/5/1">6015900</MONSTER> 
+ <!--MON_NO=6015900/������ ��Ŀ,Mission_Key=8/�Ǹ��� ���� ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10412811"/> <!--������ ��Ŀ ��ġ-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="2">940000530</ITEM>
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--����-->
+			<BODY TEXT="10412821" FACE="Walter_normal"/> <!--���� ��¿ ���� ����. �� �����!
+�� ���ù����� �༮�� �ұ��� ȥ�� ���� �� �⸧�� ����
+�ұ����� ������ ���� ���̶��! %%
+�ƿ� �ʵ� ���뿡�� �����ϴ� �� ���� �� ������.
+������ �̷� ���̳� �ϰ� �ִٴ�.. ������ ���� �ѽ��ϱ���.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">����</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">����</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--�Ϸ�-->
+			<BODY TEXT="10412826" FACE="Walter_smile"/> <!--�䡦 �䡦!
+���� ��¦ �����. �� ȥ�ڼ� �̷� ���� �س��ٴϡ�
+�� ���� ���͵��� ����ģ �͵� ����̾�����.%%
+��.. �׷��� ���̾�. �� ����̶� ��.. ��������. 
+���� �ƴ϶� �Ӹ��� �ذ��ؾ� �ϴ� �ž�. �˾ҳ�? �衦%%
+�װ� ������ ���ε��� ������ ������ �������� �������� 
+�ʾƵ� ��. 
+�����߾�, %name%!-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">�Ϸ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--����-->
+			<BODY TEXT="10412823" FACE="Walter_normal"/> <!--�츮�� ���� ��Ŀ�� ��ġ�� �� ������? 
+��, %name% �̰� ������ ���ϱ�?%%
+(�Ǹ��� ����[�ó����� ���(F5)]���� ������ ��Ŀ�� �ݵ�� ��ġ�ϰھ�)-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--����-->
+			<BODY TEXT="10412824" FACE="Walter_angly"/> <!--�׷�, �̴�� �׳� �� ����ġ�������ڱ�.-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--������-->
+			<BODY TEXT="10412825" FACE="Walter_angly"/> <!--�� ���� ȥ�ڼ� ������ ��Ŀ�� ��ġ����� �� �ƴϰ���?-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--�κ�����-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1�Ͽ���-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--����-->
+			<BODY TEXT="10412802" /> <!---->
+			<SELECT ID="0"  TEXT="19933">����</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

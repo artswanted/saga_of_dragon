@@ -1,0 +1,4 @@
+<ACTION ID="a_sp_attk_13" NEXT="a_idle"> <!-- 양손 긁기 공격 -->
+	<SLOT NAME="attk_07"/>
+	<FSM SCRIPT="Act_SP_Attk_13"/>
+</ACTION>

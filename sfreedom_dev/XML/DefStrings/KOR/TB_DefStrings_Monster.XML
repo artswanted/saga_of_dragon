@@ -1,0 +1,3029 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="2502" Text="리바이어스 맹독"/>
+<TEXT ID="2503" Text="냉기에 중독되어 초당 -300의 Hp가 감소하며 10초간 이동속도가 60% 감소한다"/>
+<TEXT ID="2510" Text="차가운 냉기에 5초간 움직이지 못한다."/>
+<TEXT ID="2901" Text="넷바인더2"/>
+<TEXT ID="2902" Text="캐릭높이*1 뜨기"/>
+<TEXT ID="2903" Text="캐릭높이*2 뜨기"/>
+<TEXT ID="2904" Text="캐릭높이*3 뜨기"/>
+<TEXT ID="2913" Text="화이트 아웃"/>
+<TEXT ID="12502" Text="리바이어스의 맹독에 감염되어 15초간 3초마다 -50의 HP가 감소된다."/>
+<TEXT ID="12503" Text="냉기중독"/>
+<TEXT ID="12510" Text="냉동"/>
+<TEXT ID="12701" Text="스턴"/>
+<TEXT ID="12913" Text="하얀세상만들기"/>
+<TEXT ID="16404" Text="무자비한 분노"/>
+<TEXT ID="16405" Text="몬스터가 분노하여 공격력이 증가합니다."/>
+<TEXT ID="26404" Text="단단한 방어"/>
+<TEXT ID="26405" Text="몬스터가 분노하여 방어력이 증가합니다."/>
+<TEXT ID="36404" Text="바람의 가호"/>
+<TEXT ID="36405" Text="몬스터가 분노하여 속도가 증가합니다."/>
+<TEXT ID="46401" Text="공업 방업 "/>
+<TEXT ID="46402" Text="몬스터가 분노하여 공격력과 방어력이 증가합니다."/>
+<TEXT ID="56401" Text="공업 속업"/>
+<TEXT ID="56402" Text="몬스터가 분노하여 공격력과 속도가 증가합니다."/>
+<TEXT ID="66401" Text="방업 속업"/>
+<TEXT ID="66402" Text="몬스터가 분노하여 방어력과 속도가 증가합니다."/>
+<TEXT ID="72913" Text="레그노의 강력한 냉기에 의해 주변이 하얗게 변한다."/>
+<TEXT ID="76401" Text="공업 속업 방업"/>
+<TEXT ID="76402" Text="몬스터가 분노하여 모든능력이 증가합니다."/>
+<TEXT ID="100038" Text="사파이어 크리스탈"/>
+<TEXT ID="602502" Text="냉기폭풍"/>
+<TEXT ID="602503" Text="결빙"/>
+<TEXT ID="602506" Text="결빙"/>
+<TEXT ID="602507" Text="냉동1단계"/>
+<TEXT ID="602508" Text="결빙"/>
+<TEXT ID="602509" Text="냉동3단계"/>
+<TEXT ID="602510" Text="냉동"/>
+<TEXT ID="3000300" Text="정신나간 칼리곤"/>
+<TEXT ID="3000400" Text="스켈드래곤"/>
+<TEXT ID="3000500" Text="붉은 스켈드래곤"/>
+<TEXT ID="3000600" Text="검은 스켈드래곤"/>
+<TEXT ID="3000601" Text="드래곤 피어"/>
+<TEXT ID="3400100" Text="구릉 돌 골곤"/>
+<TEXT ID="3400200" Text="구릉 강철 골곤"/>
+<TEXT ID="3400300" Text="구릉 룬 골곤"/>
+<TEXT ID="3400400" Text="바티칸 용군단 정찰병"/>
+<TEXT ID="3400500" Text="바티칸 용군단 길잡이"/>
+<TEXT ID="3400600" Text="바티칸 용군단 투척병"/>
+<TEXT ID="3400700" Text="구릉 놀 보초병"/>
+<TEXT ID="3400800" Text="구릉 놀 궁수 "/>
+<TEXT ID="3400900" Text="구릉 놀 주술사 "/>
+<TEXT ID="3401100" Text="바티칸 용군단 대장"/>
+<TEXT ID="3401200" Text="지옥 불 수호견"/>
+<TEXT ID="3401300" Text="구릉 맘모스"/>
+<TEXT ID="3401400" Text="암석 그리폰"/>
+<TEXT ID="3401500" Text="화염 그리폰"/>
+<TEXT ID="3401600" Text="스파크 그리폰"/>
+<TEXT ID="3401700" Text="협곡 진흙괴물"/>
+<TEXT ID="3401800" Text="협곡 전기괴물"/>
+<TEXT ID="3401900" Text="협곡 독괴물"/>
+<TEXT ID="3402100" Text="협곡 플로렌스"/>
+<TEXT ID="3402200" Text="협곡 드라이크"/>
+<TEXT ID="3402300" Text="협곡 가시정령"/>
+<TEXT ID="3402400" Text="블루 피닉스"/>
+<TEXT ID="3402500" Text="하피 정찰병"/>
+<TEXT ID="3402600" Text="하피 전투병"/>
+<TEXT ID="3402700" Text="하피 전사"/>
+<TEXT ID="3402800" Text="영혼 추격자"/>
+<TEXT ID="3402900" Text="영혼 강탈자"/>
+<TEXT ID="3403000" Text="영혼 감시자"/>
+<TEXT ID="3403100" Text="하늘 상어"/>
+<TEXT ID="3403200" Text="본 드라크"/>
+<TEXT ID="3403300" Text="타릭스 켄타"/>
+<TEXT ID="3403400" Text="로봇 트렙"/>
+<TEXT ID="3491000" Text="코코투스"/>
+<TEXT ID="3492000" Text="삼각지 수문장"/>
+<TEXT ID="3493000" Text="샤크킹"/>
+<TEXT ID="3494000" Text="철갑 하마"/>
+<TEXT ID="3499000" Text="메탈 하피"/>
+<TEXT ID="3503500" Text="지옥  냉기 수호견"/>
+<TEXT ID="3521100" Text="포치"/>
+<TEXT ID="3521200" Text="가시 포치"/>
+<TEXT ID="3521300" Text="연꽃 포치"/>
+<TEXT ID="3521400" Text="콘 포치"/>
+<TEXT ID="3521500" Text="브러쉬 포치"/>
+<TEXT ID="3521600" Text="용꽃 포치"/>
+<TEXT ID="3521700" Text="열대 포치"/>
+<TEXT ID="3521800" Text="무드라고라"/>
+<TEXT ID="3522000" Text="옵큘링 "/>
+<TEXT ID="3522100" Text="레드 옵큘링"/>
+<TEXT ID="3522200" Text="가시 옵큘링"/>
+<TEXT ID="3522300" Text="위치 옵큘링"/>
+<TEXT ID="3522800" Text="샤드론"/>
+<TEXT ID="3523000" Text="검은 쿰바 "/>
+<TEXT ID="3523013" Text="끈적한 벌꿀"/>
+<TEXT ID="3523100" Text="붉은 쿰바 "/>
+<TEXT ID="3523200" Text="허니 쿰바 "/>
+<TEXT ID="3523300" Text="주술 쿰바 "/>
+<TEXT ID="3523900" Text="자로"/>
+<TEXT ID="3524000" Text="바포 "/>
+<TEXT ID="3524100" Text="타이거 바포 "/>
+<TEXT ID="3524200" Text="큰뿔 바포 "/>
+<TEXT ID="3524300" Text="독 바포 "/>
+<TEXT ID="3524800" Text="우두머리 바포"/>
+<TEXT ID="3524900" Text="킬로"/>
+<TEXT ID="3525000" Text="라미 "/>
+<TEXT ID="3525100" Text="푸른 라미 "/>
+<TEXT ID="3525200" Text="뿔 라미 "/>
+<TEXT ID="3525300" Text="우두머리 라미 "/>
+<TEXT ID="3525800" Text="카프리콘"/>
+<TEXT ID="3526000" Text="본 카라차"/>
+<TEXT ID="3526100" Text="블러드 카라차"/>
+<TEXT ID="3526200" Text="가시 카라차"/>
+<TEXT ID="3526800" Text="고대 카라차"/>
+<TEXT ID="3526900" Text="카샤프"/>
+<TEXT ID="3527000" Text="푸른 토투"/>
+<TEXT ID="3527100" Text="바위 토투"/>
+<TEXT ID="3527200" Text="뿔 토투"/>
+<TEXT ID="3527300" Text="토투"/>
+<TEXT ID="3527800" Text="대장 토투"/>
+<TEXT ID="3528000" Text="프링"/>
+<TEXT ID="3528100" Text="낙엽 프링"/>
+<TEXT ID="3528200" Text="열매 프링"/>
+<TEXT ID="3528300" Text="검은 프링"/>
+<TEXT ID="3528800" Text="키마이라"/>
+<TEXT ID="3529000" Text="무찌"/>
+<TEXT ID="3529100" Text="노란 무찌"/>
+<TEXT ID="3529200" Text="순찰자 무찌"/>
+<TEXT ID="3529300" Text="마법사 무찌"/>
+<TEXT ID="3529800" Text="우두머리 무찌"/>
+<TEXT ID="3529900" Text="프로켈"/>
+<TEXT ID="3530100" Text="스케마"/>
+<TEXT ID="3530200" Text="플릭"/>
+<TEXT ID="3530300" Text="복수의 정령"/>
+<TEXT ID="3530400" Text="원한의 정령"/>
+<TEXT ID="3530500" Text="에리얼"/>
+<TEXT ID="3530600" Text="페리 에리얼"/>
+<TEXT ID="3530700" Text="박쥐 거미"/>
+<TEXT ID="3530800" Text="아카나이"/>
+<TEXT ID="3530900" Text="에르다의 수정"/>
+<TEXT ID="3540100" Text="데빌링"/>
+<TEXT ID="3540200" Text="데빌가드"/>
+<TEXT ID="3540300" Text="언데드 크리쳐"/>
+<TEXT ID="3540400" Text="스켈드라크"/>
+<TEXT ID="3540500" Text="데몬크리쳐"/>
+<TEXT ID="3540600" Text="악마 감시자"/>
+<TEXT ID="3540700" Text="데비 리치"/>
+<TEXT ID="3540800" Text="데비 마스터"/>
+<TEXT ID="3541000" Text="케로베로스"/>
+<TEXT ID="3541100" Text="다크엔젤"/>
+<TEXT ID="3541200" Text="디아블릭"/>
+<TEXT ID="3000308" Text="화염"/>
+<TEXT ID="3000312" Text="화염"/>
+<TEXT ID="3000313" Text="화염에 화상을 입어 초당 -50의 Hp가 5초간 감소하며 이동속도가 50% 증가 한다"/>
+<TEXT ID="3541207" Text="지옥의 화염에 화상을 입어 초당 -300의 Hp가 5초간 감소하며 이동속도가 50% 증가 한다"/>
+<TEXT ID="3541201" Text="지옥의 화염"/>
+<TEXT ID="3542100" Text="흑룡왕 엘가"/>
+<TEXT ID="3542110" Text="흑룡왕 엘가"/>
+<TEXT ID="3542120" Text="흑룡왕 엘가"/>
+<TEXT ID="3542210" Text="암흑의 크리스탈"/>
+<TEXT ID="3542220" Text="암흑의 룬 스톤"/>
+<TEXT ID="3542230" Text="엘가의 뼈 보호막"/>
+<TEXT ID="3542240" Text="엘가의 눈"/>
+<TEXT ID="3542250" Text="엘가의 알"/>
+<TEXT ID="3542260" Text="엘가 심장"/>
+<TEXT ID="3542300" Text="엘가 사념체"/>
+<TEXT ID="3542400" Text="봉인된 엘가의 보물 상자"/>
+<TEXT ID="3550100" Text="다크하운드"/>
+<TEXT ID="3550200" Text="블랙 페더"/>
+<TEXT ID="3550300" Text="나이트 스케일"/>
+<TEXT ID="3550400" Text="오닉스 레더"/>
+<TEXT ID="3560100" Text="다크 데빌링"/>
+<TEXT ID="3560200" Text="다크 데빌가드"/>
+<TEXT ID="3560300" Text="다크 크리쳐"/>
+<TEXT ID="3560400" Text="다크 스켈드라크"/>
+<TEXT ID="3560500" Text="다크 데몬"/>
+<TEXT ID="3560600" Text="지옥의 감시자"/>
+<TEXT ID="3570100" Text="하피 블론드"/>
+<TEXT ID="3570200" Text="하피 브룬"/>
+<TEXT ID="3570300" Text="하피 셀레브"/>
+<TEXT ID="3570400" Text="영혼 추적자"/>
+<TEXT ID="3570500" Text="영혼 강탈자"/>
+<TEXT ID="3570600" Text="영혼 감시자"/>
+<TEXT ID="3570700" Text="기니어 칼크"/>
+<TEXT ID="3570800" Text="메탈 드라크"/>
+<TEXT ID="3570900" Text="메탈 하운드"/>
+<TEXT ID="3571100" Text="혼드 골렘"/>
+<TEXT ID="3571200" Text="기니어 배럴"/>
+<TEXT ID="3571300" Text="메탈 캄파링"/>
+<TEXT ID="3571400" Text="세티로스"/>
+<TEXT ID="3571500" Text="캄파 머신"/>
+<TEXT ID="3571600" Text="세티로스 레이저"/>
+<TEXT ID="3571700" Text="세티로스 봄버"/>
+<TEXT ID="3580000" Text="보너스 봄버"/>
+<TEXT ID="3600400" Text="도베르우스"/>
+<TEXT ID="3900200" Text="디저스"/>
+<TEXT ID="3900300" Text="카쿠"/>
+<TEXT ID="4000510" Text="이벤트 거대초목이"/>
+<TEXT ID="4000520" Text="이벤트 몰렉"/>
+<TEXT ID="4000530" Text="이벤트 사라스바티"/>
+<TEXT ID="4011100" Text="서리괴물"/>
+<TEXT ID="4011200" Text="냉기괴물"/>
+<TEXT ID="4011300" Text="얼음괴물"/>
+<TEXT ID="4011400" Text="설원의 냉기괴물"/>
+<TEXT ID="4012100" Text="얼음슬라임 "/>
+<TEXT ID="4012200" Text="긴팔 얼음슬라임 "/>
+<TEXT ID="4012300" Text="먹보 얼음슬라임 "/>
+<TEXT ID="4012400" Text="원령숲 얼음슬라임"/>
+<TEXT ID="4013100" Text="서리 골렘 "/>
+<TEXT ID="4013200" Text="냉기 골렘 "/>
+<TEXT ID="4013300" Text="얼음 골렘 "/>
+<TEXT ID="4013400" Text="원령숲 냉기 골렘"/>
+<TEXT ID="4014100" Text="서리늑대 "/>
+<TEXT ID="4014200" Text="서리늑대 헌터 "/>
+<TEXT ID="4014300" Text="서리늑대 워리어 "/>
+<TEXT ID="4014400" Text="원령숲 서리늑대 헌터"/>
+<TEXT ID="4015100" Text="셀릭 "/>
+<TEXT ID="4015200" Text="프리징 셀릭 "/>
+<TEXT ID="4015300" Text="휠 셀릭 "/>
+<TEXT ID="4015400" Text="원령숲 프리징 셀릭"/>
+<TEXT ID="4016100" Text="펜리르 "/>
+<TEXT ID="4016200" Text="설원 펜리르 "/>
+<TEXT ID="4016300" Text="얼음 펜리르 "/>
+<TEXT ID="4016400" Text="원령숲 설원 펜리르"/>
+<TEXT ID="4018100" Text="얼음 사마귀"/>
+<TEXT ID="4019100" Text="아그니스"/>
+<TEXT ID="4021100" Text="아이키 "/>
+<TEXT ID="4021200" Text="스파키 "/>
+<TEXT ID="4021300" Text="포이키 "/>
+<TEXT ID="4021400" Text="원령숲 스파키"/>
+<TEXT ID="4022100" Text="스노우 위쳐 "/>
+<TEXT ID="4022200" Text="스노우 소서러 "/>
+<TEXT ID="4022300" Text="스노우 메두사 "/>
+<TEXT ID="4022400" Text="설원의 스노우 소서러"/>
+<TEXT ID="4023100" Text="디어 울프 "/>
+<TEXT ID="4023200" Text="스노우 디어 울프 "/>
+<TEXT ID="4023300" Text="엘리트 디어 울프 "/>
+<TEXT ID="4023400" Text="설원의 스노우 디어 울프"/>
+<TEXT ID="4024100" Text="얼음정령 보초 "/>
+<TEXT ID="4024200" Text="얼음정령 파수꾼 "/>
+<TEXT ID="4024300" Text="얼음정령 워리어 "/>
+<TEXT ID="4024309" Text="냉기폭풍"/>
+<TEXT ID="4024400" Text="설원의 얼음정령 파수꾼 "/>
+<TEXT ID="4025100" Text="방황하는 유니콘 "/>
+<TEXT ID="4025200" Text="떠돌이 유니콘 "/>
+<TEXT ID="4025300" Text="아이스 유니콘 "/>
+<TEXT ID="4025400" Text="설원의 떠돌이 유니콘"/>
+<TEXT ID="4028100" Text="스노우 프린세스"/>
+<TEXT ID="4029100" Text="정령 아비스"/>
+<TEXT ID="4031100" Text="스노링 "/>
+<TEXT ID="4031200" Text="마마 스노링 "/>
+<TEXT ID="4031300" Text="파파 스노링 "/>
+<TEXT ID="4031400" Text="눈구름골짜기 마마 스노링"/>
+<TEXT ID="4032100" Text="겨울 놀 보초병 "/>
+<TEXT ID="4032200" Text="겨울 놀 헌터"/>
+<TEXT ID="4032300" Text="겨울 놀 주술사 "/>
+<TEXT ID="4032400" Text="눈구름골짜기 겨울 놀 헌터"/>
+<TEXT ID="4033100" Text="스노우 라미아 "/>
+<TEXT ID="4033200" Text="라미아 헌터 "/>
+<TEXT ID="4033300" Text="라미아 워리어 "/>
+<TEXT ID="4033400" Text="눈구름골짜기 헌터"/>
+<TEXT ID="4034100" Text="새끼 백호 "/>
+<TEXT ID="4034200" Text="어미 백호 "/>
+<TEXT ID="4034300" Text="우두머리 백호 "/>
+<TEXT ID="4034400" Text="눈구름골짜기 어미 백호"/>
+<TEXT ID="4035100" Text="서리 백곰 "/>
+<TEXT ID="4035200" Text="냉기 백곰 "/>
+<TEXT ID="4035300" Text="얼음 백곰 "/>
+<TEXT ID="4035400" Text="눈구름골짜기 냉기 백곰"/>
+<TEXT ID="4038100" Text="빅토르 "/>
+<TEXT ID="4039100" Text="알렉산더 "/>
+<TEXT ID="4041100" Text="퀘이커 "/>
+<TEXT ID="4041200" Text="아이스 퀘이커 "/>
+<TEXT ID="4041300" Text="스노우 퀘이커 "/>
+<TEXT ID="4041400" Text="살얼음 고개 아이스 퀘이커"/>
+<TEXT ID="4042100" Text="서리 벌레 "/>
+<TEXT ID="4042200" Text="냉기 벌레 "/>
+<TEXT ID="4042300" Text="얼음 벌레 "/>
+<TEXT ID="4042400" Text="살얼음 고개 벌레"/>
+<TEXT ID="4043100" Text="서리 호랑이 "/>
+<TEXT ID="4043200" Text="냉기 호랑이 "/>
+<TEXT ID="4043300" Text="얼음 호랑이 "/>
+<TEXT ID="4043400" Text="살얼음 고개 냉기 호랑이"/>
+<TEXT ID="4043870" Text="바르곤족 길잡이"/>
+<TEXT ID="4044100" Text="서리 동동 "/>
+<TEXT ID="4044200" Text="냉기 동동 "/>
+<TEXT ID="4044300" Text="얼음 동동 "/>
+<TEXT ID="4044400" Text="살얼음 고개 냉기 동동"/>
+<TEXT ID="4045100" Text="아이스 고블린 "/>
+<TEXT ID="4045200" Text="아이스 고블린 붐버 "/>
+<TEXT ID="4045300" Text="아이스 고블린 주술사 "/>
+<TEXT ID="4045400" Text="살얼음 고개 고블린 붐버"/>
+<TEXT ID="4048100" Text="하늘산 지배자 "/>
+<TEXT ID="4049100" Text="얼음 드래곤 레그노"/>
+<TEXT ID="4051100" Text="서리 골렘 "/>
+<TEXT ID="4051200" Text="냉기 골렘 "/>
+<TEXT ID="4051300" Text="얼음 골렘 "/>
+<TEXT ID="4052100" Text="하이드론 "/>
+<TEXT ID="4052200" Text="아이스 하이드론 "/>
+<TEXT ID="4052300" Text="프로스트 하이드론 "/>
+<TEXT ID="4053100" Text="셀릭  "/>
+<TEXT ID="4053200" Text="프리징 셀릭 "/>
+<TEXT ID="4053300" Text="휠 셀릭 "/>
+<TEXT ID="4054100" Text="투아르 낚시꾼 "/>
+<TEXT ID="4054200" Text="투아르 보초병 "/>
+<TEXT ID="4054300" Text="투아르 장로 "/>
+<TEXT ID="4055100" Text="눈개미 "/>
+<TEXT ID="4055200" Text="빙하개미 "/>
+<TEXT ID="4055300" Text="얼음개미 "/>
+<TEXT ID="4058100" Text="플로레스 "/>
+<TEXT ID="4059100" Text="얼음요정  "/>
+<TEXT ID="4061100" Text="드워프 투사   "/>
+<TEXT ID="4061200" Text="드워프 궁수  "/>
+<TEXT ID="4061300" Text="드워프 기술자  "/>
+<TEXT ID="4062100" Text="타릭스 전령사  "/>
+<TEXT ID="4062200" Text="타릭스 사냥꾼  "/>
+<TEXT ID="4062300" Text="타릭스 결계사  "/>
+<TEXT ID="4063100" Text="아이스 스켈 전사  "/>
+<TEXT ID="4063200" Text="아이스 스켈 보초  "/>
+<TEXT ID="4063300" Text="아이스 스켈 장로  "/>
+<TEXT ID="4064100" Text="퀘이커  "/>
+<TEXT ID="4064200" Text="아이스 퀘이커  "/>
+<TEXT ID="4064300" Text="스노우 퀘이커  "/>
+<TEXT ID="4065100" Text="허스키 보초  "/>
+<TEXT ID="4065200" Text="허스키 헌터  "/>
+<TEXT ID="4065300" Text="허스키 우두머리  "/>
+<TEXT ID="4068100" Text="스노우 러스키  "/>
+<TEXT ID="4069100" Text="조련사 마커  "/>
+<TEXT ID="4071100" Text="스노우 위쳐 "/>
+<TEXT ID="4071200" Text="스노우 소서러 "/>
+<TEXT ID="4071300" Text="스노우 메두사 "/>
+<TEXT ID="4072100" Text="정령 보초 "/>
+<TEXT ID="4072200" Text="정령 파수꾼 "/>
+<TEXT ID="4072300" Text="정령 기사 "/>
+<TEXT ID="4073100" Text="얼음성 기사 "/>
+<TEXT ID="4073200" Text="얼음성 근위기사 "/>
+<TEXT ID="4073300" Text="얼음성 기사단장 "/>
+<TEXT ID="4074100" Text="판 이시스 보초 "/>
+<TEXT ID="4074200" Text="판 이시스 길잡이 "/>
+<TEXT ID="4074300" Text="판 이시스 주술사 "/>
+<TEXT ID="4075100" Text="서리 괴물 "/>
+<TEXT ID="4075200" Text="냉기 괴물 "/>
+<TEXT ID="4075300" Text="얼음 괴물 "/>
+<TEXT ID="4078100" Text="아이스 스파이더 "/>
+<TEXT ID="4079100" Text="문지기 "/>
+<TEXT ID="4081100" Text="얼음 슬라임 "/>
+<TEXT ID="4081200" Text="긴팔 얼음 슬라임 "/>
+<TEXT ID="4081300" Text="먹보 얼음 슬라임 "/>
+<TEXT ID="4082100" Text="미노 "/>
+<TEXT ID="4082200" Text="미노 헌터 "/>
+<TEXT ID="4082300" Text="미노 워리어 "/>
+<TEXT ID="4083100" Text="미스르 일꾼 "/>
+<TEXT ID="4083200" Text="미스르 보초 "/>
+<TEXT ID="4083300" Text="미스르 장로 "/>
+<TEXT ID="4084100" Text="얼음 꽃 "/>
+<TEXT ID="4084200" Text="얼음 가시 넝쿨"/>
+<TEXT ID="4084300" Text="얼음 독초 "/>
+<TEXT ID="4085100" Text="정령 뮬 "/>
+<TEXT ID="4085200" Text="정령 볼 "/>
+<TEXT ID="4085300" Text="정령 붐 "/>
+<TEXT ID="4088100" Text="아이스 미노 "/>
+<TEXT ID="4089100" Text="얼음 수장 "/>
+<TEXT ID="4091100" Text="야가호카 워리어 "/>
+<TEXT ID="4091200" Text="야가호카 헌터 "/>
+<TEXT ID="4091300" Text="야가호카 주술사 "/>
+<TEXT ID="4092100" Text="서리 플로레스 "/>
+<TEXT ID="4092200" Text="냉기 플로레스 "/>
+<TEXT ID="4092300" Text="얼음 플로레스 "/>
+<TEXT ID="4093100" Text="얼음날개 일족 "/>
+<TEXT ID="4093200" Text="얼음날개 정찰병 "/>
+<TEXT ID="4093300" Text="얼음날개 사마귀 "/>
+<TEXT ID="4094100" Text="얼음정원 정원사 "/>
+<TEXT ID="4094200" Text="얼음정원 관리자 "/>
+<TEXT ID="4094300" Text="얼음정원 지배인 "/>
+<TEXT ID="4095100" Text="서리 뮤턴트 "/>
+<TEXT ID="4095200" Text="냉기 뮤턴트 "/>
+<TEXT ID="4095300" Text="얼음 뮤턴트 "/>
+<TEXT ID="4098100" Text="얼음정원 희귀몬스터"/>
+<TEXT ID="4099100" Text="얼음 여왕 "/>
+<TEXT ID="4500100" Text="빅손"/>
+<TEXT ID="4500200" Text="멍크"/>
+<TEXT ID="4500300" Text="더크"/>
+<TEXT ID="4500400" Text="바스"/>
+<TEXT ID="4500500" Text="소굴늑대"/>
+<TEXT ID="4500600" Text="소굴 큰 늑대"/>
+<TEXT ID="4500700" Text="소굴 미친 늑대"/>
+<TEXT ID="4500800" Text="시크"/>
+<TEXT ID="4500900" Text="헤스"/>
+<TEXT ID="4540770" Text="리치"/>
+<TEXT ID="4541000" Text="케로베로스"/>
+<TEXT ID="4600100" Text="외눈박이 미라"/>
+<TEXT ID="4600200" Text="지하묘지 미라"/>
+<TEXT ID="4600300" Text="듀라만"/>
+<TEXT ID="4600400" Text="메르곤"/>
+<TEXT ID="4600500" Text="쥐라드"/>
+<TEXT ID="4600600" Text="지하묘지 좀비"/>
+<TEXT ID="4601000" Text="어둠의 감시자"/>
+<TEXT ID="4601100" Text="본 플레그"/>
+<TEXT ID="4601200" Text="카틀라"/>
+<TEXT ID="4601300" Text="쥐라고나"/>
+<TEXT ID="4602100" Text="카지모도"/>
+<TEXT ID="4602200" Text="아누쿠스"/>
+<TEXT ID="4700100" Text="메타곤"/>
+<TEXT ID="4700200" Text="깃털윙윙"/>
+<TEXT ID="4700300" Text="그램린 "/>
+<TEXT ID="4700400" Text="위습"/>
+<TEXT ID="4700500" Text="오염정령"/>
+<TEXT ID="4700600" Text="라곤주니어"/>
+<TEXT ID="4700700" Text="라곤"/>
+<TEXT ID="4700800" Text="뿌리정령 "/>
+<TEXT ID="4700900" Text="미스티올름"/>
+<TEXT ID="4701100" Text="가시나무정령"/>
+<TEXT ID="4701200" Text="독나무정령 "/>
+<TEXT ID="4701300" Text="썩은나무정령"/>
+<TEXT ID="4701400" Text="사악한 주술사 무티샤 "/>
+<TEXT ID="4701500" Text="리바이어스 "/>
+<TEXT ID="4701600" Text="오염된 나무"/>
+<TEXT ID="4900100" Text="디솔레이온"/>
+<TEXT ID="5000501" Text=" "/>
+<TEXT ID="5000502" Text=" "/>
+<TEXT ID="5000503" Text=" "/>
+<TEXT ID="5000504" Text=" "/>
+<TEXT ID="5000505" Text=" "/>
+<TEXT ID="5000506" Text=" "/>
+<TEXT ID="5810000" Text="[가디언] 스톰"/>
+<TEXT ID="5810001" Text="자신 주변을 공격합니다. 다수의 대상을 공격하는 것이 특징입니다.(가까운 몬스터를 우선적으로 공격합니다.)"/>
+<TEXT ID="5810100" Text="[소위] 스톰"/>
+<TEXT ID="5810200" Text="[중위] 스톰"/>
+<TEXT ID="5810300" Text="[대위] 스톰"/>
+<TEXT ID="5810400" Text="[소령] 스톰"/>
+<TEXT ID="5810500" Text="[중령] 스톰"/>
+<TEXT ID="5810600" Text="[대령] 스톰"/>
+<TEXT ID="5810700" Text="[준장] 스톰"/>
+<TEXT ID="5810800" Text="[소장] 스톰"/>
+<TEXT ID="5810900" Text="[중장] 스톰"/>
+<TEXT ID="5811000" Text="[대장] 스톰"/>
+<TEXT ID="5811100" Text="[루키] 스톰"/>
+<TEXT ID="5811200" Text="[레어] 스톰"/>
+<TEXT ID="5811300" Text="[영웅] 스톰"/>
+<TEXT ID="5811400" Text="[스페셜] 스톰"/>
+<TEXT ID="5811500" Text="[전설] 스톰"/>
+<TEXT ID="5811600" Text="스톰"/>
+<TEXT ID="5820000" Text="[가디언] 블레이즈"/>
+<TEXT ID="5820001" Text="전방을 향해 화염을 뿜어 다수의 적을 공격합니다."/>
+<TEXT ID="5820100" Text="[소위] 블레이즈"/>
+<TEXT ID="5820200" Text="[중위] 블레이즈"/>
+<TEXT ID="5820300" Text="[대위] 블레이즈"/>
+<TEXT ID="5820400" Text="[소령] 블레이즈"/>
+<TEXT ID="5820500" Text="[중령] 블레이즈"/>
+<TEXT ID="5820600" Text="[대령] 블레이즈"/>
+<TEXT ID="5820700" Text="[준장] 블레이즈"/>
+<TEXT ID="5820800" Text="[소장] 블레이즈"/>
+<TEXT ID="5820900" Text="[중장] 블레이즈"/>
+<TEXT ID="5821000" Text="[대장] 블레이즈"/>
+<TEXT ID="5821100" Text="[루키] 블레이즈"/>
+<TEXT ID="5821200" Text="[레어] 블레이즈"/>
+<TEXT ID="5821300" Text="[영웅] 블레이즈"/>
+<TEXT ID="5821400" Text="[스페셜] 블레이즈"/>
+<TEXT ID="5821500" Text="[전설] 블레이즈"/>
+<TEXT ID="5821600" Text="블레이즈"/>
+<TEXT ID="5830000" Text="[가디언] 가이아"/>
+<TEXT ID="5830001" Text="땅을 뚫고 나오는 송곳을 발사합니다. 송곳은 지속되면서 지나가는 적을 공격합니다."/>
+<TEXT ID="5830100" Text="[소위] 가이아"/>
+<TEXT ID="5830200" Text="[중위] 가이아"/>
+<TEXT ID="5830300" Text="[대위] 가이아"/>
+<TEXT ID="5830400" Text="[소령] 가이아"/>
+<TEXT ID="5830500" Text="[중령] 가이아"/>
+<TEXT ID="5830600" Text="[대령] 가이아"/>
+<TEXT ID="5830700" Text="[준장] 가이아"/>
+<TEXT ID="5830800" Text="[소장] 가이아"/>
+<TEXT ID="5830900" Text="[중장] 가이아"/>
+<TEXT ID="5831000" Text="[대장] 가이아"/>
+<TEXT ID="5831100" Text="[루키] 가이아"/>
+<TEXT ID="5831200" Text="[레어] 가이아"/>
+<TEXT ID="5831300" Text="[영웅] 가이아"/>
+<TEXT ID="5831400" Text="[스페셜] 가이아"/>
+<TEXT ID="5831500" Text="[전설] 가이아"/>
+<TEXT ID="5831600" Text="가이아"/>
+<TEXT ID="5840000" Text="[가디언] 라이트닝"/>
+<TEXT ID="5840001" Text="오직 하나의 대상에게만 높은 데미지의 공격을 합니다. (HP가 높은 몬스터를 우선 공격합니다.)"/>
+<TEXT ID="5840100" Text="[소위] 라이트닝"/>
+<TEXT ID="5840200" Text="[중위] 라이트닝"/>
+<TEXT ID="5840300" Text="[대위] 라이트닝"/>
+<TEXT ID="5840400" Text="[소령] 라이트닝"/>
+<TEXT ID="5840500" Text="[중령] 라이트닝"/>
+<TEXT ID="5840600" Text="[대령] 라이트닝"/>
+<TEXT ID="5840700" Text="[준장] 라이트닝"/>
+<TEXT ID="5840800" Text="[소장] 라이트닝"/>
+<TEXT ID="5840900" Text="[중장] 라이트닝"/>
+<TEXT ID="5841000" Text="[대장] 라이트닝"/>
+<TEXT ID="5841100" Text="[루키] 라이트닝"/>
+<TEXT ID="5841200" Text="[레어] 라이트닝"/>
+<TEXT ID="5841300" Text="[영웅] 라이트닝"/>
+<TEXT ID="5841400" Text="[스페셜] 라이트닝"/>
+<TEXT ID="5841500" Text="[전설] 라이트닝"/>
+<TEXT ID="5841600" Text="라이트닝"/>
+<TEXT ID="5850000" Text="[가디언] 프리징"/>
+<TEXT ID="5850001" Text="주변을 지나는 대상을 얼려서 이동속도를 느리게 하며, 적은 데미지를 지속적으로 줍니다."/>
+<TEXT ID="5850100" Text="[소위] 프리징"/>
+<TEXT ID="5850200" Text="[중위] 프리징"/>
+<TEXT ID="5850300" Text="[대위] 프리징"/>
+<TEXT ID="5850400" Text="[소령] 프리징"/>
+<TEXT ID="5850500" Text="[중령] 프리징"/>
+<TEXT ID="5850600" Text="[대령] 프리징"/>
+<TEXT ID="5850700" Text="[준장] 프리징"/>
+<TEXT ID="5850800" Text="[소장] 프리징"/>
+<TEXT ID="5850900" Text="[중장] 프리징"/>
+<TEXT ID="5851000" Text="[대장] 프리징"/>
+<TEXT ID="5851100" Text="[루키] 프리징"/>
+<TEXT ID="5851200" Text="[레어] 프리징"/>
+<TEXT ID="5851300" Text="[영웅] 프리징"/>
+<TEXT ID="5851400" Text="[스페셜] 프리징"/>
+<TEXT ID="5851500" Text="[전설] 프리징"/>
+<TEXT ID="5851600" Text="프리징"/>
+<TEXT ID="5860000" Text="[가디언] 블랙홀"/>
+<TEXT ID="5860001" Text="블랙홀을 소환하여 일정시간 지나는 대상을 제자리에 묶어 놓습니다. (이동속도가 빠른 몬스터를 우선 공격합니다.)"/>
+<TEXT ID="5860100" Text="[소위] 블랙홀"/>
+<TEXT ID="5860200" Text="[중위] 블랙홀"/>
+<TEXT ID="5860300" Text="[대위] 블랙홀"/>
+<TEXT ID="5860400" Text="[소령] 블랙홀"/>
+<TEXT ID="5860500" Text="[중령] 블랙홀"/>
+<TEXT ID="5860600" Text="[대령] 블랙홀"/>
+<TEXT ID="5860700" Text="[준장] 블랙홀"/>
+<TEXT ID="5860800" Text="[소장] 블랙홀"/>
+<TEXT ID="5860900" Text="[중장] 블랙홀"/>
+<TEXT ID="5861000" Text="[대장] 블랙홀"/>
+<TEXT ID="5861100" Text="[루키] 블랙홀"/>
+<TEXT ID="5861200" Text="[레어] 블랙홀"/>
+<TEXT ID="5861300" Text="[영웅] 블랙홀"/>
+<TEXT ID="5861400" Text="[스페셜] 블랙홀"/>
+<TEXT ID="5861500" Text="[전설] 블랙홀"/>
+<TEXT ID="5861600" Text="블랙홀"/>
+<TEXT ID="5870000" Text="[카오스가디언] 카오스 붐버"/>
+<TEXT ID="5870001" Text="자기 주변을 공격합니다. 가까운 대상을 먼저 공격합니다."/>
+<TEXT ID="5870100" Text="가디언아람"/>
+<TEXT ID="5870103" Text="아람의 먼지폭풍"/>
+<TEXT ID="6000100" Text="허수아비1"/>
+<TEXT ID="6000103" Text="샌드백"/>
+<TEXT ID="6000104" Text="박스"/>
+<TEXT ID="6000105" Text="박스 2"/>
+<TEXT ID="6000106" Text="항아리"/>
+<TEXT ID="6000107" Text="술통"/>
+<TEXT ID="6000108" Text="파란색 코어"/>
+<TEXT ID="6000109" Text="파란색 작은 코어"/>
+<TEXT ID="6000110" Text="붉은색 코어"/>
+<TEXT ID="6000111" Text="붉은색 작은 코어"/>
+<TEXT ID="6000200" Text="허수아비2"/>
+<TEXT ID="6000300" Text="가짜 산타"/>
+<TEXT ID="6000400" Text="수호용"/>
+<TEXT ID="6000410" Text="수호용"/>
+<TEXT ID="6000420" Text="자색 스켈드래곤"/>
+<TEXT ID="6000430" Text="붉은 스켈드래곤"/>
+<TEXT ID="6000440" Text="검은 스켈드래곤"/>
+<TEXT ID="6000450" Text="수호용"/>
+<TEXT ID="6000500" Text="쫑즈"/>
+<TEXT ID="6000600" Text="파란 쫑즈"/>
+<TEXT ID="6000700" Text="빨간 쫑즈"/>
+<TEXT ID="6000800" Text="아이스 드래곤"/>
+<TEXT ID="6000850" Text="네브여왕"/>
+<TEXT ID="6000900" Text="마그마 드레이크 라발론"/>
+<TEXT ID="6000902" Text="마력포"/>
+<TEXT ID="6000910" Text="사파이어 드래곤 그렘그리스"/>
+<TEXT ID="6000920" Text="몬스터 백작 파렐경"/>
+<TEXT ID="6000930" Text="아람"/>
+<TEXT ID="6000940" Text="무티샤"/>
+<TEXT ID="6000950" Text="로스트"/>
+<TEXT ID="6001000" Text="골드 초목이"/>
+<TEXT ID="6001100" Text="초목이 "/>
+<TEXT ID="6001200" Text="노란 초목이"/>
+<TEXT ID="6001300" Text="파란 초목이 "/>
+<TEXT ID="6001400" Text="별잎 초목이 "/>
+<TEXT ID="6001500" Text="까칠한 초목이"/>
+<TEXT ID="6002000" Text="KK 드래곤"/>
+<TEXT ID="6002100" Text="뿔양 "/>
+<TEXT ID="6002200" Text="양 "/>
+<TEXT ID="6002300" Text="히피 양"/>
+<TEXT ID="6002700" Text="순한 양"/>
+<TEXT ID="6002800" Text="화난 뿔양"/>
+<TEXT ID="6003100" Text="독거미 "/>
+<TEXT ID="6003200" Text="갈퀴 거미"/>
+<TEXT ID="6004100" Text="갈색 늑대"/>
+<TEXT ID="6004200" Text="사나운 늑대"/>
+<TEXT ID="6004300" Text="미친 늑대"/>
+<TEXT ID="6004400" Text="베가스"/>
+<TEXT ID="6004500" Text="큰 미친 늑대"/>
+<TEXT ID="6004600" Text="별난 미친 늑대"/>
+<TEXT ID="6004700" Text="굶주린 갈색늑대"/>
+<TEXT ID="6004800" Text="배고픈 갈색늑대"/>
+<TEXT ID="6004900" Text="베가본드"/>
+<TEXT ID="6005100" Text="전갈박쥐"/>
+<TEXT ID="6005200" Text="파란 전갈박쥐"/>
+<TEXT ID="6005300" Text="화난 파란 전갈박쥐"/>
+<TEXT ID="6005400" Text="거친 전갈박쥐"/>
+<TEXT ID="6006100" Text="버크셔 "/>
+<TEXT ID="6006200" Text="오크셔 "/>
+<TEXT ID="6006300" Text="주술사 오크셔 "/>
+<TEXT ID="6006400" Text="무서운 버크셔"/>
+<TEXT ID="6006500" Text="화난 오크셔"/>
+<TEXT ID="6006600" Text="프렝켄 도쥬"/>
+<TEXT ID="6006700" Text="사나운 버크셔"/>
+<TEXT ID="6006900" Text="큰도끼 형제 쌍카"/>
+<TEXT ID="6007100" Text="너구리 "/>
+<TEXT ID="6007200" Text="생머리 너구리"/>
+<TEXT ID="6007300" Text="펑 너구리 "/>
+<TEXT ID="6007400" Text="호박머리 너구리"/>
+<TEXT ID="6007500" Text="단단한 호박머리너구리"/>
+<TEXT ID="6007600" Text="큰 호박 너구리"/>
+<TEXT ID="6008100" Text="붉은 철퇴 미라"/>
+<TEXT ID="6008200" Text="망각의 복서 미라"/>
+<TEXT ID="6008300" Text="망각의 철퇴 미라"/>
+<TEXT ID="6008400" Text="나무 망치 미라"/>
+<TEXT ID="6008500" Text="돌 망치 미라"/>
+<TEXT ID="6008600" Text="쇠 망치 미라"/>
+<TEXT ID="6009100" Text="그리드 청기사"/>
+<TEXT ID="6009200" Text="그리드 적기사"/>
+<TEXT ID="6009300" Text="그리드 혈기사"/>
+<TEXT ID="6009400" Text="그리드 용기사"/>
+<TEXT ID="6009500" Text="다크니스트"/>
+<TEXT ID="6009600" Text="로드 오브 나이트"/>
+<TEXT ID="6009601" Text="원령 나이트"/>
+<TEXT ID="6009700" Text="작은 그리드 혈기사"/>
+<TEXT ID="6009800" Text="작은 그리드 용기사"/>
+<TEXT ID="6009900" Text="아티스"/>
+<TEXT ID="6010100" Text="꼬깨 "/>
+<TEXT ID="6010900" Text="톱날꼬깨"/>
+<TEXT ID="6011100" Text="별가사리 루루루"/>
+<TEXT ID="6011200" Text="별가사리 로로로"/>
+<TEXT ID="6011300" Text="별가사리 라라라"/>
+<TEXT ID="6011700" Text="별난 별가사리 로로로"/>
+<TEXT ID="6011800" Text="거대 별가사리"/>
+<TEXT ID="6012100" Text="몽글 "/>
+<TEXT ID="6012200" Text="페리몽글"/>
+<TEXT ID="6012300" Text="필라몽글"/>
+<TEXT ID="6012400" Text="푸른 안테나 몽글"/>
+<TEXT ID="6012500" Text="붉은 안테나 몽글"/>
+<TEXT ID="6012600" Text="병든 페리 몽글"/>
+<TEXT ID="6012700" Text="화난 필라몽글"/>
+<TEXT ID="6012800" Text="심술쟁이 몽글 기준"/>
+<TEXT ID="6013100" Text="상어 "/>
+<TEXT ID="6013200" Text="갑판상어"/>
+<TEXT ID="6013500" Text="뚜껑열린 주주"/>
+<TEXT ID="6013800" Text="캡틴 알비다"/>
+<TEXT ID="6013801" Text="주주"/>
+<TEXT ID="6013900" Text="캡틴 후커"/>
+<TEXT ID="6014100" Text="스켈레턴"/>
+<TEXT ID="6014200" Text="스켈레통"/>
+<TEXT ID="6014300" Text="스켈레틱"/>
+<TEXT ID="6014400" Text="스켈레톤 엉클"/>
+<TEXT ID="6014500" Text="스켈레톤 정찰병"/>
+<TEXT ID="6014600" Text="스켈레톤 투척병"/>
+<TEXT ID="6014700" Text="스켈레마"/>
+<TEXT ID="6014800" Text="스켈레바"/>
+<TEXT ID="6015100" Text="붐붐"/>
+<TEXT ID="6015200" Text="용암붐붐"/>
+<TEXT ID="6015300" Text="엄마붐붐"/>
+<TEXT ID="6015301" Text="독에 중독되어 체력이 감소 됩니다."/>
+<TEXT ID="6015400" Text="제이슨붐붐"/>
+<TEXT ID="6015500" Text="작은 용암붐붐"/>
+<TEXT ID="6015600" Text="귀여운 용암붐붐"/>
+<TEXT ID="6015700" Text="화난 붐붐"/>
+<TEXT ID="6015800" Text="아담한 엄마붐붐"/>
+<TEXT ID="6015900" Text="부족장 로커"/>
+<TEXT ID="6015901" Text="작은 로커"/>
+<TEXT ID="6015902" Text="도쥬"/>
+<TEXT ID="6016100" Text="진흙늪지괴물"/>
+<TEXT ID="6016200" Text="수포늪지괴물"/>
+<TEXT ID="6016300" Text="늪지괴물"/>
+<TEXT ID="6016400" Text="작은 늪지괴물"/>
+<TEXT ID="6016500" Text="약한 수포 늪지괴물"/>
+<TEXT ID="6016600" Text="화난 진흙 늪지괴물"/>
+<TEXT ID="6017100" Text="난폭한 나무꾼"/>
+<TEXT ID="6017200" Text="갈고리 나무꾼"/>
+<TEXT ID="6017300" Text="톱날 나무꾼"/>
+<TEXT ID="6017400" Text="화난 톱날 나무꾼"/>
+<TEXT ID="6017500" Text="화난 난폭한 나무꾼"/>
+<TEXT ID="6017600" Text="나무꾼 버나언"/>
+<TEXT ID="6017700" Text="나무꾼 폴 버나언"/>
+<TEXT ID="6017800" Text="화난 나무꾼 폴 버나언"/>
+<TEXT ID="6017900" Text="화난 갈고리 나무꾼"/>
+<TEXT ID="6018100" Text="투척병 야쿠트"/>
+<TEXT ID="6018200" Text="주술사 야쿠트"/>
+<TEXT ID="6018300" Text="야쿠트"/>
+<TEXT ID="6018400" Text="병든 야쿠트"/>
+<TEXT ID="6018500" Text="맹렬한 투척병 야쿠트"/>
+<TEXT ID="6018600" Text="우울한 주술사 야쿠트"/>
+<TEXT ID="6018900" Text="엘루만"/>
+<TEXT ID="6018901" Text="작은 엘루"/>
+<TEXT ID="6019100" Text="줄기 악마 꽃"/>
+<TEXT ID="6019200" Text="줄기 악마 꽃 데데"/>
+<TEXT ID="6019300" Text="씨 악마 꽃"/>
+<TEXT ID="6019400" Text="씨 악마 꽃 정찰병 데데"/>
+<TEXT ID="6019500" Text="작은 씨 악마 꽃"/>
+<TEXT ID="6019600" Text="작은 줄기악마꽃 데데"/>
+<TEXT ID="6019700" Text="작은 정찰병 데데"/>
+<TEXT ID="6019800" Text="투척병 데데"/>
+<TEXT ID="6019900" Text="데비"/>
+<TEXT ID="6020100" Text="붉은 자드"/>
+<TEXT ID="6020200" Text="전사 자드"/>
+<TEXT ID="6020300" Text="자드"/>
+<TEXT ID="6020400" Text="리버"/>
+<TEXT ID="6020500" Text="맹렬한 전사 자드"/>
+<TEXT ID="6020600" Text="화난 붉은 자드"/>
+<TEXT ID="6020700" Text="화난 리버 자드"/>
+<TEXT ID="6020800" Text="순한 리버 자드"/>
+<TEXT ID="6020900" Text="커다란 자드"/>
+<TEXT ID="6021100" Text="그레이 동동"/>
+<TEXT ID="6021200" Text="그린 동동"/>
+<TEXT ID="6021300" Text="블루 동동"/>
+<TEXT ID="6021400" Text="화난 그레이 동동"/>
+<TEXT ID="6021500" Text="화난 레드 동동"/>
+<TEXT ID="6021600" Text="화난 블루 동동"/>
+<TEXT ID="6021900" Text="레드 동동"/>
+<TEXT ID="6022100" Text="전사 팽이"/>
+<TEXT ID="6022200" Text="투구 팽이"/>
+<TEXT ID="6022300" Text="팽이"/>
+<TEXT ID="6022400" Text="화난 투구 팽이"/>
+<TEXT ID="6022900" Text="슬러페"/>
+<TEXT ID="6023100" Text="숲 포자 요정"/>
+<TEXT ID="6023200" Text="숲 꽃 요정"/>
+<TEXT ID="6023300" Text="숲 열매 요정"/>
+<TEXT ID="6023400" Text="귀여운 숲 꽃 요정"/>
+<TEXT ID="6023500" Text="귀여운 숲 열매 요정"/>
+<TEXT ID="6023600" Text="귀여운 숲 포자 요정"/>
+<TEXT ID="6023800" Text="귀여운 숲 요정"/>
+<TEXT ID="6023900" Text="아르카"/>
+<TEXT ID="6023901" Text="작은 시타(아르카)"/>
+<TEXT ID="6024100" Text="펑프"/>
+<TEXT ID="6024200" Text="암살자 펑프"/>
+<TEXT ID="6024300" Text="도둑 펑프"/>
+<TEXT ID="6024500" Text="커다란 펑프"/>
+<TEXT ID="6024600" Text="도망친 암살자 펑프"/>
+<TEXT ID="6024900" Text="투사 펑프"/>
+<TEXT ID="6024901" Text="그린들"/>
+<TEXT ID="6025100" Text="엉클 포키"/>
+<TEXT ID="6025200" Text="큰 엉클 포키"/>
+<TEXT ID="6025300" Text="포키"/>
+<TEXT ID="6025400" Text="화난 포키"/>
+<TEXT ID="6025500" Text="화난 엉클포키"/>
+<TEXT ID="6025600" Text="화난 큰 엉클포키"/>
+<TEXT ID="6025700" Text="대머리 포키"/>
+<TEXT ID="6025900" Text="벌룬"/>
+<TEXT ID="6025901" Text="작은 벌룬"/>
+<TEXT ID="6026100" Text="풍뎅이"/>
+<TEXT ID="6026200" Text="큰 뿔 풍뎅이"/>
+<TEXT ID="6026300" Text="사슴뿔 풍뎅이"/>
+<TEXT ID="6026400" Text="점박이 풍뎅이"/>
+<TEXT ID="6026500" Text="심술 풍뎅이"/>
+<TEXT ID="6028100" Text="개굴맹이"/>
+<TEXT ID="6028200" Text="개굴꽁이"/>
+<TEXT ID="6028300" Text="큰 개굴맹이"/>
+<TEXT ID="6028400" Text="귀여운 개굴꽁이"/>
+<TEXT ID="6028500" Text="화난 개굴꽁이"/>
+<TEXT ID="6028600" Text="화난 개굴맹이"/>
+<TEXT ID="6029100" Text="빅스 "/>
+<TEXT ID="6029200" Text="모크빅스 "/>
+<TEXT ID="6030100" Text="샤포"/>
+<TEXT ID="6030200" Text="투척병 샤포"/>
+<TEXT ID="6030300" Text="주술사 샤포"/>
+<TEXT ID="6030400" Text="화난 주술사 샤포"/>
+<TEXT ID="6030500" Text="도망자 샤포"/>
+<TEXT ID="6030600" Text="난폭한 투척병 샤포"/>
+<TEXT ID="6030700" Text="소심한 샤포"/>
+<TEXT ID="6030900" Text="큰도끼 형제 쿵카"/>
+<TEXT ID="6031100" Text="드라이어드"/>
+<TEXT ID="6031200" Text="드라이어드 주술사"/>
+<TEXT ID="6031300" Text="드라이어드 장로"/>
+<TEXT ID="6032100" Text="푸카 쵸피"/>
+<TEXT ID="6032200" Text="푸카 프라미"/>
+<TEXT ID="6032300" Text="푸카 토리"/>
+<TEXT ID="6032400" Text="푸카 페포"/>
+<TEXT ID="6032500" Text="거대한 푸카 쵸피"/>
+<TEXT ID="6032600" Text="거대한 푸카 페포"/>
+<TEXT ID="6032700" Text="거대한 푸카 프라미"/>
+<TEXT ID="6032800" Text="화난 푸카 쵸피"/>
+<TEXT ID="6033100" Text="레사스"/>
+<TEXT ID="6033200" Text="사르가스 레사스"/>
+<TEXT ID="6033300" Text="샤울라 레사스"/>
+<TEXT ID="6033400" Text="안타레스"/>
+<TEXT ID="6033500" Text="쎈 레사스"/>
+<TEXT ID="6033600" Text="쎈 사르가스 레사스"/>
+<TEXT ID="6033700" Text="쎈 샤울라 레사스"/>
+<TEXT ID="6033800" Text="케라에"/>
+<TEXT ID="6034100" Text="멘타 피페리타"/>
+<TEXT ID="6034200" Text="멘타 스피카타"/>
+<TEXT ID="6034300" Text="가이던"/>
+<TEXT ID="6034301" Text="론기폴리아"/>
+<TEXT ID="6034400" Text="성난 멘타 스피카타"/>
+<TEXT ID="6034500" Text="성난 멘타 피페리타"/>
+<TEXT ID="6035100" Text="복어"/>
+<TEXT ID="6035200" Text="심술쟁이 복어"/>
+<TEXT ID="6036100" Text="아르테미스"/>
+<TEXT ID="6036200" Text="아르미스"/>
+<TEXT ID="6036300" Text="화난 아르미테미스"/>
+<TEXT ID="6036400" Text="성난 아르미테미스"/>
+<TEXT ID="6037100" Text="루나"/>
+<TEXT ID="6037200" Text="루피나"/>
+<TEXT ID="6038100" Text="사마귀"/>
+<TEXT ID="6038200" Text="갈퀴 사마귀"/>
+<TEXT ID="6038300" Text="발톱날개 일족"/>
+<TEXT ID="6038400" Text="발톱날개 정찰병"/>
+<TEXT ID="6038500" Text="작은 발톱날개 일족"/>
+<TEXT ID="6038600" Text="화난 발톱날개 정찰병"/>
+<TEXT ID="6039100" Text="난폭한 불찌"/>
+<TEXT ID="6039200" Text="돌연변이 불찌"/>
+<TEXT ID="6039400" Text="불찌"/>
+<TEXT ID="6039500" Text="성난 불찌"/>
+<TEXT ID="6039600" Text="성난 돌연변이 불찌"/>
+<TEXT ID="6039700" Text="성난 난폭한 불찌 "/>
+<TEXT ID="6040100" Text="애벌레"/>
+<TEXT ID="6040200" Text="갈퀴 애벌레"/>
+<TEXT ID="6040300" Text="뿔 애벌레"/>
+<TEXT ID="6040400" Text="귀여운 갈퀴 애벌레 "/>
+<TEXT ID="6041100" Text="스파쥬민 골렘"/>
+<TEXT ID="6041200" Text="디멘토이드 골렘"/>
+<TEXT ID="6041300" Text="애퍼타이트 골렘"/>
+<TEXT ID="6041400" Text="용암 골렘"/>
+<TEXT ID="6041500" Text="파타누스"/>
+<TEXT ID="6041600" Text="쎈 스파쥬민 골렘 "/>
+<TEXT ID="6041700" Text="쎈 애퍼타이트 골렘 "/>
+<TEXT ID="6041800" Text="쎈 디멘토이드 골렘 "/>
+<TEXT ID="6042100" Text="다일"/>
+<TEXT ID="6042200" Text="뼈다귀 다일"/>
+<TEXT ID="6042300" Text="살코수쿠스 다일"/>
+<TEXT ID="6042400" Text="작은 뼈다귀 다일 "/>
+<TEXT ID="6042500" Text="화난 다일 "/>
+<TEXT ID="6043100" Text="알곤"/>
+<TEXT ID="6043200" Text="정찰병 알곤"/>
+<TEXT ID="6043300" Text="투척병 알곤"/>
+<TEXT ID="6043400" Text="누멘 알곤"/>
+<TEXT ID="6043500" Text="키마트"/>
+<TEXT ID="6043501" Text="흥분한 크로매"/>
+<TEXT ID="6043700" Text="바르곤족 보초"/>
+<TEXT ID="6043800" Text="바르곤족 길잡이"/>
+<TEXT ID="6043900" Text="바르곤족 주술사"/>
+<TEXT ID="6044100" Text="반디"/>
+<TEXT ID="6044200" Text="반디 정찰병"/>
+<TEXT ID="6044300" Text="반디 장로"/>
+<TEXT ID="6044301" Text="반디 대장로"/>
+<TEXT ID="6044400" Text="작은 반디"/>
+<TEXT ID="6044500" Text="화난 반디 정찰병"/>
+<TEXT ID="6044600" Text="여왕 벨라"/>
+<TEXT ID="6044800" Text="화난 반디 장로"/>
+<TEXT ID="6045100" Text="나방"/>
+<TEXT ID="6045200" Text="긴 주둥이 나방"/>
+<TEXT ID="6045300" Text="벌꿀 나방"/>
+<TEXT ID="6045400" Text="거대한 나방 "/>
+<TEXT ID="6045500" Text="거대한 긴주둥이 나방 "/>
+<TEXT ID="6045600" Text="거대한 벌꿀 나방 "/>
+<TEXT ID="6046100" Text="일곱 난쟁이 첫째"/>
+<TEXT ID="6046200" Text="일곱 난쟁이 둘째"/>
+<TEXT ID="6046300" Text="일곱 난쟁이 셋째"/>
+<TEXT ID="6046400" Text="일곱 난쟁이 넷째"/>
+<TEXT ID="6047100" Text="윙"/>
+<TEXT ID="6047200" Text="큰눈 윙"/>
+<TEXT ID="6047300" Text="큰뿔 윙"/>
+<TEXT ID="6047400" Text="작은 눈 윙 "/>
+<TEXT ID="6048100" Text="호르"/>
+<TEXT ID="6048200" Text="칼 부리 호르"/>
+<TEXT ID="6048300" Text="호루스 호르"/>
+<TEXT ID="6048400" Text="심술 호르"/>
+<TEXT ID="6048500" Text="화난 칼부리 호르"/>
+<TEXT ID="6048600" Text="성난 호루스 호르"/>
+<TEXT ID="6049100" Text="물갈퀴일족 일꾼"/>
+<TEXT ID="6049200" Text="물갈퀴일족 주술사"/>
+<TEXT ID="6049300" Text="물갈퀴일족 투사"/>
+<TEXT ID="6049400" Text="병든 물갈퀴일족 일꾼 "/>
+<TEXT ID="6049500" Text="화난 물갈퀴일족 주술사 "/>
+<TEXT ID="6049600" Text="맹렬한 물갈퀴일족 투사 "/>
+<TEXT ID="6049700" Text="늙은 물갈퀴일족 주술사"/>
+<TEXT ID="6050100" Text="사신 헤르메스"/>
+<TEXT ID="6050200" Text="사신 하데스"/>
+<TEXT ID="6050300" Text="사신 에를리크"/>
+<TEXT ID="6050400" Text="성난 사신 하데스 "/>
+<TEXT ID="6050500" Text="성난 사신 헤르메스 "/>
+<TEXT ID="6050600" Text="성난 사신 에를리크 "/>
+<TEXT ID="6051100" Text="투아 란테아"/>
+<TEXT ID="6051200" Text="투아 메를로"/>
+<TEXT ID="6051300" Text="투아 엔릴"/>
+<TEXT ID="6051400" Text="화난 투아 매를로 "/>
+<TEXT ID="6051500" Text="병든 투아 란테아 "/>
+<TEXT ID="6051600" Text="미친 투아 엔릴 "/>
+<TEXT ID="6052100" Text="미미르"/>
+<TEXT ID="6052200" Text="미미르 독침병"/>
+<TEXT ID="6052300" Text="미미르 주술사"/>
+<TEXT ID="6052400" Text="미친 미미르 "/>
+<TEXT ID="6052500" Text="화난 미미르 주술사 "/>
+<TEXT ID="6052600" Text="부보부보"/>
+<TEXT ID="6052800" Text="미친 미미르 독침병"/>
+<TEXT ID="6053100" Text="코어"/>
+<TEXT ID="6053200" Text="마기 코어"/>
+<TEXT ID="6053300" Text="헬릭스 코어"/>
+<TEXT ID="6054100" Text="예티"/>
+<TEXT ID="6054200" Text="토르나크 예티"/>
+<TEXT ID="6054300" Text="앙가코크 예티"/>
+<TEXT ID="6055100" Text="소환된 포키"/>
+<TEXT ID="6055200" Text="소환된 엉클 포키"/>
+<TEXT ID="6055300" Text="소환된 큰 엉클 포키"/>
+<TEXT ID="6055400" Text="소환된 스파쥬민 골렘"/>
+<TEXT ID="6055500" Text="소환된 애퍼타이트 골렘"/>
+<TEXT ID="6055600" Text="소환된 디멘토이드 골렘"/>
+<TEXT ID="6056100" Text="작은 제이슨 붐붐"/>
+<TEXT ID="6056200" Text="조리장 카카투"/>
+<TEXT ID="6056300" Text="동문 문지기"/>
+<TEXT ID="6056400" Text="남문 문지기"/>
+<TEXT ID="6056500" Text="문지기 수장"/>
+<TEXT ID="6057100" Text="메르 곤"/>
+<TEXT ID="6057200" Text="모르 곤"/>
+<TEXT ID="6057201" Text="파타곤"/>
+<TEXT ID="6057300" Text="메타 곤"/>
+<TEXT ID="6058100" Text="올름"/>
+<TEXT ID="6058200" Text="수정 올름"/>
+<TEXT ID="6058300" Text="용암 올름"/>
+<TEXT ID="6059100" Text="두두"/>
+<TEXT ID="6059200" Text="주먹 두두"/>
+<TEXT ID="6059300" Text="주술사 두두"/>
+<TEXT ID="6059400" Text="아투"/>
+<TEXT ID="6059500" Text="강한 주술사 두두"/>
+<TEXT ID="6059600" Text="장로 두두"/>
+<TEXT ID="6061100" Text="독 버섯"/>
+<TEXT ID="6061200" Text="푸른 독 버섯"/>
+<TEXT ID="6062100" Text="아그니"/>
+<TEXT ID="6062200" Text="아그니 투척병"/>
+<TEXT ID="6062300" Text="아그니 주술사"/>
+<TEXT ID="6062400" Text="덩치 큰 아그니"/>
+<TEXT ID="6062500" Text="화난 아그니 투척병"/>
+<TEXT ID="6062600" Text="화난 아그니 주술사"/>
+<TEXT ID="6063100" Text="날 다람쥐"/>
+<TEXT ID="6063200" Text="나무 날 다람쥐"/>
+<TEXT ID="6063300" Text="큰 날 다람쥐"/>
+<TEXT ID="6063400" Text="화난 나무 날 다람쥐"/>
+<TEXT ID="6064100" Text="나무거미"/>
+<TEXT ID="6064200" Text="뿌리거미"/>
+<TEXT ID="6064300" Text="포자거미"/>
+<TEXT ID="6064400" Text="단단한 나무거미"/>
+<TEXT ID="6064500" Text="단단한 뿌리거미"/>
+<TEXT ID="6064600" Text="단단한 포자거미"/>
+<TEXT ID="6064700" Text="포자거미 베리어"/>
+<TEXT ID="6064701" Text="깃발 거미"/>
+<TEXT ID="6065100" Text="전사 판"/>
+<TEXT ID="6065200" Text="궁수 판"/>
+<TEXT ID="6065300" Text="주술사 판"/>
+<TEXT ID="6065400" Text="판판"/>
+<TEXT ID="6066100" Text="아티"/>
+<TEXT ID="6066200" Text="그리드 단장 아스빈"/>
+<TEXT ID="6067100" Text="리라프"/>
+<TEXT ID="6068100" Text="룬포"/>
+<TEXT ID="6069100" Text="바유"/>
+<TEXT ID="6070100" Text="아라"/>
+<TEXT ID="6071100" Text="크레타"/>
+<TEXT ID="6071300" Text="조각 수박"/>
+<TEXT ID="6071400" Text="여름 수박"/>
+<TEXT ID="6071500" Text="할로윈 고스트"/>
+<TEXT ID="6071600" Text="위험한 호박 몬스터"/>
+<TEXT ID="6072100" Text="토템 폴"/>
+<TEXT ID="6073100" Text="화난 나무꾼 버나언"/>
+<TEXT ID="6074100" Text="게이트 키퍼"/>
+<TEXT ID="6074200" Text="늑대인간 라노프"/>
+<TEXT ID="6074300" Text="드라큘라"/>
+<TEXT ID="6075100" Text="가고일"/>
+<TEXT ID="6075200" Text="리프 가고일"/>
+<TEXT ID="6075300" Text="포이즌 가고일"/>
+<TEXT ID="6075400" Text="광기어린 가고일"/>
+<TEXT ID="6075500" Text="광기어린 리프 가고일"/>
+<TEXT ID="6075600" Text="광기어린 포이즌 가고일"/>
+<TEXT ID="6076100" Text="괴물사전"/>
+<TEXT ID="6076200" Text="괴물백과"/>
+<TEXT ID="6076300" Text="괴물도서"/>
+<TEXT ID="6077100" Text="파수꾼"/>
+<TEXT ID="6077200" Text="청동갑옷 파수꾼"/>
+<TEXT ID="6077300" Text="황동갑옷 파수꾼"/>
+<TEXT ID="6078100" Text="오래된 궤짝"/>
+<TEXT ID="6078200" Text="버려진 궤짝"/>
+<TEXT ID="6078300" Text="비밀의 궤짝"/>
+<TEXT ID="6079100" Text="고통받는 좀비"/>
+<TEXT ID="6079200" Text="저주받은 좀비"/>
+<TEXT ID="6079300" Text="부패한 좀비"/>
+<TEXT ID="6080100" Text="목 없는 기사"/>
+<TEXT ID="6080200" Text="길 잃은 기사"/>
+<TEXT ID="6080300" Text="영혼 잃은 기사"/>
+<TEXT ID="6081100" Text="초대받은 귀족 부인"/>
+<TEXT ID="6081107" Text="저주에 걸려 10초동안 이동속도 50% 감소, 물리 공격력 60% 감소, 마법 공격력 60% 감소 상태에 빠집니다."/>
+<TEXT ID="6081200" Text="초대받은 귀족 영애"/>
+<TEXT ID="6081300" Text="초대받은 귀족"/>
+<TEXT ID="6081400" Text="초대받지 못한 귀족 부인"/>
+<TEXT ID="6081500" Text="초대받지 못한 영애"/>
+<TEXT ID="6081600" Text="초대받지 못한 귀족"/>
+<TEXT ID="6082100" Text="반클리프 하녀"/>
+<TEXT ID="6082200" Text="반클리프 지배인"/>
+<TEXT ID="6082300" Text="반클리프 하인"/>
+<TEXT ID="6082400" Text="영혼잃은 반클리프 하녀"/>
+<TEXT ID="6082500" Text="영혼잃은 반클리프 지배인"/>
+<TEXT ID="6082600" Text="영혼잃은 반클리프 하인"/>
+<TEXT ID="6082700" Text="소환된 스켈레톤 "/>
+<TEXT ID="6083100" Text="가니메테"/>
+<TEXT ID="6083200" Text="뾰족 가니메테"/>
+<TEXT ID="6083300" Text="어린 가니메테"/>
+<TEXT ID="6084100" Text="샤피"/>
+<TEXT ID="6084200" Text="블러드 샤피"/>
+<TEXT ID="6084300" Text="본 샤피"/>
+<TEXT ID="6085100" Text="상처입은 구울"/>
+<TEXT ID="6085200" Text="버림받은 구울"/>
+<TEXT ID="6085300" Text="역병걸린 구울"/>
+<TEXT ID="6086100" Text="반클리프 공포술사"/>
+<TEXT ID="6086200" Text="반클리프 숙련사제"/>
+<TEXT ID="6086300" Text="반클리프 흑마술사"/>
+<TEXT ID="6086400" Text="반클리프 악령 공포술사"/>
+<TEXT ID="6086500" Text="반클리프 악령 숙련사제"/>
+<TEXT ID="6086600" Text="반클리프 악령 흑마술사"/>
+<TEXT ID="6087100" Text="반클리프 도축자"/>
+<TEXT ID="6087200" Text="반클리프 집행자"/>
+<TEXT ID="6087300" Text="반클리프 척살자"/>
+<TEXT ID="6087400" Text="반클리프 파멸 도축자"/>
+<TEXT ID="6087500" Text="반클리프 파멸 집행자"/>
+<TEXT ID="6087600" Text="반클리프 파멸 척살자"/>
+<TEXT ID="6088100" Text="절망의 검"/>
+<TEXT ID="6088200" Text="파멸의 검"/>
+<TEXT ID="6088300" Text="공포의 검"/>
+<TEXT ID="6089100" Text="카오스 붐버"/>
+<TEXT ID="6089200" Text="드라큘라 관"/>
+<TEXT ID="6089300" Text="반헬싱 수정체"/>
+<TEXT ID="6091100" Text="조련사 마커"/>
+<TEXT ID="6091200" Text="얼음괴물 빅혼"/>
+<TEXT ID="6091300" Text="얼음수문장 어스퀘이크"/>
+<TEXT ID="6091350" Text="."/>
+<TEXT ID="6091400" Text="얼음 요정 우코크"/>
+<TEXT ID="6091450" Text="."/>
+<TEXT ID="6091500" Text="수장 나이아드"/>
+<TEXT ID="6094100" Text="이시스 보초"/>
+<TEXT ID="6094200" Text="이시스 주술사"/>
+<TEXT ID="6094300" Text="이시스 길잡이"/>
+<TEXT ID="6097100" Text="타릭스 전령사"/>
+<TEXT ID="6098100" Text="야가호카"/>
+<TEXT ID="6101100" Text="느린 초목이"/>
+<TEXT ID="6101200" Text="삐친 초목이"/>
+<TEXT ID="6101300" Text="거대 초목이"/>
+<TEXT ID="6102100" Text="커다란 스켈레턴"/>
+<TEXT ID="6102200" Text="사악한 스켈레통"/>
+<TEXT ID="6102300" Text="우울한 스켈레틱"/>
+<TEXT ID="6102400" Text="화난 스켈레턴"/>
+<TEXT ID="6102500" Text="화난 스켈레통"/>
+<TEXT ID="6102600" Text="화난 스켈레톤 엉클"/>
+<TEXT ID="6102700" Text="화난 스켈레톤 정찰병"/>
+<TEXT ID="6103100" Text="큰 사나운 늑대"/>
+<TEXT ID="6103200" Text="알비노 베가본드"/>
+<TEXT ID="6104100" Text="켄타"/>
+<TEXT ID="6104200" Text="투사 켄타"/>
+<TEXT ID="6104300" Text="정찰병 켄타"/>
+<TEXT ID="6104400" Text="카르카로스"/>
+<TEXT ID="6104401" Text="작은 카로스"/>
+<TEXT ID="6104500" Text="화난 정찰병 켄타 "/>
+<TEXT ID="6104600" Text="화난 켄타"/>
+<TEXT ID="6104700" Text="화난 투사 켄타"/>
+<TEXT ID="6105100" Text="영화사 사장"/>
+<TEXT ID="6106000" Text="마스터 준"/>
+<TEXT ID="6106100" Text="북경오리"/>
+<TEXT ID="6106200" Text="양념오리"/>
+<TEXT ID="6106300" Text="훈제오리"/>
+<TEXT ID="6107100" Text="고기 만두"/>
+<TEXT ID="6107200" Text="썩은 만두"/>
+<TEXT ID="6107300" Text="매운 만두"/>
+<TEXT ID="6108100" Text="대나무 찜통"/>
+<TEXT ID="6108200" Text="철제 찜통"/>
+<TEXT ID="6108300" Text="조잡한 찜통"/>
+<TEXT ID="6109100" Text="수타면"/>
+<TEXT ID="6109200" Text="참깨면"/>
+<TEXT ID="6109300" Text="우육면"/>
+<TEXT ID="6111100" Text="엑스트라 1"/>
+<TEXT ID="6111200" Text="엑스트라 2"/>
+<TEXT ID="6111300" Text="엑스트라 3"/>
+<TEXT ID="6111400" Text="미친 무술가"/>
+<TEXT ID="6112100" Text="잘익은 쿠키"/>
+<TEXT ID="6112200" Text="덜익은 쿠키"/>
+<TEXT ID="6112300" Text="초코 쿠키"/>
+<TEXT ID="6113100" Text="초코송이"/>
+<TEXT ID="6113200" Text="화이트 초코송이"/>
+<TEXT ID="6113300" Text="딸기 초코송이"/>
+<TEXT ID="6114100" Text="딸기 푸딩"/>
+<TEXT ID="6114200" Text="블루베리 푸딩"/>
+<TEXT ID="6114300" Text="키위 푸딩"/>
+<TEXT ID="6115100" Text="쿠키 초콜렛"/>
+<TEXT ID="6115200" Text="파티용 초콜렛"/>
+<TEXT ID="6115300" Text="아몬드 초콜렛"/>
+<TEXT ID="6116100" Text="제과점 보초"/>
+<TEXT ID="6116200" Text="사탕가게 보초"/>
+<TEXT ID="6116300" Text="아이스크림 보초"/>
+<TEXT ID="6117100" Text="치즈 샌드위치"/>
+<TEXT ID="6117200" Text="아몬드 샌드위치"/>
+<TEXT ID="6117300" Text="토마토 샌드위치"/>
+<TEXT ID="6118100" Text="멜로우 초목이"/>
+<TEXT ID="6118200" Text="마스터머신"/>
+<TEXT ID="6119100" Text="청년 복어"/>
+<TEXT ID="6119200" Text="산란기 복어"/>
+<TEXT ID="6119300" Text="싱글 복어"/>
+<TEXT ID="6121100" Text="펑크 하마"/>
+<TEXT ID="6121200" Text="폭주족 하마"/>
+<TEXT ID="6121300" Text="제비족 하마"/>
+<TEXT ID="6122100" Text="이끼 낀 골렘"/>
+<TEXT ID="6122200" Text="버려진 자수정 골렘"/>
+<TEXT ID="6122300" Text="깨진 보석 골렘"/>
+<TEXT ID="6123100" Text="채식주의 다일"/>
+<TEXT ID="6123200" Text="럭셔리 다일"/>
+<TEXT ID="6123300" Text="해물팔이 다일"/>
+<TEXT ID="6124100" Text="엔다이론"/>
+<TEXT ID="6125101" Text="원령 아르카"/>
+<TEXT ID="6125201" Text="원령 파타누스"/>
+<TEXT ID="6125301" Text="원령 카르카로스"/>
+<TEXT ID="6125401" Text="원령 나무꾼 폴 버나언"/>
+<TEXT ID="6125501" Text="원령 엘루만"/>
+<TEXT ID="6125601" Text="원령 벨라"/>
+<TEXT ID="6125701" Text="원령 로커"/>
+<TEXT ID="6125801" Text="원령 로드 오브나이트"/>
+<TEXT ID="6125901" Text="원령 아티스"/>
+<TEXT ID="6126100" Text="파리스"/>
+<TEXT ID="6127100" Text="타코"/>
+<TEXT ID="6127200" Text="크림 타코"/>
+<TEXT ID="6127300" Text="먹물 타코"/>
+<TEXT ID="6128100" Text="삼각김밥"/>
+<TEXT ID="6128200" Text="단무지 삼각김밥"/>
+<TEXT ID="6128300" Text="매운 삼각김밥"/>
+<TEXT ID="6129100" Text="체리 푸딩"/>
+<TEXT ID="6129200" Text="크림 푸딩"/>
+<TEXT ID="6129300" Text="쿠키 푸딩"/>
+<TEXT ID="6130100" Text="새우튀김 우동"/>
+<TEXT ID="6130200" Text="야채튀김 우동"/>
+<TEXT ID="6130300" Text="유부 우동"/>
+<TEXT ID="6131100" Text="새우 초밥"/>
+<TEXT ID="6131200" Text="문어 초밥"/>
+<TEXT ID="6131300" Text="고등어 초밥"/>
+<TEXT ID="6131400" Text="계란 초밥"/>
+<TEXT ID="6131500" Text="연어알 초밥"/>
+<TEXT ID="6132100" Text="오도로 초밥왕"/>
+<TEXT ID="6132200" Text="턱주가리 주방장"/>
+<TEXT ID="6465100" Text="하이에나중대 경비병"/>
+<TEXT ID="6465200" Text="하이에나중대 강습병"/>
+<TEXT ID="6465300" Text="하이에나중대 공병"/>
+<TEXT ID="6466100" Text="하이에나대대 굴착병"/>
+<TEXT ID="6466200" Text="하이에나대대 사수"/>
+<TEXT ID="6466300" Text="하이에나대대 포병"/>
+<TEXT ID="6501100" Text="하이에나 중대 경비병"/>
+<TEXT ID="6501200" Text="하이에나 중대 강습병"/>
+<TEXT ID="6501300" Text="하이에나 중대 공병"/>
+<TEXT ID="6501400" Text="하이에나 대대 굴착병"/>
+<TEXT ID="6501500" Text="하이에나 대대 사수"/>
+<TEXT ID="6501600" Text="하이에나 대대 포병"/>
+<TEXT ID="6600100" Text="뮤르달"/>
+<TEXT ID="6600200" Text="프로토수쿠스"/>
+<TEXT ID="6600300" Text="아트라스"/>
+<TEXT ID="6600400" Text="프록시마"/>
+<TEXT ID="6600500" Text="아에시르"/>
+<TEXT ID="6600600" Text="바니르"/>
+<TEXT ID="6600700" Text="펜리르"/>
+<TEXT ID="6600800" Text="안드바리"/>
+<TEXT ID="6600900" Text="아스완"/>
+<TEXT ID="6601100" Text="유벨"/>
+<TEXT ID="6601200" Text="다크버스트"/>
+<TEXT ID="6601300" Text="소마"/>
+<TEXT ID="6601400" Text="히찌"/>
+<TEXT ID="6601500" Text="몰렉"/>
+<TEXT ID="6601600" Text="아크하트"/>
+<TEXT ID="6601700" Text="사라스바티"/>
+<TEXT ID="6601800" Text="아페프"/>
+<TEXT ID="6601900" Text="우샤스"/>
+<TEXT ID="6602100" Text="마르두크"/>
+<TEXT ID="6602200" Text="토트"/>
+<TEXT ID="6603100" Text="벌목자"/>
+<TEXT ID="6603200" Text="절구 토끼"/>
+<TEXT ID="6603300" Text="드라큘라"/>
+<TEXT ID="6603400" Text="늑대인간"/>
+<TEXT ID="6603500" Text="호박식당 점원"/>
+<TEXT ID="6603600" Text="크리스마스 트리"/>
+<TEXT ID="6603700" Text="청소부 눈사람"/>
+<TEXT ID="6800100" Text="연수_백호"/>
+<TEXT ID="6902100" Text="카드병정 1"/>
+<TEXT ID="6902200" Text="카드병정 2"/>
+<TEXT ID="6902300" Text="카드병정 3"/>
+<TEXT ID="6902400" Text="카드병정 4"/>
+<TEXT ID="6902500" Text="카드병정 5"/>
+<TEXT ID="6902600" Text="카드병정 6"/>
+<TEXT ID="6902700" Text="체셔 고양이 "/>
+<TEXT ID="6902800" Text="쌍둥이  "/>
+<TEXT ID="6902900" Text="계란맨  "/>
+<TEXT ID="6903000" Text="애벌래  "/>
+<TEXT ID="6903100" Text="개구리  "/>
+<TEXT ID="6903200" Text="생쥐  "/>
+<TEXT ID="6903300" Text="모자장수  "/>
+<TEXT ID="6903400" Text="근위병 J  "/>
+<TEXT ID="6903500" Text="근위병 Q  "/>
+<TEXT ID="6903600" Text="근위병 K  "/>
+<TEXT ID="6903700" Text="하트퀸"/>
+<TEXT ID="6999100" Text="슈퍼 초목이"/>
+<TEXT ID="7234100" Text="반디 "/>
+<TEXT ID="7234200" Text="반디 정찰병 "/>
+<TEXT ID="7234300" Text="반디 장로 "/>
+<TEXT ID="7234400" Text="물갈퀴일족 일꾼 "/>
+<TEXT ID="7234500" Text="물갈퀴일족 주술사 "/>
+<TEXT ID="7234600" Text="물갈퀴일족 투사"/>
+<TEXT ID="7234700" Text="투아 란테아 "/>
+<TEXT ID="7234800" Text="투아 메를로 "/>
+<TEXT ID="7234900" Text="투아 엔릴 "/>
+<TEXT ID="7235000" Text="미미르 "/>
+<TEXT ID="7235100" Text="미미르 독침병 "/>
+<TEXT ID="7235200" Text="미미르 주술사 "/>
+<TEXT ID="7235300" Text="애퍼타이트 골렘 "/>
+<TEXT ID="7235400" Text="카르카로스 "/>
+<TEXT ID="7235500" Text="나무꾼 버나언 "/>
+<TEXT ID="7235600" Text="메타곤 "/>
+<TEXT ID="7235700" Text="위습 "/>
+<TEXT ID="7235800" Text="라곤주니어 "/>
+<TEXT ID="7235900" Text="오염된 나무 "/>
+<TEXT ID="7236000" Text="미스티올름 "/>
+<TEXT ID="7236100" Text="그램린 "/>
+<TEXT ID="7236200" Text="뿌리정령 "/>
+<TEXT ID="7236300" Text="라곤 "/>
+<TEXT ID="7236400" Text="오염정령 "/>
+<TEXT ID="7236500" Text="룬포 "/>
+<TEXT ID="7236600" Text="아라 "/>
+<TEXT ID="7236700" Text="바유 "/>
+<TEXT ID="7236800" Text="크레타 "/>
+<TEXT ID="7236900" Text="토템 폴 "/>
+<TEXT ID="7237000" Text="리라프 "/>
+<TEXT ID="7237100" Text="아르카"/>
+<TEXT ID="7237200" Text="벌룬"/>
+<TEXT ID="7237300" Text="베너모스"/>
+<TEXT ID="7237400" Text="독나무정령"/>
+<TEXT ID="7237500" Text="가시나무정령"/>
+<TEXT ID="7237600" Text="썩은나무정령"/>
+<TEXT ID="7237700" Text="리바이어스"/>
+<TEXT ID="7237800" Text="청년 복어 "/>
+<TEXT ID="7237900" Text="산란기 복어 "/>
+<TEXT ID="7238000" Text="싱글 복어 "/>
+<TEXT ID="7238100" Text="펑크 하마 "/>
+<TEXT ID="7238200" Text="폭주족 하마 "/>
+<TEXT ID="7238300" Text="제비족 하마 "/>
+<TEXT ID="7238400" Text="이끼 낀 골렘 "/>
+<TEXT ID="7238500" Text="버려진 자수정 골렘 "/>
+<TEXT ID="7238600" Text="깨진 보석 골렘 "/>
+<TEXT ID="7238700" Text="채식주의 다일 "/>
+<TEXT ID="7238800" Text="럭셔리 다일 "/>
+<TEXT ID="7238900" Text="해물팔이 다일 "/>
+<TEXT ID="7239000" Text="자드 "/>
+<TEXT ID="7239100" Text="전사 자드 "/>
+<TEXT ID="7239200" Text="리버 "/>
+<TEXT ID="7239300" Text="서리 벌레 "/>
+<TEXT ID="7239400" Text="얼음 벌레 "/>
+<TEXT ID="7239500" Text="냉기 벌레 "/>
+<TEXT ID="7239600" Text="서리 동동 "/>
+<TEXT ID="7239700" Text="냉기 동동 "/>
+<TEXT ID="7239800" Text="얼음 동동 "/>
+<TEXT ID="7239900" Text="아이스 고블린 "/>
+<TEXT ID="7240000" Text="아이스 고블린 붐버 "/>
+<TEXT ID="7240100" Text="아이스 고블린 주술사 "/>
+<TEXT ID="7240200" Text="예티 "/>
+<TEXT ID="7240300" Text="토르나크 예티 "/>
+<TEXT ID="7240400" Text="앙가코크 예티 "/>
+<TEXT ID="7240500" Text="겨울 놀 보초병 "/>
+<TEXT ID="7240600" Text="겨울 놀 헌터 "/>
+<TEXT ID="7240700" Text="겨울 놀 주술사 "/>
+<TEXT ID="7240800" Text="프리징 셀릭 "/>
+<TEXT ID="7240900" Text="셀릭 "/>
+<TEXT ID="7241000" Text="휠 셀릭 "/>
+<TEXT ID="7241100" Text="얼음 슬라임 "/>
+<TEXT ID="7241200" Text="먹보 얼음 슬라임 "/>
+<TEXT ID="7241300" Text="긴팔 얼음 슬라임 "/>
+<TEXT ID="7241400" Text="서리 골렘 "/>
+<TEXT ID="7241500" Text="냉기 골렘 "/>
+<TEXT ID="7241600" Text="얼음 골렘 "/>
+<TEXT ID="7241700" Text="얼음정령 보초 "/>
+<TEXT ID="7241800" Text="얼음정령 파수꾼 "/>
+<TEXT ID="7241900" Text="얼음정령 워리어 "/>
+<TEXT ID="7242000" Text="스피넬 골렘"/>
+<TEXT ID="7242100" Text="안드바리"/>
+<TEXT ID="7242200" Text="얼음 사마귀"/>
+<TEXT ID="7242300" Text="아이스 퀘이커"/>
+<TEXT ID="7242400" Text="라미아 워리어"/>
+<TEXT ID="7242500" Text="엔다이론"/>
+<TEXT ID="7242600" Text="스노우 프린세스"/>
+<TEXT ID="7242700" Text="아그니스"/>
+<TEXT ID="7242800" Text="정령 아비스"/>
+<TEXT ID="7242900" Text="샤울라 레사스 "/>
+<TEXT ID="7243000" Text="퀘이커 "/>
+<TEXT ID="7243100" Text="스노우 퀘이커 "/>
+<TEXT ID="7243200" Text="펜리르 "/>
+<TEXT ID="7243300" Text="설원 펜리르 "/>
+<TEXT ID="7243400" Text="얼음 펜리르 "/>
+<TEXT ID="7243500" Text="오염된 나무 "/>
+<TEXT ID="7250000" Text="레드 동동"/>
+<TEXT ID="7250100" Text="오크셔"/>
+<TEXT ID="7250200" Text="주술사 오크셔"/>
+<TEXT ID="7250300" Text="그리드 적기사"/>
+<TEXT ID="7250400" Text="그리드 용기사"/>
+<TEXT ID="7250500" Text="그리드 혈기사"/>
+<TEXT ID="7250600" Text="마르두크"/>
+<TEXT ID="7250700" Text="우샤스"/>
+<TEXT ID="7250800" Text="큰 호박 너구리"/>
+<TEXT ID="7250900" Text="유벨"/>
+<TEXT ID="7251000" Text="아스완"/>
+<TEXT ID="7251100" Text="아크하트"/>
+<TEXT ID="7251200" Text="두두"/>
+<TEXT ID="7251300" Text="주먹 두두"/>
+<TEXT ID="7251400" Text="주술사 두두"/>
+<TEXT ID="7251500" Text="올름"/>
+<TEXT ID="7251600" Text="투아 엔릴"/>
+<TEXT ID="7251700" Text="히찌"/>
+<TEXT ID="7251800" Text="용암붐붐"/>
+<TEXT ID="7251900" Text="발톱날개 정찰병"/>
+<TEXT ID="7252000" Text="용암윙윙"/>
+<TEXT ID="7252100" Text="피다마"/>
+<TEXT ID="7252200" Text="모르 곤"/>
+<TEXT ID="7252300" Text="케로반"/>
+<TEXT ID="7252400" Text="용암 골렘"/>
+<TEXT ID="7252500" Text="마젠카"/>
+<TEXT ID="7252600" Text="가룸"/>
+<TEXT ID="7252700" Text="반클리프 공포술사"/>
+<TEXT ID="7252800" Text="반클리프 흑마술사"/>
+<TEXT ID="7252900" Text="반클리프 숙련사제"/>
+<TEXT ID="7253000" Text="누멘 알곤"/>
+<TEXT ID="7253100" Text="정찰병 알곤"/>
+<TEXT ID="7253200" Text="알곤"/>
+<TEXT ID="7253300" Text="대장 토투"/>
+<TEXT ID="7253400" Text="반클리프 파멸 척살자"/>
+<TEXT ID="7253500" Text="수호용"/>
+<TEXT ID="7253600" Text="큰도끼 형제 쌍카"/>
+<TEXT ID="7253700" Text="큰도끼 형제 쿵카"/>
+<TEXT ID="7253800" Text="아티스"/>
+<TEXT ID="7253900" Text="부족장 로커"/>
+<TEXT ID="7254000" Text="데스킹 두두"/>
+<TEXT ID="7254100" Text="장로 두두"/>
+<TEXT ID="7254200" Text="키마트"/>
+<TEXT ID="7254300" Text="라발론"/>
+<TEXT ID="7254400" Text="라발론"/>
+<TEXT ID="7254500" Text="라발론"/>
+<TEXT ID="7254600" Text="큰도끼 형제 쌍카"/>
+<TEXT ID="7254700" Text="큰도끼 형제 쿵카"/>
+<TEXT ID="7254800" Text="검은 쿰바"/>
+<TEXT ID="7254900" Text="붉은 쿰바"/>
+<TEXT ID="7255000" Text="주술 쿰바"/>
+<TEXT ID="7255100" Text="푸른 라미"/>
+<TEXT ID="7255200" Text="뿔 라미"/>
+<TEXT ID="7255300" Text="카프리콘"/>
+<TEXT ID="7255400" Text="샤드론"/>
+<TEXT ID="7255500" Text="스케마"/>
+<TEXT ID="7255600" Text="플릭"/>
+<TEXT ID="7255700" Text="에리얼"/>
+<TEXT ID="7255800" Text="복수의 정령"/>
+<TEXT ID="7255900" Text="박쥐 거미"/>
+<TEXT ID="7256000" Text="가고일"/>
+<TEXT ID="7256100" Text="리프 가고일"/>
+<TEXT ID="7256200" Text="포이즌 가고일"/>
+<TEXT ID="7256300" Text="가니메테"/>
+<TEXT ID="7256400" Text="뾰족 가니메테"/>
+<TEXT ID="7256500" Text="어린 가니메테"/>
+<TEXT ID="7256600" Text="부패한 좀비"/>
+<TEXT ID="7256700" Text="저주받은 좀비"/>
+<TEXT ID="7256800" Text="고통받는 좀비"/>
+<TEXT ID="7256900" Text="반클리프 공포술사"/>
+<TEXT ID="7257000" Text="반클리프 숙련사제"/>
+<TEXT ID="7257100" Text="반클리프 흑마술사"/>
+<TEXT ID="7257200" Text="광기어린 가고일"/>
+<TEXT ID="7257300" Text="광기어린 리프 가고일"/>
+<TEXT ID="7257400" Text="광기어린 포이즌 가고일"/>
+<TEXT ID="7257500" Text="샤피"/>
+<TEXT ID="7257600" Text="블러드 샤피"/>
+<TEXT ID="7257700" Text="본 샤피"/>
+<TEXT ID="7257800" Text="블러드 카라차"/>
+<TEXT ID="7257900" Text="가시 카라차"/>
+<TEXT ID="7258000" Text="고대 카라차"/>
+<TEXT ID="7258100" Text="푸른 토투"/>
+<TEXT ID="7258200" Text="토투"/>
+<TEXT ID="7258300" Text="대장 토투"/>
+<TEXT ID="7258400" Text="노란 무찌"/>
+<TEXT ID="7258500" Text="순찰자 무찌"/>
+<TEXT ID="7258600" Text="마법사 무찌"/>
+<TEXT ID="7258700" Text="페리 에리얼"/>
+<TEXT ID="7258800" Text="원한의 정령"/>
+<TEXT ID="7258900" Text="박쥐 거미"/>
+<TEXT ID="7259000" Text="프로켈"/>
+<TEXT ID="7259100" Text="우두머리 무찌"/>
+<TEXT ID="7259200" Text="아카나이"/>
+<TEXT ID="7259300" Text="게이트 키퍼"/>
+<TEXT ID="7259400" Text="본 드래곤"/>
+<TEXT ID="7259500" Text="자로"/>
+<TEXT ID="7602502" Text="냉기폭풍에 휩싸여 이동속도가 느려지고 생명력이 급속히 감소한다."/>
+<TEXT ID="7602503" Text="차가운 기운에 몸이 서서히 굳어간다."/>
+<TEXT ID="7602506" Text="차가운 기운에 몸이 서서히 굳어간다."/>
+<TEXT ID="7602507" Text="뼈속까지 얼려버릴 냉기에 몸이 굳어버린다.3초간 1.5초마다 -55의 데미지를 입는다."/>
+<TEXT ID="7602508" Text="차가운 기운에 몸이 서서히 굳어간다."/>
+<TEXT ID="7602509" Text="뼈속까지 얼려버릴 냉기에 몸이 굳어버린다.7초동안 1.5초마다 -77의 데미지를 입는다"/>
+<TEXT ID="7900101" Text="파츄리"/>
+<TEXT ID="7900102" Text="카산드라"/>
+<TEXT ID="7900103" Text="알프레도"/>
+<TEXT ID="7900104" Text="세바스찬"/>
+<TEXT ID="7900105" Text="우쿠투"/>
+<TEXT ID="7900106" Text="바르고"/>
+<TEXT ID="7900107" Text="그로테스"/>
+<TEXT ID="7900108" Text="라쿤"/>
+<TEXT ID="7900109" Text="비숍"/>
+<TEXT ID="7900110" Text="게이트 키퍼"/>
+<TEXT ID="7900111" Text="네카타"/>
+<TEXT ID="7900112" Text="네코타"/>
+<TEXT ID="7900113" Text="세잔느"/>
+<TEXT ID="7900114" Text="다크마스터"/>
+<TEXT ID="7900115" Text="바제트"/>
+<TEXT ID="7900116" Text="원령기사"/>
+<TEXT ID="7900117" Text="하트 브레이커"/>
+<TEXT ID="7900118" Text="부쳐"/>
+<TEXT ID="7900119" Text="바레스"/>
+<TEXT ID="7900120" Text="반클리프 백작"/>
+<TEXT ID="7900121" Text="다크프리스트"/>
+<TEXT ID="7900122" Text="고스트 세바스찬"/>
+<TEXT ID="7900123" Text="프리손"/>
+<TEXT ID="7900124" Text="스콜필드"/>
+<TEXT ID="7900125" Text="프랑키"/>
+<TEXT ID="7900126" Text="디스트로이어"/>
+<TEXT ID="7900127" Text="고스트 카산나"/>
+<TEXT ID="7900128" Text="디스트루퍼"/>
+<TEXT ID="7900129" Text="샤마리"/>
+<TEXT ID="7900130" Text="라노프"/>
+<TEXT ID="7900131" Text="마검 솔리크"/>
+<TEXT ID="7900132" Text="쿠마리"/>
+<TEXT ID="7900133" Text="샤피론"/>
+<TEXT ID="7900134" Text="가룸"/>
+<TEXT ID="7900135" Text="바제트"/>
+<TEXT ID="7900136" Text="골도라"/>
+<TEXT ID="7900137" Text="코어러쉬"/>
+<TEXT ID="7900138" Text="카붐"/>
+<TEXT ID="7900139" Text="아크리스"/>
+<TEXT ID="7900140" Text="투룸바"/>
+<TEXT ID="7900141" Text="아이언 멘타"/>
+<TEXT ID="7900142" Text="벨크"/>
+<TEXT ID="7900143" Text="헤르만"/>
+<TEXT ID="7900144" Text="쿠샤스"/>
+<TEXT ID="7900145" Text="케루빔"/>
+<TEXT ID="7900146" Text="디솔레이터"/>
+<TEXT ID="7900147" Text="펑프킹"/>
+<TEXT ID="7900148" Text="하이돈"/>
+<TEXT ID="7900149" Text="알키오네"/>
+<TEXT ID="7900150" Text="케이론"/>
+<TEXT ID="7900151" Text="보노코"/>
+<TEXT ID="7900152" Text="프록시마"/>
+<TEXT ID="7900153" Text="빅 라프"/>
+<TEXT ID="7900154" Text="디베스"/>
+<TEXT ID="7900155" Text="케크롭스"/>
+<TEXT ID="7900156" Text="모크론"/>
+<TEXT ID="7900157" Text="카쿠스"/>
+<TEXT ID="7900158" Text="티아마트"/>
+<TEXT ID="7900159" Text="아르고스"/>
+<TEXT ID="7900160" Text="모아론"/>
+<TEXT ID="7900161" Text="파타곤"/>
+<TEXT ID="7900162" Text="케메론"/>
+<TEXT ID="7900163" Text="자하크"/>
+<TEXT ID="7900164" Text="카키슈"/>
+<TEXT ID="7900165" Text="데스 마스터"/>
+<TEXT ID="7900166" Text="마젠카"/>
+<TEXT ID="7900167" Text="카룸바"/>
+<TEXT ID="7900168" Text="케로반"/>
+<TEXT ID="7900169" Text="피다마"/>
+<TEXT ID="7900170" Text="케루빔"/>
+<TEXT ID="7900171" Text="레사스킹"/>
+<TEXT ID="7900172" Text="골도라"/>
+<TEXT ID="7900173" Text="카오붐"/>
+<TEXT ID="7900174" Text="가이던"/>
+<TEXT ID="7900175" Text="마두르크"/>
+<TEXT ID="7900176" Text="파티스"/>
+<TEXT ID="7900177" Text="비브르"/>
+<TEXT ID="7900178" Text="뮤르달"/>
+<TEXT ID="7900179" Text="키마트"/>
+<TEXT ID="7900180" Text="쿤타레스"/>
+<TEXT ID="7900181" Text="멘타킹"/>
+<TEXT ID="7900182" Text="반타레스"/>
+<TEXT ID="7900183" Text="스토라스"/>
+<TEXT ID="7900184" Text="안타레스"/>
+<TEXT ID="7900185" Text="반클리프 백작"/>
+<TEXT ID="7900186" Text="본 드래곤"/>
+<TEXT ID="7900201" Text="아자젤"/>
+<TEXT ID="7900202" Text="골드프록시아"/>
+<TEXT ID="7900203" Text="카오붐"/>
+<TEXT ID="7900204" Text="카키슈"/>
+<TEXT ID="7900205" Text="케루빔"/>
+<TEXT ID="7900206" Text="케로반"/>
+<TEXT ID="15870103" Text="강력한 먼지바람으로 적에게 혼란을 주고 이동속도를 50% 감소시킵니다."/>
+<TEXT ID="19010100" Text="두리번~ 두리번~ 어디 먹이감 없을까?"/>
+<TEXT ID="19010130" Text="으흐흐흐흐~"/>
+<TEXT ID="19010150" Text="이.. 알 수 없는 힘은 무엇이지?"/>
+<TEXT ID="19010200" Text="크헐헐.. 천 년만인가.."/>
+<TEXT ID="19010310" Text="이 곳은 너무 한적해.."/>
+<TEXT ID="19010320" Text="이 곳은 너무 심심해.."/>
+<TEXT ID="19010330" Text="나를 즐겁해 해줘.."/>
+<TEXT ID="19010400" Text="하암.."/>
+<TEXT ID="19010430" Text="이런 내 인생이 슬프다...."/>
+<TEXT ID="19010600" Text="휴~ 간신히 도망쳐왔군. 여긴 어디지?"/>
+<TEXT ID="19020100" Text="보..이는 모든 것을 죽인다.."/>
+<TEXT ID="19020300" Text="이제부터 내가 이곳의 왕이다!"/>
+<TEXT ID="19020310" Text="꽁이~ 꽁이~"/>
+<TEXT ID="19020320" Text="맹이~ 맹이~"/>
+<TEXT ID="19020400" Text="막강한 힘이 생겼다."/>
+<TEXT ID="19020410" Text="눈에 보이는 모든 것을 갈아버린다!"/>
+<TEXT ID="19020420" Text="아아~ 머리가 아프다."/>
+<TEXT ID="19020440" Text="스스스스스스~ 스스"/>
+<TEXT ID="19020500" Text="난 명령따윈 듣지 않아!"/>
+<TEXT ID="19020520" Text="죽여버리겠어! 다 죽여버리겠단 말이야!"/>
+<TEXT ID="19030100" Text="일단.. 미미르들을 이끌어야겠군."/>
+<TEXT ID="19030130" Text="난.. 누구지.. "/>
+<TEXT ID="19030200" Text="아름다운 세상이로군."/>
+<TEXT ID="19030230" Text="대 미궁으로 가는 길이 어디지?"/>
+<TEXT ID="19030300" Text="드래곤 원정대! 이 녀석들을!"/>
+<TEXT ID="19030330" Text="여긴 유벨, 유벨은 정찰중 정찰중."/>
+<TEXT ID="19030360" Text="신선한 영혼은 언제나 환영~"/>
+<TEXT ID="29010100" Text="찾았다! 네 이녀석! 거기 가만이 있어!"/>
+<TEXT ID="29010130" Text="으흐흐~ 목표 발견!"/>
+<TEXT ID="29010150" Text="난! 죠이스 해적단의 거대 별가사리다!"/>
+<TEXT ID="29010200" Text="크헐헐헐~ 귓속에 맴도는 소리.. 막아라.."/>
+<TEXT ID="29010310" Text="넌 나와 싸워야 한다!"/>
+<TEXT ID="29010320" Text="나를 괴롭히지마!!"/>
+<TEXT ID="29010330" Text="널 혼내줄테다!!"/>
+<TEXT ID="29010400" Text="한번 막아 봐라!!"/>
+<TEXT ID="29010430" Text="내겐 숨겨놓은 한 수가 있지!!"/>
+<TEXT ID="29010600" Text="아니! 드래곤 원정대?! 이 녀석 여기까지 오다니?!"/>
+<TEXT ID="29020100" Text="널 보았다.."/>
+<TEXT ID="29020300" Text="뭐지? 여긴 내 구역이다!"/>
+<TEXT ID="29020310" Text="꽁~~~~~~이!!!!!!"/>
+<TEXT ID="29020320" Text="맹~~~~~~이!!!!!!"/>
+<TEXT ID="29020400" Text="막강한 힘을 시험해보겠다."/>
+<TEXT ID="29020410" Text="샤샤샥! 이건 입에서 나는 소리가 아니지!"/>
+<TEXT ID="29020420" Text="나의 목표는 무엇이던가? "/>
+<TEXT ID="29020440" Text="끼익?"/>
+<TEXT ID="29020500" Text="하지만! 너 정도는 죽여주마!"/>
+<TEXT ID="29020520" Text="오호! 너! 거기 가만이 있어!"/>
+<TEXT ID="29030100" Text="오호라! 네가 드래곤 원정대 녀석이로구나!"/>
+<TEXT ID="29030130" Text="그래! 난 손오공이다! 날 이길자가 누군가?"/>
+<TEXT ID="29030200" Text="아름다운 세상에 네 녀석은 어울리지 않아!"/>
+<TEXT ID="29030230" Text="이봐! 친구. 대 미궁으로 가는 길을 아는가?"/>
+<TEXT ID="29030300" Text="감히! 여기가 어디라고 나타난 것이냐?"/>
+<TEXT ID="29030330" Text="여긴 유벨, 목표 발견!"/>
+<TEXT ID="29030360" Text="신선한 영혼 발견.. "/>
+<TEXT ID="30006011" Text="본 드래곤의 강력한 울부짖음에 의해 정신이 압박되어 지속시간동안 기본적인 동작과 공격을 제외한 모든 스킬 공격을 제대로 사용할 수 없게끔 금지된다."/>
+<TEXT ID="35230131" Text="벌꿀에 발이 붙어 2초간 움직일 수 없다."/>
+<TEXT ID="39010100" Text="나! 머리에 뿔난 소라게야!"/>
+<TEXT ID="39010130" Text="으흐흐~ 천천히 돌격!"/>
+<TEXT ID="39010150" Text="아다다다다닷! 대결이다!"/>
+<TEXT ID="39010200" Text="크헐헐헐~ 돌아가라.. 돌아가라.."/>
+<TEXT ID="39010310" Text="이리와 함께 놀자.."/>
+<TEXT ID="39010320" Text="나 지금 배고파.. 너를 먹을테다!!.."/>
+<TEXT ID="39010330" Text="나 지금 화났어!!.."/>
+<TEXT ID="39010400" Text="친구 만났다!! 기쁘다!! 싸우자 우리!!"/>
+<TEXT ID="39010430" Text="너 도망 못간다!! 나랑 놀아야 한다!! "/>
+<TEXT ID="39010600" Text="죠이스 해적단을 대표해서 원수를 갚겠다!"/>
+<TEXT ID="39020100" Text="죽인다.. 죽인다.. 죽인다.."/>
+<TEXT ID="39020300" Text="도망가라! 아니면 넌 죽는다!"/>
+<TEXT ID="39020310" Text="꽁이~ 꽁이~"/>
+<TEXT ID="39020320" Text="맹이~ 맹이~"/>
+<TEXT ID="39020400" Text="막강한 힘을 받아랏!"/>
+<TEXT ID="39020410" Text="널 갈아마셔버리겠다!"/>
+<TEXT ID="39020420" Text="생각나는 건 하나! 널 베어버리겠다."/>
+<TEXT ID="39020440" Text="스스스~ 끼끼끼끼~ "/>
+<TEXT ID="39020500" Text="과연 네가 날 이길 수 있을까?"/>
+<TEXT ID="39020520" Text="다 죽여버리겠어~ 이 세상 모든 걸~"/>
+<TEXT ID="39030100" Text="좋다! 어디 한번 싸워볼까?"/>
+<TEXT ID="39030130" Text="이 손오공의 첫 상대는 네녀석이구나!"/>
+<TEXT ID="39030200" Text="난 아름다움의 끝! 펜리르님이시다."/>
+<TEXT ID="39030230" Text="이제보니! 드래곤 원정대로군! 널 제물로 바치겠다."/>
+<TEXT ID="39030300" Text="썩 물러나라! 여긴 엘가님이 계시는 곳이다!"/>
+<TEXT ID="39030330" Text="여긴 유벨, 내가 제거하겠다!"/>
+<TEXT ID="39030360" Text="원정대여~ 신성한 영혼을 내게 바쳐라."/>
+<TEXT ID="49010100" Text="순순히 나의 먹이가 되어라!"/>
+<TEXT ID="49010130" Text="으흐흐~ 강하게 공격!"/>
+<TEXT ID="49010150" Text="아다다다닷 받아라 나의 칼을! "/>
+<TEXT ID="49010200" Text="돌아가라.. 돌아가라.."/>
+<TEXT ID="49010310" Text="죽어라!!"/>
+<TEXT ID="49010320" Text="이번엔 좀 아플거다!!"/>
+<TEXT ID="49010330" Text="너는 나의 상대가 못된다!!"/>
+<TEXT ID="49010400" Text="너는 나와 실력이 비슷하다!! 싸울만 하다!!"/>
+<TEXT ID="49010430" Text="배고프다 배고프다!!"/>
+<TEXT ID="49010600" Text="얍~! 난! 지상에서도 강한 해적이다!"/>
+<TEXT ID="49020100" Text="죽여버리겠다.."/>
+<TEXT ID="49020300" Text="널 죽여서! 가죽지갑으로 만들어주마!"/>
+<TEXT ID="49020310" Text="꽁이! 꽁이! 꽁이! 꽁이!"/>
+<TEXT ID="49020320" Text="맹이! 맹이! 맹이! 맹이!"/>
+<TEXT ID="49020400" Text="으하하하합!"/>
+<TEXT ID="49020410" Text="샥샥샥샥샥!"/>
+<TEXT ID="49020420" Text="나에게 베어짐을 당하거라!"/>
+<TEXT ID="49020440" Text="스스스~끼룩끼룩"/>
+<TEXT ID="49020500" Text="받아라! 나의 창을!"/>
+<TEXT ID="49020520" Text="죽어! 죽어! 죽어!!"/>
+<TEXT ID="49030100" Text="네가 날 이길 수 있을 거라 생각하나?"/>
+<TEXT ID="49030130" Text="손오공의 힘이다~ 이얍!"/>
+<TEXT ID="49030200" Text="아름답게 죽어라!"/>
+<TEXT ID="49030230" Text="너의 시체를 엘가님에게 바친다면 좋아할 것이다."/>
+<TEXT ID="49030300" Text="꺼져라! 여긴 네가 있을 곳이 못 된다."/>
+<TEXT ID="49030330" Text="여긴 유벨, 녀석과 전투중!"/>
+<TEXT ID="49030360" Text="워~~오오오오~ 신성한 영혼~"/>
+<TEXT ID="59010100" Text="아얏! 아프단 말이야~"/>
+<TEXT ID="59010130" Text="커억~ 강한 녀석이닷!"/>
+<TEXT ID="59010150" Text="아얏! 앗앗앗앗앗! 아파~"/>
+<TEXT ID="59010200" Text="쿠에엑~ 큭.."/>
+<TEXT ID="59010310" Text="아프다!!"/>
+<TEXT ID="59010320" Text="아픈거 싫다!! 때리지 마라!!"/>
+<TEXT ID="59010330" Text="이렇게 때리는건 비겁하다!!"/>
+<TEXT ID="59010400" Text="그만 때려라!! 많이 묵었다 아이가!!"/>
+<TEXT ID="59010430" Text="퍼후!!!"/>
+<TEXT ID="59010600" Text="컥~ 아쭈! 이놈봐라?"/>
+<TEXT ID="59020100" Text="커억.. 죽여버리겠다."/>
+<TEXT ID="59020300" Text="앗! 왕을 때려? 무엄하다!"/>
+<TEXT ID="59020310" Text="꽁꽁꽁! 꽁꽁꽁!"/>
+<TEXT ID="59020320" Text="맹맹맹! 맹맹맹!"/>
+<TEXT ID="59020400" Text="막강한 힘이.. 떨어진다."/>
+<TEXT ID="59020410" Text="꾸엑~ 토트살려~"/>
+<TEXT ID="59020420" Text="윽~ 머리가 아프다. 널 베어버리겠다."/>
+<TEXT ID="59020440" Text="스스! 스스!"/>
+<TEXT ID="59020500" Text="윽! 아프지만 아프단 말을 하지 않겠다."/>
+<TEXT ID="59020520" Text="아앗"/>
+<TEXT ID="59030100" Text="커억! "/>
+<TEXT ID="59030130" Text="끄악~ 미안해 살살때려~"/>
+<TEXT ID="59030200" Text="으윽..나의 아름다운 몸에 상처를.."/>
+<TEXT ID="59030230" Text="컥! 역시 드래곤 원정대로군!"/>
+<TEXT ID="59030300" Text="끄악~ 엘가님 도와주소서~"/>
+<TEXT ID="59030330" Text="여긴 유벨, 녀석은 세다.."/>
+<TEXT ID="59030360" Text="컥! 순순히 날 따르라."/>
+<TEXT ID="59030390" Text="크르르….크르르르르….."/>
+<TEXT ID="61261081" Text="느리게 이동하며 도망칠 수 있지만 어떠한 스킬이나 공격도 불가능한 상태가 됩니다."/>
+<TEXT ID="63521100" Text="포치(설명)"/>
+<TEXT ID="63521200" Text="가시 포치(설명)"/>
+<TEXT ID="63521300" Text="연꽃 포치(설명)"/>
+<TEXT ID="63521400" Text="콘 포치(설명)"/>
+<TEXT ID="63521500" Text="브러쉬 포치(설명)"/>
+<TEXT ID="63521600" Text="용꽃 포치(설명)"/>
+<TEXT ID="63521700" Text="열대 포치(설명)"/>
+<TEXT ID="63521800" Text="무드라고라(희귀)(설명)"/>
+<TEXT ID="63522000" Text="옵큘링 (설명)"/>
+<TEXT ID="63522100" Text="레드 옵큘링(설명)"/>
+<TEXT ID="63522200" Text="가시 옵큘링(설명)"/>
+<TEXT ID="63522300" Text="위치 옵큘링(설명)"/>
+<TEXT ID="63522800" Text="샤드론 (희귀) 설명"/>
+<TEXT ID="63523000" Text="검은 쿰바 (설명)"/>
+<TEXT ID="63523100" Text="붉은 쿰바 (설명)"/>
+<TEXT ID="63523200" Text="허니 쿰바 (설명)"/>
+<TEXT ID="63523300" Text="주술 쿰바 (설명)"/>
+<TEXT ID="63523900" Text="자로(정예) 설명 "/>
+<TEXT ID="63524000" Text="바포 (설명)"/>
+<TEXT ID="63524100" Text="타이거 바포 (설명)"/>
+<TEXT ID="63524200" Text="큰뿔 바포 (설명)"/>
+<TEXT ID="63524300" Text="독 바포 (설명)"/>
+<TEXT ID="63524800" Text="우두머리 바포(희귀) (설명)"/>
+<TEXT ID="63524900" Text="킬로(정예) 설명 "/>
+<TEXT ID="63525000" Text="라미 (설명)"/>
+<TEXT ID="63525100" Text="푸른 라미 (설명)"/>
+<TEXT ID="63525200" Text="뿔 라미 (설명)"/>
+<TEXT ID="63525300" Text="우두머리 라미 (설명)"/>
+<TEXT ID="63525800" Text="카프리콘(희귀) (설명)"/>
+<TEXT ID="63526000" Text="본 카라차(설명)"/>
+<TEXT ID="63526100" Text="블러드 카라차(설명)"/>
+<TEXT ID="63526200" Text="가시 카라차(설명)"/>
+<TEXT ID="63526800" Text="고대 카라차(희귀)(설명)"/>
+<TEXT ID="63526900" Text="카샤프(정예) 설명 "/>
+<TEXT ID="63527000" Text="토투(설명)"/>
+<TEXT ID="63527100" Text="바위 토투(설명)"/>
+<TEXT ID="63527200" Text="뿔 토투(설명)"/>
+<TEXT ID="63527300" Text="푸른 토투(설명)"/>
+<TEXT ID="63527800" Text="대장 토투(희귀)(설명)"/>
+<TEXT ID="63528000" Text="프링(설명)"/>
+<TEXT ID="63528100" Text="낙엽 프링(설명)"/>
+<TEXT ID="63528200" Text="열매 프링(설명)"/>
+<TEXT ID="63528300" Text="검은 프링(설명)"/>
+<TEXT ID="63528800" Text="키마이라(희귀)(설명)"/>
+<TEXT ID="63529000" Text="무찌(설명)"/>
+<TEXT ID="63529100" Text="노란 무찌(설명)"/>
+<TEXT ID="63529200" Text="순찰자 무찌(설명)"/>
+<TEXT ID="63529300" Text="마법사 무찌(설명)"/>
+<TEXT ID="63529800" Text="우두머리(희귀) 무찌(설명)"/>
+<TEXT ID="63529900" Text="프로켈(정예) 설명 "/>
+<TEXT ID="63530100" Text="스케마(설명)"/>
+<TEXT ID="63530200" Text="플릭(설명)"/>
+<TEXT ID="63530300" Text="복수의 정령(설명)"/>
+<TEXT ID="63530400" Text="사악한 기운에 중독되어 원한의 감정에 빠져 버린 정령"/>
+<TEXT ID="63530500" Text="에리얼(설명)"/>
+<TEXT ID="63530600" Text="사악한 기운에 오염이 되어 본래의 사명을 잊어버린 정령"/>
+<TEXT ID="63530700" Text="사악한 기운에 빠져 점점 광폭하여 지고 있는 정령"/>
+<TEXT ID="63530800" Text="동굴 깊은 곳에 잠들어 있는 사악한 기운을 뿜어내는 신보의 정령"/>
+<TEXT ID="63530900" Text="에르다의 수정(보스)(설명)"/>
+<TEXT ID="63540100" Text="데빌링(설명)"/>
+<TEXT ID="63540200" Text="데빌가드(설명)"/>
+<TEXT ID="63540300" Text="언데드 크리쳐(설명)"/>
+<TEXT ID="63540400" Text="스켈드라크(설명)"/>
+<TEXT ID="63540500" Text="데몬크리쳐(설명)"/>
+<TEXT ID="63540600" Text="악마 감시자(설명)"/>
+<TEXT ID="63540700" Text="데비 리치(설명)"/>
+<TEXT ID="63540800" Text="데비 마스터(설명)"/>
+<TEXT ID="63541000" Text="케로베로스(설명)"/>
+<TEXT ID="63541100" Text="다크엔젤(설명)"/>
+<TEXT ID="63541200" Text="디아블릭(설명)"/>
+<TEXT ID="63570100" Text="하피 블론드 (설명)"/>
+<TEXT ID="63570200" Text="하피 브룬 (설명)"/>
+<TEXT ID="63570300" Text="하피 셀레브 (설명)"/>
+<TEXT ID="63570400" Text="영혼 추적자 (설명)"/>
+<TEXT ID="63570500" Text="영혼 강탈자 (설명)"/>
+<TEXT ID="63570600" Text="영혼 감시자 (설명)"/>
+<TEXT ID="63570700" Text="기니어 칼크 (설명)"/>
+<TEXT ID="63570800" Text="메탈 드라크 (설명)"/>
+<TEXT ID="63570900" Text="메탈 하운드 (설명)"/>
+<TEXT ID="63571100" Text="붉은여우 삼각지 지상의 지키는 기계로 침입자를 거대한 검으로 내리친다."/>
+<TEXT ID="63571200" Text="붉은여우 삼각지 상층을 지키는 기계로 침입자를 날카로운 꼬리로 휘두른다."/>
+<TEXT ID="63571300" Text="붉은여우 삼각지를 관리하는 기계, 중심부로의 접근을 허락 하지 않는다."/>
+<TEXT ID="63571400" Text="붉은여우 삼각지 중심부에 위치한 천공의 계단 수호자로 접근하는 모든 것을 파괴 한다."/>
+<TEXT ID="64011100" Text="서리괴물기준(사용안함)"/>
+<TEXT ID="64011200" Text="냉기괴물기준(사용안함)"/>
+<TEXT ID="64011300" Text="얼음괴물기준(사용안함)"/>
+<TEXT ID="64011400" Text="설원의 냉기괴물"/>
+<TEXT ID="64012100" Text="얼음슬라임 기준(사용안함)"/>
+<TEXT ID="64012200" Text="긴팔 얼음슬라임 기준(사용안함)"/>
+<TEXT ID="64012300" Text="먹보 얼음슬라임 기준(사용안함)"/>
+<TEXT ID="64012400" Text="원령숲 얼음슬라임"/>
+<TEXT ID="64013100" Text="서리 골렘 기준(사용안함)"/>
+<TEXT ID="64013200" Text="냉기 골렘 기준(사용안함)"/>
+<TEXT ID="64013300" Text="얼음 골렘 기준(사용안함)"/>
+<TEXT ID="64013400" Text="원령숲 냉기 골렘"/>
+<TEXT ID="64014100" Text="서리늑대 기준(사용안함)"/>
+<TEXT ID="64014200" Text="서리늑대 헌터 기준(사용안함)"/>
+<TEXT ID="64014300" Text="서리늑대 워리어 기준(사용안함)"/>
+<TEXT ID="64014400" Text="원령숲 서리늑대 헌터"/>
+<TEXT ID="64015100" Text="셀릭 기준(사용안함)"/>
+<TEXT ID="64015200" Text="프리징 셀릭 기준(사용안함)"/>
+<TEXT ID="64015300" Text="휠 셀릭 기준(사용안함)"/>
+<TEXT ID="64015400" Text="원령숲 프리징 셀릭"/>
+<TEXT ID="64016100" Text="펜리르 기준(사용안함)"/>
+<TEXT ID="64016200" Text="설원 펜리르 기준(사용안함)"/>
+<TEXT ID="64016300" Text="얼음 펜리르 기준(사용안함)"/>
+<TEXT ID="64016400" Text="원령숲 설원 펜리르"/>
+<TEXT ID="64018100" Text="원령나무숲 희귀몬스터(사용안함)"/>
+<TEXT ID="64021100" Text="아이키 기준(사용안함)"/>
+<TEXT ID="64021200" Text="스파키 기준(사용안함)"/>
+<TEXT ID="64021300" Text="포이키 기준(사용안함)"/>
+<TEXT ID="64021400" Text="원령숲 스파키"/>
+<TEXT ID="64022100" Text="스노우 위쳐 기준(사용안함)"/>
+<TEXT ID="64022200" Text="스노우 소서러 기준(사용안함)"/>
+<TEXT ID="64022300" Text="스노우 메두사 기준(사용안함)"/>
+<TEXT ID="64022400" Text="설원의 스노우 소서러"/>
+<TEXT ID="64023100" Text="디어 울프 기준(사용안함)"/>
+<TEXT ID="64023200" Text="스노우 디어 울프 기준(사용안함)"/>
+<TEXT ID="64023300" Text="엘리트 디어 울프 기준(사용안함)"/>
+<TEXT ID="64023400" Text="설원의 스노우 디어 울프"/>
+<TEXT ID="64024100" Text="얼음정령 보초 기준(사용안함)"/>
+<TEXT ID="64024200" Text="얼음정령 파수꾼 기준(사용안함)"/>
+<TEXT ID="64024300" Text="얼음정령 워리어 기준(사용안함)"/>
+<TEXT ID="64024400" Text="설원의 얼음정령 파수꾼 "/>
+<TEXT ID="64025100" Text="방황하는 유니콘 기준(사용안함)"/>
+<TEXT ID="64025200" Text="떠돌이 유니콘 기준(사용안함)"/>
+<TEXT ID="64025300" Text="아이스 유니콘 기준(사용안함)"/>
+<TEXT ID="64025400" Text="설원의 떠돌이 유니콘"/>
+<TEXT ID="64028100" Text="스노우 프린세스 기준 (휘긔)"/>
+<TEXT ID="64029100" Text="정령 아비스"/>
+<TEXT ID="64031100" Text="스노링 기준(사용안함)"/>
+<TEXT ID="64031200" Text="마마 스노링 기준(사용안함)"/>
+<TEXT ID="64031300" Text="파파 스노링 기준(사용안함)"/>
+<TEXT ID="64031400" Text="눈구름골짜기 마마 스노링"/>
+<TEXT ID="64032100" Text="겨울 놀 보초병 기준(사용안함)"/>
+<TEXT ID="64032200" Text="겨울 놀 헌터 기준(사용안함)"/>
+<TEXT ID="64032300" Text="겨울 놀 주술사 기준(사용안함)"/>
+<TEXT ID="64032400" Text="눈구름골짜기 겨울 놀 투척병"/>
+<TEXT ID="64033100" Text="스노우 라미아 기준(사용안함)"/>
+<TEXT ID="64033200" Text="라미아 헌터 기준(사용안함)"/>
+<TEXT ID="64033300" Text="라미아 워리어 기준(사용안함)"/>
+<TEXT ID="64033400" Text="눈구름골짜기 헌터"/>
+<TEXT ID="64034100" Text="새끼 백호 기준(사용안함)"/>
+<TEXT ID="64034200" Text="어미 백호 기준(사용안함)"/>
+<TEXT ID="64034300" Text="우두머리 백호 기준(사용안함)"/>
+<TEXT ID="64034400" Text="눈구름골짜기 어미 백호"/>
+<TEXT ID="64035100" Text="서리 백곰 기준(사용안함)"/>
+<TEXT ID="64035200" Text="냉기 백곰 기준(사용안함)"/>
+<TEXT ID="64035300" Text="얼음 백곰 기준(사용안함)"/>
+<TEXT ID="64035400" Text="눈구름골짜기 냉기 백곰"/>
+<TEXT ID="64038100" Text="빅토르(희귀) 기준(사용안함)"/>
+<TEXT ID="64039100" Text="알렉산더(정예) 기준"/>
+<TEXT ID="64041100" Text="퀘이커 기준(사용안함)"/>
+<TEXT ID="64041200" Text="아이스 퀘이커 기준(사용안함)"/>
+<TEXT ID="64041300" Text="스노우 퀘이커 기준(사용안함)"/>
+<TEXT ID="64041400" Text="살얼음 고개 아이스 퀘이커"/>
+<TEXT ID="64042100" Text="서리 벌레 기준(사용안함)"/>
+<TEXT ID="64042200" Text="냉기 벌레 기준(사용안함)"/>
+<TEXT ID="64042300" Text="얼음 벌레 기준(사용안함)"/>
+<TEXT ID="64042400" Text="살얼음 고개 벌레"/>
+<TEXT ID="64043100" Text="서리 호랑이 기준(사용안함)"/>
+<TEXT ID="64043200" Text="냉기 호랑이 기준(사용안함)"/>
+<TEXT ID="64043300" Text="얼음 호랑이 기준(사용안함)"/>
+<TEXT ID="64043400" Text="살얼음 고개 냉기 호랑이"/>
+<TEXT ID="64044100" Text="서리 동동 기준(사용안함)"/>
+<TEXT ID="64044200" Text="냉기 동동 기준(사용안함)"/>
+<TEXT ID="64044300" Text="얼음 동동 기준(사용안함)"/>
+<TEXT ID="64044400" Text="살얼음 고개 냉기 동동"/>
+<TEXT ID="64045100" Text="아이스 고블린 기준(사용안함)"/>
+<TEXT ID="64045200" Text="아이스 고블린 붐버 기준(사용안함)"/>
+<TEXT ID="64045300" Text="아이스 고블린 주술사 기준(사용안함)"/>
+<TEXT ID="64045400" Text="살얼음 고개 고블린 붐버"/>
+<TEXT ID="64048100" Text="하늘산 지배자(희귀) 기준"/>
+<TEXT ID="64049100" Text="얼음 드래곤 레그토"/>
+<TEXT ID="64051100" Text="서리 골렘(얼음 던전) 기준"/>
+<TEXT ID="64051200" Text="냉기 골렘(얼음 던전) 기준"/>
+<TEXT ID="64051300" Text="얼음 골렘(얼음 던전) 기준"/>
+<TEXT ID="64052100" Text="하이드론(얼음 던전) 기준"/>
+<TEXT ID="64052200" Text="아이스 하이드론(얼음 던전) 기준"/>
+<TEXT ID="64052300" Text="프로스트 하이드론(얼음 던전) 기준"/>
+<TEXT ID="64053100" Text="셀릭 (얼음 던전) 기준"/>
+<TEXT ID="64053200" Text="프리징 셀릭(얼음 던전) 기준"/>
+<TEXT ID="64053300" Text="휠 셀릭(얼음 던전) 기준"/>
+<TEXT ID="64054100" Text="투아르 낚시꾼(얼음 던전) 기준"/>
+<TEXT ID="64054200" Text="투아르 보초병(얼음 던전) 기준"/>
+<TEXT ID="64054300" Text="투아르 장로(얼음 던전) 기준"/>
+<TEXT ID="64055100" Text="눈개미(얼음 던전) 기준"/>
+<TEXT ID="64055200" Text="빙하개미(얼음 던전) 기준"/>
+<TEXT ID="64055300" Text="얼음개미(얼음 던전) 기준"/>
+<TEXT ID="64058100" Text="플로레스(희귀) 기준"/>
+<TEXT ID="64059100" Text="얼음요정 (정예) 기준"/>
+<TEXT ID="64061100" Text="드워프 투사 (얼음던전)기준 (얼음던전) "/>
+<TEXT ID="64061200" Text="드워프 궁수 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64061300" Text="드워프 기술자 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64062100" Text="타릭스 전령사 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64062200" Text="타릭스 사냥꾼 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64062300" Text="타릭스 결계사 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64063100" Text="아이스 스켈 전사 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64063200" Text="아이스 스켈 보초 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64063300" Text="아이스 스켈 장로 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64064100" Text="퀘이커 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64064200" Text="아이스 퀘이커 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64064300" Text="스노우 퀘이커 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64065100" Text="허스키 보초 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64065200" Text="허스키 헌터 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64065300" Text="허스키 우두머리 (얼음던전)기준 (얼음던전)"/>
+<TEXT ID="64068100" Text="스노우 러스키 (희귀) 기준"/>
+<TEXT ID="64069100" Text="조련사 마커 (정예) 기준"/>
+<TEXT ID="64071100" Text="스노우 위쳐 기준(얼음던전)"/>
+<TEXT ID="64071200" Text="스노우 소서러 기준(얼음던전)"/>
+<TEXT ID="64071300" Text="스노우 메두사 기준(얼음던전)"/>
+<TEXT ID="64072100" Text="정령 보초 기준(얼음던전)"/>
+<TEXT ID="64072200" Text="정령 파수꾼 기준(얼음던전)"/>
+<TEXT ID="64072300" Text="정령 기사 기준(얼음던전)"/>
+<TEXT ID="64073100" Text="얼음성 기사 기준(얼음던전)"/>
+<TEXT ID="64073200" Text="얼음성 근위기사 기준(얼음던전)"/>
+<TEXT ID="64073300" Text="얼음성 기사단장 기준(얼음던전)"/>
+<TEXT ID="64074100" Text="판 이시스 보초 기준(얼음던전)"/>
+<TEXT ID="64074200" Text="판 이시스 길잡이 기준(얼음던전)"/>
+<TEXT ID="64074300" Text="판 이시스 주술사 기준(얼음던전)"/>
+<TEXT ID="64075100" Text="서리 괴물 기준(얼음던전)"/>
+<TEXT ID="64075200" Text="냉기 괴물 기준(얼음던전)"/>
+<TEXT ID="64075300" Text="얼음 괴물 기준(얼음던전)"/>
+<TEXT ID="64078100" Text="아이스 스파이더(희귀) 기준"/>
+<TEXT ID="64079100" Text="문지기(정예) 기준"/>
+<TEXT ID="64081100" Text="얼음 슬라임 기준(얼음던전)"/>
+<TEXT ID="64081200" Text="긴팔 얼음 슬라임 기준(얼음던전)"/>
+<TEXT ID="64081300" Text="먹보 얼음 슬라임 기준(얼음던전)"/>
+<TEXT ID="64082100" Text="미노 기준(얼음던전)"/>
+<TEXT ID="64082200" Text="미노 헌터 기준(얼음던전)"/>
+<TEXT ID="64082300" Text="미노 워리어 기준(얼음던전)"/>
+<TEXT ID="64083100" Text="미스르 일꾼 기준(얼음던전)"/>
+<TEXT ID="64083200" Text="미스르 보초 기준(얼음던전)"/>
+<TEXT ID="64083300" Text="미스르 장로 기준(얼음던전)"/>
+<TEXT ID="64084100" Text="얼음 꽃 기준(얼음던전)"/>
+<TEXT ID="64084300" Text="얼음 독초 기준(얼음던전)"/>
+<TEXT ID="64085100" Text="정령 뮬 기준(얼음던전)"/>
+<TEXT ID="64085200" Text="정령 볼 기준(얼음던전)"/>
+<TEXT ID="64085300" Text="정령 붐 기준(얼음던전)"/>
+<TEXT ID="64088100" Text="아이스 미노(희귀) 기준"/>
+<TEXT ID="64089100" Text="얼음 수장(정예) 기준"/>
+<TEXT ID="64091100" Text="야가호카 워리어 기준(얼음던전)"/>
+<TEXT ID="64091200" Text="야가호카 헌터 기준(얼음던전)"/>
+<TEXT ID="64091300" Text="야가호카 주술사 기준(얼음던전)"/>
+<TEXT ID="64092100" Text="서리 플로레스 기준(얼음던전)"/>
+<TEXT ID="64092200" Text="냉기 플로레스 기준(얼음던전)"/>
+<TEXT ID="64092300" Text="얼음 플로레스 기준(얼음던전)"/>
+<TEXT ID="64093100" Text="얼음날개 일족 기준(얼음던전)"/>
+<TEXT ID="64093200" Text="얼음날개 정찰병 기준(얼음던전)"/>
+<TEXT ID="64093300" Text="얼음날개 사마귀 기준(얼음던전)"/>
+<TEXT ID="64094100" Text="얼음정원 정원사 기준(얼음던전)"/>
+<TEXT ID="64094200" Text="얼음정원 관리자 기준(얼음던전)"/>
+<TEXT ID="64094300" Text="얼음정원 지배인 기준(얼음던전)"/>
+<TEXT ID="64095100" Text="서리 뮤턴트 기준(얼음던전)"/>
+<TEXT ID="64095200" Text="냉기 뮤턴트 기준(얼음던전)"/>
+<TEXT ID="64095300" Text="얼음 뮤턴트 기준(얼음던전)"/>
+<TEXT ID="64098100" Text="얼음정원 희귀몬스터(희귀)기준"/>
+<TEXT ID="64099100" Text="얼음 여왕(정예) 기준"/>
+<TEXT ID="64500100" Text="빅손(설명)"/>
+<TEXT ID="64500200" Text="멍크(설명)"/>
+<TEXT ID="64500300" Text="더크(설명)"/>
+<TEXT ID="64500400" Text="바스(설명)"/>
+<TEXT ID="64500500" Text="소굴늑대(설명)"/>
+<TEXT ID="64500600" Text="소굴 큰 늑대(설명)"/>
+<TEXT ID="64500700" Text="소굴 미친 늑대(설명)"/>
+<TEXT ID="64500800" Text="늑대 소굴의 부 두목이며, 커다란 식칼을 무자비하게 휘두른다."/>
+<TEXT ID="64500900" Text="늑대 소굴의 두목이며, 강력한 격투기를 사용 한다."/>
+<TEXT ID="64500901" Text="헤스SE(설명)"/>
+<TEXT ID="64600100" Text="외눈박이 미라(설명)"/>
+<TEXT ID="64600200" Text="지하묘지 미라(설명)"/>
+<TEXT ID="64600300" Text="듀라만(설명)"/>
+<TEXT ID="64600400" Text="메르곤(설명)"/>
+<TEXT ID="64600500" Text="쥐라드(설명)"/>
+<TEXT ID="64600600" Text="지하묘지 좀비(설명)"/>
+<TEXT ID="64601100" Text="지하묘지를 방문하는 탐험가들의 영혼을 먹고 산다."/>
+<TEXT ID="64601200" Text="지하묘지의 악령이 깃든 미라로 외눈에서 강렬한 마법을 발사한다."/>
+<TEXT ID="64601300" Text="지하묘지에서 살고 있는 흉포하고 날쎈 큰 쥐이다."/>
+<TEXT ID="64602100" Text="지하묘지의 묘지기 였으나 악령에 휩싸여 어두운 형체를 뿜어내고 있다. "/>
+<TEXT ID="64602200" Text="새도우 드래곤이며, 위대한 5대 용자와 관련이 있다고 전해져 온다."/>
+<TEXT ID="64700100" Text="눈알만 보이는 몬스터"/>
+<TEXT ID="64700200" Text="금방이라도 터져 버릴듯한 날개달린 공모양의 몬스터"/>
+<TEXT ID="64700300" Text="두발로 걸어다니며 독을 내뿜는 괴생명체"/>
+<TEXT ID="64700400" Text="독의 기운이 뭉쳐진 형태의 공중형 몬스터"/>
+<TEXT ID="64700500" Text="한때는 아름답고 고귀한 숲의 정령이었지만 숲이 오염된후 추악한 모습으로 변했다."/>
+<TEXT ID="64700600" Text="갓 깨어난 알을 뒤집어쓰고있는 악동모습의 아기공룡이다."/>
+<TEXT ID="64700700" Text="성숙한 단계에 접어든 라곤, 강력한 칼날갈퀴로 적을 공격한다"/>
+<TEXT ID="64700800" Text="한때는 아름답고 고귀한 숲의 정령이었지만 숲이 오염된후 귀신같은 모습으로 변했다"/>
+<TEXT ID="64700900" Text="땅속에 살며 땅의 기운을 먹고사는 벌레"/>
+<TEXT ID="64701100" Text="숲의 정령의 수장중 하나로 강력한 가시공격을 구사한다."/>
+<TEXT ID="64701200" Text="숲의 정령의 수장중 하나로 강력한 독 공격을 구사한다."/>
+<TEXT ID="64701300" Text="숲의 정령의 수장중 하나로 강력한 마법을 구사한다."/>
+<TEXT ID="64701400" Text="어둠의 힘에 지배당한 사악한 주술사 무티샤…리바이어스를 부활시켜셔 무언가 꿍꿍이를 세운다."/>
+<TEXT ID="64701500" Text="신록의 숲에 잠자고 있던 그린드래곤, 무티샤에 의해 사악한 용으로 변한다."/>
+<TEXT ID="64701600" Text="오염된 생명체들을 생산해 내는 나무"/>
+<TEXT ID="66000800" Text="강력한 얼음기운이 피어 오른다."/>
+<TEXT ID="66000850" Text="."/>
+<TEXT ID="66000900" Text="마그마로 이루어져 있으며, 뜨거운 화염 브레스로 적을 공격하고, 날카로운 손으로 바닥을 내려친다."/>
+<TEXT ID="66000910" Text="브레스로 적을 공격하고, 손으로 바닥을 내려친다."/>
+<TEXT ID="66000920" Text="보석으로 적을 강타하고, 공중에서 적을 내려 찍는다."/>
+<TEXT ID="66000930" Text="무티샤에 의해 움직이는 거대 골렘으로 강력한 힘을 자랑한다."/>
+<TEXT ID="66000940" Text="아람을 조정하며 세상을 암흑으로 만들겠다는 야심이 가늑찬 존재이다."/>
+<TEXT ID="66000950" Text="살아 있는 생명체인지 알 수는 없지만 막강한 힘을 자랑하는 존재임에는 틀림없다."/>
+<TEXT ID="66001000" Text="골드가 나오는 초목이"/>
+<TEXT ID="66001100" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66001200" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66001300" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66001400" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66001500" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66002000" Text="청소기를 가지고 공격한다."/>
+<TEXT ID="66002100" Text="큰 뿔로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66002200" Text="뿔로 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66002300" Text="적을 향해 빠르게 돌진하는 것이 특징이다."/>
+<TEXT ID="66002700" Text="뿔로 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66002800" Text="큰 뿔로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66003100" Text="얇고 날카로운 갈퀴로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66003200" Text="갈퀴 공격과 함께 독으로 적을 중독 시킨다."/>
+<TEXT ID="66004100" Text="커다란 앞발로 적을 때려 공격하는 것이 특징이다."/>
+<TEXT ID="66004200" Text="적을 향해 빠르게 접근하여 공격하는 것이 특징이다."/>
+<TEXT ID="66004300" Text="커다란 앞발로 적을 빠르게 공격하는 것이 특징이다."/>
+<TEXT ID="66004400" Text="포효로 적을 혼란시키고 돌진하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66004500" Text="커다란 앞발로 적을 빠르게 공격하는 것이 특징이다."/>
+<TEXT ID="66004600" Text="커다란 앞발로 적을 빠르게 공격하는 것이 특징이다."/>
+<TEXT ID="66004700" Text="커다란 앞발로 적을 때려 공격하는 것이 특징이다."/>
+<TEXT ID="66004800" Text="커다란 앞발로 적을 때려 공격하는 것이 특징이다."/>
+<TEXT ID="66004900" Text="포효로 적을 혼란시키고 돌진하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66005100" Text="몸을 회전시켜 적을 강하게 내려 찍는 것이 특징이다."/>
+<TEXT ID="66005200" Text="몸을 회전시켜 적을 강하게 내려 찍는 것이 특징이다."/>
+<TEXT ID="66005300" Text="몸을 회전시켜 적을 강하게 내려 찍는 것이 특징이다."/>
+<TEXT ID="66005400" Text="몸을 회전시켜 적을 강하게 내려 찍는 것이 특징이다."/>
+<TEXT ID="66006100" Text="칼을 뽑아 적을 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66006200" Text="무거운 도끼를 적을 향해 던지는 것이 특징이다."/>
+<TEXT ID="66006300" Text="닭벼슬 지팡이로 마법을 발사하는 것이 특징이다."/>
+<TEXT ID="66006400" Text="칼을 뽑아 적을 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66006500" Text="무거운 도끼를 적을 향해 던지는 것이 특징이다."/>
+<TEXT ID="66006600" Text="도끼를 던지고 회전하여 적을 쓰러트리는 것이 특징이다."/>
+<TEXT ID="66006700" Text="칼을 뽑아 적을 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66006900" Text="도끼를 던지고 회전하여 적을 쓰러트리는 것이 특징이다."/>
+<TEXT ID="66007100" Text="발바닥 둔기로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66007200" Text="둔기로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66007300" Text="둔기로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66007400" Text="둔기로 적을 찔러서 공격하는 것이 특징이다."/>
+<TEXT ID="66007500" Text="둔기로 적을 찔러서 공격하는 것이 특징이다."/>
+<TEXT ID="66007600" Text="둔기로 적을 찔러서 공격하는 것이 특징이다."/>
+<TEXT ID="66008100" Text="커다란 주먹으로 적을 강하게 내려쳐 공격한다."/>
+<TEXT ID="66008200" Text="커다란 주먹으로 적을 강하게 내려쳐 공격한다."/>
+<TEXT ID="66008300" Text="커다란 주먹으로 적을 강하게 내려쳐 공격한다."/>
+<TEXT ID="66008400" Text="양손을 강하게 회전하여 돌격하는 것이 특징이다."/>
+<TEXT ID="66008500" Text="양손을 강하게 회전하여 돌격하는 것이 특징이다."/>
+<TEXT ID="66008600" Text="양손을 강하게 회전하여 돌격하는 것이 특징이다."/>
+<TEXT ID="66009100" Text="기를 모아 적을 향해 돌격하여 찌르는 것이 특징이다."/>
+<TEXT ID="66009200" Text="적을 향해 포탄을 발사하는 것이 특징이다."/>
+<TEXT ID="66009300" Text="기를 모아 적을 향해 돌격하여 찌르는 것이 특징이다."/>
+<TEXT ID="66009400" Text="적을 향해 포탄을 발사하는 것이 특징이다."/>
+<TEXT ID="66009500" Text="마법을 모아 적을 향해 발사하는 것이 특징이다."/>
+<TEXT ID="66009600" Text="적을 향해 대지의 분노를 폭발하며 공격하는 것이 특징이다."/>
+<TEXT ID="66009601" Text="적을 향해 대지의 분노를 폭발하며 공격하는 것이 특징이다."/>
+<TEXT ID="66009700" Text="기를 모아 적을 향해 돌격하여 찌르는 것이 특징이다."/>
+<TEXT ID="66009800" Text="적을 향해 포탄을 발사하는 것이 특징이다."/>
+<TEXT ID="66009900" Text="마법을 모아 적을 향해 발사하는 것이 특징이다."/>
+<TEXT ID="66010100" Text="깨물리면 아픈 짚게로 공격하는 것이 특징이다."/>
+<TEXT ID="66010900" Text="깨물리면 많이 아픈 짚게로 공격하는 것이 특징이다."/>
+<TEXT ID="66011100" Text="몸을 날려 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66011200" Text="흔들흔들 회전하여 돌진하는 것이 특징이다."/>
+<TEXT ID="66011300" Text="흔들흔들 회전하여 돌진하는 것이 특징이다."/>
+<TEXT ID="66011700" Text="흔들흔들 회전하여 돌진하는 것이 특징이다."/>
+<TEXT ID="66011800" Text="몸을 날려 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66012100" Text="공중을 떠다니며 적을향해 온 몸을 부딪힌다."/>
+<TEXT ID="66012200" Text="몸을 회전하며 적에게 연타공격을 하는것이 특징이다."/>
+<TEXT ID="66012300" Text="몸을 회전하며 적에게 연타공격을 하는것이 특징이다."/>
+<TEXT ID="66012400" Text="공중을 떠다니며 적을향해 온 몸을 부딪힌다."/>
+<TEXT ID="66012500" Text="공중을 떠다니며 적을향해 온 몸을 부딪힌다."/>
+<TEXT ID="66012600" Text="몸을 회전하며 적에게 연타공격을 하는것이 특징이다."/>
+<TEXT ID="66013100" Text="무기로 강하게 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66013200" Text="적을 향해 화살을 날려 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66013500" Text="스스로 힐을 하며, 별가사리를 소환하는 것이 특징이다."/>
+<TEXT ID="66013800" Text="스스로 힐을 하며, 별가사리를 소환하는 것이 특징이다."/>
+<TEXT ID="66013801" Text="스스로 힐을 하며, 별가사리를 소환하는 것이 특징이다."/>
+<TEXT ID="66013900" Text="적을 묶고, 별가사리를 소환하는 것이 특징이다."/>
+<TEXT ID="66014100" Text="적을 향해 돌진하여 공격하는 것이 특징이다."/>
+<TEXT ID="66014200" Text="적을 향해 단검을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66014300" Text="적을 향해 마법구를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66014400" Text="뼈다귀를 강하게 내려찍어 공격하는 것이 특징이다."/>
+<TEXT ID="66014500" Text="둔기를 강하게 내려직어 공격하는 것이 특징이다."/>
+<TEXT ID="66014600" Text="적을 향해 강하게 둔기를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66014700" Text="둔기를 강하게 내려직어 공격하는 것이 특징이다."/>
+<TEXT ID="66014800" Text="둔기를 강하게 내려직어 공격하는 것이 특징이다."/>
+<TEXT ID="66015100" Text="묵직한 손을 강하게 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66015200" Text="강하게 내려찍어 주변 적에게 화상을 입힌다."/>
+<TEXT ID="66015300" Text="식칼을 들고 휘두르는 것이 특징이다."/>
+<TEXT ID="66015400" Text="톱날을 들고 휘두르는 것이 특징이다."/>
+<TEXT ID="66015500" Text="강하게 내려찍어 주변 적에게 화상을 입힌다."/>
+<TEXT ID="66015600" Text="강하게 내려찍어 주변 적에게 화상을 입힌다."/>
+<TEXT ID="66015700" Text="묵직한 손을 강하게 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66015800" Text="식칼을 들고 휘두르는 것이 특징이다."/>
+<TEXT ID="66015900" Text="점프하여 강하게 내려찍어 공격하는 것이 특징이다."/>
+<TEXT ID="66015901" Text="점프하여 강하게 내려찍어 공격하는 것이 특징이다."/>
+<TEXT ID="66015902" Text="도끼를 던지고 회전하여 적을 쓰러트리는 것이 특징이다."/>
+<TEXT ID="66016100" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66016200" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66016300" Text="손을 휘둘러 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66016400" Text="손을 휘둘러 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66016500" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66016600" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66017100" Text="날카로운 칼날로 적을 공격하여 출혈을 일으킨다."/>
+<TEXT ID="66017200" Text="날카로운 칼날로 적을 공격하여 출혈을 일으킨다."/>
+<TEXT ID="66017300" Text="날카로운 칼날로 적을 공격하여 출혈을 일으킨다."/>
+<TEXT ID="66017400" Text="날카로운 칼날로 적을 공격하여 출혈을 일으킨다."/>
+<TEXT ID="66017600" Text="강력한 톱날로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66017700" Text="강력한 톱날로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66017800" Text="강력한 톱날로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66018100" Text="맛있어 보이는 사과를 던져 공격한다."/>
+<TEXT ID="66018200" Text="적에게 마법구를 생성하여 공격하는 것이 특징이다."/>
+<TEXT ID="66018300" Text="적에게 따가울 것 같은 손을 내려쳐서 공격한다."/>
+<TEXT ID="66018400" Text="적에게 따가울 것 같은 손을 내려쳐서 공격한다."/>
+<TEXT ID="66018500" Text="맛있어 보이는 사과를 던져 공격한다."/>
+<TEXT ID="66018900" Text="커다란 초목이를 떨어트리고, 박쥐를 불러 공격한다."/>
+<TEXT ID="66018901" Text="커다란 초목이를 떨어트리고, 박쥐를 불러 공격한다."/>
+<TEXT ID="66019100" Text="입으로 적을 물어 공격하는 것이 특징이다."/>
+<TEXT ID="66019200" Text="입으로 적을 물어 공격하는 것이 특징이다."/>
+<TEXT ID="66019300" Text="적을 향해 씨를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66019400" Text="적을 향해 씨를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66019500" Text="적을 향해 씨를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66019600" Text="입으로 적을 물어 공격하는 것이 특징이다."/>
+<TEXT ID="66019700" Text="입으로 적을 물어 공격하는 것이 특징이다."/>
+<TEXT ID="66019800" Text="적을 향해 씨를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66019900" Text="적을 향해 씨를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66020100" Text="입으로 불덩어리를 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66020200" Text="따가운 귀로 적을 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66020300" Text="따가운 귀로 적을 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66020400" Text="살짝 공중을 떠다니며 마법으로 적을 공격한다."/>
+<TEXT ID="66020500" Text="따가운 귀로 적을 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66020600" Text="입으로 불덩어리를 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66020700" Text="살짝 공중을 떠다니며 마법으로 적을 공격한다."/>
+<TEXT ID="66020800" Text="살짝 공중을 떠다니며 마법으로 적을 공격한다."/>
+<TEXT ID="66020900" Text="따가운 귀로 적을 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66021100" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021200" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021300" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021400" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021500" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021600" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66021900" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66022100" Text="적을 무기로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66022200" Text="적을 무기로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66022300" Text="적을 무기로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66022400" Text="적을 무기로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66022900" Text="적을 무기로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66023100" Text="뽀송뽀송한 포자로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66023200" Text="적을 향해 꽃으로된 포자를 쏘아 공격한다."/>
+<TEXT ID="66023300" Text="적을 향해 열매를 쏘아 공격한다."/>
+<TEXT ID="66023400" Text="적을 향해 꽃으로된 포자를 쏘아 공격한다."/>
+<TEXT ID="66023500" Text="적을 향해 열매를 쏘아 공격한다."/>
+<TEXT ID="66023600" Text="뽀송뽀송한 포자로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66023900" Text="망자의 탑에 살고 있는 원령의 강력한 존재이다. "/>
+<TEXT ID="66023901" Text="회전하며 적을 중독시키고, 커다란 꽃을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66024100" Text="뿅망치로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66024200" Text="도토리를 던져 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66024300" Text="적에게 마법구를 생성하여 공격하는 것이 특징이다."/>
+<TEXT ID="66024500" Text="뿅망치로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66024600" Text="도토리를 던져 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66024900" Text="무기로 강하게 내려치고, 돌진하여 공격한다."/>
+<TEXT ID="66024901" Text="무기로 강하게 내려치고, 돌진하여 공격한다."/>
+<TEXT ID="66025100" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025200" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025300" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025400" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025500" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025600" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66025700" Text="작은 포키를 소환하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66025900" Text="작은 포키를 소환하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66025901" Text="작은 포키를 소환하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66026100" Text="날아다니면서 적에게 몸을 부딪혀 공격한다."/>
+<TEXT ID="66026200" Text="날아다니면서 적에게 몸을 부딪혀 공격한다."/>
+<TEXT ID="66026300" Text="날아다니면서 적에게 몸을 부딪혀 공격한다."/>
+<TEXT ID="66026400" Text="날아다니면서 적에게 몸을 부딪혀 공격한다."/>
+<TEXT ID="66028100" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66028200" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66028300" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66028400" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66029100" Text="많은 손을 상자속에서 꺼내서 공격한다."/>
+<TEXT ID="66029200" Text="많은 무기를 상자속에서 꺼내서 공격한다."/>
+<TEXT ID="66030100" Text="적을 향해 강하게 내려 치는 것이 특징이다."/>
+<TEXT ID="66030200" Text="적을 향해 단검을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66030300" Text="적을 향해 마법구를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66030400" Text="적을 향해 마법구를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66030500" Text="적을 향해 강하게 내려 치는 것이 특징이다."/>
+<TEXT ID="66030600" Text="적을 향해 단검을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66030700" Text="적을 향해 강하게 내려 치는 것이 특징이다."/>
+<TEXT ID="66030900" Text="회전하며 이동하여 공격하고, 커다란 무기를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66031100" Text="커다란 마법구를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66031200" Text="커다란 마법구를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66031300" Text="커다란 마법구를 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66032100" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032200" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032300" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032400" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032500" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032600" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66032700" Text="더드미로 적을 결빙시켜 공격하는 것이 특징이다."/>
+<TEXT ID="66033100" Text="강력한 짚게 발로 적을 찔러 공격한다."/>
+<TEXT ID="66033200" Text="강력한 짚게 발과 꼬리로 적을 찔러 공격한다."/>
+<TEXT ID="66033300" Text="적에게 마법구를 쏘아 공격한다."/>
+<TEXT ID="66033400" Text="바닥을 강하게 내려찍고, 음파 공격을 하는 것이 특징이다."/>
+<TEXT ID="66033500" Text="강력한 짚게 발로 적을 찔러 공격한다."/>
+<TEXT ID="66033600" Text="강력한 짚게 발과 꼬리로 적을 찔러 공격한다."/>
+<TEXT ID="66033700" Text="적에게 마법구를 쏘아 공격한다."/>
+<TEXT ID="66033800" Text="바닥을 강하게 내려찍고, 음파 공격을 하는 것이 특징이다."/>
+<TEXT ID="66034100" Text="적에게 묵직한 추 같은 손을 내려쳐 공격한다."/>
+<TEXT ID="66034200" Text="적에게 포탄을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66034300" Text="적을 향해 요요를 던지고, 유도탄을 발사하여 공격한다."/>
+<TEXT ID="66034301" Text="적을 향해 요요를 던지고, 유도탄을 발사하여 공격한다."/>
+<TEXT ID="66034400" Text="적에게 포탄을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66034500" Text="적에게 묵직한 추 같은 손을 내려쳐 공격한다."/>
+<TEXT ID="66035100" Text="적을 향해 온 몸을 날려 공격하는 것이 특징이다."/>
+<TEXT ID="66036100" Text="적에게 사랑의 화살을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66036200" Text="적에게 사랑의 작대기로 내려찍어 공격한다."/>
+<TEXT ID="66036300" Text="적에게 사랑의 화살을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66037100" Text="적에게 악마의 삼지창으로 강하게 찔러 공격한다."/>
+<TEXT ID="66037200" Text="적에게 악마의 화살을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66038100" Text="날카로운 갈퀴로 내려쳐 출혈을 일으키게 한다."/>
+<TEXT ID="66038200" Text="날카로운 갈퀴로 내려쳐 출혈을 일으키게 한다."/>
+<TEXT ID="66038300" Text="공중에 떠다니며 적을 창으로 찔러 공격한다."/>
+<TEXT ID="66038400" Text="공중에 떠다니며 적을 창으로 찔러 공격한다."/>
+<TEXT ID="66038500" Text="공중에 떠다니며 적을 창으로 찔러 공격한다."/>
+<TEXT ID="66038600" Text="공중에 떠다니며 적을 창으로 찔러 공격한다."/>
+<TEXT ID="66039100" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66039200" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66039400" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66039500" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66039600" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66039700" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66040100" Text="적을 향해 강하게 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66040200" Text="적을 향해 침을 뱉어 공격하는 것이 특징이다."/>
+<TEXT ID="66040300" Text="수 많은 가시를 한번에 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66040400" Text="적을 향해 침을 뱉어 공격하는 것이 특징이다."/>
+<TEXT ID="66041100" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66041200" Text="묵직한 몸으로 적에게 손을 내려쳐 공격한다."/>
+<TEXT ID="66041300" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66041400" Text="묵직한 몸으로 적에게 손을 내려쳐 공격한다."/>
+<TEXT ID="66041500" Text="방방뛰며 수정을 떨어트리며, 작은 골렘을 소환하여 공격한다."/>
+<TEXT ID="66041600" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66041700" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66041800" Text="묵직한 몸으로 적에게 손을 내려쳐 공격한다."/>
+<TEXT ID="66042100" Text="적에게 이빨을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66042200" Text="적에게 해골을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66042300" Text="뼈로된 둔기를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66042400" Text="적에게 해골을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66042500" Text="적에게 이빨을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66043100" Text="무기로 강하게 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66043200" Text="강하게 바닥을 내려찍어 공격하는 것이 특징이다."/>
+<TEXT ID="66043300" Text="적에게 날카로운 칼날을 던져 공격한다."/>
+<TEXT ID="66043400" Text="양 손에 화염구를 적에게 쏘아 공격한다."/>
+<TEXT ID="66043500" Text="위협적인 브레스를 쏘아 공격하며, 공중에서 적을 향해 돌진한다."/>
+<TEXT ID="66043501" Text="위협적인 브레스를 쏘아 공격하며, 공중에서 적을 향해 돌진한다."/>
+<TEXT ID="66043700" Text="도마뱀이였지만 반헬싱에 의해 인간처럼 두발로 걸어 다니고 행동하게 되었다."/>
+<TEXT ID="66043800" Text="도마뱀이였지만 반헬싱에 의해 인간처럼 두발로 걸어 다니고 행동하게 되었다."/>
+<TEXT ID="66043900" Text="도마뱀이였지만 반헬싱에 의해 인간처럼 두발로 걸어 다니고 행동하게 되었다."/>
+<TEXT ID="66044100" Text="적을 향해 칼을 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66044200" Text="적을 향해 꼬리로 반딧불을 쏘아 공격한다."/>
+<TEXT ID="66044300" Text="마법진을 생성하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66044301" Text="마법으로 여왕을 지키는 반디 장로의 수장"/>
+<TEXT ID="66044400" Text="적을 향해 칼을 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66044500" Text="적을 향해 꼬리로 반딧불을 쏘아 공격한다."/>
+<TEXT ID="66044600" Text="보호막으로 적의 공격을 막고, 연타 공격으로 적을 공격한다."/>
+<TEXT ID="66045100" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66045200" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66045300" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66045400" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66045500" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66045600" Text="음파를 통해 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66046100" Text="무기를 있는 힘껏 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66046200" Text="무기를 있는 힘껏 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66046300" Text="무기를 있는 힘껏 내려쳐 공격하는 것이 특징이다."/>
+<TEXT ID="66046400" Text="적을 향해 화살을 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66047100" Text="적을 창으로 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66047200" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66047300" Text="적을 향해 커다란 똥을 소환하여 공격한다."/>
+<TEXT ID="66047400" Text="적을 향해 똥을 던지는 것이 특징이다."/>
+<TEXT ID="66048100" Text="강력한 부리로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66048200" Text="강력한 부리로 적을 찦어 공격하는 것이 특징이다."/>
+<TEXT ID="66048300" Text="입으로 포를 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66049100" Text="들고 있는 창으로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66049200" Text="마법진을 생성하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66049300" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66049400" Text="들고 있는 창으로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66049500" Text="마법진을 생성하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66049600" Text="긴 혀로 적을 찔러 공격하는 것이 특징이다."/>
+<TEXT ID="66050100" Text="사신의 낫으로 찔러 적을 중독시켜 공격한다."/>
+<TEXT ID="66050200" Text="날카로운 낫을 던져 적을 공격한다."/>
+<TEXT ID="66050300" Text="마법진을 생성하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66050400" Text="날카로운 낫을 던져 적을 공격한다."/>
+<TEXT ID="66050500" Text="사신의 낫으로 찔러 적을 중독시켜 공격한다."/>
+<TEXT ID="66050600" Text="마법진을 생성하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66051100" Text="찔리면 아플 것 같은 뿔로 적을 공격한다."/>
+<TEXT ID="66051200" Text="뿔로 적을 찌르고 마법으로 적을 공격한다."/>
+<TEXT ID="66051300" Text="화려한 뿔로 마법을 부려 적을 공격한다."/>
+<TEXT ID="66051400" Text="뿔로 적을 찌르고 마법으로 적을 공격한다."/>
+<TEXT ID="66051500" Text="찔리면 아플 것 같은 뿔로 적을 공격한다."/>
+<TEXT ID="66051600" Text="화려한 뿔로 마법을 부려 적을 공격한다."/>
+<TEXT ID="66052100" Text="창으로 적을 질러 공격하는 것이 특징이다."/>
+<TEXT ID="66052200" Text="톡침을 쏘아 적을 중독시켜 공격한다."/>
+<TEXT ID="66052300" Text="마법진을 생성하여 적을 침묵에 빠트리게 한다."/>
+<TEXT ID="66052400" Text="창으로 적을 질러 공격하는 것이 특징이다."/>
+<TEXT ID="66052500" Text="마법진을 생성하여 적을 침묵에 빠트리게 한다."/>
+<TEXT ID="66052600" Text="공중에서 알을 떨어트리고, 소리로 적을 교란시켜 공격한다."/>
+<TEXT ID="66053100" Text="날카로운 자신의 몸을 적에게 던져 자폭한다."/>
+<TEXT ID="66053200" Text="날카로운 자신의 몸을 적에게 던져 자폭한다."/>
+<TEXT ID="66053300" Text="날카로운 자신의 몸을 적에게 던져 자폭한다."/>
+<TEXT ID="66054100" Text="입으로 적을 얼게하여 공격하는 것이 특징이다."/>
+<TEXT ID="66054200" Text="입으로 적을 얼게하여 공격하는 것이 특징이다."/>
+<TEXT ID="66054300" Text="입으로 적을 얼게하여 공격하는 것이 특징이다."/>
+<TEXT ID="66055100" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66055200" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66055300" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66055400" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66055500" Text="묵직한 몸으로 적에게 손을 내려쳐 공격한다."/>
+<TEXT ID="66055600" Text="수정을 적에게 발사하여 공격하는 것이 특징이다."/>
+<TEXT ID="66056100" Text="톱날을 들고 휘두르는 것이 특징이다."/>
+<TEXT ID="66056200" Text="무기를 강하게 내려쳐 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66057100" Text="날아다니면서 적에게 몸으로 부딪혀 공격한다."/>
+<TEXT ID="66057200" Text="날아다니면서 적에게 몸으로 부딪혀 공격한다."/>
+<TEXT ID="66057300" Text="날아다니면서 적에게 자신의 눈을 던져 공격한다."/>
+<TEXT ID="66058100" Text="땅속에 숨어 있다 적이 나타나면 공격한다."/>
+<TEXT ID="66058200" Text="땅속에 숨어 있다 적이 나타나면 공격한다."/>
+<TEXT ID="66058300" Text="땅속에 숨어 있다 적이 나타나면 공격한다."/>
+<TEXT ID="66059100" Text="두 손으로 땅을 헤짚어 공격하는 것이 특징이다."/>
+<TEXT ID="66059200" Text="두 손으로 땅을 헤짚어 공격하는 것이 특징이다."/>
+<TEXT ID="66059300" Text="전기를 적에게 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66059400" Text="두더지를 소환하여 굴리고, 땅속으로 숨어 지면을 흔들어 공격한다."/>
+<TEXT ID="66059600" Text="흙을 던져 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66061100" Text="들썩이며 독을 주변에 뿌려 공격하는 것이 특징이다."/>
+<TEXT ID="66061200" Text="들썩이며 독을 주변에 뿌려 공격하는 것이 특징이다."/>
+<TEXT ID="66062100" Text="창으로 적을 질러 공격하는 것이 특징이다."/>
+<TEXT ID="66062200" Text="톡침을 쏘아 적을 중독시켜 공격한다."/>
+<TEXT ID="66062300" Text="마법진을 생성하여 적을 침묵에 빠트리게 한다."/>
+<TEXT ID="66063100" Text="꼬리로 날렵하게 차 올라서 적을 공격한다."/>
+<TEXT ID="66063200" Text="꼬리로 날렵하게 차 올라서 적을 공격한다."/>
+<TEXT ID="66064100" Text="얇고 날카로운 갈퀴로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66064200" Text="얇고 날카로운 갈퀴로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66064300" Text="얇고 날카로운 갈퀴로 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66067100" Text="공중을 떠다니며 적을향해 온 몸을 부딪힌다."/>
+<TEXT ID="66068100" Text="방망이로 야구하듯 볼을 쳐서 공격 한다."/>
+<TEXT ID="66069100" Text="곰처럼 둔해 보이지만 강한 힘으로 적을 공격한다."/>
+<TEXT ID="66070100" Text="남은 한 팔로 적을 내려쳐서 공격한다."/>
+<TEXT ID="66071100" Text="많은 손을 이용해서 주변의 적을 묶는다."/>
+<TEXT ID="66072100" Text="레이저 빔을 쏘아 적을 공격 한다."/>
+<TEXT ID="66074100" Text="드라큘라에 의해 태어난 존재로 성을 침입하는 자는 모두 적으로 공격한다."/>
+<TEXT ID="66074200" Text="늑대인지 사람인지 정체를 구분짓기 힘든 존재이며, 보름달이 뜬 날이 되면 더 광폭하게 변한다."/>
+<TEXT ID="66074300" Text="한때는 인간이였지만 내면에 잠재되어 있던 피에 이끌림으로 인해 변해 버렸다."/>
+<TEXT ID="66075100" Text="손을 빠르게 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66075200" Text="미치광이처럼 손을 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66075300" Text="피를 토하듯 독을 토해서 적을 중독 시키는 것이 특징이다."/>
+<TEXT ID="66075400" Text="손을 빠르게 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66075500" Text="미치광이처럼 손을 휘둘러 공격하는 것이 특징이다."/>
+<TEXT ID="66075600" Text="피를 토하듯 독을 토해서 적을 중독 시키는 것이 특징이다."/>
+<TEXT ID="66076100" Text="겉에서 보기엔 보통 책 같지만 사실은 사악한 괴물이 들어 있다."/>
+<TEXT ID="66076200" Text="겉에서 보기엔 보통 책 같지만 사실은 사악한 괴물이 들어 있다."/>
+<TEXT ID="66076300" Text="겉에서 보기엔 보통 책 같지만 사실은 사악한 괴물이 들어 있다."/>
+<TEXT ID="66077100" Text="드라큘라에 의해 변해 버린 파수꾼으로 강한 힘이 특징이다."/>
+<TEXT ID="66077200" Text="드라큘라에 의해 변해 버린 파수꾼으로 강한 힘이 특징이다."/>
+<TEXT ID="66077300" Text="드라큘라에 의해 변해 버린 파수꾼으로 강한 힘이 특징이다."/>
+<TEXT ID="66078100" Text="보물이 들어 있는 줄 알았으나 본 드래곤의 힘에 의해 몬스터로 변해 버린 궤짝"/>
+<TEXT ID="66078200" Text="보물이 들어 있는 줄 알았으나 본 드래곤의 힘에 의해 몬스터로 변해 버린 궤짝"/>
+<TEXT ID="66078300" Text="보물이 들어 있는 줄 알았으나 본 드래곤의 힘에 의해 몬스터로 변해 버린 궤짝"/>
+<TEXT ID="66079100" Text="저주를 받아 영혼이 몸에 갇혀 살아 있어도 살아있지 않은 존재이다."/>
+<TEXT ID="66079200" Text="저주를 받아 영혼이 몸에 갇혀 살아 있어도 살아있지 않은 존재이다."/>
+<TEXT ID="66079300" Text="저주를 받아 영혼이 몸에 갇혀 살아 있어도 살아있지 않은 존재이다."/>
+<TEXT ID="66080100" Text="충실한 기사였으나 자신의 목을 잃어버린 뒤 자신의 목을 찾아 헤매는 불쌍한 기사이다."/>
+<TEXT ID="66080200" Text="충실한 기사였으나 자신의 목을 잃어버린 뒤 자신의 목을 찾아 헤매는 불쌍한 기사이다."/>
+<TEXT ID="66080300" Text="충실한 기사였으나 자신의 목을 잃어버린 뒤 자신의 목을 찾아 헤매는 불쌍한 기사이다."/>
+<TEXT ID="66081100" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66081200" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66081300" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66081400" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66081500" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66081600" Text="드라큘라의 초대를 받아 왔던 귀족이였으나 저주에 의해 변해 버렸다."/>
+<TEXT ID="66082100" Text="반클리프 성에서 일하던 하녀로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082200" Text="반클리프 성에서 일하던 지배인으로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082300" Text="반클리프 성에서 일하던 하인으로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082400" Text="반클리프 성에서 일하던 하녀로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082500" Text="반클리프 성에서 일하던 지배인으로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082600" Text="반클리프 성에서 일하던 하인으로 저주에 의해 사악하게 변해 버렸다."/>
+<TEXT ID="66082700" Text="하녀의 지팡이 머리로 저주를 받아 살아 있게 되었다."/>
+<TEXT ID="66083100" Text="보통의 쥐였지만 가고일이 흘린 피를 먹은 뒤 포악하고 거대하게 변해 버렸다."/>
+<TEXT ID="66083200" Text="보통의 쥐였지만 가고일이 흘린 피를 먹은 뒤 포악하고 거대하게 변해 버렸다."/>
+<TEXT ID="66083300" Text="보통의 쥐였지만 가고일이 흘린 피를 먹은 뒤 포악하고 거대하게 변해 버렸다."/>
+<TEXT ID="66084100" Text="본 드래곤의 부서진 뼈 조각으로 태어난 샤피는 주변을 돌아다니며 적을 경계한다."/>
+<TEXT ID="66084200" Text="본 드래곤의 부서진 뼈 조각으로 태어난 샤피는 주변을 돌아다니며 적을 경계한다."/>
+<TEXT ID="66084300" Text="본 드래곤의 부서진 뼈 조각으로 태어난 샤피는 주변을 돌아다니며 적을 경계한다."/>
+<TEXT ID="66085100" Text="자신의 하체를 찾아 떠돌아 다니는 죽지 못한 불쌍한 영혼"/>
+<TEXT ID="66085200" Text="자신의 하체를 찾아 떠돌아 다니는 죽지 못한 불쌍한 영혼"/>
+<TEXT ID="66085300" Text="자신의 하체를 찾아 떠돌아 다니는 죽지 못한 불쌍한 영혼"/>
+<TEXT ID="66086100" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66086200" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66086300" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66086400" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66086500" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66086600" Text="본 드래곤을 추앙하는 신자들로 자신들의 목적을 위해 영혼을 판 존재들이다."/>
+<TEXT ID="66087100" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66087200" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66087300" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66087400" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66087500" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66087600" Text="감옥을 지키며 고문하던 고문관이였으나 저주를 받아 무차별 공격을 하고 돌아다니게 되었다."/>
+<TEXT ID="66088100" Text="생명이 없었던 녹쓴 칼이였지만 저주의 힘으로 생명을 부여받아 성 곳곳을 떠돌아 다닌다."/>
+<TEXT ID="66088200" Text="생명이 없었던 녹쓴 칼이였지만 저주의 힘으로 생명을 부여받아 성 곳곳을 떠돌아 다닌다."/>
+<TEXT ID="66088300" Text="생명이 없었던 녹쓴 칼이였지만 저주의 힘으로 생명을 부여받아 성 곳곳을 떠돌아 다닌다."/>
+<TEXT ID="66091100" Text="얼음괴물 빅혼과 함께 공격하는것이 특징이다."/>
+<TEXT ID="66091200" Text="조련사 마커와 함께 공격하는것이 특징이다"/>
+<TEXT ID="66091300" Text="전기 공격을 하는 것이 특징이다."/>
+<TEXT ID="66091400" Text="얼음으로 공격하는 것이 특징이다."/>
+<TEXT ID="66091500" Text="마법을 사용하여 공격하는 것이 특징이다."/>
+<TEXT ID="66094100" Text="추운곳에서 강한 힘을 내는 전사이다."/>
+<TEXT ID="66094200" Text="얼음 마법으로 공격하지만 그다지 강하지 않다"/>
+<TEXT ID="66094300" Text="활로 길안내를 해주던 길잡이 이다."/>
+<TEXT ID="66097100" Text="창으로 공격하는것이 특징이다."/>
+<TEXT ID="66098100" Text="입으로 적을 얼게하여 공격하는 것이 특징이다."/>
+<TEXT ID="66101100" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66101200" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66101300" Text="작은 몸이지만 점프하여 바닥을 내려 찍는 특징을 가지고 있다."/>
+<TEXT ID="66102100" Text="적을 향해 돌진하여 공격하는 것이 특징이다."/>
+<TEXT ID="66102200" Text="적을 향해 단검을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66102300" Text="적을 향해 마법구를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66102400" Text="적을 향해 돌진하여 공격하는 것이 특징이다."/>
+<TEXT ID="66102500" Text="적을 향해 단검을 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66103100" Text="적을 향해 빠르게 접근하여 공격하는 것이 특징이다."/>
+<TEXT ID="66103200" Text="포효로 적을 혼란시키고 돌진하여 적을 공격하는 것이 특징이다."/>
+<TEXT ID="66104100" Text="창으로 적을 질러 공격하는 것이 특징이다."/>
+<TEXT ID="66104200" Text="적을 향해 돌진하여 공격하는 것이 특징이다."/>
+<TEXT ID="66104300" Text="적을향해 화살을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66104400" Text="바닥을 갈라 적을 공격하고, 보호막으로 자신을 보호한다."/>
+<TEXT ID="66104401" Text="바닥을 갈라 적을 공격하고, 보호막으로 자신을 보호한다."/>
+<TEXT ID="66104500" Text="적을향해 화살을 쏘아 공격하는 것이 특징이다."/>
+<TEXT ID="66105100" Text="영화사 사장으로 돈뭉치를 뿌리면서 공격한다."/>
+<TEXT ID="66106000" Text="마스터 준"/>
+<TEXT ID="66106100" Text="베이징의 전통요리. 머리가 없어도 공격을 잘한다."/>
+<TEXT ID="66106200" Text="양념된 오리. 양념이 발려져 있는데 냄새는 안난다."/>
+<TEXT ID="66106300" Text="훈제된 오리. 훈제로 처리하면서 몸에 상처가 많이 있다."/>
+<TEXT ID="66107100" Text="속이 고기로 꽉찬만두."/>
+<TEXT ID="66107200" Text="너무 오래 방치되어 썩은 만두"/>
+<TEXT ID="66107300" Text="어떻게 조리했는지 몰라도 상당히 매워보인다."/>
+<TEXT ID="66108100" Text="대나무로 만들어진 찜통"/>
+<TEXT ID="66108200" Text="철로 만들어진 찜통"/>
+<TEXT ID="66108300" Text="플라스틱으로 만들어진 찜통"/>
+<TEXT ID="66109100" Text="직접 손으로 뽑은 면,살아있다!!"/>
+<TEXT ID="66109200" Text="참깨가 양념되어 있다."/>
+<TEXT ID="66109300" Text="소고기가 듬뿍담겨있다. 진한 국물맛이 일품!"/>
+<TEXT ID="66111100" Text="대사 &#39;악&#39; 만 있는 엑스트라"/>
+<TEXT ID="66111200" Text="대사가 없는 엑스트라"/>
+<TEXT ID="66111300" Text="으악과 &#39;악&#39; 단 두마디의 대사가 있는 엑스트라"/>
+<TEXT ID="66111400" Text="무술을 수련하다 미쳐버린 무술가"/>
+<TEXT ID="66112100" Text="잘익은 쿠키 맛있어 보인다"/>
+<TEXT ID="66112200" Text="쿠키가 덜익혀져서 먹을 수 없을 것 같다."/>
+<TEXT ID="66112300" Text="초콜렛이 들어가 더욱 달콤한 쿠키"/>
+<TEXT ID="66113100" Text="과자와 초콜렛의 절묘한 조합!"/>
+<TEXT ID="66113200" Text="화이트 초콜렛으로 깔끔한 맛을 느낄수 있다"/>
+<TEXT ID="66113300" Text="딸기맛 초콜렛이 과일향을 느끼게 해준다"/>
+<TEXT ID="66114100" Text="말랑하고 부드러운 푸딩"/>
+<TEXT ID="66114200" Text="건강에 좋은 블루베리로 만들어진 푸딩"/>
+<TEXT ID="66114300" Text="시지 않고 달콤한 키위만을 엄선해 만든 푸딩"/>
+<TEXT ID="66115100" Text="쿠키가 들어가 고소한 맛을 내는 초콜렛"/>
+<TEXT ID="66115200" Text="파티에서 몇번 퇴짜 맞은 초콜렛이다"/>
+<TEXT ID="66115300" Text="아몬드로 씹는 맛이 일품인 초콜렛"/>
+<TEXT ID="66116100" Text="온몸이 빵으로 이루어져 있다.먹을수 있을까?"/>
+<TEXT ID="66116200" Text="먹으면 이빨이 아플것 같다"/>
+<TEXT ID="66116300" Text="차가운 아이스크림으로 만들어졌다."/>
+<TEXT ID="66117100" Text="치즈가 들어가 있는 샌드위치"/>
+<TEXT ID="66117200" Text="아몬드를 샌드위치에 박았다.맛있을까?"/>
+<TEXT ID="66117300" Text="토마토가 들어가 새콤한 맛을 내는 샌드위치"/>
+<TEXT ID="66118100" Text="마시멜로우로 뒤덥혀 있다."/>
+<TEXT ID="66118200" Text="과자공장 기계들을 조종하는 마스터 머신이다."/>
+<TEXT ID="66119100" Text="혈기 왕성한 젊은 복어"/>
+<TEXT ID="66119200" Text="산란기를 맞아 자신의 아름다움을 뽐내고 있다"/>
+<TEXT ID="66119300" Text="짝을 찾지 못해 점점 미쳐가는 싱글복어"/>
+<TEXT ID="66121100" Text="펑크머리 가발을 쓴 하마이다"/>
+<TEXT ID="66121200" Text="폭주족 가발을 쓴 하마이다.오토바이는 어디로?"/>
+<TEXT ID="66121300" Text="많은 하마들을 울린자만 쓰는 제비족가발을 쓴하마"/>
+<TEXT ID="66122100" Text="물에 오래 닿아서 이끼가 껴있다"/>
+<TEXT ID="66122200" Text="쓸모없은 자수정으로 골렘을 만들었다.."/>
+<TEXT ID="66122300" Text="깨진 보석으로 만들어진 골렘,부서지기 쉬울것 같다"/>
+<TEXT ID="66123100" Text="채식을 주로 하는 다일. 고기를 원한다"/>
+<TEXT ID="66123200" Text="랍스타를 먹고 장식을 하고 있다.돈은 뭘로 지불했을까"/>
+<TEXT ID="66123300" Text="랍스타를 먹기위해 해물팔이 장사를 하는 다일이다."/>
+<TEXT ID="66124100" Text="순수하고 아름다웠던 물의 신물이 였으나, 오염된 물에 의해 다른 존재가 되어버렸다."/>
+<TEXT ID="66126100" Text="비밀의 마녀 파리스."/>
+<TEXT ID="66127100" Text="타코/Tako_Normal (기준)"/>
+<TEXT ID="66127200" Text="크림 타코/Tako_Cream (설명)"/>
+<TEXT ID="66127300" Text="먹물 타코/Tako_Octopus (설명)"/>
+<TEXT ID="66128100" Text="삼각김밥/Triangle_Laver (설명)"/>
+<TEXT ID="66128200" Text="단무지 삼각김밥/Triangle_Pickle (설명)"/>
+<TEXT ID="66128300" Text="매운 삼각김밥/Triangle_Hot  (설명)"/>
+<TEXT ID="66129100" Text="체리 푸딩/Pudding_Cherry  (설명)"/>
+<TEXT ID="66129200" Text="크림 푸딩/Pudding_Cream  (설명)"/>
+<TEXT ID="66129300" Text="쿠키 푸딩/Pudding_Cookie  (설명)"/>
+<TEXT ID="66130100" Text="새우튀김 우동/Noodles_Shrimp  (설명)"/>
+<TEXT ID="66130200" Text="야채튀김 우동/Noodles_Vegetales  (설명)"/>
+<TEXT ID="66130300" Text="유부 우동/Noodles_Friedbeancurd  (설명)"/>
+<TEXT ID="66131100" Text="새우 초밥/Sushi_Shrimp  (설명)"/>
+<TEXT ID="66131200" Text="문어 초밥/Sushi_Octopus  (설명)"/>
+<TEXT ID="66131300" Text="고등어 초밥/Sushi_Mackerel  (설명)"/>
+<TEXT ID="66131400" Text="계란 초밥/Sushi_Egg  (설명)"/>
+<TEXT ID="66131500" Text="연어알 초밥/Sushi_Salmon  (설명)"/>
+<TEXT ID="66132100" Text="오도로 초밥왕/Sushi_King  (설명)"/>
+<TEXT ID="66132200" Text="턱주가리 주방장  (설명)"/>
+<TEXT ID="66465100" Text="왠지 멍청해 보이는 경비병 쇠파이프만 휘두른다"/>
+<TEXT ID="66465200" Text="사악해 보이는 강습병 클로로 근접공격을 한다."/>
+<TEXT ID="66465300" Text="무시무시한 화염공격을 주로하는 괴짜 "/>
+<TEXT ID="66466100" Text="전면에 드릴을 이용하여 강력한 돌진공격을한다"/>
+<TEXT ID="66466200" Text="사악하게 웃는 미사일을 발사한다."/>
+<TEXT ID="66466300" Text="플레이어를 중독시키는 가스탄을 발사한다"/>
+<TEXT ID="66501100" Text="왠지 멍청해 보이는 경비병 쇠파이프만 휘두른다"/>
+<TEXT ID="66501200" Text="사악해 보이는 강습병 클로로 근접공격을 한다."/>
+<TEXT ID="66501300" Text="무시무시한 화염공격을 주로하는 괴짜 "/>
+<TEXT ID="66501400" Text="전면에 드릴을 이용하여 강력한 돌진공격을한다"/>
+<TEXT ID="66501500" Text="사악하게 웃는 미사일을 발사한다."/>
+<TEXT ID="66501600" Text="플레이어를 중독시키는 가스탄을 발사한다"/>
+<TEXT ID="66600100" Text="무기로 강하게 내려치고, 돌진하여 공격한다."/>
+<TEXT ID="66600200" Text="뼈로된 둔기를 던져 공격하는 것이 특징이다."/>
+<TEXT ID="66600300" Text="날아다니면서 적에게 몸을 부딪혀 공격한다."/>
+<TEXT ID="66600400" Text="창으로 적을 질러 공격하는 것이 특징이다."/>
+<TEXT ID="66600500" Text="마법진을 생성하여 적을 침묵에 빠트리게 한다."/>
+<TEXT ID="66600600" Text="주먹으로 강하게 연타하여 공격한다."/>
+<TEXT ID="66600700" Text="화려한 뿔로 마법을 부려 적을 공격한다."/>
+<TEXT ID="66600800" Text="입으로 적을 얼게하여 공격하는 것이 특징이다."/>
+<TEXT ID="66600900" Text="꼬리로 내려치고, 불을 쏘아 적을 공격한다."/>
+<TEXT ID="66601100" Text="적을 발견시 온 몸을 던져 적을 폭팔하는 것이 특징이다."/>
+<TEXT ID="66601200" Text="사신의 낫으로 찔러 적을 중독시켜 공격한다."/>
+<TEXT ID="66601300" Text="몸통으로 강하게 부딪혀 공격하는 것이 특징이다."/>
+<TEXT ID="66601400" Text="적을 향해 빠르게 돌진하는 것이 특징이다."/>
+<TEXT ID="66601500" Text="둔기로 내려쳐서 공격하는 것이 특징이다."/>
+<TEXT ID="66601600" Text="몸을 회전시켜 적을 강하게 내려 찍는 것이 특징이다."/>
+<TEXT ID="66601700" Text="공중을 떠다니며 적을향해 온 몸을 부딪힌다."/>
+<TEXT ID="66601800" Text="깨물리면 많이 아픈 짚게로 공격하는 것이 특징이다."/>
+<TEXT ID="66601900" Text="양손을 강하게 회전하여 돌격하는 것이 특징이다."/>
+<TEXT ID="66602100" Text="적을 향해 돌진하여 공격하는 것이 특징이다."/>
+<TEXT ID="66602200" Text="꼬리로 날렵하게 차 올라서 적을 공격한다."/>
+<TEXT ID="66603100" Text="톱날로 공격하는 것이 특징이다."/>
+<TEXT ID="66603200" Text="절구통에 몸이 끼어 정신줄을 놓은 토끼"/>
+<TEXT ID="66603300" Text="피를 찾아 헤메이고 있다."/>
+<TEXT ID="66603400" Text="보름달이 뜨지도 않았는데 돌아다닌다."/>
+<TEXT ID="66603500" Text="음식서빙중에 유령이 되어 버렸다"/>
+<TEXT ID="66603600" Text="크리스마스 트리 부서지면 아이템을 얻을수 있다."/>
+<TEXT ID="66603700" Text="눈을 밟아 치우기 어렵게 만드는 사람을 공격한다."/>
+<TEXT ID="66800100" Text="연수_백호"/>
+<TEXT ID="66902100" Text="카드병정 1 - 한개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902200" Text="카드병정 2 - 두개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902300" Text="카드병정 3 - 세개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902400" Text="카드병정 4 - 네개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902500" Text="카드병정 5 - 다섯개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902600" Text="카드병정 6 - 여섯개의 하트무늬를 가지고있다."/>
+<TEXT ID="66902700" Text="크게 웃고있는 입이 특징인 몬스터."/>
+<TEXT ID="66902800" Text="심통난 표정이 다가가기 어렵게 만든다."/>
+<TEXT ID="66902900" Text="달걀껍질이 깨지면 무엇인가 튀어나올것같다."/>
+<TEXT ID="66903000" Text="모습은 에벌레이지만 속도는 빠르다."/>
+<TEXT ID="66903100" Text="교활해 보이는 개구리 몬스터"/>
+<TEXT ID="66903200" Text="날카로운 앞이빨로 공격할것같다."/>
+<TEXT ID="66903300" Text="피곤해 보이는 눈과 모자가 특징이 몬스터"/>
+<TEXT ID="66903400" Text="몸의 앞과 뒷부분에[J]마크가 새겨진 카드병정"/>
+<TEXT ID="66903500" Text="몸의 앞과 뒷부분에[Q]마크가 새겨진 카드병정"/>
+<TEXT ID="66903600" Text="몸의 앞과 뒷부분에[K]마크가 새겨진 카드병정"/>
+<TEXT ID="66903700" Text="큰 소리를 내어 주변의 적을 꼼짝 못하게하는 기술을 가지고있다."/>
+<TEXT ID="66999100" Text="계왕권배운초목이"/>
+<TEXT ID="67900101" Text="파츄리"/>
+<TEXT ID="67900102" Text="카산드라"/>
+<TEXT ID="67900103" Text="알프레도"/>
+<TEXT ID="67900104" Text="세바스찬"/>
+<TEXT ID="67900105" Text="우쿠투"/>
+<TEXT ID="67900106" Text="바르고"/>
+<TEXT ID="67900107" Text="그로테스"/>
+<TEXT ID="67900108" Text="라쿤"/>
+<TEXT ID="67900109" Text="비숍"/>
+<TEXT ID="67900110" Text="게이트 키퍼"/>
+<TEXT ID="67900111" Text="네카타"/>
+<TEXT ID="67900112" Text="네코타"/>
+<TEXT ID="67900113" Text="세잔느"/>
+<TEXT ID="67900114" Text="알프"/>
+<TEXT ID="67900115" Text="바제트"/>
+<TEXT ID="67900116" Text="카산나"/>
+<TEXT ID="67900117" Text="하트 브레이커"/>
+<TEXT ID="67900118" Text="부쳐"/>
+<TEXT ID="67900119" Text="바레스"/>
+<TEXT ID="67900120" Text="반클리프 백작"/>
+<TEXT ID="67900121" Text="다크프리스트"/>
+<TEXT ID="67900122" Text="고스트 세바스찬"/>
+<TEXT ID="67900123" Text="프리손"/>
+<TEXT ID="67900124" Text="스콜필드"/>
+<TEXT ID="67900125" Text="프랑키"/>
+<TEXT ID="67900126" Text="디스트로이어"/>
+<TEXT ID="67900127" Text="고스트 카산나"/>
+<TEXT ID="67900128" Text="디스트루퍼"/>
+<TEXT ID="67900129" Text="샤마리"/>
+<TEXT ID="67900130" Text="라노프"/>
+<TEXT ID="67900131" Text="마검 솔리크"/>
+<TEXT ID="67900132" Text="쿠마리"/>
+<TEXT ID="67900133" Text="샤피론"/>
+<TEXT ID="67900134" Text="가룸"/>
+<TEXT ID="67900135" Text="바제트"/>
+<TEXT ID="67900136" Text="골도라"/>
+<TEXT ID="67900137" Text="코어 러쉬"/>
+<TEXT ID="67900138" Text="카오붐"/>
+<TEXT ID="67900139" Text="아크리스"/>
+<TEXT ID="67900140" Text="투룸바"/>
+<TEXT ID="67900141" Text="아이언 멘타"/>
+<TEXT ID="67900142" Text="벨크"/>
+<TEXT ID="67900143" Text="헤르만"/>
+<TEXT ID="67900144" Text="쿠샤스"/>
+<TEXT ID="67900145" Text="케루빔"/>
+<TEXT ID="67900146" Text="디솔레이터"/>
+<TEXT ID="67900147" Text="펑프킹"/>
+<TEXT ID="67900148" Text="하이돈"/>
+<TEXT ID="67900149" Text="알키오네"/>
+<TEXT ID="67900150" Text="케이론"/>
+<TEXT ID="67900151" Text="보노코"/>
+<TEXT ID="67900152" Text="프록시마"/>
+<TEXT ID="67900153" Text="빅 라프"/>
+<TEXT ID="67900154" Text="디베스"/>
+<TEXT ID="67900155" Text="케크롭스"/>
+<TEXT ID="67900156" Text="모크론"/>
+<TEXT ID="67900157" Text="카쿠스"/>
+<TEXT ID="67900158" Text="티아마트"/>
+<TEXT ID="67900159" Text="아르고스"/>
+<TEXT ID="67900160" Text="모아론"/>
+<TEXT ID="67900161" Text="파타곤"/>
+<TEXT ID="67900162" Text="케메론"/>
+<TEXT ID="67900163" Text="자하크"/>
+<TEXT ID="67900164" Text="카키슈"/>
+<TEXT ID="67900165" Text="데스 마스터"/>
+<TEXT ID="67900166" Text="마젠카"/>
+<TEXT ID="67900167" Text="카룸바"/>
+<TEXT ID="67900168" Text="케로반"/>
+<TEXT ID="67900169" Text="피다마"/>
+<TEXT ID="67900170" Text="케루빔"/>
+<TEXT ID="67900171" Text="레사스킹"/>
+<TEXT ID="67900172" Text="골도라"/>
+<TEXT ID="67900173" Text="카붐"/>
+<TEXT ID="67900174" Text="가이던"/>
+<TEXT ID="67900175" Text="마두르크"/>
+<TEXT ID="67900176" Text="파티스"/>
+<TEXT ID="67900177" Text="비브르"/>
+<TEXT ID="67900178" Text="뮤르달"/>
+<TEXT ID="67900179" Text="키마트"/>
+<TEXT ID="67900180" Text="쿤타레스"/>
+<TEXT ID="67900181" Text="멘타킹"/>
+<TEXT ID="67900182" Text="반타레스"/>
+<TEXT ID="67900183" Text="스토라스"/>
+<TEXT ID="67900184" Text="안타레스"/>
+<TEXT ID="67900185" Text="반클리프 백작"/>
+<TEXT ID="67900186" Text="본 드래곤"/>
+<TEXT ID="67900201" Text="아자젤LV71"/>
+<TEXT ID="67900202" Text="골드프록시아 LV70"/>
+<TEXT ID="67900203" Text="카오붐 LV69"/>
+<TEXT ID="67900204" Text="카키슈"/>
+<TEXT ID="67900205" Text="케루빔"/>
+<TEXT ID="67900206" Text="케로반"/>
+<TEXT ID="69010100" Text="난.. 그저 배가 고팠을 뿐인데.."/>
+<TEXT ID="69010130" Text="으흑~ "/>
+<TEXT ID="69010150" Text="난.. 저 하늘의 별이 되어.."/>
+<TEXT ID="69010200" Text="널.. 막아야 하는 데.. 윽"/>
+<TEXT ID="69010310" Text="다음번엔 꼭 널 먹고 말테다.."/>
+<TEXT ID="69010320" Text="이렇게 죽게 되다니 슬프다…"/>
+<TEXT ID="69010330" Text="나를 죽이다니.. 너를 기억하겠다…"/>
+<TEXT ID="69010400" Text="나는 다시 돌아온다…"/>
+<TEXT ID="69010430" Text="나 다시 돌아갈래.."/>
+<TEXT ID="69010600" Text="아.. 싸우지 말걸.."/>
+<TEXT ID="69020100" Text="죽여..버리.. 크윽"/>
+<TEXT ID="69020300" Text="난.. 왕이 되고 싶었을 뿐인데.."/>
+<TEXT ID="69020310" Text="꽁~~억~"/>
+<TEXT ID="69020320" Text="맹~~억~"/>
+<TEXT ID="69020400" Text="막강한 힘이 사라졌다."/>
+<TEXT ID="69020410" Text="토트.. 아프잖아."/>
+<TEXT ID="69020420" Text="윽 머리가 아프다.. 난 대체 왜.."/>
+<TEXT ID="69020440" Text="스스스스끼끼끼"/>
+<TEXT ID="69020500" Text="결국.. 그 녀석의 힘은 보잘 것 없었군.."/>
+<TEXT ID="69020520" Text="난.. 모든 걸 다 죽여야 하는데.."/>
+<TEXT ID="69030100" Text="윽.. 미미르들을 이끌어야 하는데.."/>
+<TEXT ID="69030130" Text="컥.. 손오공이라 했던 말 취소해."/>
+<TEXT ID="69030200" Text="아름답게 죽고싶다.."/>
+<TEXT ID="69030230" Text="엘..가.. 님.."/>
+<TEXT ID="69030300" Text="엘가님의 품으로.."/>
+<TEXT ID="69030330" Text="여긴 유벨, 날 이겼다."/>
+<TEXT ID="69030360" Text="방심하지 마라.. 난 다시 돌아온다."/>
+<TEXT ID="79010100" Text="뭐지? 내가 다시 살아난 건가?"/>
+<TEXT ID="79010130" Text="으흐흐 난 다시 돌아왔다."/>
+<TEXT ID="79010150" Text="아다다닷! 나의 칼.. 어 난 죽었었는데?"/>
+<TEXT ID="79010200" Text="크헐헐.. 막아야 한다. 막아야 한다.."/>
+<TEXT ID="79010310" Text="내가 돌아왔다!!"/>
+<TEXT ID="79010320" Text="이제 모두 내 세상이다!!"/>
+<TEXT ID="79010330" Text="모두 내 앞에 무릎을 꿃어라!!"/>
+<TEXT ID="79010400" Text="우하하하하하!!!! 내가 왔도다!!!"/>
+<TEXT ID="79010430" Text="어리섞은 것들!! 내 땅에 들어선 모든놈을 저주한다!!"/>
+<TEXT ID="79010600" Text="알 수 없는.. 힘이.. 다시 나에게.. 난 살아난건가?"/>
+<TEXT ID="79020100" Text="보..이는 모든 것을 죽인다.."/>
+<TEXT ID="79020300" Text="뭐지? 크하하! 역시 난 왕! 다시 돌아왔다."/>
+<TEXT ID="79020310" Text="꽁이~ 꽁이~"/>
+<TEXT ID="79020320" Text="맹이~ 맹이~"/>
+<TEXT ID="79020400" Text="막강한 힘이.. 다시 생겼다."/>
+<TEXT ID="79020410" Text="샥샥~ 나 죽지 않았던 건가?"/>
+<TEXT ID="79020420" Text="이제야 생각났다. 드래곤 원정대를 죽여라!"/>
+<TEXT ID="79020440" Text="스스스스스스~ 스스"/>
+<TEXT ID="79020500" Text="내가 살아나다니.. 이런 힘이 있었군."/>
+<TEXT ID="79020520" Text="난 다시 돌아왔다. 다 죽여버리겠어!"/>
+<TEXT ID="79030100" Text="역시.. 들은 대로 다시 되살아났다."/>
+<TEXT ID="79030130" Text="어.. 나 다시 살아난건가? 역시 난 손오공이었던가?"/>
+<TEXT ID="79030200" Text="아름답게 부활했다. 난 아름다움의 결정체!"/>
+<TEXT ID="79030230" Text="엘가님의 힘으로! 되살아났다! "/>
+<TEXT ID="79030300" Text="엘가님의 힘에 의해 되살아났다. "/>
+<TEXT ID="79030330" Text="여긴 유벨, 부활했다.."/>
+<TEXT ID="79030360" Text="워~~오오오 신성한 영혼이여 다시 내게 오라."/>
+<TEXT ID="633541207" Text="지옥의 화염"/>
+<TEXT ID="633560100" Text="다크 데빌링 (설명)"/>
+<TEXT ID="633560200" Text="다크 데빌가드  (설명)"/>
+<TEXT ID="633560300" Text="다크 크리쳐  (설명)"/>
+<TEXT ID="633560400" Text="다크 스켈드라크_던전  (설명)"/>
+<TEXT ID="633560500" Text="다크 데몬  (설명)"/>
+<TEXT ID="633560600" Text="지옥의 감시자  (설명)"/>
+<TEXT ID="633570100" Text="하피 블론드  (설명)"/>
+<TEXT ID="633570200" Text="하피 브룬  (설명)"/>
+<TEXT ID="633570300" Text="하피 셀레브  (설명)"/>
+<TEXT ID="633570400" Text="영혼 추적자  (설명)"/>
+<TEXT ID="633570500" Text="영혼 강탈자  (설명)"/>
+<TEXT ID="633570600" Text="영혼 감시자  (설명)"/>
+<TEXT ID="633570700" Text="기니어 칼크  (설명)"/>
+<TEXT ID="633570800" Text="메탈 드라크  (설명)"/>
+<TEXT ID="633570900" Text="메탈 하운드  (설명)"/>
+<TEXT ID="633571100" Text="혼드 골렘 (정예)  (설명)"/>
+<TEXT ID="633571200" Text="기니어 배럴 (정예)  (설명)"/>
+<TEXT ID="633571300" Text="메탈 캄파링 (정예)  (설명)"/>
+<TEXT ID="633571400" Text="세티로스 (보스)  (설명)"/>
+<TEXT ID="633571500" Text="캄파 머신 (설명)"/>
+<TEXT ID="633571600" Text="세티로스 레이저 (설명)"/>
+<TEXT ID="796126101" Text="파리스가 리벤지"/>
+<TEXT ID="5871003" Text="가디언이 레드팀 소유가 되었습니다."/>
+<TEXT ID="5871103" Text="가디언이 블루팀 소유가 되었습니다."/>
+<TEXT ID="5871000" Text="점령전 레드 가디언 버프"/>
+<TEXT ID="5871100" Text="점령전 블루 가디언 버프"/>
+<TEXT ID="5871001" Text="점령전 레드 가디언 버프"/>
+<TEXT ID="5871101" Text="점령전 블루 가디언 버프"/>
+<TEXT ID="6001011" Text="초목 근접 공격 "/>
+<TEXT ID="6001012" Text="초목 근접 공격 2"/>
+<TEXT ID="6001013" Text="초목 원거리 1"/>
+<TEXT ID="6001014" Text="초목 원거리 2"/>
+<TEXT ID="695851100" Text="3초간 이동속도 10%가 감소합니다."/>
+<TEXT ID="695851200" Text="3초간 이동속도 20%가 감소합니다"/>
+<TEXT ID="695851300" Text="3초간 이동속도 30%가 감소합니다."/>
+<TEXT ID="5810220" Text="가디언 냉기 폭풍"/>
+<TEXT ID="5810221" Text="가디언 냉기 폭풍"/>
+<TEXT ID="5810222" Text="가디언 냉기 폭풍"/>
+<TEXT ID="8104700" Text="초콜렛단 보스 쿠피"/>
+<TEXT ID="8104800" Text="라이벌 다크맨"/>
+<TEXT ID="8104600" Text="애정파괴단 보스 아데미안"/>
+<TEXT ID="68104600" Text="애정파괴단 보스 아데미안 (설명)"/>
+<TEXT ID="68104800" Text="라이벌 다크맨 (설명)"/>
+<TEXT ID="8106300" Text="암흑의 거인"/>
+<TEXT ID="68106300" Text="암흑의 불길한 기운을 내뿡어내는 거인(설명)"/>
+<TEXT ID="8106400" Text="지옥불의 거인"/>
+<TEXT ID="68106400" Text="지옥불의 이글 거리는 기운을 내뿡어내는 거인(설명)"/>
+<TEXT ID="8106500" Text="혹한의 거인"/>
+<TEXT ID="68106500" Text="혹한의 매서운 기운을 내뿡어내는 거인(설명)"/>
+<TEXT ID="4701700" Text="포링"/>
+<TEXT ID="4701800" Text="엔젤링"/>
+<TEXT ID="4701810" Text="거대 엔젤링"/>
+<TEXT ID="4701820" Text="미니 엔젤링"/>
+<TEXT ID="4701900" Text="고블린 해머"/>
+<TEXT ID="4702000" Text="고블린 도끼"/>
+<TEXT ID="4702100" Text="오크워리어"/>
+<TEXT ID="4702200" Text="하이오크"/>
+<TEXT ID="64702200" Text="숙련된 오크 전사"/>
+<TEXT ID="4702300" Text="오크 히어로"/>
+<TEXT ID="64702300" Text="오크 부족의 우두머리"/>
+<TEXT ID="4702400" Text="좀비"/>
+<TEXT ID="4702500" Text="구울"/>
+<TEXT ID="4702600" Text="미믹"/>
+<TEXT ID="4702700" Text="레이쓰"/>
+<TEXT ID="4702800" Text="헌터 플라이"/>
+<TEXT ID="4702900" Text="이블 드루이드"/>
+<TEXT ID="4703000" Text="다크 일루젼"/>
+<TEXT ID="4703100" Text="다크 로드"/>
+<TEXT ID="8108100" Text="다크엔젤"/>
+<TEXT ID="8108200" Text="지옥불 키마트"/>
+<TEXT ID="8108300" Text="혹한의 레그노"/>
+<TEXT ID="8108400" Text="혹한의 아그니스"/>
+<TEXT ID="5842301" Text="중독"/>
+<TEXT ID="65842301" Text="트랩의 독에 중독 되어 3초당 HP 50씩 감소합니다"/>
+<TEXT ID="5842401" Text="출혈"/>
+<TEXT ID="65842401" Text="트랩의 공격에  출혈 상태가 되어 3초당 HP 50씩 감소합니다"/>
+<TEXT ID="5842501" Text="화상"/>
+<TEXT ID="65842501" Text="트랩의 열기에 화상을 입어 3초당 HP 50씩 감소합니다"/>
+<TEXT ID="3543100" Text="라그엘"/>
+<TEXT ID="4701710" Text="포포링"/>
+<TEXT ID="4701720" Text="드롭프스"/>
+<TEXT ID="2501" Text="맹독"/>
+<TEXT ID="12501" Text="맹독에 감염되어 15초간 2초마다 -5의 HP가 감소된다."/>
+<TEXT ID="6071700" Text="거대 황금초목이"/>
+<TEXT ID="6071800" Text="미니 황금초목이"/>
+<TEXT ID="6071900" Text="미니 초목이"/>
+<TEXT ID="6071901" Text="미니 별잎 초목이"/>
+<TEXT ID="6071902" Text="미니 까칠이"/>
+<TEXT ID="60189041" Text="결빙 상태가 되어 움직일 수 없습니다."/>
+<TEXT ID="6071102" Text="결빙 묶기"/>
+<TEXT ID="7271100" Text="빨간코 리마"/>
+<TEXT ID="7271200" Text="사탕 쿰바"/>
+<TEXT ID="7271300" Text="산타 설인"/>
+<TEXT ID="7271400" Text="추위타는 스노링"/>
+<TEXT ID="7271500" Text="산타스켈"/>
+<TEXT ID="7271600" Text="방울 초목이"/>
+<TEXT ID="7271700" Text="산타 아르테미스"/>
+<TEXT ID="7271800" Text="막대사탕 스노이크"/>
+<TEXT ID="7271900" Text="겨울 숲 라돌프"/>
+<TEXT ID="7272000" Text="베이돌리"/>
+<TEXT ID="7272100" Text="백작 부인 매리"/>
+<TEXT ID="7272200" Text="눈의 여왕 바토르"/>
+<TEXT ID="7272300" Text="산타 팽킨"/>
+<TEXT ID="7272400" Text="포악한 마젤란"/>
+<TEXT ID="7272500" Text="산타 아르미스"/>
+<TEXT ID="7272600" Text="크리스마스 보물상자"/>
+<TEXT ID="7272700" Text="작은 베이돌리"/>
+<TEXT ID="7272800" Text="남작 부인 마리"/>
+<TEXT ID="7281100" Text="바다의 악당 타이푼"/>
+<TEXT ID="7281200" Text="황소 미노타우르스"/>
+<TEXT ID="7281300" Text="유로페"/>
+<TEXT ID="7281400" Text="괴물게 키랩"/>
+<TEXT ID="7281500" Text="거대사자 카이온"/>
+<TEXT ID="7281600" Text="쌍둥이자매 폴락스와 캐스터"/>
+<TEXT ID="7281700" Text="쌍둥이자매 폴락스와 캐스터"/>
+<TEXT ID="7281605" Text="쌍둥이 자매 폴락스"/>
+<TEXT ID="7281705" Text="쌍둥이 자매 캐스터"/>
+<TEXT ID="7281800" Text="지옥의 신 하데스"/>
+<TEXT ID="7281900" Text="괴물전갈 킹스피온"/>
+<TEXT ID="7282000" Text="현명한 켄타우르스 케이론"/>
+<TEXT ID="7282100" Text="바다뱀 히드라"/>
+<TEXT ID="7282200" Text="바다뱀 히드라"/>
+<TEXT ID="7282300" Text="바다뱀 히드라"/>
+<TEXT ID="7282400" Text="침식당한 피오스 "/>
+<TEXT ID="7282500" Text="사악한 뱀 서펜즈"/>
+<TEXT ID="7282600" Text="플릭스"/>
+<TEXT ID="7282700" Text="헤라클레스"/>
+<TEXT ID="7282800" Text="페르세우스"/>
+<TEXT ID="3542500" Text="엘가의 보물 상자"/>
+<TEXT ID="7902100" Text="검은빛 고통받는 좀비"/>
+<TEXT ID="7902200" Text="검은빛 영혼잃은 하녀"/>
+<TEXT ID="7902300" Text="검은빛 영혼잃은 지배인"/>
+<TEXT ID="7902400" Text="검은빛 영혼잃은 영애"/>
+<TEXT ID="7902500" Text="검은빛 영혼잃은 가고일"/>
+<TEXT ID="7902600" Text="검은빛 고통받는 가고일"/>
+<TEXT ID="7902700" Text="검은빛 영혼 사냥군"/>
+<TEXT ID="7902800" Text="검은빛 고통의 주인"/>
+<TEXT ID="7900300" Text="하늘빛 벌레"/>
+<TEXT ID="7900400" Text="하늘빛 다일"/>
+<TEXT ID="7900500" Text="하늘빛 토투"/>
+<TEXT ID="7900600" Text="하늘빛 카라챠"/>
+<TEXT ID="7900700" Text="하늘빛 꼬깨"/>
+<TEXT ID="7900800" Text="하늘빛 엔다이론"/>
+<TEXT ID="7900900" Text="하늘빛 리치"/>
+<TEXT ID="7901000" Text="하늘빛 파수꾼"/>
+<TEXT ID="7901100" Text="하늘빛 궤짝"/>
+<TEXT ID="7901200" Text="하늘빛 마법원령"/>
+<TEXT ID="7901300" Text="하늘빛 아티스"/>
+<TEXT ID="7901400" Text="하늘빛 수호자"/>
+<TEXT ID="7901500" Text="하늘빛 더크"/>
+<TEXT ID="7901600" Text="하늘빛 늑대인간"/>
+<TEXT ID="7901700" Text="하늘빛 펜니르"/>
+<TEXT ID="7901800" Text="하늘빛 쥐라드"/>
+<TEXT ID="7901900" Text="하늘빛 늑대"/>
+<TEXT ID="7902000" Text="하늘빛 포키"/>
+<TEXT ID="7902900" Text="하늘빛 투사 켄타"/>
+<TEXT ID="7903000" Text="하늘빛 정찰병 켄타"/>
+<TEXT ID="7903100" Text="하늘빛 란테아"/>
+<TEXT ID="7903200" Text="하늘빛 메를로"/>
+<TEXT ID="7903210" Text="하늘빛 판 대장"/>
+<TEXT ID="7903220" Text="하늘빛 판 대장"/>
+<TEXT ID="7903300" Text="우주도둑"/>
+<TEXT ID="5910000" Text="별의 기사 스톰-소환(공용)  0"/>
+<TEXT ID="5910100" Text="[소위] 별의 기사 스톰"/>
+<TEXT ID="5910200" Text="[중위] 별의 기사 스톰"/>
+<TEXT ID="5910300" Text="[대위] 별의 기사 스톰"/>
+<TEXT ID="5910400" Text="[소령] 별의 기사 스톰"/>
+<TEXT ID="5910500" Text="[중령] 별의 기사 스톰"/>
+<TEXT ID="5910600" Text="[대령] 별의 기사 스톰"/>
+<TEXT ID="5910700" Text="[준장] 별의 기사 스톰"/>
+<TEXT ID="5910800" Text="[소장] 별의 기사 스톰"/>
+<TEXT ID="5910900" Text="[중장] 별의 기사 스톰"/>
+<TEXT ID="5911000" Text="[대장] 별의 기사 스톰"/>
+<TEXT ID="5920000" Text="별의 기사 블레이즈-소환(공용)  0"/>
+<TEXT ID="5920100" Text="[소위] 별의 기사 블레이즈"/>
+<TEXT ID="5920200" Text="[중위] 별의 기사 블레이즈"/>
+<TEXT ID="5920300" Text="[대위] 별의 기사 블레이즈"/>
+<TEXT ID="5920400" Text="[소령] 별의 기사 블레이즈"/>
+<TEXT ID="5920500" Text="[중령] 별의 기사 블레이즈"/>
+<TEXT ID="5920600" Text="[대령] 별의 기사 블레이즈"/>
+<TEXT ID="5920700" Text="[준장] 별의 기사 블레이즈"/>
+<TEXT ID="5920800" Text="[소장] 별의 기사 블레이즈"/>
+<TEXT ID="5920900" Text="[중장] 별의 기사 블레이즈"/>
+<TEXT ID="5921000" Text="[대장] 별의 기사 블레이즈"/>
+<TEXT ID="5921100" Text="[루키] 별의 기사 블레이즈"/>
+<TEXT ID="5930000" Text="별의 기사 가이아-소환(공용)  0"/>
+<TEXT ID="5930100" Text="[소위] 별의 기사 가이아"/>
+<TEXT ID="5930200" Text="[중위] 별의 기사 가이아"/>
+<TEXT ID="5930300" Text="[대위] 별의 기사 가이아"/>
+<TEXT ID="5930400" Text="[소령] 별의 기사 가이아"/>
+<TEXT ID="5930500" Text="[중령] 별의 기사 가이아"/>
+<TEXT ID="5930600" Text="[대령] 별의 기사 가이아"/>
+<TEXT ID="5930700" Text="[준장] 별의 기사 가이아"/>
+<TEXT ID="5930800" Text="[소장] 별의 기사 가이아"/>
+<TEXT ID="5930900" Text="[중장] 별의 기사 가이아"/>
+<TEXT ID="5931000" Text="[대장] 별의 기사 가이아"/>
+<TEXT ID="5931100" Text="[루키] 별의 기사 가이아"/>
+<TEXT ID="5940000" Text="별의 기사 라이트닝-소환(공용)  0"/>
+<TEXT ID="5940100" Text="[소위] 별의 기사 라이트닝"/>
+<TEXT ID="5940200" Text="[중위] 별의 기사 라이트닝"/>
+<TEXT ID="5940300" Text="[대위] 별의 기사 라이트닝"/>
+<TEXT ID="5940400" Text="[소령] 별의 기사 라이트닝"/>
+<TEXT ID="5940500" Text="[중령] 별의 기사 라이트닝"/>
+<TEXT ID="5940600" Text="[대령] 별의 기사 라이트닝"/>
+<TEXT ID="5940700" Text="[준장] 별의 기사 라이트닝"/>
+<TEXT ID="5940800" Text="[소장] 별의 기사 라이트닝"/>
+<TEXT ID="5940900" Text="[중장] 별의 기사 라이트닝"/>
+<TEXT ID="5941000" Text="[대장] 별의 기사 라이트닝"/>
+<TEXT ID="5941100" Text="[루키] 별의 기사 라이트닝"/>
+<TEXT ID="5950000" Text="별의 기사 프리징-소환(공용)  0"/>
+<TEXT ID="5950100" Text="[소위] 별의 기사 프리징"/>
+<TEXT ID="5950200" Text="[중위] 별의 기사 프리징"/>
+<TEXT ID="5950300" Text="[대위] 별의 기사 프리징"/>
+<TEXT ID="5950400" Text="[소령] 별의 기사 프리징"/>
+<TEXT ID="5950500" Text="[중령] 별의 기사 프리징"/>
+<TEXT ID="5950600" Text="[대령] 별의 기사 프리징"/>
+<TEXT ID="5950700" Text="[준장] 별의 기사 프리징"/>
+<TEXT ID="5950800" Text="[소장] 별의 기사 프리징"/>
+<TEXT ID="5950900" Text="[중장] 별의 기사 프리징"/>
+<TEXT ID="5951000" Text="[대장] 별의 기사 프리징"/>
+<TEXT ID="5951100" Text="[루키] 별의 기사 프리징"/>
+<TEXT ID="5960000" Text="별의 기사 블랙홀-소환(공용)  0"/>
+<TEXT ID="5960100" Text="[소위] 별의 기사 블랙홀"/>
+<TEXT ID="5960200" Text="[중위] 별의 기사 블랙홀"/>
+<TEXT ID="5960300" Text="[대위] 별의 기사 블랙홀"/>
+<TEXT ID="5960400" Text="[소령] 별의 기사 블랙홀"/>
+<TEXT ID="5960500" Text="[중령] 별의 기사 블랙홀"/>
+<TEXT ID="5960600" Text="[대령] 별의 기사 블랙홀"/>
+<TEXT ID="5960700" Text="[준장] 별의 기사 블랙홀"/>
+<TEXT ID="5960800" Text="[소장] 별의 기사 블랙홀"/>
+<TEXT ID="5960900" Text="[중장] 별의 기사 블랙홀"/>
+<TEXT ID="5961000" Text="[대장] 별의 기사 블랙홀"/>
+<TEXT ID="5961100" Text="[루키] 별의 기사 블랙홀"/>
+<TEXT ID="7903371" Text="킥킥 우주의 모든 보물은 내것이다!!"/>
+<TEXT ID="7903372" Text="날 잡을수 있으면 한번 잡아 보시던가!! 큭큭"/>
+<TEXT ID="7903373" Text="날 잡을수 있으면 한번 잡아 보시던가!! 큭큭"/>
+<TEXT ID="7903374" Text="안되 내 보물을 뺏길순 없어!!"/>
+<TEXT ID="7903375" Text="후후 내 속도를 따라올순 없지!! 내가 바로  우주제일의 도둑이시다 !!"/>
+<TEXT ID="7902701" Text="영혼을 사냥하는 지옥의 사신. 그를 항상 조심해야 한다."/>
+<TEXT ID="7902801" Text="가고일이 폭주하여 변한 거대 가고일 조용하지만 언제 어떻게 돌변할지 모른다."/>
+<TEXT ID="7281101" Text="물과 바람을 사용하는 무서운 폭군. 소용돌이 공격은 항상 위협적이다."/>
+<TEXT ID="7281601" Text="똑같은 공격. 똑같은 스킬로 공격하는 쌍둥이 자매. 뒤를 항상 조심해야 한다."/>
+<TEXT ID="7282001" Text="활의 명수. 수십미터 떨어진 적도 정확하게 맞춘다. 케이론이 하늘을 보면 화살비가 떨어진다. "/>
+<TEXT ID="33580301" Text="황금 우주도둑"/>
+<TEXT ID="7900881" Text="온몸을 근육으로 감싸고 있는 물의 전사"/>
+<TEXT ID="7901451" Text="별의 갑옷을 입고 적용 물리치는 전사"/>
+<TEXT ID="7901761" Text="거대한 뿔을 이용해 적을 물리치는 수호동물"/>
+<TEXT ID="7903215" Text="불이 붙은 망치를 휘두르는 용감한 전사"/>
+<TEXT ID="7903500" Text="백곰"/>
+<TEXT ID="7903600" Text="서리늑대"/>
+<TEXT ID="7903700" Text="샤포"/>
+<TEXT ID="7903800" Text="히피양"/>
+<TEXT ID="7903900" Text="히찌"/>
+<TEXT ID="7904000" Text="호박머리 너구리"/>
+<TEXT ID="7904100" Text="늑대"/>
+<TEXT ID="7904200" Text="아페프"/>
+<TEXT ID="7904300" Text="별가사리 라라라"/>
+<TEXT ID="7904400" Text="복어"/>
+<TEXT ID="7904500" Text="플로레스"/>
+<TEXT ID="7904600" Text="미스르"/>
+<TEXT ID="7904700" Text="상어"/>
+<TEXT ID="7904800" Text="산란기 복어"/>
+<TEXT ID="7904900" Text="케로베로스"/>
+<TEXT ID="7905000" Text="카지모도"/>
+<TEXT ID="7905100" Text="다크버스트"/>
+<TEXT ID="7905200" Text="상처 입은 구울"/>
+<TEXT ID="7905300" Text="네카타"/>
+<TEXT ID="7905400" Text="스켈레톤 엉클"/>
+<TEXT ID="7905500" Text="스켈레톤 투척병"/>
+<TEXT ID="7905600" Text="갈퀴 거미"/>
+<TEXT ID="7905700" Text="수정 올름"/>
+<TEXT ID="7905800" Text="독거미"/>
+<TEXT ID="7905900" Text="진화 개미"/>
+<TEXT ID="7906000" Text="진화 전갈"/>
+<TEXT ID="7906100" Text="샤울라 레사스"/>
+<TEXT ID="7906200" Text="안타레스"/>
+<TEXT ID="7906300" Text="도축자"/>
+<TEXT ID="7906400" Text="키마트"/>
+<TEXT ID="7906500" Text="바르곤족 보초"/>
+<TEXT ID="7906600" Text="카쿠스"/>
+<TEXT ID="7906700" Text="바르곤족 길잡이"/>
+<TEXT ID="7906800" Text="파멸 척살자"/>
+<TEXT ID="7906900" Text="심장파괴자"/>
+<TEXT ID="7907000" Text="프랑크"/>
+<TEXT ID="7907100" Text="킹스피온 회복 전갈"/>
+<TEXT ID="7907200" Text="하이드론"/>
+<TEXT ID="7907300" Text="아이스 하이드론"/>
+<TEXT ID="7907400" Text="얼음 정령 보초"/>
+<TEXT ID="7907500" Text="긴판 얼음 슬라임"/>
+<TEXT ID="7907600" Text="데몬 크리처"/>
+<TEXT ID="7907700" Text="프로토수쿠스 다일"/>
+<TEXT ID="7907800" Text="살코수쿠스 다일"/>
+<TEXT ID="7281201" Text="유로페를 따르는 충성스러운 황소. 황소의 뿔과 황소의 낫을 조심해야 한다."/>
+<TEXT ID="7281301" Text="충성스러운 미노타우르스를 부리는 새침한 미녀."/>
+<TEXT ID="7281401" Text="수천년동안 바다를 군림해온 거대한 괴물게. 괴물게의 집게발과 등에서 발사되는 가시 공격은 너무나 위험하다."/>
+<TEXT ID="7281801" Text="어둠을 다스리는 죽음의 신이자 지옥의 신."/>
+<TEXT ID="7281901" Text="맹독을 이용해 모든것을 오염시키는 거대한 전갈. 그에게 붙잡히지 않는게 좋을 것이다."/>
+<TEXT ID="7282101" Text="바다를 다스리는 바다의 괴물. 히드라의 머리는 끊임없이 공격해 올 것이다."/>
+<TEXT ID="7282501" Text="별자리 세계를 위험에 빠뜨린 거대한 이무기. 서펜즈의 모든 공격을 언제나 위협적이다."/>
+<TEXT ID="7282401" Text="서펜즈에게 정신을 뺏앗긴 피오스. 정신을 차리지 못한 피오스는 위험할 것이다."/>
+<TEXT ID="7903901" Text="뿔로 공격하는 무서운 양"/>
+<TEXT ID="7904201" Text="커다란 집게발로 언제 공격할지 모른다"/>
+<TEXT ID="7904901" Text="머리가 세개 달린 무서운 괴물"/>
+<TEXT ID="7906201" Text="무섭게 생긴 거대전갈"/>
+<TEXT ID="7906401" Text="도끼를 휘두르는 강력한 파괴자"/>
+<TEXT ID="7907201" Text="날카로운 손을 휘둘러 모든것을 가른다."/>
+<TEXT ID="7908500" Text="피오스 알"/>
+<TEXT ID="7281440" Text="이동불가"/>
+<TEXT ID="72814411" Text="이동불가 상태 입니다."/>
+<TEXT ID="7910000" Text="돌 조각상"/>
+<TEXT ID="7910100" Text="돌 사자"/>
+<TEXT ID="7910200" Text="혼령의 불"/>
+<TEXT ID="7910300" Text="향로"/>
+<TEXT ID="7910400" Text="양귀비"/>
+<TEXT ID="7910500" Text="토병"/>
+<TEXT ID="7910600" Text="토병 대장"/>
+<TEXT ID="7910700" Text="원혼의 검"/>
+<TEXT ID="7910900" Text="부서진 조각상"/>
+<TEXT ID="7911000" Text="원혼귀"/>
+<TEXT ID="7911100" Text="원악귀"/>
+<TEXT ID="7911200" Text="황제의 시녀"/>
+<TEXT ID="7911300" Text="구주삼괴"/>
+<TEXT ID="7910800" Text="되살아난 도굴꾼"/>
+<TEXT ID="7911400" Text="황제의 고서"/>
+<TEXT ID="7911500" Text="기린"/>
+<TEXT ID="7911600" Text="황제의 보물"/>
+<TEXT ID="7911700" Text="돌사자 짱오"/>
+<TEXT ID="7911800" Text="토병 수호대장군"/>
+<TEXT ID="7911900" Text="후오 황제"/>
+<TEXT ID="7912000" Text="삼괴"/>
+<TEXT ID="7912100" Text="저주받은 신하"/>
+<TEXT ID="7912200" Text="저주받은 보물상자"/>
+<TEXT ID="7912300" Text="황실 심령술사"/>
+<TEXT ID="7912400" Text="황실 척살자"/>
+<TEXT ID="7913300" Text="황제의 참모술사"/>
+<TEXT ID="7912600" Text="황제의 경호병사"/>
+<TEXT ID="7912700" Text="황제의 돌격병사"/>
+<TEXT ID="7912800" Text="원악귀"/>
+<TEXT ID="7912900" Text="황제의 주술병사"/>
+<TEXT ID="7913000" Text="주술병사의 소환괴물"/>
+<TEXT ID="7913100" Text="화난 매운 만두"/>
+<TEXT ID="7913200" Text="화난 우육면"/>
+<TEXT ID="7913400" Text="할로윈 제이슨"/>
+<TEXT ID="7913500" Text="정령 마법사"/>
+<TEXT ID="7913600" Text="화난 늪지 괴물"/>
+<TEXT ID="7913700" Text="호박머리 너구리"/>
+<TEXT ID="7913800" Text="뼈다귀 다일"/>
+<TEXT ID="7913900" Text="유령 나무 거미"/>
+<TEXT ID="7914000" Text="유령 사마귀"/>
+<TEXT ID="7914100" Text="과자 골렘"/>
+<TEXT ID="7914200" Text="쿠키 미니언"/>
+<TEXT ID="7914300" Text="키위 푸딩"/>
+<TEXT ID="7914400" Text="숲 지킴이"/>
+<TEXT ID="7914500" Text="숲 지킴이 보초"/>
+<TEXT ID="7914600" Text="초코 미니언"/>
+<TEXT ID="7914700" Text="사탕 골렘"/>
+<TEXT ID="7914800" Text="귀족 악령"/>
+<TEXT ID="7914900" Text="귀부인 악령"/>
+<TEXT ID="7915000" Text="길 잃은 기사"/>
+<TEXT ID="7915100" Text="하인 악령"/>
+<TEXT ID="7915200" Text="집사 악령"/>
+<TEXT ID="7915300" Text="가고일 석상"/>
+<TEXT ID="7915400" Text="할로윈 악령"/>
+<TEXT ID="7915500" Text="듀라만"/>
+<TEXT ID="7915600" Text="할로윈 집사"/>
+<TEXT ID="7915700" Text="엘림의 악령"/>
+<TEXT ID="7915800" Text="할로윈 기사"/>
+<TEXT ID="7915900" Text="잭 오 랜턴"/>
+<TEXT ID="7916000" Text="할로윈테마 보물 상자"/>
+<TEXT ID="7916100" Text="화난 가짜 산타"/>
+<TEXT ID="7916200" Text="빅 산타 설인"/>
+<TEXT ID="7916300" Text="덜덜떠는 스노링"/>
+<TEXT ID="7916400" Text="스트레스 받은 산타 아르미스"/>
+<TEXT ID="7916500" Text="회오리 사탕 스노이크(희귀)"/>
+<TEXT ID="7916600" Text="분노한 눈의 여왕 바토르"/>
+<TEXT ID="7916700" Text="감지 폭탄"/>
+<TEXT ID="7916800" Text="부두 일꾼"/>
+<TEXT ID="7916900" Text="부두 짐꾼"/>
+<TEXT ID="7917000" Text="부두 경비원"/>
+<TEXT ID="7917100" Text="번화가 싸움꾼"/>
+<TEXT ID="7917300" Text="자동 수리 상자"/>
+<TEXT ID="7917400" Text="오크통 순찰 로봇"/>
+<TEXT ID="7917500" Text="뒷골목 싸움꾼"/>
+<TEXT ID="7917600" Text="고장난 자판기"/>
+<TEXT ID="7917800" Text="자동 수리 상자-XD"/>
+<TEXT ID="7917900" Text="오크통 경비 로봇"/>
+<TEXT ID="7918000" Text="갱 조직원"/>
+<TEXT ID="7918100" Text="고장난 경비 로봇"/>
+<TEXT ID="7918300" Text="불곰 해리"/>
+<TEXT ID="7918301" Text="메트로시티 도심가를 관리하는 조직 내 행동 대장이다."/>
+<TEXT ID="7918400" Text="부두 경비-SP"/>
+<TEXT ID="7918401" Text="메트로시티 항구를 관리하는 부두 경비로 엄청난 힘과 매의 눈을 가졌다."/>
+<TEXT ID="7918500" Text="죠나단"/>
+<TEXT ID="7918501" Text="메트로시티 갱단의 보스 죠나단으로 형을 매우 좋아한다."/>
+<TEXT ID="7918600" Text="죠셉"/>
+<TEXT ID="7918601" Text="메트로시티 갱단의 보스 죠셉으로 동생을 사랑하고 모든 사건의 원흉인 인물이다."/>
+<TEXT ID="7918700" Text="투검술의 달인"/>
+<TEXT ID="7918800" Text="폭탄 투척 달인"/>
+<TEXT ID="7918900" Text="권총술 달인"/>
+</STRING_TABLE_LOCAL>

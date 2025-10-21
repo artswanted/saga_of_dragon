@@ -1,0 +1,1 @@
+@start Release\Dragonica_Internal.exe /SingleMode

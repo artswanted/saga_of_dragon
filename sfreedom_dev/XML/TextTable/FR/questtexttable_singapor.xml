@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><TEXT_TABLE><TEXT ID="10435100" Text="Union of Spirit"/>
+<TEXT ID="10435102" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Repair Dimension Stabilizer
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10435121" Text="Give me Wave Stabilizer."/>
+<TEXT ID="10435126" Text="Lucky not to be late."/>
+<TEXT ID="10435123" Text="1 minute left. Before it gets too late, we need to equip Wave Stabilizer onto Dimension Stabilizer."/>
+<TEXT ID="10435124" Text="What are you doing? The dimension has been collapsed."/>
+<TEXT ID="10435125" Text="10 seconds left. 9…8…7…"/>
+<TEXT ID="10435111" Text="Repair Dimension Stabilizer"/>
+<TEXT ID="10435000" Text="Find Wave Stabilizer"/>
+<TEXT ID="10435002" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Find Wave Stabilizer
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Labolatory - Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10435021" Text="Dimension Stabilizer cannot stand anymore."/>
+<TEXT ID="10435026" Text="Is it Wave Stabilizer? Please give it to me now."/>
+<TEXT ID="10435023" Text="Since Dimension Stabilizer still stands, dimension collaspe hasn&#39;t happened yet.%%
+But we don&#39;t know how long it can last.
+Wave Stabilizer should be found quickly.%%
+Wave Stabilizer was stolen by Jojo brothers in [Metro City Pier]."/>
+<TEXT ID="10435024" Text="Two dimensions will collapse if it goes like this."/>
+<TEXT ID="10435025" Text="Dimension Stabilizer will soon reach limitation."/>
+<TEXT ID="10435011" Text="Defeat Jonathan"/>
+<TEXT ID="10435012" Text="Defeat Joseph"/>
+<TEXT ID="10435013" Text="Wave Stabilizer"/>
+<TEXT ID="10434900" Text="Welcome to Metro City."/>
+<TEXT ID="10434902" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Talk to Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10434921" Text="You…? Did you pass through the Sinkhole?"/>
+<TEXT ID="10434926" Text="Can you help me please?%%
+This is {C=0xFFFF0000/}Portable Dimension Stabilizer{C=0xFF4D0D08/}.
+If you equip this,
+you would find it more stable to move around in this world.%%
+Also, {C=0xFFFF0000/}without Metro City Entrance Ticket{C=0xFF4D0D08/}you won&#39;t"/>
+<TEXT ID="10434923" Text="You are from a world called Dragonica?
+Hmm..interesting.
+I&#39;m Dr. Nicola and this is Metro City. %%
+I&#39;ve been conducting my study about dimension shifting.%%
+The machine next to me makes dimension passage.%%
+For some reasons, right after opening dimension "/>
+<TEXT ID="10434924" Text="Please move away if you have nothing to talk about. This world might disappear."/>
+<TEXT ID="10434925" Text="What are you curious about?"/>
+<TEXT ID="10434911" Text="Talk to Nicola"/>
+<TEXT ID="10435400" Text="Jojo&#39;s peculiar jailbreak"/>
+<TEXT ID="10435402" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Defeat Jojo brothers
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10435421" Text="Jojo Brothers have escaped from Alkam Prison."/>
+<TEXT ID="10435426" Text="How would Jojo brothers escape from Alkam Prison?"/>
+<TEXT ID="10435423" Text="Alkam Prison is famous for strict security but Jojo Brothers has escaped from it and came to [Metro City Port].%%
+I can&#39;t fall asleep because I&#39;m worried about them coming to attack my laboratory."/>
+<TEXT ID="10435424" Text="Jojo Brothers might not just stop from stealing components, they might destroy the laboratory."/>
+<TEXT ID="10435425" Text="What&#39;s the sound outside? Is it…Jojo brothers?"/>
+<TEXT ID="10435411" Text="Defeat Jonathan"/>
+<TEXT ID="10435412" Text="Defeat Joseph"/>
+<TEXT ID="10435300" Text="A war against crime and violence"/>
+<TEXT ID="10435302" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Defeat gang members
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Nicola
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}
+Metro "/>
+<TEXT ID="10435321" Text="Jojo Brothers and his subordinates are troubles."/>
+<TEXT ID="10435326" Text="Thanks to %name% the power of Metro City gangs has been weaker. Thank you."/>
+<TEXT ID="10435323" Text="Although Jojo Brothers were captured, the subordinates are still out there.%% We don&#39;t have power to stop them due to lack of police officers in Metro City.%% I hope %name% can help us out."/>
+<TEXT ID="10435324" Text="If it stays this way, this laboratory will also be taken over by them."/>
+<TEXT ID="10435325" Text="Are you looking for the entrance for [Metro City Port]?"/>
+<TEXT ID="10435311" Text="Defeat Gang members"/>
+<TEXT ID="10435200" Text="How do I close…Sinkhole?"/>
+<TEXT ID="10435202" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Collect 30ea of Titanium Ore
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Dimension Stabilizer
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10435221" Text="(beep..beep….)Start Sinkhole extinction system. (beep…)Check energy capacity. Error occurred."/>
+<TEXT ID="10435226" Text="Energy charge completed. Operate Sinkhole extinction system."/>
+<TEXT ID="10435223" Text="Energy capacity is insufficient to maintain system. Please recharge energy.%%
+Lack of energy.%%
+System is downed. Switch to maintenance mode."/>
+<TEXT ID="10435224" Text="Stop operation when energy is all used. 
+Sinkhole maintenance system is downed.%%
+Expected situation. Danger of dimension collapse due to Sinkhole extension."/>
+<TEXT ID="10435225" Text="Current energy capacity 3%. Possible to continue maintain mode for 30minutes. Starting count down."/>
+<TEXT ID="10435211" Text="Titanium Ore"/>
+<TEXT ID="10434800" Text="Where is next…destination?"/>
+<TEXT ID="10434802" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Passing through Sinkhole과
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Nicola&#39;s Laboratory - Dimension Stabilizer
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10434821" Text="hmm…Sinkhole..Is there a way to get rid of it?"/>
+<TEXT ID="10434826" Text="(crack..scratchy…)Error, Error. Danger, stoping operation."/>
+<TEXT ID="10434823" Text="Sinkhole is getting bigger.%%
+We don&#39;t know when it&#39;ll stop but there&#39;s rumor that it would cover whole area of Port of the Winds.%%
+There&#39;s no other way but to enter into Sinkhole and do investigation.%%
+%name% would take the mission?"/>
+<TEXT ID="10434824" Text="It&#39;s a matter of existence of Port of the Winds. Is there any hero..?"/>
+<TEXT ID="10434825" Text="A pedestrian was sucked into the Sinkhole. It&#39;s getting more serious."/>
+<TEXT ID="10434811" Text="Passing through Sinkhole"/>
+<TEXT ID="10434700" Text="What hole? Sinkhole?"/>
+<TEXT ID="10434702" Text="{T=FTcts_13/C=0xFFA62700/}[Complete Requirement]{T=QTtext/C=0xFF4D0D08/}
+Investigate Sinkhole appeared in Port of the Winds
+
+{T=FTcts_13/C=0xFFA62700/}[Complete NPC]{T=QTtext/C=0xFF4D0D08/}
+Port of the Winds - Collin
+
+{T=FTcts_13/C=0xFFA62700/}[Content]{T=QTtext/C=0xFF4D0D08/}"/>
+<TEXT ID="10434721" Text="Villagers are feeling nervious nowdays."/>
+<TEXT ID="10434726" Text="A big dimension hole? Oh, no. It&#39;s in a jam!"/>
+<TEXT ID="10434723" Text="Few days ago {C=0xFF00863C/}Sinkhole was appeared {C=0xFF4D0D08/}next to Advanced Archer &#60;Lonnie&#62;. %%
+We couldn&#39;t start investigation because we don&#39;t have any information.%%
+We kept villagers away but they are starting to worry about it.%%
+ %name% can yo"/>
+<TEXT ID="10434724" Text="Villagers are worried about it. Chaotic rumors are all around.."/>
+<TEXT ID="10434725" Text="Please hurry up."/>
+<TEXT ID="10434751" Text="(…I feel being sucked into the hole. It seems like a passage through somewhere.)"/>
+<TEXT ID="10434711" Text="Investigate Sinkhole"/>
+<TEXT ID="510142" Text="Nicola&#39;s Laboratory"/>
+</TEXT_TABLE>

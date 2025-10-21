@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="9980110" Text="Bélier"/>
+<TEXT ID="9980111" Text="Bélier"/>
+<TEXT ID="9980120" Text="Taureau"/>
+<TEXT ID="9980121" Text="Taureau"/>
+<TEXT ID="9980130" Text="Gémeaux"/>
+<TEXT ID="9980131" Text="Gémeaux"/>
+<TEXT ID="9980140" Text="Cancer"/>
+<TEXT ID="9980141" Text="Cancer"/>
+<TEXT ID="9980150" Text="Lion"/>
+<TEXT ID="9980151" Text="Lion"/>
+<TEXT ID="9600500" Text="Halloween"/>
+<TEXT ID="9980160" Text="Vierge"/>
+<TEXT ID="9980161" Text="Vierge"/>
+<TEXT ID="9980170" Text="Pégase"/>
+<TEXT ID="9980171" Text="Pégase"/>
+<TEXT ID="9980180" Text="Scorpion"/>
+<TEXT ID="9980181" Text="Scorpion"/>
+<TEXT ID="9980190" Text="Sagittaire"/>
+<TEXT ID="9980191" Text="Sagittaire"/>
+<TEXT ID="9980200" Text="Hydre"/>
+<TEXT ID="9980201" Text="Hydre"/>
+<TEXT ID="9980300" Text="Ophiuchus"/>
+<TEXT ID="9980301" Text="Ophiuchus"/>
+<TEXT ID="9040100" Text="Chemin des Cieux"/>
+<TEXT ID="9500100" Text="Forêt aux oeufs"/>
+<TEXT ID="9040300" Text="Zone de Forage"/>
+<TEXT ID="9040400" Text="Allée des Tempêtes"/>
+<TEXT ID="9048100" Text="Poste avancé des Cieux"/>
+<TEXT ID="9040600" Text="Domaine des Divinités"/>
+<TEXT ID="9040124" Text="Station volante abandonnée"/>
+<TEXT ID="9040111" Text="Station Alpha"/>
+<TEXT ID="9040311" Text="Station Bêta"/>
+<TEXT ID="9038110" Text="Arcadia"/>
+<TEXT ID="9610000" Text="Village du Père-Noël"/>
+<TEXT ID="9610001" Text="Donjon de Noël"/>
+<TEXT ID="9610005" Text="Carte Evènementielle"/>
+<TEXT ID="9010100" Text="Côte des Baleines"/>
+<TEXT ID="9010109" Text="Villa du Capitaine Hookah"/>
+<TEXT ID="9010110" Text="Côte des Pinces"/>
+<TEXT ID="9010120" Text="Ponton des Pirates"/>
+<TEXT ID="9010130" Text="Port Steven"/>
+<TEXT ID="9010139" Text="Capitaine Alvida Furieuse"/>
+<TEXT ID="9010140" Text="Port de Nautilus"/>
+<TEXT ID="9010150" Text="Flotte de Kalygon"/>
+<TEXT ID="9010159" Text="Capitaine Kalygon Fou"/>
+<TEXT ID="9010200" Text="Sanctuaire de Mirinae"/>
+<TEXT ID="9010209" Text="Esprit d&#39;Artis"/>
+<TEXT ID="9010210" Text="Sanctuaire de Skippy"/>
+<TEXT ID="9010219" Text="Maître de la Mort"/>
+<TEXT ID="9010220" Text="Sanctuaire de Belkan"/>
+<TEXT ID="9010230" Text="Sanctuaire de Parmir"/>
+<TEXT ID="9010300" Text="Plaines de Windia"/>
+<TEXT ID="9010309" Text="Vagabond l&#39;Haletant"/>
+<TEXT ID="9010330" Text="Plaines de Windia Est"/>
+<TEXT ID="9010339" Text="Vegas le Sauvage"/>
+<TEXT ID="9010400" Text="Crête du Fourbe"/>
+<TEXT ID="9010409" Text="Sanka Hache-géante"/>
+<TEXT ID="9010410" Text="Colline de Hurlevent"/>
+<TEXT ID="9010420" Text="Colline des Lamentations"/>
+<TEXT ID="9010430" Text="Canyon de l&#39;Oubli"/>
+<TEXT ID="9010439" Text="Kunka Hache-géante"/>
+<TEXT ID="9010450" Text="Antre des Loups - Colline de Hurlevent "/>
+<TEXT ID="9010460" Text="Antre des Loups - Colline des Lamentations"/>
+<TEXT ID="9010502" Text="Egouts de l&#39;Hôtel de Ville"/>
+<TEXT ID="9010503" Text="Laboratoire du Dr. Farrell"/>
+<TEXT ID="9010600" Text="Caverne des Dangers"/>
+<TEXT ID="9010609" Text="Raton Laveur Mambo Atoo"/>
+<TEXT ID="9010610" Text="La Source"/>
+<TEXT ID="9010620" Text="La Mine"/>
+<TEXT ID="9010701" Text="Temple de l&#39;Eau"/>
+<TEXT ID="9010709" Text="Esprit de l&#39;Eau Endairon"/>
+<TEXT ID="9010801" Text="Citadelle du Tourment"/>
+<TEXT ID="9010809" Text="Autel des Héros"/>
+<TEXT ID="9010910" Text="Cimetière souterrain Nv.30"/>
+<TEXT ID="9010920" Text="Cimetière souterrain Nv.35"/>
+<TEXT ID="9013100" Text="Colère de Nautilus"/>
+<TEXT ID="9013200" Text="Meca Dangereux"/>
+<TEXT ID="9013300" Text="Plaines du Vent Agité"/>
+<TEXT ID="9013600" Text="Tanière de Barlok"/>
+<TEXT ID="9014101" Text="Côte des Baleines"/>
+<TEXT ID="9014102" Text="Port Délabré"/>
+<TEXT ID="9014131" Text="Port Steven"/>
+<TEXT ID="9014132" Text="Tombeau de l&#39;Océan"/>
+<TEXT ID="9014139" Text="Port Steven Mode Défense"/>
+<TEXT ID="9014150" Text="Flotte de Kalygon Mode Défense "/>
+<TEXT ID="9014200" Text="Extermination de Pâris"/>
+<TEXT ID="9014201" Text="Sanctuaire du Silence"/>
+<TEXT ID="9014202" Text="Temple Perdu"/>
+<TEXT ID="9014209" Text="Sanctuaire de Mirinae Mode Défense"/>
+<TEXT ID="9014219" Text="Sanctuaire de Skippy Mode Défense"/>
+<TEXT ID="9014301" Text="Rues des Bêtes"/>
+<TEXT ID="9014333" Text="Collines des Vents"/>
+<TEXT ID="9014400" Text="Restaurant de sushi Haruka Mode Défense"/>
+<TEXT ID="9014401" Text="Forêt des Rumeurs"/>
+<TEXT ID="9014402" Text="Forêt de la Cupidité"/>
+<TEXT ID="9014433" Text="Crête des Lamentations"/>
+<TEXT ID="9014435" Text="Antre des Voleurs"/>
+<TEXT ID="9014500" Text="Château de la Reine Rouge - Mode de Défense Stratégique"/>
+<TEXT ID="9014600" Text="Demeure du Maître Chocolatier"/>
+<TEXT ID="9014601" Text="La Mine"/>
+<TEXT ID="9014603" Text="Champ de Corail"/>
+<TEXT ID="9014609" Text="Caverne des Dangers Mode Défense"/>
+<TEXT ID="9014700" Text="Entrepôt Chocolaté"/>
+<TEXT ID="9015101" Text="Combat à mort"/>
+<TEXT ID="9015109" Text="Salle du Boss"/>
+<TEXT ID="9015110" Text="Salle du Boss"/>
+<TEXT ID="9015120" Text="Wonk-A le Batteur Fou"/>
+<TEXT ID="9015121" Text="Usine à Macarons Mission"/>
+<TEXT ID="9015129" Text="Woodie la Guimauve"/>
+<TEXT ID="9015130" Text="Rue de la Gauffre"/>
+<TEXT ID="9015200" Text="Hall de Cérémonie"/>
+<TEXT ID="9015400" Text="Colline des Cerisiers en Fleurs"/>
+<TEXT ID="9015401" Text="Restaurant de sushi Haruka Mission"/>
+<TEXT ID="9015409" Text="Maître sushi"/>
+<TEXT ID="9015500" Text="Entrée du château de la Reine Rouge"/>
+<TEXT ID="9015508" Text="Château de la Reine Rouge"/>
+<TEXT ID="9015509" Text="Reine Rouge"/>
+<TEXT ID="9015600" Text="Village Geffen"/>
+<TEXT ID="9015610" Text="Champ d&#39;Orcs"/>
+<TEXT ID="9015620" Text="Maison de verre"/>
+<TEXT ID="9015630" Text="Maison de verre"/>
+<TEXT ID="9015640" Text="Maison de verre"/>
+<TEXT ID="9016101" Text="Côte des Baleines Bonus"/>
+<TEXT ID="9016131" Text="Port Steven Bonus Stage"/>
+<TEXT ID="9016151" Text="Flotte de Kalygon Bonus"/>
+<TEXT ID="9016201" Text="Sanctuarie de Mirinae Bonus"/>
+<TEXT ID="9016211" Text="Sanctuaire de Skippy Bonus"/>
+<TEXT ID="9016301" Text="Plaines de Windia Bonus"/>
+<TEXT ID="9016331" Text="Plaines de Windia Est Bonus Stage"/>
+<TEXT ID="9016401" Text="Crête du Fourbe Bonus"/>
+<TEXT ID="9016431" Text="Canyon de l&#39;Oubli Bonus"/>
+<TEXT ID="9016601" Text="Cavernes du Danger Bonus"/>
+<TEXT ID="9017101" Text="Côte des Baleines Bonus"/>
+<TEXT ID="9017131" Text="Port Steven Bonus"/>
+<TEXT ID="9017151" Text="Flotte de Kalygon Bonus"/>
+<TEXT ID="9017201" Text="Sanctuarie de Mirinae Bonus"/>
+<TEXT ID="9017211" Text="Sanctuaire de Skippy Bonus"/>
+<TEXT ID="9017601" Text="Cavernes du Danger Bonus"/>
+<TEXT ID="9018100" Text="Port des Quatre Vents"/>
+<TEXT ID="9018200" Text="Odélia"/>
+<TEXT ID="9018251" Text="Emporia 1 étoile"/>
+<TEXT ID="9018252" Text="Emporia 2 étoiles"/>
+<TEXT ID="9018253" Text="Emporia 3 étoiles"/>
+<TEXT ID="9018254" Text="Emporia 4 étoiles"/>
+<TEXT ID="9018255" Text="Emporia 5 étoiles"/>
+<TEXT ID="9018310" Text="Village du Clair de Lune"/>
+<TEXT ID="9018320" Text="Libra"/>
+<TEXT ID="9019109" Text="Villa du Capitaine Hookah"/>
+<TEXT ID="9019139" Text="Capitaine Alvida Furieuse"/>
+<TEXT ID="9019151" Text="Flotte de Kalygon"/>
+<TEXT ID="9019152" Text="Navire naufragé"/>
+<TEXT ID="9020100" Text="Le Souffle du Démon"/>
+<TEXT ID="9020109" Text="Chef Rocker"/>
+<TEXT ID="9020110" Text="Abysses de Feu"/>
+<TEXT ID="9020130" Text="Coraux Magmatiques"/>
+<TEXT ID="9020200" Text="Dragon de Magma Lavalon"/>
+<TEXT ID="9020201" Text="Magmus"/>
+<TEXT ID="9020202" Text="Dragon Lavalon"/>
+<TEXT ID="9020300" Text="Marais Ardents"/>
+<TEXT ID="9020309" Text="Reine Vella"/>
+<TEXT ID="9020310" Text="Marais du Bois Mort"/>
+<TEXT ID="9020320" Text="Marais aux Roseaux"/>
+<TEXT ID="9020420" Text="Chemin Brumeux"/>
+<TEXT ID="9020430" Text="Colline aux Pins"/>
+<TEXT ID="9024431" Text="Scierie de Pins"/>
+<TEXT ID="9024432" Text="Scierie Désafféctée"/>
+<TEXT ID="9020439" Text="Homme des bois Burnan"/>
+<TEXT ID="9020500" Text="Sanctuaire des Dieux"/>
+<TEXT ID="9020509" Text="Karkarous"/>
+<TEXT ID="9020510" Text="Sanctuaire en Ruine"/>
+<TEXT ID="9020530" Text="Autel de Kayron"/>
+<TEXT ID="9020600" Text="Golem Aram"/>
+<TEXT ID="9020601" Text="Donjon de Kundara"/>
+<TEXT ID="9020700" Text="Autel de la Verdure"/>
+<TEXT ID="9020701" Text="Forêt verdoyante"/>
+<TEXT ID="9023300" Text="Marais Boueux"/>
+<TEXT ID="9023400" Text="Scierie de Chênes"/>
+<TEXT ID="9023500" Text="Chapelle Maudite"/>
+<TEXT ID="9024101" Text="Usine de Lave"/>
+<TEXT ID="9024102" Text="Champ Pourpre"/>
+<TEXT ID="9024108" Text="Souffle du Démon Mode de Défense Stratégique"/>
+<TEXT ID="9024109" Text="Souffle du Démon Mode Défense"/>
+<TEXT ID="9024301" Text="Marais Ardents"/>
+<TEXT ID="9024308" Text="Marais Ardents Mode de Défense Stratégique"/>
+<TEXT ID="9024309" Text="Marais Ardents Mode Défense"/>
+<TEXT ID="9024438" Text="Colline aux Pins Mode de Défense Stratégique"/>
+<TEXT ID="9024439" Text="Colline aux Pins Mode Défense"/>
+<TEXT ID="9024501" Text="Autel Azur"/>
+<TEXT ID="9024502" Text="Chemin des Statues de Pierre"/>
+<TEXT ID="9024508" Text="Sanctuaire des Dieux Mode de Défense Stratégique"/>
+<TEXT ID="9024509" Text="Sanctuaire des Dieux Mode Défense"/>
+<TEXT ID="9026101" Text="Souffle du Démon Bonus"/>
+<TEXT ID="9026301" Text="Marais Ardents Bonus"/>
+<TEXT ID="9026431" Text="Colline aux Pins Bonus"/>
+<TEXT ID="9026501" Text="Sanctuaire des Dieux Bonus"/>
+<TEXT ID="9027101" Text="Souffle du Démon Bonus"/>
+<TEXT ID="9027301" Text="Marais Ardents Bonus"/>
+<TEXT ID="9027431" Text="Colline aux Pins Bonus"/>
+<TEXT ID="9027501" Text="Sanctuaire des Dieux Bonus"/>
+<TEXT ID="9028100" Text="Village Fungoid"/>
+<TEXT ID="9029302" Text="Marais Ardents - 2nd scénario"/>
+<TEXT ID="9030100" Text="Village Oublié"/>
+<TEXT ID="9030109" Text="Roi Mimir Bubobubo"/>
+<TEXT ID="9030110" Text="Forêt des Arbres Tutu"/>
+<TEXT ID="9030130" Text="Village Endormi"/>
+<TEXT ID="9030139" Text="Burlune le Vacillant"/>
+<TEXT ID="9030140" Text="Usine de Champignons"/>
+<TEXT ID="9030200" Text="Terre de l&#39;Envie"/>
+<TEXT ID="9030209" Text="Golem de Pythanuth"/>
+<TEXT ID="9030210" Text="Crête du Blizzard"/>
+<TEXT ID="9030220" Text="Lac Gelé"/>
+<TEXT ID="9030230" Text="Canyon Glacé"/>
+<TEXT ID="9030239" Text="Princesse des Glaces Arka"/>
+<TEXT ID="9030240" Text="Champ de Neige"/>
+<TEXT ID="9030300" Text="Autel de la Vérité"/>
+<TEXT ID="9030301" Text="Drakos 1er Et."/>
+<TEXT ID="9030302" Text="Drakos 2ème Et."/>
+<TEXT ID="9030303" Text="Drakos 3ème Et."/>
+<TEXT ID="9030304" Text="Drakos 4ème Et."/>
+<TEXT ID="9030305" Text="Drakos 5ème Et."/>
+<TEXT ID="9030306" Text="Drakos 6ème Et."/>
+<TEXT ID="9030307" Text="Drakos 7ème Et."/>
+<TEXT ID="9030308" Text="Drakos 8ème Et."/>
+<TEXT ID="9030309" Text="Drakos 9ème Et."/>
+<TEXT ID="9030310" Text="Drakos 10ème Et."/>
+<TEXT ID="9030311" Text="Drakos 11ème Et."/>
+<TEXT ID="9030312" Text="Drakos 12ème Et."/>
+<TEXT ID="9030313" Text="Drakos 13ème Et."/>
+<TEXT ID="9030314" Text="Drakos 14ème Et."/>
+<TEXT ID="9030315" Text="Drakos 15ème Et."/>
+<TEXT ID="9030316" Text="Drakos 16ème Et."/>
+<TEXT ID="9030317" Text="Drakos 17ème Et."/>
+<TEXT ID="9030318" Text="Drakos 18ème Et."/>
+<TEXT ID="9030319" Text="Drakos 19ème Et."/>
+<TEXT ID="9030320" Text="Drakos 20ème Et."/>
+<TEXT ID="9030321" Text="Drakos 21ème Et."/>
+<TEXT ID="9030322" Text="Drakos 22ème Et."/>
+<TEXT ID="9030323" Text="Drakos 23ème Et."/>
+<TEXT ID="9030324" Text="Drakos 24ème Et."/>
+<TEXT ID="9030325" Text="Drakos 25ème Et."/>
+<TEXT ID="9030326" Text="Drakos 26ème Et."/>
+<TEXT ID="9030327" Text="Drakos 27ème Et."/>
+<TEXT ID="9030328" Text="Drakos 28ème Et."/>
+<TEXT ID="9030329" Text="Drakos 29ème Et."/>
+<TEXT ID="9030330" Text="Drakos 30ème Et."/>
+<TEXT ID="9030331" Text="Drakos 31ème Et."/>
+<TEXT ID="9030332" Text="Drakos 32ème Et."/>
+<TEXT ID="9030333" Text="Drakos 33ème Et."/>
+<TEXT ID="9030334" Text="Drakos 34ème Et."/>
+<TEXT ID="9030335" Text="Drakos 35ème Et."/>
+<TEXT ID="9030336" Text="Drakos 36ème Et."/>
+<TEXT ID="9030337" Text="Drakos 37ème Et."/>
+<TEXT ID="9030338" Text="Drakos 38ème Et."/>
+<TEXT ID="9030339" Text="Drakos 39ème Et."/>
+<TEXT ID="9030340" Text="Drakos 40ème Et."/>
+<TEXT ID="9030341" Text="Drakos 41ème Et."/>
+<TEXT ID="9030342" Text="Drakos 42ème Et."/>
+<TEXT ID="9030343" Text="Drakos 43ème Et."/>
+<TEXT ID="9030344" Text="Drakos 44ème Et."/>
+<TEXT ID="9030345" Text="Drakos 45ème Et."/>
+<TEXT ID="9030346" Text="Drakos 46ème Et."/>
+<TEXT ID="9030347" Text="Drakos 47ème Et."/>
+<TEXT ID="9030348" Text="Drakos 48ème Et."/>
+<TEXT ID="9030349" Text="Drakos 49ème Et."/>
+<TEXT ID="9030350" Text="Drakos 50ème Et."/>
+<TEXT ID="9030500" Text="L&#39;Autel Sombre sans Fond"/>
+<TEXT ID="9030501" Text="Bibliothèque de Van Cliff 1er Et."/>
+<TEXT ID="9030502" Text="Bibliothèque de Van Cliff 2ème Et."/>
+<TEXT ID="9030503" Text="Bibliothèque de Van Cliff 3ème Et."/>
+<TEXT ID="9030504" Text="Bibliothèque de Van Cliff 4ème Et."/>
+<TEXT ID="9030505" Text="Bibliothèque de Van Cliff 5ème Et."/>
+<TEXT ID="9030506" Text="Jardin Botanique de Van Cliff 6ème Et."/>
+<TEXT ID="9030507" Text="Jardin Botanique de Van Cliff 7ème Et."/>
+<TEXT ID="9030508" Text="Jardin Botanique de Van Cliff 8ème Et."/>
+<TEXT ID="9030509" Text="Jardin Botanique de Van Cliff 9ème Et."/>
+<TEXT ID="9030510" Text="Jardin Botanique de Van Cliff 10ème Et."/>
+<TEXT ID="9030511" Text="Salle des Expositions de Van Cliff B1"/>
+<TEXT ID="9030512" Text="Salle des Expositions de Van Cliff B2"/>
+<TEXT ID="9030513" Text="Salle des Expositions de Van Cliff B3"/>
+<TEXT ID="9030514" Text="Salle des Expositions de Van Cliff B4"/>
+<TEXT ID="9030515" Text="Salle des Expositions de Van Cliff B5"/>
+<TEXT ID="9030516" Text="Salle des Expositions de Van Cliff B6"/>
+<TEXT ID="9030517" Text="Salle des Expositions de Van Cliff B7"/>
+<TEXT ID="9030518" Text="Salle des Expositions de Van Cliff B8"/>
+<TEXT ID="9030519" Text="Salle des Expositions de Van Cliff B9"/>
+<TEXT ID="9030520" Text="Salle des Expositions de Van Cliff B10"/>
+<TEXT ID="9030521" Text="Prison Souterraine de Van Cliff B11"/>
+<TEXT ID="9030522" Text="Prison Souterraine de Van Cliff B12"/>
+<TEXT ID="9030523" Text="Prison Souterraine de Van Cliff B13"/>
+<TEXT ID="9030524" Text="Prison Souterraine de Van Cliff B14"/>
+<TEXT ID="9030525" Text="Prison Souterraine de Van Cliff B15"/>
+<TEXT ID="9030526" Text="Prison Souterraine de Van Cliff B16"/>
+<TEXT ID="9030527" Text="Prison Souterraine de Van Cliff B17"/>
+<TEXT ID="9030528" Text="Prison Souterraine de Van Cliff B18"/>
+<TEXT ID="9030529" Text="Prison Souterraine de Van Cliff B19"/>
+<TEXT ID="9030530" Text="Prison Souterraine de Van Cliff B20"/>
+<TEXT ID="9030531" Text="Prison Sombre de Van Cliff B21"/>
+<TEXT ID="9030532" Text="Prison Sombre de Van Cliff B22"/>
+<TEXT ID="9030533" Text="Prison Sombre de Van Cliff B23"/>
+<TEXT ID="9030534" Text="Prison Sombre de Van Cliff B24"/>
+<TEXT ID="9030535" Text="Prison Sombre de Van Cliff B25"/>
+<TEXT ID="9030599" Text="Lobby de Van Cliff"/>
+<TEXT ID="9030600" Text="Autel gelé"/>
+<TEXT ID="9030601" Text="Temple de Glace"/>
+<TEXT ID="9030700" Text="Forêt de la Rancune"/>
+<TEXT ID="9030710" Text="Crête du Poursuivant"/>
+<TEXT ID="9030719" Text="Crête du Poursuivant Arcade élite"/>
+<TEXT ID="9030720" Text="Refuge de la Paix"/>
+<TEXT ID="9030729" Text="Refuge de la Paix Arcade élite"/>
+<TEXT ID="9030730" Text="Cimetière Enneigé"/>
+<TEXT ID="9030800" Text="Vallée de la Guimauve"/>
+<TEXT ID="9030810" Text="Crête du Verglas"/>
+<TEXT ID="9030819" Text="Crête du Verglas Arcade élite"/>
+<TEXT ID="9030820" Text="Mine de la Griffe d&#39;Ours"/>
+<TEXT ID="9030829" Text="Mine de la Griffe d&#39;Ours Arcade élite"/>
+<TEXT ID="9030830" Text="Colline du Glacier Rocheux"/>
+<TEXT ID="9032109" Text="Roi Mimir Bubobubo"/>
+<TEXT ID="9033100" Text="Forêt des Illusions"/>
+<TEXT ID="9033200" Text="Lac Spirituel Cristallin"/>
+<TEXT ID="9034101" Text="Les Arbres à Champignons"/>
+<TEXT ID="9034102" Text="Forêt des Champignons à Luciole"/>
+<TEXT ID="9034108" Text="Village Oublié Mode de Défense Stratégique"/>
+<TEXT ID="9034109" Text="Village Oublié Mode Défense"/>
+<TEXT ID="9034131" Text="Lac des Spores Toxiques"/>
+<TEXT ID="9034132" Text="Allée de la Brume Toxique"/>
+<TEXT ID="9034138" Text="Village Endormi Mode de Défense Stratégique"/>
+<TEXT ID="9034139" Text="Village Endormi Mode Défense"/>
+<TEXT ID="9034201" Text="Forêt des Fugitifs"/>
+<TEXT ID="9034202" Text="Forêt des Champignons givrés"/>
+<TEXT ID="9034208" Text="Terre de l&#39;Envie Mode de Défense Stratégique"/>
+<TEXT ID="9034209" Text="Terre de l&#39;Envie Mode Défense"/>
+<TEXT ID="9034231" Text="Lac du Clair de Lune"/>
+<TEXT ID="9034232" Text="Champ Gelé"/>
+<TEXT ID="9034238" Text="Canyon Glacé Mode de Défense Stratégique"/>
+<TEXT ID="9034239" Text="Canyon Glacé Mode Défense"/>
+<TEXT ID="9034710" Text="Crête du Poursuivant Mode Défense"/>
+<TEXT ID="9034711" Text="Crête du Poursuivant Mode de Défense Stratégique"/>
+<TEXT ID="9034720" Text="Refuge de la Paix Mode Défense"/>
+<TEXT ID="9034721" Text="Refuge de la Paix Mode de Défense Stratégique"/>
+<TEXT ID="9034810" Text="Crête du Verglas Mode Défense"/>
+<TEXT ID="9034811" Text="Crête du Verglas Mode de Défense Stratégique"/>
+<TEXT ID="9034820" Text="Mine de la Griffe d&#39;Ours Mode Défense"/>
+<TEXT ID="9034821" Text="Mine de la Griffe d&#39;Ours Mode de Défense Stratégique"/>
+<TEXT ID="9036101" Text="Village Oublié Bonus"/>
+<TEXT ID="9036131" Text="Village Endormi Bonus"/>
+<TEXT ID="9036201" Text="Terre de l&#39;Envie Bonus"/>
+<TEXT ID="9036231" Text="Canyon Glacé Bonus"/>
+<TEXT ID="9036711" Text="Crête du Poursuivant Bonus 1"/>
+<TEXT ID="9036721" Text="Refuge de la Paix Bonus"/>
+<TEXT ID="9036811" Text="Crête du Verglas Bonus"/>
+<TEXT ID="9036821" Text="Mine de la Griffe d&#39;Ours Bonus"/>
+<TEXT ID="9037101" Text="Village Oublié Bonus"/>
+<TEXT ID="9037131" Text="Village Endormi Bonus"/>
+<TEXT ID="9037201" Text="Terre de l&#39;Envie Bonus"/>
+<TEXT ID="9037231" Text="Canyon Glacé Bonus"/>
+<TEXT ID="9037711" Text="Crête du Poursuivant Bonus 1"/>
+<TEXT ID="9037721" Text="Refuge de la Paix Bonus"/>
+<TEXT ID="9037811" Text="Crête du Verglas Bonus"/>
+<TEXT ID="9037821" Text="Mine de la Griffe d&#39;Ours Bonus"/>
+<TEXT ID="9038200" Text="Camp d&#39;Ellora"/>
+<TEXT ID="9038300" Text="La Brume Cendrée"/>
+<TEXT ID="9039711" Text="Crête du Poursuivant"/>
+<TEXT ID="9039712" Text="Pont Gelé"/>
+<TEXT ID="9039721" Text="Tombeau Gelé"/>
+<TEXT ID="9039722" Text="Refuge de la Paix"/>
+<TEXT ID="9039811" Text="Forêt du Verglas"/>
+<TEXT ID="9039812" Text="Crête du Verglas"/>
+<TEXT ID="9039821" Text="Crête de la Griffe d&#39;Ours"/>
+<TEXT ID="9039822" Text="Colline de la Griffe d&#39;Ours"/>
+<TEXT ID="9039829" Text="Alexyon"/>
+<TEXT ID="9050100" Text="Salvalon"/>
+<TEXT ID="9050109" Text="Capitaine de la Garde Jaro"/>
+<TEXT ID="9050110" Text="Lamieta"/>
+<TEXT ID="9050119" Text="Lamieta Kiyo"/>
+<TEXT ID="9050120" Text="Vallée Eruda"/>
+<TEXT ID="9050200" Text="Vallée du Dragon"/>
+<TEXT ID="9050209" Text="Vallée du Dragon Arcade élite"/>
+<TEXT ID="9050210" Text="Colline de la Serre"/>
+<TEXT ID="9050220" Text="Gorge de l&#39;aile"/>
+<TEXT ID="9050230" Text="Le Bord du Monde"/>
+<TEXT ID="9050239" Text="Le Bord du Monde Arcade élite"/>
+<TEXT ID="9050300" Text="Autel Délabré"/>
+<TEXT ID="9050301" Text="Caverne Akia"/>
+<TEXT ID="9050302" Text="Autel Délabré"/>
+<TEXT ID="9050400" Text="Autel Sombre"/>
+<TEXT ID="9050401" Text="Repaire de la Griffe Noire"/>
+<TEXT ID="9050402" Text="Lobby de la Salle des Dimensions"/>
+<TEXT ID="9050510" Text="Colline du Mirage"/>
+<TEXT ID="9050520" Text="Mer de Sable"/>
+<TEXT ID="9050529" Text="Mer de Sable Arcade élite"/>
+<TEXT ID="9050530" Text="No Man&#39;s Land "/>
+<TEXT ID="9050539" Text="No Man&#39;s Land Arcade élite"/>
+<TEXT ID="9050600" Text="Noyau du Drone"/>
+<TEXT ID="9050601" Text="Delta du Renard Rouge"/>
+<TEXT ID="9050610" Text="Mont Vartika"/>
+<TEXT ID="9050619" Text="Cocorico"/>
+<TEXT ID="9050620" Text="Gorge des Banshees"/>
+<TEXT ID="9052109" Text="Capitaine de la Garde Jaro"/>
+<TEXT ID="9052119" Text="Lamieta Kiyo"/>
+<TEXT ID="9052209" Text="Vallée du Dragon Chaos élite"/>
+<TEXT ID="9052239" Text="Le Bord du Monde Chaos élite"/>
+<TEXT ID="9052529" Text="Mer de Sable Chaos élite"/>
+<TEXT ID="9052539" Text="No Man&#39;s Land Chaos élite"/>
+<TEXT ID="9052619" Text="Cocorico"/>
+<TEXT ID="9054100" Text="Salvalon Mode Défense"/>
+<TEXT ID="9054110" Text="Lamieta Mode Défense"/>
+<TEXT ID="9054200" Text="Vallée du Dragon Mode Défense"/>
+<TEXT ID="9054201" Text="Vallée du Dragon Mode de Défense Stratégique"/>
+<TEXT ID="9054230" Text="Le Bord du Monde Mode Défense"/>
+<TEXT ID="9054610" Text="Mont Vartika Mode Défense "/>
+<TEXT ID="9056101" Text="Salvalon Bonus"/>
+<TEXT ID="9056111" Text="Lamieta Bonus"/>
+<TEXT ID="9056201" Text="Vallée du Dragon Bonus"/>
+<TEXT ID="9056231" Text="Le Bord du Monde Bonus"/>
+<TEXT ID="9056521" Text="Mer de Sable Bonus"/>
+<TEXT ID="9056531" Text="No Man&#39;s Land Bonus"/>
+<TEXT ID="9056611" Text="Mont Vartika Bonus"/>
+<TEXT ID="9057101" Text="Salvalon Bonus"/>
+<TEXT ID="9057111" Text="Lamieta Bonus"/>
+<TEXT ID="9057201" Text="Vallée du Dragon Bonus"/>
+<TEXT ID="9057231" Text="Le Bord du Monde Bonus"/>
+<TEXT ID="9057521" Text="Mer de Sable Bonus"/>
+<TEXT ID="9057531" Text="No Man&#39;s Land Bonus"/>
+<TEXT ID="9057611" Text="Mont Vartika Bonus"/>
+<TEXT ID="9058100" Text="Village Kazeura"/>
+<TEXT ID="9059101" Text="Salvalon 1er scénario"/>
+<TEXT ID="9059102" Text="Salvalon 2nd scénario"/>
+<TEXT ID="9059111" Text="Lamieta 1er scénario"/>
+<TEXT ID="9059112" Text="Lamieta 2nd scénario"/>
+<TEXT ID="9059201" Text="Vallée du Dragon 1er scénario"/>
+<TEXT ID="9059202" Text="Vallée du Dragon 2nd scénario"/>
+<TEXT ID="9059209" Text="Vallée du Dragon - Prokell"/>
+<TEXT ID="9059231" Text="Le Bord du Monde 1er scénario"/>
+<TEXT ID="9059232" Text="Le Bord du Monde 2nd scénario"/>
+<TEXT ID="9059239" Text="Le Bord du Monde - Kashape"/>
+<TEXT ID="9059611" Text="Mont Vartika 1er scénario"/>
+<TEXT ID="9059612" Text="Mont Vartika 2nd scénario"/>
+<TEXT ID="9710100" Text="Esprit de Glace élite"/>
+<TEXT ID="9710101" Text="Esprit de Glace élite"/>
+<TEXT ID="9710200" Text="Esprit de Feu élite"/>
+<TEXT ID="9710201" Text="Esprit de Feu élite"/>
+<TEXT ID="9710300" Text="Esprit Sombre élite"/>
+<TEXT ID="9710301" Text="Esprit Sombre élite"/>
+<TEXT ID="9710400" Text="Esprit de Nature élite"/>
+<TEXT ID="9710401" Text="Esprit de Nature élite"/>
+<TEXT ID="9850400" Text="Garnison du Repaire de la Griffe Noire"/>
+<TEXT ID="9910100" Text="Tutoriel pour Guerrier"/>
+<TEXT ID="9920101" Text="Zone des Woodie"/>
+<TEXT ID="9920102" Text="Pic de la Crête du Fourbe"/>
+<TEXT ID="9920103" Text="Zone Côtière"/>
+<TEXT ID="9920104" Text="Pic de la Vallée du Héros"/>
+<TEXT ID="9920105" Text="Zone du Souffle du Démon"/>
+<TEXT ID="9920106" Text="Zone des Marais Ardents"/>
+<TEXT ID="9920107" Text="Jardin de jeu"/>
+<TEXT ID="9920108" Text="Zone du Sanctuaire"/>
+<TEXT ID="9920109" Text="Cour de Fungoid"/>
+<TEXT ID="9920110" Text="Zone d&#39;Ellora"/>
+<TEXT ID="9920111" Text="Zone de Drakos"/>
+<TEXT ID="9920201" Text="Rempart de l&#39;Apocalypse"/>
+<TEXT ID="9920202" Text="Coeur Ardent"/>
+<TEXT ID="9920203" Text="Ceinture de Magma"/>
+<TEXT ID="9920209" Text="Dojo du Respect"/>
+<TEXT ID="9920204" Text="Labyrinthe Mystérieux"/>
+<TEXT ID="9920301" Text="Bataille du Lac Gelé"/>
+<TEXT ID="9920302" Text="Colline de l&#39;Empereur"/>
+<TEXT ID="9920400" Text="Chez Jack"/>
+<TEXT ID="9920500" Text="Assise du Lac de Rosée"/>
+<TEXT ID="9930100" Text="Bataille d&#39;Emporia Kanath"/>
+<TEXT ID="9930101" Text="Bataille d&#39;Emporia Kanath"/>
+<TEXT ID="9930200" Text="La Défense des Dragon"/>
+<TEXT ID="9930210" Text="Guerre de Défense des Dragons"/>
+<TEXT ID="9940101" Text="Dragon de feu - Zone de Capture du drapeau"/>
+<TEXT ID="9940110" Text="Dragon d&#39;eau - Zone de Capture du drapeau"/>
+<TEXT ID="9950101" Text="Plaine de Hururu"/>
+<TEXT ID="9950301" Text="Jardin Botanique Hururu"/>
+<TEXT ID="9960100" Text="Arène de l&#39;abysse"/>
+<TEXT ID="9970100" Text="Tour des murmures"/>
+<TEXT ID="9970300" Text="Maison Hantée"/>
+<TEXT ID="9990101" Text="Chambre du Temps"/>
+<TEXT ID="9990102" Text="Chambre de l&#39;Obscurité"/>
+<TEXT ID="9990103" Text="La Taverne des Maîtres de Jeu"/>
+<TEXT ID="9990200" Text="Ferme du Vent"/>
+<TEXT ID="9991001" Text="MaMaison"/>
+<TEXT ID="9015701" Text="Palais des Glaces - Vallée immaculée"/>
+<TEXT ID="9015709" Text="Palais des Glaces - Vallée immaculée - Elite"/>
+<TEXT ID="9015711" Text="Palais des Glaces - Jardin des rêves"/>
+<TEXT ID="9015719" Text="Palais des Glaces - Jardin des rêves - Elite"/>
+<TEXT ID="9015721" Text="Palais des Glaces - Porte du Silence"/>
+<TEXT ID="9015722" Text="Palais des Glaces - Corridor glacé"/>
+<TEXT ID="9015723" Text="Palais des Glaces - Chambre de la Reine"/>
+<TEXT ID="9015700" Text="Palais des Glaces - Mur de Glace"/>
+<TEXT ID="9012100" Text="Côte obscure des Baleines"/>
+<TEXT ID="9012109" Text="Villa obscure du Capitaine Hookah"/>
+<TEXT ID="9012130" Text="Port Steven Obscur"/>
+<TEXT ID="9012139" Text="Capitaine Alvida obscure et furieuse"/>
+<TEXT ID="9012150" Text="Flotte obscure de Kalygon"/>
+<TEXT ID="9012159" Text="Kalygon obscur en Furie"/>
+<TEXT ID="9012200" Text="Sanctuaire obscur de Mirinae"/>
+<TEXT ID="9012209" Text="Esprit du Faucheur"/>
+<TEXT ID="9012212" Text="Sanctuaire obscur de Skippy"/>
+<TEXT ID="9012219" Text="Esprit Maléfique, le Maître de la Mort"/>
+<TEXT ID="9012600" Text="Caverne obscure des Dangers"/>
+<TEXT ID="9012609" Text="Obscur Raton Laveur Mambo Atoo"/>
+<TEXT ID="9022100" Text="Souffle obscur du Démon"/>
+<TEXT ID="9022109" Text="Obscur Chef Rocker"/>
+<TEXT ID="9022300" Text="Marais Ardents obscurs"/>
+<TEXT ID="9022309" Text="Obscure Reine Vella"/>
+<TEXT ID="9022430" Text="Colline aux Pins obscure"/>
+<TEXT ID="9022439" Text="Obscur Homme des bois Burnan"/>
+<TEXT ID="9022500" Text="Sanctuaire des Dieux délaissé"/>
+<TEXT ID="9022509" Text="Karkarous"/>
+<TEXT ID="9032719" Text="Crête du Poursuivant Chaos élite"/>
+<TEXT ID="9032710" Text="Crête obscure du Poursuivant"/>
+<TEXT ID="9032720" Text="Refuge obscur de la Paix"/>
+<TEXT ID="9032810" Text="Crête obscure du Verglas"/>
+<TEXT ID="9032819" Text="Crête du Verglas élite"/>
+<TEXT ID="9032820" Text="Mine obscure de la Griffe d&#39;Ours"/>
+<TEXT ID="9032100" Text="Village obscur Oublié"/>
+<TEXT ID="9032132" Text="Village obscur Endormi"/>
+<TEXT ID="9032139" Text="Burlune le Vacillant"/>
+<TEXT ID="9032200" Text="Terre obscure de l&#39;Envie"/>
+<TEXT ID="9032209" Text="Golem de Pythanuth"/>
+<TEXT ID="9032232" Text="Canyon Glacé"/>
+<TEXT ID="9032239" Text="Princesse des Glaces Arka"/>
+<TEXT ID="9052610" Text="Mont Vartika obscur"/>
+<TEXT ID="9052110" Text="Obscure Lamieta"/>
+<TEXT ID="9052100" Text="Obscur Salvalon"/>
+<TEXT ID="9052200" Text="Vallée obscure du Dragon Bonus"/>
+<TEXT ID="9052230" Text="Le Bord obscur du Monde"/>
+<TEXT ID="9032729" Text="Refuge de la Paix élite"/>
+<TEXT ID="9032829" Text="Mine de la Griffe d&#39;Ours élite"/>
+<TEXT ID="9015990" Text="Arène de Dragonica.fr"/>
+<TEXT ID="8940115" Text="Arène des Champions"/>
+<TEXT ID="9999310" Text="Donjon de l&#39;été"/>
+<TEXT ID="9999312" Text="Village de l&#39;été"/>
+<TEXT ID="9041901" Text="Donjon de Glace"/>
+<TEXT ID="9041911" Text="Donjon de Feu"/>
+<TEXT ID="9041921" Text="Donjon des Ténèbres"/>
+<TEXT ID="9041931" Text="Donjon de Terre"/>
+<TEXT ID="99999001" Text="Donjon de Noël"/>
+<TEXT ID="97000001" Text="Pôle d&#39;investigation"/>
+<TEXT ID="97000002" Text="Fleuve d&#39;Hâpy"/>
+<TEXT ID="97000003" Text="Source d&#39;Hâpy"/>
+<TEXT ID="97000004" Text="Source d&#39;Hâpy"/>
+<TEXT ID="97000005" Text="Source d&#39;Hâpy"/>
+<TEXT ID="97000006" Text="Source d&#39;Hâpy"/>
+<TEXT ID="97000008" Text="Forêt Tropicale"/>
+<TEXT ID="97000007" Text="TriBordure de Nahr"/>
+<TEXT ID="97000013" Text="Isoris"/>
+<TEXT ID="97000014" Text="Extrémité de Nahr"/>
+<TEXT ID="97000015" Text="Grotte des Mayit Hayi"/>
+<TEXT ID="97000019" Text="Pénéplaine Dinosorienne"/>
+<TEXT ID="97000020" Text="Domaine du Dinosoris"/>
+<TEXT ID="97000024" Text="Isoris-Est"/>
+<TEXT ID="97000031" Text="Mont Lepion"/>
+<TEXT ID="97000036" Text="Marais Parusienne (1)"/>
+<TEXT ID="97000037" Text="Marais Parusienne (2)"/>
+<TEXT ID="97000038" Text="Marais Parusienne (3)"/>
+<TEXT ID="97000028" Text="Pékiris"/>
+<TEXT ID="97000029" Text="Skeltown"/>
+<TEXT ID="97000032" Text="Inefsse"/>
+<TEXT ID="97000034" Text="Dôme d&#39;Anubis"/>
+<TEXT ID="97000039" Text="Crédits"/>
+<TEXT ID="9700411" Text="Taverne des MJs"/>
+<TEXT ID="9600300" Text="Laboratoire de Nicolas"/>
+<TEXT ID="98000001" Text="Allée des Horreurs"/>
+<TEXT ID="98000002" Text="Allée de la Paix"/>
+<TEXT ID="98000003" Text="Avenio"/>
+<TEXT ID="98000004" Text="Donjon d&#39;Avenio"/>
+<TEXT ID="98199990" Text="Lac de Miséricorde"/>
+<TEXT ID="98199011" Text="Passage de la Lune"/>
+<TEXT ID="98000012" Text="Passage de la Pluie"/>
+<TEXT ID="98000013" Text="Passage du Soleil"/>
+<TEXT ID="98000014" Text="Donjon de Pesentio"/>
+<TEXT ID="98000016" Text="Pesentio"/>
+<TEXT ID="98000017" Text="Eden"/>
+<TEXT ID="98000018" Text="Plaine de la miséricorde"/>
+<TEXT ID="98000019" Text="Donjon de Pomérium"/>
+<TEXT ID="98000022" Text="Pomérium"/>
+<TEXT ID="98000023" Text="Donjon de Vasio"/>
+<TEXT ID="98000028" Text="Vasio"/>
+<TEXT ID="98120000" Text="Donjon de Lavalon"/>
+<TEXT ID="9600201" Text="Donjon Impérial"/>
+<TEXT ID="9600209" Text="Donjon Impérial"/>
+</STRING_TABLE_LOCAL>

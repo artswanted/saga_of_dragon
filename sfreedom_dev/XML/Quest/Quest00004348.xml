@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4348</ID> <!--T.T.10434800 ���� �������¡������? -->
+
+
+<!-- �ۼ��� : ��ȿ��-->
+<!--[�Ϸ�����]	��ũȦ�� ���-->
+<!--[�Ϸ�NPC]	���ݶ��� ������ - ����������-->
+<!--[����]	�����밡 �߰��� ���� ��ũȦ�̶� �Ҹ��� ������ �տ� �̾���. ��򰡷� ���ϴ� ����ΰ� ����. ���� ��ũȦ�� ���� ���縦 �غ���.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001" Mark="END">2FF6590B-6648-4D73-9A61-7B4FA9065498</CLIENT> <!--����NPC �ٶ��ױ� - �ݸ� -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031" Mark="END">B0870F5E-3AC0-445f-A8D7-194CD07F2608</PAYER> <!--�Ϸ�NPC ���ݶ��� ������ - ���������� -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">2FF6590B-6648-4D73-9A61-7B4FA9065498</AGENT> <!--����NPC 11 �ٶ��ױ� - �ݸ� -->
+		<AGENT TYPE="NPC" EVENTNO="10012">B0870F5E-3AC0-445f-A8D7-194CD07F2608</AGENT> <!--����NPC 12 ���ݶ��� ������ - ���������� -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<LOCATION OBJECTNO="1" TYPE="LOCATION_ENTER" VALUE="9600300">5</LOCATION> 
+ <!--MAP_NO=9600300/[�̺�Ʈ]�̰����� �׸� - ���ݶ��� ������(����),-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10434811"/> <!--��ũȦ�� ���-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="3">82001210</ITEM>
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--����-->
+			<BODY TEXT="10434821" FACE="Colin_normal"/> <!--�졦��ũȦ�̶�. ���� ���ִ� ����� ����?-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">����</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">����</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--�Ϸ�-->
+			<BODY TEXT="10434826" FACE="Dimension_Exchanger_normal"/> <!--(������������)�۵� ���������� ���� �۵��� ���� �մϴ�.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">�Ϸ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--����-->
+			<BODY TEXT="10434823" FACE="Colin_normal"/> <!--��ũȦ�� ���� Ŀ���� �־�. �������� Ŀ������ �𸣰����� �ٶ��ױ��� ���� ��ū Ŀ���Ŷ�� �ҹ��� ���� �ֳ�. ���� ��ũȦ�� ���� ���縦 �ϴ� ��� ���̳�. %name% ���� �ӹ��� �þ� �ְڳ�?-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--����-->
+			<BODY TEXT="10434824" FACE="Colin_angly"/> <!--�ٶ��ױ��� ��������� �ִ� �����ϼ�. ���� ���� �ǰ�.-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--������-->
+			<BODY TEXT="10434825" FACE="Colin_normal"/> <!--��ũȦ�� �������� ������ ���� ��� ���ٳ�. ���� �ɰ��� ���� �־�.-->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--�κ�����-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1�Ͽ���-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--����-->
+			<BODY TEXT="10434802" /> <!---->
+			<SELECT ID="0"  TEXT="19933">����</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

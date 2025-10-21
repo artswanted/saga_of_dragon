@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4346</ID> <!--T.T.10434600 할로윈 캔디 러쉬 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	할로윈 달리기 이벤트 참가 하기-->
+<!--[완료NPC]	바람항구 - 렌디-->
+<!--[내용]	날쌘 잭보다 빠르게 움직이기 위해서는 더 빨리 달리는 수 밖에 없다. 바람항구에 랜디가 잭 보다 빨리 달리는 방법을 알려 주기 위해 할로윈 달리기 이벤트를 준비 했다고 한다. 할로윈 달리기 이벤트에 참가하고 랜디와 대화하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</CLIENT> <!--시작NPC 바람항구 - 렌디 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</PAYER> <!--완료NPC 바람항구 - 렌디 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</AGENT> <!--진행NPC 11 바람항구 - 렌디 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<ITEM OBJECTNO="1" TYPE="NOT_CHANGE_COUNT" VALUE="1">99804190</ITEM> 
+ <!--Item_NO=99804190/고스트 러너,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10434611"/> <!--고스트 러너-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="5">82001090</ITEM><!--전체지급/전체/1)/82001090(봉인아님)10개-[13_09 할로윈테마] 할로윈 코인 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10434621" FACE="Randy_normal"/> <!--올해도 어김없이 할로윈 달리기 이벤트를 한다구.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10434626" FACE="Randy_smile"/> <!--신나게 달려보니 어때? 하지만 잭은 그것보다 더 빠르지.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10434623" FACE="Randy_normal"/> <!--잭보다 빠르게 움직이기 위해선 더 빨리 달리는 방법 뿐이거든. 그래서 할로윈 달리기 이벤트를 준비 했지. 바람항구의 데이지에게 달리기 입장권을 사고, 바람항구의 스티븐2세에게 보여주면 할로윈 달리기 이벤트에 참여 할 수 있지. 아참~할로윈 달리기는 정해진 시간에만 열리는 걸 명심하라구. 열리는 시간은 바람항구의 스티븐 2세에게서 확인 할 수 있어.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10434624" FACE="Randy_angly"/> <!--참가만 해도 상품은 주지. 욕심이 난다면 남들보다 빨리 달리면 된다고.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10434625" FACE="Randy_normal"/> <!--아직도 참가 안한거야? 그렇게 느려서 잭을 잡겠어?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10434602" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

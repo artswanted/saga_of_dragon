@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>226</ID> <!--T.T.10022600 안 생겨요 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	얼음성(F5히든모드)을 클리어하자-->
+<!--[완료NPC]	바람항구 - 왈츠-->
+<!--[내용]	산타와 니아의 연애를 지켜본 왈츠는 자기도 너무너무 외롭다고 한다. 자기의 이상형은 시크한 남자라면서 얼음성에는 그런 차가운 도시 남자가 있을 것 같다고 한다. 얼음성(F5히든모드)을 클리어하고 얼음왕자가 있는 지 찾아보도록 하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</CLIENT> <!--시작NPC 바람항구 - 왈츠 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</PAYER> <!--완료NPC 바람항구 - 왈츠 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</AGENT> <!--진행NPC 11 바람항구 - 왈츠 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916600</MONSTER> 
+ <!--MON_NO=7916600/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022611"/> <!--얼음성(히든모드) 클리어-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022621" FACE="Waltz_angly"/> <!--니아는 좋겠다.
+니아는 정말 좋겠어.
+에휴-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022626" FACE="Waltz_smile"/> <!--없다고요?
+휴 내년 봄에는 그런 평범한 남자를 꼭 만날 수 있겠지요?-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022623" FACE="Waltz_normal"/> <!--요즘 니아의 입에서 미소가 떠나질 않네요.
+비록 산타가 변태같이 생겼지만, 누군가가 옆에 있는 게 저렇게 부러울진 몰랐어요.
+저도 언젠간 멋진 왕자님이 나타나겠죠?%%
+네? 제 이상형이요?후훗.%%
+저는 평범해요. 키 195cm이상이면 되고요. 쌍꺼풀 짙고 코는 오똑하고 입술은 앵두 같고,
+근육질에다가 저희 부모님에게 잘하고, 그리고 돈은 넉넉하고, 그리고 집안일 잘 도와주고, 가정적인 남자에요.%%
+평소에는 시크한 듯 절 챙겨주는 자상한 남자 스타일?%%
+시크한 남자를 찾아 주신다고요? 얼음성에 있을 것 같다고요?
+정말 그래주신다면 감사해요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022624" FACE="Waltz_angly"/> <!--안녕히 가세요.
+용사님.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022625" FACE="Waltz_normal"/> <!--얼음성에 그런 평범한 사람이 있으면 얼마나 좋을까?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022602" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

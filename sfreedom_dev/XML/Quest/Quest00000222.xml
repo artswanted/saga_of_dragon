@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>222</ID> <!--T.T.10022200 선물상자를 지켜라 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	분노한 눈의 여왕을 처리하자.-->
+<!--[완료NPC]	바람항구 - 산타-->
+<!--[내용]	상처를 회복한 눈의 여왕은 산타의 크리스마스를 망치기 위해 산타를 괴롭히고 있다고 한다. 눈의 여왕은 산타의 선물공장에 부하들을 보내 선물들을 훔치고 있다고 한다. 얼음 여왕의 성(히든모드F5)으로 가서 눈의 여왕을 처리해 선물을 가져가지 못하게 만들어 주자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</CLIENT> <!--시작NPC 바람항구 - 산타 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</PAYER> <!--완료NPC 바람항구 - 산타 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5C25CDDB-2B10-4c10-9212-A1F3BDF5D0DC</AGENT> <!--진행NPC 11 바람항구 - 산타 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916600</MONSTER> 
+ <!--MON_NO=7916600/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022211"/> <!--바토르 처리-->
+		
+	</OBJECTS>
+
+
+	    <REWARD>
+
+	    </REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022221" FACE="santa_angly"/> <!--이보시오. 이보시오.
+내가 급하게 할 말이 생겼소. 내 얘기 좀 들어보오.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022226" FACE="santa_smile"/> <!--고맙소. 용사여.
+그대 덕분에 오늘 밤 니아와 뜨거운…%%
+수프를 먹을 수 있을 것 같소.
+에헴..에헴..-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022223" FACE="santa_angly"/> <!--내가 바람항구로 온 결정이 잘못 된 게 아닌가 하는 생각이 드오.%%
+니아를 선택하자니 전 세계 15억명의 어린이들이 눈에 밟히고, 어린이를 선택하자니
+니아가 눈에 밟히고, 난 어쩌면 좋소.%%
+내가 바람항구에서 보금자리를 만드는 틈을 타 눈의 여왕이 내 선물공장에 나쁜짓을 하니, 내가 어떻게 맘 편히 어린이들을 생각하겠소.%%
+용사 그대가 나 좀 도와주시오. 그대도 나중에 아들 낳고 딸 낳고 할 건데..
+크리스마스 때 당신이 직접 선물사기 싫자나. 그돈으로 비상금 해야하지 않겠소?%%
+어서 얼음성(히든모드F5)으로 가서 바토르 좀 혼내 주시오.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022224" FACE="santa_angly"/> <!--내 얘기도 안 듣고 어딜 간단 말이오!
+나쁜 사람! 나쁜 사람!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022225" FACE="santa_angly"/> <!--바토르 다리몽댕이를 부러 뜨려 주시오!
+괘씸한 녀석 같으니라고..-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022202" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

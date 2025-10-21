@@ -1,0 +1,1 @@
+@start Release\Dragonica_Internal.exe /ServerAddr:"127.0.0.1" /ServerPort:"11002" /ID:"1" /PW:"1"

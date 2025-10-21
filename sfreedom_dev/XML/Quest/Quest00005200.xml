@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>5200</ID> <!--T.T.10520001 소피아의 배달 아르바이트 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	상인의 마을 - 헤르나에게 배달-->
+<!--[완료NPC]	상인의 마을 - 헤르나-->
+<!--[내용]	달빛해안 마을 은행원 소피아는 돈 욕심이 많다고 한다. 은행업무 외에도 많은 아르바이트를 하고 있다는 소피아는 배달 아르바이트가 들어 왔다고 한다. 상인의 마을 헤르나에게 은행업무 지시서를 배달해주도록 하자.-->
+
+
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">e195c5f3-ec93-431b-bd0e-8fa742f238b0</CLIENT> <!--시작NPC 달빛해안 마을 - 소피아 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">528E03B6-EAE0-4422-A66A-13A6FD525F64</PAYER> <!--완료NPC 상인의 마을 - 헤르나 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">e195c5f3-ec93-431b-bd0e-8fa742f238b0</AGENT> <!--진행NPC 11 달빛해안 마을 - 소피아 -->
+		<AGENT TYPE="NPC" EVENTNO="10012">528E03B6-EAE0-4422-A66A-13A6FD525F64</AGENT> <!--진행NPC 12 상인의 마을 - 헤르나 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="0" TYPE="GIVEITEM" VALUE="301/160514600/1">10011</NPC> 
+ <!--Item_NO=160514600/[Q.ID:5200] 소피아의 아르바이트 (2),-->
+		<NPC OBJECTNO="0" TYPE="CHECKITEM" VALUE="501/160514600/1/511">10011</NPC> 
+ <!--Item_NO=160514600/[Q.ID:5200] 소피아의 아르바이트 (2),-->
+		<NPC OBJECTNO="0" TYPE="GIVEITEM" VALUE="511/160514600/1">10011</NPC> 
+ <!--Item_NO=160514600/[Q.ID:5200] 소피아의 아르바이트 (2),-->
+		<NPC OBJECTNO="0" TYPE="CHECKITEM" VALUE="601/160514600/1/512">10012</NPC> 
+ <!--Item_NO=160514600/[Q.ID:5200] 소피아의 아르바이트 (2),-->
+		<NPC OBJECTNO="0" TYPE="REMOVEITEM" VALUE="601/160514600/1">10012</NPC> 
+ <!--Item_NO=160514600/[Q.ID:5200] 소피아의 아르바이트 (2),-->
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="601/1">10012</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10012</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10520011"/> <!--헤르나에게 배달-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10520021" FACE="Sopia_smile"/> <!--안녕하세요. 용사님.
+혹시 상인의 마을에 갈 일 있으세요?
+그렇다면 제 부탁 하나만 들어주세요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10520026" FACE="Sopia_smile"/> <!--이번에 은행지침이 새롭게 바뀌었어요.
+그래서 지침서를 배달해야 해요.
+물론 지침서 배달 역시 제가 아르바이트로 하고 있어요.%%
+하지만 다른 업무와 아르바이트 때문에 시간이 없네요. 
+저 대신에 용사님이 상인의 마을 헤르니에게 은행업무 지시서를 전해주세요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10520023" FACE="Sopia_smile"/> <!--상인의 마을 헤르나때문에 걱정이네요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10520024" FACE="Sopia_angly"/> <!--싫으면 말아요. 흥!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10520025" FACE="Sopia_smile"/> <!--감사해요. 부탁 좀 드릴게요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10520002" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

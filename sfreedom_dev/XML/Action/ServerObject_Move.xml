@@ -1,0 +1,4 @@
+<ACTION ID="a_serverobject_move" NEXT="a_idle" TYPE="MOVE" CAN_CHANGE_ACTOR_POS="TRUE">
+	<SLOT NAME="idle_01"/>
+	<FSM SCRIPT="Act_ServerObject_Move"/>
+</ACTION>

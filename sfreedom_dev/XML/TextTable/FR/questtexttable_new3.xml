@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><TEXT_TABLE><TEXT ID="10223801" Text="Veux-tu être mon ami(e) ? (2)"/>
+<TEXT ID="10223802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 : Combat Duraman et Raty et rapporte une Queue de rat et une Armure rouillée
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du Cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Larell le gardien du cimetière se sent un peu seul, c&#39;est pourquoi Hunter G et Jeff veulent se lier d&#39;amitié avec lui. Pour marquer ce moment, aide Larell à obtenir une queue de rat et une armure rouillée à offrir en cadeau. Tu les trouveras sur Duraman et Raty au Cimetière souterrain Nv.35."/>
+<TEXT ID="10223821" Text="Que devrais-je leur offrir ? Je pense qu&#39;un cadeau pour mes nouveaux amis s&#39;impose !%% J&#39;ai une idée, j&#39;ai besoin de quelques bricoles pour cela, m&#39;aideras-tu ?"/>
+<TEXT ID="10223826" Text="Tu les as apportés ? Merci grandement."/>
+<TEXT ID="10223823" Text="Rend-toi au Cimetière souterrain Nv.35, tu y verras les monstres Duraman et Raty. Combats-les pour moi afin d&#39;apporter une queue de rat et une armure rouillée s&#39;il te plait !"/>
+<TEXT ID="10223824" Text="Tu ne souhaites pas m&#39;aider ? Tu préfères que je reste seul, c&#39;est ça ?"/>
+<TEXT ID="10223825" Text="Aide-moi s&#39;il te plait, tu sais comme je suis occupé."/>
+<TEXT ID="10223811" Text="Queue de rat"/>
+<TEXT ID="10223812" Text="Armure rouillée"/>
+<TEXT ID="10518801" Text="La bienveillance de Ferguson (1)"/>
+<TEXT ID="10518802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Récupère 15 Chairs de Champi
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Forgeron Ferguson
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Ferguson se sent désolé pour Sen. Afin de le consoler, il souhaite lui préparer de la bonne soupe chaude. Rends-toi en mode Arcade (F1) de la Caverne des Dangers et obtiens 15 Chairs de Champi."/>
+<TEXT ID="10518821" Text="Tu vois cette personne qui semble malheureuse par là-bas ? Je veux l&#39;aider car il me rend nerveux à être tout tremblant !"/>
+<TEXT ID="10518826" Text="Oh oui, ça c&#39;est de la bonne viande !!"/>
+<TEXT ID="10518823" Text="Il faut quelque chose aqui l&#39;apaise. Rends-toi en mode Arcade (F1) de la Caverne des Dangers et obtiens 15 Chairs de Champi afin que je lui prépare un potage."/>
+<TEXT ID="10518824" Text="Tu es vraiment une brute sans coeur."/>
+<TEXT ID="10518825" Text="Je prépare le reste."/>
+<TEXT ID="10518811" Text="Chair de Champi"/>
+<TEXT ID="10518701" Text="L&#39;entraînement de Ferguson"/>
+<TEXT ID="10518702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Mode Arcade (F1) - Tue 20 Citrouilles infernales
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Forgeron Ferguson
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Ferguson s&#39;est rendu à la Caverne des Dangers afin de s&#39;entraîner et d&#39;affûter ses sens en cas d&#39;urgence mais il n&#39;arrive pas à rester concentré. Des citrouilles infernales font tout pour le déconcentrer et le faire rire, il veut que tu te débarrasse de ces 20 trouble-fêtes en mode Arcade (F1) de la Caverne des Dangers"/>
+<TEXT ID="10518721" Text="Cet endroit est peu fréquenté, ça ira parfaitement pour mon entraînement."/>
+<TEXT ID="10518726" Text="Merci, je peux reprendre l&#39;entraînement grâce à toi !"/>
+<TEXT ID="10518723" Text="Quand une personne se sent pris à la gorge, ses facultés sensorielles s&#39;affûtent. Je suis ici pour travailler sur mes sens et mes réflexes... mais il y a un problème.%%Un raton laveur affublé d&#39;une citrouille infernale font des grimaces pour me faire rire, je n&#39;arrive à rien ! Dès que je les regarde, je... je... haha, pouffe de rire hahaha !!%%Tu vois ce que je veux dire, ils sont... Haha, trop drôles, et hihi haha... fait les disparaître !!%%Entre en mode Arcade (F1) et débarrasse-moi de 20 de ces citrouilles infernales s&#39;il te plaît !"/>
+<TEXT ID="10518724" Text="Si tu le prends comme ça, peut-être n&#39;arriverais-je pas à me concentrer quand j&#39;aurai à réparer ton arme !?"/>
+<TEXT ID="10518725" Text="Je dois m&#39;entraîner et affûter mes sens."/>
+<TEXT ID="10518711" Text="Citrouille infernale"/>
+<TEXT ID="10517601" Text="Essais pour une nouvelle arme (1)"/>
+<TEXT ID="10517602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Mode Arcade (F1) - Débarrasse-toi de 50 monstres
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Armurier Frank
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Frank a investi tout son argent pour de nouvelles armes. Il pense tester ces armes afin de définir leurs coûts, mais l&#39;endroit qu&#39;il a choisi, la Caverne des Dangers, est trop fréquenté à son gout. Rends-toi y, en mode Arcade (F1) et tue 50 monstres de la zone pour aider Frank à tester ces armes."/>
+<TEXT ID="10517621" Text="Bonjour l&#39;ami(e) ! L&#39;avenir du monde est incertain, c&#39;est bon pour les affaires ! J&#39;ai achété de nouvelles armes, ça va faire un carton ! Haha%%Avant de les mettre en vente, j&#39;ai besoin d&#39;un coup de main, veux-tu bien m&#39;aider ?"/>
+<TEXT ID="10517626" Text="Merci . Je vais moi-même me préparer à la bataille. Où est ma cape ?"/>
+<TEXT ID="10517623" Text="Cette épée est pour débutant, c&#39;est ce qu&#39;il me faut. Un apprenti saurait la manier.%%Je vais faire quelques passes d&#39;armes afin de tester sa qualité et décider du prix de vente, il me faut un endroit calme pour cela.%%La Caverne des Dangers pourrait faire l&#39;affaire mais c&#39;est aussi un endroit mal fréquenté. Un ou deux monstres, ça va, un millier, je ne suis pas sûr !!%%Peux-tu t&#39;assurer d&#39;embrocher 50 monstres là-bas afin de faire fuir les autres ?"/>
+<TEXT ID="10517624" Text="Sans ton aide, je suis bloqué."/>
+<TEXT ID="10517625" Text="Une fois les tests faits, je pourrais les mettre en vente."/>
+<TEXT ID="10517611" Text="Débarrasse-toi des monstres à la Caverne des Dangers [Mode Arcade (F1)]"/>
+<TEXT ID="10517301" Text="Personnalité insoumise"/>
+<TEXT ID="10517302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - mode Arcade (F1) - 50 Combos
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Jeff
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Jeff oubliait enfin l&#39;incident avec l&#39;Etincelle. Mais c&#39;était sans compter les pipelettes qui ont répandu la nouvelle telle une trainée de poudre, et voilà que tous se moquent de lui ! Entre dans le mode Arcade (F1) de la Caverne des Dangers et complète 50 combos pour venger Jeff."/>
+<TEXT ID="10517321" Text="Aaargh !! Mais comment sont-ils au courant !! Ça m&#39;énerve ! OH, tu es là, ça tombe  bien !"/>
+<TEXT ID="10517326" Text="Ouf, je peux enfin souffler ! Merci mon ami."/>
+<TEXT ID="10517323" Text="Mais tout le monde le sait, TOUT LE MONDE !! On se moque de moi depuis hier déjà...%%On m&#39;appelle Jeff pipi-au-lit ! C&#39;est trop injuste, et en plus inexact !! C&#39;est la faute à cette étincelle, elle doit payer.%%Tu veux bien lui donner une leçon à elle et ses camarades ? Va effectuer 50 combos en mode Arcade (F1) à la Caverne des Dangers s&#39;il te plait."/>
+<TEXT ID="10517324" Text="Alors, vas-tu m&#39;aider ou te moquer comme les autres ?"/>
+<TEXT ID="10517325" Text="Punis-les 50 fois ! Ça devrait suffire."/>
+<TEXT ID="10517311" Text="50 Combos"/>
+<TEXT ID="10224701" Text="La manucure de Sofia"/>
+<TEXT ID="10224702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 - Obtiens 30 Ongles de Momie du cimetière
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Sofia la Banquière
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sofia la banquière a encore une idée pour changer de métier. Comme à son habitude, elle souhaite que tu te charges de faire ses courses et te demande de lui apporter 30 Ongles de Momie du cimetière."/>
+<TEXT ID="10224721" Text="Bonjour à toi.
+Es-tu occupé ? Tu sais, je peux dire beaucoup de choses sur tes préférences à voir ton accoutrement. Je peux aussi dire que vous êtes nombreux à avoir des vêtements étranges.%%Quoi ? Tu ne veux pas m&#39;écouter ? Mais attend, j&#39;ai quelque chose à te demander !"/>
+<TEXT ID="10224726" Text="C&#39;est vrai, tu les as tous ? Merci, prends-ça, je tiens à te récompenser."/>
+<TEXT ID="10224723" Text="Je travaille désormais en tant que manucure quand je ne suis pas à la banque. Un client loufoque veux des ongles &#39;momifiés&#39; !%%Je dirais non d&#39;habitude mais c&#39;est un riche client, vois-tu. C&#39;est pourquoi il me faut du matériel approprié.%%Veux-tu bien te rendre au Cimetière souterrain Nv.35 pour moi et me dégoter 30 Ongles de Momie du cimetière ? Allez, s&#39;il te plait !"/>
+<TEXT ID="10224724" Text="Tu ne m&#39;aideras pas ? Ça me convient parfaitement, pff !"/>
+<TEXT ID="10224725" Text="Les gouts et les couleurs, ça se discute pas."/>
+<TEXT ID="10224711" Text="Ongle de Momie du cimetière"/>
+<TEXT ID="10224601" Text="Le nettoyage à sec de Sofia"/>
+<TEXT ID="10224602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 - Obtiens 20 Momies n&#39;a qu&#39;un Œil
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Sofia la Banquière
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sofia la banquière a encore une idée pour changer de métier. Elle a démarré une petite affaire de nettoyage à sec et, comme à son habitude, elle souhaite que tu te charges de faire ses courses et te demande de lui apporter 20 Momie n&#39;a qu&#39;un Œil."/>
+<TEXT ID="10224621" Text="Salut ! Tu es occupé ? Je suis sûr que tu peux prendre une minute à m&#39;écouter ?!"/>
+<TEXT ID="10224626" Text="Voilà une petite retribution pour toi et merci encore pour ton aide."/>
+<TEXT ID="10224623" Text="J&#39;ai quelques petits boulots supplémentaires pour me payer ce qui me fait plaisir. Et les choses futiles me rendent heureuses !!%%Le travail aussi, j&#39;adore !%%Mais là, je pense en avoir trop fait. J&#39;ai dit à mon patron que je me débarrasserai de ces monstres contre un sac d&#39;or, mais je n&#39;y arriverais jamais.%%Peux-tu te débarrasser de 20 Momies n&#39;a qu&#39;un Œil au Cimetière souterrain Nv.35 à ma place s&#39;il te plait ?"/>
+<TEXT ID="10224624" Text="Tu ne m&#39;as pas l&#39;air aussi occupé que je le suis, arrête de faire semblant !"/>
+<TEXT ID="10224625" Text="Merci."/>
+<TEXT ID="10224611" Text="Momie n&#39;a qu&#39;un Œil"/>
+<TEXT ID="10223101" Text="Chanpio malheureux ? (1)"/>
+<TEXT ID="10223102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Débarrasse-toi de 100 monstres du Cimetière Souterrain Nv.35
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Maître Valkyrie Chanpio
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Chanpio a entendu une rumeur très ennuyeuse en ville. On raconte qu&#39;il serait très faible et ne pourrait se charger des monstres du Cimetière Souterrain. Il est tellement énervé qu&#39;il te demande de te débarrasser de 100 monstres du Cimetière Souterrain Nv.35 pour lui."/>
+<TEXT ID="10223121" Text="Sors d&#39;ici ! Qui répand de fausses rumeurs ?! Montre-toi, je ne vais pas rester là toute la journée !"/>
+<TEXT ID="10223126" Text="Bon, maintenant personne ne croira à cette rumeur, je vais m&#39;assurer que les gens sachent que c&#39;est moi qui ai fait ça.%%Voilà pour te remercier, garde-ça secret !"/>
+<TEXT ID="10223123" Text="Tu sais à quel point je suis fort, n&#39;est-ce pas ? Oui, c&#39;est ça, c&#39;est pour ça que je ne comprends pas la rumeur du moment !%%Quelqu&#39;un raconte à qui veux l&#39;entendre que je suis en réalité faible. Il ajoute que je n&#39;aurai aucune chance contre les monstres du Cimetière Souterrain Nv.35...%%Je pourrai couper court et y aller, mais j&#39;ai trop de travail, ça aussi tu dois le savoir. Tu vas taper quelques monstres et je dirai que je m&#39;en suis chargé, ok ?!"/>
+<TEXT ID="10223124" Text="Quoi ? Mais ça veut dire quoi non ?!"/>
+<TEXT ID="10223125" Text="Va et débarrasse-toi de ces monstres pour moi. Je suis tellement en colère !"/>
+<TEXT ID="10223111" Text="Monstres du Cimetière Souterrain (Nv.35)"/>
+<TEXT ID="10518201" Text="Livraison à Kalygon (3)"/>
+<TEXT ID="10518202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Récupère la Boîte mystérieuse sur les Squelettes embarillés
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Marchand d&#39;outils Hime
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Hime est en attente d&#39;une boîte mystérieuse que devait lui apporter Sen. Mais Sen se l&#39;est faite dérober par des Squelettes embarillés. Rends-toi à la Caverne des Dangers et récupère la boîte mystérieuse."/>
+<TEXT ID="10518221" Text="Je savais que je n&#39;aurais pas dû. Mais maintenant je me retrouve coincé et je ne sais plus quoi faire..."/>
+<TEXT ID="10518226" Text="Merci. Oh Merci. Tout va bien maintenant."/>
+<TEXT ID="10518223" Text="J&#39;étais en attente d&#39;un colis de Libra mais tous mes paquets ont été volés ! Certaines de ces boîtes ne sont même pas à moi...%%Elles appartiennent à Frank ! Peux-tu les retrouver ?
+Un squelette embarillé de la Caverne des Dangers s&#39;en est emparé j&#39;en suis sûr."/>
+<TEXT ID="10518224" Text="J&#39;imagine que tu as quelque chose à faire ?"/>
+<TEXT ID="10518225" Text="Oui j&#39;en suis sûr ! Il s&#39;agissait bien de squelettes embarillés !"/>
+<TEXT ID="10518211" Text="Boîte mystérieuse"/>
+<TEXT ID="10517901" Text="Caverne de la quiétude"/>
+<TEXT ID="10517902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Claire
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Aubergiste Claire
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Claire est à la recherche d&#39;un endroit où elle pourrait emmener ses enfants en pique-nique. Une cave serait l&#39;idéal, les petits rêvent de jouer les aventuriers mais elle ne connaît que la Caverne des Dangers. Elle souhaite que tu t&#39;assures que l&#39;endroit est maintenant calme."/>
+<TEXT ID="10517921" Text="Tu connais la Caverne des Dangers ? Je pense m&#39;y rendre avec mes enfants pour y faire un pique-nique !"/>
+<TEXT ID="10517926" Text="(Tu lui explique la situation.)
+Oui, je devrais chercher un autre endroit, tu as raison."/>
+<TEXT ID="10517923" Text="Les petits veulent faire un pique-nique et jouer les aventuriers dans une caverne. Tu crois que la Caverne des Dangers ferait l&#39;affaire ?!"/>
+<TEXT ID="10517924" Text="L&#39;endroit est serein ? Superbe nouvelle, nous visiterons la Caverne des Dangers alors !"/>
+<TEXT ID="10517925" Text="Humm, où pourrait-on aller alors ?"/>
+<TEXT ID="10517911" Text="Parle avec Claire"/>
+<TEXT ID="10517801" Text="Caverne des Dangers"/>
+<TEXT ID="10517802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers [Mode Arcade (F1)] - Tue 30 monstres Champis
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Thomas est très soucieux. Les amateurs de spéléologie se font régulièrement attaquer par les monstres champis. Il te demande de mettre fin à ces attaques, rends-toi en mode Arcade (F1) de la Caverne des Dangers et débarrasse-toi de 30 monstres champis."/>
+<TEXT ID="10517821" Text="C&#39;est la cinquième en une semaine ! Hein, quoi ?
+Je disais, c&#39;&#39;est la cinquième fois que des visiteurs reviennent blessés de la Caverne des Dangers, tu n&#39;ignores pas que ces attaques ont eu lieu, dis-moi ?"/>
+<TEXT ID="10517826" Text="Maintenant je pense que la caverne a retrouvé son clame grâce à toi !"/>
+<TEXT ID="10517823" Text="Je mets pourtant bien en garde les visiteurs contre la Caverne des Dangers, mais ils continuent d&#39;y aller.
+C&#39;est pourquoi il faut absolument réduire le nombre de monstres champis, pour le bien de tous. J&#39;aurai besoin de ton aide bien sûr !%%Va immédiatement en mode Arcade (F1) de la Caverne des Dangers et débarrasse-toi de 30 monstres champis."/>
+<TEXT ID="10517824" Text="Quoi ? Mais ça veut dire quoi non ?!"/>
+<TEXT ID="10517825" Text="Je vais interdir l&#39;accès à la caverne pendant quelque temps."/>
+<TEXT ID="10517811" Text="Monstres de la Caverne des Dangers"/>
+<TEXT ID="10517701" Text="Essais pour une nouvelle arme (2)"/>
+<TEXT ID="10517702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers [Mode Arcade (F1)] - Récupère 10 Epées de débutant sur les Chiots Dronga verts
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Armurier Frank
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Frank revient de la Caverne des Dangers où il a testé ses nouvelles armes. C&#39;est là que des Chiots Dronga verts sont venus le harceler et il a perdu ses armes durant un combat. Rends-toi en mode Arcade et récupère 10 épées de débutant sur les Chiots Dronga verts."/>
+<TEXT ID="10517721" Text="Ooh... je souffre, je suis blessé !
+Es-tu certain d&#39;avoir fait ton travail ? Je suis allé à la caverne et les monstres m&#39;ont volé mes armes !"/>
+<TEXT ID="10517726" Text="Merci."/>
+<TEXT ID="10517723" Text="C&#39;est vrai, tu vas m&#39;aider ? Merci infiniment !
+Il s&#39;agit de 10 Chiot Dronga vert du mode Arcade (F1) de la Caverne des Dangers.
+Ils se sont emparés de 10 épées pour débutant."/>
+<TEXT ID="10517724" Text="Ça y est, j&#39;en ai fini."/>
+<TEXT ID="10517725" Text="C&#39;était un Chiot Dronga vert"/>
+<TEXT ID="10517711" Text="Epée pour débutant"/>
+<TEXT ID="10517501" Text="Imparable"/>
+<TEXT ID="10517502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers [Mode Arcade (F1)] - Tue Atoo
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Jeff
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Jeff a réussi à retrouver ce qu&#39;il a égaré à la Caverne des Dangers. Il a aussi découvert qui se cache derrière tout ça et te demande de t&#39;occuper de lui. Tu trouveras Atoo en mode Arcade (F1) de la Caverne des Dangers, fais-lui payer !"/>
+<TEXT ID="10517521" Text="Je l&#39;ai enfin trouvé !
+J&#39;ai trouvé le responsable de toust ces tracas !
+L&#39;éminence grise qui complote dans l&#39;ombre, le... Ah. Oui. Tu comprends ce que je veux dire...
+Bref, aide-moi à le stopper !"/>
+<TEXT ID="10517526" Text="Je me sens super bien ! Celui qui me cherche, il me trouve !!"/>
+<TEXT ID="10517523" Text="Je voulais les prendre seul, j&#39;ai pas peur, enfin sauf peut-être du chef.
+Si je l&#39;attaque, je ne m&#39;en sortirai pas, mais toi tu vas y arriver !
+Je ne te demanderai plus rien d&#39;autre, promis !
+Entre en mode Arcade (F1) de la Caverne des Dangers et combat Atoo."/>
+<TEXT ID="10517524" Text="Je comprends. Même toi doit avoir peur d&#39;Atoo."/>
+<TEXT ID="10517525" Text="Si tu penses que c&#39;est trop dangereux, reviens."/>
+<TEXT ID="10517511" Text="Tue Atoo"/>
+<TEXT ID="10517101" Text="La fierté du voleur"/>
+<TEXT ID="10517102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers [Mode Arcade (F1)] - Tue 20 Etincelles mutantes
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Voleur sournois Jeff
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Jeff traînait aux alentours de la Caverne des Dangers quand une chose terrible se produisit. Effrayé par le cri d&#39;une étincelle mutante et dans le noir, il eut un &#39;accident&#39;. Venge-le de cette humiliation et tue 20 Etincelles mutantes en mode Arcade (F1) de la Caverne des Dangers."/>
+<TEXT ID="10517121" Text="Sa... sa-lut-lut.
+Q-q-que... Quoi ?! Bég-bégaye ?
+Que veux-tu insinuer ?%%
+Arrête de demander ! D&#39;accord, je vais te le dire, ne le répète pas, je mourrais de honte.
+Si tu écoutes mon histoire, tu devras m&#39;aider et jurer de garder le secret."/>
+<TEXT ID="10517126" Text="Es-tu sûr d&#39;avoir eu tout le monde ? Ils pourraient prétendre que j&#39;étais effrayé, alors qu&#39;en vérité je pense être victime d&#39;une malédiction.%%Voilà une récompense, pour acheter ton silence, tu devrais y trouver ton affaire !%%Si quelqu&#39;un demande, les Etincelle mutante m&#39;ont lancé une malédiction ! Merci."/>
+<TEXT ID="10517123" Text="Peu importe mec ! Tu as promis de te taire, voilà l&#39;histoire.
+Je me baladais en forêt, sur le chemin du retour.%%
+Il faisait nuit noire et le vent était glacial.
+J&#39;ai senti que quelque chose était sur le point de fondre sur moi.%%
+Une étincelle mutant sort de nulle part !!
+J&#39;étais... surpris... et... tu sais quoi... j&#39;ai eu un léger accident de pantalon !
+Je ne leur pardonnerai jamais !%%
+S&#39;il te plait, comme promis, rends-toi en mode Arcade (F1) de la Caverne des Dangers et venge-moi !"/>
+<TEXT ID="10517124" Text="Haha, toi aussi tu as peur ? Heu, je veux dire, toi tu as peur, moi c&#39;était différent..."/>
+<TEXT ID="10517125" Text="Tu n&#39;es pas encore parti ? Engoissé ?!"/>
+<TEXT ID="10517111" Text="Etincelle mutante"/>
+<TEXT ID="10224101" Text="Veux-tu être mon ami(e) ? (5)"/>
+<TEXT ID="10224102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle avec Larell
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du Cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Larell a donné un cadeau à ses nouveaux amis mais ils ne semblent pas l&#39;apprécier. Il pense s&#39;être trompé, essayer de le conforter."/>
+<TEXT ID="10224121" Text="Oh, tu es là ?
+Quel temps de chien, hein ?
+Suis-je le seul à adorer ce temps ?%%
+Et à penser ainsi ?
+Je crois que mon cadeau était stupide. Non, je le sais.
+C&#39;était une erreur.
+Enfin maintenant c&#39;est fait..."/>
+<TEXT ID="10224126" Text="Merci Tu es un bon ami."/>
+<TEXT ID="10224123" Text="(Lui parlant.)
+Pardon ? Tu es mon ami ?
+Oui. Oui bien sûr, nous sommes amis.%%
+C&#39;est bien de se le rappeler."/>
+<TEXT ID="10224124" Text="Je vais aller me reposer un instant."/>
+<TEXT ID="10224125" Text="Merci Tu es un bon ami."/>
+<TEXT ID="10224111" Text="Parle avec Larell"/>
+<TEXT ID="10223501" Text="Un cimetière apaisant (2)"/>
+<TEXT ID="10223502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière Souterrain Nv.35 - Tue Drap&#39;Os, Katler, Ratler etKajimodo
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du Cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le boulot de Larell consiste également à prendre soin des âmes en repos, c&#39;est une tâche difficile. Aide-le à aider les âmes à trouver le repos en te débarrassant de Drap&#39;Os, Katler, Ratler et Kajimodo au Cimetière Souterrain Nv.35."/>
+<TEXT ID="10223521" Text="Il existe un moyen.
+Mais c&#39;est trop risqué, même pour toi.%%
+Je ne veux pas perdre un ami.
+... ...%%
+C&#39;est vrai..., tu veux le faire ?"/>
+<TEXT ID="10223526" Text="Incroyable.
+Je n&#39;en croit pas mes oreilles.
+Le cimetière... silencieux !%%
+Merci pour tout.
+Tu es super !!"/>
+<TEXT ID="10223523" Text="Si tu pénètres le Cimetière Souterrain et te débarrasses de Drap&#39;Os, Katler, Ratler et Kajimodo,
+nous aurons la paix.%%
+Si tu peux le faire, le cimetière sera enfin calme."/>
+<TEXT ID="10223524" Text="Ce n&#39;était pas une chose à te demander, c&#39;est au-dessus de tes moyens, je comprends."/>
+<TEXT ID="10223525" Text="Si tu sens qu&#39;il faut fuir, fuis !!"/>
+<TEXT ID="10223511" Text="Drap&#39;Os"/>
+<TEXT ID="10223512" Text="Katler"/>
+<TEXT ID="10223513" Text="Ratler"/>
+<TEXT ID="10223514" Text="Kajimodo"/>
+<TEXT ID="10222601" Text="Que veulent les filles (2)"/>
+<TEXT ID="10222602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Parle avec Claire
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Banquière Sofia
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sofia ne trouve pas le sommeil, elle pense à Swirl qui l&#39;a sauvé. Elle ne sait pas pourquoi elle n&#39;arrive pas à se le sortir de la tête et souhaite demander conseil à Claire. Va demander pour elle."/>
+<TEXT ID="10222621" Text="Salut ! 
+Merci d&#39;avoir transmis mon message.
+Mais il y a un truc bizarre, je pensais que j&#39;irai mieux une fois le message passé.%%
+Mais le soir, mon coeur bat si fort, je n&#39;arrive pas à dormir.
+Tu crois que je suis malade ?"/>
+<TEXT ID="10222626" Text="Amour ?"/>
+<TEXT ID="10222623" Text="Vraiment ?Tu vas tenter de le découvrir ?
+Je pense que Claire saura.
+Nous sommes toutes les deux des femmes.
+Et elle est plus mûre que moi, elle doit savoir."/>
+<TEXT ID="10222624" Text="Tu ne vas pas m&#39;aider finalement ?"/>
+<TEXT ID="10222625" Text="Alors ? A propos de mon coeur ?"/>
+<TEXT ID="10222651" Text="Hoho.
+C&#39;est vrai ?
+Sofia, amoureuse ?
+Hoho !
+A cet âge, ils sont si mignons."/>
+<TEXT ID="10222611" Text="Parle avec Claire"/>
+<TEXT ID="10222501" Text="Que veulent les filles (1)"/>
+<TEXT ID="10222502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Parle avec Swirl
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Garde Swirl
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sofia a rencontré un monstre dangereux en rentrant le soir. Heureusement que Swirl passait par-là et l&#39;a sauvée."/>
+<TEXT ID="10222521" Text="Bonjour.
+Pour qui combats-tu généralement ?
+La famille ? Toi-même ? Une amoureuse ?"/>
+<TEXT ID="10222526" Text="Pardon ? Sauvé Sofia ? Humm, je ne pense pas.
+Ah oui, il y a deux jours, Sofia s&#39;est enfuie en voyant une souris.
+C&#39;est de ça dont il s&#39;agit ?
+Ce n&#39;était pas très dur de la saver, héhé."/>
+<TEXT ID="10222523" Text="Il y a deux jours, je rentrais chez moi après le travail.
+Je marchais tranquillement, quand...
+Un monstre était là devant moi, très menaçant.%%
+Horrifiée, j&#39;ai fermé les yeux.
+En les rouvrant, Swirl était là et le monstre, disparu.%%
+Tellement surprise, je ne l&#39;ai pas remercié.
+Veux-tu passer mes remerciement à Swirl s&#39;il te plait ?"/>
+<TEXT ID="10222524" Text="Tu regretteras de ne pas m&#39;aider, moi je ne t&#39;aiderai plus, nah !"/>
+<TEXT ID="10222525" Text="Remet ce message au plus vite."/>
+<TEXT ID="10222511" Text="Parle avec Swirl"/>
+<TEXT ID="10222701" Text="Que veulent les filles (3)"/>
+<TEXT ID="10222702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 - Obtiens une Pastille à la camomille sur les  Momies n&#39;a qu&#39;un Œil
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation{T=QTtext/C=0xFF4D0D08/}
+Momie n&#39;a qu&#39;un Œil - Banquière Sofia
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sofia ne peut pas travailler, son coeur bat la chamade et elle rougit sans raisons. Elle pense couver quelque chose et te demande de lui apporter une pastille à la camomille que tu peux trouver chez les momies n&#39;a qu&#39;un Œil du Cimetière souterrain Nv.35."/>
+<TEXT ID="10222721" Text="Bonjour.
+Je suis éreintée. Mon coeur s&#39;affole toujours et je suis épuisée dès le matin.
+Il me faut me calmer, aide-moi s&#39;il te plait."/>
+<TEXT ID="10222726" Text="Tu l&#39;as ? Donne-moi la pastille s&#39;il te plait.%%Merci, ça va déjà mieux."/>
+<TEXT ID="10222723" Text="Tu trouveras des Momies n&#39;a qu&#39;un Œil au Cimetière souterrain Nv.35.
+Elles ont parfois une Pastille à la camomille, ça m&#39;aidera à me relaxer.
+Peux-tu m&#39;en apporter une ?"/>
+<TEXT ID="10222724" Text="OK"/>
+<TEXT ID="10222725" Text="Visage rouge et coeur battant."/>
+<TEXT ID="10222711" Text="Pastille à la camomille"/>
+<TEXT ID="10222801" Text="Que veulent les filles (4)"/>
+<TEXT ID="10222802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 - Obtiens une Epée de guerrier sur Katler
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Garde Swirl
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+La pastille à la camomille a aidé Sofia, elle souhaite maintenant remercier Swirl avec un présent. Rends-toi au Cimetière souterrain Nv.35 et récupère une épée de guerrier sur Katler. Donne-la ensuite à Swirl."/>
+<TEXT ID="10222821" Text="Salut.
+On se rencontre assez souvent en ce moment.
+Tu tombes bien, j&#39;ai besoin de toi."/>
+<TEXT ID="10222826" Text="Sofia ? Elle veut que j&#39;ai ça ?
+Je ne sais pas pourquoi mais je ferais bien de la remercier."/>
+<TEXT ID="10222823" Text="Je crois que je devrais lui donner un cadeau.
+Je vais lui en envoyer un.%%
+D&#39;après ce qu&#39;on m&#39;a dit, on peut trouver de belles épée de guerrier chez Katler, au Cimetière souterrain Nv.35.
+On m&#39;a dit que c&#39;était une bonne lame !%%
+Peux-tu l&#39;apporter à Swirl ?"/>
+<TEXT ID="10222824" Text="Oh, tu es occupé ? Tant pis alors !"/>
+<TEXT ID="10222825" Text="Je lui ai donné un cadeau, je pourrais peut-être enfin trouver le calme."/>
+<TEXT ID="10222811" Text="Epée de guerrier"/>
+<TEXT ID="10223001" Text="Si tu es un héros, je suis un super héros !"/>
+<TEXT ID="10223002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière souterrain Nv.35 - Tue Ratler
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Thomas se vante d&#39;être costaud et les gens en ont marre d&#39;entendre cela. Montre donc à Thomas qu&#39;il n&#39;est pas si exceptionnel, il changera son attitude. Se débarrasser de Ratler au Cimetière souterrain Nv.35 devrait l&#39;aider à comprendre."/>
+<TEXT ID="10223021" Text="Ahahaha ! Hey, toi !
+Tu sais à quel point je suis fort ?
+Il y a encore peu, les monstres me suppliaient de passer mon chemin.
+Tous autant qu&#39;ils sont, ils baissent les yeux devant moi.%%
+Oh, tu es fort, toi aussi ? Oui, je suis au courant.
+Mais je doute que tu sois fort comme moi ! Ahah."/>
+<TEXT ID="10223026" Text="Quoi ?!
+Je n&#39;arrive pas à croire que tu ai défait ce monstre seul.
+Huhum... enfin quoi, on se voit tout à l&#39;heure, hein ?
+J&#39;ai des trucs à faire, tu vois..."/>
+<TEXT ID="10223023" Text="Si tu penses être aussi fort que moi, prouve-le donc.
+Quand tu iras au Cimetière souterrain Nv.35, tu feras face à Ratler.%%
+Tu penses que le combat sera simple ?
+Haha, j&#39;attends ton retour avant de me prononcer.
+Ne viens pas me voir si tu n&#39;as pas de preuves.
+Haha."/>
+<TEXT ID="10223024" Text="Qu&#39;est-ce que je disais, tu t&#39;enfuis déjà !"/>
+<TEXT ID="10223025" Text="Oh oui, c&#39;est une tâche dangereuse oui. Admets-le ! Tu n&#39;y arriveras pas."/>
+<TEXT ID="10223011" Text="Cimetière Souterrain Nv.35 - Tue Ratler"/>
+<TEXT ID="10223201" Text="Chanpio malheureux ? (2)"/>
+<TEXT ID="10223202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière Souterrain Nv.35 - Obtiens la dent de Kajimodo
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Maître Valkyrie Chanpio
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Chanpio, toujours ennuyé par cette rumeur, pense connaître le responsable. Kajimodo du Cimetière Souterrain Nv.35, toujours humilié par sa défaite contre Chanpio, raconte ces mensonges. Vas le voir et rapporte une des dents de Kajimodo, il n&#39;osera plus mentir après ça."/>
+<TEXT ID="10223221" Text="Viens vite et écoute ce que j&#39;ai à dire.
+Je sais qui colporte des rumeurs sur moi.
+Je l&#39;ai démasqué !"/>
+<TEXT ID="10223226" Text="Tu as la dent de Kajimodo ?
+Montre-moi.
+Oui, c&#39;est bien ça, merci pour le coup de main."/>
+<TEXT ID="10223223" Text="Je sais qui répand des rumeurs à mon égard.
+Je ne vais pas rester là sans agir.
+Bien sûr, je veux dire tu ne peux pas rester là sans rien faire.%%
+Je suis très occupé voyons !
+Rends-toi au Cimetière souterrain Nv.35 et traque Kajimodo.%%
+Fais-lui ce que tu veux mais apporte-moi une de ses dents, ok ?"/>
+<TEXT ID="10223224" Text="Comment ? Tu ne peux ou tu ne veux rien faire ?
+Hé, je ne vais pas te courir après, reviens ! Grrr !!"/>
+<TEXT ID="10223225" Text="Tu n&#39;as pas à écouter tout ce qu&#39;il dit ni faire ce qu&#39;il te dit de faire.
+Ok ?"/>
+<TEXT ID="10223211" Text="Dent de Kajimodo"/>
+<TEXT ID="10223401" Text="Clair de lune au cimetière (1)"/>
+<TEXT ID="10223402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Parle à Larell
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du Cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Smith est inquiet des dégâts faits au Cimetière Souterrain par les monstres. Va de sa part demander à Larell que faire pour protéger le Cimetière Souterrain."/>
+<TEXT ID="10223421" Text="Il nous faut protéger ce leiux, afin que les âmes y restent en paix.
+Si tu as une idée, je suis preneur.
+Hein, aucune ?"/>
+<TEXT ID="10223426" Text="Tu veux faire du Cimetière Souterrain un endroit calme ?
+Bien, c&#39;est aussi mon souhait.
+Je connais un moyen.%%
+Mais personne ne s&#39;y risquerai à essayer.
+Même pour toi ça peut être dangereux.%%
+Enfin tu me redonnes espoir, un jour cet endroit sera calme, car des gens comme toi existent."/>
+<TEXT ID="10223423" Text="Je devrais en parler au gardien du cimetière, oui c&#39;est àa, Larell.
+C&#39;est quand même important, j&#39;ai besoin de ton aide.
+Va lui demander conseil de ma part s&#39;il te plait."/>
+<TEXT ID="10223424" Text="Tu n&#39;as aucune idée sur la manière de procéder ! Ah !"/>
+<TEXT ID="10223425" Text="J&#39;imagine que Larell ferait quelque chose."/>
+<TEXT ID="10223411" Text="Parle à Larell"/>
+<TEXT ID="10223701" Text="Veux-tu être mon ami(e) ? (1)"/>
+<TEXT ID="10223702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Parle à Jeff et Hunter G
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Larell avoue se sentir seul et son travail ainsi que sa tendance à la timidité n&#39;aide pas. Il aime être seul mais pas toujours. Aide Larell à se faire des amis."/>
+<TEXT ID="10223721" Text="Comment ça va aujourd&#39;hui ? Bien dormi ?
+Pour moi, c&#39;est pas facile de trouver le sommeil.
+Mais grâce à toi, je vais bien mieux.%%
+Comment, je fais quoi quand je ne dors pas ?
+Je rêve tout éveillé j&#39;imagine..."/>
+<TEXT ID="10223726" Text="Pour de vrai ? Quelqu&#39;un souhaite me connaître ? Qui c&#39;est ?
+Ah bon, je ne pensais pas que tu m&#39;aiderais vraiment, c&#39;est très sympathique de penser à moi."/>
+<TEXT ID="10223723" Text="Seul ou avec le cafard ? Humm.
+Non, pas vraiment. Si j&#39;étais normal, peut-être oui, je ressentirai ces choses.
+Je suis habitué à la solitude%%
+Plus que ça, des fois je me sens plus à l&#39;aise seul.
+Bien sûr, je préferais que quelqu&#39;un comme toi passe de temps en temps.
+Mais je n&#39;ai jamais connu personne de tel."/>
+<TEXT ID="10223724" Text="C&#39;est pas si mal d&#39;être solitaire."/>
+<TEXT ID="10223725" Text="Est-ce que ce serais vraiment mieux d&#39;avoir un ami ?"/>
+<TEXT ID="10223751" Text="Tu me présentes un copain ? Humm, oui ce doit être une bonne nouvelle."/>
+<TEXT ID="10223752" Text="Avoir un ami, être un ami.
+Tu m&#39;as présenté de gentilles personnes, c&#39;est très sympa de ta part."/>
+<TEXT ID="10223711" Text="Parle à Jeff"/>
+<TEXT ID="10223712" Text="Parle à Hunter G"/>
+<TEXT ID="10224201" Text="La blessure de Chanpio"/>
+<TEXT ID="10224202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Cimetière Souterrain Nv.35 - Tue Katler et obtiens un Onguent
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Katler - Maître Valkyrie Chanpio
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Chanpio s&#39;est blessé lors de son entraînement aux arts martiaux. Son coude le fait souffrir, il lui faudrait une sorte d&#39;onguent pour soigner cette blessure. Tu en trouveras pour lui au Cimetière Souterrain Nv.35, Katler en a sur lui."/>
+<TEXT ID="10224221" Text="Ouille ! Mon coude me fait souffrir...
+Ne touche pas. C&#39;est terrible, je me meurs...
+Impossible de le bouger.
+Aide-moi, je t&#39;en prie."/>
+<TEXT ID="10224226" Text="Merci. Tout ça ne sera bientôt que de l&#39;histoire ancienne grâce à toi."/>
+<TEXT ID="10224223" Text="Je m&#39;entraînais très dur et j&#39;ai fait un mauvais mouvement.
+Je souffre horriblement !
+Il me faut me soigner mais ma blessure m&#39;empêche de me déplacer.%%
+Trouve-moi un onguent s&#39;il te plait, Katler du Cimetière Souterrain Nv.35 en as toujours sur lui."/>
+<TEXT ID="10224224" Text="Quand j&#39;irai mieux je t&#39;apprendrai à t&#39;occupper des plus faibles !"/>
+<TEXT ID="10224225" Text="Aïe... mon coude."/>
+<TEXT ID="10224211" Text="Onguent"/>
+<TEXT ID="10224301" Text="Les 3 moeurs des personnes accomplies (1)"/>
+<TEXT ID="10224302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à James
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Agent immobilier James
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+James dit que les personnes accomplies ont des habitudes particulières. Il veut te montrer comment font les gens pour réussir. La 1ère de ces moeurs et de toujours avoir un plan. Ecoute ce qu&#39;il a à dire."/>
+<TEXT ID="10224321" Text="Bien le bonjour.
+Sais-tu que c&#39;est ton jour de chance ? Je vais te parler de la réussite !"/>
+<TEXT ID="10224326" Text="Les gens qui réussissent, les personnes accomplies comme j&#39;aime à les nommer, ont des habitudes bien réglées.
+Avant tout, il faut avoir un but, je pense te l&#39;avoir déjà dit.
+Le but peut être différent, mais le chemin à accomplir est le même.%%
+Le vrai but, c&#39;est ce chemin !
+Habitue-toi à avoir un but, tu comprendras."/>
+<TEXT ID="10224323" Text="Nous avons tous différentes idées, un voudra de l&#39;argent, l&#39;autre une famille.%%Le &#39;Succès&#39; ne se définit pas de la même manière pour tous mais ceux qui succèdent avaient un plan à suivre.%%Qu&#39;en penses-tu ? Ne voudrais-tu pas aussi avoir un but à suivre ? Viens me voir plus tard, nous discuterons."/>
+<TEXT ID="10224324" Text="La vérité ne t&#39;intéresse-t-elle pas ?"/>
+<TEXT ID="10224325" Text="Quand tu seras prêt, reviens me voir."/>
+<TEXT ID="10224311" Text="Parle à James"/>
+<TEXT ID="10224401" Text="Les 3 moeurs des personnes accomplies (2)"/>
+<TEXT ID="10224402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à James
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Agent immobilier James
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+James dit que les personnes accomplies ont des habitudes particulières. Il veut te montrer comment font les gens pour réussir. La 2nde de ces moeurs et de toujours être patient. Ecoute ce qu&#39;il a à dire."/>
+<TEXT ID="10224421" Text="Il est temps pour la leçon numéro deux.
+Es-tu prêt ?"/>
+<TEXT ID="10224426" Text="T&#39;es-tu bien chargé de ces monstres ?
+Qu&#39;as-tu pensé, quand tu tuais ces monstres ?
+Que c&#39;était difficile, ennuyeux peut-être ?%%
+J&#39;imagine que des tas de chose te passent par la tête mais, vois-tu, quelque chose t&#39;as permis de continuer.
+Il s&#39;agissait du but, du plan à suivre.%%
+Ça t&#39;a permis de continuer.
+Et pour achever ce but, ce plan, la patience est nécessaire.
+Les gens patients sont les vrais conquérants.%%
+C&#39;était la seconde leçon. Etre patient."/>
+<TEXT ID="10224423" Text="10 % d&#39;aptitudes et 90 % de sueur.
+Connais-tu ce proverbe ?
+Je t&#39;expliquerai ce qu&#39;il signifie quand tu reviendras de mission.
+Va maintenant au Cimetière Souterrain Nv.35 et tue 100 monstres."/>
+<TEXT ID="10224424" Text="Tu dois être prêt.
+Je ne t&#39;enseignerai que lorsque tu seras prêt à apprendre."/>
+<TEXT ID="10224425" Text="Tuer 100 monstres prends du temps, mais le savoir est au bout."/>
+<TEXT ID="10224411" Text="Monstre du Cimetière Souterrain Nv.35"/>
+<TEXT ID="10224501" Text="Les 3 moeurs des personnes accomplies (3)"/>
+<TEXT ID="10224502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à James
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Agent immobilier James
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+James dit que les personnes accomplies ont des habitudes particulières. Il veut te montrer comment font les gens pour réussir. La 3ème de ces moeurs et de toujours être courageux. Ecoute ce qu&#39;il a à dire."/>
+<TEXT ID="10224521" Text="C&#39;est triste à dire, mais nous arrivons à notre dernière leçon.
+Pense aux premières leçons, avoir un but et être patient.%%
+En réalité, ces 2 choses ne sont qu&#39;une préparation unique, te rendre prêt à t&#39;ouvrir au succès.
+Me comprends-tu ?"/>
+<TEXT ID="10224526" Text="Tu as fait de l&#39;excellent travail.
+As-tu pensé à mon proverbe depuis la dernière fois ?
+Je vais t&#39;en donner la signification.%%
+Une opportunité s&#39;offre toujours à celui qui a un plan et reste patient..
+Mais il est aussi essentiel d&#39;être courageux, pour savoir quand attraper cette opportunité.%%
+Tu attends l&#39;occasion avec but et patience, et tu la saisis avec courage.
+Si tu à saisi, tu as tout compris !"/>
+<TEXT ID="10224523" Text="Une mission maintenant que je t&#39;y ai habitué !
+Va au Cimetière souterrain Nv.35 et tue Drap&#39;Os.
+Pense à ce proverbe pendant l&#39;action.%%
+&#39;Courage est père de Succès.&#39;"/>
+<TEXT ID="10224524" Text="Alors je ne peux rien pour toi."/>
+<TEXT ID="10224525" Text="Tu n&#39;as peur, n&#39;est-ce pas ?"/>
+<TEXT ID="10224511" Text="Drap&#39;Os"/>
+<TEXT ID="10517401" Text="Personnalité audacieuse"/>
+<TEXT ID="10517402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Arcade(F1) - Obtiens 20 Médailles de Jeff sur les Champivoleurs
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Voleur sournois Jeff
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Jeff est toujours énervé bien que tu l&#39;ai vengé contre les monstres de la Caverne des Dangers, parce qu&#39;ils lui ont pris tous ses trésors. Rends-toi en mode Arcade (F1) et récupère 20 médailles de Jeff."/>
+<TEXT ID="10517421" Text="Sniff. Pourquoi j&#39;ai l&#39;air si abattu aujourd&#39;hui ?
+Non... rien, j&#39;ai juste le cafard...
+"/>
+<TEXT ID="10517426" Text="Merci. J&#39;espère qu&#39;on peut garder ça secret."/>
+<TEXT ID="10517423" Text="Humm.
+Avant tout, merci pour ton aide.
+Je sais que j&#39;abuse peut-être de ta gentillesse mais j&#39;ai encore besoin de toi.
+J&#39;ai perdu quelque chose de précieux, quand j&#39;ai pris peur.%%
+Quoi ? Oh, juste quelques piécettes, mais qui brillent forts !
+Je crois que les Champivoleurs les ont...
+J&#39;étais embarassé, alors je n&#39;ai pas tout raconté%%
+Mais elles sont très précieuses à mes yeux !
+S&#39;il te plait, retourne en mode Arcade (F1) de la Caverne des Dangers et retrouve mes 20 médailles sur les Champivoleurs."/>
+<TEXT ID="10517424" Text="Très bien. Je m&#39;en chargerai moi-même."/>
+<TEXT ID="10517425" Text="Tu as trouvé quelques médaille ?"/>
+<TEXT ID="10517411" Text="Médaille de Jeff"/>
+<TEXT ID="10517001" Text="L&#39;amour de maman"/>
+<TEXT ID="10517002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Arcade (F1) - Tue 20 Champitueur
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Aubergiste Claire
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Claire ne veux plus que ses enfants traînent du côté de la forêt à cause des Champitueurs. Ou alors, elle te demande de rendre la zone sécurisée, en tuant au moins 20 Champitueurs du mode Arcade (F1) de la Caverne des Dangers."/>
+<TEXT ID="10517021" Text="As-tu vu le regard de mes enfants ? C&#39;est juste trop triste.
+Ça  me rend triste qu&#39;ils n&#39;aient pas d&#39;endroit où jouer.
+Aide-les s&#39;il te plait."/>
+<TEXT ID="10517026" Text="Oh merci beaucoup, mes enfants seront ravis !
+Je vais leur annoncer la bonne nouvelle."/>
+<TEXT ID="10517023" Text="Il y avait un parc avant, pour les enfants, mais il n&#39;existe plus.
+Les Champitueurs l&#39;ont saccagés.
+Les enfants s&#39;ennuient à la maison, et je suis triste pour eux.%%A
+Aide-moi à trouver un endroit pour les enfants, %name%.
+Va en mode Arcade (F1) de la Caverne des Dangers et débarrase-nous des Champitueurs, 20 devraient suffire."/>
+<TEXT ID="10517024" Text="Mes enfants ne sourient plus autant qu&#39;avant."/>
+<TEXT ID="10517025" Text="Merci de ton aide. Reste avec nous prendre le thé."/>
+<TEXT ID="10517011" Text="Champitueur"/>
+<TEXT ID="10518001" Text="Livraison à Kalygon (1)"/>
+<TEXT ID="10518002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Frank
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Armurier Frank
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Frank doit livrer une épée de pirate que Kalygon a comandé mais il n&#39;est pas sûr de savoir quelle genre d&#39;arme sert en combat maritime. Aide-le à choisir la bonne arme."/>
+<TEXT ID="10518021" Text="Toi le héros,
+t&#39;es-tu déjà rendu en mer ?
+Quelle genre d&#39;armes utilisent-on là-bas ?"/>
+<TEXT ID="10518026" Text="(Tu lui explique la chose)
+Ouah, tu en sais des choses.
+Tu te rends en bord de mer des fois ?%%
+Ah oui, tu dois avoir été au Port des Quatre Vents bien sûr.
+Merci pour tes conseils."/>
+<TEXT ID="10518023" Text="En fait, j&#39;ai un client, pas un rigolo, quelqu&#39;un de la Caverne des Dangers. Un type se faisant appeler Kalygon... J&#39;ai entendu dire que c&#39;était quelqu&#39;un !%%Je ne veux pas me tromper, et lui faire une arme digne d&#39;un pirate.%%Observe celles que j&#39;ai et dis-moi quel type d&#39;arme ferai l&#39;affaire s&#39;il te plait."/>
+<TEXT ID="10518024" Text="Tu n&#39;es jamais aller dans l&#39;océan, je me trompe ?"/>
+<TEXT ID="10518025" Text="Alors, quelle est la meilleure arme selon toi ?"/>
+<TEXT ID="10518011" Text="Parle à Frank"/>
+<TEXT ID="10518101" Text="Livraison à Kalygon (2)"/>
+<TEXT ID="10518102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Parle à Hime
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Hime
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Frank a donné l&#39;arme commandée par Kalygon à Hime puisque lui-même se rendait livrer ses potions. Va t&#39;assurer que Hime a bien livré l&#39;arme."/>
+<TEXT ID="10518121" Text="Cette arme que tu as sélectionné n&#39;es pas encore arrivée à Kalygon.
+J&#39;ai demandé à Hime de la livrer pour moi quand il ferait ses propres livraisons...%%
+Je ne sais pas où il en est.
+Va te renseigner pour moi s&#39;il te plait."/>
+<TEXT ID="10518126" Text="Pour dire vrai, j&#39;avais autre chose à faire. Toi dis-moi, tu pourrais aider, non ?"/>
+<TEXT ID="10518123" Text="J&#39;ai demandé à Hime de m&#39;aider, alors demande-lui s&#39;il te plait."/>
+<TEXT ID="10518124" Text="Ce n&#39;est pas difficile."/>
+<TEXT ID="10518125" Text="Demande-lui s&#39;il te plait."/>
+<TEXT ID="10518111" Text="Parle à Hime"/>
+<TEXT ID="10519001" Text="Charger une balle."/>
+<TEXT ID="10519002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Mode Arcade Mode(F1) - Obtiens 20 Balles de métal sur les Etincelles téméraires
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Capitaine Kalygon
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Le capitaine Kalygon n&#39;a pas le temps de préparer assez de balles, il est pressé d&#39;arriver à la Caverne des Dangers pour découvrir un trésor. Va donc en mode Arcade (F1) de la Caverne des Dangers et tue les Etincelles téméraires pour obtenir 20 Balles de métal."/>
+<TEXT ID="10519021" Text="Hey, as-tu une minute ?
+J&#39;ai besoin de ton aide."/>
+<TEXT ID="10519026" Text="Ok, ça suffira, je suis un as de la gachette !"/>
+<TEXT ID="10519023" Text="C&#39;est mauvais. C&#39;est même pas bon du tout.
+Tellement excité à l&#39;idée de trouver un trésor que j&#39;ai oublié de recharger mon arme.%%
+Essaye de m&#39;en dégoter s&#39;il te plait, c&#39;est assez urgent.
+Tu trouveras des étincelles téméraires en mode Arcade (F1) de la Caverne des Dangers. Elles possèdent des balles de métal, apporte-en moi 20."/>
+<TEXT ID="10519024" Text="Comprends-tu ce que signifie &#39;Urgent&#39; ?
+Hey ! Hey !!"/>
+<TEXT ID="10519025" Text="20 balles de métal feront l&#39;affaire."/>
+<TEXT ID="10519011" Text="Balle de métal"/>
+<TEXT ID="10519301" Text="L&#39;entraînement de Kalygon"/>
+<TEXT ID="10519302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Mode Arcade (F1) - Atteins 100 Combos
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Capitaine Kalygon
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Kalygon te raconte le bien fou que fait l&#39;entraînement au combos. D&#39;après lui, tu gagnerais à aller en mode Arcade (F1) de la Caverne des Dangers afin d&#39;effectuer 100 combos."/>
+<TEXT ID="10519321" Text="Tu l&#39;as fait !
+Je vais t&#39;enseigner ma technique spéciale, je fais ça deux fois par jour.
+Qu&#39;en penses-tu ?"/>
+<TEXT ID="10519326" Text="Tu sens que tes compétences s&#39;améliorent ?"/>
+<TEXT ID="10519323" Text="J&#39;effectue 100 combos deux fois par jour.
+Tu devrais t&#39;y mettre, y&#39;a que ça de vrai l&#39;ami.%%
+Va en mode Arcade (F1) de la Caverne des Dangers afin d&#39;effectuer 100 combos.
+Tes aptitudes au combat vont faire un bon, crois-en un pirate."/>
+<TEXT ID="10519324" Text="Content de ta puissance ?"/>
+<TEXT ID="10519325" Text="Ce ne sera  pas facile d&#39;atteindre les 100 combos !"/>
+<TEXT ID="10519311" Text="Caverne des Dangers - Atteins les 100 combos"/>
+<TEXT ID="10519401" Text="L&#39;évasion de Sen"/>
+<TEXT ID="10519402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Parle à Sen
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Caverne des Dangers - Marchand d&#39;outils Sen
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sen est enfermé à la Caverne des Dangers. Il est apeuré, enseigne-lui comment se contrôler et s&#39;en sortir."/>
+<TEXT ID="10519421" Text="%name%.
+Cet endroit est horrible. Où suis-je ?
+Que dois-je faire pour m&#39;en sortir ??"/>
+<TEXT ID="10519426" Text="Désolé ? Que dois-je faire avec ça ? Rester ici ?
+Moi je crois en toi fièr(e) %class%.
+Je t&#39;attends ici."/>
+<TEXT ID="10519423" Text="Il y a sûrement un moyen, non ?
+Je me vois mal ouvrir un magasin ici...
+Je vais faire comment pour vivre ?"/>
+<TEXT ID="10519424" Text="Il n&#39;y a aucun échappatoire, c&#39;est ça ?"/>
+<TEXT ID="10519425" Text="Je veux sortir d&#39;ici !"/>
+<TEXT ID="10519411" Text="Parle à Sen"/>
+<TEXT ID="10519501" Text="Edeline la méticuleuse"/>
+<TEXT ID="10519502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Parle à Colin
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Capitaine de la garde Colin
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Edeline s&#39;est occupée des affaires de la {C=0xFF016295/}Citadelle du Tourment{C=0xFF4D0D08/} mais elle veut s&#39;assurer de n&#39;avoir rien oublié. Elle te charge d&#39;aller remettre son rapport au sujet de la Citadelle du Tourment à Colin au Port des Quatre Vents."/>
+<TEXT ID="10519521" Text="Bonjour  %name%.
+Peux-tu me rendre un service ?"/>
+<TEXT ID="10519526" Text="Je suis impressionné d&#39;apprendre tout ce qu&#39;Edeline a fait à la {C=0xFF016295/}Citadelle du Tourment{C=0xFF4D0D08/}.
+Je sais aussi que tu as aidé.
+J&#39;en toucherai mot à notre souverain."/>
+<TEXT ID="10519523" Text="Je vais me rendre à la {C=0xFF016295/}Citadelle du Tourment{C=0xFF4D0D08/} finir le travail.
+Va voir le capitaine Colin d&#39;urgence lui faire un rapport.
+Tu le trouveras au Port des Quatre Vents."/>
+<TEXT ID="10519524" Text="Je pensais que tu étais parfait."/>
+<TEXT ID="10519525" Text="C&#39;est Colin du Port des Quatre Vents"/>
+<TEXT ID="10519511" Text="Parle à Colin"/>
+<TEXT ID="10519451" Text="Raconte-moi tout ce que tu sais, en détails.
+Alors que s&#39;est-il passé ?%% (Tu lui fait ton rapport)
+Ah, perdu... Oh non !!"/>
+<TEXT ID="10519452" Text="Quand es-tu arrivé ici ? Frank t&#39;as fait venir ?
+Raconte que j&#39;ai gagné s&#39;il te plait.%%
+(Tu lui annonces les résultats)
+Je le savais.
+Merci pour ça."/>
+<TEXT ID="10519412" Text="Parle à Jeff"/>
+<TEXT ID="10518051" Text="Hoho ! Sofia ressent ces symptômes alors...
+C&#39;est en effet une maladie, on appelle ça l&#39;amour.
+Pour une personne de son âge, c&#39;est normal, dis-lui de ne pas trop s&#39;en faire."/>
+<TEXT ID="10519351" Text="Comment as-tu fait pour perdre ça ? Tu devrais payer pour tu sais ?!"/>
+<TEXT ID="10519352" Text="Qu&#39;est-ce que je peux faire pour toi ?"/>
+<TEXT ID="10517812" Text="Champitueur"/>
+<TEXT ID="10517813" Text="Champivoleur"/>
+<TEXT ID="10223412" Text="Karkarous"/>
+<TEXT ID="10519012" Text="Armure rouillée"/>
+<TEXT ID="10518912" Text="Parle à Hunter G"/>
+<TEXT ID="10520101" Text="Un héros se doit d&#39;être courageux ! (1)"/>
+<TEXT ID="10520102" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Récupère 30 Globes oculaires de Mergon (Cimetière souterrain)
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Thomas te demande d&#39;apporter des Globes oculaires de Mergon du Cimetière souterrain pour mettre à l&#39;épreuve ton courage. Montre-lui de quoi tu es capable en rapportant ces globes."/>
+<TEXT ID="10520111" Text="Collecte des Globes oculaires de Mergon"/>
+<TEXT ID="10520121" Text="Hé toi là-bas ! Où est-ce que tu vas ?
+Je vois que tu es encore novice, je ne me trompe pas, n&#39;est-ce pas ?%% 
+Oh, vraiment ? Tu veux me prouver le contraire ?
+Très bien... Voyons ce que tu as dans le ventre. %% 
+Il y un endroit non loin d&#39;ici qui se nomme le Cimetière souterrain, cet endroit grouille de monstres vicieux avec d&#39;énormes yeux brillants. Quoi ? Déjà effrayé(e) ?%%
+Ces monstres s&#39;appellent des Mergons. Apporte-moi 30 de leurs yeux et alors je reconnaitrais ton courage."/>
+<TEXT ID="10520123" Text="Je savais que tu avais ce qu&#39;il fallait dès la première fois où je t&#39;ai vu(e) !!
+A présent pars et amuse-toi."/>
+<TEXT ID="10520124" Text="Pfff... Tu fais juste semblant d&#39;être un héros en fait."/>
+<TEXT ID="10520125" Text="Tu n&#39;en as pas encore collecté assez ? Ou alors tu es trop effrayé(e) pour y aller ?"/>
+<TEXT ID="10520126" Text="Oh ! Beau boulot ! Je reconnais que tu as l&#39;étoffe des héros. 
+Mais c&#39;était moins une, hahaha !!"/>
+<TEXT ID="10520201" Text="Un héros se doit d&#39;être courageux ! (2)"/>
+<TEXT ID="10520202" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Collecte 30 Cuirs de Zombie au Cimetière Souterrain
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Pour ton deuxième, Thomas te demande d&#39;aller chercher des Cuirs de Zombie dans le Cimetière souterrain."/>
+<TEXT ID="10520211" Text="Collecte 30 Cuirs de Zombie"/>
+<TEXT ID="10520221" Text="Ah ! Brave héros ! Tu t&#39;en es bien sorti(e) lors de ta dernière mission. Mais bon, il faut avouer que c&#39;était facile. Maintenant que je sais que tu connais les bases, on va pouvoir passer à la prochaine mission.%%
+Quoi ? Tu pensais que c&#39;était fini ? Tu ne me prends pas très au sérieux on dirait.%%
+Voyons ce que tu penseras de cette prochaine mission.
+Qu&#39;est-ce qu&#39;il y a ? Tu as peur ? Hahaha !"/>
+<TEXT ID="10520223" Text="Tu as fait le bon choix. Cette mission est assez similaire à la précédente. Tu dois aller tuer des Zombies dans le Cimetière souterrain et me rapporter 30 de leurs cuirs."/>
+<TEXT ID="10520224" Text="Alors, tu n&#39;y arrives pas ?... Tu me déçois."/>
+<TEXT ID="10520225" Text="Tu n&#39;en as pas encore collecté assez ? Ou alors tu es trop effrayé(e) pour y aller ?"/>
+<TEXT ID="10520226" Text="Wouaou !!
+Tu as déjà tout ? Tu as vraiment quelque chose, toi.
+Beau boulot ! Tu ressembles de plus en plus à un véritable héros."/>
+<TEXT ID="10520301" Text="Un héros se doit d&#39;être courageux ! (3)"/>
+<TEXT ID="10520302" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Tue 20 Mergons, Zombies, Momies du Cimetière Souterrain
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Ton dernier test consiste à tuer tous les monstres vicieux du Cimetière souterrain. Thomas a promis de reconnaître ton courage à sa vraie valeur après cette mission."/>
+<TEXT ID="10520311" Text="Tue 20 Mergons"/>
+<TEXT ID="10520312" Text="Tue 20 Zombies"/>
+<TEXT ID="10520313" Text="Tue 20 Momies du Cimetière"/>
+<TEXT ID="10520321" Text="Oh... Tu dégages une forte puissance. A présent, il n&#39;y a plus qu&#39;à te faire connaitre en tant que héros.%% 
+Tu n&#39;as pas l&#39;air content(e) de cette nouvelle mission. Tu sais qu&#39;un héros ne rechigne jamais à la tâche ?
+Enfin, bon, il ne reste plus qu&#39;une mission de toute façon. Tu es prêt(e) ? %%
+Tu sais, si tu penses que tu n&#39;as pas ce qu&#39;il faut, tu n&#39;es pas obligé(e)...
+Mais je suis sûr que tu veux être un vrai héros, n&#39;est-ce pas ?%%
+Alors, tu ne peux pas abandonner maintenant.
+C&#39;est une mission simple en plus : tu vas au Cimetière souterrain et tu tues tout ce que tu vois. Alors, tu vas le faire ?"/>
+<TEXT ID="10520323" Text="Je savais que tu accepterais ! Hahaha !! Allez, en route pour le Cimetière souterrain et tue-moi 20 de chacun de ces monstres : Mergons, Zombies et  Momies du Cimetière."/>
+<TEXT ID="10520324" Text="Alors, tu ne sais pas faire mieux que ça ? Quel fou d&#39;avoir cru que tu t&#39;illustrerais dans cette quête."/>
+<TEXT ID="10520325" Text="Qu&#39;est-ce que tu attends ?"/>
+<TEXT ID="10520326" Text="Tu as l&#39;air épuisé, mais à ton sourire je peux dire que tu as réussis."/>
+<TEXT ID="10520401" Text="Besoin de Luxe et de rareté"/>
+<TEXT ID="10520402" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/} 
+Collecte 30 Trésors de poche de la Flotte de Kalygon
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Armurier Crispin
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Crispin a besoin de biens précieux. Il t&#39;a dit que les monstres de la Flotte de Kalygon ont volé des trésors. Tue ces monstres pour ramener le trésor à Franck et obtenir une récompense."/>
+<TEXT ID="10520411" Text="Collecte 30 Trèsors de poche"/>
+<TEXT ID="10520421" Text="Il est difficile de trouver des clients par les temps qui courent.
+J&#39;aurais besoin d&#39;articles rares et précieux pour pouvoir attirer de nouveaux acheteurs, mais je n&#39;en ai pas.%% 
+Excuse-moi, %name%. Pourrais-tu me donner un coup de main ?
+Il parait que les monstres de la Flotte de Kalygon ont volé le trésor que les pirates avaient caché.%%
+Enfin, peu importe, si tu peux me rapporter ces trésors en tuant ces monstres, tu me serais d&#39;une grande aide."/>
+<TEXT ID="10520423" Text="Tu vas le faire ? Merci, merci beaucoup ! Je te réserve une belle récompense !"/>
+<TEXT ID="10520424" Text="Je vois... Tu ne penses qu&#39;à toi ! Et bien, n&#39;imagine pas revenir dans mon magasin de si tôt !"/>
+<TEXT ID="10520425" Text="Tu n&#39;as pas encore fini ? Je perds de l&#39;argent tous les jours, dépêche-toi s&#39;il te plaît."/>
+<TEXT ID="10520426" Text="Merci ! Tu m&#39;as sauvé la vie ! Je suis sûr d&#39;attirer des clients avec ce que tu viens de me ramener. J&#39;apprécie, vraiment !"/>
+<TEXT ID="10520501" Text="Un marketing agressif, voilà la clé du succès"/>
+<TEXT ID="10520502" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Tue 50 monstres du Cimetière Souterrain
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Agent immobilier James
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+James est sur le point d&#39;investir dans les terrains autour du Cimetière Souterrain mais la zone n&#39;est pas encore très sûre. Tue 50 monstres afin de rassurer James."/>
+<TEXT ID="10520511" Text="Tue 50 monstres du Cimetière Souterrain"/>
+<TEXT ID="10520521" Text="Salut à toi jeune héros !%%
+Je viens de tomber sur cette jolie parcelle et je pense développer mon affaire. L&#39;immobilier est vraiment un travail florissant et lucratif !%%
+Pourrais-tu te rendre dans ce Cimetière souterrain pour moi afin de vérifier que cette région est un bon investissement ?%%
+Beaucoup de personnes se rendent ici récemment mais les monstres semblent également être nombreux et je voudrais m&#39;assurer ne pas faire fausse route.%%
+Bien sûr, je ne peux pas me permettre d&#39;attendre leur départ, si tu vois des monstres, tue-les !"/>
+<TEXT ID="10520523" Text="Merci d&#39;accepter, 50 monstres devraient faire l&#39;affaire et faire fuir les autres."/>
+<TEXT ID="10520524" Text="Pfff... Je vais demander à un autre."/>
+<TEXT ID="10520525" Text="Ce n&#39;est pas encore fait ? Vite dépêche-toi s&#39;il te plait, les affaires n&#39;attendent pas !"/>
+<TEXT ID="10520526" Text="Merci ça ne me rassurait pas d&#39;y descendre moi-même. Tiens, accepte cette récompense."/>
+<TEXT ID="10520601" Text="A la recherche de l&#39;Eau bénite perdue"/>
+<TEXT ID="10520602" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Récupère 30 Eau bénites au Sanctuaire de Mirinae
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Gardien du Cimetière Larell
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Larell a été attaqué par les squelettes en revenant du Sanctuaire de Mirinae. Ils se sont emparé de {C=0xFF4D0D08/}Eau bénite{C=0xFF4D0D08/} qu&#39;il te demande de retrouver."/>
+<TEXT ID="10520611" Text="Retrouve 30 Eau bénites"/>
+<TEXT ID="10520621" Text="Quel drame ! J&#39;ai perdu mon {C=0xFF4D0D08/}Eau bénite{C=0xFF4D0D08/} réservées pour les cérémonies.%%
+J&#39;ai mis si longtemps pour préparer toutes ces bouteilles... Que vais-je faire maintenant ?%%
+De retour du {C=0xFF016295/}Sanctuaire de Mirinae{C=0xFF4D0D08/}, je me suis fait attaqué par ces satanés squelettes.%%
+Comme j&#39;ai couru pour fuir, je ne me suis pas rendu compte quand j&#39;ai laissé tomber mon eau bénite.%%
+Peux-tu les retrouver pour moi s&#39;il te plait ?"/>
+<TEXT ID="10520623" Text="Vraiment ? Tu veux bien ? Elles sont sûrement aux mains des {C=0xFFFF5917/}Pères squelettes{C=0xFF4D0D08/} et {C=0xFFFF5917/}Bébés squelettes{C=0xFF4D0D08/} du {C=0xFF016295/}Sanctuaire de Mirinae{C=0xFF4D0D08/}"/>
+<TEXT ID="10520624" Text="Oh, tu n&#39;as pas de coeur..."/>
+<TEXT ID="10520625" Text="La cérémonie est pour bientôt dépêche-toi s&#39;il te plait !"/>
+<TEXT ID="10520626" Text="Merci je ne sais pas comment j&#39;aurai fait sans toi ! La cérémonie peut avoir lieu maintenant."/>
+<TEXT ID="10520701" Text="Festin des Héros (1)"/>
+<TEXT ID="10520702" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Collecte 10 Os à moelle au Sanctuaire de Mirinae
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Thomas a parlé d&#39;un repas des Héros, que tu ne peux pas rater.
+Ce repas te donnerait une force incomparable.
+Sachant que ce potage est fait d&#39;os, tu n&#39;es pas sûr de ce qu&#39;il raconte..."/>
+<TEXT ID="10520711" Text="Collecte 10 Os à moelle du Sanctuaire de Mirinae"/>
+<TEXT ID="10520721" Text="Regarde-moi ces gros biscotos ! Jaloux ?! Tu aimerais connaître mon secret n&#39;est-ce pas ?%%
+J&#39;ai pris du Festin des Héros.
+Puisque tu en es un aussi, tu devrais y goûter.
+Si tu es intéressé, aide-moi à récolter les ingrédients nécessaires à la recette."/>
+<TEXT ID="10520723" Text="Merci d&#39;accepter. Tu peux commencer par m&#39;apporter10 Os à moelle sur les Père squelette du sanctuaire de Mirinae."/>
+<TEXT ID="10520724" Text="Haha, si tu souhaites garder ta taille de guêpe, c&#39;est ton choix ! Haha !"/>
+<TEXT ID="10520725" Text="C&#39;est bon, tu as les os à moelle ? Dépêche-toi l&#39;eau bout déjà !"/>
+<TEXT ID="10520726" Text="Oh oui, c&#39;est tout à fait ça ! Plus ils semblent dégoutants, mieux sont les os généralement !"/>
+<TEXT ID="10520801" Text="Festin des Héros (2)"/>
+<TEXT ID="10520802" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Collecte 15 Côtes avec un peu de viande au Sanctuaire de Mirinae
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Mercenaire Thomas
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Thomas ne te donne pas la fameuse recette, mais te demande finalement d&#39;apporter d&#39;autres ingrédients, comme des côtes avec un peu de viande.
+Cela est de plus en plus intriguant !"/>
+<TEXT ID="10520811" Text="Côtes avec un peu de viande au Sanctuaire de Mirinae"/>
+<TEXT ID="10520821" Text="La viande est bientôt prête ! Sens-moi ce fumet, miaam !!
+La recette secrète ? Je ne te la donnerai qu&#39;après avoir réalisé ce succulent repas, qu&#39;en dis-tu ?"/>
+<TEXT ID="10520823" Text="Merci d&#39;accepter, va tuer les Bébés squelettes du sanctuaire de Mirinae et récupères leurs côtes, il doit y rester un peu de viande qui pendouille !"/>
+<TEXT ID="10520824" Text="Tu ne salives toujours pas ? Tu dois avoir un estomac d&#39;oiseau pour ne pas être intéressé."/>
+<TEXT ID="10520825" Text="C&#39;est bientôt prêt ! Il ne manque que les côtes !"/>
+<TEXT ID="10520826" Text="Bon travail, des ingrédients frais ! Quoi, que dis-tu ?
+Ah oui la recette secrète... le secret réside dans la consommation de ce ragoût.%% 
+Après le repas, tu es fatigué, puis après t&#39;être reposé, tu te sentiras frais et pimpant !
+Quoi, comment ça tu t&#39;attendais à autre chose ?"/>
+<TEXT ID="10520901" Text="Rêve d&#39;Enfant"/>
+<TEXT ID="10520902" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Tue 30 Starry Lulu et 30 Starry Lolo de la Flotte de Kalygon
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Village du Clair de Lune - Banquière Sophia
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Sophia passait son temps dans la lune lorsqu&#39;elle était enfant et rêvait des étoiles, jusqu&#39;à ce qu&#39;elle se fasse attaquer pas certaines d&#39;entre-elle.
+Venge le souvenir d&#39;une petite fille en te débarrassant de {C=0xFFFF5917/}30 Starry Lulu et 30 Starry Lolo{C=0xFF4D0D08/} du Port de Nautilus."/>
+<TEXT ID="10520911" Text="Starry Lulu"/>
+<TEXT ID="10520912" Text="Starry Lolo"/>
+<TEXT ID="10520921" Text="Bonjour, souhaites-tu entendre mon histoire ?
+Depuis ma plus tendre enfance, je confie mes rêves et espoirs aux étoiles.%%
+Mais ces {C=0xFFFF5917/}Starry Lulu et Lolo{C=0xFF4D0D08/} ont simplement tout gâché.%%
+Je me trouvais dans la lune, comme à mon habitude, près de la Flotte de Kalygon, quand j&#39;ai vu cette chose en forme d&#39;étoile. Bien entendu j&#39;ai essayé de l&#39;atteindre, quand elle m&#39;a mordue !!%%
+J&#39;ai réellement été traumatisée de cette expérience, je me rappelle encore hurler et courir.%%
+Les étoiles qui représentaient le meilleur de la vie, m&#39;ont pourchassé et tenté de me tuer !
+S&#39;il te plait, rends-leur la monnaie de leur pièce.%%
+Si tu fais ça pour moi, je te paierai assez pour financer tes aventures."/>
+<TEXT ID="10520923" Text="C&#39;est vrai ? Tu ferais ça pour moi ? Alors va à la Flotte de Kalygon et débarrasse-nous de {C=0xFFFF5917/}30 Starry Lulu et 30 Starry Lolo{C=0xFF4D0D08/}.
+Fais bien attention à elles !!"/>
+<TEXT ID="10520924" Text="Oui je vois...c&#39;est un peu bête de s&#39;occuper des rêves d&#39;une petite fille."/>
+<TEXT ID="10520925" Text="Tu n&#39;as encore rien fait ? Je suis toujours effrayée moi !"/>
+<TEXT ID="10520926" Text="Merci beaucoup mon héros ! Cela restera un horrible souvenir mais je vais mieux. Voilà un modeste témoignage de ma gratitude."/>
+<TEXT ID="10521001" Text="Fëte des 10 ans de l&#39;Auberge"/>
+<TEXT ID="10521002" Text="{T=FTcts_13/C=0xFFA62700/}[Tâche de quête]{T=QTtext/C=0xFF4D0D08/}
+Obtiens 20 Ailerons de requin bleu au Port de Nautilus
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ de validation]{T=QTtext/C=0xFF4D0D08/}
+Aubergiste Florane
+
+{T=FTcts_13/C=0xFFA62700/}[Détails]{T=QTtext/C=0xFF4D0D08/}
+Notre aubergiste a besoin de {C=0xFF4D0D08/}20 Ailerons de requin bleu{C=0xFF4D0D08/} pour le banquet anniversaire de son auberge. Puisque tu es hébergé(e) à l&#39;oeil, tu te dois de l&#39;aider."/>
+<TEXT ID="10521011" Text="Aileron de requin bleu au Port de Nautilus"/>
+<TEXT ID="10521021" Text="Oh non... Je n&#39;aurai jamais le temps de tout préparer !
+Tu as passe la nuit dans mon auberge n&#39;est-ce pas ?%%
+J&#39;ai besoin d&#39;un service. Vois-tu, la semaine prochaine, nous fêtons les 10 ans de l&#39;auberge.%%
+J&#39;ai prévu une grande fête ainsi que des ailerons de requin bleu pour le banquet mais tous les marchands de poisson sont en grève !!%%
+Ce que je te demande est simple : rends-toi au Port du Nautilus et attrape 20 ailerons de requin bleu sur les {C=0xFF4D0D08/}Requins pirates{C=0xFF4D0D08/} et les {C=0xFF4D0D08/}Requins moussaillons{C=0xFF4D0D08/} que tu chasseras.%%
+Tu seras grassement payé et invité à la fête !"/>
+<TEXT ID="10521023" Text="C&#39;est vrai ?! Tu es un amour !
+Tu trouveras les ailerons de requin bleu sur les {C=0xFFFF5917/}Requins pirates{C=0xFF4D0D08/} et les {C=0xFFFF5917/}Requins moussaillons{C=0xFF4D0D08/} du {C=0xFF016295/}Port de Nautilus{C=0xFF4D0D08/}."/>
+<TEXT ID="10521024" Text="Oh je ferai bien d&#39;annuler la fête... Au fait, voilà ta note !"/>
+<TEXT ID="10521025" Text="Le temps me manque, fais-vite s&#39;il te plait !"/>
+<TEXT ID="10521026" Text="Superbe et pêchés de ce matin !  Merci, ça fera un plat succulent.
+N&#39;oublie pas de venir à la fête !! Voilà ce que je t&#39;ai promis."/>
+ <!-- Quest 5701 -->
+  <TEXT ID="600570100" Text="Sauvegarde le printemps !"/>
+  <TEXT ID="600570101" Text="Ah! Tu es ici %name%! Tu dois aller dans la Forêt aux oeufs. Des choses étranges se passe la-bas.%%
+Peux-tu aller voir? Tu devrais trouver quelques oeufs à manger. *giggle*"/>
+  <TEXT ID="600570102" Text="Les oeufs sont sauvés... pour l&#39;instant..."/>
+  <TEXT ID="600570103" Text="Il n'y a plus d&#39;oeufs ni de lapins?"/>
+  <TEXT ID="600570104" Text="Quand tu seras la-bas, peux-tu chercher mes jouets? Ils ont été volés! Ils sont dans des boites..."/>
+  <TEXT ID="600570105" Text="{T=FTcts_13/C=0xFFA62700/}[Quête]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF016295/}Entrez dans la forêt aux oeufs{C=0xFF4D0D08/}
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Alba
+
+{T=FTcts_13/C=0xFFA62700/}[Details]{T=QTtext/C=0xFF4D0D08/}
+Cherchez ce qui ne va pas dans la forêt aux oeufs. Peut-etre allez-vous trouver quelques oeufs et jouets d&#39;Alba ?"/>
+  <TEXT ID="600570106" Text="Tuez Soma"/>
+  <TEXT ID="600570107" Text="Tuez Hitchi"/>
+  <TEXT ID="600570108" Text="Tuez Atlas"/>
+  <TEXT ID="600570109" Text="Tuez Moodragora"/>
+  <TEXT ID="600570110" Text="Tuez Elluman"/>
+
+  <!-- Quest 5702 -->
+  <TEXT ID="600570200" Text="Le cerisier et les oeufs"/>
+  <TEXT ID="600570201" Text="Bonjour %name%! Merci de collecter 10 Pétales et 10 oeufs d&#39;or.%%
+Vous serez récompensé."/>
+  <TEXT ID="600570202" Text="Merci !"/>
+  <TEXT ID="600570205" Text="{T=FTcts_13/C=0xFFA62700/}[Quête]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF016295/}Le cerisier et les oeufs{C=0xFF4D0D08/}
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Alba
+
+{T=FTcts_13/C=0xFFA62700/}[Details]{T=QTtext/C=0xFF4D0D08/}
+Merci de collecter 10 Pétales and 10 oeufs d&#39;or."/>
+  <TEXT ID="600570206" Text="Pétale"/>
+  <TEXT ID="600570207" Text="Oeuf d&#39;or"/>
+
+  <!-- Quest 5750 -->
+  <TEXT ID="600575000" Text="Sushi empoisonné"/>
+  <TEXT ID="600575001" Text="Aide moi %name%!%%
+Le chef Suhi est devenu fou et empoisonne nos sushis.%%
+Peux-tu l&#39;arreter ?"/>
+  <TEXT ID="600575002" Text="Merci %name%! Tu peux profiter des sushis!"/>
+  <TEXT ID="600575003" Text="Beaucoup de personnes vont se sentir mal si tu ne l&#39;arretes pas..."/>
+  <TEXT ID="600575004" Text="Yay! Je savais que tu m&#39;aiderai!"/>
+  <TEXT ID="600575005" Text="{T=FTcts_13/C=0xFFA62700/}[Quête]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF016295/}Terminer (F1) 1, 2 et 3 cartes du cerisier en fleur{C=0xFF4D0D08/}
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Haruka
+
+{T=FTcts_13/C=0xFFA62700/}[Details]{T=QTtext/C=0xFF4D0D08/}
+Terminer (F1) 1, 2 et 3 cartes du cerisier en fleur"/>
+  <TEXT ID="600575006" Text="Terminer (F1) 1 Map"/>
+  <TEXT ID="600575007" Text="Terminer (F1) 2 Maps"/>
+  <TEXT ID="600575008" Text="Terminer (F1) 3 Maps"/>
+
+
+  
+    <TEXT ID="600570020" Text="%name%?%%
+Tu te crois cool, eh? Je suis de retour!"/>
+  <TEXT ID="600570021" Text="Oh non! Le frère de Farrell encore..."/>
+  <TEXT ID="600570022" Text="Prépare toi à combattre !"/>
+
+  <TEXT ID="600570030" Text="Arrête de rire, %name%!
+Tu penses en avoir fini ? Et bien non ! Hitchi! Attaque le !"/>
+
+  <TEXT ID="600570040" Text="Okay, %name%, Je dois admettre que tu es fort!%%
+Mais pas assez ! Cita, go!"/>
+
+  <TEXT ID="600570050" Text="*Sigh* %name%, Pourquoi tu n&#39;abandonnes jamais ?%%
+ Atlas et Moodragora, je vous invoque !"/>
+
+  <TEXT ID="600570060" Text="*grumble!*%%
+Tu penses pouvoir battre n&#39;importe quoi... Non!%%"/>
+  <TEXT ID="600570061" Text="Ahahahaha"/>
+
+  <TEXT ID="600570070" Text="Noooooooooooooooo! Mes creatures! Toutes vaincues! Tu as encore gagné, mais je reviendrais!"/>
+
+  <!-- Quest 5700 -->
+  <TEXT ID="600570000" Text="La requête d&#39;Alba"/>
+  <TEXT ID="600570001" Text="%name%, %name%! Attends!%%
+Peux-tu m&#39;aider?"/>
+  <TEXT ID="600570002" Text="Oh merci merci! Je vais te dire quoi faire!"/>
+  <TEXT ID="600570003" Text="Il va rester froid à jamais..."/>
+  <TEXT ID="600570004" Text="Quand tu es prêt, parle moi à nouveau."/>
+  <TEXT ID="600570005" Text="{T=FTcts_13/C=0xFFA62700/}[Quête]{T=QTtext/C=0xFF4D0D08/}
+{C=0xFF016295/}Parlez à Alba{C=0xFF4D0D08/}
+
+{T=FTcts_13/C=0xFFA62700/}[PNJ]{T=QTtext/C=0xFF4D0D08/}
+Port des Quatre Vents - Alba
+
+{T=FTcts_13/C=0xFFA62700/}[Details]{T=QTtext/C=0xFF4D0D08/}
+Alba à besoin de ton aide. Il faut lui parler à nouveau"/>
+  <TEXT ID="600570006" Text="Parler à Alba"/>
+  
+</TEXT_TABLE>

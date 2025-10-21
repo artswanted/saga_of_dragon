@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4331</ID> <!--T.T.10433100 황제 알현 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	황제의 내성에서 잃어버린 용의 탈 찾기-->
+<!--[완료NPC]	카오란 마을 - 돈파치-->
+<!--[내용]	황제의 인장을 이용하여 내성으로 들어가 황제의 알현실을 찾아야 한다. 알현실로 들어가서 도난당한 물건들을 되 찾아오자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</PAYER> <!--완료NPC 카오란 마을 - 돈파치 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		<AGENT TYPE="NPC" EVENTNO="10012">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</AGENT> <!--진행NPC 12 카오란 마을 - 돈파치 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+	    <MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9600249/100/0/1/1/160523020">7911900</MONSTER>
+		<MONSTER OBJECTNO="2" TYPE="INCPARAM100" VALUE="1">7911900</MONSTER> 
+ <!--MON_NO=7911900/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="0">10012</NPC> 
+ <!---->
+		
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">160523020</ITEM> 
+ <!--Item_NO=160523020/[Q.ID:04332] 용탈,-->
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433111"/> <!--후오황제 봉인-->
+		<OBJECT2 COUNT="1" TEXT="10433112"/> <!--용의 탈-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="1">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433121" FACE="Roid_normal"/> <!--옥의 피리와 옥의 구슬을 제게 주세요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433126" FACE="Donpachi_smile"/> <!--여기 황제의 알현실로 갈 수 있는 증표인 황제의 인장입니다.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433123" FACE="Roid_normal"/> <!--이제 이 두개를 합쳐서 열쇠를 만들겠습니다. 처음 하는거라 긴장이 되는 군요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433124" FACE="Roid_angly"/> <!--뭐 그냥 기념품으로 가지신다면 어쩔 수 없지요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433125" FACE="Roid_normal"/> <!--다 가져오신거 맞죠?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433102" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

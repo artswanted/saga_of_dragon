@@ -1,0 +1,8 @@
+<STATUS_EFFECT ID="se_ShuffleInput">
+	<ITEM TYPE="PARTICLE" PARTICLE_ID="eff_mnAniKey_00" PARTICLE_ATTACH_TARGET_NODE="char_root" PARTICLE_SCALE="1.3"/>
+	<ITEM TYPE="PARTICLE" PARTICLE_ID="efx_elgar_01_energy_explosion_target" PARTICLE_ATTACH_TARGET_NODE="char_root"/>
+
+	<ITEM SCRIPT="Effect_ShuffleInput"/>
+
+	<PARAM KEY="FADEIN" VALUE="TRUE"/>
+</STATUS_EFFECT>

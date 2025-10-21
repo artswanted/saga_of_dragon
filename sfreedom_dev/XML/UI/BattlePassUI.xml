@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XUI>
+	<!-- Form description of Battle Pass /CallUI("SFRM_BATTLE_PASS") -->
+	<STATIC_FORM ID="SFRM_BATTLE_PASS" CALL_SOUND="button_UI_Open" CLOSE_SOUND="button_UI_Close">
+		<ATTR ALIGN_X="50" ALIGN_Y="50" W="690" H="500" CAN_DRAG = "1" STATIC_NUM="1"/>
+		<STATIC_FORM ID="FRM_TITLE_BP" X="1" Y="0" W="688" H="36" STATIC_NUM="4">
+			<STATIC_FORM ID="FRM_CLOSE_BP">
+				<ATTR X="657" Y="4" W="24" H="24" STATIC_NUM="2"/>
+				<BUTTON ID="Close" X="0" Y="0" W="24" H="24">
+				<ATTR BTN_IMG="../Data/6_ui/common/cmCloseBg.tga" BTN_IMG_W="48" BTN_IMG_H="48"/>
+				<SCRIPT ID="ON_L_BTN_DOWN">UISelf:GetParent():GetParent():CloseParent()</SCRIPT>
+				<HOTKEY ID="1">UISelf:GetParent():GetParent():CloseParent() return true</HOTKEY>
+				</BUTTON>
+			</STATIC_FORM>
+			<!-- Form rewards Battle Pass  -->
+			<STATIC_FORM ID="FRM_BATTLEPASS_BG">
+					<ATTR X="7" Y="4" W="144" H="24" STATIC_NUM="2" CAN_COLOR_CHANGE="0" COLOR_TYPE="0"/>
+					<CHECK_BUTTON ID="CBTN_EQ" X="0" Y="0" W="144" H="24" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="11" BTN_VERTICAL_IMG="1">
+						<ATTR BTN_IMG="../Data/6_ui/common/cmTabLong2.tga" BTN_IMG_W="144" BTN_IMG_H="96" />
+						<ATTR TEXT = "90004014" FONT = "FTtitle_14" T_X="65" T_Y ="3" T_CENTER = "1"/>
+						<SCRIPT ID="ON_GET_FOCUS"> 
+							PreChangeInvViewGroup(1, UISelf) 
+							UISelf:SetCursorState(0)	
+						</SCRIPT>
+						<SCRIPT ID = "ON_CALL">
+							if g_InvNiewGroup ~= nil and GetInvViewGroup() == 1 then							
+								UISelf:CheckState(true)
+								UISelf:LockClick(true)
+							else
+								UISelf:CheckState(false)
+							end
+						</SCRIPT>
+						<SCRIPT ID="ON_MOUSE_OUT"> CloseToolTip() </SCRIPT>
+					</CHECK_BUTTON>
+				</STATIC_FORM>
+			<!-- Form daily quest BP  -->
+			<STATIC_FORM ID="FRM_CHALLENGE_BG">
+					<ATTR X="153" Y="4" W="104" H="24" STATIC_NUM="2" CAN_COLOR_CHANGE="0" COLOR_TYPE="0"/>
+					<CHECK_BUTTON ID="CBTN_CONS" X="0" Y="0" W="104" H="24">
+						<ATTR BTN_IMG="../Data/6_ui/common/cmTabLong.tga" BTN_IMG_W="208" BTN_IMG_H="48" />
+						<ATTR TEXT = "90004015" FONT = "FTtitle_14" T_X="45" T_Y ="3" T_CENTER = "1" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="11"/>
+						<SCRIPT ID="ON_GET_FOCUS">						
+							PreChangeInvViewGroup(2, UISelf)
+							UISelf:SetCursorState(0)	
+						</SCRIPT>
+						<SCRIPT ID = "ON_CALL">
+							if g_InvNiewGroup ~= nil and GetInvViewGroup() == 2 then							
+								UISelf:CheckState(true)
+								UISelf:LockClick(true)
+							else
+								UISelf:CheckState(false)
+							end
+						</SCRIPT>
+						<SCRIPT ID="ON_MOUSE_OUT"> CloseToolTip() </SCRIPT>
+					</CHECK_BUTTON>
+				</STATIC_FORM>
+		</STATIC_FORM>
+	
+		<FORM ID="FRM_PAGE_BP" X="0" Y="36" W="690" H="464" IS_VISIBLE="1">
+		
+			<!-- Information: season and when will it end   -->
+			<STATIC_FORM ID="FRM_SEASON_BOX" X="30" Y="19" W="184" H="62" IMG="../Data/6_ui/battlepass/seasn_bp.tga" IMG_W="184" IMG_H="62" CAN_DRAG="0">
+			<!-- Тут нужно добавить напротив сезона "Номер сезона" и напротив даты счетчик дней текущего месяца =)    -->
+			</STATIC_FORM>
+		
+			<!-- Level Battle Pass   -->
+			<STATIC_FORM ID="FRM_LVL_BP" X="265" Y="19" W="70" H="20">
+				<ATTR TEXT="90004016" FONT="Font_Text" T_RIGHT="1" T_X="70" T_Y="0" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+				<!-- Тут нужно добавить счетчик уровня =) Всего уровней 60. Пока поставил затычку с текстом "3158"    -->
+			</STATIC_FORM>
+			
+			<!-- затычку Level с текстом №3158    -->
+			<STATIC_FORM ID="zatichka" X="345" Y="15" W="115" H="50">
+				<ATTR TEXT="3158" FONT="FTcts_16" T_CENTER="0" T_X="0" T_Y="0" FONT_COLOR_HEX="0xffffffff" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+			</STATIC_FORM>
+		
+			<!-- Point Battle Pass   -->
+			<STATIC_FORM ID="FRM_POINT_BP" X="385" Y="19" W="50" H="20">
+				<ATTR TEXT="90004017" FONT="Font_Text" T_RIGHT="1" T_X="50" T_Y="0" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+				<!-- Тут нужно добавить счетчик опыта ПБ в формате 100/1000. Максимальное кол-во очков в одном уровне 1000.     -->
+			</STATIC_FORM>
+			
+			<!-- затычка Point с текстом №3158    -->
+			<STATIC_FORM ID="zatichka1" X="445" Y="15" W="115" H="50">
+			<ATTR TEXT="3158" FONT="FTcts_16" T_CENTER="0" T_X="0" T_Y="0" FONT_COLOR_HEX="0xffffffff" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+		</STATIC_FORM>
+		
+		
+			<!-- Box puchase more level Battle Pass   -->
+			<STATIC_FORM ID="FRM_MORE_LVL">
+				<ATTR X="250" Y="36" W="420" H="30" STATIC_NUM="2" CAN_COLOR_CHANGE="0" COLOR_TYPE="0" IS_VISIBLE="1"/>
+				<STATIC_FORM ID="FRM_SDW" X="0" Y="0" W="420" H="30" STATIC_NUM="3">
+					<!-- Descriptions puchase more level   -->
+					<ATTR TEXT="90004018" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="6" />
+					<!-- Button puchase more level   -->
+					<BUTTON ID="BTN_BUY_LVL">
+						<ATTR TEXT = "799440" FONT = "FTbt_12" T_X="39" T_Y ="2" T_CENTER="1" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+						<ATTR X="330" Y="4" W="79" H="23" />
+						<ATTR BTN_IMG="../Data/6_ui/aution/auGbtS.tga" BTN_IMG_W="158" BTN_IMG_H="46" />
+						<SCRIPT ID="ON_L_BTN_DOWN">
+							CallUI("SFRM_OPEN_LVL_BUY")
+						</SCRIPT>
+					</BUTTON>
+				</STATIC_FORM>
+			</STATIC_FORM>
+			
+			<!-- Box type Battle Pass + reward box   -->
+			<STATIC_FORM ID="FRM_TYPE_BP">
+				<ATTR X="20" Y="90" W="650" H="320" STATIC_NUM="2" IS_VISIBLE="1"/>
+				<STATIC_FORM ID="FRM_SDW" X="0" Y="0" W="650" H="320" STATIC_NUM="3">
+					<!--  BIG Icon BP Free  -->	
+					<FORM ID="FRM_ICON_FREE_BP" X="35" Y="11" W="120" H="134" IMG="../Data/6_ui/battlepass/icn_bp_f.tga" IMG_W="120" IMG_H="134" CAN_DRAG="0"></FORM>
+					<!--  BIG Icon BP Premium  -->	
+					<FORM ID="FRM_ICON_PREM_BP" X="33" Y="155" W="124" H="134" IMG="../Data/6_ui/battlepass/icn_bp_p.tga" IMG_W="124" IMG_H="134" CAN_DRAG="0"></FORM>
+					<!-- Box reward  -->
+					<STATIC_FORM ID="FRM_WNDW_REWARD">
+						<ATTR X="175" Y="15" W="460" H="270" STATIC_NUM="2" CAN_COLOR_CHANGE="0" COLOR_TYPE="0" IS_VISIBLE="1"/>
+						<STATIC_FORM ID="FRM_SDW" X="0" Y="0" W="460" H="270" STATIC_NUM="3">
+							<!-- Reward Free BP  -->
+							<BUILD ID="BOX_ICN_0" TARGET_ID="FRM_ICON_FREE" X="25" Y="15" X_COUNT = "3" Y_COUNT = "1" X_GAB = "110" Y_GAB = "0"/>
+							<STATIC_FORM ID="FRM_ICON_FREE" X="0" Y="0" W="108" H="108" IMG="../Data/6_ui/battlepass/reward_bg.tga" IMG_W="108" IMG_H="108" CAN_DRAG="0">
+								<STATIC_FORM ID="FRM_ICON" X="33" Y="32" W="42" H="42" STATIC_NUM="35"/>
+								<ATTR TEXT="90004019" FONT="Font_Text" T_CENTER="1" T_X="54" T_Y="82" FONT_COLOR_HEX="0xFFFFFfff" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</STATIC_FORM>
+							<!-- Devider  -->
+							<IMG ID = "IMG_LINE0" X="30" Y="136" W="400" H="1" Z="1" IMG="../Data/6_ui/chat/Box_Body.bmp" IMG_W="400" IMG_H="1"/>
+							<!-- Reward Premium BP  -->
+							<BUILD ID="BOX_ICN_1" TARGET_ID="FRM_ICON_PREM" X="25" Y="150" X_COUNT = "3" Y_COUNT = "1" X_GAB = "110" Y_GAB = "0"/>
+							<STATIC_FORM ID="FRM_ICON_PREM" X="0" Y="0" W="108" H="108" IMG="../Data/6_ui/battlepass/reward_bg.tga" IMG_W="108" IMG_H="108" CAN_DRAG="0">
+								<STATIC_FORM ID="FRM_ICON" X="33" Y="32" W="42" H="42" STATIC_NUM="35"/>
+								<ATTR TEXT="90004019" FONT="Font_Text" T_CENTER="1" T_X="54" T_Y="82" FONT_COLOR_HEX="0xFFFFFfff" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</STATIC_FORM>
+						</STATIC_FORM>
+					</STATIC_FORM>
+					<!-- List Reward item  -->
+					<BUTTON ID="BTN_SCR_LEFT" X="175" Y="292" W="20" H="15" BTN_IMG="../Data/6_ui/pvp/pvBack1.tga" BTN_IMG_W="30" BTN_IMG_H="38"/>
+					<BUTTON ID="BTN_SCR_RIGHT" X="620" Y="292" W="20" H="15" BTN_IMG="../Data/6_ui/pvp/pvNext1.tga" BTN_IMG_W="30" BTN_IMG_H="38"/>
+					<BUTTON ID="BTN_SCR_MIDDLE" X="191" Y="291" W="18" H="21" BTN_IMG="../Data/6_ui/pvp/pvHandiBar.tga" BTN_IMG_W="24" BTN_IMG_H="42"/>
+				</STATIC_FORM>
+			</STATIC_FORM>
+		
+			<!-- Button claim reward  -->
+			<BUTTON ID="BTN_CLM_REWARD">
+				<ATTR TEXT = "90004020" FONT = "FTbt_12" T_X="42" T_Y ="4" T_CENTER="1" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+				<ATTR X="250" Y="419" W="84" H="26" />
+				<ATTR BTN_IMG="../Data/6_ui/common/cmBtBg.tga" BTN_IMG_W="168" BTN_IMG_H="52" />
+			</BUTTON>
+			
+			<!-- Button buy premium Battle Pass  -->
+			<BUTTON ID="BTN_UPG_BP">
+				<ATTR TEXT = "90004021" FONT = "FTbt_12" T_X="48" T_Y ="4" T_CENTER="1" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+				<ATTR X="354" Y="419" W="97" H="26" />
+				<ATTR BTN_IMG="../Data/6_ui/common/cmBtBgLg.tga" BTN_IMG_W="194" BTN_IMG_H="52" />
+			</BUTTON>
+		</FORM>
+		
+		<FORM ID="FRM_PAGE_CHALNGES" X="0" Y="36" W="690" H="464" IS_VISIBLE="0">
+			<!-- Daily Quest box  -->
+			<STATIC_FORM ID="SFRM_DAILY_Q" X="20" Y="25" W="650" H="290">
+				<!-- Daily Quest Title  -->
+				<ATTR TEXT="90004022" FONT="FTcts_16" T_CENTER="0" T_X="10" T_Y="0" FONT_COLOR_HEX="0xFFFFFfff"/>
+				<!-- Daily Quest List  -->
+				<STATIC_FORM ID="SFRM_QUEST_LIST" X="0" Y="30" W="650" H="273" STATIC_NUM="2">
+					<!-- Daily Quest Row  -->
+					<STATIC_FORM ID="SFRM_SDW" X="0" Y="0" W="650" H="273" STATIC_NUM="3">
+						<!-- Quest /1/  -->
+						<STATIC_FORM ID="SFRM_ROW_0" X="31" Y="10" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="0">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+						<!-- Quest /2/  -->
+						<STATIC_FORM ID="SFRM_ROW_1" X="31" Y="53" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="1">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+						<!-- Quest /3/  -->
+						<STATIC_FORM ID="SFRM_ROW_2" X="31" Y="96" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="60" IMG_H="57">
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+						<!-- Quest /4/  -->
+						<STATIC_FORM ID="SFRM_ROW_3" X="31" Y="139" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="0">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+						<!-- Quest /5/  -->
+						<STATIC_FORM ID="SFRM_ROW_4" X="31" Y="182" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="0">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+						<!-- Quest /6/  -->
+						<STATIC_FORM ID="SFRM_ROW_5" X="31" Y="225" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="1">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="500296" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+					</STATIC_FORM>
+				</STATIC_FORM>
+			</STATIC_FORM>
+			
+			<!-- Weekle Quest box  -->
+			<STATIC_FORM ID="SFRM_WEEKLE_Q" X="20" Y="340" W="650" H="100">
+				<!-- Weekle Quest Title  -->
+				<ATTR TEXT="90004023" FONT="FTcts_16" T_CENTER="0" T_X="10" T_Y="0" FONT_COLOR_HEX="0xFFFFFfff"/>
+				<!-- Weekle Quest List  -->
+				<STATIC_FORM ID="SFRM_QUEST_LIST" X="0" Y="30" W="650" H="70" STATIC_NUM="2">
+					<!-- Weekle Quest Row  -->
+					<STATIC_FORM ID="SFRM_SDW" X="0" Y="0" W="650" H="70" STATIC_NUM="3">
+					<!-- Quest /7/  -->
+						<STATIC_FORM ID="SFRM_ROW_6" X="31" Y="16" W="588" H="38" STATIC_NUM="2">
+							<!-- Status Quest: Тут я создал бокс который состоит из пустой звезды, внутрь я поместил ещё один бокс, который должен включаться если задание будет выполнено (тогда появляется золотая звезда и CLEAR сбоку соответственно включение и выключение регулировать IS_VISIBLE 0/1  -->
+							<STATIC_FORM ID="SFRM_STATUS" X="0" Y="0" W="588" H="38" IMG="../Data/6_ui/mission/msRtStarBg.tga" IMG_X="542" IMG_Y="6" IMG_W="26" IMG_H="26">
+								<!-- If quest complete IS_VISIBLE 1  -->
+								<STATIC_FORM ID="SFRM_STATUS_COMPLETE" X="0" Y="0" W="588" H="38" IS_VISIBLE="1">
+									<IMG ID = "IMG_CLEAR" X="0" Y="0" W="35" H="35" Z="1" IMG="../Data/6_ui/battlepass/msclear1.tga" IMG_W="35" IMG_H="35"/>
+									<IMG ID = "IMG_STAR" X="542" Y="6" W="26" H="26" Z="1" IMG="../Data/6_ui/mission/msRtStar.tga" IMG_W="26" IMG_H="26"/>
+								</STATIC_FORM>
+							</STATIC_FORM>
+							<!-- Ячейка содержит описание задания  -->
+							<STATIC_FORM ID="FRM_DESCR_QUEST" X="30" Y="6" W="250" H="26" STATIC_NUM="5">
+								<ATTR TEXT="517767" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5"/>
+							</STATIC_FORM>
+							<!-- Ячейка Награды. Тут нужно создать ячейку в которой будет награда за задание  -->
+							<FORM ID="FRM_REWARD_Q" X="325" Y="6" W="120" H="26" >
+								<ATTR TEXT="90004024" FONT="Font_Text" T_CENTER="0" T_X="10" T_Y="5" FONT_COLOR_HEX="0xFFFFFDD4" T_OUTLINE="1" OUTLINE_COLOR_HEX="0xFF000000"/>
+							</FORM>
+						</STATIC_FORM>
+					</STATIC_FORM>
+				</STATIC_FORM>
+			</STATIC_FORM>
+		</FORM>
+		
+	</STATIC_FORM>
+		
+	
+	<!-- Box buy Level Battle Pass /CallUI("SFRM_OPEN_LVL_BUY")   -->
+	<STATIC_FORM ID = "SFRM_OPEN_LVL_BUY" ALIGN_X="50" ALIGN_Y="50" W="248" H="220" STATIC_NUM="1" CAN_DRAG="1" PRIORITY="5">
+		<STATIC_FORM ID = "SFRM_CASH_TITLE" X = "1" Y = "0" W = "248" H = "36" STATIC_NUM = "4">
+			<IMG ID = "IMG_TITLE_TAB" X="7" Y="4" Z="1" W="104" H="24" NO_FOCUS="1">
+				<ATTR IMG="../Data/6_ui/common/cmTabLong.tga" IMG_W="208" IMG_H="48" U="2" V="2" UV_INDEX="3"/>
+				<ATTR T_CENTER = "1" T_X = "47" T_Y = "4" FONT="FTbt_12" FONT_COLOR_HEX="0xFF4d3413" TEXT="1835"/>
+			</IMG>
+			<BUTTON ID="BTN_CLOSE" X="217" Y="4" W="24" H="24" BTN_IMG="../Data/6_ui/common/cmCloseBg.tga" BTN_IMG_W="48" BTN_IMG_H="48">
+				<SCRIPT ID="ON_L_BTN_DOWN">UISelf:GetParent():GetParent():Close()</SCRIPT>
+			</BUTTON>
+			<FORM ID="SFRM_BTN_BG" X="228" Y="9" Z="-1" W="12" H="11" STATIC_NUM="2" IMG="../Data/6_ui/common/cmBody.tga" IMG_W="12" IMG_H="11"/>
+			<STATIC_FORM ID = "SFRM_TAB_BG" X="8" Y="5" W="102" H="22" STATIC_NUM="2" />
+		</STATIC_FORM>
+		<STATIC_FORM ID = "SFRM_COLOR" X = "9" Y = "35" Z="-1" W = "230" H = "130" STATIC_NUM="2">
+			<STATIC_FORM ID="SFRM_SHADOW" X="0" Y="0" W="230" H="130" STATIC_NUM="3">
+				<ATTR TEXT = "90004025" FONT = "FTtitle_14" T_X="115" T_Y ="20" T_CENTER = "1"/>
+				<IMG ID = "IMG_LINE1" X="9" Y="56" W="212" H="1" Z="1" IMG="../Data/6_ui/chat/Box_Body.bmp" IMG_W="212" IMG_H="1"/>
+			</STATIC_FORM>
+		</STATIC_FORM>	
+		<!-- Row Gold type   -->
+		<FORM ID="FRM_ITEM_MONEY1"  X="18" Y="102" W="212" H="21" IS_VISIBLE="1">
+			<STATIC_FORM ID="FRM_BG0"  X="92" Y="0" W="80" H="21" Z="-1" IS_VISIBLE="1" STATIC_NUM="2"/>
+			<FORM ID="FRM_GOLD" X="75" Y="2" W="80" H="118" IMG="../Data/6_ui/common/cmCoin01.tga" IMG_W="20" IMG_H="16" IMG_X="102" IMG_Y="0" TEXT="3158" FONT="Font_Text" T_X="90" T_Y="0" T_RIGHT="1" FONT_COLOR_HEX="0xFF4D3413"/>
+		</FORM>
+		<!-- Row ZZ type   -->
+		<STATIC_FORM ID="FRM_ITEM_MONEY2" X="110" Y="133" W="80" H="21" IS_VISIBLE="1" TEXT="3158" FONT="Font_Text" T_X="73" T_Y="3" T_RIGHT="1" FONT_COLOR_HEX="0xFFA0410D" STATIC_NUM="2">
+			<FORM ID="FRM_PACK_NAME" X="70" Y="4" W="50" H="16" TEXT="403021" FONT="Font_Text" T_X="25" T_Y="0" T_CENTER="1" IGNORE_PARENT_RECT="1" FONT_COLOR_HEX="0xFF4D3413"/>
+		</STATIC_FORM>
+		<BUTTON ID = "BTN_BUY" X = "39" Y = "173" W ="84" H ="26">
+			<ATTR TEXT = "1842" FONT = "FTbt_12" T_X = "42" T_Y ="4" T_CENTER = "1" />
+			<ATTR BTN_IMG = "../Data/6_ui/common/cmBtBg.tga" BTN_IMG_W = "168" BTN_IMG_H = "52" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+			<SCRIPT ID="ON_CREATE">SetTextOnThisUI(403042, 2200)</SCRIPT>
+			<SCRIPT ID = "ON_L_BTN_DOWN">SelectBuyOK(UISelf) UISelf:GetParent():Close()</SCRIPT>
+			<HOTKEY ID = "59"> SelectBuyOK(UISelf) UISelf:GetParent():Close() return true </HOTKEY>			
+		</BUTTON>
+		<BUTTON ID = "BTN_CANCLE" X = "125" Y = "173" W ="84" H ="26">
+			<ATTR TEXT = "400534" FONT = "FTbt_12" T_X = "42" T_Y ="4" T_CENTER = "1" />
+			<ATTR BTN_IMG = "../Data/6_ui/common/cmBtBg.tga" BTN_IMG_W = "168" BTN_IMG_H = "52" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+			<SCRIPT ID="ON_CREATE">SetTextOnThisUI(400003, 2201)</SCRIPT>
+			<SCRIPT ID = "ON_L_BTN_DOWN"> UISelf:CloseParent() return true </SCRIPT>
+			<HOTKEY ID = "1"> UISelf:CloseParent() return true </HOTKEY>
+			<HOTKEY ID = "60"> UISelf:CloseParent() return true </HOTKEY>
+		</BUTTON>
+		
+		<!-- Check Buttom choose method pay   -->
+		<CHECK_BUTTON ID="CBTN_GOLD" X="18" Y="102" W="20" H="20" BTN_IMG="../Data/6_ui/common/cmBtCheck.tga" BTN_IMG_W="40" BTN_IMG_H="40" BTN_CLICK_LOCK="1">
+		</CHECK_BUTTON>
+		<CHECK_BUTTON ID="CBTN_ZZ" X="18" Y="133" W="20" H="20" BTN_IMG="../Data/6_ui/common/cmBtCheck.tga" BTN_IMG_W="40" BTN_IMG_H="40" BTN_CLICK_LOCK="1">
+		</CHECK_BUTTON>
+	</STATIC_FORM>	
+	
+	
+</XUI>

@@ -1,0 +1,3166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="2502" Text="Venin de Revious"/>
+<TEXT ID="2503" Text="Transi par le froid. Perte de 300 PV par seconde et réduction de la vitesse de déplacement de 60 %."/>
+<TEXT ID="2510" Text="Frigorifié, vous ne pouvez pas vous déplacer pendant 5 secondes"/>
+<TEXT ID="2901" Text="Toile gluante2"/>
+<TEXT ID="2902" Text="Fait faire un bond équivalant à une fois la taille du personnage"/>
+<TEXT ID="2903" Text="Fait faire un bond équivalant à deux fois la taille du personnage"/>
+<TEXT ID="2904" Text="Fait faire un bond équivalant à trois fois la taille du personnage"/>
+<TEXT ID="2913" Text="En Blanc"/>
+<TEXT ID="12502" Text="Infecté par le venin de Revious. Perte de 50 PV toutes les 3 secondes pendant 15 secondes."/>
+<TEXT ID="12503" Text="Poison réfrigérant"/>
+<TEXT ID="12510" Text="Gel"/>
+<TEXT ID="12701" Text="Etourdissement"/>
+<TEXT ID="12913" Text="Crée un monde blanc."/>
+<TEXT ID="16404" Text="Impitoyable"/>
+<TEXT ID="16405" Text="La fureur du monstre augmente l&#39;Attaque."/>
+<TEXT ID="26404" Text="Mur de Défense"/>
+<TEXT ID="26405" Text="La fureur du monstre augmente la Défense."/>
+<TEXT ID="36404" Text="Bénédiction du Vent"/>
+<TEXT ID="36405" Text="La fureur du monstre augmente la Vitesse."/>
+<TEXT ID="46401" Text="MATQ+ATQ et DEF"/>
+<TEXT ID="46402" Text="La fureur du monstre augmente l&#39;Attaque et la Défense."/>
+<TEXT ID="56401" Text="MATQ+ATQ et Vitesse"/>
+<TEXT ID="56402" Text="La fureur du monstre augmente l&#39;Attaque et la Vitesse."/>
+<TEXT ID="66401" Text="Défense et Vitesse"/>
+<TEXT ID="66402" Text="La fureur du monstre augmente la Défense et Vitesse"/>
+<TEXT ID="72913" Text="Le souffle glacial de Freonos gèle tout sur son passage."/>
+<TEXT ID="76401" Text="MATQ+ATQ, Défense et Vitesse"/>
+<TEXT ID="76402" Text="La fureur du monstre améliore vos statistiques"/>
+<TEXT ID="100038" Text="Cristal de saphir"/>
+<TEXT ID="602502" Text="Tempête glaciale"/>
+<TEXT ID="602503" Text="Congélation"/>
+<TEXT ID="602506" Text="Congélation"/>
+<TEXT ID="602507" Text="Gel - 1 "/>
+<TEXT ID="602508" Text="Congélation"/>
+<TEXT ID="602509" Text="Gel - 3"/>
+<TEXT ID="602510" Text="Gel"/>
+<TEXT ID="3000300" Text="Kalygon en Furie"/>
+<TEXT ID="3000301" Text="Kalygon en Furie"/>
+<TEXT ID="3000400" Text="Drag&#39;Os"/>
+<TEXT ID="3000500" Text="Drag&#39;Os Rouge"/>
+<TEXT ID="3000600" Text="Drag&#39;Os Noir"/>
+<TEXT ID="3000601" Text="Peur du Dragon"/>
+<TEXT ID="3400100" Text="Gorgone de Pierre"/>
+<TEXT ID="3400200" Text="Gorgone d&#39;Acier"/>
+<TEXT ID="3400300" Text="Gorgone Runique"/>
+<TEXT ID="3400400" Text="Rôdeur Vicaire "/>
+<TEXT ID="3400500" Text="Guide Vicaire"/>
+<TEXT ID="3400600" Text="Lanceur Vicaire"/>
+<TEXT ID="3400700" Text="Garde Gnoll des Plaines"/>
+<TEXT ID="3400800" Text="Archer Gnoll des Plaines"/>
+<TEXT ID="3400900" Text="Chaman Gnoll des Plaines"/>
+<TEXT ID="3401100" Text="Esprit de l&#39;Enfer"/>
+<TEXT ID="3401200" Text="Molosse de Feu Infernal"/>
+<TEXT ID="3401300" Text="Mammouth des Plaines"/>
+<TEXT ID="3401400" Text="Griffon de Pierre"/>
+<TEXT ID="3401500" Text="Griffon de Feu"/>
+<TEXT ID="3401600" Text="Griffon Bluette "/>
+<TEXT ID="3401700" Text="Monstre Boueux"/>
+<TEXT ID="3401800" Text="Monstre de Foudre"/>
+<TEXT ID="3401900" Text="Monstre Toxique"/>
+<TEXT ID="3402100" Text="Florence "/>
+<TEXT ID="3402200" Text="Drake"/>
+<TEXT ID="3402300" Text="Esprit des Ronces"/>
+<TEXT ID="3402400" Text="Phoenix Bleu"/>
+<TEXT ID="3402500" Text="Harpie en furie"/>
+<TEXT ID="3402600" Text="Combattante Harpie"/>
+<TEXT ID="3402700" Text="Patrouille Harpie"/>
+<TEXT ID="3402800" Text="Esprit Chasseur"/>
+<TEXT ID="3402900" Text="Esprit Pillard"/>
+<TEXT ID="3403000" Text="Espirt Frappeur"/>
+<TEXT ID="3403100" Text="Requin Volant"/>
+<TEXT ID="3403200" Text="Carcasse"/>
+<TEXT ID="3403300" Text="Kentarix"/>
+<TEXT ID="3403400" Text="Robot Piégeur"/>
+<TEXT ID="3491000" Text="Agrégat"/>
+<TEXT ID="3492000" Text="Gardien du Delta"/>
+<TEXT ID="3493000" Text="Roi Requin"/>
+<TEXT ID="3494000" Text="Hippo en armure"/>
+<TEXT ID="3499000" Text="Harpie de Métal"/>
+<TEXT ID="3503500" Text="Molosse de Glace Infernal"/>
+<TEXT ID="3521100" Text="Potchi"/>
+<TEXT ID="3521200" Text="Potchi Vrille"/>
+<TEXT ID="3521300" Text="Potchi Yogi"/>
+<TEXT ID="3521400" Text="Potchiphage"/>
+<TEXT ID="3521500" Text="Potchi à Brosse"/>
+<TEXT ID="3521600" Text="Potchi Fleuri"/>
+<TEXT ID="3521700" Text="Potchi Tropical"/>
+<TEXT ID="3521800" Text="Dragon Boudeur"/>
+<TEXT ID="3522000" Text="Obscuron"/>
+<TEXT ID="3522100" Text="Obscurouge"/>
+<TEXT ID="3522200" Text="Obscuronde"/>
+<TEXT ID="3522300" Text="Sorcier Obscuron"/>
+<TEXT ID="3522800" Text="Syadron"/>
+<TEXT ID="3523000" Text="Coomba Noir"/>
+<TEXT ID="3523013" Text="Mielleux"/>
+<TEXT ID="3523100" Text="Coomba Rouge"/>
+<TEXT ID="3523200" Text="Coomba Gluant"/>
+<TEXT ID="3523300" Text="Coomba Chaman"/>
+<TEXT ID="3523900" Text="Zaro"/>
+<TEXT ID="3524000" Text="Bapho"/>
+<TEXT ID="3524100" Text="Bapho Tigré"/>
+<TEXT ID="3524200" Text="Bapho Cornu"/>
+<TEXT ID="3524300" Text="Bapho Toxic"/>
+<TEXT ID="3524800" Text="Chef Bapho"/>
+<TEXT ID="3524900" Text="Kiyo"/>
+<TEXT ID="3525000" Text="Ramie"/>
+<TEXT ID="3525100" Text="Ramie Bleue"/>
+<TEXT ID="3525200" Text="Ramie Morne"/>
+<TEXT ID="3525300" Text="Chef Ramie"/>
+<TEXT ID="3525800" Text="Capricorne"/>
+<TEXT ID="3526000" Text="Caracha osseux"/>
+<TEXT ID="3526100" Text="Caracha Sanglant"/>
+<TEXT ID="3526200" Text="Caracha Vrillé"/>
+<TEXT ID="3526800" Text="Caracha Antique"/>
+<TEXT ID="3526900" Text="Casharp"/>
+<TEXT ID="3527000" Text="Totu Bleu"/>
+<TEXT ID="3527100" Text="Totu de Roche"/>
+<TEXT ID="3527200" Text="Totu Cornu"/>
+<TEXT ID="3527300" Text="Totu"/>
+<TEXT ID="3527800" Text="Chef Totu"/>
+<TEXT ID="3528000" Text="Pring"/>
+<TEXT ID="3528100" Text="Pring Feuillu"/>
+<TEXT ID="3528200" Text="Pring Fruité"/>
+<TEXT ID="3528300" Text="Pring Noir"/>
+<TEXT ID="3528800" Text="Chimère"/>
+<TEXT ID="3529000" Text="Muchi"/>
+<TEXT ID="3529100" Text="Muchi Jaune"/>
+<TEXT ID="3529200" Text="Patrouilleur Muchi"/>
+<TEXT ID="3529300" Text="Sorcier Muchi"/>
+<TEXT ID="3529800" Text="Chef Muchi"/>
+<TEXT ID="3529900" Text="Prokell"/>
+<TEXT ID="3530100" Text="Skema"/>
+<TEXT ID="3530200" Text="Plick"/>
+<TEXT ID="3530300" Text="Esprit Vengeur "/>
+<TEXT ID="3530400" Text="Esprit Rancunier"/>
+<TEXT ID="3530500" Text="Aérien"/>
+<TEXT ID="3530600" Text="Fenryl Aérien"/>
+<TEXT ID="3530700" Text="Arachnide Ailée"/>
+<TEXT ID="3530800" Text="Akanai"/>
+<TEXT ID="3530900" Text="Cristal d&#39;Elda"/>
+<TEXT ID="3540100" Text="Deumo"/>
+<TEXT ID="3540200" Text="Garde Démon"/>
+<TEXT ID="3540300" Text="Créature Mort-vivante"/>
+<TEXT ID="3540400" Text="Skelldrark"/>
+<TEXT ID="3540500" Text="Créature Démonique"/>
+<TEXT ID="3540600" Text="Démon Guetteur"/>
+<TEXT ID="3540700" Text="Liche Démoniaque"/>
+<TEXT ID="3540800" Text="Maître Démoniaque"/>
+<TEXT ID="3541000" Text="Cerbère"/>
+<TEXT ID="3541100" Text="Ange Noir"/>
+<TEXT ID="3541200" Text="Diablick"/>
+<TEXT ID="3000308" Text="Flamme de Kalygon"/>
+<TEXT ID="3000312" Text="Flamme de Kalygon"/>
+<TEXT ID="3000313" Text="L&#39;effet de brûlure infligé par la flamme augmente la vitesse de mouvement et fait perdre 50 PV toutes les secondes."/>
+<TEXT ID="3541207" Text="Brûlure augmentera la vitesse de mouvement et infligera des dégâts de 300 PV toutes les secondes."/>
+<TEXT ID="3541201" Text="Enfer de feu"/>
+<TEXT ID="3542100" Text="Dragon Noir Elga"/>
+<TEXT ID="3542110" Text="Dragon Noir Elga"/>
+<TEXT ID="3542120" Text="Dragon Noir Elga"/>
+<TEXT ID="3542210" Text="Cristal d&#39;Obscurité"/>
+<TEXT ID="3542220" Text="Rune d&#39;Obscurité"/>
+<TEXT ID="3542230" Text="Bouclier d&#39;Os d&#39;Elga"/>
+<TEXT ID="3542240" Text="Oeil d&#39;Elga"/>
+<TEXT ID="3542250" Text="Oeuf d&#39;Elga"/>
+<TEXT ID="3542260" Text="Coeur d&#39;Elga"/>
+<TEXT ID="3542300" Text="Esprit d&#39;Elga"/>
+<TEXT ID="3542400" Text="Coffre au trésor d&#39;Elga"/>
+<TEXT ID="3550100" Text="Chien Ténébreux"/>
+<TEXT ID="3550200" Text="Plume Noire"/>
+<TEXT ID="3550300" Text="Ecaille de Nuit"/>
+<TEXT ID="3550400" Text="Onyx Cuirassé"/>
+<TEXT ID="3560100" Text="Deumo"/>
+<TEXT ID="3560200" Text="Garde Démon"/>
+<TEXT ID="3560300" Text="Créature sombre"/>
+<TEXT ID="3560400" Text="Sinistre Skelldrark "/>
+<TEXT ID="3560500" Text="Sinistre Démon"/>
+<TEXT ID="3560600" Text="Vigile de l&#39;Enfer"/>
+<TEXT ID="3570100" Text="Harpie Blonde"/>
+<TEXT ID="3570200" Text="Harpie Brune"/>
+<TEXT ID="3570300" Text="Harpie Pourpre"/>
+<TEXT ID="3570400" Text="Esprit Frappeur"/>
+<TEXT ID="3570500" Text="Esprit Voleur"/>
+<TEXT ID="3570600" Text="Esprit Guetteur"/>
+<TEXT ID="3570700" Text="Kalke de Métal"/>
+<TEXT ID="3570800" Text="Drake de Métal"/>
+<TEXT ID="3570900" Text="Molosse de Métal"/>
+<TEXT ID="3571100" Text="Golem Cuirassé"/>
+<TEXT ID="3571200" Text="Barrique Cuirassée"/>
+<TEXT ID="3571300" Text="Pignon Cuirassé"/>
+<TEXT ID="3571400" Text="Satyre"/>
+<TEXT ID="3571500" Text="Pignon Mécanique"/>
+<TEXT ID="3571600" Text="Satyre Laser"/>
+<TEXT ID="3571700" Text="Satyre Bombardier"/>
+<TEXT ID="3580000" Text="Bonus Bombardier"/>
+<TEXT ID="3600400" Text="Doberus"/>
+<TEXT ID="3900200" Text="Didgers"/>
+<TEXT ID="3900300" Text="Kakus"/>
+<TEXT ID="4000510" Text="Evènement Woodie Géant"/>
+<TEXT ID="4000520" Text="Evènement Moloch"/>
+<TEXT ID="4000530" Text="Evènement Sarasvarti"/>
+<TEXT ID="4011100" Text="Main-gelée"/>
+<TEXT ID="4011200" Text="Main-froide"/>
+<TEXT ID="4011300" Text="Main-de-glace"/>
+<TEXT ID="4011400" Text="Main-froide Neigeuse"/>
+<TEXT ID="4012100" Text="Citrus"/>
+<TEXT ID="4012200" Text="Citrus LongLong"/>
+<TEXT ID="4012300" Text="Citrus Miam-Miam"/>
+<TEXT ID="4012400" Text="Citrus"/>
+<TEXT ID="4013100" Text="Golem Givré"/>
+<TEXT ID="4013200" Text="Golem Refroidi"/>
+<TEXT ID="4013300" Text="Golem de Glace"/>
+<TEXT ID="4013400" Text="Golem de Glace"/>
+<TEXT ID="4014100" Text="Loup Givré"/>
+<TEXT ID="4014200" Text="Loup Givré chasseur"/>
+<TEXT ID="4014300" Text="Loup Givré guerrier"/>
+<TEXT ID="4014400" Text="Loup Givré chasseur"/>
+<TEXT ID="4015100" Text="Selic"/>
+<TEXT ID="4015200" Text="Selic Cryogène"/>
+<TEXT ID="4015300" Text="Selic sur roues"/>
+<TEXT ID="4015400" Text="Selic Cryogène"/>
+<TEXT ID="4016100" Text="Fenir"/>
+<TEXT ID="4016200" Text="Fenir des Neiges"/>
+<TEXT ID="4016300" Text="Fenir Stalactite"/>
+<TEXT ID="4016400" Text="Fenir des Neiges"/>
+<TEXT ID="4018100" Text="Mante des Neiges"/>
+<TEXT ID="4019100" Text="Abraxas"/>
+<TEXT ID="4021100" Text="Glacis"/>
+<TEXT ID="4021200" Text="Glacis sur piques"/>
+<TEXT ID="4021300" Text="Polky"/>
+<TEXT ID="4021400" Text="Glacis sur piques"/>
+<TEXT ID="4022100" Text="Magicien des Neiges"/>
+<TEXT ID="4022200" Text="Sorcier des Neiges"/>
+<TEXT ID="4022300" Text="Méduse des Neiges"/>
+<TEXT ID="4022400" Text="Sorcier Neigeux"/>
+<TEXT ID="4023100" Text="Maître-loup"/>
+<TEXT ID="4023200" Text="Maître-loup des Neiges"/>
+<TEXT ID="4023300" Text="Maître-loup Illuminé"/>
+<TEXT ID="4023400" Text="Maître-loup Neigeux"/>
+<TEXT ID="4024100" Text="Garde Ame-givré"/>
+<TEXT ID="4024200" Text="Patrouilleur Ame-givré"/>
+<TEXT ID="4024300" Text="Guerrier Ame-givré"/>
+<TEXT ID="4024309" Text="Tempête Glaciale"/>
+<TEXT ID="4024400" Text="Patrouilleur Ame-givré Neigeux"/>
+<TEXT ID="4025100" Text="Licorne Vagabonde"/>
+<TEXT ID="4025200" Text="Licorne Errante"/>
+<TEXT ID="4025300" Text="Licorne de Glace"/>
+<TEXT ID="4025400" Text="Licorne Errante des Neiges"/>
+<TEXT ID="4028100" Text="Princesse des Neiges"/>
+<TEXT ID="4029100" Text="Avice"/>
+<TEXT ID="4031100" Text="Neigeux"/>
+<TEXT ID="4031200" Text="Maman Neigeux"/>
+<TEXT ID="4031300" Text="Papa Neigeux"/>
+<TEXT ID="4031400" Text="Maman Neigeux"/>
+<TEXT ID="4032100" Text="Garde Gnoll poilu"/>
+<TEXT ID="4032200" Text="Lanceur Gnoll poilu"/>
+<TEXT ID="4032300" Text="Chaman Gnoll poilu"/>
+<TEXT ID="4032400" Text="Lanceur Gnoll poilu"/>
+<TEXT ID="4033100" Text="Lamia des neiges"/>
+<TEXT ID="4033200" Text="Chasseur Lamia"/>
+<TEXT ID="4033300" Text="Guerrier Lamia"/>
+<TEXT ID="4033400" Text="Chasseur Lamia"/>
+<TEXT ID="4034100" Text="Bébé Tigre des Neiges"/>
+<TEXT ID="4034200" Text="Maman Tigre des Neiges"/>
+<TEXT ID="4034300" Text="Chef Tigre des Neiges"/>
+<TEXT ID="4034400" Text="Maman Tigre des Neiges"/>
+<TEXT ID="4035100" Text="Ours polaire givré"/>
+<TEXT ID="4035200" Text="Ours polaire refroidi"/>
+<TEXT ID="4035300" Text="Ours polaire de glace"/>
+<TEXT ID="4035400" Text="Ours polaire refroidi"/>
+<TEXT ID="4038100" Text="V-Tor"/>
+<TEXT ID="4039100" Text="Alexyon"/>
+<TEXT ID="4041100" Text="Quakee"/>
+<TEXT ID="4041200" Text="Quakee de glace"/>
+<TEXT ID="4041300" Text="Quakee des neiges"/>
+<TEXT ID="4041400" Text="Quakee de glace"/>
+<TEXT ID="4042100" Text="Ver givré"/>
+<TEXT ID="4042200" Text="Ver refroidi"/>
+<TEXT ID="4042300" Text="Ver de glace"/>
+<TEXT ID="4042400" Text="Ver des Neiges"/>
+<TEXT ID="4043100" Text="Tigre givré"/>
+<TEXT ID="4043200" Text="Tigre refroidi"/>
+<TEXT ID="4043300" Text="Tigre de glace"/>
+<TEXT ID="4043400" Text="Tigre refroidi"/>
+<TEXT ID="4043870" Text="Eclaireur Vargon"/>
+<TEXT ID="4044100" Text="Chiot Dronga frais"/>
+<TEXT ID="4044200" Text="Chiot Dronga froid"/>
+<TEXT ID="4044300" Text="Chiot Dronga gelé"/>
+<TEXT ID="4044400" Text="Chiot Dronga froid"/>
+<TEXT ID="4045100" Text="Gobelin de glace"/>
+<TEXT ID="4045200" Text="Bombardier Gobelin de glace"/>
+<TEXT ID="4045300" Text="Chaman Gobelin de glace"/>
+<TEXT ID="4045400" Text="Bombardier Gobelin"/>
+<TEXT ID="4048100" Text="Duc de la Montagne Céleste"/>
+<TEXT ID="4049100" Text="Dragon de Glace Freonos"/>
+<TEXT ID="4051100" Text="Golem givré"/>
+<TEXT ID="4051200" Text="Golem refroidi"/>
+<TEXT ID="4051300" Text="Golem de glace"/>
+<TEXT ID="4052100" Text="Hydre"/>
+<TEXT ID="4052200" Text="Hydre de glace"/>
+<TEXT ID="4052300" Text="Hydre givré"/>
+<TEXT ID="4053100" Text="Selic"/>
+<TEXT ID="4053200" Text="Selic cryogène"/>
+<TEXT ID="4053300" Text="Selic sur roues"/>
+<TEXT ID="4054100" Text="Pêcheur Tura"/>
+<TEXT ID="4054200" Text="Garde Tura"/>
+<TEXT ID="4054300" Text="Tura agé"/>
+<TEXT ID="4055100" Text="Fourmi des neiges"/>
+<TEXT ID="4055200" Text="Fourmi iceberg"/>
+<TEXT ID="4055300" Text="Fourmi de glace"/>
+<TEXT ID="4058100" Text="Floures"/>
+<TEXT ID="4059100" Text="Fée glaciale"/>
+<TEXT ID="4061100" Text="Combattant Nain"/>
+<TEXT ID="4061200" Text="Archer Nain"/>
+<TEXT ID="4061300" Text="Ingénieur Nain"/>
+<TEXT ID="4062100" Text="Messager Tarics"/>
+<TEXT ID="4062200" Text="Chasseur Tarics"/>
+<TEXT ID="4062300" Text="Invocateur Tarics"/>
+<TEXT ID="4063100" Text="Guerrier Crâne gelé"/>
+<TEXT ID="4063200" Text="Garde Crâne gelé"/>
+<TEXT ID="4063300" Text="Crâne gelé agé"/>
+<TEXT ID="4064100" Text="Quakee"/>
+<TEXT ID="4064200" Text="Quakee de glace"/>
+<TEXT ID="4064300" Text="Quakee des neiges"/>
+<TEXT ID="4065100" Text="Garde Husky"/>
+<TEXT ID="4065200" Text="Chasseur Husky"/>
+<TEXT ID="4065300" Text="Chef Husky"/>
+<TEXT ID="4068100" Text="Rusky des neiges"/>
+<TEXT ID="4069100" Text="Entraîneur"/>
+<TEXT ID="4071100" Text="Magicien des neiges"/>
+<TEXT ID="4071200" Text="Sorcier des neiges"/>
+<TEXT ID="4071300" Text="Méduse des neiges"/>
+<TEXT ID="4072100" Text="Esprit sentinelle"/>
+<TEXT ID="4072200" Text="Gardien Esprit"/>
+<TEXT ID="4072300" Text="Chevalier Esprit"/>
+<TEXT ID="4073100" Text="Chevalier de la Tour"/>
+<TEXT ID="4073200" Text="Garde royale de la Tour"/>
+<TEXT ID="4073300" Text="Capitaine des chevaliers"/>
+<TEXT ID="4074100" Text="Garde Pan Isis"/>
+<TEXT ID="4074200" Text="Eclaireur Pan Isis"/>
+<TEXT ID="4074300" Text="Mage Pan Isis"/>
+<TEXT ID="4075100" Text="Main-givré"/>
+<TEXT ID="4075200" Text="Main-froide"/>
+<TEXT ID="4075300" Text="Main-de-glace"/>
+<TEXT ID="4078100" Text="Araignée de glace"/>
+<TEXT ID="4079100" Text="Surveillant"/>
+<TEXT ID="4081100" Text="Citrus"/>
+<TEXT ID="4081200" Text="Citrus LongLong"/>
+<TEXT ID="4081300" Text="Citrus Miam-Miam"/>
+<TEXT ID="4082100" Text="Mino"/>
+<TEXT ID="4082200" Text="Chasseur Mino"/>
+<TEXT ID="4082300" Text="Guerrier Mino"/>
+<TEXT ID="4083100" Text="Travailleur Mispeng"/>
+<TEXT ID="4083200" Text="Garde Mispeng"/>
+<TEXT ID="4083300" Text="Chef Mispeng"/>
+<TEXT ID="4084100" Text="Fleur pétrifiée"/>
+<TEXT ID="4084200" Text="Grimpante pétrifiée"/>
+<TEXT ID="4084300" Text="Fleur maléfique pétrifiée"/>
+<TEXT ID="4085100" Text="Taupe Esprit "/>
+<TEXT ID="4085200" Text="Balle Esprit "/>
+<TEXT ID="4085300" Text="Boom Esprit"/>
+<TEXT ID="4088100" Text="Mino de glace"/>
+<TEXT ID="4089100" Text="Garde Dédale"/>
+<TEXT ID="4091100" Text="Guerrier Yagahoka"/>
+<TEXT ID="4091200" Text="Chasseur Yagahoka"/>
+<TEXT ID="4091300" Text="Sorcier Yagahoka"/>
+<TEXT ID="4092100" Text="Floures gelé"/>
+<TEXT ID="4092200" Text="Floures refroidi"/>
+<TEXT ID="4092300" Text="Floures de glace"/>
+<TEXT ID="4093100" Text="Travailleur Aile-glacé"/>
+<TEXT ID="4093200" Text="Aile-glacé patrouilleuse"/>
+<TEXT ID="4093300" Text="Mante Aile-glacé"/>
+<TEXT ID="4094100" Text="Jardinier"/>
+<TEXT ID="4094200" Text="Nettoyeur du Jardin"/>
+<TEXT ID="4094300" Text="Jardinier en chef"/>
+<TEXT ID="4095100" Text="Mutant givré"/>
+<TEXT ID="4095200" Text="Mutant refroidi"/>
+<TEXT ID="4095300" Text="Mutant de glace"/>
+<TEXT ID="4098100" Text="Jardin de monstres rares"/>
+<TEXT ID="4099100" Text="Reine glaciale"/>
+<TEXT ID="4500100" Text="Grosse Paluche"/>
+<TEXT ID="4500200" Text="Munk"/>
+<TEXT ID="4500300" Text="Balafré"/>
+<TEXT ID="4500400" Text="Wolfarine"/>
+<TEXT ID="4500500" Text="Loup Débraillé"/>
+<TEXT ID="4500600" Text="Loup Hardi"/>
+<TEXT ID="4500700" Text="Loup ardent"/>
+<TEXT ID="4500800" Text="Sheek"/>
+<TEXT ID="4500900" Text="Fenris"/>
+<TEXT ID="4540770" Text="Liche"/>
+<TEXT ID="4541000" Text="Cerbère"/>
+<TEXT ID="4600100" Text="Momie n&#39;a qu&#39;un Oeil  "/>
+<TEXT ID="4600200" Text="Momie du Cimetière"/>
+<TEXT ID="4600300" Text="Duraman"/>
+<TEXT ID="4600400" Text="Mergon"/>
+<TEXT ID="4600500" Text="Raty"/>
+<TEXT ID="4600600" Text="Zombie"/>
+<TEXT ID="4601000" Text="Homme de l&#39;Ombre"/>
+<TEXT ID="4601100" Text="Drap&#39;Os"/>
+<TEXT ID="4601200" Text="Katler"/>
+<TEXT ID="4601300" Text="Ratler"/>
+<TEXT ID="4602100" Text="Kajimodo"/>
+<TEXT ID="4602200" Text="Niveus"/>
+<TEXT ID="4700100" Text="Metagon"/>
+<TEXT ID="4700200" Text="WingWing"/>
+<TEXT ID="4700300" Text="Gremlin"/>
+<TEXT ID="4700400" Text="Mèche"/>
+<TEXT ID="4700500" Text="Esprit pollué"/>
+<TEXT ID="4700600" Text="Lagon Junior"/>
+<TEXT ID="4700700" Text="Lagon"/>
+<TEXT ID="4700800" Text="Esprit de racine"/>
+<TEXT ID="4700900" Text="Aloum de brume"/>
+<TEXT ID="4701100" Text="Arbre Spirituel Noueux"/>
+<TEXT ID="4701200" Text="Arbre Empoisonné"/>
+<TEXT ID="4701300" Text="Arbre Pétrifié"/>
+<TEXT ID="4701400" Text="Chaman maléfique Mutisha"/>
+<TEXT ID="4701500" Text="Revious"/>
+<TEXT ID="4701600" Text="Arbre pollué"/>
+<TEXT ID="4900100" Text="Désolaïon"/>
+<TEXT ID="5000501" Text="TB_DefMonster"/>
+<TEXT ID="5000502" Text="TB_DefMonster"/>
+<TEXT ID="5000503" Text="TB_DefMonster"/>
+<TEXT ID="5000504" Text="TB_DefMonster"/>
+<TEXT ID="5000505" Text="TB_DefMonster"/>
+<TEXT ID="5000506" Text="TB_DefMonster"/>
+<TEXT ID="5810000" Text="[Gardien] Tempête"/>
+<TEXT ID="5810001" Text="Attaque en combat rapproché et peut attaquer plusieurs cibles simultanément. (Il attaquera la cible la plus proche en premier.)"/>
+<TEXT ID="5810100" Text="Tempête Nv.1"/>
+<TEXT ID="5810200" Text="Tempête Nv.2"/>
+<TEXT ID="5810300" Text="Tempête Nv.3"/>
+<TEXT ID="5810400" Text="Tempête Nv.4"/>
+<TEXT ID="5810500" Text="Tempête Nv.5"/>
+<TEXT ID="5810600" Text="Tempête Nv.6"/>
+<TEXT ID="5810700" Text="Tempête Nv.7"/>
+<TEXT ID="5810800" Text="Tempête Nv.8"/>
+<TEXT ID="5810900" Text="Tempête Nv.9"/>
+<TEXT ID="5811000" Text="Tempête Nv.10"/>
+<TEXT ID="5811100" Text="Tempête"/>
+<TEXT ID="5811200" Text="ID_5811200"/>
+<TEXT ID="5811300" Text="ID_5811300"/>
+<TEXT ID="5811400" Text="ID_5811400"/>
+<TEXT ID="5811500" Text="ID_5811500"/>
+<TEXT ID="5811600" Text="ID_5811600"/>
+<TEXT ID="5820000" Text="[Gardien] Incendie"/>
+<TEXT ID="5820001" Text="Attaque plusieurs cible simultanément en lançant des flammes en avant."/>
+<TEXT ID="5820100" Text="Incendie Nv.1"/>
+<TEXT ID="5820200" Text="Incendie Nv.2"/>
+<TEXT ID="5820300" Text="Incendie Nv.3"/>
+<TEXT ID="5820400" Text="Incendie Nv.4"/>
+<TEXT ID="5820500" Text="Incendie Nv.5"/>
+<TEXT ID="5820600" Text="Incendie Nv.6"/>
+<TEXT ID="5820700" Text="Incendie Nv.7"/>
+<TEXT ID="5820800" Text="Incendie Nv.8"/>
+<TEXT ID="5820900" Text="Incendie Nv.9"/>
+<TEXT ID="5821000" Text="Incendie Nv.10"/>
+<TEXT ID="5821100" Text="Incendie"/>
+<TEXT ID="5821200" Text="ID_5821200"/>
+<TEXT ID="5821300" Text="ID_5821300"/>
+<TEXT ID="5821400" Text="ID_5821400"/>
+<TEXT ID="5821500" Text="ID_5821500"/>
+<TEXT ID="5821600" Text="ID_5821600"/>
+<TEXT ID="5830000" Text="[Gardien] Gaïa"/>
+<TEXT ID="5830001" Text="Attaque grâce à des vrilles de flammes venant du sol. Les attaques sont soutenues et touchent les ennemis en mouvement."/>
+<TEXT ID="5830100" Text="Gaïa Nv.1"/>
+<TEXT ID="5830200" Text="Gaïa Nv.2"/>
+<TEXT ID="5830300" Text="Gaïa Nv.3"/>
+<TEXT ID="5830400" Text="Gaïa Nv.4"/>
+<TEXT ID="5830500" Text="Gaïa Nv.5"/>
+<TEXT ID="5830600" Text="Gaïa Nv.6"/>
+<TEXT ID="5830700" Text="Gaïa Nv.7"/>
+<TEXT ID="5830800" Text="Gaïa Nv.8"/>
+<TEXT ID="5830900" Text="Gaïa Nv.9"/>
+<TEXT ID="5831000" Text="Gaïa Nv.10"/>
+<TEXT ID="5831100" Text="Gaïa"/>
+<TEXT ID="5831200" Text="ID_5831200"/>
+<TEXT ID="5831300" Text="ID_5831300"/>
+<TEXT ID="5831400" Text="ID_5831400"/>
+<TEXT ID="5831500" Text="ID_5831500"/>
+<TEXT ID="5831600" Text="ID_5831600"/>
+<TEXT ID="5840000" Text="[Gardien] Foudre"/>
+<TEXT ID="5840001" Text="Inflige des dégâts supérieurs à un seul monstre. (Il attaquera d’abord le monstre ayant le plus de PV.)"/>
+<TEXT ID="5840100" Text="Foudre Nv.1"/>
+<TEXT ID="5840200" Text="Foudre Nv.2"/>
+<TEXT ID="5840300" Text="Foudre Nv.3"/>
+<TEXT ID="5840400" Text="Foudre Nv.4"/>
+<TEXT ID="5840500" Text="Foudre Nv.5"/>
+<TEXT ID="5840600" Text="Foudre Nv.6"/>
+<TEXT ID="5840700" Text="Foudre Nv.7"/>
+<TEXT ID="5840800" Text="Foudre Nv.8"/>
+<TEXT ID="5840900" Text="Foudre Nv.9"/>
+<TEXT ID="5841000" Text="Foudre Nv.10"/>
+<TEXT ID="5841100" Text="Foudre"/>
+<TEXT ID="5841200" Text="ID_5841200"/>
+<TEXT ID="5841300" Text="ID_5841300"/>
+<TEXT ID="5841400" Text="ID_5841400"/>
+<TEXT ID="5841500" Text="ID_5841500"/>
+<TEXT ID="5841600" Text="ID_5841600"/>
+<TEXT ID="5850000" Text="[Gardien] Gel"/>
+<TEXT ID="5850001" Text="Congèle le monstre et ralentit ses déplacements en plus de lui infliger de léger dégâts continuellement."/>
+<TEXT ID="5850100" Text="Gel Nv.1"/>
+<TEXT ID="5850200" Text="Gel Nv.2"/>
+<TEXT ID="5850300" Text="Gel Nv.3"/>
+<TEXT ID="5850400" Text="Gel Nv.4"/>
+<TEXT ID="5850500" Text="Gel Nv.5"/>
+<TEXT ID="5850600" Text="Gel Nv.6"/>
+<TEXT ID="5850700" Text="Gel Nv.7"/>
+<TEXT ID="5850800" Text="Gel Nv.8"/>
+<TEXT ID="5850900" Text="Gel Nv.9"/>
+<TEXT ID="5851000" Text="Gel Nv.10"/>
+<TEXT ID="5851100" Text="Gel"/>
+<TEXT ID="5851200" Text="ID_5851200"/>
+<TEXT ID="5851300" Text="ID_5851300"/>
+<TEXT ID="5851400" Text="ID_5851400"/>
+<TEXT ID="5851500" Text="ID_5851500"/>
+<TEXT ID="5851600" Text="ID_5851600"/>
+<TEXT ID="5860000" Text="[Gardien] Colapsar"/>
+<TEXT ID="5860001" Text="Invoque un trou noir qui emprisonne le monstre. (Le monstre possédant la vitesse de mouvement la plus élevée sera attaqué en premier.)"/>
+<TEXT ID="5860100" Text="Colapsar Niv.1"/>
+<TEXT ID="5860200" Text="Colapsar Niv.2"/>
+<TEXT ID="5860300" Text="Colapsar Niv.3"/>
+<TEXT ID="5860400" Text="Colapsar Niv.4"/>
+<TEXT ID="5860500" Text="Colapsar Niv.5"/>
+<TEXT ID="5860600" Text="Colapsar Niv.6"/>
+<TEXT ID="5860700" Text="Colapsar Niv.7"/>
+<TEXT ID="5860800" Text="Colapsar Niv.8"/>
+<TEXT ID="5860900" Text="Colapsar Niv.9"/>
+<TEXT ID="5861000" Text="Colapsar Niv.10"/>
+<TEXT ID="5861100" Text="Colapsar"/>
+<TEXT ID="5861200" Text="ID_5861200"/>
+<TEXT ID="5861300" Text="ID_5861300"/>
+<TEXT ID="5861400" Text="ID_5861400"/>
+<TEXT ID="5861500" Text="ID_5861500"/>
+<TEXT ID="5861600" Text="ID_5861600"/>
+<TEXT ID="5870000" Text="[Gardien du Chaos] Bombardier du Chaos"/>
+<TEXT ID="5870001" Text="Attaque l&#39;ennemi le plus proche en premier"/>
+<TEXT ID="5870100" Text="Gardien Aram"/>
+<TEXT ID="5870103" Text="Pluie de cendres d&#39;Aram"/>
+<TEXT ID="6000100" Text="Epouvantail 1"/>
+<TEXT ID="6000103" Text="Sac de sable"/>
+<TEXT ID="6000104" Text="Caisse"/>
+<TEXT ID="6000105" Text="Caisse 2"/>
+<TEXT ID="6000106" Text="Jarre"/>
+<TEXT ID="6000107" Text="Tonneau de bière"/>
+<TEXT ID="6000108" Text="Noyau bleu"/>
+<TEXT ID="6000109" Text="Petit noyau bleu"/>
+<TEXT ID="6000110" Text="Noyau écarlate"/>
+<TEXT ID="6000111" Text="Petit noyau écarlate"/>
+<TEXT ID="6000200" Text="Epouvantail 2"/>
+<TEXT ID="6000300" Text="Père Noël imposteur"/>
+<TEXT ID="6000400" Text="Dragon gardien"/>
+<TEXT ID="6000410" Text="Dragon gardien"/>
+<TEXT ID="6000420" Text="Drag&#39;Os Violet"/>
+<TEXT ID="6000430" Text="Drag&#39;Os Rouge"/>
+<TEXT ID="6000440" Text="Drag&#39;Os Noir"/>
+<TEXT ID="6000450" Text="Dragon gardien"/>
+<TEXT ID="6000500" Text="ID_6000500_CHN"/>
+<TEXT ID="6000600" Text="ID_6000600_CHN"/>
+<TEXT ID="6000700" Text="ID_6000700_CHN"/>
+<TEXT ID="6000800" Text="Dragon de glace"/>
+<TEXT ID="6000850" Text="Reine Nev"/>
+<TEXT ID="6000900" Text="Dragon de magma Lavalon"/>
+<TEXT ID="6000902" Text="Canon magique"/>
+<TEXT ID="6000910" Text="Chef des dragons Gramgris"/>
+<TEXT ID="6000920" Text="Dr. Farrell, le savant fou"/>
+<TEXT ID="6000930" Text="Aram"/>
+<TEXT ID="6000940" Text="Mutisha"/>
+<TEXT ID="6000950" Text="Dragon d&#39;os"/>
+<TEXT ID="6001000" Text="Woodie doré"/>
+<TEXT ID="6001100" Text="Woodie"/>
+<TEXT ID="6001200" Text="Plante jaune"/>
+<TEXT ID="6001300" Text="Pomme de pin"/>
+<TEXT ID="6001400" Text="Erable"/>
+<TEXT ID="6001500" Text="Verdie"/>
+<TEXT ID="6002000" Text="Dragon KK"/>
+<TEXT ID="6002100" Text="Bélier"/>
+<TEXT ID="6002200" Text="Mouton"/>
+<TEXT ID="6002300" Text="Bêhchant mouton"/>
+<TEXT ID="6002700" Text="P&#39;tit mouton"/>
+<TEXT ID="6002800" Text="Bêhchant bélier"/>
+<TEXT ID="6003100" Text="Arabeille"/>
+<TEXT ID="6003200" Text="Araignée fourchue"/>
+<TEXT ID="6004100" Text="Loup brun"/>
+<TEXT ID="6004200" Text="Loup cendré"/>
+<TEXT ID="6004300" Text="Loup ardent"/>
+<TEXT ID="6004400" Text="Vegas"/>
+<TEXT ID="6004500" Text="Gigantesque loup ardent"/>
+<TEXT ID="6004600" Text="Etrange loup ardent"/>
+<TEXT ID="6004700" Text="Loup brun affamé"/>
+<TEXT ID="6004800" Text="Loup brun avide"/>
+<TEXT ID="6004900" Text="Vagabond"/>
+<TEXT ID="6005100" Text="Scrappy"/>
+<TEXT ID="6005200" Text="Scrappy bleu"/>
+<TEXT ID="6005300" Text="Scrappy furieux"/>
+<TEXT ID="6005400" Text="Scrappy coriace"/>
+<TEXT ID="6006100" Text="Chango"/>
+<TEXT ID="6006200" Text="Axel"/>
+<TEXT ID="6006300" Text="Ogre chaman"/>
+<TEXT ID="6006400" Text="Chango féroce"/>
+<TEXT ID="6006500" Text="Fabuleux Axel"/>
+<TEXT ID="6006600" Text="Franken Doju"/>
+<TEXT ID="6006700" Text="Chango acharné"/>
+<TEXT ID="6006900" Text="Sanka Hache-géante"/>
+<TEXT ID="6007100" Text="Raton laveur"/>
+<TEXT ID="6007200" Text="Pinkerton"/>
+<TEXT ID="6007300" Text="Raton plongeur"/>
+<TEXT ID="6007400" Text="Citrouille infernale"/>
+<TEXT ID="6007500" Text="Citrouille infernale coriace"/>
+<TEXT ID="6007600" Text="Tête de citrouille géante"/>
+<TEXT ID="6008100" Text="Momie à massue pourpre"/>
+<TEXT ID="6008200" Text="Momie boxeuse"/>
+<TEXT ID="6008300" Text="Momie combattante"/>
+<TEXT ID="6008400" Text="Momie marteau"/>
+<TEXT ID="6008500" Text="Momie à massue"/>
+<TEXT ID="6008600" Text="Momie à massue cloutée"/>
+<TEXT ID="6009100" Text="Chevalier spectral bleu"/>
+<TEXT ID="6009200" Text="Chevalier spectral rouge"/>
+<TEXT ID="6009300" Text="Chevalier spectral sanguinaire"/>
+<TEXT ID="6009400" Text="Chevalier spectral draconique"/>
+<TEXT ID="6009500" Text="Sombre mage"/>
+<TEXT ID="6009600" Text="Seigneur de la nuit"/>
+<TEXT ID="6009601" Text="Chevalier fantôme"/>
+<TEXT ID="6009700" Text="Petit chevalier spectral sanguinaire"/>
+<TEXT ID="6009800" Text="Petit chevalier spectral draconique"/>
+<TEXT ID="6009900" Text="Artis"/>
+<TEXT ID="6010100" Text="Crabby"/>
+<TEXT ID="6010900" Text="Crabby rasoir"/>
+<TEXT ID="6011100" Text="Starry Lulu"/>
+<TEXT ID="6011200" Text="Starry Lolo"/>
+<TEXT ID="6011300" Text="Starry Lala"/>
+<TEXT ID="6011700" Text="Starry Lolo étrange"/>
+<TEXT ID="6011800" Text="Starry géant"/>
+<TEXT ID="6012100" Text="Méduse"/>
+<TEXT ID="6012200" Text="Méduse Perry"/>
+<TEXT ID="6012300" Text="Méduse Pyla"/>
+<TEXT ID="6012400" Text="Méduse bleue"/>
+<TEXT ID="6012500" Text="Méduse rouge"/>
+<TEXT ID="6012600" Text="Méduse Pyla malade"/>
+<TEXT ID="6012700" Text="Méduse Pyla furieuse"/>
+<TEXT ID="6012800" Text="Méduse sournoise"/>
+<TEXT ID="6013100" Text="Requin pirate"/>
+<TEXT ID="6013200" Text="Requin moussaillon"/>
+<TEXT ID="6013500" Text="Juju vaporeux"/>
+<TEXT ID="6013800" Text="Capitaine Alvida"/>
+<TEXT ID="6013801" Text="Juju"/>
+<TEXT ID="6013900" Text="Capitaine Hookah"/>
+<TEXT ID="6014100" Text="Squelette embarillé fêlé"/>
+<TEXT ID="6014200" Text="Squelette embarillé"/>
+<TEXT ID="6014300" Text="Mage squelette"/>
+<TEXT ID="6014400" Text="Bébé squelette"/>
+<TEXT ID="6014500" Text="Fils squelette"/>
+<TEXT ID="6014600" Text="Père squelette"/>
+<TEXT ID="6014700" Text="Squelemar"/>
+<TEXT ID="6014800" Text="Squelebar"/>
+<TEXT ID="6015100" Text="BoumBoum"/>
+<TEXT ID="6015200" Text="BoumBoum de lave"/>
+<TEXT ID="6015300" Text="Maman BoumBoum"/>
+<TEXT ID="6015301" Text="Les PV diminuent sous les effets du poison."/>
+<TEXT ID="6015400" Text="Jason BoumBoum"/>
+<TEXT ID="6015500" Text="Boum de lave"/>
+<TEXT ID="6015600" Text="P&#39;tit BoumBoum de lave"/>
+<TEXT ID="6015700" Text="BoumBoum furieux"/>
+<TEXT ID="6015800" Text="Maman BoumBoum élégante"/>
+<TEXT ID="6015900" Text="Chef Rocker"/>
+<TEXT ID="6015901" Text="Vice-chef Rocker"/>
+<TEXT ID="6015902" Text="Doju"/>
+<TEXT ID="6016100" Text="Monstre boueux des marais"/>
+<TEXT ID="6016200" Text="Monstre écumeux des marais"/>
+<TEXT ID="6016300" Text="Monstre des marais"/>
+<TEXT ID="6016400" Text="Petit monstre des marais"/>
+<TEXT ID="6016500" Text="Faible monstre écumeux des marais"/>
+<TEXT ID="6016600" Text="Monstre boueux des marais furieux"/>
+<TEXT ID="6017100" Text="Homme des bois violent"/>
+<TEXT ID="6017200" Text="Homme des bois crochu"/>
+<TEXT ID="6017300" Text="Homme des bois épéiste"/>
+<TEXT ID="6017400" Text="Homme des bois furieux"/>
+<TEXT ID="6017500" Text="Homme des bois psycopathe"/>
+<TEXT ID="6017600" Text="Homme des bois Burnan"/>
+<TEXT ID="6017700" Text="Homme des bois Paul Burnan"/>
+<TEXT ID="6017800" Text="Homme des bois Paul Burnan furieux"/>
+<TEXT ID="6017900" Text="Homme des bois crochu furieux"/>
+<TEXT ID="6018100" Text="Soldat Yukat"/>
+<TEXT ID="6018200" Text="Sorcier docteur Yukat"/>
+<TEXT ID="6018300" Text="Yukat"/>
+<TEXT ID="6018400" Text="Yukat malade"/>
+<TEXT ID="6018500" Text="Soldat Yukat robuste"/>
+<TEXT ID="6018600" Text="Maître sorcier Yukat triste"/>
+<TEXT ID="6018900" Text="Elluman"/>
+<TEXT ID="6018901" Text="Petit Elu"/>
+<TEXT ID="6019100" Text="Fleur de vigne maléfique"/>
+<TEXT ID="6019200" Text="Fleur de vigne maléfique Dédé"/>
+<TEXT ID="6019300" Text="Graine de fleur maléfique"/>
+<TEXT ID="6019400" Text="Graine de fleur maléfique Dédé"/>
+<TEXT ID="6019500" Text="Petite graine de fleur maléfique"/>
+<TEXT ID="6019600" Text="Petite vigne maléfique Dédé"/>
+<TEXT ID="6019700" Text="Petit patrouilleur Dédé"/>
+<TEXT ID="6019800" Text="Lanceur Dédé"/>
+<TEXT ID="6019900" Text="Démon"/>
+<TEXT ID="6020100" Text="Zard rouge"/>
+<TEXT ID="6020200" Text="Guerrier Zard"/>
+<TEXT ID="6020300" Text="Zard"/>
+<TEXT ID="6020400" Text="Déchireur"/>
+<TEXT ID="6020500" Text="Guerrier Zard robuste"/>
+<TEXT ID="6020600" Text="Zard rouge furieux"/>
+<TEXT ID="6020700" Text="Déchireur Zard furieux"/>
+<TEXT ID="6020800" Text="Déchireur Zard bien-né"/>
+<TEXT ID="6020900" Text="Zard géant"/>
+<TEXT ID="6021100" Text="Chiot Dronga gris"/>
+<TEXT ID="6021200" Text="Chiot Dronga vert"/>
+<TEXT ID="6021300" Text="Chiot Dronga bleu"/>
+<TEXT ID="6021400" Text="Chiot Dronga gris furieux"/>
+<TEXT ID="6021500" Text="Chiot Dronga vert furieux"/>
+<TEXT ID="6021600" Text="Chiot Dronga furieux"/>
+<TEXT ID="6021900" Text="Chiot Dronga rouge"/>
+<TEXT ID="6022100" Text="Escarguerrier"/>
+<TEXT ID="6022200" Text="Escargôme"/>
+<TEXT ID="6022300" Text="Escargot"/>
+<TEXT ID="6022400" Text="Escargôme furieux"/>
+<TEXT ID="6022900" Text="Sluppee"/>
+<TEXT ID="6023100" Text="Fée forestière sporeuse"/>
+<TEXT ID="6023200" Text="Fée forestière en fleur"/>
+<TEXT ID="6023300" Text="Fée forestière éclose"/>
+<TEXT ID="6023400" Text="Mignonne fée forestière en fleur"/>
+<TEXT ID="6023500" Text="Mignonne fée forestière éclose"/>
+<TEXT ID="6023600" Text="Mignonne fée forestière sporeuse"/>
+<TEXT ID="6023800" Text="Mignonne fée des bois"/>
+<TEXT ID="6023900" Text="Arka"/>
+<TEXT ID="6023901" Text="Petite Arka"/>
+<TEXT ID="6024100" Text="Champisoldat"/>
+<TEXT ID="6024200" Text="Champitueur"/>
+<TEXT ID="6024300" Text="Champivoleur"/>
+<TEXT ID="6024500" Text="Champisoldat géant"/>
+<TEXT ID="6024600" Text="Champitueur fugitif"/>
+<TEXT ID="6024900" Text="Champicombattant"/>
+<TEXT ID="6024901" Text="Grindle"/>
+<TEXT ID="6025100" Text="Oncle Porky"/>
+<TEXT ID="6025200" Text="Grand-oncle Porky"/>
+<TEXT ID="6025300" Text="Porky"/>
+<TEXT ID="6025400" Text="Porky furieux"/>
+<TEXT ID="6025500" Text="Oncle Porky furieux"/>
+<TEXT ID="6025600" Text="Grand-oncle Porky furieux"/>
+<TEXT ID="6025700" Text="Porky chauve"/>
+<TEXT ID="6025900" Text="Burlune"/>
+<TEXT ID="6025901" Text="Petite Burlune"/>
+<TEXT ID="6026100" Text="Scarabée"/>
+<TEXT ID="6026200" Text="Scarabée cornu"/>
+<TEXT ID="6026300" Text="Lucane dorée"/>
+<TEXT ID="6026400" Text="Coccinelle"/>
+<TEXT ID="6026500" Text="Scarabée méchant"/>
+<TEXT ID="6028100" Text="Crapaud"/>
+<TEXT ID="6028200" Text="Cracrapaud"/>
+<TEXT ID="6028300" Text="Crapaud géant"/>
+<TEXT ID="6028400" Text="Crapaud mignon"/>
+<TEXT ID="6028500" Text="Cracrapaud furieux"/>
+<TEXT ID="6028600" Text="Crapaud furieux"/>
+<TEXT ID="6029100" Text="Bix"/>
+<TEXT ID="6029200" Text="Mobix"/>
+<TEXT ID="6030100" Text="Sharpo"/>
+<TEXT ID="6030200" Text="Sharpo lanceur"/>
+<TEXT ID="6030300" Text="Sorcier docteur Sharpo"/>
+<TEXT ID="6030400" Text="Sorcier docteur Sharpo furieux"/>
+<TEXT ID="6030500" Text="Sharpo fugitif"/>
+<TEXT ID="6030600" Text="Sharpo violent"/>
+<TEXT ID="6030700" Text="Sharpo froussard"/>
+<TEXT ID="6030900" Text="Kunka Hache-géante"/>
+<TEXT ID="6031100" Text="Dryade"/>
+<TEXT ID="6031200" Text="Chaman dryade"/>
+<TEXT ID="6031300" Text="Prêtresse dryade"/>
+<TEXT ID="6032100" Text="Pooka Choppi"/>
+<TEXT ID="6032200" Text="Pooka Primy"/>
+<TEXT ID="6032300" Text="Pooka Tory"/>
+<TEXT ID="6032400" Text="Pooka Peppo"/>
+<TEXT ID="6032500" Text="Pooka Choppi géant"/>
+<TEXT ID="6032600" Text="Pooka Peppo géant"/>
+<TEXT ID="6032700" Text="Pooka Primy géant"/>
+<TEXT ID="6032800" Text="Pooka Choppi furieux"/>
+<TEXT ID="6033100" Text="Lexas"/>
+<TEXT ID="6033200" Text="Shargas Lexas"/>
+<TEXT ID="6033300" Text="Shaula Lexas"/>
+<TEXT ID="6033400" Text="Antarès"/>
+<TEXT ID="6033500" Text="Lexas puissant"/>
+<TEXT ID="6033600" Text="Shargas Lexas puissant"/>
+<TEXT ID="6033700" Text="Shaula Lexas puissant"/>
+<TEXT ID="6033800" Text="Cerae"/>
+<TEXT ID="6034100" Text="Menta Pipelita"/>
+<TEXT ID="6034200" Text="Menta Spicata"/>
+<TEXT ID="6034300" Text="Gaiden"/>
+<TEXT ID="6034301" Text="Longiepola"/>
+<TEXT ID="6034400" Text="Menta Spicata furieuse"/>
+<TEXT ID="6034500" Text="Menta Pipeleta furieuse"/>
+<TEXT ID="6035100" Text="Diodon"/>
+<TEXT ID="6035200" Text="Méchant diodon"/>
+<TEXT ID="6036100" Text="Armitemys"/>
+<TEXT ID="6036200" Text="Armis"/>
+<TEXT ID="6036300" Text="Armitemys furieux"/>
+<TEXT ID="6036400" Text="Armitemys aliéné"/>
+<TEXT ID="6037100" Text="Luna"/>
+<TEXT ID="6037200" Text="Lupina"/>
+<TEXT ID="6038100" Text="Mante"/>
+<TEXT ID="6038200" Text="Mante crochue"/>
+<TEXT ID="6038300" Text="Kinsman ailes-crochues"/>
+<TEXT ID="6038400" Text="Patrouilleur ailes-crochues"/>
+<TEXT ID="6038500" Text="Petit Kinsman ailes-crochues"/>
+<TEXT ID="6038600" Text="Patrouilleur ailes-crochues furieux"/>
+<TEXT ID="6039100" Text="Etincelle téméraire"/>
+<TEXT ID="6039200" Text="Etincelle mutante"/>
+<TEXT ID="6039400" Text="Etincelle"/>
+<TEXT ID="6039500" Text="Etincelle bouleversée"/>
+<TEXT ID="6039600" Text="Etincelle mutante bouleversée"/>
+<TEXT ID="6039700" Text="Etincelle téméraire bouleversée"/>
+<TEXT ID="6040100" Text="Ver"/>
+<TEXT ID="6040200" Text="Ver ratisseur"/>
+<TEXT ID="6040300" Text="Ver cornu"/>
+<TEXT ID="6040400" Text="Ver ratisseur mignon"/>
+<TEXT ID="6041100" Text="Golem Spajumin"/>
+<TEXT ID="6041200" Text="Golem Dementoid"/>
+<TEXT ID="6041300" Text="Golem Apatite"/>
+<TEXT ID="6041400" Text="Golem de lave"/>
+<TEXT ID="6041500" Text="Pythanuth"/>
+<TEXT ID="6041600" Text="Puissant golem Spajumin"/>
+<TEXT ID="6041700" Text="Puissant golem Apatite"/>
+<TEXT ID="6041800" Text="Puissant golem Dementoid"/>
+<TEXT ID="6042100" Text="Croco"/>
+<TEXT ID="6042200" Text="Crocosse"/>
+<TEXT ID="6042300" Text="Crocosalcosucus"/>
+<TEXT ID="6042400" Text="Petit Crocosse"/>
+<TEXT ID="6042500" Text="Croco furieux"/>
+<TEXT ID="6043100" Text="Algon"/>
+<TEXT ID="6043200" Text="Patrouilleur Algon"/>
+<TEXT ID="6043300" Text="Soldat Algon"/>
+<TEXT ID="6043400" Text="Algon numen"/>
+<TEXT ID="6043500" Text="Kimart"/>
+<TEXT ID="6043501" Text="Cromat Furieux"/>
+<TEXT ID="6043700" Text="Garde Vargon"/>
+<TEXT ID="6043800" Text="Eclaireur Vargon"/>
+<TEXT ID="6043900" Text="Chaman Vargon"/>
+<TEXT ID="6044100" Text="Luciole"/>
+<TEXT ID="6044200" Text="Luciole patrouilleuse"/>
+<TEXT ID="6044300" Text="Luciole prêtresse"/>
+<TEXT ID="6044301" Text="Luciole ancienne"/>
+<TEXT ID="6044400" Text="Petite luciole"/>
+<TEXT ID="6044500" Text="Luciole patrouilleuse furieuse"/>
+<TEXT ID="6044600" Text="Reine Vella"/>
+<TEXT ID="6044800" Text="Luciole prêtresse furieuse"/>
+<TEXT ID="6045100" Text="Papillon de nuit"/>
+<TEXT ID="6045200" Text="Papillon grande-bouche"/>
+<TEXT ID="6045300" Text="Papillon de nuit mielleux"/>
+<TEXT ID="6045400" Text="Papillon de nuit géant"/>
+<TEXT ID="6045500" Text="Papillon grande-bouche géant"/>
+<TEXT ID="6045600" Text="Papillon de nuit mielleux géant"/>
+<TEXT ID="6046100" Text="Aîné des Sept nains"/>
+<TEXT ID="6046200" Text="Second des Sept nains"/>
+<TEXT ID="6046300" Text="Troisième des Sept nains"/>
+<TEXT ID="6046400" Text="Quatrième des Sept nains"/>
+<TEXT ID="6047100" Text="Ailé"/>
+<TEXT ID="6047200" Text="Ailé Grand-oeil"/>
+<TEXT ID="6047300" Text="Ailé Grande-corne"/>
+<TEXT ID="6047400" Text="Ailé Petit-oeil"/>
+<TEXT ID="6048100" Text="Hor"/>
+<TEXT ID="6048200" Text="Hor Bec-pointu"/>
+<TEXT ID="6048300" Text="Hor Horus"/>
+<TEXT ID="6048400" Text="Méchant Hor"/>
+<TEXT ID="6048500" Text="Hor Bec-pointu furieux"/>
+<TEXT ID="6048600" Text="Horus Hor furieux"/>
+<TEXT ID="6049100" Text="Travailleur pied-palmé"/>
+<TEXT ID="6049200" Text="Chaman pied-palmé"/>
+<TEXT ID="6049300" Text="Combattant pied-palmé"/>
+<TEXT ID="6049400" Text="Travailleur pied-palmé malade"/>
+<TEXT ID="6049500" Text="Chaman pied-palmé furieux"/>
+<TEXT ID="6049600" Text="Combattant pied-palmé furieux"/>
+<TEXT ID="6049700" Text="Vieux Shaman pied-palmé"/>
+<TEXT ID="6050100" Text="Maître sinistre Hermès"/>
+<TEXT ID="6050200" Text="Maître sinistre Hadès"/>
+<TEXT ID="6050300" Text="Maître sinistre Erilik"/>
+<TEXT ID="6050400" Text="Maître sinistre Hadès furieux"/>
+<TEXT ID="6050500" Text="Maître sinistre Hermès furieux"/>
+<TEXT ID="6050600" Text="Maître sinistre Erilik furieux"/>
+<TEXT ID="6051100" Text="Toa Lantea"/>
+<TEXT ID="6051200" Text="Toa Mello"/>
+<TEXT ID="6051300" Text="Toa Enril"/>
+<TEXT ID="6051400" Text="Toa Mello furieux"/>
+<TEXT ID="6051500" Text="Toa Lantea furieux"/>
+<TEXT ID="6051600" Text="Toa Enril furieux"/>
+<TEXT ID="6052100" Text="Mimir"/>
+<TEXT ID="6052200" Text="Soldat dard-poisonneux Mimir"/>
+<TEXT ID="6052300" Text="Chaman Mimir"/>
+<TEXT ID="6052400" Text="Mimir fou"/>
+<TEXT ID="6052500" Text="Chaman Mimir furieux"/>
+<TEXT ID="6052600" Text="Bubobubo"/>
+<TEXT ID="6052800" Text="Soldat Mimir poisonneux fou"/>
+<TEXT ID="6053100" Text="Noyau"/>
+<TEXT ID="6053200" Text="Noyau Magi"/>
+<TEXT ID="6053300" Text="Noyau Helics"/>
+<TEXT ID="6054100" Text="Yéti"/>
+<TEXT ID="6054200" Text="Yéti Tornac"/>
+<TEXT ID="6054300" Text="Yéti Angacoc"/>
+<TEXT ID="6055100" Text="Porky invoqué"/>
+<TEXT ID="6055200" Text="Oncle Porky invoqué"/>
+<TEXT ID="6055300" Text="Grand-oncle Porky invoqué"/>
+<TEXT ID="6055400" Text="Golem Spajumin invoqué"/>
+<TEXT ID="6055500" Text="Golem Apatite invoqué"/>
+<TEXT ID="6055600" Text="Golem Dementoid invoqué"/>
+<TEXT ID="6056100" Text="Petit Jason BoumBoum"/>
+<TEXT ID="6056200" Text="Chef cuisinier Kakanu"/>
+<TEXT ID="6056300" Text="Garde de la porte de l&#39;est"/>
+<TEXT ID="6056400" Text="Garde de la porte du sud"/>
+<TEXT ID="6056500" Text="Capitaine des gardes de la porte"/>
+<TEXT ID="6057100" Text="Mergon"/>
+<TEXT ID="6057200" Text="Morgon"/>
+<TEXT ID="6057201" Text="Pathagon"/>
+<TEXT ID="6057300" Text="Metagon"/>
+<TEXT ID="6058100" Text="Auloum"/>
+<TEXT ID="6058200" Text="Auloum cristallin"/>
+<TEXT ID="6058300" Text="Auloum de Magma"/>
+<TEXT ID="6059100" Text="Dudu"/>
+<TEXT ID="6059200" Text="Dudu aux poings"/>
+<TEXT ID="6059300" Text="Mage Dudu"/>
+<TEXT ID="6059400" Text="Atoo"/>
+<TEXT ID="6059500" Text="Mage Dudu coriace"/>
+<TEXT ID="6059600" Text="Dudu âgé"/>
+<TEXT ID="6061100" Text="Champi vénéneux"/>
+<TEXT ID="6061200" Text="Champi vénébleu"/>
+<TEXT ID="6062100" Text="Agnée"/>
+<TEXT ID="6062200" Text="Lanceur agnée"/>
+<TEXT ID="6062300" Text="Mage agnée"/>
+<TEXT ID="6062400" Text="Mimir agnée furieux"/>
+<TEXT ID="6062500" Text="Lanceur mimir agnée"/>
+<TEXT ID="6062600" Text="Mage mimir Agnée"/>
+<TEXT ID="6063100" Text="Ecureuil volant"/>
+<TEXT ID="6063200" Text="Ecureuil volant des bois"/>
+<TEXT ID="6063300" Text="Ecureuil volant géant"/>
+<TEXT ID="6063400" Text="Ecureuil volant furieux"/>
+<TEXT ID="6064100" Text="Araignée buissonière"/>
+<TEXT ID="6064200" Text="Araignée de racine"/>
+<TEXT ID="6064300" Text="Araignée sporagineuse"/>
+<TEXT ID="6064400" Text="Araignée buissonière coriace"/>
+<TEXT ID="6064500" Text="Araignée des racines coriace"/>
+<TEXT ID="6064600" Text="Araignée sporagineuse coriace"/>
+<TEXT ID="6064700" Text="Taramantula"/>
+<TEXT ID="6064701" Text="Arabeille colorée"/>
+<TEXT ID="6065100" Text="Poêle pour Guerrier"/>
+<TEXT ID="6065200" Text="Poêle pour Archer"/>
+<TEXT ID="6065300" Text="Poêle pour Mage"/>
+<TEXT ID="6065400" Text="Poêle à frire"/>
+<TEXT ID="6066100" Text="Artis"/>
+<TEXT ID="6066200" Text="Capitaine du réseau Asvin"/>
+<TEXT ID="6067100" Text="Relayphe"/>
+<TEXT ID="6068100" Text="Rounpho"/>
+<TEXT ID="6069100" Text="Veiyue"/>
+<TEXT ID="6070100" Text="Ara"/>
+<TEXT ID="6071100" Text="Cretar"/>
+<TEXT ID="6071300" Text="Tête de Pastèque"/>
+<TEXT ID="6071400" Text="Tronche de Pastèque"/>
+<TEXT ID="6071500" Text="Esprit d&#39;Halloween"/>
+<TEXT ID="6071600" Text="Monstre Citrouille"/>
+<TEXT ID="6072100" Text="Totem"/>
+<TEXT ID="6073100" Text="Homme des bois furieux Burnan"/>
+<TEXT ID="6074100" Text="Quasimodo"/>
+<TEXT ID="6074200" Text="Rahnoff le Loup-garou"/>
+<TEXT ID="6074300" Text="Dracula"/>
+<TEXT ID="6075100" Text="Gargouille"/>
+<TEXT ID="6075200" Text="Gargouille récifale"/>
+<TEXT ID="6075300" Text="Gargouille vénéneuse"/>
+<TEXT ID="6075400" Text="Gargouille lunatique"/>
+<TEXT ID="6075500" Text="Gargouille récifale lunatique"/>
+<TEXT ID="6075600" Text="Gargouille vénéneuse lunatique"/>
+<TEXT ID="6076100" Text="Dicomonstre"/>
+<TEXT ID="6076200" Text="Encyclomonstre"/>
+<TEXT ID="6076300" Text="Livromonstre"/>
+<TEXT ID="6077100" Text="Garde"/>
+<TEXT ID="6077200" Text="Garde en armure de bronze"/>
+<TEXT ID="6077300" Text="Garde en armure de laiton"/>
+<TEXT ID="6078100" Text="Vieux coffre"/>
+<TEXT ID="6078200" Text="Coffre abandonné"/>
+<TEXT ID="6078300" Text="Coffre secret"/>
+<TEXT ID="6079100" Text="Zombie agonisant"/>
+<TEXT ID="6079200" Text="Zombie maudit"/>
+<TEXT ID="6079300" Text="Zombie décomposé"/>
+<TEXT ID="6080100" Text="Chevalier sans tête"/>
+<TEXT ID="6080200" Text="Chevalier perdu"/>
+<TEXT ID="6080300" Text="Chevalier sans âme"/>
+<TEXT ID="6081100" Text="Comtesse invitée"/>
+<TEXT ID="6081107" Text="Vous serez maudit durant 10 secondes durant lesquelles votre vitesse de mouvement sera réduite de 50 % et l&#39;ATQ et la MATQ de 60 %."/>
+<TEXT ID="6081200" Text="Jeune femme invitée"/>
+<TEXT ID="6081300" Text="Comte invité"/>
+<TEXT ID="6081400" Text="Comtesse non-invitée"/>
+<TEXT ID="6081500" Text="Jeune femme non-invité"/>
+<TEXT ID="6081600" Text="Noble non-invité"/>
+<TEXT ID="6082100" Text="Bonne de Van Cliff"/>
+<TEXT ID="6082200" Text="Intendant de Van Cliff"/>
+<TEXT ID="6082300" Text="Domestique de Van Cliff"/>
+<TEXT ID="6082400" Text="Bonne de Van Cliff sans âme"/>
+<TEXT ID="6082500" Text="Intendant de Van Cliff sans âme"/>
+<TEXT ID="6082600" Text="Domestique de Van Cliff sans âme"/>
+<TEXT ID="6082700" Text="Squelette invoqué"/>
+<TEXT ID="6083100" Text="Ganymette"/>
+<TEXT ID="6083200" Text="Ganymette épineuse"/>
+<TEXT ID="6083300" Text="Jeune Ganymette"/>
+<TEXT ID="6084100" Text="Sharpy"/>
+<TEXT ID="6084200" Text="Sharpy sanglant"/>
+<TEXT ID="6084300" Text="Sharpy d&#39;os"/>
+<TEXT ID="6085100" Text="Goule blessée"/>
+<TEXT ID="6085200" Text="Goule abandonnée"/>
+<TEXT ID="6085300" Text="Goule malade"/>
+<TEXT ID="6086100" Text="Mage de l&#39;horreur"/>
+<TEXT ID="6086200" Text="Prêtre de Van Cliff"/>
+<TEXT ID="6086300" Text="Mage sombre"/>
+<TEXT ID="6086400" Text="Esprit de Mage de l&#39;horreur"/>
+<TEXT ID="6086500" Text="Esprit de Prêtre de Van Cliff"/>
+<TEXT ID="6086600" Text="Esprit de Mage sombre"/>
+<TEXT ID="6087100" Text="Boucher"/>
+<TEXT ID="6087200" Text="Bourreau"/>
+<TEXT ID="6087300" Text="Egorgeur"/>
+<TEXT ID="6087400" Text="Boucher cadavérique"/>
+<TEXT ID="6087500" Text="Bourreau cadavérique"/>
+<TEXT ID="6087600" Text="Egorgeur cadavérique"/>
+<TEXT ID="6088100" Text="Epée du Désespoir"/>
+<TEXT ID="6088200" Text="Epée de la Destruction"/>
+<TEXT ID="6088300" Text="Epée de l&#39;Horreur"/>
+<TEXT ID="6089100" Text="Bombardier du Chaos"/>
+<TEXT ID="6089200" Text="Cercueil du Comte Van Cliff"/>
+<TEXT ID="6089300" Text="Cristal de Rahnoff"/>
+<TEXT ID="6091100" Text="Entraîneur"/>
+<TEXT ID="6091200" Text="Monstre de glace Grandecorne"/>
+<TEXT ID="6091300" Text="Gardien de la porte de glave Tremblement"/>
+<TEXT ID="6091350" Text="ID_6091350"/>
+<TEXT ID="6091400" Text="Fée des glaces Ukoko"/>
+<TEXT ID="6091450" Text="ID_6091450"/>
+<TEXT ID="6091500" Text="Gardien Niyard"/>
+<TEXT ID="6094100" Text="Garde Icis"/>
+<TEXT ID="6094200" Text="Chaman Icis"/>
+<TEXT ID="6094300" Text="Scout Icis"/>
+<TEXT ID="6097100" Text="Messager Tarix"/>
+<TEXT ID="6098100" Text="Yagahoka"/>
+<TEXT ID="6101100" Text="Woodie malade"/>
+<TEXT ID="6101200" Text="Woodie boudeur"/>
+<TEXT ID="6101300" Text="Woodie géant"/>
+<TEXT ID="6102100" Text="Squelette embarillé géant"/>
+<TEXT ID="6102200" Text="Squelette maléfique embarillé"/>
+<TEXT ID="6102300" Text="Mage squelette triste"/>
+<TEXT ID="6102400" Text="Squelette embarillé furieux"/>
+<TEXT ID="6102500" Text="Squelette embarillé furieux"/>
+<TEXT ID="6102600" Text="Squelemage furieux"/>
+<TEXT ID="6102700" Text="Coureur de crâne furieux"/>
+<TEXT ID="6103100" Text="Loup cendré géant"/>
+<TEXT ID="6103200" Text="Vagabond Albinos"/>
+<TEXT ID="6104100" Text="Kentar"/>
+<TEXT ID="6104200" Text="Combattant Kentar"/>
+<TEXT ID="6104300" Text="Rôdeur Kentar"/>
+<TEXT ID="6104400" Text="Karkarous"/>
+<TEXT ID="6104401" Text="Petit Karkarous"/>
+<TEXT ID="6104500" Text="Rôdeur Kentar furieux"/>
+<TEXT ID="6104600" Text="Kentar furieux"/>
+<TEXT ID="6104700" Text="Combattant Kentar furieux"/>
+<TEXT ID="6105100" Text="Producteur de films"/>
+<TEXT ID="6106000" Text="Maître June"/>
+<TEXT ID="6106100" Text="Canard Beijing"/>
+<TEXT ID="6106200" Text="canard assaisonné"/>
+<TEXT ID="6106300" Text="Canard fumé"/>
+<TEXT ID="6107100" Text="Quenelle au boeuf"/>
+<TEXT ID="6107200" Text="Quenelle pourrie"/>
+<TEXT ID="6107300" Text="Quenelle épicée"/>
+<TEXT ID="6108100" Text="Cuit-vapeur en bambou"/>
+<TEXT ID="6108200" Text="Cuit-vapeur en acier"/>
+<TEXT ID="6108300" Text="Cuit-vapeur de bonne facture"/>
+<TEXT ID="6109100" Text="Chow mein"/>
+<TEXT ID="6109200" Text="Chow fun"/>
+<TEXT ID="6109300" Text="Nouilles au boeuf"/>
+<TEXT ID="6111100" Text="Extra 1"/>
+<TEXT ID="6111200" Text="Extra 2"/>
+<TEXT ID="6111300" Text="Extra 3"/>
+<TEXT ID="6111400" Text="Génie des "/>
+<TEXT ID="6112100" Text="Bien-cuit"/>
+<TEXT ID="6112200" Text="Mi-cuit"/>
+<TEXT ID="6112300" Text="Sablé chocolat"/>
+<TEXT ID="6113100" Text="Truffe au lait"/>
+<TEXT ID="6113200" Text="Truffe blanche"/>
+<TEXT ID="6113300" Text="Truffe à la fraise"/>
+<TEXT ID="6114100" Text="Pudding à la fraise"/>
+<TEXT ID="6114200" Text="Pudding à la myrtille"/>
+<TEXT ID="6114300" Text="Pudding au kiwi"/>
+<TEXT ID="6115100" Text="Choco-pépite"/>
+<TEXT ID="6115200" Text="Choco-festif"/>
+<TEXT ID="6115300" Text="Choco-noisette"/>
+<TEXT ID="6116100" Text="Colonel farine"/>
+<TEXT ID="6116200" Text="Colonel sucre"/>
+<TEXT ID="6116300" Text="Colonel sorbet"/>
+<TEXT ID="6117100" Text="Jambon-crudités"/>
+<TEXT ID="6117200" Text="Thon-mayo"/>
+<TEXT ID="6117300" Text="Tomate-mozza"/>
+<TEXT ID="6118100" Text="Woodie la Guimauve"/>
+<TEXT ID="6118200" Text="Wonk-A"/>
+<TEXT ID="6119100" Text="Aquafugu"/>
+<TEXT ID="6119200" Text="Pyrofugu"/>
+<TEXT ID="6119300" Text="Fugufou"/>
+<TEXT ID="6121100" Text="Hippoquois"/>
+<TEXT ID="6121200" Text="Hippopunk"/>
+<TEXT ID="6121300" Text="Hippo-Elvis"/>
+<TEXT ID="6122100" Text="Golem de jade"/>
+<TEXT ID="6122200" Text="Golem de saphir"/>
+<TEXT ID="6122300" Text="Golem d&#39;uranium"/>
+<TEXT ID="6123100" Text="Crocorexique"/>
+<TEXT ID="6123200" Text="Crocosaurus"/>
+<TEXT ID="6123300" Text="Crocobulot"/>
+<TEXT ID="6124100" Text="Endairon"/>
+<TEXT ID="6125101" Text="Esprit démoniaque Arka"/>
+<TEXT ID="6125201" Text="Esprit démoniaque  Pytanuth"/>
+<TEXT ID="6125301" Text="Esprit démoniaque Karkarous"/>
+<TEXT ID="6125401" Text="Esprit démoniaque d&#39;Homme des bois Paul Burnan"/>
+<TEXT ID="6125501" Text="Esprit démoniaque Elluman"/>
+<TEXT ID="6125601" Text="Esprit démoniaque Vella"/>
+<TEXT ID="6125701" Text="Esprit démoniaque du Chef Rocker"/>
+<TEXT ID="6125801" Text="Esprit démoniaque du Seigneur de la Nuit"/>
+<TEXT ID="6125901" Text="Esprit démoniaque Artis"/>
+<TEXT ID="6126100" Text="Pâris"/>
+<TEXT ID="6127100" Text="Taco "/>
+<TEXT ID="6127200" Text="Taco à la crème"/>
+<TEXT ID="6127300" Text="Taco encreur"/>
+<TEXT ID="6128100" Text="Onigiri"/>
+<TEXT ID="6128200" Text="Onigiri rageux"/>
+<TEXT ID="6128300" Text="Onigiri épicé"/>
+<TEXT ID="6129100" Text="Flan cerise"/>
+<TEXT ID="6129200" Text="Flan crème"/>
+<TEXT ID="6129300" Text="Flan choco"/>
+<TEXT ID="6130100" Text="Tempura  sauvage"/>
+<TEXT ID="6130200" Text="Nouille sauvage"/>
+<TEXT ID="6130300" Text="Tofu sauvage"/>
+<TEXT ID="6131100" Text="sushi crevette"/>
+<TEXT ID="6131200" Text="sushi poulpe"/>
+<TEXT ID="6131300" Text="sushi maquereau"/>
+<TEXT ID="6131400" Text="sushi esturgeon"/>
+<TEXT ID="6131500" Text="sushi rogue"/>
+<TEXT ID="6132100" Text="Odoro, roi des sushis"/>
+<TEXT ID="6132200" Text="Maître sushi"/>
+<TEXT ID="6465100" Text="Hyène gardienne de la compagnie"/>
+<TEXT ID="6465200" Text="Hyène aérienne de la compagnie"/>
+<TEXT ID="6465300" Text="Hyène ingénieur de la compagnie"/>
+<TEXT ID="6466100" Text="Hyène mineuse du bataillon"/>
+<TEXT ID="6466200" Text="Hyène canonnier du bataillon"/>
+<TEXT ID="6466300" Text="Hyène artilleur du bataillon"/>
+<TEXT ID="6501100" Text="Hyène gardienne de la compagnie"/>
+<TEXT ID="6501200" Text="Hyène gardienne de la compagnie"/>
+<TEXT ID="6501300" Text="Hyène aérienne de la compagnie"/>
+<TEXT ID="6501400" Text="Hyène ingénieur de la compagnie"/>
+<TEXT ID="6501500" Text="Hyène mineuse du bataillon"/>
+<TEXT ID="6501600" Text="Hyène canonnier du bataillon"/>
+<TEXT ID="6600100" Text="Hyène artilleur du bataillon"/>
+<TEXT ID="6600200" Text="Protoscous"/>
+<TEXT ID="6600300" Text="Atlas"/>
+<TEXT ID="6600400" Text="Proxima"/>
+<TEXT ID="6600500" Text="Aesir"/>
+<TEXT ID="6600600" Text="Barnir"/>
+<TEXT ID="6600700" Text="Fenir"/>
+<TEXT ID="6600800" Text="Andvary"/>
+<TEXT ID="6600900" Text="Aswan"/>
+<TEXT ID="6601100" Text="Mosash"/>
+<TEXT ID="6601200" Text="Darkburst"/>
+<TEXT ID="6601300" Text="Soma"/>
+<TEXT ID="6601400" Text="Hitchi"/>
+<TEXT ID="6601500" Text="Molech"/>
+<TEXT ID="6601600" Text="Arkud"/>
+<TEXT ID="6601700" Text="Mulosca"/>
+<TEXT ID="6601800" Text="Apep"/>
+<TEXT ID="6601900" Text="Usar"/>
+<TEXT ID="6602100" Text="Arkmur"/>
+<TEXT ID="6602200" Text="Blakilon"/>
+<TEXT ID="6603100" Text="Bûcheron"/>
+<TEXT ID="6603200" Text="Lapin géant"/>
+<TEXT ID="6603300" Text="Dracula"/>
+<TEXT ID="6603400" Text="Loup-garou"/>
+<TEXT ID="6603500" Text="Serveur du Café Citrouille"/>
+<TEXT ID="6603600" Text="Sapin de Noël"/>
+<TEXT ID="6603700" Text="Bonhomme de neige de ménage"/>
+<TEXT ID="6800100" Text="Evénement CHN"/>
+<TEXT ID="6902100" Text="Soldat de Carte 1"/>
+<TEXT ID="6902200" Text="Soldat de Carte 2"/>
+<TEXT ID="6902300" Text="Soldat de Carte 3"/>
+<TEXT ID="6902400" Text="Soldat de Carte 4"/>
+<TEXT ID="6902500" Text="Soldat de Carte 5"/>
+<TEXT ID="6902600" Text="Soldat de Carte 6"/>
+<TEXT ID="6902700" Text="Chat du Chesire"/>
+<TEXT ID="6902800" Text="Jumeaux"/>
+<TEXT ID="6902900" Text="Gros Coco"/>
+<TEXT ID="6903000" Text="Chenille Bleue"/>
+<TEXT ID="6903100" Text="Lézard"/>
+<TEXT ID="6903200" Text="Petite Souris"/>
+<TEXT ID="6903300" Text="Chapelier"/>
+<TEXT ID="6903400" Text="Soldat de Carte J"/>
+<TEXT ID="6903500" Text="Soldat de Carte Q"/>
+<TEXT ID="6903600" Text="Soldat de Carte K"/>
+<TEXT ID="6903700" Text="Reine de Coeur"/>
+<TEXT ID="6999100" Text="Super Woodie"/>
+<TEXT ID="7234100" Text="Luciole"/>
+<TEXT ID="7234200" Text="Luciole patrouilleuse"/>
+<TEXT ID="7234300" Text="Luciole prêtresse"/>
+<TEXT ID="7234400" Text="Travailleur pied-palmé"/>
+<TEXT ID="7234500" Text="Chaman pied-palmé"/>
+<TEXT ID="7234600" Text="Combattant pied-palmé"/>
+<TEXT ID="7234700" Text="Toa Lantea"/>
+<TEXT ID="7234800" Text="Toa Mello"/>
+<TEXT ID="7234900" Text="Toa Enril"/>
+<TEXT ID="7235000" Text="Mimir"/>
+<TEXT ID="7235100" Text="Soldat dard-poisonneux Mimir"/>
+<TEXT ID="7235200" Text="Chaman Mimir"/>
+<TEXT ID="7235300" Text="Golem Apatite"/>
+<TEXT ID="7235400" Text="Karkarous"/>
+<TEXT ID="7235500" Text="Homme des bois Burnan"/>
+<TEXT ID="7235600" Text="Metagon"/>
+<TEXT ID="7235700" Text="Mèche"/>
+<TEXT ID="7235800" Text="Lagon Junior"/>
+<TEXT ID="7235900" Text="Arbre pollué"/>
+<TEXT ID="7236000" Text="Aloum de brume"/>
+<TEXT ID="7236100" Text="Gremlin"/>
+<TEXT ID="7236200" Text="Esprit de racine"/>
+<TEXT ID="7236300" Text="Lagon"/>
+<TEXT ID="7236400" Text="Esprit pollué"/>
+<TEXT ID="7236500" Text="Rounpho"/>
+<TEXT ID="7236600" Text="Ara"/>
+<TEXT ID="7236700" Text="Veiyue "/>
+<TEXT ID="7236800" Text="Cretar"/>
+<TEXT ID="7236900" Text="Totem"/>
+<TEXT ID="7237000" Text="Relayphe"/>
+<TEXT ID="7237100" Text="Arka"/>
+<TEXT ID="7237200" Text="Burlune"/>
+<TEXT ID="7237300" Text="Bahamut"/>
+<TEXT ID="7237400" Text="Arbre Empoisonné"/>
+<TEXT ID="7237500" Text="Arbre Spirituel Noueux"/>
+<TEXT ID="7237600" Text="Arbre Pétrifié"/>
+<TEXT ID="7237700" Text="Revious"/>
+<TEXT ID="7237800" Text="Aquafugu"/>
+<TEXT ID="7237900" Text="Pyrofugu"/>
+<TEXT ID="7238000" Text="Fugufou"/>
+<TEXT ID="7238100" Text="Hippoquois"/>
+<TEXT ID="7238200" Text="Hippopunk"/>
+<TEXT ID="7238300" Text="Hippo-Elvis"/>
+<TEXT ID="7238400" Text="Golem de jade"/>
+<TEXT ID="7238500" Text="Golem de saphir"/>
+<TEXT ID="7238600" Text="Golem d&#39;uranium"/>
+<TEXT ID="7238700" Text="Crocorexique"/>
+<TEXT ID="7238800" Text="Crocosaurus"/>
+<TEXT ID="7238900" Text="Crocobulot"/>
+<TEXT ID="7239000" Text="Zard"/>
+<TEXT ID="7239100" Text="Guerrier Zard"/>
+<TEXT ID="7239200" Text="Déchireur"/>
+<TEXT ID="7239300" Text="Ver givré"/>
+<TEXT ID="7239400" Text="Ver refroidi"/>
+<TEXT ID="7239500" Text="Ver de glace"/>
+<TEXT ID="7239600" Text="Chiot Dronga frais"/>
+<TEXT ID="7239700" Text="Chiot Dronga froid"/>
+<TEXT ID="7239800" Text="Chiot Dronga gelé"/>
+<TEXT ID="7239900" Text="Chiot Dronga froid"/>
+<TEXT ID="7240000" Text="Bombardier Gobelin de glace"/>
+<TEXT ID="7240100" Text="Chaman Gobelin de glace"/>
+<TEXT ID="7240200" Text="Yéti"/>
+<TEXT ID="7240300" Text="Yéti Tornac"/>
+<TEXT ID="7240400" Text="Yéti Angacoc"/>
+<TEXT ID="7240500" Text="Garde Gnoll poilu"/>
+<TEXT ID="7240600" Text="Lanceur Gnoll poilu"/>
+<TEXT ID="7240700" Text="Chaman Gnoll poilu"/>
+<TEXT ID="7240800" Text="Selic Cryogène"/>
+<TEXT ID="7240900" Text="Selic"/>
+<TEXT ID="7241000" Text="Selic sur roues"/>
+<TEXT ID="7241100" Text="Citrus"/>
+<TEXT ID="7241200" Text="Citrus Miam-Miam"/>
+<TEXT ID="7241300" Text="Citrus LongLong"/>
+<TEXT ID="7241400" Text="Golem Givré"/>
+<TEXT ID="7241500" Text="Golem Refroidi"/>
+<TEXT ID="7241600" Text="Golem de Glace"/>
+<TEXT ID="7241700" Text="Garde Ame-givré"/>
+<TEXT ID="7241800" Text="Patrouilleur Ame-givré"/>
+<TEXT ID="7241900" Text="Guerrier Ame-givré"/>
+<TEXT ID="7242000" Text="Golem Spinelle"/>
+<TEXT ID="7242100" Text="Andvary"/>
+<TEXT ID="7242200" Text="Mante des Neiges"/>
+<TEXT ID="7242300" Text="Quakee de Glace"/>
+<TEXT ID="7242400" Text="Guerrier Lamia"/>
+<TEXT ID="7242500" Text="Endairon"/>
+<TEXT ID="7242600" Text="Princesse des Neiges"/>
+<TEXT ID="7242700" Text="Abraxas"/>
+<TEXT ID="7242800" Text="Avice"/>
+<TEXT ID="7242900" Text="Shaula Lexas"/>
+<TEXT ID="7243000" Text="Quakee"/>
+<TEXT ID="7243100" Text="Quakee des neiges"/>
+<TEXT ID="7243200" Text="Fenir"/>
+<TEXT ID="7243300" Text="Fenir des Neiges"/>
+<TEXT ID="7243400" Text="Fenir Stalactite"/>
+<TEXT ID="7243500" Text="Arbre pollué"/>
+<TEXT ID="7250000" Text="Chiot Dronga rouge"/>
+<TEXT ID="7250100" Text="Axel"/>
+<TEXT ID="7250200" Text="Ogre chaman"/>
+<TEXT ID="7250300" Text="Chevalier spectral rouge"/>
+<TEXT ID="7250400" Text="Chevalier spectral draconique"/>
+<TEXT ID="7250500" Text="Chevalier spectral sanguinaire"/>
+<TEXT ID="7250600" Text="Arkmur"/>
+<TEXT ID="7250700" Text="Usar"/>
+<TEXT ID="7250800" Text="Tête de citrouille géante"/>
+<TEXT ID="7250900" Text="Mosash"/>
+<TEXT ID="7251000" Text="Aswan"/>
+<TEXT ID="7251100" Text="Arkud"/>
+<TEXT ID="7251200" Text="Dudu"/>
+<TEXT ID="7251300" Text="Dudu aux poings"/>
+<TEXT ID="7251400" Text="Mage Dudu"/>
+<TEXT ID="7251500" Text="Auloum"/>
+<TEXT ID="7251600" Text="Toa Enril"/>
+<TEXT ID="7251700" Text="Hitchi"/>
+<TEXT ID="7251800" Text="BoumBoum de lave"/>
+<TEXT ID="7251900" Text="Patrouilleur ailes-crochues"/>
+<TEXT ID="7252000" Text="WingWing de lave"/>
+<TEXT ID="7252100" Text="Phydama"/>
+<TEXT ID="7252200" Text="Morgon"/>
+<TEXT ID="7252300" Text="Kerovan"/>
+<TEXT ID="7252400" Text="Golem de lave"/>
+<TEXT ID="7252500" Text="Magenca"/>
+<TEXT ID="7252600" Text="Garoum"/>
+<TEXT ID="7252700" Text="Mage de l&#39;horreur"/>
+<TEXT ID="7252800" Text="Mage sombre"/>
+<TEXT ID="7252900" Text="Prêtre de Van Cliff"/>
+<TEXT ID="7253000" Text="Algon numen"/>
+<TEXT ID="7253100" Text="Patrouilleur Algon"/>
+<TEXT ID="7253200" Text="Algon"/>
+<TEXT ID="7253300" Text="Chef Totu"/>
+<TEXT ID="7253400" Text="Egorgeur cadavérique"/>
+<TEXT ID="7253500" Text="Dragon gardien"/>
+<TEXT ID="7253600" Text="Sanka Hache-géante"/>
+<TEXT ID="7253700" Text="Kunka Hache-géante"/>
+<TEXT ID="7253800" Text="Artis"/>
+<TEXT ID="7253900" Text="Chef Rocker"/>
+<TEXT ID="7254000" Text="Roi Dudu"/>
+<TEXT ID="7254100" Text="Dudu âgé"/>
+<TEXT ID="7254200" Text="Kimart"/>
+<TEXT ID="7254300" Text="Lavalon"/>
+<TEXT ID="7254400" Text="Lavalon"/>
+<TEXT ID="7254500" Text="Lavalon"/>
+<TEXT ID="7254600" Text="Sanka Hache-géante"/>
+<TEXT ID="7254700" Text="Hache-géante"/>
+<TEXT ID="7254800" Text="Coomba Noir"/>
+<TEXT ID="7254900" Text="Coomba Rouge"/>
+<TEXT ID="7255000" Text="Coomba Chaman"/>
+<TEXT ID="7255100" Text="Ramie Bleue"/>
+<TEXT ID="7255200" Text="Ramie Morne"/>
+<TEXT ID="7255300" Text="Capricorne"/>
+<TEXT ID="7255400" Text="Syadron"/>
+<TEXT ID="7255500" Text="Skema"/>
+<TEXT ID="7255600" Text="Plick"/>
+<TEXT ID="7255700" Text="Aérien"/>
+<TEXT ID="7255800" Text="Esprit Vengeur"/>
+<TEXT ID="7255900" Text="Arachnide Ailée"/>
+<TEXT ID="7256000" Text="Gargouille"/>
+<TEXT ID="7256100" Text="Gargouille récifale"/>
+<TEXT ID="7256200" Text="Gargouille vénéneuse"/>
+<TEXT ID="7256300" Text="Ganymette"/>
+<TEXT ID="7256400" Text="Ganymette épineuse"/>
+<TEXT ID="7256500" Text="Jeune Ganymette"/>
+<TEXT ID="7256600" Text="Zombie décomposé"/>
+<TEXT ID="7256700" Text="Zombie maudit"/>
+<TEXT ID="7256800" Text="Zombie agonisant"/>
+<TEXT ID="7256900" Text="Mage de l&#39;horreur"/>
+<TEXT ID="7257000" Text="Prêtre de Van Cliff"/>
+<TEXT ID="7257100" Text="Mage sombre"/>
+<TEXT ID="7257200" Text="Gargouille lunatique"/>
+<TEXT ID="7257300" Text="Gargouille récifale lunatique"/>
+<TEXT ID="7257400" Text="Gargouille vénéneuse lunatique"/>
+<TEXT ID="7257500" Text="Sharpy"/>
+<TEXT ID="7257600" Text="Sharpy sanglant"/>
+<TEXT ID="7257700" Text="Sharpy d&#39;os"/>
+<TEXT ID="7257800" Text="Caracha Sanglant"/>
+<TEXT ID="7257900" Text="Caracha Vrillé"/>
+<TEXT ID="7258000" Text="Caracha Antique"/>
+<TEXT ID="7258100" Text="Totu Bleu"/>
+<TEXT ID="7258200" Text="Totu"/>
+<TEXT ID="7258300" Text="Chef Totu"/>
+<TEXT ID="7258400" Text="Muchi Jaune"/>
+<TEXT ID="7258500" Text="Patrouilleur Muchi"/>
+<TEXT ID="7258600" Text="Sorcier Muchi"/>
+<TEXT ID="7258700" Text="Fenryl Aérien"/>
+<TEXT ID="7258800" Text="Esprit Rancunier"/>
+<TEXT ID="7258900" Text="Arachnide Ailée"/>
+<TEXT ID="7259000" Text="Prokell"/>
+<TEXT ID="7259100" Text="Chef Muchi"/>
+<TEXT ID="7259200" Text="Akanai"/>
+<TEXT ID="7259300" Text="Quasimodo"/>
+<TEXT ID="7259400" Text="Dragon d&#39;os Nv.68"/>
+<TEXT ID="7259500" Text="Zaro"/>
+<TEXT ID="7602502" Text="Votre vitesse de mouvement est considérablement réduite à cause de Tempête glaciale."/>
+<TEXT ID="7602503" Text="Mon corps gèle peu à peu..."/>
+<TEXT ID="7602506" Text="Mon corps gèle peu à peu..."/>
+<TEXT ID="7602507" Text="Mes os sont gelés à cause du souffle glacial. 55 de dégâts sont infligés toutes les 1.5 sec. pendant 3 secondes."/>
+<TEXT ID="7602508" Text="Mon corps gèle peu à peu..."/>
+<TEXT ID="7602509" Text=" Mes os sont gelés à cause du souffle glacial. 77 de dégâts sont infligés toutes les 1.5 sec. pendant 7 secondes."/>
+<TEXT ID="7900101" Text="Pachuree"/>
+<TEXT ID="7900102" Text="Cassandre"/>
+<TEXT ID="7900103" Text="Alfredo"/>
+<TEXT ID="7900104" Text="Sébastien"/>
+<TEXT ID="7900105" Text="Ukutoo"/>
+<TEXT ID="7900106" Text="Vargo"/>
+<TEXT ID="7900107" Text="Grotès"/>
+<TEXT ID="7900108" Text="La Coon"/>
+<TEXT ID="7900109" Text="B-Chop"/>
+<TEXT ID="7900110" Text="Quasimodo"/>
+<TEXT ID="7900111" Text="Nekata"/>
+<TEXT ID="7900112" Text="Necota"/>
+<TEXT ID="7900113" Text="Cézanne"/>
+<TEXT ID="7900114" Text="Maître sombre"/>
+<TEXT ID="7900115" Text="Bazet"/>
+<TEXT ID="7900116" Text="Chevalier spirituel dépité"/>
+<TEXT ID="7900117" Text="Briseur de coeur"/>
+<TEXT ID="7900118" Text="Boocher"/>
+<TEXT ID="7900119" Text="Varès"/>
+<TEXT ID="7900120" Text="Comte Van Cliff"/>
+<TEXT ID="7900121" Text="Prêtre sombre"/>
+<TEXT ID="7900122" Text="Fantôme de Sébastien"/>
+<TEXT ID="7900123" Text="Preeson"/>
+<TEXT ID="7900124" Text="Scolfield"/>
+<TEXT ID="7900125" Text="Francky"/>
+<TEXT ID="7900126" Text="Ecrabouilleur"/>
+<TEXT ID="7900127" Text="Fantôme de Cassana"/>
+<TEXT ID="7900128" Text="Poignardeur"/>
+<TEXT ID="7900129" Text="Shamari"/>
+<TEXT ID="7900130" Text="Rahnoff le Loup-garou"/>
+<TEXT ID="7900131" Text="Epée maudite Solek"/>
+<TEXT ID="7900132" Text="Khumari"/>
+<TEXT ID="7900133" Text="Sharpion"/>
+<TEXT ID="7900134" Text="Garoum"/>
+<TEXT ID="7900135" Text="Bazet"/>
+<TEXT ID="7900136" Text="Goldora"/>
+<TEXT ID="7900137" Text="Précipitation du coeur"/>
+<TEXT ID="7900138" Text="Kabomb"/>
+<TEXT ID="7900139" Text="Arcris"/>
+<TEXT ID="7900140" Text="Turoomba"/>
+<TEXT ID="7900141" Text="Menta de fer"/>
+<TEXT ID="7900142" Text="Yubelk"/>
+<TEXT ID="7900143" Text="Herman"/>
+<TEXT ID="7900144" Text="Kushas"/>
+<TEXT ID="7900145" Text="Kerubeam"/>
+<TEXT ID="7900146" Text="Ravageur"/>
+<TEXT ID="7900147" Text="Champiroi"/>
+<TEXT ID="7900148" Text="Hidon"/>
+<TEXT ID="7900149" Text="Alquione"/>
+<TEXT ID="7900150" Text="Keiron"/>
+<TEXT ID="7900151" Text="Bonoko"/>
+<TEXT ID="7900152" Text="Proxima"/>
+<TEXT ID="7900153" Text="Boutentrain"/>
+<TEXT ID="7900154" Text="D-Vath"/>
+<TEXT ID="7900155" Text="Checkrops"/>
+<TEXT ID="7900156" Text="Mockelon"/>
+<TEXT ID="7900157" Text="Carcus"/>
+<TEXT ID="7900158" Text="Tiermart"/>
+<TEXT ID="7900159" Text="Argos"/>
+<TEXT ID="7900160" Text="Moalon"/>
+<TEXT ID="7900161" Text="Pathagon"/>
+<TEXT ID="7900162" Text="Kemeron"/>
+<TEXT ID="7900163" Text="Za Hark"/>
+<TEXT ID="7900164" Text="Kakishu"/>
+<TEXT ID="7900165" Text="Maître de la mort"/>
+<TEXT ID="7900166" Text="Magenca"/>
+<TEXT ID="7900167" Text="KaRoomba"/>
+<TEXT ID="7900168" Text="Kerovan"/>
+<TEXT ID="7900169" Text="Phydama"/>
+<TEXT ID="7900170" Text="Kerubeam"/>
+<TEXT ID="7900171" Text="Roi Lexas"/>
+<TEXT ID="7900172" Text="Goldora"/>
+<TEXT ID="7900173" Text="Caobomb"/>
+<TEXT ID="7900174" Text="Gaiden"/>
+<TEXT ID="7900175" Text="Arkmur"/>
+<TEXT ID="7900176" Text="Patis"/>
+<TEXT ID="7900177" Text="Virbe"/>
+<TEXT ID="7900178" Text="Murdal"/>
+<TEXT ID="7900179" Text="Kimart"/>
+<TEXT ID="7900180" Text="Koontarès"/>
+<TEXT ID="7900181" Text="Roi Menta"/>
+<TEXT ID="7900182" Text="Vantarès"/>
+<TEXT ID="7900183" Text="Storas"/>
+<TEXT ID="7900184" Text="Antarès"/>
+<TEXT ID="7900185" Text="Comte Van Cliff"/>
+<TEXT ID="7900186" Text="Dragon d&#39;os"/>
+<TEXT ID="7900201" Text="Zazell"/>
+<TEXT ID="7900202" Text="Prox doré"/>
+<TEXT ID="7900203" Text="Caobomb"/>
+<TEXT ID="7900204" Text="Kakishu"/>
+<TEXT ID="7900205" Text="Kerubeam"/>
+<TEXT ID="7900206" Text="Kerovan"/>
+<TEXT ID="15870103" Text="Pluie de cendres déboussolera les ennemis et ralentira leurs mouvements de 50 %."/>
+<TEXT ID="19010100" Text="Oui... Oui... Qui sera ma prochaine victime..."/>
+<TEXT ID="19010130" Text="Uhuhuhu"/>
+<TEXT ID="19010150" Text="Qu... Quel est ce pouvoir inconnu?"/>
+<TEXT ID="19010200" Text="Ouh... Ca fait mille ans à présent..."/>
+<TEXT ID="19010310" Text="Cet endroit est tellement isolé..."/>
+<TEXT ID="19010320" Text="On s&#39;ennuie tellement ici..."/>
+<TEXT ID="19010330" Text="Allez, venez me divertir !"/>
+<TEXT ID="19010400" Text="*Bâillement*"/>
+<TEXT ID="19010430" Text="Ahhh... Je suis tellement déprimé..."/>
+<TEXT ID="19010600" Text="Waouh, je l&#39;ai échappé belle. Bref, où suis-je ?"/>
+<TEXT ID="19020100" Text="Rha ! Je vais tous vous tuer !"/>
+<TEXT ID="19020300" Text="A partir de maintenant, c&#39;est moi le roi !"/>
+<TEXT ID="19020310" Text="Cracrapaud !! Cracrapaud !!"/>
+<TEXT ID="19020320" Text="Crapaud , Crapaud !"/>
+<TEXT ID="19020400" Text="Je suis si puissant !"/>
+<TEXT ID="19020410" Text="Je vais tout casser !!"/>
+<TEXT ID="19020420" Text="Ahhh, j&#39;ai mal à la tête..."/>
+<TEXT ID="19020440" Text="Chuuuuut..."/>
+<TEXT ID="19020500" Text="Je ne suis pas à tes ordres !"/>
+<TEXT ID="19020520" Text="Tuer ! Je vais tous vous tuer !"/>
+<TEXT ID="19030100" Text="Tout d&#39;abord, je dois mener les Mimirs..."/>
+<TEXT ID="19030130" Text="Qui... suis-je..."/>
+<TEXT ID="19030200" Text="Quel monde magnifique !"/>
+<TEXT ID="19030230" Text="Comment aller à Drakos ?"/>
+<TEXT ID="19030300" Text="La Communauté du Dragon ? Ces sales..."/>
+<TEXT ID="19030330" Text="Je suis Mosash ! Mosash qui fait sa ronde."/>
+<TEXT ID="19030360" Text="Ah, de la chair fraîche, ça fait toujours du bien."/>
+<TEXT ID="29010100" Text="Je t&#39;ai trouvé ! Plus bouger !"/>
+<TEXT ID="29010130" Text="Uhuh ! J&#39;ai trouvé une proie."/>
+<TEXT ID="29010150" Text="Je suis le Starry géant ! Je mène les pirates Joyces !"/>
+<TEXT ID="29010200" Text="Hahahaha ! Mon rire va résonner dans vos oreilles !"/>
+<TEXT ID="29010310" Text="Tu dois m&#39;affronter !"/>
+<TEXT ID="29010320" Text="Laisse-moi !"/>
+<TEXT ID="29010330" Text="Je vais réduire !"/>
+<TEXT ID="29010400" Text="Prends ça !"/>
+<TEXT ID="29010430" Text="Je n&#39;ai pas dit mon dernier mot."/>
+<TEXT ID="29010600" Text="La Communauté du Dragon ? Vous êtes arrivés jusqu&#39;ici ?"/>
+<TEXT ID="29020100" Text="Je t&#39;au vu..."/>
+<TEXT ID="29020300" Text="Qui es-tu ? Ici c&#39;est mon territoire !"/>
+<TEXT ID="29020310" Text="Cra... cra... paud !!"/>
+<TEXT ID="29020320" Text="Cra... paud !!"/>
+<TEXT ID="29020400" Text="Je vais essayer mon nouveau pouvoir sur toi !"/>
+<TEXT ID="29020410" Text="Rooaar ! Ce cri sort de ma bouche ! Prépare-toi !"/>
+<TEXT ID="29020420" Text="Qu&#39;est-ce que je voulais faire ?"/>
+<TEXT ID="29020440" Text="Un grincement ?"/>
+<TEXT ID="29020500" Text="Je peux te tuer d&#39;un seul coup insignifiante créature !"/>
+<TEXT ID="29020520" Text="Oh ! Toi là ! Reste où tu es !"/>
+<TEXT ID="29030100" Text="Oho ! Tu fais partie de la Communauté ? "/>
+<TEXT ID="29030130" Text="Ouaui ! Je suis un super guerrier ! Viens te battre !"/>
+<TEXT ID="29030200" Text="Tu n&#39;as rien à faire ici, sur ces belles terres."/>
+<TEXT ID="29030230" Text="Hé, toi là ! Comment va-t-on à Drakos ?"/>
+<TEXT ID="29030300" Text="Comment oses-tu ? Pour qui te prends-tu ?!"/>
+<TEXT ID="29030330" Text="Je suis Mosash et j&#39;ai trouvé une proie !"/>
+<TEXT ID="29030360" Text="J&#39;ai trouvé de la chair fraîche..."/>
+<TEXT ID="30006011" Text="Le puissance souffle du dragon d&#39;os dominera votre âme, vous ne pourrez alors plus utiliser la plupart de vos compétences de base durant une certaine période."/>
+<TEXT ID="35230131" Text="Déplacement impossible pendant 2 secondes"/>
+<TEXT ID="39010100" Text="Moi ? Je suis un crabe ermite avec les cornes en plus ! Haha !"/>
+<TEXT ID="39010130" Text="Uhuhuhh.... Doucement... Cours..."/>
+<TEXT ID="39010150" Text="Combat !"/>
+<TEXT ID="39010200" Text="Je suis là..."/>
+<TEXT ID="39010310" Text="Allez venez jouer avec moi..."/>
+<TEXT ID="39010320" Text="Je suis affâmé... je vais te... manger !!"/>
+<TEXT ID="39010330" Text="Je suis très en colère !!!"/>
+<TEXT ID="39010400" Text="Ami trouvé ! Enfin ! Content ! Toi et moi combattre !"/>
+<TEXT ID="39010430" Text="Toi ! Toi pas partir ! Toi jouer avec moi !"/>
+<TEXT ID="39010600" Text="Je veux me venger au nom de tous les pirates Joyces !"/>
+<TEXT ID="39020100" Text="Je vais tuer... tuer... tuer..."/>
+<TEXT ID="39020300" Text="Cours ou tu mourras !"/>
+<TEXT ID="39020310" Text="Cracrapaud !! Cracrapaud !!"/>
+<TEXT ID="39020320" Text="Crapaud ! Crapaud !"/>
+<TEXT ID="39020400" Text="Je suis surpuissant !"/>
+<TEXT ID="39020410" Text="Je vais t&#39;anéantir !"/>
+<TEXT ID="39020420" Text="Il ne me reste plus qu&#39;une chose à faire ! Te détruire !"/>
+<TEXT ID="39020440" Text="Sssss... Kkkkk..."/>
+<TEXT ID="39020500" Text="Alors comme ça tu penses pouvoir me battre ?"/>
+<TEXT ID="39020520" Text="Je vais tout détruire ! Tout !"/>
+<TEXT ID="39030100" Text="Très bien. Alors battons-nous !"/>
+<TEXT ID="39030130" Text="Tu es la première personne à me défier !"/>
+<TEXT ID="39030200" Text="C&#39;est moi, Fenir, beauté absolue !"/>
+<TEXT ID="39030230" Text="Ah c&#39;est toi ! Tu fais partie de la Communauté du Dragon ! Je vais t&#39;offrir en sacrifice !"/>
+<TEXT ID="39030300" Text="Pars ! Ce lieu est destiné au seigneur Elga !"/>
+<TEXT ID="39030330" Text="Je suis Mosash, je vais tuer !"/>
+<TEXT ID="39030360" Text="Communauté... livre-moi ta chair fraîche !"/>
+<TEXT ID="49010100" Text="Sois une proie obéissante !"/>
+<TEXT ID="49010130" Text="Attaque avec force !"/>
+<TEXT ID="49010150" Text="Tiens, prends-ça !"/>
+<TEXT ID="49010200" Text="Repars... Repars..."/>
+<TEXT ID="49010310" Text="Meurs !!"/>
+<TEXT ID="49010320" Text="Ca va faire mal cette fois !"/>
+<TEXT ID="49010330" Text="Tu ne fais pas le poids !"/>
+<TEXT ID="49010400" Text="Enfin un ennemi à ma hauteur ! Combattons !"/>
+<TEXT ID="49010430" Text="Faim ! J&#39;ai faim !!"/>
+<TEXT ID="49010600" Text="Et oui ! Je suis un pirate aussi puissant sur terre qu&#39;en pleine mer !"/>
+<TEXT ID="49020100" Text="Je vais... te tuer !"/>
+<TEXT ID="49020300" Text="Je vais me faire une sacoche avec ta peau !"/>
+<TEXT ID="49020310" Text="Cracrapaud ! Cracrapaud ! Cracrapaud !"/>
+<TEXT ID="49020320" Text="Crapaud ! Crapaud ! Crapaud !"/>
+<TEXT ID="49020400" Text="Hahahahahaha !"/>
+<TEXT ID="49020410" Text="SwooshSwooshSwooshSwoosh!"/>
+<TEXT ID="49020420" Text="Tu ne m&#39;arrives pas à la cheville !"/>
+<TEXT ID="49020440" Text="Sssss Honkhonk"/>
+<TEXT ID="49020500" Text="Tu ne m&#39;arrives pas à la cheville !"/>
+<TEXT ID="49020520" Text="Meurs ! Meurs ! Meurs !"/>
+<TEXT ID="49030100" Text="Tu penses pouvoir me battre ?"/>
+<TEXT ID="49030130" Text="Par le pouvoir des super guerriers !"/>
+<TEXT ID="49030200" Text="Meurs avec élégance !"/>
+<TEXT ID="49030230" Text="Mon seigneur Elga sera ravi de voir ton cadavre !"/>
+<TEXT ID="49030300" Text="Pars, cet endroit n&#39;est pas fait pour toi !"/>
+<TEXT ID="49030330" Text="C&#39;est Mosash ! Je me bats avec !"/>
+<TEXT ID="49030360" Text="Waouh, de la chair fraîche !"/>
+<TEXT ID="59010100" Text="Aïe ! Ca fait mal !"/>
+<TEXT ID="59010130" Text="Aïe, il a fait mal celui-là !"/>
+<TEXT ID="59010150" Text="Aïeue ! Ca fait mal !!"/>
+<TEXT ID="59010200" Text="Grrrrrrrr..."/>
+<TEXT ID="59010310" Text="Ca fait mal !!"/>
+<TEXT ID="59010320" Text="Douleur ? Non ! Touché ? Non !"/>
+<TEXT ID="59010330" Text="C&#39;est pas juste !"/>
+<TEXT ID="59010400" Text="Arrête ! Tu as gagné !"/>
+<TEXT ID="59010430" Text="Bouhouh !"/>
+<TEXT ID="59010600" Text="Arrête de me frapper , j&#39;en ai assez !"/>
+<TEXT ID="59020100" Text="Je vais te tuer..."/>
+<TEXT ID="59020300" Text="Quoi ? Tu oses t&#39;en prendre à un roi ? Petit insolent !"/>
+<TEXT ID="59020310" Text="Cracrapaud ! Cracrapaud ! Cracrapaud !"/>
+<TEXT ID="59020320" Text="Crapaud ! Crapaud !"/>
+<TEXT ID="59020400" Text="Mon pouvoir... il disparaît..."/>
+<TEXT ID="59020410" Text="Arghhh... Quelqu&#39;un aider Blakilon !"/>
+<TEXT ID="59020420" Text="Ahh... Ma tête. Je vais te réduire en bouillie."/>
+<TEXT ID="59020440" Text="Chhh ! Chhhh !"/>
+<TEXT ID="59020500" Text="Aïe ! Ca fait mal, mais je ne le dirai pas !"/>
+<TEXT ID="59020520" Text="Aïe "/>
+<TEXT ID="59030100" Text="Kuhuk"/>
+<TEXT ID="59030130" Text="Arf... Pardon... Doucement d&#39;accord ?"/>
+<TEXT ID="59030200" Text="Grrr... Tu as ruiné ma sublime tenue..."/>
+<TEXT ID="59030230" Text="Moi pas aimer on me fait mal ! Stop !"/>
+<TEXT ID="59030300" Text="Elga mon seigneur, aide-nous !"/>
+<TEXT ID="59030330" Text="Je suis Mosash ! Je suis fort !"/>
+<TEXT ID="59030360" Text="Rha ! Obéis-moi !"/>
+<TEXT ID="59030390" Text="Crrr...crrrrr... "/>
+<TEXT ID="61261081" Text="Echappée au ralenti mais l&#39;utilisation de compétences ou d&#39;attaques est bloquée."/>
+<TEXT ID="63521100" Text="Potchi"/>
+<TEXT ID="63521200" Text="Potchi Vrille"/>
+<TEXT ID="63521300" Text="Potchi Yogi"/>
+<TEXT ID="63521400" Text="Potchiphage"/>
+<TEXT ID="63521500" Text="Potchi à Brosse"/>
+<TEXT ID="63521600" Text="Potchi Fleuri"/>
+<TEXT ID="63521700" Text="Potchi Tropical"/>
+<TEXT ID="63521800" Text="Dragon Boudeur (Rare)"/>
+<TEXT ID="63522000" Text="Obscuron"/>
+<TEXT ID="63522100" Text="Obscurouge"/>
+<TEXT ID="63522200" Text="Obscuronde"/>
+<TEXT ID="63522300" Text="Sorcier Obscuron"/>
+<TEXT ID="63522800" Text="Syadron (Rare)"/>
+<TEXT ID="63523000" Text="Coomba Noir"/>
+<TEXT ID="63523100" Text="Coomba Rouge"/>
+<TEXT ID="63523200" Text="Coomba Gluant"/>
+<TEXT ID="63523300" Text="Coomba Chaman"/>
+<TEXT ID="63523900" Text="Zaor (Elite)"/>
+<TEXT ID="63524000" Text="Bapho"/>
+<TEXT ID="63524100" Text="Bapho Tigré"/>
+<TEXT ID="63524200" Text="Bapho Cornu"/>
+<TEXT ID="63524300" Text="Bapho Toxic"/>
+<TEXT ID="63524800" Text="Chef Bapho (Rare)"/>
+<TEXT ID="63524900" Text="Kiyo (Elite)"/>
+<TEXT ID="63525000" Text="Ramie"/>
+<TEXT ID="63525100" Text="Ramie Bleue"/>
+<TEXT ID="63525200" Text="Ramie Morne"/>
+<TEXT ID="63525300" Text="Chef Ramie"/>
+<TEXT ID="63525800" Text="Capricorne (Rare)"/>
+<TEXT ID="63526000" Text="Caracha osseux"/>
+<TEXT ID="63526100" Text="Caracha Sanglant"/>
+<TEXT ID="63526200" Text="Caracha Vrillé "/>
+<TEXT ID="63526800" Text="Caracha Antique (Rare)"/>
+<TEXT ID="63526900" Text="Casharp (Elite)"/>
+<TEXT ID="63527000" Text="Totu Bleu"/>
+<TEXT ID="63527100" Text="Totu de Roche"/>
+<TEXT ID="63527200" Text="Totu Cornu"/>
+<TEXT ID="63527300" Text="Totu"/>
+<TEXT ID="63527800" Text="Chef Totu (Rare)"/>
+<TEXT ID="63528000" Text="Pring"/>
+<TEXT ID="63528100" Text="Pring Feuillu"/>
+<TEXT ID="63528200" Text="Pring Fruité"/>
+<TEXT ID="63528300" Text="Pring Noir"/>
+<TEXT ID="63528800" Text="Chimère (Rare)"/>
+<TEXT ID="63529000" Text="Muchi"/>
+<TEXT ID="63529100" Text="Muchi Jaune"/>
+<TEXT ID="63529200" Text="Patrouilleur Muchi"/>
+<TEXT ID="63529300" Text="Sorcier Muchi"/>
+<TEXT ID="63529800" Text="Chef Muchi (Rare)"/>
+<TEXT ID="63529900" Text="Prokell (Elite)"/>
+<TEXT ID="63530100" Text="Skema"/>
+<TEXT ID="63530200" Text="Plick"/>
+<TEXT ID="63530300" Text="Esprit Vengeur "/>
+<TEXT ID="63530400" Text="Esprit Rancunier (Elite)"/>
+<TEXT ID="63530500" Text="Aérien"/>
+<TEXT ID="63530600" Text="Fenryl Aérien (Elite)"/>
+<TEXT ID="63530700" Text="Arachnide Ailée (Elite)"/>
+<TEXT ID="63530800" Text="Akanai (Boss)"/>
+<TEXT ID="63530900" Text="Cristal d&#39;Elda (Boss)"/>
+<TEXT ID="63540100" Text="Deumo"/>
+<TEXT ID="63540200" Text="Garde Démon"/>
+<TEXT ID="63540300" Text="Créature Mort-vivante"/>
+<TEXT ID="63540400" Text="Skelldrark"/>
+<TEXT ID="63540500" Text="Créature Démonique"/>
+<TEXT ID="63540600" Text="Démon Guetteur"/>
+<TEXT ID="63540700" Text="Liche Démoniaque"/>
+<TEXT ID="63540800" Text="Maître Démoniaque"/>
+<TEXT ID="63541000" Text="Cerbère"/>
+<TEXT ID="63541100" Text="Ange Noir"/>
+<TEXT ID="63541200" Text="Diablick"/>
+<TEXT ID="63570100" Text="Harpie Blonde"/>
+<TEXT ID="63570200" Text="Harpie Brune"/>
+<TEXT ID="63570300" Text="Harpie Pourpre"/>
+<TEXT ID="63570400" Text="Esprit Frappeur"/>
+<TEXT ID="63570500" Text="Esprit Voleur"/>
+<TEXT ID="63570600" Text="Esprit Guetteur"/>
+<TEXT ID="63570700" Text="Kalke de Métal"/>
+<TEXT ID="63570800" Text="Drake de Métal"/>
+<TEXT ID="63570900" Text="Molosse de Métal"/>
+<TEXT ID="63571100" Text="Golem Cuirassé"/>
+<TEXT ID="63571200" Text="Barrique Cuirassée"/>
+<TEXT ID="63571300" Text="Pignon Cuirassé"/>
+<TEXT ID="63571400" Text="Satyre"/>
+<TEXT ID="64011100" Text="Main-gelée (Ne pas utiliser)"/>
+<TEXT ID="64011200" Text="Main-froide Neigeuse"/>
+<TEXT ID="64011300" Text="Main-de-glace"/>
+<TEXT ID="64011400" Text="Main-froide Neigeuse"/>
+<TEXT ID="64012100" Text="Citrus"/>
+<TEXT ID="64012200" Text="Citrus LongLong"/>
+<TEXT ID="64012300" Text="Citrus Miam-Miam"/>
+<TEXT ID="64012400" Text="Citrus"/>
+<TEXT ID="64013100" Text="Golem Givré"/>
+<TEXT ID="64013200" Text="Golem Refroidi"/>
+<TEXT ID="64013300" Text="Golem de Glace"/>
+<TEXT ID="64013400" Text="Golem de Glace"/>
+<TEXT ID="64014100" Text="Loup Givré"/>
+<TEXT ID="64014200" Text="Loup Givré chasseur"/>
+<TEXT ID="64014300" Text="Loup Givré guerrier"/>
+<TEXT ID="64014400" Text="Loup Givré chasseur"/>
+<TEXT ID="64015100" Text="Selic"/>
+<TEXT ID="64015200" Text="Selic Cryogène"/>
+<TEXT ID="64015300" Text="Selic sur roues"/>
+<TEXT ID="64015400" Text="Selic Cryogène"/>
+<TEXT ID="64016100" Text="Fenir"/>
+<TEXT ID="64016200" Text="Fenir des Neiges"/>
+<TEXT ID="64016300" Text="Fenir Stalactite"/>
+<TEXT ID="64016400" Text="Fenir des Neiges"/>
+<TEXT ID="64018100" Text="Monstre Rare de la Forêt de la Rancune"/>
+<TEXT ID="64021100" Text="Glacis"/>
+<TEXT ID="64021200" Text="Glacis sur piques"/>
+<TEXT ID="64021300" Text="Polky"/>
+<TEXT ID="64021400" Text="Glacis sur piques"/>
+<TEXT ID="64022100" Text="Magicien des Neiges"/>
+<TEXT ID="64022200" Text="Sorcier des Neiges"/>
+<TEXT ID="64022300" Text="Méduse des Neiges"/>
+<TEXT ID="64022400" Text="Sorcier Neigeux"/>
+<TEXT ID="64023100" Text="Maître-loup"/>
+<TEXT ID="64023200" Text="Maître-loup des Neiges"/>
+<TEXT ID="64023300" Text="Maître-loup Illuminé"/>
+<TEXT ID="64023400" Text="Maître-loup Neigeux"/>
+<TEXT ID="64024100" Text="Garde Ame-givré"/>
+<TEXT ID="64024200" Text="Patrouilleur Ame-givré"/>
+<TEXT ID="64024300" Text="Guerrier Ame-givré"/>
+<TEXT ID="64024400" Text="Patrouilleur Ame-givré Neigeux"/>
+<TEXT ID="64025100" Text="Licorne Vagabonde"/>
+<TEXT ID="64025200" Text="Licorne Errante"/>
+<TEXT ID="64025300" Text="Licorne de Glace"/>
+<TEXT ID="64025400" Text="Licorne Errante des Neiges"/>
+<TEXT ID="64028100" Text="Princesse des Neiges (Rare)"/>
+<TEXT ID="64029100" Text="Avice"/>
+<TEXT ID="64031100" Text="Neigeux"/>
+<TEXT ID="64031200" Text="Maman Neigeux"/>
+<TEXT ID="64031300" Text="Papa Neigeux"/>
+<TEXT ID="64031400" Text="Maman Neigeux"/>
+<TEXT ID="64032100" Text="Garde Gnoll poilu"/>
+<TEXT ID="64032200" Text="Lanceur Gnoll poilu"/>
+<TEXT ID="64032300" Text="Chaman Gnoll poilu"/>
+<TEXT ID="64032400" Text="Lanceur Gnoll poilu"/>
+<TEXT ID="64033100" Text="Lamia des neiges"/>
+<TEXT ID="64033200" Text="Chasseur Lamia"/>
+<TEXT ID="64033300" Text="Guerrier Lamia"/>
+<TEXT ID="64033400" Text="Chasseur Lamia"/>
+<TEXT ID="64034100" Text="Bébé Tigre des Neiges"/>
+<TEXT ID="64034200" Text="Maman Tigre des Neiges"/>
+<TEXT ID="64034300" Text="Chef Tigre des Neiges"/>
+<TEXT ID="64034400" Text="Maman Tigre Neigeux de la Vallée de la Guimauve "/>
+<TEXT ID="64035100" Text="Ours polaire givré"/>
+<TEXT ID="64035200" Text="Ours polaire refroidi"/>
+<TEXT ID="64035300" Text="Ours polaire de glace"/>
+<TEXT ID="64035400" Text="Ours polaire refroidi"/>
+<TEXT ID="64038100" Text="V-Tor (Rare)"/>
+<TEXT ID="64039100" Text="Alexyon (Elite)"/>
+<TEXT ID="64041100" Text="Quakee"/>
+<TEXT ID="64041200" Text="Quakee de glace"/>
+<TEXT ID="64041300" Text="Quakee des neiges"/>
+<TEXT ID="64041400" Text="Quakee de glace"/>
+<TEXT ID="64042100" Text="Ver givré"/>
+<TEXT ID="64042200" Text="Ver refroidi"/>
+<TEXT ID="64042300" Text="Ver de glace"/>
+<TEXT ID="64042400" Text="Ver des Neiges"/>
+<TEXT ID="64043100" Text="Tigre givré"/>
+<TEXT ID="64043200" Text="Tigre refroidi"/>
+<TEXT ID="64043300" Text="Tigre de glace"/>
+<TEXT ID="64043400" Text="Tigre refroidi"/>
+<TEXT ID="64044100" Text="Chiot Dronga frais"/>
+<TEXT ID="64044200" Text="Chiot Dronga froid"/>
+<TEXT ID="64044300" Text="Chiot Dronga gelé"/>
+<TEXT ID="64044400" Text="Chiot Dronga froid"/>
+<TEXT ID="64045100" Text="Gobelin de glace"/>
+<TEXT ID="64045200" Text="Bombardier Gobelin de glace"/>
+<TEXT ID="64045300" Text="Chaman Gobelin de glace"/>
+<TEXT ID="64045400" Text="Bombardier Gobelin"/>
+<TEXT ID="64048100" Text="Duc de la Montagne Céleste (Rare)"/>
+<TEXT ID="64049100" Text="Dragon de Glace Freonos (Rare)"/>
+<TEXT ID="64051100" Text="Golem Givré (Donjon de Glace)"/>
+<TEXT ID="64051200" Text="Golem Refroidi (Donjon de Glace)"/>
+<TEXT ID="64051300" Text="Golem de Glace (Donjon de Glace)"/>
+<TEXT ID="64052100" Text="Hydre (Donjon de Glace)"/>
+<TEXT ID="64052200" Text="Hydre de glace (Donjon de Glace)"/>
+<TEXT ID="64052300" Text="Hydre givré (Donjon de Glace)"/>
+<TEXT ID="64053100" Text="Selic (Donjon de Glace)"/>
+<TEXT ID="64053200" Text="Selic Cryogène (Donjon de Glace)"/>
+<TEXT ID="64053300" Text="Selic sur roues (Donjon de Glace)"/>
+<TEXT ID="64054100" Text="Pêcheur Tura (Donjon de Glace)"/>
+<TEXT ID="64054200" Text="Garde Tura (Donjon de Glace)"/>
+<TEXT ID="64054300" Text="Tura agé (Donjon de Glace)"/>
+<TEXT ID="64055100" Text="Fourmi des neiges (Donjon de Glace)"/>
+<TEXT ID="64055200" Text="Fourmi iceberg (Donjon de Glace)"/>
+<TEXT ID="64055300" Text="Fourmi de glace (Donjon de Glace)"/>
+<TEXT ID="64058100" Text="Floures (Rare)"/>
+<TEXT ID="64059100" Text="Fée glaciale (Elite)"/>
+<TEXT ID="64061100" Text="Combattant Nain (Donjon de Glace)"/>
+<TEXT ID="64061200" Text="Archer Nain (Donjon de Glace)"/>
+<TEXT ID="64061300" Text="Ingénieur Nain (Donjon de Glace)"/>
+<TEXT ID="64062100" Text="Messager Tarics (Donjon de Glace)"/>
+<TEXT ID="64062200" Text="Chasseur Tarics (Donjon de Glace)"/>
+<TEXT ID="64062300" Text="Invocateur Tarics (Donjon de Glace)"/>
+<TEXT ID="64063100" Text="Guerrier Crâne gelé (Donjon de Glace)"/>
+<TEXT ID="64063200" Text="Garde Crâne gelé (Donjon de Glace)"/>
+<TEXT ID="64063300" Text="Crâne gelé agé (Donjon de Glace)"/>
+<TEXT ID="64064100" Text="Quakee (Donjon de Glace)"/>
+<TEXT ID="64064200" Text="Quakee de glace (Donjon de Glace)"/>
+<TEXT ID="64064300" Text="Quakee des neiges (Donjon de Glace)"/>
+<TEXT ID="64065100" Text="Garde Husky (Donjon de Glace)"/>
+<TEXT ID="64065200" Text="Chasseur Husky (Donjon de Glace)"/>
+<TEXT ID="64065300" Text="Chef Husky (Donjon de Glace)"/>
+<TEXT ID="64068100" Text="Rusky des neiges (Rare)"/>
+<TEXT ID="64069100" Text="Entraîneur (Elite)"/>
+<TEXT ID="64071100" Text="Magicien des Neiges (Donjon de Glace)"/>
+<TEXT ID="64071200" Text="Sorcier des Neiges (Donjon de Glace)"/>
+<TEXT ID="64071300" Text="Méduse des Neiges (Donjon de Glace)"/>
+<TEXT ID="64072100" Text="Esprit sentinelle (Donjon de Glace)"/>
+<TEXT ID="64072200" Text="Gardien Esprit (Donjon de Glace)"/>
+<TEXT ID="64072300" Text="Chevalier Esprit (Donjon de Glace)"/>
+<TEXT ID="64073100" Text="Chevalier de la Tour (Donjon de Glace)"/>
+<TEXT ID="64073200" Text="Garde royale de la Tour (Donjon de Glace)"/>
+<TEXT ID="64073300" Text="Capitaine des chevaliers (Donjon de Glace)"/>
+<TEXT ID="64074100" Text="Garde Pan Isis (Donjon de Glace)"/>
+<TEXT ID="64074200" Text="Eclaireur Pan Isis (Donjon de Glace)"/>
+<TEXT ID="64074300" Text="Mage Pan Isis (Donjon de Glace)"/>
+<TEXT ID="64075100" Text="Main-gelée (Donjon de Glace)"/>
+<TEXT ID="64075200" Text="Main-froide (Donjon de Glace)"/>
+<TEXT ID="64075300" Text="Main-de-glace (Donjon de Glace)"/>
+<TEXT ID="64078100" Text="Araignée de glace (Rare)"/>
+<TEXT ID="64079100" Text="Surveillant (Elite)"/>
+<TEXT ID="64081100" Text="Citrus (Donjon de Glace)"/>
+<TEXT ID="64081200" Text="Citrus LongLong (Donjon de Glace)"/>
+<TEXT ID="64081300" Text="Citrus Miam-Miam (Donjon de Glace)"/>
+<TEXT ID="64082100" Text="Mino (Donjon de Glace)"/>
+<TEXT ID="64082200" Text="Chasseur Mino (Donjon de Glace)"/>
+<TEXT ID="64082300" Text="Guerrier Mino (Donjon de Glace)"/>
+<TEXT ID="64083100" Text="Travailleur Mispeng (Donjon de Glace)"/>
+<TEXT ID="64083200" Text="Garde Mispeng (Donjon de Glace)"/>
+<TEXT ID="64083300" Text="Chef Mispeng (Donjon de Glace)"/>
+<TEXT ID="64084100" Text="Fleur pétrifiée (Donjon de Glace)"/>
+<TEXT ID="64084300" Text="Fleur maléfique pétrifiée (Donjon de Glace)"/>
+<TEXT ID="64085100" Text="Taupe Esprit  (Donjon de Glace)"/>
+<TEXT ID="64085200" Text="Balle Esprit (Donjon de Glace)"/>
+<TEXT ID="64085300" Text="Boom Esprit (Donjon de Glace)"/>
+<TEXT ID="64088100" Text="Mino de glace (Rare)"/>
+<TEXT ID="64089100" Text="Garde Dédale (Elite)"/>
+<TEXT ID="64091100" Text="Guerrier Yagahoka (Donjon de Glace)"/>
+<TEXT ID="64091200" Text="Chasseur Yagahoka (Donjon de Glace)"/>
+<TEXT ID="64091300" Text="Sorcier Yagahoka (Donjon de Glace)"/>
+<TEXT ID="64092100" Text="Floures gelé (Donjon de Glace)"/>
+<TEXT ID="64092200" Text="Floures refroidi (Donjon de Glace)"/>
+<TEXT ID="64092300" Text="Floures de glace (Donjon de Glace)"/>
+<TEXT ID="64093100" Text="Travailleur Aile-glacé (Donjon de Glace)"/>
+<TEXT ID="64093200" Text="Aile-glacé patrouilleuse (Donjon de Glace)"/>
+<TEXT ID="64093300" Text="Mante Aile-glacé (Donjon de Glace)"/>
+<TEXT ID="64094100" Text="Jardinier (Donjon de Glace)"/>
+<TEXT ID="64094200" Text="Nettoyeur du Jardin (Donjon de Glace)"/>
+<TEXT ID="64094300" Text="Jardinier en chef (Donjon de Glace)"/>
+<TEXT ID="64095100" Text="Mutant givré (Donjon de Glace)"/>
+<TEXT ID="64095200" Text="Mutant refroidi (Donjon de Glace)"/>
+<TEXT ID="64095300" Text="Mutant de glace (Donjon de Glace)"/>
+<TEXT ID="64098100" Text="Jardin des Monstres Rares (Rare)"/>
+<TEXT ID="64099100" Text="Reine glaciale (Elite)"/>
+<TEXT ID="64500100" Text="Grosse Paluche"/>
+<TEXT ID="64500200" Text="Munk"/>
+<TEXT ID="64500300" Text="Balafré"/>
+<TEXT ID="64500400" Text="Wolfarine"/>
+<TEXT ID="64500500" Text="Loup Débraillé"/>
+<TEXT ID="64500600" Text="Loup Hardi"/>
+<TEXT ID="64500700" Text="Loup ardent"/>
+<TEXT ID="64500800" Text="Sheek"/>
+<TEXT ID="64500900" Text="Fenris"/>
+<TEXT ID="64500901" Text="FenrisSE"/>
+<TEXT ID="64600100" Text="Momie n&#39;a qu&#39;un Oeil  "/>
+<TEXT ID="64600200" Text="Momie du Cimetière"/>
+<TEXT ID="64600300" Text="Duraman"/>
+<TEXT ID="64600400" Text="Mergon"/>
+<TEXT ID="64600500" Text="Raty"/>
+<TEXT ID="64600600" Text="Zombie"/>
+<TEXT ID="64601100" Text="Fléau d&#39;Os"/>
+<TEXT ID="64601200" Text="Katler"/>
+<TEXT ID="64601300" Text="Ratler"/>
+<TEXT ID="64602100" Text="Kajimodo"/>
+<TEXT ID="64602200" Text="Niveus"/>
+<TEXT ID="64700100" Text="Un monstre avec de grand yeux"/>
+<TEXT ID="64700200" Text="Il a l&#39;apparence d&#39;une balle auquel on aurait ajouté des ailes"/>
+<TEXT ID="64700300" Text="Ce monstre a un souffle empoisonné"/>
+<TEXT ID="64700400" Text="Un monstre volant qui lance du poison"/>
+<TEXT ID="64700500" Text="Un Esprit autrefois magnifique ravagé par la pollution"/>
+<TEXT ID="64700600" Text="Vu la taille de l&#39;oeuf, il s&#39;agit sûrement d&#39;un bébé dinosaure"/>
+<TEXT ID="64700700" Text="Lagon Senior"/>
+<TEXT ID="64700800" Text="Un Esprit autrefois magnifique terni par la pollution"/>
+<TEXT ID="64700900" Text="Insecte souterrain"/>
+<TEXT ID="64701100" Text="L&#39;une des têtes dures de la forêt des esprits, il attaque avec sa corne"/>
+<TEXT ID="64701200" Text="L&#39;une des têtes dures de la forêt des esprits, il envoit du poison"/>
+<TEXT ID="64701300" Text="L&#39;une des têtes dures de la forêt des esprits, lance des attaques magiques"/>
+<TEXT ID="64701400" Text="Le Chaman maléfique Mutisha contrôle les forces maléfiques... tentant de ressusciter Revious"/>
+<TEXT ID="64701500" Text="Le Dragon Vert reposait d&#39;un sommeil profond dans la Forêt Verdoyante quand Mutisha l&#39;a changé en dragon maléfique"/>
+<TEXT ID="64701600" Text="Un arbre qui empoisonne les créatures"/>
+<TEXT ID="66000800" Text="La puissance de la glace est écrasante."/>
+<TEXT ID="66000850" Text="TB_DefMonster"/>
+<TEXT ID="66000900" Text="Attaque avec un souffle mortel et martèle le sol de ses poings."/>
+<TEXT ID="66000910" Text="Attaque avec un souffle mortel et martèle le sol de ses poings."/>
+<TEXT ID="66000920" Text="Attaque avec un souffle mortel et martèle le sol de ses poings."/>
+<TEXT ID="66000930" Text="Immense Golem engendré par la puissance de Mutisha. Il possède une force incroyable."/>
+<TEXT ID="66000940" Text="Une vie ambitieuse qui essaie de plonger le monde dans le Chaos en controlant les Arams."/>
+<TEXT ID="66000950" Text="Impossible de dire si cette chose est vivante ou non, mais une chose est sûre, cette créature possède d&#39;immenses pouvoirs."/>
+<TEXT ID="66001000" Text="Woodie qui lâche de l&#39;or."/>
+<TEXT ID="66001100" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66001200" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66001300" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66001400" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66001500" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66002000" Text="Vous attaque avec un balai."/>
+<TEXT ID="66002100" Text="Attaque avec ses grandes cornes."/>
+<TEXT ID="66002200" Text="Attaque avec ses grandes cornes."/>
+<TEXT ID="66002300" Text="Se rue prestement sur l&#39;ennemi."/>
+<TEXT ID="66002700" Text="Attaque avec ses grandes cornes."/>
+<TEXT ID="66002800" Text="Attaque avec ses grandes cornes."/>
+<TEXT ID="66003100" Text="Attaque à l&#39;aide de ses griffes acérées."/>
+<TEXT ID="66003200" Text="Attaque avec ses griffes et empoisonne l&#39;ennemi."/>
+<TEXT ID="66004100" Text="Attaque l&#39;ennemi à l&#39;aide de ses grosses pattes."/>
+<TEXT ID="66004200" Text="Se précipite sur l&#39;ennemi et l&#39;attaque."/>
+<TEXT ID="66004300" Text="Attaque rapidement l&#39;ennemi avec ces puissantes pattes."/>
+<TEXT ID="66004400" Text="Intimide l&#39;ennemi en rugissant avant de le charger."/>
+<TEXT ID="66004500" Text="Attaque rapidement l&#39;ennemi avec ses puissantes pattes."/>
+<TEXT ID="66004600" Text="Attaque rapidement l&#39;ennemi avec ses puissantes pattes."/>
+<TEXT ID="66004700" Text="Attaque l&#39;ennemi à l&#39;aide de ses grosses pattes."/>
+<TEXT ID="66004800" Text="Attaque l&#39;ennemi à l&#39;aide de ses grosses pattes."/>
+<TEXT ID="66004900" Text="Intimide l&#39;ennemi en rugissant avant de le charger."/>
+<TEXT ID="66005100" Text="Se tortille avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66005200" Text="Se tortille avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66005300" Text="Se tortille avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66005400" Text="Se tortille avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66006100" Text="Sort son épée et attaque l&#39;ennemi."/>
+<TEXT ID="66006200" Text="Lance une lourde hache sur l&#39;ennemi."/>
+<TEXT ID="66006300" Text="Lance un sort de feu à l&#39;aide de son bâton."/>
+<TEXT ID="66006400" Text="Sort son épée et attaque l&#39;ennemi."/>
+<TEXT ID="66006500" Text="Lance une lourde hache sur l&#39;ennemi."/>
+<TEXT ID="66006600" Text="Lance une hache tournoyante pour abattre l&#39;ennemi."/>
+<TEXT ID="66006700" Text="Sort son épée et attaque l&#39;ennemi."/>
+<TEXT ID="66006900" Text="Lance une hache tournoyante pour abattre l&#39;ennemi"/>
+<TEXT ID="66007100" Text="Matraque l&#39;ennemi avec sa  patte-gourdin."/>
+<TEXT ID="66007200" Text="Attaque l&#39;ennmi à l&#39;aide d&#39;une massue."/>
+<TEXT ID="66007300" Text="Attaque l&#39;ennmi à l&#39;aide d&#39;une massue."/>
+<TEXT ID="66007400" Text="Attaque l&#39;ennmi à l&#39;aide d&#39;une massue."/>
+<TEXT ID="66007500" Text="Attaque l&#39;ennmi à l&#39;aide d&#39;une massue."/>
+<TEXT ID="66007600" Text="Attaque l&#39;ennmi à l&#39;aide d&#39;une massue."/>
+<TEXT ID="66008100" Text="Frappe l&#39;ennemi avec ses énormes poings."/>
+<TEXT ID="66008200" Text="Frappe l&#39;ennemi avec ses énormes poings."/>
+<TEXT ID="66008300" Text="Frappe l&#39;ennemi avec ses énormes poings."/>
+<TEXT ID="66008400" Text="Se rue sur l&#39;ennemi en faisant tournoyer ses deux mains."/>
+<TEXT ID="66008500" Text="Se rue sur l&#39;ennemi en faisant tournoyer ses deux mains."/>
+<TEXT ID="66008600" Text="Se rue sur l&#39;ennemi en faisant tournoyer ses deux mains."/>
+<TEXT ID="66009100" Text="Rassemble ses forces avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66009200" Text="Ouvre le feu sur l&#39;ennemi."/>
+<TEXT ID="66009300" Text="Rassemble ses forces avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66009400" Text="Ouvre le feu sur l&#39;ennemi."/>
+<TEXT ID="66009500" Text="Rassemble ses pouvoirs magiques et tire sur l&#39;ennemi."/>
+<TEXT ID="66009600" Text="Déchaîne la colère de la terre sur l&#39;ennemi."/>
+<TEXT ID="66009601" Text="Déchaîne la colère de la terre sur l&#39;ennemi."/>
+<TEXT ID="66009700" Text="Rassemble ses forces avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66009800" Text="Ouvre le feu sur l&#39;ennemi."/>
+<TEXT ID="66009900" Text="Rassemble ses pouvoirs magiques et tire sur l&#39;ennemi."/>
+<TEXT ID="66010100" Text="Attaque l&#39;ennemi avec des pinces."/>
+<TEXT ID="66010900" Text="Attaque l&#39;ennemi avec des pinces."/>
+<TEXT ID="66011100" Text="Se jette sur l&#39;ennemi."/>
+<TEXT ID="66011200" Text="Se rue sur l&#39;ennemi en tournoyant sur lui-même."/>
+<TEXT ID="66011300" Text="Se rue sur l&#39;ennemi en tournoyant sur lui-même."/>
+<TEXT ID="66011700" Text="Se rue sur l&#39;ennemi en tournoyant sur lui-même."/>
+<TEXT ID="66011800" Text="Se jette sur l&#39;ennemi."/>
+<TEXT ID="66012100" Text="Se jette sur l&#39;ennemi tout en se déplaçant."/>
+<TEXT ID="66012200" Text="Lance une série d&#39;attaques en tournoyant."/>
+<TEXT ID="66012300" Text="Lance une série d&#39;attaques en tournoyant."/>
+<TEXT ID="66012400" Text="Se jette sur l&#39;ennemi depuis les airs."/>
+<TEXT ID="66012500" Text="Se jette sur l&#39;ennemi tout en se déplaçant."/>
+<TEXT ID="66012600" Text="Lance une série d&#39;attaques en tournoyant."/>
+<TEXT ID="66013100" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66013200" Text="Tire des flèches sur l&#39;ennemi."/>
+<TEXT ID="66013500" Text="Se soigne et invoque des Starrys fougueux."/>
+<TEXT ID="66013800" Text="Se soigne et invoque des Starrys fougueux."/>
+<TEXT ID="66013801" Text="Se soigne et invoque des Starrys fougueux."/>
+<TEXT ID="66013900" Text="Fige l&#39;ennemi et invoque des Starrys fougueux."/>
+<TEXT ID="66014100" Text="Charge l&#39;ennemi pour l&#39;attaquer."/>
+<TEXT ID="66014200" Text="Lance des dagues sur l&#39;ennemi."/>
+<TEXT ID="66014300" Text="Lance une boule magique sur l&#39;ennemi."/>
+<TEXT ID="66014400" Text="Frappe l&#39;ennemi avec un os gigantesque."/>
+<TEXT ID="66014500" Text="Frappe l&#39;ennemi avec une massue."/>
+<TEXT ID="66014600" Text="Lance une lourde massue sur l&#39;ennemi."/>
+<TEXT ID="66014700" Text="Frappe l&#39;ennemi avec une massue."/>
+<TEXT ID="66014800" Text="Frappe l&#39;ennemi avec une massue."/>
+<TEXT ID="66015100" Text="Balance un puissant coup de poing sur l&#39;ennemi."/>
+<TEXT ID="66015200" Text="Invoque des flammes autour des ennemis."/>
+<TEXT ID="66015300" Text="Combat avec un couteau de cuisine."/>
+<TEXT ID="66015400" Text="Combat avec une scie."/>
+<TEXT ID="66015500" Text="Invoque des flammes autour des ennemis."/>
+<TEXT ID="66015600" Text="Invoque des flammes autour des ennemis."/>
+<TEXT ID="66015700" Text="Balance un puissant coup de poing sur l&#39;ennemi."/>
+<TEXT ID="66015800" Text="Combat avec un couteau de cuisine."/>
+<TEXT ID="66015900" Text="Saute et écrase l&#39;ennemi."/>
+<TEXT ID="66015901" Text="Saute et écrase l&#39;ennemi."/>
+<TEXT ID="66015902" Text="Lance une hache tournoyante pour abattre l&#39;ennemi."/>
+<TEXT ID="66016100" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66016200" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66016300" Text="Attaque l&#39;ennemi à mains nues."/>
+<TEXT ID="66016400" Text="Attaque l&#39;ennemi à mains nues."/>
+<TEXT ID="66016500" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66016600" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66017100" Text="Inflige des saignements en attaquant l&#39;ennemi à l&#39;aide d&#39;une lame affûtée."/>
+<TEXT ID="66017200" Text="Inflige des saignements en attaquant l&#39;ennemi à l&#39;aide d&#39;une lame affûtée."/>
+<TEXT ID="66017300" Text="Inflige des saignements en attaquant l&#39;ennemi à l&#39;aide d&#39;une lame affûtée."/>
+<TEXT ID="66017400" Text="Inflige des saignements en attaquant l&#39;ennemi à l&#39;aide d&#39;une lame affûtée."/>
+<TEXT ID="66017600" Text="Attaque son ennemi à l&#39;aide d&#39;une puissante lame à dents de scie."/>
+<TEXT ID="66017700" Text="Attaque son ennemi à l&#39;aide d&#39;une puissante lame à dents de scie."/>
+<TEXT ID="66017800" Text="Attaque son ennemi à l&#39;aide d&#39;une puissante lame à dents de scie."/>
+<TEXT ID="66018100" Text="Lance une pomme sur l&#39;ennemi."/>
+<TEXT ID="66018200" Text="Lance une balle magique sur l&#39;ennemi."/>
+<TEXT ID="66018300" Text="Donne une gifle à l&#39;ennemi."/>
+<TEXT ID="66018400" Text="Donne une gifle à l&#39;ennemi."/>
+<TEXT ID="66018500" Text="Lance une pomme sur l&#39;ennemi."/>
+<TEXT ID="66018900" Text="Lâche un Woodie géant et invoque des chauve-souris."/>
+<TEXT ID="66018901" Text="Lâche un Woodie géant et invoque des chauve-souris."/>
+<TEXT ID="66019100" Text="Mord puis mâche son ennemi."/>
+<TEXT ID="66019200" Text="Mord puis mâche son ennemi."/>
+<TEXT ID="66019300" Text="Bombarde l&#39;ennemi de graines."/>
+<TEXT ID="66019400" Text="Bombarde l&#39;ennemi de graines."/>
+<TEXT ID="66019500" Text="Bombarde l&#39;ennemi de graines."/>
+<TEXT ID="66019600" Text="Mord puis mâche son ennemi."/>
+<TEXT ID="66019700" Text="Mord puis mâche son ennemi."/>
+<TEXT ID="66019800" Text="Bombarde l&#39;ennemi de graines."/>
+<TEXT ID="66019900" Text="Bombarde l&#39;ennemi de graines."/>
+<TEXT ID="66020100" Text="Souffle une boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66020200" Text="Gifle l&#39;ennemi avec les oreilles."/>
+<TEXT ID="66020300" Text="Gifle l&#39;ennemi avec les oreilles."/>
+<TEXT ID="66020400" Text="S&#39;envole et attaque l&#39;ennemi avec des sorts magiques."/>
+<TEXT ID="66020500" Text="Gifle l&#39;ennemi avec les oreilles."/>
+<TEXT ID="66020600" Text="Souffle une boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66020700" Text="S&#39;envole et attaque l&#39;ennemi avec des sorts magiques."/>
+<TEXT ID="66020800" Text="S&#39;envole et attaque l&#39;ennemi avec des sorts magiques."/>
+<TEXT ID="66020900" Text="Gifle l&#39;ennemi avec les oreilles."/>
+<TEXT ID="66021100" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021200" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021300" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021400" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021500" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021600" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66021900" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66022100" Text="Empale l&#39;ennemi avec une arme."/>
+<TEXT ID="66022200" Text="Empale l&#39;ennemi avec une arme."/>
+<TEXT ID="66022300" Text="Empale l&#39;ennemi avec une arme."/>
+<TEXT ID="66022400" Text="Empale l&#39;ennemi avec une arme."/>
+<TEXT ID="66022900" Text="Empale l&#39;ennemi avec une arme."/>
+<TEXT ID="66023100" Text="Attaque son ennemi avec ses spores."/>
+<TEXT ID="66023200" Text="Lance du pollen sur les ennemis."/>
+<TEXT ID="66023300" Text="Lance des fruits sur les ennemis."/>
+<TEXT ID="66023400" Text="Lance du pollen sur les ennemis."/>
+<TEXT ID="66023500" Text="Lance des fruits sur les ennemis."/>
+<TEXT ID="66023600" Text="Attaque son ennemi avec ses spores."/>
+<TEXT ID="66023900" Text="C&#39;est un esprit puissant qui réside dans la Citadelle du Tourment."/>
+<TEXT ID="66023901" Text="Empoisonne l&#39;ennemi et lance d&#39;énormes fleurs tout en tournant sur lui-même."/>
+<TEXT ID="66024100" Text="Pilonne l&#39;ennemi à l&#39;aide d&#39;un marteau."/>
+<TEXT ID="66024200" Text="Lance des glands sur l&#39;ennemi."/>
+<TEXT ID="66024300" Text="Lance une balle magique sur l&#39;ennemi."/>
+<TEXT ID="66024500" Text="Pilonne l&#39;ennemi à l&#39;aide d&#39;un marteau."/>
+<TEXT ID="66024600" Text="Lance des glands sur l&#39;ennemi."/>
+<TEXT ID="66024900" Text="Charge l&#39;ennemi et le frappe à l&#39;aide d&#39;une arme."/>
+<TEXT ID="66024901" Text="Charge l&#39;ennemi et le frappe à l&#39;aide d&#39;une arme."/>
+<TEXT ID="66025100" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025200" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025300" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025400" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025500" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025600" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66025700" Text="Invoque Petit Porky pour qu&#39;il attaque l&#39;ennemi."/>
+<TEXT ID="66025900" Text="Invoque Petit Porky pour qu&#39;il attaque l&#39;ennemi."/>
+<TEXT ID="66025901" Text="Invoque Petit Porky pour qu&#39;il attaque l&#39;ennemi."/>
+<TEXT ID="66026100" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66026200" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66026300" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66026400" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66028100" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66028200" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66028300" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66028400" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66029100" Text="Fait surgir de nombreuses mains hors de la boîte avant d&#39;attaquer."/>
+<TEXT ID="66029200" Text="Fait surgir de nombreuses armes hors de la boîte avant d&#39;attaquer."/>
+<TEXT ID="66030100" Text="Fracasse ses ennemis."/>
+<TEXT ID="66030200" Text="Lance des poignards sur ses ennemis."/>
+<TEXT ID="66030300" Text="Lance une balle magique sur l&#39;ennemi."/>
+<TEXT ID="66030400" Text="Lance une balle magique sur l&#39;ennemi."/>
+<TEXT ID="66030500" Text="Fracasse ses ennemis."/>
+<TEXT ID="66030600" Text="Lance des poignards sur ses ennemis."/>
+<TEXT ID="66030700" Text="Fracasse ses ennemis."/>
+<TEXT ID="66030900" Text="Attaque l&#39;ennemi en tourbillonant et lui envoie d&#39;énormes armes."/>
+<TEXT ID="66031100" Text="Tire une énorme boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66031200" Text="Tire une énorme boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66031300" Text="Tire une énorme boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66032100" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032200" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032300" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032400" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032500" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032600" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66032700" Text="Immobilise sa cible à l&#39;aide de tentacules."/>
+<TEXT ID="66033100" Text="Cogne l&#39;ennemi avec ses puissantes pinces."/>
+<TEXT ID="66033200" Text="Cogne l&#39;ennemi avec ses puissantes pinces et sa queue."/>
+<TEXT ID="66033300" Text="Tire une boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66033400" Text="Provoque une attaque sonar en piétinant le sol."/>
+<TEXT ID="66033500" Text="Cogne l&#39;ennemi avec ses puissantes pinces."/>
+<TEXT ID="66033600" Text="Cogne l&#39;ennemi avec ses puissantes pinces et sa queue."/>
+<TEXT ID="66033700" Text="Tire une boule de feu sur l&#39;ennemi."/>
+<TEXT ID="66033800" Text="Provoque une attaque sonar en piétinant le sol."/>
+<TEXT ID="66034100" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66034200" Text="Tire des balles sur l&#39;ennemi."/>
+<TEXT ID="66034300" Text="Lance un yoyo sur l&#39;ennemi et envoie des missiles à tête chercheuse."/>
+<TEXT ID="66034301" Text="Lance un yoyo sur l&#39;ennemi et envoie des missiles à tête chercheuse."/>
+<TEXT ID="66034400" Text="Tire des balles sur l&#39;ennemi."/>
+<TEXT ID="66034500" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66035100" Text="Tacle l&#39;ennemi en utilisant son propore corps."/>
+<TEXT ID="66036100" Text="Tire des flèches de Cupidon sur ses ennemis."/>
+<TEXT ID="66036200" Text="Fouette l&#39;ennemi à l&#39;aide d&#39;un tube de flèche de Cupidon."/>
+<TEXT ID="66036300" Text="Tire des flèches de Cupidon sur ses ennemis."/>
+<TEXT ID="66037100" Text="Transperce l&#39;ennmi d&#39;un coup de trident démoniaque."/>
+<TEXT ID="66037200" Text="Tire des flèches démoniaques sur l&#39;ennemi."/>
+<TEXT ID="66038100" Text="Ecorche ses ennemis à coups de griffes acérées jusqu&#39;au saignement."/>
+<TEXT ID="66038200" Text="Ecorche ses ennemis à coups de griffes acérées jusqu&#39;au saignement."/>
+<TEXT ID="66038300" Text="Vole dans les airs et cogne l&#39;ennemi à coups de lance."/>
+<TEXT ID="66038400" Text="Vole dans les airs et cogne l&#39;ennemi à coups de lance."/>
+<TEXT ID="66038500" Text="Vole dans les airs et cogne l&#39;ennemi à coups de lance."/>
+<TEXT ID="66038600" Text="Vole dans les airs et cogne l&#39;ennemi à coups de lance."/>
+<TEXT ID="66039100" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66039200" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66039400" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66039500" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66039600" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66039700" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66040100" Text="Martèle son ennemi."/>
+<TEXT ID="66040200" Text="Attaque son ennemi en lui crachant dessus."/>
+<TEXT ID="66040300" Text="Tire de nombreuses épines sur son ennemi."/>
+<TEXT ID="66040400" Text="Attaque son ennemi en lui crachant dessus."/>
+<TEXT ID="66041100" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66041200" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66041300" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66041400" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66041500" Text="Saute dans tous les sens en envoyant des cristaux sur les ennemis et fait appel à de petits Golems."/>
+<TEXT ID="66041600" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66041700" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66041800" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66042100" Text="Lance des dents sur l&#39;ennemi."/>
+<TEXT ID="66042200" Text="Lance des crânes sur l&#39;ennemi."/>
+<TEXT ID="66042300" Text="Lance des fémurs sur l&#39;ennmi."/>
+<TEXT ID="66042400" Text="Lance des crânes sur l&#39;ennemi."/>
+<TEXT ID="66042500" Text="Lance des dents sur l&#39;ennemi."/>
+<TEXT ID="66043100" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66043200" Text="Martèle son ennemi sur le sol."/>
+<TEXT ID="66043300" Text="Lance des couteaux aiguisés sur l&#39;ennemi."/>
+<TEXT ID="66043400" Text="Tire des boules de feu sur l&#39;ennemi des deux mains."/>
+<TEXT ID="66043500" Text="Assaille l&#39;ennemi d&#39;un souffle menaçant et le charge en plein ciel."/>
+<TEXT ID="66043501" Text="Assaille l&#39;ennemi d&#39;un souffle menaçant et le charge en plein ciel."/>
+<TEXT ID="66043700" Text="Autrefois il s&#39;agissait d&#39;un lézard, mais depuis qu&#39;il marche aux côtés de Rahnoff, il agit comme un humain."/>
+<TEXT ID="66043800" Text="Autrefois il s&#39;agissait d&#39;un lézard, mais depuis qu&#39;il marche aux côtés de Rahnoff, il agit comme un humain."/>
+<TEXT ID="66043900" Text="Autrefois il s&#39;agissait d&#39;un lézard, mais depuis qu&#39;il marche aux côtés de Rahnoff, il agit comme un humain."/>
+<TEXT ID="66044100" Text="Menace l&#39;ennemi du bout de son épée."/>
+<TEXT ID="66044200" Text="Utilise sa queue pour tirer des lucioles sur l&#39;ennemi."/>
+<TEXT ID="66044300" Text="Crée un champs de magie pour attaquer son ennemi."/>
+<TEXT ID="66044301" Text="Tête du prêtre Luciole qui défend sa reine."/>
+<TEXT ID="66044400" Text="Menace l&#39;ennemi du bout de son épée."/>
+<TEXT ID="66044500" Text="Utilise sa queue pour tirer des lucioles sur l&#39;ennemi."/>
+<TEXT ID="66044600" Text="Se protège des attaques de l&#39;ennemi à l&#39;aide d&#39;un bouclier et contre-attaque à l&#39;aide de combos."/>
+<TEXT ID="66045100" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66045200" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66045300" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66045400" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66045500" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66045600" Text="Déclenche une attaque sonar sur ses ennemis."/>
+<TEXT ID="66046100" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66046200" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66046300" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66046400" Text="Tire des flèches sur l&#39;ennemi."/>
+<TEXT ID="66047100" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66047200" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66047300" Text="Invoque un énorme tas d&#39;excréments pour attaquer l&#39;ennemi."/>
+<TEXT ID="66047400" Text="Lance des excréments sur l&#39;ennemi."/>
+<TEXT ID="66048100" Text="Attaque son ennemi d&#39;un coup de bec."/>
+<TEXT ID="66048200" Text="Attaque son ennemi d&#39;un coup de bec."/>
+<TEXT ID="66048300" Text="Tire des boulets de canon par la bouche."/>
+<TEXT ID="66049100" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66049200" Text="Crée un champs de magie pour attaquer son ennemi."/>
+<TEXT ID="66049300" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66049400" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66049500" Text="Crée un champs de magie pour attaquer son ennemi."/>
+<TEXT ID="66049600" Text="Cogne l&#39;ennemi d&#39;un coup de sa longue langue."/>
+<TEXT ID="66050100" Text="Blesse l&#39;ennemi d&#39;un coup de faux empoisonnée."/>
+<TEXT ID="66050200" Text="Lance une faux aiguisée sur l&#39;ennemi."/>
+<TEXT ID="66050300" Text="Crée un champs de magie pour attaquer son ennemi."/>
+<TEXT ID="66050400" Text="Lance une faux aiguisée sur l&#39;ennemi."/>
+<TEXT ID="66050500" Text="Blesse l&#39;ennemi d&#39;un coup de faux empoisonnée."/>
+<TEXT ID="66050600" Text="Crée un champs de magie pour attaquer son ennemi."/>
+<TEXT ID="66051100" Text="Attaque l&#39;ennemi de ses cornes pointues."/>
+<TEXT ID="66051200" Text="Attaque l&#39;ennemi à coups de cornes et de magie."/>
+<TEXT ID="66051300" Text="Invoque une attaque magique à l&#39;aide de ses cornes."/>
+<TEXT ID="66051400" Text="Attaque l&#39;ennemi à coups de cornes et de magie."/>
+<TEXT ID="66051500" Text="Attaque l&#39;ennemi de ses cornes pointues."/>
+<TEXT ID="66051600" Text="Invoque une attaque magique à l&#39;aide de ses cornes."/>
+<TEXT ID="66052100" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66052200" Text="Empoisonne son ennemi avec son dard vénéneux."/>
+<TEXT ID="66052300" Text="Crée un champs de magie pour réduire l&#39;ennemi au silence."/>
+<TEXT ID="66052400" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66052500" Text="Crée un champs de magie pour réduire l&#39;ennemi au silence."/>
+<TEXT ID="66052600" Text="Bombarde l&#39;ennemi d&#39;oeufs et l&#39;intimide en rugissant."/>
+<TEXT ID="66053100" Text="Se jette sur l&#39;ennemi et lui explose dessus pour le blesser."/>
+<TEXT ID="66053200" Text="Se jette sur l&#39;ennemi et lui explose dessus pour le blesser."/>
+<TEXT ID="66053300" Text="Se jette sur l&#39;ennemi et lui explose dessus pour le blesser."/>
+<TEXT ID="66054100" Text="Gèle la cible à l&#39;aide de souffle glacé."/>
+<TEXT ID="66054200" Text="Gèle la cible à l&#39;aide de souffle glacé."/>
+<TEXT ID="66054300" Text="Gèle la cible à l&#39;aide de souffle glacé."/>
+<TEXT ID="66055100" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66055200" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66055300" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66055400" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66055500" Text="Ecrase l&#39;ennemi à coups de poing."/>
+<TEXT ID="66055600" Text="Envoie des cristaux sur l&#39;ennemi."/>
+<TEXT ID="66056100" Text="Attaque l&#39;ennemi avec une lame de scie."/>
+<TEXT ID="66056200" Text="Fracasse l&#39;ennemi avec son arme."/>
+<TEXT ID="66057100" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66057200" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66057300" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66058100" Text="Tend une embuscade à l&#39;ennemi en se cachant sous terre."/>
+<TEXT ID="66058200" Text="Tend une embuscade à l&#39;ennemi en se cachant sous terre."/>
+<TEXT ID="66058300" Text="Tend une embuscade à l&#39;ennemi en se cachant sous terre."/>
+<TEXT ID="66059100" Text="Laboure la terre pour attaquer l&#39;ennemi."/>
+<TEXT ID="66059200" Text="Laboure la terre pour attaquer l&#39;ennemi."/>
+<TEXT ID="66059300" Text="Laboure la terre pour attaquer l&#39;ennemi."/>
+<TEXT ID="66059400" Text="Invoque des taupes et fait vibrer le sous-sol."/>
+<TEXT ID="66059600" Text="Envoie de la poussière sur l&#39;ennemi."/>
+<TEXT ID="66061100" Text="Empoissonne les ennemis à proximité."/>
+<TEXT ID="66061200" Text="Empoissonne les ennemis à proximité."/>
+<TEXT ID="66062100" Text="Pique l&#39;ennemi armé d&#39;une lance."/>
+<TEXT ID="66062200" Text="Empoisonne son ennemi avec son dard vénéneux."/>
+<TEXT ID="66062300" Text="Crée un champs de magie pour réduire l&#39;ennemi au silence."/>
+<TEXT ID="66063100" Text="Attaque son ennemi à l&#39;aide de sa queue."/>
+<TEXT ID="66063200" Text="Attaque son ennemi à l&#39;aide de sa queue."/>
+<TEXT ID="66064100" Text="Attaque à l&#39;aide de ses griffes acérées."/>
+<TEXT ID="66064200" Text="Attaque à l&#39;aide de ses griffes acérées."/>
+<TEXT ID="66064300" Text="Attaque à l&#39;aide de ses griffes acérées."/>
+<TEXT ID="66067100" Text="Se jette sur l&#39;ennemi tout en se déplaçant."/>
+<TEXT ID="66068100" Text="Frappe l&#39;ennemi avec une chauve-souris."/>
+<TEXT ID="66069100" Text="Il semble aussi renfermé qu&#39;un Ours, mais il attaque l&#39;ennemi avec une force exceptionnelle."/>
+<TEXT ID="66070100" Text="Attaque l&#39;ennemi avec le seul bras qui lui reste."/>
+<TEXT ID="66071100" Text="Attache l&#39;ennemi avec ces nombreuses mains."/>
+<TEXT ID="66072100" Text="Utilise un rayon laser pour attaquer l&#39;ennemi."/>
+<TEXT ID="66074100" Text="Une créature engendrée par Dracula lui-même. Elle attaque quiconque s&#39;introduit dans le manoir."/>
+<TEXT ID="66074200" Text="Une créature à mi-chemin entre l&#39;homme et la bête. Mieux vaut ne pas la croiser un soir de plein lune."/>
+<TEXT ID="66074300" Text="Il était autrefois humain mais depuis que son sang a changé, il est devenu un monstre."/>
+<TEXT ID="66075100" Text="Attaque en agitant ses bras très rapidement."/>
+<TEXT ID="66075200" Text="Attaque en agitant ses bras tel un fou."/>
+<TEXT ID="66075300" Text="Crache un poison sur l&#39;ennemi pour le tuer."/>
+<TEXT ID="66075400" Text="Attaque en agitant ses bras très rapidement."/>
+<TEXT ID="66075500" Text="Attaque en agitant ses bras tel un fou."/>
+<TEXT ID="66075600" Text="Crache un poison sur l&#39;ennemi pour le tuer."/>
+<TEXT ID="66076100" Text="Un livre d&#39;apparence normale mais dans lequel se cache un monstre affreux."/>
+<TEXT ID="66076200" Text="Un livre d&#39;apparence normale mais dans lequel se cache un monstre affreux."/>
+<TEXT ID="66076300" Text="Un livre d&#39;apparence normale mais dans lequel se cache un monstre affreux."/>
+<TEXT ID="66077100" Text="Un garde qui tient son immense pouvoir du Comte Van Cliff."/>
+<TEXT ID="66077200" Text="Un garde qui tient son immense pouvoir du Comte Van Cliff."/>
+<TEXT ID="66077300" Text="Un garde qui tient son immense pouvoir du Comte Van Cliff."/>
+<TEXT ID="66078100" Text="Un coffre qui se transforme par le pouvoir de l&#39;envie. Aucun trésor, désolé."/>
+<TEXT ID="66078200" Text="Un coffre qui se transforme par le pouvoir de l&#39;envie. Aucun trésor, désolé."/>
+<TEXT ID="66078300" Text="Un coffre qui se transforme par le pouvoir de l&#39;envie. Aucun trésor, désolé."/>
+<TEXT ID="66079100" Text="Une âme est emprisonnée dans ce corps à la suite d&#39;une malédiction en faisant une créature mort-vivante."/>
+<TEXT ID="66079200" Text="Une âme est emprisonnée dans ce corps à la suite d&#39;une malédiction en faisant une créature mort-vivante."/>
+<TEXT ID="66079300" Text="Une âme est emprisonnée dans ce corps à la suite d&#39;une malédiction en faisant une créature mort-vivante."/>
+<TEXT ID="66080100" Text="Un chevalier pauvre mais droit à la recherche de sa tête."/>
+<TEXT ID="66080200" Text="Un chevalier pauvre mais droit à la recherche de sa tête."/>
+<TEXT ID="66080300" Text="Un chevalier pauvre mais droit à la recherche de sa tête."/>
+<TEXT ID="66081100" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66081200" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66081300" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66081400" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66081500" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66081600" Text="Un noble changé par Dracula après être venu au manoir sur invitation."/>
+<TEXT ID="66082100" Text="Une bonne du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082200" Text="L&#39;intendant du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082300" Text="Un domestique du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082400" Text="Une bonne du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082500" Text="L&#39;intendant du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082600" Text="Un domestique du manoir changé en monstre après une malédiction."/>
+<TEXT ID="66082700" Text="Bonne maudit se baladant une canne."/>
+<TEXT ID="66083100" Text="Un énorme rat qui s&#39;est transformé après avoir bu du sans de Quasimodo."/>
+<TEXT ID="66083200" Text="Un énorme rat qui s&#39;est transformé après avoir bu du sans de Quasimodo."/>
+<TEXT ID="66083300" Text="Un énorme rat qui s&#39;est transformé après avoir bu du sans de Quasimodo."/>
+<TEXT ID="66084100" Text="Conçu à partir d&#39;os de l&#39;Envie brisés et de gardes."/>
+<TEXT ID="66084200" Text="Conçu à partir d&#39;os de l&#39;Envie brisés et de gardes."/>
+<TEXT ID="66084300" Text="Conçu à partir d&#39;os de l&#39;Envie brisés et de gardes."/>
+<TEXT ID="66085100" Text="Un esprit à la recherche de ses jambes, assez triste à voir..."/>
+<TEXT ID="66085200" Text="Un esprit à la recherche de ses jambes, assez triste à voir..."/>
+<TEXT ID="66085300" Text="Un esprit à la recherche de ses jambes, assez triste à voir..."/>
+<TEXT ID="66086100" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66086200" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66086300" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66086400" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66086500" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66086600" Text="Les croyants de l&#39;Envie qui ont vendu leur âme pour cette cause."/>
+<TEXT ID="66087100" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66087200" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66087300" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66087400" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66087500" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66087600" Text="Un bourreau qui garde la prison. Il attaque tout le monde sous l&#39;effet d&#39;une malédiction."/>
+<TEXT ID="66088100" Text="Une épée venue à la vie à la suite d&#39;une malédiction."/>
+<TEXT ID="66088200" Text="Une épée venue à la vie à la suite d&#39;une malédiction."/>
+<TEXT ID="66088300" Text="Une épée venue à la vie à la suite d&#39;une malédiction."/>
+<TEXT ID="66091100" Text="Attaque à l&#39;aide d&#39;un monstre de Glace Grande corne."/>
+<TEXT ID="66091200" Text="Vous attaque à l&#39;aide d&#39;un entraînement."/>
+<TEXT ID="66091300" Text="Vous attaque à coups de décharges électriques."/>
+<TEXT ID="66091400" Text="Vous attaque en vous lançant de la glace."/>
+<TEXT ID="66091500" Text="Vous lance un sort magique."/>
+<TEXT ID="66094100" Text="Un guerrier extrêmement puissant, sinon il aurait bien du mal à survivre dans cette région glacée."/>
+<TEXT ID="66094200" Text="Vous lance un sort magique, mais pas très puissant..."/>
+<TEXT ID="66094300" Text="Un scout qui vous indique la voie à l&#39;aide de flèches."/>
+<TEXT ID="66097100" Text="Vous plante une lance."/>
+<TEXT ID="66098100" Text="Vous attaque à l&#39;aide d&#39;un souffle glacé. Et malodorant."/>
+<TEXT ID="66101100" Text="Tacle l&#39;ennemi à l&#39;aide de son corps."/>
+<TEXT ID="66101200" Text="Tacle l&#39;ennemi à l&#39;aide de son corps."/>
+<TEXT ID="66101300" Text="C&#39;est petit mais ça lance des attaques dévastatrices en piétinant le sol après un saut."/>
+<TEXT ID="66102100" Text="Charge l&#39;ennemi pour attaquer."/>
+<TEXT ID="66102200" Text="Lance des poignards sur ses ennemis."/>
+<TEXT ID="66102300" Text="Tire des boules de magie sur l&#39;ennemi."/>
+<TEXT ID="66102400" Text="Charge l&#39;ennemi pour attaquer."/>
+<TEXT ID="66102500" Text="Lance des poignards sur ses ennemis."/>
+<TEXT ID="66103100" Text="Se précipite sur l&#39;ennemi et l&#39;attaque."/>
+<TEXT ID="66103200" Text="Intimide l&#39;ennemi en rugissant avant de le charger."/>
+<TEXT ID="66104100" Text="Pique l&#39;ennemi du bout de sa lance."/>
+<TEXT ID="66104200" Text="Charge l&#39;ennemi pour attaquer."/>
+<TEXT ID="66104300" Text="Tire des flèches sur l&#39;ennemi."/>
+<TEXT ID="66104400" Text="Pourfend le sol pour piéger l&#39;ennemi et se protège à l&#39;aide de son bouclier."/>
+<TEXT ID="66104401" Text="Pourfend le sol pour piéger l&#39;ennemi et se protège à l&#39;aide de son bouclier."/>
+<TEXT ID="66104500" Text="Tire des flèches sur l&#39;ennemi."/>
+<TEXT ID="66105100" Text="Un type riche qui vous attaque avec sa pile de pièces."/>
+<TEXT ID="66106000" Text="Maître June"/>
+<TEXT ID="66106100" Text="Un chef chinois qui vous attaquera car il n&#39;a pas tout ça tête."/>
+<TEXT ID="66106200" Text="Du canard assaisonné. Ca sent bon !"/>
+<TEXT ID="66106300" Text="Un canard fumé, il a d&#39;ailleurs de nombreuses cicatrices de cette horrible épreuve de fumerie."/>
+<TEXT ID="66107100" Text="Une quenelle fourrée au boeuf."/>
+<TEXT ID="66107200" Text="Un reste de quenelle qui a pourri."/>
+<TEXT ID="66107300" Text="Des quenelles très épiciées dont la recette reste secrète."/>
+<TEXT ID="66108100" Text="Un cuit-vapeur en bambou assez classique."/>
+<TEXT ID="66108200" Text="Un cuit-vapeur un peu trop lourd pour une utilisation quotidienne."/>
+<TEXT ID="66108300" Text="Un cuit-vapeur en plastique, inutile."/>
+<TEXT ID="66109100" Text="Des pâtes maison fraîches et délicieuses."/>
+<TEXT ID="66109200" Text="Des pâtes fraîche à la texture un peu plus ferme."/>
+<TEXT ID="66109300" Text="Un plat de nouilles avec du boeuf. Attention c&#39;est chaud."/>
+<TEXT ID="66111100" Text="Un figurant qui n&#39;a qu&#39;une ligne de texte."/>
+<TEXT ID="66111200" Text="Un figurant qui n&#39;a absolument aucun texte à dire."/>
+<TEXT ID="66111300" Text="Un figurant qui n&#39;a que deux lignes de text..."/>
+<TEXT ID="66111400" Text="Un expert des  devenu fou à force d&#39;entraînement trop intensifs."/>
+<TEXT ID="66112100" Text="Un sablé bien cuit. Miam !"/>
+<TEXT ID="66112200" Text="Il a l&#39;air un peu cru."/>
+<TEXT ID="66112300" Text="Un sablé aux pépites de chocolat."/>
+<TEXT ID="66113100" Text="Un mélange subtil de chocolait, de lait et de chocolat."/>
+<TEXT ID="66113200" Text="Un chocolat qui en avait marre de faire comme les autres, il préférait le blanc."/>
+<TEXT ID="66113300" Text="Un chocolat qui répondra toujours &#39;fraise&#39; à la question &#39;fraise ou banane ?&#39;."/>
+<TEXT ID="66114100" Text="Un pudding tout mou."/>
+<TEXT ID="66114200" Text="Un pudding un peu moins mou, la force des myrtilles sans doute."/>
+<TEXT ID="66114300" Text="Un pudding composé d&#39;uniquement les meilleurs kiwis, ceux qui sont tous sucrés et qui ne piquent pas la langue."/>
+<TEXT ID="66115100" Text="Un chocolat aux pépites de... chocolat."/>
+<TEXT ID="66115200" Text="Un chocolat fêtard qui se fait souvent pourtant souvent recaler aux soirées."/>
+<TEXT ID="66115300" Text="Un chocolat avec des éclats de noisette."/>
+<TEXT ID="66116100" Text="Il aime à rêver de l&#39;époque où il n&#39;était que blé..."/>
+<TEXT ID="66116200" Text="Attention aux carries..."/>
+<TEXT ID="66116300" Text="Il a la réputation d&#39;être très froid envers ses ennemis."/>
+<TEXT ID="66117100" Text="Il ne lui manque que la tranche de gruyère pour se sentir accompli."/>
+<TEXT ID="66117200" Text="Il n&#39;a jamais su se décider entre le thon et la mayonnaise, alors il a décidé de mélanger les deux."/>
+<TEXT ID="66117300" Text="Fait à partir des plus fraîches tomates."/>
+<TEXT ID="66118100" Text="Une guimauve qui peut en cacher une autre."/>
+<TEXT ID="66118200" Text="Un robot batteur-mixeur devenu fou. C&#39;est lui qui dirige tous les ustensiles de cuisine de l&#39;usine."/>
+<TEXT ID="66119100" Text="Un jeune fugu bleu qui a en lui la fouge de l&#39;eau."/>
+<TEXT ID="66119200" Text="Une belle femelle fugu très imbue de sa personne qui s&#39;enflamme à la moindre contrariété."/>
+<TEXT ID="66119300" Text="Un fugu au regard fou. Ce sont sans doute les années de solitude qui l&#39;ont plongé dans la sombre folie que le fait se mettre des cornes bleues sur la tête."/>
+<TEXT ID="66121100" Text="Un hippo rebel à la coupe irrationnelle. Il vous fera la misère avec son épée de guerre."/>
+<TEXT ID="66121200" Text="Un hippo rebel à la coupe cannelle. Sa moto enfourchée, il file vers la liberté."/>
+<TEXT ID="66121300" Text="Un hippo sans coupe, mais avec une perruque, et pas des moindres car celle-ci fait tomber toutes les hipponnes."/>
+<TEXT ID="66122100" Text="Un golem qui a traîné un peu trop longtemps dans l&#39;eau, ses joyaux sont recouverts d&#39;algues."/>
+<TEXT ID="66122200" Text="Les spécialistes vous diront que ce golem est en réalité fait de quartz, mais lui préfère dire qu&#39;il s&#39;agit de saphir."/>
+<TEXT ID="66122300" Text="Et ils se demandent encore comment l&#39;eau du Temple a bien pu être polluée..."/>
+<TEXT ID="66123100" Text="Il a décidé de renier son régime alimentaire de base pour ne s&#39;intéresser qu&#39;aux légumes. Bien que sa résolution est louable, elle a fait de lui la risée des autres crocos qui lui ont alors donné ce nom très peu sympathique."/>
+<TEXT ID="66123200" Text="Ne dit aimer que le homard, mais c&#39;est facile d&#39;appeler une huître homard pour se dédouaner de tout dévorer sur son passage."/>
+<TEXT ID="66123300" Text="Son activité principale est de se balader dans le Temple afin de fournir en crustacés les autres habitants qui raffolent de fruits de mer. Son plus gros client reste néanmoins le Crocosaurus."/>
+<TEXT ID="66124100" Text="L&#39;esprit supérieur de l&#39;eau."/>
+<TEXT ID="66126100" Text="Sorcière Pâris"/>
+<TEXT ID="66127100" Text="Taco "/>
+<TEXT ID="66127200" Text="Taco à la crème"/>
+<TEXT ID="66127300" Text="Taco encreur"/>
+<TEXT ID="66128100" Text="Onigiri"/>
+<TEXT ID="66128200" Text="Onigiri rageux"/>
+<TEXT ID="66128300" Text="Onigiri épicé"/>
+<TEXT ID="66129100" Text="Flan cerise"/>
+<TEXT ID="66129200" Text="Flan crème"/>
+<TEXT ID="66129300" Text="Flan choco"/>
+<TEXT ID="66130100" Text="Tempura  sauvage"/>
+<TEXT ID="66130200" Text="Nouille sauvage"/>
+<TEXT ID="66130300" Text="Tofu sauvage"/>
+<TEXT ID="66131100" Text="sushi crevette"/>
+<TEXT ID="66131200" Text="sushi poulpe"/>
+<TEXT ID="66131300" Text="sushi maquereau"/>
+<TEXT ID="66131400" Text="sushi esturgeon"/>
+<TEXT ID="66131500" Text="sushi rogue"/>
+<TEXT ID="66132100" Text="Odoro, roi des sushis"/>
+<TEXT ID="66132200" Text="Maître sushi"/>
+<TEXT ID="66465100" Text="Un gardien à l&#39;air un peu... bête. Lance des tuyaux métalliques et c&#39;est à peu près tout."/>
+<TEXT ID="66465200" Text="Une attaque aérienne peut être si fatale. Pourquoi ne s&#39;est-il pas abattu sur moi avec ses griffes ?"/>
+<TEXT ID="66465300" Text="Un excentrique qui vous lance des flammes."/>
+<TEXT ID="66466100" Text="Court et vous attaque avec une perceuse."/>
+<TEXT ID="66466200" Text="Vous lance des missiles un peu moqueurs sur les bords..."/>
+<TEXT ID="66466300" Text="Dégage un gaz qui asphixie les joueurs."/>
+<TEXT ID="66501100" Text="Un gardien à l&#39;air un peu... bête. Lance des tuyaux métalliques et c&#39;est à peu près tout."/>
+<TEXT ID="66501200" Text="Une attaque aérienne peut être si fatale. Pourquoi ne s&#39;est-il pas abattu sur moi avec ses griffes ?"/>
+<TEXT ID="66501300" Text="Un excentrique qui vous lance des flammes."/>
+<TEXT ID="66501400" Text="Court et vous attaque avec une perceuse."/>
+<TEXT ID="66501500" Text="Vous lance des missiles un peu moqueurs sur les bords..."/>
+<TEXT ID="66501600" Text="Dégage un gaz qui asphixie les joueurs."/>
+<TEXT ID="66600100" Text="Charge l&#39;ennemi et le frappe à l&#39;aide d&#39;une arme."/>
+<TEXT ID="66600200" Text="Lance des fémurs sur l&#39;ennmi."/>
+<TEXT ID="66600300" Text="Tacle l&#39;ennemi tout en virevoltant dans les airs."/>
+<TEXT ID="66600400" Text="Attaque l&#39;ennemi avec des hurlements."/>
+<TEXT ID="66600500" Text="Crée un champs de magie pour réduire l&#39;ennemi au silence."/>
+<TEXT ID="66600600" Text="Assène des coups à l&#39;ennemi."/>
+<TEXT ID="66600700" Text="Invoque une attaque magique à l&#39;aide de ses cornes."/>
+<TEXT ID="66600800" Text="Gèle la cible à l&#39;aide de souffle glacé."/>
+<TEXT ID="66600900" Text="Fouette l&#39;ennemi avec la queue et crache des flammes sur l&#39;ennemi."/>
+<TEXT ID="66601100" Text="Se fait exploser pour attaquer l&#39;ennemi dès qu&#39;il est en vue."/>
+<TEXT ID="66601200" Text="Blesse l&#39;ennemi d&#39;un coup de faux empoisonnée."/>
+<TEXT ID="66601300" Text="Attaque avec un rude plaquage au corps."/>
+<TEXT ID="66601400" Text="Se rue prestement sur l&#39;ennemi."/>
+<TEXT ID="66601500" Text="Matraque l&#39;ennemi avec sa  patte-gourdin."/>
+<TEXT ID="66601600" Text="Se tortille avant de se jeter sur l&#39;ennemi."/>
+<TEXT ID="66601700" Text="Se jette sur l&#39;ennemi tout en se déplaçant."/>
+<TEXT ID="66601800" Text="Attaque l&#39;ennemi avec des pinces."/>
+<TEXT ID="66601900" Text="Se rue sur l&#39;ennemi en faisant tournoyer ses deux mains."/>
+<TEXT ID="66602100" Text="Charge l&#39;ennemi pour l&#39;attaquer."/>
+<TEXT ID="66602200" Text="Attaque son ennemi à l&#39;aide de sa queue."/>
+<TEXT ID="66603100" Text="Attaque ces ennemis avec une lame de scie."/>
+<TEXT ID="66603200" Text="Pauvre lapin ayant perdu la raison après être resté coincé dans un piège."/>
+<TEXT ID="66603300" Text="A la recherche de sang frais."/>
+<TEXT ID="66603400" Text="Se balade souvent les soirs de pleine lune."/>
+<TEXT ID="66603500" Text="S&#39;est transformé en monstre en plein service."/>
+<TEXT ID="66603600" Text="Un arbre de Noël, cassez-lui la figure et il vous donnera des objets."/>
+<TEXT ID="66603700" Text="Un bonhomme de neige qui s&#39;attaque à toutes les personnes qui osent mettre de la neige partout."/>
+<TEXT ID="66800100" Text="Evénement CHN"/>
+<TEXT ID="66902100" Text="Soldat de Carte 1 de Coeur"/>
+<TEXT ID="66902200" Text="Soldat de Carte 2 de Coeur"/>
+<TEXT ID="66902300" Text="Soldat de Carte 3 de Coeur"/>
+<TEXT ID="66902400" Text="Soldat de Carte 4 de Coeur"/>
+<TEXT ID="66902500" Text="Soldat de Carte 5 de Coeur"/>
+<TEXT ID="66902600" Text="Soldat de Carte 6 de Coeur"/>
+<TEXT ID="66902700" Text="Il arbore toujours un sourire gigantesque...et inquiétant."/>
+<TEXT ID="66902800" Text="Son air de grincheux met quelque peu mal à l&#39;aise..."/>
+<TEXT ID="66902900" Text="Si la coquille se casse quelque chose en sortira ? "/>
+<TEXT ID="66903000" Text="Ce n&#39;est qu&#39;une chenille mais elle est étonnamment rapide !"/>
+<TEXT ID="66903100" Text="Très rusée et sournoise."/>
+<TEXT ID="66903200" Text="Elle possède des dents incroyablement aiguisées."/>
+<TEXT ID="66903300" Text="Son chapeau recouvre ses yeux fatigués."/>
+<TEXT ID="66903400" Text="Soldat de Carte marqué d&#39;un [J]"/>
+<TEXT ID="66903500" Text="Soldat de Carte marqué d&#39;un [Q]"/>
+<TEXT ID="66903600" Text="Soldat de Carte marqué d&#39;un [K]"/>
+<TEXT ID="66903700" Text="Son cri strident paralyse les ennemis."/>
+<TEXT ID="66999100" Text="Woodie rouge de colère"/>
+<TEXT ID="67900101" Text="Pachuree"/>
+<TEXT ID="67900102" Text="Cassandre"/>
+<TEXT ID="67900103" Text="Alfredo"/>
+<TEXT ID="67900104" Text="Sébastien"/>
+<TEXT ID="67900105" Text="Ukutoo"/>
+<TEXT ID="67900106" Text="Vargo"/>
+<TEXT ID="67900107" Text="Grotès"/>
+<TEXT ID="67900108" Text="La Coon"/>
+<TEXT ID="67900109" Text="B-Chop"/>
+<TEXT ID="67900110" Text="Quasimodo"/>
+<TEXT ID="67900111" Text="Neketa"/>
+<TEXT ID="67900112" Text="Necota"/>
+<TEXT ID="67900113" Text="Cézanne"/>
+<TEXT ID="67900114" Text="Alf"/>
+<TEXT ID="67900115" Text="Bazet"/>
+<TEXT ID="67900116" Text="Cassana"/>
+<TEXT ID="67900117" Text="Briseur de coeur"/>
+<TEXT ID="67900118" Text="Boocher"/>
+<TEXT ID="67900119" Text="Varès"/>
+<TEXT ID="67900120" Text="Comte Van Cliff"/>
+<TEXT ID="67900121" Text="Prêtre sombre"/>
+<TEXT ID="67900122" Text="Fantôme de Sébastien"/>
+<TEXT ID="67900123" Text="Preeson"/>
+<TEXT ID="67900124" Text="Scolfield"/>
+<TEXT ID="67900125" Text="Francky"/>
+<TEXT ID="67900126" Text="Ecrabouilleur"/>
+<TEXT ID="67900127" Text="Fantôme de Cassana"/>
+<TEXT ID="67900128" Text="Poignardeur"/>
+<TEXT ID="67900129" Text="Shamari"/>
+<TEXT ID="67900130" Text="Rahnoff le Loup-garou"/>
+<TEXT ID="67900131" Text="Epée maudite Solek"/>
+<TEXT ID="67900132" Text="Khumari"/>
+<TEXT ID="67900133" Text="Sharpion"/>
+<TEXT ID="67900134" Text="Garoum"/>
+<TEXT ID="67900135" Text="Bazet"/>
+<TEXT ID="67900136" Text="Goldora"/>
+<TEXT ID="67900137" Text="Précipitation du coeur"/>
+<TEXT ID="67900138" Text="Caobomb"/>
+<TEXT ID="67900139" Text="Arcris"/>
+<TEXT ID="67900140" Text="Turoomba"/>
+<TEXT ID="67900141" Text="Menta de fer"/>
+<TEXT ID="67900142" Text="Yubelk"/>
+<TEXT ID="67900143" Text="Herman"/>
+<TEXT ID="67900144" Text="Kushas"/>
+<TEXT ID="67900145" Text="Kerubeam"/>
+<TEXT ID="67900146" Text="Ravageur"/>
+<TEXT ID="67900147" Text="Champiroi"/>
+<TEXT ID="67900148" Text="Hidon"/>
+<TEXT ID="67900149" Text="Alquione"/>
+<TEXT ID="67900150" Text="Keiron"/>
+<TEXT ID="67900151" Text="Bonoko"/>
+<TEXT ID="67900152" Text="Proxima"/>
+<TEXT ID="67900153" Text="Boutentrain"/>
+<TEXT ID="67900154" Text="D-Vath"/>
+<TEXT ID="67900155" Text="Checkrops"/>
+<TEXT ID="67900156" Text="Mockelon"/>
+<TEXT ID="67900157" Text="Carcus"/>
+<TEXT ID="67900158" Text="Tiermart"/>
+<TEXT ID="67900159" Text="Argos"/>
+<TEXT ID="67900160" Text="Moalon"/>
+<TEXT ID="67900161" Text="Pathagon"/>
+<TEXT ID="67900162" Text="Kemeron"/>
+<TEXT ID="67900163" Text="Za Hark"/>
+<TEXT ID="67900164" Text="Kakishu"/>
+<TEXT ID="67900165" Text="Maître de la mort"/>
+<TEXT ID="67900166" Text="Magenca"/>
+<TEXT ID="67900167" Text="KaRoomba"/>
+<TEXT ID="67900168" Text="Kerovan"/>
+<TEXT ID="67900169" Text="Phydama"/>
+<TEXT ID="67900170" Text="Kerubeam"/>
+<TEXT ID="67900171" Text="Roi Lexas"/>
+<TEXT ID="67900172" Text="Goldora"/>
+<TEXT ID="67900173" Text="Kabomb "/>
+<TEXT ID="67900174" Text="Gaiden"/>
+<TEXT ID="67900175" Text="Arkmur"/>
+<TEXT ID="67900176" Text="Patis"/>
+<TEXT ID="67900177" Text="Virbe"/>
+<TEXT ID="67900178" Text="Murdal"/>
+<TEXT ID="67900179" Text="Kimart"/>
+<TEXT ID="67900180" Text="Koontarès"/>
+<TEXT ID="67900181" Text="Roi Menta"/>
+<TEXT ID="67900182" Text="Vantarès"/>
+<TEXT ID="67900183" Text="Storas"/>
+<TEXT ID="67900184" Text="Antarès"/>
+<TEXT ID="67900185" Text="Comte Van Cliff"/>
+<TEXT ID="67900186" Text="Dragon d&#39;os"/>
+<TEXT ID="67900201" Text="Zazell"/>
+<TEXT ID="67900202" Text="Prox doré"/>
+<TEXT ID="67900203" Text="Caobomb"/>
+<TEXT ID="67900204" Text="Kakishu"/>
+<TEXT ID="67900205" Text="Kerubeam"/>
+<TEXT ID="67900206" Text="Kerovan"/>
+<TEXT ID="69010100" Text="J&#39;avais... Faim... Voilà tout..."/>
+<TEXT ID="69010130" Text="*Pleure*"/>
+<TEXT ID="69010150" Text="Je vais... devenir une star..."/>
+<TEXT ID="69010200" Text="J&#39;aurais dû t&#39;arrêter..."/>
+<TEXT ID="69010310" Text="Un jour, je te mangerai !"/>
+<TEXT ID="69010320" Text="C&#39;est si triste de mourir ainsi."/>
+<TEXT ID="69010330" Text="Argh... Tu m&#39;as tué... Je m&#39;en souviendrai."/>
+<TEXT ID="69010400" Text="Je reviendrai..."/>
+<TEXT ID="69010430" Text="Je veux rentrer à ma maison... avec ma maman"/>
+<TEXT ID="69010600" Text="Arf... Je ne devrais pas me battre..."/>
+<TEXT ID="69020100" Text="Je... vais... te... tu... argh..."/>
+<TEXT ID="69020300" Text="Tout ce que je voulais c&#39;est être roi..."/>
+<TEXT ID="69020310" Text="Cracrapaud... Oh..."/>
+<TEXT ID="69020320" Text="Crapaud... Oh"/>
+<TEXT ID="69020400" Text="Mon pouvoir a disparu."/>
+<TEXT ID="69020410" Text="Blakilon a mal. Pas bien."/>
+<TEXT ID="69020420" Text="Ma tête... Qu&#39;est-ce que... Pourquoi ?"/>
+<TEXT ID="69020440" Text="Ssssssskkkkkkk"/>
+<TEXT ID="69020500" Text="Au fond, son pouvoir, c&#39;était du bluff."/>
+<TEXT ID="69020520" Text="Je vais tout détruire !"/>
+<TEXT ID="69030100" Text="Je dois mener les... Mimirs..."/>
+<TEXT ID="69030130" Text="Arf... Je ne suis plus un super guerrier..."/>
+<TEXT ID="69030200" Text="Je veux mourir avec grâce."/>
+<TEXT ID="69030230" Text="El... ga... Mon seigneur..."/>
+<TEXT ID="69030300" Text="Pour Elga..."/>
+<TEXT ID="69030330" Text="C&#39;est Mosash, il m&#39;a battu..."/>
+<TEXT ID="69030360" Text="Ouvre l&#39;oeil... Je reviendrai."/>
+<TEXT ID="79010100" Text="Qu&#39;est-ce que c&#39;est ? Je suis de nouveau vivant ?"/>
+<TEXT ID="79010130" Text="Uhuhu je suis de retour."/>
+<TEXT ID="79010150" Text="Adadadada ! Prends-ç... Hein ? J&#39;étais pas mort moi ?"/>
+<TEXT ID="79010200" Text="Arrête... Arrête..."/>
+<TEXT ID="79010310" Text="Je suis de retour !"/>
+<TEXT ID="79010320" Text="Cette terre m&#39;appartient à présent !"/>
+<TEXT ID="79010330" Text="Que tout le monde s&#39;agenouille devant moi !"/>
+<TEXT ID="79010400" Text="Mouhahahaha ! Me voilà !"/>
+<TEXT ID="79010430" Text="Imbéciles ! Je jeterai un sort sur quiconque foulera mes terres !"/>
+<TEXT ID="79010600" Text="Un pouvoir inconnu... qui me revient... Je suis de nouveau vivant ?"/>
+<TEXT ID="79020100" Text="Bouhou... Je vais tous vous tuer..."/>
+<TEXT ID="79020300" Text="Qu&#39;est-ce que c&#39;est ? Mouhahaha ! Je suis le roi !"/>
+<TEXT ID="79020310" Text="Cracrapaud... Cracrapaud..."/>
+<TEXT ID="79020320" Text="Crapaud... Crapaud..."/>
+<TEXT ID="79020400" Text="Mon puissant pouvoir, revenu à moi..."/>
+<TEXT ID="79020410" Text="Quoi ? Je ne suis pas déjà mort ?"/>
+<TEXT ID="79020420" Text="Je me souviens maintenant ! Tuer les gens de la Communauté !"/>
+<TEXT ID="79020440" Text="Ssssss... Ssssssss..."/>
+<TEXT ID="79020500" Text="Moi ? Revivre ? Je ne connaissais pas ce pouvoir..."/>
+<TEXT ID="79020520" Text="Je suis de retour et je vais tout détruire !"/>
+<TEXT ID="79030100" Text="Ah... Apparamment je suis revenu à la vie..."/>
+<TEXT ID="79030130" Text="Hein ? Suis-je de nouveau vivant ? Je suis peut-être bien un super guerrier après tout."/>
+<TEXT ID="79030200" Text="Ressuscité. Parfait. "/>
+<TEXT ID="79030230" Text="Par le pouvoir d&#39;Elga ! Je suis de nouveau en vie !"/>
+<TEXT ID="79030300" Text="Ressuscité par le pouvoir du seigneur sombre."/>
+<TEXT ID="79030330" Text="C&#39;est Mosash ! Vivant ! Vivant !"/>
+<TEXT ID="79030360" Text="Ohhhhh De la chair fraîche... Viens me voir !!"/>
+<TEXT ID="633541207" Text="Ame damnée"/>
+<TEXT ID="633560100" Text="Sinistre Deumo"/>
+<TEXT ID="633560200" Text="Sinistre Garde Démon"/>
+<TEXT ID="633560300" Text="Créature sombre"/>
+<TEXT ID="633560400" Text="Sinistre Skelldrark "/>
+<TEXT ID="633560500" Text="Sinistre Démon"/>
+<TEXT ID="633560600" Text="Vigile de l&#39;Enfer"/>
+<TEXT ID="633570100" Text="Harpie Blonde"/>
+<TEXT ID="633570200" Text="Harpie Brune"/>
+<TEXT ID="633570300" Text="Harpie Pourpre"/>
+<TEXT ID="633570400" Text="Esprit Frappeur"/>
+<TEXT ID="633570500" Text="Esprit Voleur"/>
+<TEXT ID="633570600" Text="Esprit Guetteur"/>
+<TEXT ID="633570700" Text="Kalke de Métal"/>
+<TEXT ID="633570800" Text="Drake de Métal"/>
+<TEXT ID="633570900" Text="Molosse de Métal"/>
+<TEXT ID="633571100" Text="Golem Cuirassé"/>
+<TEXT ID="633571200" Text="Barrique Cuirassée"/>
+<TEXT ID="633571300" Text="Pignon Cuirassé"/>
+<TEXT ID="633571400" Text="Satyre"/>
+<TEXT ID="633571500" Text="Pignon Mécanique"/>
+<TEXT ID="633571600" Text="Satyre Laser"/>
+<TEXT ID="796126101" Text="La revanche de Pâris"/>
+<TEXT ID="5871003" Text="Le Gardien a rejoint l&#39;équipe Rouge."/>
+<TEXT ID="5871103" Text="Le Gardien a rejoint l&#39;équipe Bleue."/>
+<TEXT ID="5871000" Text="Bonus du Gardien Rouge"/>
+<TEXT ID="5871100" Text="Bonus du Gardien Bleu"/>
+<TEXT ID="5871001" Text="Bonus du Gardien Rouge"/>
+<TEXT ID="5871101" Text="Bonus du Gardien Bleu"/>
+<TEXT ID="6001011" Text="ID_6001011"/>
+<TEXT ID="6001012" Text="ID_6001012"/>
+<TEXT ID="6001013" Text="ID_6001013"/>
+<TEXT ID="6001014" Text="ID_6001014"/>
+<TEXT ID="695851100" Text="La vitesse de mouvement est réduite de 10 % pendant 3 secondes."/>
+<TEXT ID="695851200" Text="La vitesse de mouvement est réduite de 20 % pendant 3 secondes."/>
+<TEXT ID="695851300" Text="La vitesse de mouvement est réduite de 30 % pendant 3 secondes."/>
+<TEXT ID="5810220" Text="Gardien Tempête de Glace"/>
+<TEXT ID="5810221" Text="Gardien Tempête de Glace"/>
+<TEXT ID="5810222" Text="Gardien Tempête de Glace"/>
+<TEXT ID="8104700" Text="Cookie le Filou"/>
+<TEXT ID="8104800" Text="Monsieur Spéculos"/>
+<TEXT ID="8104600" Text="Catherinette"/>
+<TEXT ID="68104600" Text="Catherinette"/>
+<TEXT ID="68104800" Text="Monsieur Spéculos"/>
+<TEXT ID="8106300" Text="Titan Céleste"/>
+<TEXT ID="68106300" Text="Une ombre inquiétante entoure ce géant"/>
+<TEXT ID="8106400" Text="Titan des Enfers"/>
+<TEXT ID="68106400" Text="Des flammes brûlantes entourent ce géant"/>
+<TEXT ID="8106500" Text="Titan des Glaces"/>
+<TEXT ID="68106500" Text="Un vent glaçant entoure ce géant"/>
+<TEXT ID="4701700" Text="Poring"/>
+<TEXT ID="4701800" Text="Angelus"/>
+<TEXT ID="4701810" Text="Titant Angelus"/>
+<TEXT ID="4701820" Text="Nain Angelus"/>
+<TEXT ID="4701900" Text="Goblin marteau"/>
+<TEXT ID="4702000" Text="Goblin bûcheron"/>
+<TEXT ID="4702100" Text="Orc soldat"/>
+<TEXT ID="4702200" Text="Orc suprême"/>
+<TEXT ID="64702200" Text="Un soldat d&#39;élite Orc"/>
+<TEXT ID="4702300" Text="Orc héros"/>
+<TEXT ID="64702300" Text="Le chef de l&#39;armée Orc, méfiez-vous de ses attaques redoutables."/>
+<TEXT ID="4702400" Text="Zombie"/>
+<TEXT ID="4702500" Text="Goule"/>
+<TEXT ID="4702600" Text="Mimic"/>
+<TEXT ID="4702700" Text="Spêctre"/>
+<TEXT ID="4702800" Text="Chasseur volant"/>
+<TEXT ID="4702900" Text="Druide maléfiique"/>
+<TEXT ID="4703000" Text="Mage noir"/>
+<TEXT ID="4703100" Text="Seigneur sombre"/>
+<TEXT ID="8108100" Text="Corbeau damné"/>
+<TEXT ID="8108200" Text="Fureur de Kimart"/>
+<TEXT ID="8108300" Text="Freonos le briseur de lame"/>
+<TEXT ID="8108400" Text="Abraxas de Glace"/>
+<TEXT ID="5842301" Text="Poison"/>
+<TEXT ID="65842301" Text="Sous les effets du poison, vous perdez vos PV par tranche de 50 toutes les 3 secondes pendant la durée de l&#39;effet."/>
+<TEXT ID="5842401" Text="Saignement"/>
+<TEXT ID="65842401" Text="Sous les effets du saignement, vous perdez vos PV par tranche de 50 toutes les 3 secondes pendant la durée de l&#39;effet."/>
+<TEXT ID="5842501" Text="Brûlure"/>
+<TEXT ID="65842501" Text="Sous les effets de la brûlure, vous perdez vos PV par tranche de 50 toutes les 3 secondes pendant la durée de l&#39;effet."/>
+<TEXT ID="3543100" Text="Rageur"/>
+<TEXT ID="4701710" Text="Poporing"/>
+<TEXT ID="4701720" Text="Drop"/>
+<TEXT ID="2501" Text="Venin"/>
+<TEXT ID="12501" Text="Infecté par du venin. Perte de 5 PV toutes les 2 secondes pendant 15 secondes."/>
+<TEXT ID="6071700" Text="Woodie doré géant"/>
+<TEXT ID="6071800" Text="Mini Woodie doré"/>
+<TEXT ID="6071900" Text="Mini Woodie"/>
+<TEXT ID="6071901" Text="Mini Erable"/>
+<TEXT ID="6071902" Text="Mini Verdie"/>
+<TEXT ID="60189041" Text="Congelé, impossible de bouger."/>
+<TEXT ID="6071102" Text="Congélation"/>
+<TEXT ID="7271100" Text="Nez Rouge"/>
+<TEXT ID="7271200" Text="Neigeux grognon"/>
+<TEXT ID="7271300" Text="Yeti de Noël"/>
+<TEXT ID="7271400" Text="Furie-neigeux"/>
+<TEXT ID="7271500" Text="Jacko po&#39;d pot"/>
+<TEXT ID="7271600" Text="Sapinoël"/>
+<TEXT ID="7271700" Text="Pixie Lili"/>
+<TEXT ID="7271800" Text="Carrie-man"/>
+<TEXT ID="7271900" Text="Mastiff des neiges"/>
+<TEXT ID="7272000" Text="Sumo des neiges"/>
+<TEXT ID="7272100" Text="Valkys Comtesse de Noël"/>
+<TEXT ID="7272200" Text="Reine Artika"/>
+<TEXT ID="7272300" Text="Flip-flap"/>
+<TEXT ID="7272400" Text="Babayaga plumeux"/>
+<TEXT ID="7272500" Text="Fée flocon"/>
+<TEXT ID="7272600" Text="Hotte de Noël"/>
+<TEXT ID="7272700" Text="Sumo flocon"/>
+<TEXT ID="7272800" Text="Velkys Baronne de Noël"/>
+<TEXT ID="7281100" Text="Typhon"/>
+<TEXT ID="6083700" Text="Ingénieur"/>
+<TEXT ID="6501201" Text="Assassin"/>
+<TEXT ID="6501101" Text="Gardien"/>
+<TEXT ID="6501401" Text="Mineur"/>
+<TEXT ID="7281200" Text="Minotaure"/>
+<TEXT ID="7281300" Text="Europe"/>
+<TEXT ID="7281400" Text="Cancer"/>
+<TEXT ID="7281500" Text="Kaïon"/>
+<TEXT ID="7281600" Text="Castor &#38; Pollux"/>
+<TEXT ID="7281700" Text="Castor &#38; Pollux"/>
+<TEXT ID="7281605" Text="Pollux"/>
+<TEXT ID="7281705" Text="Castor"/>
+<TEXT ID="7281800" Text="Hadès"/>
+<TEXT ID="7281900" Text="Roi Scorpion"/>
+<TEXT ID="7282000" Text="Chiron"/>
+<TEXT ID="7282100" Text="Hydre"/>
+<TEXT ID="7282200" Text="Hydre"/>
+<TEXT ID="7282300" Text="Hydre"/>
+<TEXT ID="7282400" Text="Péas"/>
+<TEXT ID="7282500" Text="Serpentis"/>
+<TEXT ID="7282600" Text="Pollux"/>
+<TEXT ID="7282700" Text="Héraclès"/>
+<TEXT ID="7282800" Text="Persée"/>
+<TEXT ID="3542500" Text="Coffret aux trésors d&#39;Elga"/>
+<TEXT ID="7902100" Text="Sombre zombie agonisant"/>
+<TEXT ID="7902200" Text="Sombre bonne de Van Cliff sans âme"/>
+<TEXT ID="7902300" Text="Sombre intendant de Van Cliff sans âme"/>
+<TEXT ID="7902400" Text="Sombre jeune femme sans âme"/>
+<TEXT ID="7902500" Text="Sombre gargouille sans âme"/>
+<TEXT ID="7902600" Text="Sombre gargouille en souffrance"/>
+<TEXT ID="7902700" Text="Sombre chasseur d&#39;âmes"/>
+<TEXT ID="7902800" Text="Sombre maître de la souffrance"/>
+<TEXT ID="7900300" Text="Ver azur"/>
+<TEXT ID="7900400" Text="Croco azur"/>
+<TEXT ID="7900500" Text="Totu azur"/>
+<TEXT ID="7900600" Text="Caracha azur"/>
+<TEXT ID="7900700" Text="Crabby azur"/>
+<TEXT ID="7900800" Text="Endairon azur"/>
+<TEXT ID="7900900" Text="Liche azur"/>
+<TEXT ID="7901000" Text="Garde azur"/>
+<TEXT ID="7901100" Text="Coffret azur"/>
+<TEXT ID="7901200" Text="Esprit maléfique azur"/>
+<TEXT ID="7901300" Text="Artis azur"/>
+<TEXT ID="7901400" Text="Gardien azur"/>
+<TEXT ID="7901500" Text="Balafré azur"/>
+<TEXT ID="7901600" Text="Loup-garou azur"/>
+<TEXT ID="7901700" Text="Fenir azur"/>
+<TEXT ID="7901800" Text="Raty azur"/>
+<TEXT ID="7901900" Text="Loup azur"/>
+<TEXT ID="7902000" Text="Porky azur"/>
+<TEXT ID="7902900" Text="Combattant Kentar azur"/>
+<TEXT ID="7903000" Text="Eclaireur Kentar azur"/>
+<TEXT ID="7903100" Text="Lantea azur"/>
+<TEXT ID="7903200" Text="Mello azur"/>
+<TEXT ID="7903210" Text="Pan Jan azur"/>
+<TEXT ID="7903220" Text="Pan Jan azur"/>
+<TEXT ID="7903300" Text="Pirate de l&#39;espace"/>
+<TEXT ID="5910000" Text="Vent Solaire - Invocation"/>
+<TEXT ID="5910100" Text="Vent Solaire [Nv.1]"/>
+<TEXT ID="5910200" Text="Vent Solaire [Nv.2]"/>
+<TEXT ID="5910300" Text="Vent Solaire [Nv.3]"/>
+<TEXT ID="5910400" Text="Vent Solaire [Nv.4]"/>
+<TEXT ID="5910500" Text="Vent Solaire [Nv.5]"/>
+<TEXT ID="5910600" Text="Vent Solaire [Nv.6]"/>
+<TEXT ID="5910700" Text="Vent Solaire [Nv.7]"/>
+<TEXT ID="5910800" Text="Vent Solairee [Nv.8]"/>
+<TEXT ID="5910900" Text="Vent Solaire [Nv.9]"/>
+<TEXT ID="5911000" Text="Vent Solaire [Nv.10]"/>
+<TEXT ID="5920000" Text="Plasma - Invocation"/>
+<TEXT ID="5920100" Text="Plasma [Nv.1]"/>
+<TEXT ID="5920200" Text="Plasma [Nv.2]"/>
+<TEXT ID="5920300" Text="Plasma [Nv.3]"/>
+<TEXT ID="5920400" Text="Plasma [Nv.4]"/>
+<TEXT ID="5920500" Text="Plasma [Nv.5]"/>
+<TEXT ID="5920600" Text="Plasma [Nv.6]"/>
+<TEXT ID="5920700" Text="Plasma [Nv.7]"/>
+<TEXT ID="5920800" Text="Plasma [Nv.8]"/>
+<TEXT ID="5920900" Text="Plasma [Nv.9]"/>
+<TEXT ID="5921000" Text="Plasma [Nv.10]"/>
+<TEXT ID="5921100" Text="Plasma"/>
+<TEXT ID="5930000" Text="Energie Gaïa - Invocation"/>
+<TEXT ID="5930100" Text="Energie Gaïa [Nv.1]"/>
+<TEXT ID="5930200" Text="Energie Gaïa [Nv.2]"/>
+<TEXT ID="5930300" Text="Energie Gaïa [Nv.3]"/>
+<TEXT ID="5930400" Text="Energie Gaïa [Nv.4]"/>
+<TEXT ID="5930500" Text="Energie Gaïa [Nv.5]"/>
+<TEXT ID="5930600" Text="Energie Gaïa [Nv.6]"/>
+<TEXT ID="5930700" Text="Energie Gaïa [Nv.7]"/>
+<TEXT ID="5930800" Text="Energie Gaïa [Nv.8]"/>
+<TEXT ID="5930900" Text="Energie Gaïa [Nv.9]"/>
+<TEXT ID="5931000" Text="Energie Gaïa [Nv.10]"/>
+<TEXT ID="5931100" Text="Energie Gaïa"/>
+<TEXT ID="5940000" Text="Ionisation - Invocation"/>
+<TEXT ID="5940100" Text="Ionisation [Nv.1]"/>
+<TEXT ID="5940200" Text="Ionisation [Nv.2]"/>
+<TEXT ID="5940300" Text="Ionisation [Nv.3]"/>
+<TEXT ID="5940400" Text="Ionisation [Nv.4]"/>
+<TEXT ID="5940500" Text="Ionisation [Nv.5]"/>
+<TEXT ID="5940600" Text="Ionisation [Nv.6]"/>
+<TEXT ID="5940700" Text="Ionisation [Nv.7]"/>
+<TEXT ID="5940800" Text="Ionisation [Nv.8]"/>
+<TEXT ID="5940900" Text="Ionisation [Nv.9]"/>
+<TEXT ID="5941000" Text="Ionisation [Nv.10]"/>
+<TEXT ID="5941100" Text="Ionisation"/>
+<TEXT ID="5950000" Text="Naine brune - Invocation"/>
+<TEXT ID="5950100" Text="Naine brune [Nv.1]"/>
+<TEXT ID="5950200" Text="Naine brune [Nv.2]"/>
+<TEXT ID="5950300" Text="Naine brune [Nv.3]"/>
+<TEXT ID="5950400" Text="Naine brune [Nv.4]"/>
+<TEXT ID="5950500" Text="Naine brune [Nv.5]"/>
+<TEXT ID="5950600" Text="Naine brune [Nv.6]"/>
+<TEXT ID="5950700" Text="Naine brune [Nv.7]"/>
+<TEXT ID="5950800" Text="Naine brune [Nv.8]"/>
+<TEXT ID="5950900" Text="Naine brune [Nv.9]"/>
+<TEXT ID="5951000" Text="Naine brune [Nv.10]"/>
+<TEXT ID="5951100" Text="Naine brune"/>
+<TEXT ID="5960000" Text="Supernova - Invocation"/>
+<TEXT ID="5960100" Text="Supernova [Nv.1]"/>
+<TEXT ID="5960200" Text="Supernova [Nv.2]"/>
+<TEXT ID="5960300" Text="Supernova [Nv.3]"/>
+<TEXT ID="5960400" Text="Supernova [Nv.4]"/>
+<TEXT ID="5960500" Text="Supernova [Nv.5]"/>
+<TEXT ID="5960600" Text="Supernova [Nv.6]"/>
+<TEXT ID="5960700" Text="Supernova [Nv.7]"/>
+<TEXT ID="5960800" Text="Supernova [Nv.8]"/>
+<TEXT ID="5960900" Text="Supernova [Nv.9]"/>
+<TEXT ID="5961000" Text="Supernova [Nv.10]"/>
+<TEXT ID="5961100" Text="Supernova"/>
+<TEXT ID="7903371" Text="Mwahahah... Le trésor de l&#39;espace est à moi !"/>
+<TEXT ID="7903372" Text="Attrape-moi si tu peux. Ahah !"/>
+<TEXT ID="7903373" Text="Attrape-moi si tu peux. Ahah !"/>
+<TEXT ID="7903374" Text="Noooon... Tu ne peux pas me voler le trésor !!"/>
+<TEXT ID="7903375" Text="C&#39;est le plus rapide de l&#39;espace !"/>
+<TEXT ID="7902701" Text="Chasseur d&#39;âmes sombre et Ange de la Mort, prenez-garde !"/>
+<TEXT ID="7902801" Text="Cette gargouille paraît calme. Vous ne voulez pas l&#39;énerver !"/>
+<TEXT ID="7281101" Text="Constituée d&#39;eau et de vent, son attaque tourbillon est la plus terrible de toutes !"/>
+<TEXT ID="7281601" Text="Double-attaque et double-compétence ; il faudra y mettre les bouchées doubles pour répliquer !"/>
+<TEXT ID="7282001" Text="Lorsque que Chiron observe le ciel, une pluie de flèches s&#39;abat !"/>
+<TEXT ID="33580301" Text="Pirate de l&#39;espace doré"/>
+<TEXT ID="7900881" Text="Elémentaire d&#39;eau surpuissant"/>
+<TEXT ID="7901451" Text="Un guerrier en armure d&#39;écailles étoilées"/>
+<TEXT ID="7901761" Text="Faites attention à ne pas vous faire encorner !"/>
+<TEXT ID="7903215" Text="Un brave guerrier armé d&#39;un marteau de feu."/>
+<TEXT ID="7903500" Text="Ours polaire"/>
+<TEXT ID="7903600" Text="Loup Givré"/>
+<TEXT ID="7903700" Text="Sharpo"/>
+<TEXT ID="7903800" Text="Bêhchant mouton"/>
+<TEXT ID="7903900" Text="Hitchi"/>
+<TEXT ID="7904000" Text="Citrouille infernale"/>
+<TEXT ID="7904100" Text="Loup"/>
+<TEXT ID="7904200" Text="Apep"/>
+<TEXT ID="7904300" Text="Starry Lala"/>
+<TEXT ID="7904400" Text="Diodon"/>
+<TEXT ID="7904500" Text="Floures"/>
+<TEXT ID="7904600" Text="Mispeng"/>
+<TEXT ID="7904700" Text="Requin pirate"/>
+<TEXT ID="7904800" Text="Pyrofugu"/>
+<TEXT ID="7904900" Text="Cerbère"/>
+<TEXT ID="7905000" Text="Kajimodo"/>
+<TEXT ID="7905100" Text="Darkburst"/>
+<TEXT ID="7905200" Text="Goule blessée"/>
+<TEXT ID="7905300" Text="Nekata"/>
+<TEXT ID="7905400" Text="Bébé squelette"/>
+<TEXT ID="7905500" Text="Père squelette"/>
+<TEXT ID="7905600" Text="Araignée fourchue"/>
+<TEXT ID="7905700" Text="Auloum cristallin"/>
+<TEXT ID="7905800" Text="Arabeille"/>
+<TEXT ID="7905900" Text="Fourmi policée"/>
+<TEXT ID="7906000" Text="Scorpion policé"/>
+<TEXT ID="7906100" Text="Shaula Lexas"/>
+<TEXT ID="7906200" Text="Antarès"/>
+<TEXT ID="7906300" Text="Boucher"/>
+<TEXT ID="7906400" Text="Kimart"/>
+<TEXT ID="7906500" Text="Garde Vargon"/>
+<TEXT ID="7906600" Text="Carcus"/>
+<TEXT ID="7906700" Text="Eclaireur Vargon"/>
+<TEXT ID="7906800" Text="Egorgeur cadavérique"/>
+<TEXT ID="7906900" Text="Briseur de coeur"/>
+<TEXT ID="7907000" Text="Francky"/>
+<TEXT ID="7907100" Text="Rétablissement du Roi Scorpion"/>
+<TEXT ID="7907200" Text="Hydre"/>
+<TEXT ID="7907300" Text="Hydre de glace"/>
+<TEXT ID="7907400" Text="Garde Ame-givré"/>
+<TEXT ID="7907500" Text="Citrus LongLong"/>
+<TEXT ID="7907600" Text="Créature Démonique"/>
+<TEXT ID="7907700" Text="Crocoprotoscous"/>
+<TEXT ID="7907800" Text="Crocosalcosucus"/>
+<TEXT ID="7281201" Text="Un Minotaure qui protège Europe. Sa faux est aussi redoutable que ses cornes !"/>
+<TEXT ID="7281301" Text="La belle créature à qui obéit fidèlement le Minotaure."/>
+<TEXT ID="7281401" Text="Un énorme crabe, maître des océans. Les attaques de ses pinces ou des pics de son dos sont mortelles."/>
+<TEXT ID="7281801" Text="Le dieu de la mort, des enfers et de l&#39;obscurité."/>
+<TEXT ID="7281901" Text="Un énorme scorpion qui dégage un poison extrêmement toxique. Ne vous laissez pas attraper !"/>
+<TEXT ID="7282101" Text="L&#39;Hydre est infatigable, rien ne semble pouvoir arrêter ses attaques."/>
+<TEXT ID="7282501" Text="Un serpent géant, qui sème le chaos dans le monde. Si vous aviez des doutes, oui : il est dangereux !"/>
+<TEXT ID="7282401" Text="Péas est devenu fou, il risque de vous attaquer."/>
+<TEXT ID="7903901" Text="Un bélier, prêt à vous charger."/>
+<TEXT ID="7904201" Text="Difficile de prédire quand la griffe attaquera !"/>
+<TEXT ID="7904901" Text="Trois redoutables têtes..."/>
+<TEXT ID="7906201" Text="Un scorpion géant."/>
+<TEXT ID="7906401" Text="Sa hache est redoutable."/>
+<TEXT ID="7907201" Text="Ils semblent capables de détruire n&#39;importe quoi à mains nues !"/>
+<TEXT ID="7908500" Text="Oeuf de Péas"/>
+<TEXT ID="7281440" Text="Impossible de se déplacer"/>
+<TEXT ID="72814411" Text="Vous ne pouvez pas bouger pour le moment."/>
+<TEXT ID="7913400" Text="Halloween Jason"/>
+<TEXT ID="7913500" Text="Esprit sorcier"/>
+<TEXT ID="7913600" Text="Monstre fou"/>
+<TEXT ID="7913700" Text="Citrouille"/>
+<TEXT ID="7913800" Text="Dyle en os"/>
+<TEXT ID="7913900" Text="Esprit"/>
+<TEXT ID="7914000" Text="Mantis fantome"/>
+<TEXT ID="7914100" Text="Golem"/>
+<TEXT ID="7914200" Text="Minion"/>
+<TEXT ID="7914300" Text="Kiwi"/>
+<TEXT ID="7914400" Text="Gardien de la Foret"/>
+<TEXT ID="7914500" Text="Gardien de la Foret"/>
+<TEXT ID="7914600" Text="Minion"/>
+<TEXT ID="7914700" Text="Golem"/>
+<TEXT ID="7914800" Text="Noble Demon"/>
+<TEXT ID="7914900" Text="Noble Demon"/>
+<TEXT ID="7915000" Text="Chevalier perdu"/>
+<TEXT ID="7915100" Text="Demon servant"/>
+<TEXT ID="7915200" Text="Demon majordome"/>
+<TEXT ID="7915300" Text="Gargouille en pierre"/>
+<TEXT ID="7915400" Text="Demon Halloween"/>
+<TEXT ID="7915500" Text="Duraman"/>
+<TEXT ID="7915600" Text="Majordome Halloween"/>
+<TEXT ID="7915700" Text="Esprit Eluman(Elite)"/>
+<TEXT ID="7915800" Text="Esprit Seigneur de la nuit(Elite)"/>
+<TEXT ID="7915900" Text="Jack O’ Lantern"/>
+<TEXT ID="7916000" Text="Halloween Theme Treasure Box"/>
+<TEXT ID="7910000" Text="Protecteur"/>
+<TEXT ID="7910100" Text="7910100"/>
+<TEXT ID="7910200" Text="Feu follet"/>
+<TEXT ID="7910300" Text="Etoile piquante"/>
+<TEXT ID="7910400" Text="Champipi"/>
+<TEXT ID="7910500" Text="Gardien de pierre"/>
+<TEXT ID="7910600" Text="7910600"/>
+<TEXT ID="7910700" Text="7910700"/>
+<TEXT ID="7910800" Text="DDDD - Translate later"/>
+<TEXT ID="7910900" Text="DDDD - Translate later"/>
+<TEXT ID="7911000" Text="DDDD - Translate later"/>
+<TEXT ID="7911100" Text="DDDD - Translate later"/>
+<TEXT ID="7911200" Text="DDDD - Translate later"/>
+<TEXT ID="7911300" Text="DDDD - Translate later"/>
+<TEXT ID="7911400" Text="DDDD - Translate later"/>
+<TEXT ID="7911500" Text="DDDD - Translate later"/>
+<TEXT ID="7911600" Text="DDDD - Translate later"/>
+<TEXT ID="7911700" Text="Gardien Impérial"/>
+<TEXT ID="7911800" Text="DDDD - Translate later"/>
+<TEXT ID="7911900" Text="DDDD - Translate later"/>
+<TEXT ID="7912000" Text="DDDD - Translate later"/>
+<TEXT ID="7912100" Text="DDDD - Translate later"/>
+<TEXT ID="7912200" Text="DDDD - Translate later"/>
+<TEXT ID="7912300" Text="DDDD - Translate later"/>
+<TEXT ID="7912400" Text="DDDD - Translate later"/>
+<TEXT ID="7912600" Text="DDDD - Translate later"/>
+<TEXT ID="7912700" Text="DDDD - Translate later"/>
+<TEXT ID="7912800" Text="DDDD - Translate later"/>
+<TEXT ID="7912900" Text="DDDD - Translate later"/>
+<TEXT ID="7913000" Text="DDDD - Translate later"/>
+<TEXT ID="7913100" Text="DDDD - Translate later"/>
+<TEXT ID="7913200" Text="DDDD - Translate later"/>
+<TEXT ID="7913300" Text="DDDD - Translate later"/>
+<TEXT ID="7913400" Text="Halloween Jason"/>
+<TEXT ID="7913500" Text="Spirit Wizard"/>
+<TEXT ID="7913600" Text="Mad Muddy Monster"/>
+<TEXT ID="7913700" Text="Pumpkin Head Racoon"/>
+<TEXT ID="7913800" Text="Bone Dyle"/>
+<TEXT ID="7913900" Text="Ghost Tree Spider"/>
+<TEXT ID="7914000" Text="Ghost Mantis"/>
+<TEXT ID="7914100" Text="Cookie Golem"/>
+<TEXT ID="7914200" Text="Cookie Minion"/>
+<TEXT ID="7914300" Text="Kiwi Pudding"/>
+<TEXT ID="7914400" Text="Forest Keeper"/>
+<TEXT ID="7914500" Text="Forest Keeper Guard"/>
+<TEXT ID="7914600" Text="Choco Minion"/>
+<TEXT ID="7914700" Text="Candy Golem"/>
+<TEXT ID="7914800" Text="Noble Demon"/>
+<TEXT ID="7914900" Text="Noblewoman Demon"/>
+<TEXT ID="7915000" Text="Lost Knight"/>
+<TEXT ID="7915100" Text="Servant Demon"/>
+<TEXT ID="7915200" Text="Butler Demon"/>
+<TEXT ID="7915300" Text="Gargoyle Stone Statue"/>
+<TEXT ID="7915400" Text="Halloween Demon"/>
+<TEXT ID="7915500" Text="Duraman(Enchant)"/>
+<TEXT ID="7915600" Text="Halloween Butler(Enchant)"/>
+<TEXT ID="7915700" Text="Spirit Eluman(Elite)"/>
+<TEXT ID="7915800" Text="Spirit Lord of Knight(Elite)"/>
+<TEXT ID="7915900" Text="Jack O’ Lantern(Elite)"/>
+<TEXT ID="7916000" Text="Halloween Theme Treasure Box"/>
+<TEXT ID="7916100" Text="Angry Fake Santa"/>
+<TEXT ID="7916200" Text="Big Santa Yeti"/>
+<TEXT ID="7916300" Text="Trembling Snowming "/>
+<TEXT ID="7916400" Text="Stressed Santa Armis"/>
+<TEXT ID="7916500" Text="Lollipop Snowman (Rare)"/>
+<TEXT ID="7916600" Text="Rage Snow Queen Batore"/>
+<TEXT ID="7916700" Text="Bombe"/>
+<TEXT ID="7916800" Text="Agent de quai"/>
+<TEXT ID="7916900" Text="Agent de quai"/>
+<TEXT ID="7917000" Text="Garde du quai"/>
+<TEXT ID="7917100" Text="Loubard des beaux quartiers"/>
+<TEXT ID="7917300" Text="Robot réparateur"/>
+<TEXT ID="7917400" Text="Robot à pétrole"/>
+<TEXT ID="7917500" Text="Loubard zonard"/>
+<TEXT ID="7917600" Text="Distributeur endommagé"/>
+<TEXT ID="7917800" Text="Robot réparateur XD"/>
+<TEXT ID="7917900" Text="Robot à vapeur"/>
+<TEXT ID="7918000" Text="Gangster"/>
+<TEXT ID="7918100" Text="Robot déglingué"/>
+<TEXT ID="7918300" Text="Harry le Grizzly"/>
+<TEXT ID="7918301" Text="Boss de Metro City"/>
+<TEXT ID="7918400" Text="Vigie SP"/>
+<TEXT ID="7918401" Text="Boss de Metro City"/>
+<TEXT ID="7918500" Text="Jonathan"/>
+<TEXT ID="7918501" Text="Boss de Metro City"/>
+<TEXT ID="7918600" Text="Joseph"/>
+<TEXT ID="7918601" Text="Boss de Metro City"/>
+<TEXT ID="7918700" Text="Virtuose du bistouri"/>
+<TEXT ID="7918800" Text="Virtuose de l&#39;explosif"/>
+<TEXT ID="7918900" Text="Virtuose du pétoire"/>
+<TEXT ID="76089110" Text="Poulet cinglé"/>
+<TEXT ID="76089120" Text="Poulet délinquant"/>
+<TEXT ID="76089130" Text="Poulet"/>
+<TEXT ID="76089140" Text="Chef de bande"/>
+<TEXT ID="6126000" Text="Boite d&#39;oeufs"/>
+<TEXT ID="6023902" Text="Boite d&#39;oeufs"/>
+<TEXT ID="77000001" Text="Loup du désert"/>
+<TEXT ID="77000011" Text="Loup du désert chevelu"/>
+<TEXT ID="77000021" Text="Sanglier furax"/>
+<TEXT ID="77000031" Text="Pyran à deux dents"/>
+<TEXT ID="77000041" Text="Molock"/>
+<TEXT ID="77100001" Text="Flocaris rose"/>
+<TEXT ID="77100011" Text="TiCactus"/>
+<TEXT ID="77100021" Text="Zkhaz"/>
+<TEXT ID="77100041" Text="Trotruche verte"/>
+<TEXT ID="77100051" Text="Perroquet"/>
+<TEXT ID="77100061" Text="Hibosis"/>
+<TEXT ID="77100071" Text="Trotruche bleue"/>
+<TEXT ID="77200001" Text="Faucheur"/>
+<TEXT ID="77200011" Text="Cristobie"/>
+<TEXT ID="77200021" Text="Zomzou"/>
+<TEXT ID="77200031" Text="Zombie contaminé"/>
+<TEXT ID="77200041" Text="Mort des Caves"/>
+<TEXT ID="77300001" Text="Dégonoris"/>
+<TEXT ID="77300011" Text="Talarurus"/>
+<TEXT ID="77300021" Text="Oviraptor"/>
+<TEXT ID="77300031" Text="Tricefurax"/>
+<TEXT ID="77300041" Text="Dinosoris"/>
+<TEXT ID="77400001" Text="Garde Skelosse"/>
+<TEXT ID="77400011" Text="Recrue Skelosse"/>
+<TEXT ID="77400021" Text="Kalbosse"/>
+<TEXT ID="77400031" Text="Alrosse"/>
+<TEXT ID="77500001" Text="Crocoris"/>
+<TEXT ID="77500011" Text="Kaméo cendré"/>
+<TEXT ID="77500021" Text="Kaburis"/>
+<TEXT ID="77500031" Text="Varan"/>
+<TEXT ID="77500041" Text="Torturas Vénère"/>
+<TEXT ID="77500051" Text="Taupigré"/>
+<TEXT ID="77500061" Text="Trotrasse des Marais"/>
+<TEXT ID="77500071" Text="Lezpazor"/>
+<TEXT ID="77600001" Text="Trolloris Corrompu"/>
+<TEXT ID="77600011" Text="Trolloris Corrompu"/>
+<TEXT ID="77600021" Text="ProTrolloris Corrompu"/>
+<TEXT ID="77600031" Text="ExterTrollo"/>
+<TEXT ID="77600041" Text="Immortalis novice"/>
+<TEXT ID="77600051" Text="Immortalis Impérial"/>
+<TEXT ID="77600061" Text="Chaman Immortalis"/>
+<TEXT ID="77600071" Text="Immortalis"/>
+<TEXT ID="77700001" Text="Cerforos Male"/>
+<TEXT ID="77700011" Text="Cerforos Femelle"/>
+<TEXT ID="77700021" Text="Liorios"/>
+<TEXT ID="77700031" Text="Babouris"/>
+<TEXT ID="77700041" Text="Sagaton"/>
+<TEXT ID="77700051" Text="Belioros"/>
+<TEXT ID="77700061" Text="Centuros"/>
+<TEXT ID="77700071" Text="Lionisis"/>
+<TEXT ID="77800001" Text="Momassis"/>
+<TEXT ID="77800011" Text="Momboxis"/>
+<TEXT ID="77800021" Text="Mamomis"/>
+<TEXT ID="77800071" Text="Ked&#39;Os"/>
+<TEXT ID="77900001" Text="Garde du Dôme"/>
+<TEXT ID="77900011" Text="Serviteur du Dôme"/>
+<TEXT ID="77900021" Text="Eclaireur du Dôme"/>
+<TEXT ID="77900031" Text="Médusa"/>
+<TEXT ID="77900041" Text="Pantéris d&#39;Anubis"/>
+<TEXT ID="77900051" Text="Anubis"/>
+<TEXT ID="77900061" Text="Pot"/>
+<TEXT ID="9700405" Text="Burger"/>
+<TEXT ID="977101001" Text="Chargeur des plaines"/>
+<TEXT ID="977101002" Text="Samot - Dieu runique"/>
+<TEXT ID="977101003" Text="Servaigle apprentie"/>
+<TEXT ID="977101004" Text="Servaigle confirmée"/>
+<TEXT ID="977101005" Text="Commandante Nezy"/>
+<TEXT ID="977101006" Text="Destroyer"/>
+<TEXT ID="977101007" Text="Servaigle pure"/>
+<TEXT ID="977101008" Text="Servaigle cendrée"/>
+<TEXT ID="977101009" Text="Raton des plaines"/>
+<TEXT ID="977101010" Text="Naya contrôlé"/>
+<TEXT ID="977101011" Text="Naya endormie"/>
+<TEXT ID="977101012" Text="Naya"/>
+<TEXT ID="977101013" Text="Poussin divin"/>
+<TEXT ID="977101014" Text="Esprit de Naya"/>
+<TEXT ID="977101015" Text="Légion suprême"/>
+<TEXT ID="977101016" Text="Légion unité"/>
+<TEXT ID="977101017" Text="Légion protecteur"/>
+<TEXT ID="977101018" Text="Papillon Céleste"/>
+<TEXT ID="977101019" Text="Coquinelle perdue"/>
+<TEXT ID="977101020" Text="Escardien"/>
+<TEXT ID="977101021" Text="Oursin protecteur"/>
+<TEXT ID="977101022" Text="Obscurouge"/>
+<TEXT ID="977101023" Text="Exorcis sombre "/>
+<TEXT ID="977101024" Text="Exorcis obscur"/>
+<TEXT ID="977101025" Text="Exorcis profanatos"/>
+<TEXT ID="977101026" Text="Maître Exorcis"/>
+<TEXT ID="977101027" Text="Sorcier Zos"/>
+<TEXT ID="977101028" Text="Dorn"/>
+<TEXT ID="977101029" Text="Commandant Marius"/>
+<TEXT ID="977101030" Text="Commandant Kanus"/>
+<TEXT ID="977101031" Text="Capitaine Pomerium"/>
+<TEXT ID="977101032" Text="Garde Pomerium"/>
+<TEXT ID="977101033" Text="Garde 2 Pomerium"/>
+<TEXT ID="977101034" Text="Garde 3 Pomerium"/>
+<TEXT ID="977101035" Text="Gardien de Vasio"/>
+<TEXT ID="977101036" Text="Tireur de Vasio"/>
+<TEXT ID="977101040" Text="Maitre du feu"/>
+</STRING_TABLE_LOCAL>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4326</ID> <!--T.T.10432600 정체를 밝혀라 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	수상한 인물과 대화-->
+<!--[완료NPC]	카오란 마을 - 돈파치-->
+<!--[내용]	용탈과 여의주가 사라질 무렵 마을에 수상한 인물이 나타났다고 한다. 수상한 인물과 대화 해보자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</CLIENT> <!--시작NPC 카오란 마을 - 돈파치 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</PAYER> <!--완료NPC 카오란 마을 - 돈파치 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10021" Mark="END">BFB128D1-37A8-4d17-B981-3D70D73814B6</AGENT> <!--진행NPC 1 카오란 마을 - 수상한 인물 -->
+		<AGENT TYPE="NPC" EVENTNO="10011">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</AGENT> <!--진행NPC 11 카오란 마을 - 돈파치 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="511/1">10021</NPC> 
+ <!-- 카오란 마을 수상한 인물-->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="511">10021</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!--카오란 마을 돈파치-->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="STEPBYSTEP">
+		<OBJECT1 COUNT="1" TEXT="10432611"/> <!--수상한 인물과 대화-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10432621" FACE="Donpachi_normal"/> <!--최근 마을에 수상한 인물이 나타났어.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10432626" FACE="Donpachi_smile"/> <!--응?! 이건 뭔가? 글쎄 마을에 와있는 떠돌이 상인 로이드에게 가져가보게.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10432623" FACE="Donpachi_normal"/> <!--용탈과 여의주가 도난 당할무렵 마을에 수상한 사람이 나타났다네. 혹시 그 사람이 범인인지 의심이 된다네.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10432624" FACE="Donpachi_angly"/> <!--도와주지 않을 겐가.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10432625" FACE="Donpachi_normal"/> <!--수상한 인물은 마을 벽화 앞에 서있다네.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10432602" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		<DIALOG ID="511" > <!--기타-->
+			<BODY TEXT="10432651" FACE="Shady_normal"/> <!--뭐? 내가 어디에서 오든 무슨 상관이야! 쳇.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

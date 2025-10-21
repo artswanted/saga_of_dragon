@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4334</ID> <!--T.T.10433400 나눠쓰면 좋은거지 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	로이드와 대화-->
+<!--[완료NPC]	카오란 마을 - 로이드-->
+<!--[내용]	황제의 낡은 보물상자에서 보물이 많이 나왔다면서, 유물을 나눠 준다고 한다. 로이드와 대화해보자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">EE46B18F-3DDB-40b7-A326-F7C45B80A763</PAYER> <!--완료NPC 카오란 마을 - 로이드 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011" Mark="END">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="601/1">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433411"/> <!--로이드와 대화-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="2">160523020</ITEM><!--전체지급/전체/1)/82001040(봉인아님)1개-[13_08 중국테마] 황제의 유산 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433421" FACE="Roid_normal"/> <!--흠흠 잠시만 %name%님…-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433426" FACE="Roid_smile"/> <!--고맙다니요. 잘 써주시기 바랍니다.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433423" FACE="Roid_normal"/> <!--저번에 가져다 주신 그 유물들 너무 값지고 비싼 것들이라, 저도 양심은 있습니다. 여기 %name%님 몫으로 몇 개 드리겠습니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433424" FACE="Roid_angly"/> <!--뭐 어쩔수 없지요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433425" FACE="Roid_normal"/> <!-- -->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433402" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

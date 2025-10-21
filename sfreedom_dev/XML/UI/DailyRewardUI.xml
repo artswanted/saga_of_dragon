@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XUI>
+	<!-- Form description of daily rewards /CallUI("SFRM_DAILY_REWARD_INFO") -->
+	<STATIC_FORM ID="SFRM_DAILY_REWARD_INFO">
+		<ATTR ALIGN_X="50" ALIGN_Y="50" W="437" H="150" IMG="../Data/6_ui/DayliReward/bgInfo.tga" IMG_W="437" IMG_H="150" CAN_DRAG="0"/>
+		<ATTR TEXT="90004013" FONT="FTcts_13" T_X="35" T_Y ="25" T_LEFT="1" T_OUTLINE="1" FONT_COLOR_HEX="0xFF000000" OUTLINE_COLOR_HEX="0xFFFFFFFF"/>
+		<HOTKEY ID="1"> UISelf:Close() return true </HOTKEY>
+	</STATIC_FORM>
+
+	<!-- /CallUI("SFRM_DAILY_REWARD") -->
+	<STATIC_FORM ID="SFRM_DAILY_REWARD">
+		<ATTR ALIGN_X="50" ALIGN_Y="50" W="557" H="502" IMG="../Data/6_ui/DayliReward/BgDR.tga" IMG_W="557" IMG_H="502" CAN_DRAG="1" UNIQUE_EXIST_TYPE="NO_DUPLICATE"/>
+		<SCRIPT ID = "ON_CALL">
+			lwDailyRewardUI(UISelf)
+		</SCRIPT>
+		<SCRIPT ID = "ON_MOUSE_OUT">CloseToolTip()</SCRIPT>
+		<SCRIPT ID = "ON_CLOSE">CloseToolTip()</SCRIPT>
+
+		<BUTTON ID="BTN_DESCR">
+			<ATTR X="45" Y="50" W="24" H="24"/>
+			<ATTR BTN_IMG = "../Data/6_ui/mission/Mutator/cmQuestionBg.tga" BTN_IMG_W = "48" BTN_IMG_H = "48"/>
+			<SCRIPT ID="ON_L_BTN_DOWN">
+				CallUI("SFRM_DAILY_REWARD_INFO")
+			</SCRIPT>
+		</BUTTON>
+
+		<BUTTON ID="BTN_CLOSE">
+				<ATTR X="489" Y="50" W="24" H="24" />
+				<ATTR BTN_IMG = "../Data/6_ui/common/cmCloseBg.tga" BTN_IMG_W = "48" BTN_IMG_H = "48"/>
+				<SCRIPT ID="ON_L_BTN_DOWN">
+					CloseUI("SFRM_DAILY_REWARD")
+				</SCRIPT>
+		</BUTTON>
+
+		<FORM ID="FRM_TEXT_ABOUT" X="150" Y="420" W="420" H="40" TEXT="90004012" T_X="0" T_Y="0" T_CENTER="0" FONT="FTbt_12" FONT_COLOR_HEX="0xFFFFFFFF" T_OUTLINE="0"/>
+
+		<BUILD ID = "BLD_ITEM_VAL" TARGET_ID="FRM_ITEM_VAL" X="100" Y="170" X_COUNT = "4" Y_COUNT = "3" X_GAB = "100" Y_GAB = "100"/>
+		<FORM ID="FRM_ITEM_VAL">
+			<ATTR X="0" Y="0" W="53" H="89" Z="2"/>
+			<STATIC_FORM ID="SFRM_IMG">
+				<ATTR X="12" Y="9" W="42" H="43" STATIC_NUM="5" CAN_COLOR_CHANGE="1" COLOR_TYPE="2"/>
+			</STATIC_FORM>
+			<STATIC_FORM ID="SFRM_TEXT">
+				<ATTR X="10" Y="53" W="46" H="41"/>
+				<ATTR TEXT="405027" T_X="23" T_Y="4" FONT_COLOR_HEX="0xFF4D3413" T_CENTER="1"/>
+				<SCRIPT ID = "ON_CALL">  </SCRIPT>
+			</STATIC_FORM>
+			<IMG ID="ICN_ITEM_ICON">
+				<ATTR X="13" Y="10" W="42" H="42" Z="2" FONT_COLOR_HEX="0xFFFFFFFF" T_OUTLINE = "1"/>
+				<SCRIPT ID="ON_DISPLAY"> DrawMissionRewardItem(UISelf)</SCRIPT>
+				<SCRIPT ID = "ON_MOUSE_OVER">OnCallMissionRewardItemToolTip(UISelf)</SCRIPT>
+				<SCRIPT ID = "ON_MOUSE_OUT">CloseToolTip()</SCRIPT>
+			</IMG>
+			<CHECK_BUTTON ID="CBTN_SELECT_ITEM">
+				<ATTR X="12" Y="9" W="42" H="42" Z="3" PASS_EVENT = "1" />
+				<ATTR BTN_IMG ="../Data/6_ui/common/cmIconOver02.tga" BTN_IMG_W="84" BTN_IMG_H="84"/>
+				<SCRIPT ID="ON_CALL">
+					UISelf:LockClick(true)
+				</SCRIPT>
+				<SCRIPT ID = "ON_MOUSE_OVER">OnCallMissionRewardItemToolTip(UISelf)</SCRIPT>
+				<SCRIPT ID = "ON_MOUSE_OUT">CloseToolTip()</SCRIPT>
+			</CHECK_BUTTON>
+		</FORM>
+
+		<BUTTON ID="BTN_OK">
+			<ATTR TEXT="405028" FONT="FTbt_12" T_X="42" T_Y="4" T_CENTER="1" BTN_ENABLE_CHANGE_COLOR="1" BTN_T_COLOR_TYPE="10"/>
+			<ATTR FONT="FTbt_12" T_X="37" T_Y="3" T_CENTER="1"/>
+			<ATTR X="240" Y="380" W="84" H="26" />
+			<ATTR BTN_IMG="../Data/6_ui/chaMake/chaUnityB02.tga" BTN_IMG_W="152" BTN_IMG_H="48" />
+			<SCRIPT ID="ON_L_BTN_DOWN">GetDailyReward() return true</SCRIPT>
+			<HOTKEY ID="59">GetDailyReward() return true</HOTKEY>
+		</BUTTON>
+		<HOTKEY ID="1"> UISelf:Close() return true </HOTKEY>
+	</STATIC_FORM>
+</XUI>

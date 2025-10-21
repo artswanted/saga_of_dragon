@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XUI>
+	<!-- CallUI("SFRM_MUTATOR_SELECT_WND") -->
+	<FORM ID="SFRM_MUTATOR_SELECT_WND" ALIGN_X="49" ALIGN_Y="38" W="457" H="409">
+		<ATTR CAN_CLIP = "1" IS_ABSOLUTE_X="1" IS_ABSOLUTE_Y="1"/>
+		<ATTR IMG="../Data/6_ui/mission/Mutator/mttrBG.tga" IMG_W="457" IMG_H="409"/>
+
+		<FORM ID="FRM_TEXT_ABOUT" X="19" Y="260" W="420" H="40" TEXT="90004002" T_X="0" T_Y="0" T_CENTER="0" FONT="FTbt_12" FONT_COLOR_HEX="0xFFFFFFFF" T_OUTLINE="0"/>
+
+
+		<!-- List Item -->
+		<BUTTON ID = "FRM_MUTATOR_NODE_0" BTN_SINGLE_IMAGE="1">
+			<ATTR X="18" Y="62" W="127" H="184"/>
+			<ATTR BTN_IMG="../Data/6_ui/mission/Mutator/mttrHYDRA.tga" BTN_IMG_W="127" BTN_IMG_H="184"/>
+			<SCRIPT ID="ON_CREATE">
+				MutatorInitUI(UISelf, 700004)
+			</SCRIPT>
+			<SCRIPT ID="ON_L_BTN_UP">
+				MutatorChoiceUI(UISelf, 700004)
+			</SCRIPT>
+		</BUTTON>
+
+		<BUTTON ID = "FRM_MUTATOR_NODE_1" BTN_SINGLE_IMAGE="1">
+			<ATTR X="312" Y="62" W="127" H="184"/>
+			<ATTR BTN_IMG="../Data/6_ui/mission/Mutator/mttrHP.tga" BTN_IMG_W="127" BTN_IMG_H="184"/>
+			<SCRIPT ID="ON_CREATE">
+				MutatorInitUI(UISelf, 700002)
+			</SCRIPT>
+			<SCRIPT ID="ON_L_BTN_UP">
+				MutatorChoiceUI(UISelf, 700002)
+			</SCRIPT>
+		</BUTTON>
+
+		<BUTTON ID = "FRM_MUTATOR_NODE_2" BTN_SINGLE_IMAGE="1">
+			<ATTR X="165" Y="62" W="127" H="184"/>
+			<ATTR BTN_IMG="../Data/6_ui/mission/Mutator/mttrATK.tga" BTN_IMG_W="127" BTN_IMG_H="184"/>
+			<SCRIPT ID="ON_CREATE">
+				MutatorInitUI(UISelf, 700003)
+			</SCRIPT>
+			<SCRIPT ID="ON_L_BTN_UP">
+				MutatorChoiceUI(UISelf, 700003)
+			</SCRIPT>
+		</BUTTON>
+
+		<!-- Buttun close -->
+		<BUTTON ID="BTN_CLOSE" X="420" Y="25" W="24" H="24" BTN_IMG="../Data/6_ui/mission/Mutator/cmCloseBg.tga" BTN_IMG_W="48" BTN_IMG_H="48">
+			<SCRIPT ID="ON_L_BTN_UP">UISelf:CloseParent() return true </SCRIPT>
+		</BUTTON>
+		<HOTKEY ID = "1"> UISelf:Close() return true </HOTKEY>
+	</FORM>
+</XUI>

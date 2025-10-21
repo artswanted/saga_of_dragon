@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4338</ID> <!--T.T.10433800 할로윈의 악몽 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	랜디에게 잭에 대해 듣기-->
+<!--[완료NPC]	바람항구 - 렌디-->
+<!--[내용]	욕심쟁이 잭이 바람항구 근처 숲에 나타났다고 한다. 바람항구 근처 숲에 있는 몬스터들을 꼬드겨 할로윈에 바람항구를 습격할 계획을 세우고 있다고 한다. 숲으로 가서 몬스터들을 처치하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</CLIENT> <!--시작NPC 바람항구 - 렌디 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</PAYER> <!--완료NPC 바람항구 - 렌디 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</AGENT> <!--진행NPC 11 바람항구 - 렌디 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<NPC OBJECTNO="1" TYPE="INCPARAM" VALUE="601/1">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="601">10011</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433811"/> <!--랜디에게 잭에 대해 듣기-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433821" FACE="Randy_normal"/> <!--흠~ 오랜만에 소울을 먹으니 좀 살겠어. 아참 잭에 대해서 이야기가 듣고 싶다고 했지?-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433826" FACE="Randy_smile"/> <!--그런데 잭이 바람항구 근처 숯에 나타났다고 하거든. 난 오랜만에 친구를 봐서 좋지만. 넌 조심해야 할거야 케르케르케르-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433823" FACE="Randy_normal"/> <!--잭은 장난이 심했어, 물론 사람일때. 하루는 이녀석이 악마를 놀려 버린거야. 화가난 악마는 이녀석을 죽은것도 산것도 아니게 만들어 버렸어. 혼자 정처럾이 떠돌다가 너무 추워진 녀석은 호박안에 구멍을 파고 그 안에 양초를 피워 난로로 사용을 했어. 그렇게 시간이 흐르자 잭은 체념한듯 머리에 그 호박을 쓴채 더 심하게 장난을 치기 시작했어. 잭이 하늘을 날을때면 호박빛이 마치 랜턴처럼 보여서 사람들이 잭 오 랜턴이라고 부르기 시작했어.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433824" FACE="Randy_angly"/> <!--듣기 싫음 어쩔수 없지. 하지만 소울은 돌려주지 않을거야.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433825" FACE="Randy_normal"/> <!-- -->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433802" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>
