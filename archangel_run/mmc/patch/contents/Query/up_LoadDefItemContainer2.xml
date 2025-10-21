@@ -1,0 +1,16 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefItemContainer.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="ContainerNo" TYPE="INT"/>
+    <COLUMN NAME="RewardItem" TYPE="INT"/>
+    <COLUMN NAME="SuccessRateControlNo" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo01" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo02" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo03" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo04" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo05" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo06" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo07" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo08" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo09" TYPE="INT"/>
+    <COLUMN NAME="BagGrpNo10" TYPE="INT"/>
+</QUERY>

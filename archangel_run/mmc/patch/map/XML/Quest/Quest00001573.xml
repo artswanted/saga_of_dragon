@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by KKwang (kkj) -->
+<QUEST>
+	<ID>1573</ID>
+
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10000">116A12AC-D98A-483a-A1E9-3392632B7CDE</CLIENT>
+	</CLIENTS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10002">116A12AC-D98A-483a-A1E9-3392632B7CDE</AGENT>
+	</AGENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10003">116A12AC-D98A-483a-A1E9-3392632B7CDE</PAYER>
+	</PAYERS>
+	<EVENTS>
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10000</NPC>
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10002</NPC>
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10003</NPC>
+		<!--
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP" VALUE="100/1/1/1/60000010">6013800</MONSTER>
+		-->
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_M" VALUE="5/4/100/1/1/1/60000010">6013800</MONSTER>
+
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">60000010</ITEM>
+		<MONSTER OBJECTNO="2" TYPE="INCPARAM" VALUE="1">5006001</MONSTER>	
+	</EVENTS>
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="521934"/>
+		<OBJECT2 COUNT="10" TEXT="521935"/>
+		<OBJECT3 COUNT="0" TEXT="0"/>
+		<OBJECT4 COUNT="0" TEXT="0"/>
+		<OBJECT5 COUNT="0" TEXT="0"/>
+	</OBJECTS>
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="2">940000520</ITEM>
+		</SELECT1>
+	</REWARD>
+	<DIALOGS>
+		<!--101���� ����Ʈ �Ƿ� ����â-->
+		<!--MEMO=201���� ����Ʈ ����/�ź� ����â-->
+		<DIALOG ID="101" TYPE="PROLOG">
+			<BODY TEXT="521929" FACE="Walter_normal"/>
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">����</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">����</SELECT>
+		</DIALOG>
+		<!--301���� ����Ʈ ���� �ϸ� ��â �־ �ǰ� ��� �ȴ�.-->
+		<DIALOG ID="301">
+			<BODY TEXT="521930" FACE="Walter_normal"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<!--401���� ����Ʈ �ź� �ϸ� ��â �־ �ǰ� ��� �ȴ�.-->
+		<DIALOG ID="401">
+			<BODY TEXT="521931" FACE="Walter_angly"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="501">
+			<BODY TEXT="521932" FACE="Walter_angly"/>
+			<SELECT ID="0" TEXT="505419">�ݱ�</SELECT>
+		</DIALOG>
+		<!--601���� ����Ʈ ������ �Ϸ� �ǰ� NPC�� Ŭ������ �� ��â-->
+		<DIALOG ID="601" TYPE="COMPLETE">
+			<BODY TEXT="521933" FACE="Walter_smile"/>
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">�Ϸ�</SELECT>
+		</DIALOG>
+		<!--701���� �ϷḦ ��� �Ͽ��� �� ��â-->
+		<DIALOG ID="701">
+			<BODY TEXT="500017"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<!--801���� �ϷḦ �ź� �Ͽ��� �� ��â-->
+		<DIALOG ID="801">
+			<BODY TEXT="500018"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<!--901���� !!�����!! ����Ʈ ����â, ����Ʈ ��Ͽ��� ����Ʈ�� Ŭ���ϸ� �߰� �ȴ�.-->
+		<DIALOG ID="901" TYPE="INFO">
+			<BODY TEXT="521938"/>
+			<SELECT ID="0" TEXT="19933">����</SELECT>
+		</DIALOG>
+		<!--902�� �κ��� �� ã�� �� ���� �޽���-->
+		<DIALOG ID="902">
+			<BODY TEXT="502048"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<DIALOG ID="903">
+			<BODY TEXT="501835"/>
+			<SELECT ID="0" TEXT="500003">�ݱ�</SELECT>
+		</DIALOG>
+		<!--Dialog ID 903~999�� ������ ��뵵�ε� ��밡���ϴ�.-->
+	</DIALOGS>
+	<COMPLETE_NEXT_QUEST_ID>915</COMPLETE_NEXT_QUEST_ID>
+</QUEST>

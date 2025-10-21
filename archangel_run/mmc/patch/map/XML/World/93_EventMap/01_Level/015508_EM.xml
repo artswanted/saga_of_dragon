@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<WORLD ID="w_015508_EM">
+  <GSAPATH>../Data/3_World/93_EventMap/01_Level/015508_EM.gsa</GSAPATH>
+  <BGSOUND VOLUME="1.0">../BGM/red_queen/bgm2.mp3</BGSOUND>
+  <BLOOM BLUR="0.85" BRIGHT="20.4" SRC="0.7" GLOW="0.35" HIGHLIGHT="0.02" />
+  <DUNGEON_EXIT_UI/>
+ <!-- ��Ż�̵� -->
+  <TRIGGER ID="gate_next_base" TYPE="PARTY_MEMBER_PORTAL" TITLE_TEXT_ID="9015509" TITLE_TEXT_FONTNAME="Font_Name" TITLE_TEXT_ADJUST="0,0,75" TITLE_TEXT_SCALE="1.3" TITLE_TEXT_COLOR="1,1,1,1" ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="action" ACTION="a_act" />
+    <ACTION SCRIPT="World_Portal" IS_BOSS_TRIGGER="1" PARAM="9015509" PARAM2="1"/>
+  </TRIGGER>
+
+	<!-- ���� �̺�Ʈ ������Ʈ ���� -->
+	<WORLDEVENT_OBJECT_LIST>
+		<!--������ �� /���� -->
+		<WORLDEVENT_OBJECT ID="1" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 01"/>	<!--������ ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="2" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 02"/>	<!--������ ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="3" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 03"/>	<!--������ ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="4" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 04"/>	<!--������ ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="5" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 05"/>	<!--������ ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="6" INIT_STATE="0" TYPE="PUPPET" NAME="libraryDoor1001_03 06"/>	<!--������ ��/ ���� -->
+
+		<!--������ ������  ����-->
+		<WORLDEVENT_OBJECT ID="7" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 01"/>	<!--ù��° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="8" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 02"/>	<!--ù��° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="9" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 03"/>	<!--ù��° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="11" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 04"/>	<!--ù��° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="12" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 05"/>	<!--����° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="13" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 06"/>	<!--����° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="14" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 07"/>	<!--����° ������ �� öâ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="15" INIT_STATE="1" TYPE="PUPPET" NAME="Wall1001_01 08"/>	<!--����° ������ �� öâ��/ ���� -->
+		<!--������  ����-->
+		<WORLDEVENT_OBJECT ID="16" INIT_STATE="0" TYPE="PUPPET" NAME="LibraryWall1001_01 01"/>	<!--ù��° ���� ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="17" INIT_STATE="0" TYPE="PUPPET" NAME="LibraryWall1001_01 02"/>	<!--������ �� ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="18" INIT_STATE="0" TYPE="PUPPET" NAME="LibraryWall1001_01 03"/>	<!--�ι��� ���� ��/ ���� -->
+		<WORLDEVENT_OBJECT ID="19" INIT_STATE="0" TYPE="PUPPET" NAME="LibraryWall1001_01 04"/>	<!--����° ���� ��/ ���� -->
+		<!--������ ���� ����-->
+		<WORLDEVENT_OBJECT ID="20" INIT_STATE="0" TYPE="PUPPET" NAME="Veta_Lever1001_01 01"/>	<!--ù��¼ ������ ����/ ���� -->
+		<WORLDEVENT_OBJECT ID="21" INIT_STATE="0" TYPE="PUPPET" NAME="Veta_Lever1001_01 02"/>	<!--�ι�° ������ ����/ ���� -->
+		<WORLDEVENT_OBJECT ID="22" INIT_STATE="0" TYPE="PUPPET" NAME="Veta_Lever1001_01 03"/>	<!--������ �� ����/ ���� -->
+		<WORLDEVENT_OBJECT ID="23" INIT_STATE="0" TYPE="PUPPET" NAME="Veta_Lever1001_01 04"/>	<!--����° ������ ���� / ���� -->
+ 
+        <!--ù ��° �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="24" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 01"/>	<!--ù��° ������ ������ ���� ���� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="25" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 02"/>	<!--ù��° ������ ���� ����Ʈ -->
+		<!--ù ��° ������ �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="26" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 03"/>
+        <WORLDEVENT_OBJECT ID="27" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 04"/>
+        <!--ù ��° ������ ���� �Ϲ� ����(�ι�° ����) �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="28" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 05"/>
+        <!--���� ° �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="29" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 06"/>
+        <!--��  ��° �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="30" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 07"/>	<!--�ι�° ������ ������ ���� ���� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="31" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 08"/>	<!--�ι�° �������� ���� ����Ʈ -->
+		
+		<!--������ ��(�ټ���° ����) �ٴ� ����Ʈ ����-->
+        <WORLDEVENT_OBJECT ID="32" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 09"/>	<!--�ı� ������Ʈ ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="33" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 10"/>	<!--���� ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="34" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 11"/>	<!--���� ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="35" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 12"/>	<!--���� ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="36" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 13"/>	<!--������ ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="37" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 14"/>	<!--������ ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="38" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 15"/>	<!--������ ���� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="39" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 16"/>	<!--������ ���� �ٴ� ����Ʈ -->
+		
+		<!--�� ��° ������ ����(�������� ����)  �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="40" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 17"/>		
+		<!--�� ��° ������ �� ���� �� �ٴ� ����Ʈ -->	
+        <WORLDEVENT_OBJECT ID="41" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 18"/>
+        <WORLDEVENT_OBJECT ID="42" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 19"/>
+        <!--�ϰ���° �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="43" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 20"/>
+        <!--������° �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="44" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 21"/>	<!--����° ������ ������ ���� ���� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="45" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 22"/>	<!--����° ������ ���� ����Ʈ -->
+	    <!--�� ��° ������(��ȩ��° ����) ���� �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="46" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 23"/>
+        <!--�� ��° ������ �� ���� �� �ٴ� ����Ʈ -->
+        <WORLDEVENT_OBJECT ID="47" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 24"/>
+        <WORLDEVENT_OBJECT ID="48" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 25"/>
+        <!--����° ���� �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="49" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 26"/>
+        <!--���ѹ�° ���� �Ϲ� ���� �� ���� �� �ٴ� ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="50" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ArrowSign1001_01 27"/>
+		
+		
+		<!--�ſ﹮ ����Ʈ ����-->
+
+		<WORLDEVENT_OBJECT ID="51" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 01"/>	<!--����Ʈ ����Ʈ/ù��° ���� �� ������ �ߵ� -->
+		<WORLDEVENT_OBJECT ID="52" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 02"/>	<!--����Ʈ ����Ʈ ù��° ������ ���� ���� �������� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="53" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 03"/>	<!--����Ʈ ����Ʈ/ù��° ������ �������� ���� ������ ���� �ߵ��� 02�� ���� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="54" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 05"/>	<!--����Ʈ ����Ʈ / �׹�° ���� �� ����� ������ �� ������ ������� �ߵ�-->
+		<WORLDEVENT_OBJECT ID="55" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 06"/>	<!--����Ʈ ����Ʈ /������ ��� ������ ����� �ÿ� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="56" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 07"/>	<!--����Ʈ ����Ʈ /�ι��� ������ ���� ���� �������� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="57" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 08"/>	<!--����Ʈ ����Ʈ/�ι�° ������ �������� ���� ������ ���� �ߵ��� 07�� ���� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="58" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 09"/>	<!--����Ʈ ����Ʈ/����° ���� �� �������� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="59" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 10"/>	<!--����Ʈ ����Ʈ /������ ������ ���� ���� �������� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="60" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="mirrorGate_1001_05 11"/>	<!--����Ʈ ����Ʈ/����° ������ �������� ���� ������ ���� �ߵ��� 10�� ���� �ߵ� -->
+       
+		<!--����Ʈ ���� / ��Ż -->
+		<WORLDEVENT_OBJECT ID="61" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ef_Gate_1001_05 01"/><!--����° ���� �� �������� �ߵ� -->
+		<WORLDEVENT_OBJECT ID="62" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ef_Gate_1001_05 02"/> <!--�׹�°�� ��� ����ģ �� -->
+
+		<!--����Ʈ ���� ���� �� �� �˸� -->
+		<WORLDEVENT_OBJECT ID="63" INIT_STATE="1" INIT_SHOW="1" TYPE="MAPOBJECT" NAME="MissonGo 01"/>	<!--ù��° ������ �Ա� ����/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="64" INIT_STATE="1" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="MissonGo 02"/>	<!--�ι��� ������ �Ա� ����/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="66" INIT_STATE="1" INIT_SHOW="1" TYPE="MAPOBJECT" NAME="MissonGo 04"/>	<!--������ �� 1����/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="67" INIT_STATE="1" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="MissonGo 05"/>	<!--����° ������ �Ա� ����/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="68" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="KeyGide_Z_Ring 01"/> <!--ù��°������z/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="69" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="KeyGide_Z_Ring 02"/> <!--�ѹ�°������z/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="70" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="KeyGide_Z_Ring 03"/> <!--�¹�°������z/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="71" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="KeyGide_Z_Ring 04"/> <!--�׹�°������z/ ����Ʈ -->
+		<WORLDEVENT_OBJECT ID="72" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="KeyGide_Z_Ring 05"/> <!--������ Ʈ���ſ� -->
+        <WORLDEVENT_OBJECT ID="73" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="EF_Acc_hilight_001 01"/> <!--������ Ʈ���ſ� -->
+        <WORLDEVENT_OBJECT ID="74" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ef_sunshine_01 01"/> <!--������ Ʈ���ſ� -->
+        <WORLDEVENT_OBJECT ID="75" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="ef_Ice_SlidingRoomObj1001_01 01"/> <!--������ Ʈ���ſ� -->
+
+	</WORLDEVENT_OBJECT_LIST>
+
+	<!--ù��° ���� ���� ���� �� ������ -->
+	<WORLD_EVENT ID="1" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="0" EVENT="EQUAL" VALUE="0"/><!--1���� ��� ���Ͱ� ������ �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+            <ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_01" EVENT="ENABLE" VALUE="1"/> <!--ù��° ������ ���� Ʈ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="24" EVENT="SHOW" VALUE="1"/> <!-- ù��° ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="25" EVENT="SHOW" VALUE="1"/> <!-- ù��° ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="51" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ ���� ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_01" EVENT="ENABLE" VALUE="1"/> <!--���� Ʈ���� Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="68" EVENT="SHOW" VALUE="1"/> <!-- ���� Z UI Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--ù��° ������ ������ -->
+	<WORLD_EVENT ID="2" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_01" EVENT="ACTION" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="1" EVENT="STATUS" VALUE="1"/> <!-- ù��°  ������ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="20" EVENT="STATUS" VALUE="1"/> <!-- ����ġ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="51" EVENT="SHOW" VALUE="0"/> <!-- ù��° ������ ���� ���� ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_01" EVENT="ENABLE" VALUE="0"/> <!--Ʈ���� ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_01" EVENT="ENABLE" VALUE="1"/> <!--ù��°�� ���� ���� ��ȯ Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--ù��° ������ ���� ��ȯ -->
+	<WORLD_EVENT ID="3" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_01" EVENT="ENTER"/> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000000)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� ���� ON -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="1" EVENT="STATUS" VALUE="0"/> <!-- ù��° �� ���ݱ� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="7" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="8" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="9" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="10" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ�-->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="CALL_SG_BOSS_NAMED_UI(88)" EVENT="SCRIPT"/> <!--�����̸� UIȣ�� -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="51" EVENT="ACTIVE" VALUE="1"/>	<!--ù��° ������ ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+	
+    <!--5���� ù��° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="4" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="3" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000001)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� ���� OFF -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-21" EVENT="ACTIVE" VALUE="1"/><!--ù��° �� ���� ���� ��ȯ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_01" EVENT="ENABLE" VALUE="0"/> <!--���� Ʈ���� ��Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--ù��° ������ �� ���� �� ������ -->
+	<WORLD_EVENT ID="5" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-21" EVENT="EQUAL" VALUE="0"/><!--ù��° ��������Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="51" EVENT="REMOVE"/><!--ù��° �� ���� ���� -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="7" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="8" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="9" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="10" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="2" EVENT="STATUS" VALUE="1"/> <!-- ù��° ������ ������ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="26" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="27" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5���� ������ ���� ��ȯ -->
+	<WORLD_EVENT ID="6" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="5" EVENT="ACT_AFTER_TIME" VALUE="1000" /> <!--1�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="13" EVENT="ACTIVE" VALUE="1"/>	<!--����° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--ù��° ������ ����(�ι�° ����) ���� ��ȯ -->
+	<WORLD_EVENT ID="7" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_01" EVENT="ENTER" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_02" EVENT="ENABLE" VALUE="0"/> <!--Ʈ���� ��Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5���� ù��° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="8" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="7" EVENT="ACT_AFTER_TIME" VALUE="2000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="12" EVENT="ACTIVE" VALUE="1"/><!--ù��° ������ ���� ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+
+   	<!--ù��° ������ ���� ���� ���� �� �� ���� -->
+	<WORLD_EVENT ID="9" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="12" EVENT="EQUAL" VALUE="0"/><!--ù��° ��������Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="52" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ ���� ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="28" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ ���� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_03" EVENT="ENABLE" VALUE="1"/> <!--Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5���� ù��° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="10" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="9" EVENT="ACT_AFTER_TIME" VALUE="1000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="13" EVENT="ACTIVE" VALUE="1"/><!--ù��° ������ ���� ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--����° ���� ���� ��� ������ -->
+	<WORLD_EVENT ID="11" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="13" EVENT="EQUAL" VALUE="0"/><!--����° ���� ���Ͱ� ������ �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_05" EVENT="ENABLE" VALUE="1"/> <!--Ʈ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="61" EVENT="SHOW" VALUE="1"/> <!-- ����° ���� ��� ��Ż Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--1���� ù��° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="13" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="11" EVENT="ACT_AFTER_TIME" VALUE="1000" /> <!--1�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="14" EVENT="ACTIVE" VALUE="1"/>	<!--�׹�° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+
+    <!--�׹�° ���� ���� ���� �� ������ -->
+	<WORLD_EVENT ID="14" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="14" EVENT="EQUAL" VALUE="0"/><!--�׹�° ���� ��� ���Ͱ� ������ �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+            <ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_09" EVENT="ENABLE" VALUE="1"/> <!--�ι�° ������ ���� Ʈ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="62" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ ���� ��Ż Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="30" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="16" EVENT="STATUS" VALUE="1"/> <!-- �ι�° ������ ���� ��â�칮 ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="54" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ �� �̵� ��Ż Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_07" EVENT="ENABLE" VALUE="1"/> <!--������ �� Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--�ι��� ������ �� -->
+	<WORLD_EVENT ID="15" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_07" EVENT="ENTER" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="32" EVENT="SHOW" VALUE="1"/> <!-- �ı�������Ʈ ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="17" EVENT="STATUS" VALUE="0"/> <!-- �������� �� �� �ݱ� -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5���� ù��° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="16" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="15" EVENT="ACT_AFTER_TIME" VALUE="1000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+		<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="15" EVENT="ACTIVE" VALUE="1"/>	<!--������ �� ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+<!--�ι�° ������ �� ���� �� ���� �� -->
+    <WORLD_EVENT ID="17" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="15" EVENT="EQUAL" VALUE="0"/><!--�׹�° ���� ��� ���Ͱ� ������ �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="32" EVENT="SHOW" VALUE="0"/> <!-- �ı�������Ʈ ���� �ٴ� ȭ��ǥ ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="33" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="34" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="35" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_03" EVENT="ENABLE" VALUE="1"/> <!--���� Ʈ���� Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="70" EVENT="SHOW" VALUE="1"/> <!-- ���� Z UI Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--�ι�° ������ �� ���� ��� �� -->
+    <WORLD_EVENT ID="18" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_03" EVENT="ACTION" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_07" EVENT="ENABLE" VALUE="0"/> <!--������ �� ������ Ʈ���� ��Ȱ��ȭ -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+		 	<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="33" EVENT="SHOW" VALUE="0"/> <!-- ���� ���� �ٴ� ȭ��ǥ ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="34" EVENT="SHOW" VALUE="0"/> <!-- ���� ���� �ٴ� ȭ��ǥ ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="35" EVENT="SHOW" VALUE="0"/> <!-- ���� ���� �ٴ� ȭ��ǥ ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="70" EVENT="SHOW" VALUE="0"/> <!-- ���� Z UI ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="36" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="37" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="38" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="39" EVENT="SHOW" VALUE="1"/> <!-- ���� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="55" EVENT="SHOW" VALUE="1"/> <!-- ������ ��� ��Ż ����Ʈ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_08" EVENT="ENABLE" VALUE="1"/> <!--������ �� ������ Ʈ���� Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="17" EVENT="STATUS" VALUE="1"/> <!-- �������� �� ������ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_02" EVENT="ENABLE" VALUE="1"/> <!--���� Ʈ���� Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="64" EVENT="SHOW" VALUE="1"/> <!-- Mission GO -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="69" EVENT="SHOW" VALUE="1"/> <!-- ���� Z UI Ȱ��ȭ -->
+     		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--�ι�° ������ ������ -->
+	<WORLD_EVENT ID="19" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_02" EVENT="ACTION" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_02" EVENT="ENABLE" VALUE="1"/> <!--ù��°�� ���� ���� ��ȯ Ʈ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_09" EVENT="ENABLE" VALUE="0"/> <!--�ι�° ������ ���� Ʈ���� ��Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="62" EVENT="STATUS" VALUE="0"/> <!-- �ι�° ������ ���� ��Ż ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="21" EVENT="STATUS" VALUE="1"/> <!-- ����ġ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="16" EVENT="STATUS" VALUE="0"/> <!-- �� ��° ������ ���� ��â�칮 ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="3" EVENT="STATUS" VALUE="1"/> <!-- �ι�° ������ ���� ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="54" EVENT="STATUS" VALUE="0"/> <!-- ������ �� �̵� �ſ﹮ ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="30" EVENT="SHOW" VALUE="0"/> <!-- �������� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="31" EVENT="SHOW" VALUE="1"/> <!-- �������� ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--�ι�° ������ ���� ��ȯ -->
+	<WORLD_EVENT ID="20" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_02" EVENT="ENTER"/> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000000)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� ���� ON -->
+			
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="3" EVENT="STATUS" VALUE="0"/> <!-- �ι�° �� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="CALL_SG_BOSS_NAMED_UI(88)" EVENT="SCRIPT"/> <!--�����̸� UIȣ�� -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="52" EVENT="ACTIVE" VALUE="1"/>	<!--�ι�° �� ���� ��ȯ -->
+			
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+	
+    <!--5���� �ι�° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="21" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="20" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000001)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� ���� OFF -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-22" EVENT="ACTIVE" VALUE="1"/><!--�ι�° �� ���� ���� ��ȯ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_02" EVENT="ENABLE" VALUE="0"/> <!--���� Ʈ���� ��Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--�ι�° ������ �� ���� �� ������ -->
+	<WORLD_EVENT ID="22" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-22" EVENT="EQUAL" VALUE="0"/><!--ù��° ��������Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="52" EVENT="REMOVE"/><!--ù��° �� ���� ���� -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="4" EVENT="STATUS" VALUE="1"/> <!-- �ι�° ������ ������ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="41" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="42" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5����  ���� ��ȯ -->
+	<WORLD_EVENT ID="23" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="22" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="17" EVENT="ACTIVE" VALUE="1"/>	<!--�ϰ���° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	
+    <!--�ι�° ������ ����(������° ����) ���� ��ȯ -->
+	<WORLD_EVENT ID="24" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_09" EVENT="ENTER" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="16" EVENT="ACTIVE" VALUE="1"/><!--�ι�° ���� ���� ���� ���� ��ȯ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_10" EVENT="ENABLE" VALUE="0"/> <!--Ʈ���� ��Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+	
+   	<!--�ι�° ������ ���� ���� ���� �� �� ���� -->
+	<WORLD_EVENT ID="25" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="16" EVENT="EQUAL" VALUE="0"/><!--�ι�° ������ ���� ���Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="56" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ ���� �ſ� ���� Ȱ��ȭ -->
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="57" EVENT="SHOW" VALUE="1"/> <!-- ������° ���� ���� �ſ� ���� Ȱ��ȭ -->
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="40" EVENT="SHOW" VALUE="1"/> <!-- �ι�° ������ ���� ȭ��ǥ Ȱ��ȭ -->
+	    <ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_11" EVENT="ENABLE" VALUE="1"/> <!--Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5����  ���� ��ȯ -->
+	<WORLD_EVENT ID="26" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="25" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="18" EVENT="ACTIVE" VALUE="1"/>	<!--������° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+	
+
+	<!--�ϰ� ��°���� �� ���� �� ������ -->
+	<WORLD_EVENT ID="27" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="17" EVENT="EQUAL" VALUE="0"/><!--�ι�° ��������Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+          <ACTIVATE_ACTION>
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="18" EVENT="STATUS" VALUE="1"/> <!--�ϰ���° ���� ������ �� ���� -->
+		</ACTIVATE_ACTION>
+    </WORLD_EVENT>
+
+	<!--5����  ���� ��ȯ -->
+	<WORLD_EVENT ID="28" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="27" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="18" EVENT="ACTIVE" VALUE="1"/>	<!--������° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+    <!--���� ��°���� �� ���� �� ������ -->
+	<WORLD_EVENT ID="29" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="18" EVENT="EQUAL" VALUE="0"/><!--������°���� ���Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+        <ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="44" EVENT="SHOW" VALUE="1"/> <!-- ����° ������ ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="45" EVENT="SHOW" VALUE="1"/> <!-- ����° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+	        <ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_13" EVENT="ENABLE" VALUE="1"/> <!--����° ������ ���� Ʈ���� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="58" EVENT="STATUS" VALUE="1"/> <!-- ����° ������ ���� �ſ� ��Ż Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_04" EVENT="ENABLE" VALUE="1"/> <!--���� Ʈ���� Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="71" EVENT="SHOW" VALUE="1"/> <!-- ���� Z UI Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="58" EVENT="SHOW" VALUE="1"/> <!-- Show gate -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--������� ����° ������ ������ -->
+	<WORLD_EVENT ID="30" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Trigger_swich_04" EVENT="ACTION" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="5" EVENT="STATUS" VALUE="1"/> <!-- ����°  ������ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="23" EVENT="STATUS" VALUE="1"/> <!-- ����ġ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="58" EVENT="SHOW" VALUE="0"/> <!-- ����° ������ ���� �ſ� ���� ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="58" EVENT="SHOW" VALUE="0"/> <!-- Hide gate -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_13" EVENT="ENABLE" VALUE="0"/> <!--����° ������ ���� Ʈ���� ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_03" EVENT="ENABLE" VALUE="1"/> <!--����°�� ���� ���� ��ȯ Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--����° ������ ���� ��ȯ -->
+	<WORLD_EVENT ID="31" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_03" EVENT="ENTER"/> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000000)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� off -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="5" EVENT="STATUS" VALUE="0"/> <!-- ����° �� ���ݱ� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="11" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="12" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="13" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="14" EVENT="STATUS" VALUE="0"/> <!-- ������ �� öâ�� ���ݱ� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="71" EVENT="SHOW" VALUE="0"/> <!-- ���� Z UI ��Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="44" EVENT="SHOW" VALUE="0"/> <!-- ����° ������ ���� �ٴ� ȭ��ǥ �� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="45" EVENT="SHOW" VALUE="0"/> <!-- ����° ������ �ٴ� ȭ��ǥ �� Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="CALL_SG_BOSS_NAMED_UI(88)" EVENT="SCRIPT"/> <!--�����̸� UIȣ�� -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="53" EVENT="ACTIVE" VALUE="1"/>	<!--����° ������ �Ϲ� ���� ��ȯ -->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5���� ����° �� ���� ���� ��ȯ -->
+	<WORLD_EVENT ID="32" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="31" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+		<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-23" EVENT="ACTIVE" VALUE="1"/><!--����° �� ���� ���� ��ȯ -->
+		<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="Elite_teleport_target_03" EVENT="ENABLE" VALUE="0"/> <!--���� Ʈ���� ��Ȱ��ȭ -->
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(10000001)" EVENT="SCRIPT"/> <!--�÷��̾� �Է�/�̵� on -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--����° ������ �� ���� �� ������ -->
+	<WORLD_EVENT ID="33" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-23" EVENT="EQUAL" VALUE="0"/><!--����° ������ ���Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="53" EVENT="REMOVE"/><!--����° �� �������� -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="11" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+	        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="12" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="13" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="14" EVENT="STATUS" VALUE="1"/> <!-- ������ �� öâ�� ���� -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="6" EVENT="STATUS" VALUE="1"/> <!-- ù��° ������ ������ ������ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="47" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="48" EVENT="SHOW" VALUE="1"/> <!-- ù��° ������ �ٴ� ȭ��ǥ Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--5����  ���� ��ȯ -->
+	<WORLD_EVENT ID="34" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="33" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="20" EVENT="ACTIVE" VALUE="1"/>	<!--����° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--����°���� �� ���� �� ������ -->
+	<WORLD_EVENT ID="35" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="20" EVENT="EQUAL" VALUE="0"/><!--����° ���� ���Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+        <ACTIVATE_ACTION>
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="19" EVENT="STATUS" VALUE="1"/> <!-- ����° ���� ������ ������ -->
+		</ACTIVATE_ACTION>
+   </WORLD_EVENT>
+
+   <!--5����  ���� ��ȯ -->
+	<WORLD_EVENT ID="36" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="35" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			 <ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="21" EVENT="ACTIVE" VALUE="1"/><!--���ѹ�° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+    <!--����° ������ ����(��ȩ��° ����) ���� ��ȯ -->
+	<WORLD_EVENT ID="37" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_13" EVENT="ENTER" /> <!--Ʈ���� ���� -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_14" EVENT="ENABLE" VALUE="0"/> <!--Ʈ���� ��Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--1����  ���� ��ȯ -->
+	<WORLD_EVENT ID="38" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="37" EVENT="ACT_AFTER_TIME" VALUE="1000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			 <ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="19" EVENT="ACTIVE" VALUE="1"/><!--����° ���� ���� �Ϲ� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+	
+
+   	<!--����° ������ ���� ���� ���� �� �� ���� -->
+	<WORLD_EVENT ID="39" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="19" EVENT="EQUAL" VALUE="0"/><!--����° ������ ���� ���Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+		<ACTIVATE_ACTION>
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+        <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="59" EVENT="SHOW" VALUE="1"/> <!-- ����° ������ ���� �ſ� ���� Ȱ��ȭ -->
+		<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="45" EVENT="SHOW" VALUE="1"/> <!-- ����° ������ ���� ȭ��ǥ Ȱ��ȭ -->
+	    <ACTION TARGET_TYPE="TRIGGER" TARGET_ID="teleport_target_15" EVENT="ENABLE" VALUE="1"/> <!--Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--1����  ���� ��ȯ -->
+	<WORLD_EVENT ID="40" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="39" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--5�� �� �Ʒ� �̺�Ʈ ���� -->
+		<ACTIVATE_ACTION>
+			 <ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="21" EVENT="ACTIVE" VALUE="1"/>	<!--���ѹ�° ���� ���� ��ȯ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--���� ��°���� �� ���� �� ��Ż ���̱� -->
+	<WORLD_EVENT ID="41" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="21" EVENT="EQUAL" VALUE="0"/><!--ù��° ��������Ͱ� ��� �׾��� �� �Ʒ� ���� ���� -->
+        <ACTIVATE_ACTION>
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="FRM_GOGO_RIGHT" EVENT="SCRIPT"/> <!--������ GOGO -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="50" EVENT="SHOW" VALUE="1"/> <!-- ���� ��Ż ���� �ٴ� ȭ��ǥ Ȱ��ȭ -->
+		    <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="72" EVENT="SHOW" VALUE="1"/> <!-- Z UI Ȱ��ȭ -->
+            <ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="73" EVENT="SHOW" VALUE="1"/> <!-- ������ ��Ż ��Ż ����Ʈ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="74" EVENT="SHOW" VALUE="1"/> <!-- ������ ��Ż ����� ����Ʈ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="75" EVENT="SHOW" VALUE="1"/> <!-- ������ ��Ż �ٴ� ����Ʈ Ȱ��ȭ -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_base" EVENT="ENABLE" VALUE="1"/> <!--Ʈ���� Ȱ��ȭ -->
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+    <!--������ ����ġ-->
+	<TRIGGER ID="Trigger_swich_01" ENABLE="0"> <!--����1 �� -->
+		<CONDITION TYPE="action" ACTION="a_act" />
+		<ACTION SCRIPT="Map_WorldEventTrigger" />
+	</TRIGGER>
+	<TRIGGER ID="Trigger_swich_02" ENABLE="0"> <!--����2 �� -->
+		<CONDITION TYPE="action" ACTION="a_act" />
+		<ACTION SCRIPT="Map_WorldEventTrigger" />
+	</TRIGGER>
+	<TRIGGER ID="Trigger_swich_03" ENABLE="0"> <!--������ �� -->
+		<CONDITION TYPE="action" ACTION="a_act" />
+		<ACTION SCRIPT="Map_WorldEventTrigger" />
+	</TRIGGER>
+	<TRIGGER ID="Trigger_swich_04" ENABLE="0"> <!--���� 3�� -->
+		<CONDITION TYPE="action" ACTION="a_act" />
+		<ACTION SCRIPT="Map_WorldEventTrigger" />
+	</TRIGGER>
+
+	<!-- ���ʹ��� -->
+  <TRIGGER ID="teleport_target_01" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_01" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_02" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_02" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_03" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_03" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_04" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_04" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_05" TYPE="TELEPORT"  ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_05" PARAM="2" PARAM2="2"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_06" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_06" PARAM="1" PARAM2="1"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_07" TYPE="TELEPORT"  ENABLE="0"  IS_WORLD_EVENT_SCRIPT_USE="1"><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_07" PARAM="4" PARAM2="4"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_08" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_08" PARAM="8" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_09" TYPE="TELEPORT"  ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_09" PARAM="2" PARAM2="8"/>
+  </TRIGGER>
+   <TRIGGER ID="teleport_target_10" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_10" PARAM="4" PARAM2="1"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_11" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_11" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_12" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_12" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_13" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_13" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_14" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_14" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_15" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_15" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+  <TRIGGER ID="teleport_target_16" TYPE="TELEPORT"  ENABLE="0" ><!--�̺�Ʈ ����-->
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_16" PARAM="4" PARAM2="8"/>
+  </TRIGGER>
+
+  <!-- ������ �� -->
+	<TRIGGER ID="Elite_teleport_target_01" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1" ><!--�̺�Ʈ ����-->
+		<CONDITION TYPE="touch" ACTION="a_act"/>
+		<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="Elite_teleport_zone_01" PARAM="2" PARAM2="2"/>
+	</TRIGGER>
+	<TRIGGER ID="Elite_teleport_target_02" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1" ><!--�̺�Ʈ ����-->
+		<CONDITION TYPE="touch" ACTION="a_act"/>
+		<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="Elite_teleport_zone_02" PARAM="2" PARAM2="2"/>
+	</TRIGGER>
+	<TRIGGER ID="Elite_teleport_target_03" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1" ><!--�̺�Ʈ ����-->
+		<CONDITION TYPE="touch" ACTION="a_act"/>
+		<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="Elite_teleport_zone_03" PARAM="2" PARAM2="2"/>
+	</TRIGGER>
+
+  	<!--�ڷ���Ʈ ������ �̵�-->
+  <TRIGGER ID="Touch_target_01" TYPE="TELEPORT" >
+    <CONDITION TYPE="touch" ACTION="a_act" />
+    <ACTION SCRIPT="Touch_Teleport" PARAM_STRING="Touch_zone_01" />
+  </TRIGGER>
+
+  <WORLD_QUALITY HIGH_END="1000" MID_END="1500" LOW_END="2000" USE="1" />
+  </WORLD>

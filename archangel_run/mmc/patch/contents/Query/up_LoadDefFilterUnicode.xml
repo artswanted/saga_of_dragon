@@ -1,0 +1,6 @@
+<QUERY TABLE="Table/DR2_Local/TB_DefFilterUnicode.csv">
+	<COLUMN NAME="f_FuncCode" TYPE="INT"/>
+	<COLUMN NAME="StartRange" TYPE="SMALLINT"/>
+	<COLUMN NAME="EndRange" TYPE="SMALLINT"/>
+	<COLUMN NAME="FilterType" TYPE="TINYINT"/>
+</QUERY>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4351</ID> <!--T.T.10435100 영혼의 합체 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	차원안정기 수리-->
+<!--[완료NPC]	니콜라의 연구실 - 니콜라-->
+<!--[내용]	죠죠형제에게서 파동안정기를 되찾아 왔다. 하지만 차원안정기는 현재 불안정한 상태로 언제 작동을 중지 할지 모른다. 니콜라를 도와 차원안정기를 수리하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</CLIENT> <!--시작NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</PAYER> <!--완료NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</AGENT> <!--진행NPC 11 니콜라의 연구실 - 니콜라 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">160022420</ITEM> 
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10435111"/> <!--차원안정기 수리-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10435121" FACE="Nikola_normal"/> <!--차원안정기가 더 이상 버틸수가 없습니다.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10435126" FACE="Nikola_smile"/> <!--파동안정기 인가요? 어서 제게 주십시요.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10435123" FACE="Nikola_normal"/> <!--싱크홀로 인해 차원붕괴가 아직 이뤄지지 않은것은 차원안정기가 아직은 버티기 때문입니다. 하지만 얼마나 버틸수 있을지는 모릅니다. 어서 파동안정기를 되찾아야 합니다. 파동안정기는 [메트로시티 항구]에 있는 죠죠형제가 가져갔습니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10435124" FACE="Nikola_cry"/> <!--이대로 가다간 두 차원이 붕괴 될것 입니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10435125" FACE="Nikola_normal"/> <!--차원안정기도 이제 곧 한계입니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10435102" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

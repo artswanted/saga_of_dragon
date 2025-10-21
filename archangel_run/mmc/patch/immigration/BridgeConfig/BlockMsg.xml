@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<BLOCKMSG>
+<BLOCKGROUP name="GLOBALBLOCK" value ="1">
+<BLOCK CODE="0">
+<DESCRIPTION>고객님의 계정은 고객님의 요청에 의하여 모든 게임 서비스 이용이 불가하도록 설정된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="1">
+<DESCRIPTION>고객님의 계정은 불법 프로그램 사용이 확인되어 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="2">
+<DESCRIPTION>고객님의 계정은 불법 프로그램 사용이 확인되어 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="3">
+<DESCRIPTION>고객님의 계정은 불법 프로그램 사용 관련으로 10일간 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+차후 동일 사유가 확인될 시에는 영구적인 제한 조치가 이루어지오니 이점 유의해주시고, 보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="4">
+<DESCRIPTION>고객님의 계정은 계정 거래 내용이 확인되어 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="5">
+<DESCRIPTION>고객님의 계정은 결제 도용으로 인해 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다. 
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="6">
+<DESCRIPTION>고객님의 계정은 타인의 명의를 이용한 가입 등과 관련되어 임시로 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+해당 사유와 무관하실 경우 본인 확인 절차를 거쳐주시기 바라며
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="7">
+<DESCRIPTION>영리를 목적으로 하는 작업장 관련 제재로 인해 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+해당 사유와 무관하실 경우 본인 확인 절차를 거쳐주시기 바라며
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="8">
+<DESCRIPTION>상습 불건전 게시글 작성에 의한 제재로 인해 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+해당 사유와 무관하실 경우 본인 확인 절차를 거쳐주시기 바라며
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="9">
+<DESCRIPTION>현행법 위반 행위에 의한 제재로 인해 모든 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+해당 사유와 무관하실 경우 본인 확인 절차를 거쳐주시기 바라며
+보다 자세한 사항은 PlayNC 홈페이지(www.plaync.co.kr) 고객센터를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="10">
+<DESCRIPTION>고객님의 계정은 NC 코인 관련 버그을 악용한 내역이 확인되어 사용이 제한되었습니다.
+보다 자세한 사항은 고객센터(Tel. 1600-0020)를 통해 문의해주시기 바랍니다
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="11">
+<DESCRIPTION>고객님의 계정은 무료로 지급된 코인을 악용한 내역이 확인되어 사용이 제한되었습니다.
+보다 자세한 사항은 고객센터(Tel. 1600-0020)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="12">
+<DESCRIPTION>고객님의 계정은 모든 권한이 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0020)를 통해 문의해주시기 바랍니다
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="13">
+<DESCRIPTION>고객님의 계정은 모든 권한이 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0020)를 통해 문의해주시기 바랍니다
+</DESCRIPTION>
+</BLOCK>
+</BLOCKGROUP>
+
+<BLOCKGROUP name="GAMEINNERBLOCK" value ="2">
+<BLOCK CODE="0">
+<DESCRIPTION>고객님의 계정은 해킹 및 불법 프로그램 사용/시도/조장/전파하는 행위로 인해 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="1">
+<DESCRIPTION>고객님의 계정은 비정상적인 방법으로 게임승부를 조작하거나 게임포인트(머니)를 획득하는 행위로 인해 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="2">
+<DESCRIPTION>고의적으로 게임 진행을 방해하는 등의 행위로 인해 게임 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="3">
+<DESCRIPTION>게임 내 버그를 악용하는 행위로 인해 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="4">
+<DESCRIPTION>기타 운영원칙에 위배되는 행위 행위로 인해 게임 서비스 이용이 불가하도록 제한된 상태입니다.  
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+</BLOCKGROUP>
+
+<BLOCKGROUP name="GAMEOUTERBLOCK" value ="3">
+<BLOCK CODE="0">
+<DESCRIPTION>고객님의 계정은 모든 게임 서비스 사용 제재로 인해 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="1">
+<DESCRIPTION>타인의 개인정보를 유출하는 행위로 인해 서비스 이용이 불가하도록 제한된 상태입니다. 
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="2">
+<DESCRIPTION>저속하거나 미풍양속을 저해하는 표현으로 인해 서비스 이용이 불가하도록 제한된 상태입니다.
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="3">
+<DESCRIPTION>불량사용자 허위신고 제재로 인해 서비스 이용이 불가하도록 제한된 상태입니다.  
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="4">
+<DESCRIPTION>영리를 목적으로 한 광고 및 도배로 인해 서비스 이용이 불가하도록 제한된 상태입니다.  
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+<BLOCK CODE="5">
+<DESCRIPTION>기타 운영원칙에 위배되는 행위로 인해 서비스 이용이 불가하도록 제한된 상태입니다.  
+보다 자세한 사항은 고객센터(Tel. 1600-0200)를 통해 문의해주시기 바랍니다.
+</DESCRIPTION>
+</BLOCK>
+</BLOCKGROUP>
+
+</BLOCKMSG>

@@ -1,0 +1,26 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefItemOptionAbil.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="OptionAbilNo" TYPE="INT"/>
+    <COLUMN NAME="f_PieceCount" TYPE="INT"/>
+    <COLUMN NAME="f_Order" TYPE="INT"/>
+    <COLUMN NAME="Type01" TYPE="INT"/>
+    <COLUMN NAME="Value01" TYPE="INT"/>
+    <COLUMN NAME="Type02" TYPE="INT"/>
+    <COLUMN NAME="Value02" TYPE="INT"/>
+    <COLUMN NAME="Type03" TYPE="INT"/>
+    <COLUMN NAME="Value03" TYPE="INT"/>
+	<COLUMN NAME="Type04" TYPE="INT"/>
+    <COLUMN NAME="Value04" TYPE="INT"/>
+	<COLUMN NAME="Type05" TYPE="INT"/>
+    <COLUMN NAME="Value05" TYPE="INT"/>
+	<COLUMN NAME="Type06" TYPE="INT"/>
+    <COLUMN NAME="Value06" TYPE="INT"/>
+	<COLUMN NAME="Type07" TYPE="INT"/>
+    <COLUMN NAME="Value07" TYPE="INT"/>
+	<COLUMN NAME="Type08" TYPE="INT"/>
+    <COLUMN NAME="Value08" TYPE="INT"/>
+	<COLUMN NAME="Type09" TYPE="INT"/>
+    <COLUMN NAME="Value09" TYPE="INT"/>
+	<COLUMN NAME="Type10" TYPE="INT"/>
+    <COLUMN NAME="Value10" TYPE="INT"/>
+</QUERY>

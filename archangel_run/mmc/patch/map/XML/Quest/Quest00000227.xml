@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>227</ID> <!--T.T.10022700 여자는 질투의 화신 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	얼음성(F5히든모드)에서 눈의 여왕을 혼내 못생기게 만들자-->
+<!--[완료NPC]	바람항구 - 니아-->
+<!--[내용]	니아는 걱정이 하나 있다고 한다. 바람둥이 산타가 과연 그 버릇을 고쳤는지 항상 걱정이라고 한다. 니아가 마음을 쓰고 있는게 하나 있는데, 얼음여왕이라고 한다. 얼음여왕이 이뻐서 걱정이라고 한다. 얼음성(F5히든모드)으로 가서 얼음여왕을 혼내 못생기게 만들어주자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">8CE11B05-75B4-48c7-888E-96D78B794BAD</CLIENT> <!--시작NPC 바람항구 - 니아 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">8CE11B05-75B4-48c7-888E-96D78B794BAD</PAYER> <!--완료NPC 바람항구 - 니아 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">8CE11B05-75B4-48c7-888E-96D78B794BAD</AGENT> <!--진행NPC 11 바람항구 - 니아 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916600</MONSTER> 
+ <!--MON_NO=7916600/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10022711"/> <!--얼음여왕 처리-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022721" FACE="Nia_normal"/> <!--(속삭이며)용사님~ 잠시만요. 드릴 말씀이 있어요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022726" FACE="Nia_smile"/> <!--어머 이뻐라.
+용사님 정말 고마워요.%%
+쪽!
+왈츠야 제 상대가 안되니까 못생겨지게 안 만들어 주셔도 되요. 호호-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022723" FACE="Nia_normal"/> <!--용사님이 보시기엔 저랑 왈츠랑 얼음여왕 셋 중에 누가 제일 이뻐요?!
+제 눈을 보고 솔직하게 얘기해주세요.%%
+(니아라고 해두자.)%%
+네? 호호호! 역시 제가 제일 이쁘지요? 저도 그렇게 생각해요. 호호호.
+근데 용사님도 아시겠지만, 산타클로스님의 바람둥이 기질을 잘 아시죠?%%
+그래서 사실 좀 걱정이에요. 얼음여왕도 자꾸 찝쩍거리고.. 얼음여왕이 사실 꽤 미인이잖아요.
+얼음 여왕이 못생겨지면 제가 마음이 편할거 같은데 말이에요.%%
+얼음성(F5히든모드)으로 가서 얼음여왕을 못생겨지게 만들어주세요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022724" FACE="Nia_normal"/> <!--뭐에요?! 
+저는 이쁘지 않아서 얘기도 듣기 싫다는 거에요?!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022725" FACE="Nia_normal"/> <!--얼음여왕 왼쪽눈을 많이 때려주세요.
+멍들어서 멍멍이처럼 보이게요.
+아오 열받아!!!!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022702" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

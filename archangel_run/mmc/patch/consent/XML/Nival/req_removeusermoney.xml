@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+ <removeUserMoney>
+  <username>%ID%</username>
+  <money>%REQ_CASH%</money>
+  <remoteaddr>211.232.145.162</remoteaddr>
+  <clientid>%GAME_ID%</clientid>
+  <serviceid>%ITEM_ID%</serviceid>
+  <crc>%CRC%</crc>
+  <operation>%REQ_KEY%</operation>
+ </removeUserMoney>
+</xml>

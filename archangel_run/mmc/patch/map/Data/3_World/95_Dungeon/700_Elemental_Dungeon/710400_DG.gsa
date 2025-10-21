@@ -1,0 +1,1886 @@
+<?xml version="1.0" ?>
+<GSA Major="1" Minor="0" Patch="0">
+    <PALETTES_DIRECTORY>
+        <PALETTE_DIR IDX="0" DIRECTORY=".\..\..\..\..\..\ToolBin\SceneDesigner\Release\Data\" />
+        <PALETTE_DIR IDX="1" DIRECTORY=".\..\..\99_Boss\01_Level\020700\..\..\..\Palettes\" />
+    </PALETTES_DIRECTORY>
+    <PALETTES>
+        <PALETTE NAME="Default" DIR_IDX="0" />
+        <PALETTE NAME="Block" DIR_IDX="1" />
+        <PALETTE NAME="Effect" DIR_IDX="1" />
+        <PALETTE NAME="General" DIR_IDX="1" />
+        <PALETTE NAME="Object" DIR_IDX="1" />
+        <PALETTE NAME="Monster" DIR_IDX="1" />
+    </PALETTES>
+    <OBJECTS>
+        <ENTITY LinkID="0" Class="NiGeneralEntity" Name="gate_teleport_target_01" Type="Trigger" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="7d,57,7c,dd,9b,7c,14,45,82,ee,52,f4,5,1d,d2,3d" Hidden="TRUE" MasterLinkID="1">
+            <COMPONENT RefLinkID="5" />
+            <COMPONENT RefLinkID="6" />
+            <COMPONENT RefLinkID="7" />
+        </ENTITY>
+        <ENTITY LinkID="1" Class="NiGeneralEntity" Name="[General]Object.Teleport_noc_200" TemplateID="7d,57,7c,dd,9b,7c,14,45,82,ee,52,f4,5,1d,d2,3d">
+            <COMPONENT RefLinkID="2" />
+            <COMPONENT RefLinkID="3" />
+            <COMPONENT RefLinkID="4" />
+        </ENTITY>
+        <COMPONENT LinkID="2" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="3" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\Palettes\Teleport_noc_200.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="4" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="5" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">729.7001342773437500, 1.8531885147094727, 1086.4411621093750000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>0.0000004693865776, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, 0.0000004693865776, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="6" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="3" />
+        <COMPONENT LinkID="7" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="4" />
+        <ENTITY LinkID="8" Class="NiGeneralEntity" Name="ArrowSign1001_03 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="14" />
+            <COMPONENT RefLinkID="15" />
+            <COMPONENT RefLinkID="16" />
+            <COMPONENT RefLinkID="17" />
+        </ENTITY>
+        <ENTITY LinkID="9" Class="NiGeneralEntity" Name="[Object]Sign.ArrowSign1001_01" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63">
+            <COMPONENT RefLinkID="10" />
+            <COMPONENT RefLinkID="11" />
+            <COMPONENT RefLinkID="12" />
+            <COMPONENT RefLinkID="13" />
+        </ENTITY>
+        <COMPONENT LinkID="10" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="11" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sign\ArrowSign1001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="12" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="13" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="14" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3183.0766601562500000, -31.7676086425781250, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="15" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="16" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="17" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="18" Class="NiGeneralEntity" Name="Art_MistBossroom1001_01 01" Type="Object" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="3" RandomAni="FALSE" TemplateID="c3,3,65,e1,d3,35,81,48,b9,78,33,28,71,3a,dd,3b" MasterLinkID="19">
+            <COMPONENT RefLinkID="24" />
+            <COMPONENT RefLinkID="25" />
+            <COMPONENT RefLinkID="26" />
+            <COMPONENT RefLinkID="27" />
+        </ENTITY>
+        <ENTITY LinkID="19" Class="NiGeneralEntity" Name="[Block]020700.Art_MistBossroom1001_01" TemplateID="c3,3,65,e1,d3,35,81,48,b9,78,33,28,71,3a,dd,3b">
+            <COMPONENT RefLinkID="20" />
+            <COMPONENT RefLinkID="21" />
+            <COMPONENT RefLinkID="22" />
+            <COMPONENT RefLinkID="23" />
+        </ENTITY>
+        <COMPONENT LinkID="20" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="21" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\99_Boss\02_Modeling\Block\020700\Art_MistBossroom1001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="22" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="23" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="24" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="25" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="21" />
+        <COMPONENT LinkID="26" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="22" />
+        <COMPONENT LinkID="27" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="23" />
+        <ENTITY LinkID="28" Class="NiGeneralEntity" Name="Ambient Light - 30% white 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="1a,56,7d,ab,39,12,91,47,ab,16,1f,91,23,bf,71,38" MasterLinkID="29">
+            <COMPONENT RefLinkID="32" />
+            <COMPONENT RefLinkID="33" />
+        </ENTITY>
+        <ENTITY LinkID="29" Class="NiGeneralEntity" Name="[General]Lights.Ambient Light - 30% white" TemplateID="1a,56,7d,ab,39,12,91,47,ab,16,1f,91,23,bf,71,38">
+            <COMPONENT RefLinkID="30" />
+            <COMPONENT RefLinkID="31" />
+        </ENTITY>
+        <COMPONENT LinkID="30" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="31" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Ambient</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">0.3000000119209290</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">22.5000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">21.5000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM />
+            </PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="32" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">17.4501953125000000, -254.0533447265625000, 1071.7421875000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="33" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Ambient</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">0.3000000119209290</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">22.5000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">21.5000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="34" />
+                <ITEM RefLinkID="44" />
+                <ITEM RefLinkID="44" />
+                <ITEM RefLinkID="49" />
+                <ITEM RefLinkID="59" />
+                <ITEM RefLinkID="69" />
+                <ITEM RefLinkID="69" />
+                <ITEM RefLinkID="74" />
+                <ITEM RefLinkID="74" />
+                <ITEM RefLinkID="79" />
+                <ITEM RefLinkID="79" />
+                <ITEM RefLinkID="84" />
+                <ITEM RefLinkID="84" />
+                <ITEM RefLinkID="89" />
+                <ITEM RefLinkID="97" />
+                <ITEM RefLinkID="97" />
+                <ITEM RefLinkID="102" />
+                <ITEM RefLinkID="112" />
+                <ITEM RefLinkID="112" />
+                <ITEM RefLinkID="117" />
+                <ITEM RefLinkID="117" />
+                <ITEM RefLinkID="122" />
+                <ITEM RefLinkID="122" />
+                <ITEM RefLinkID="127" />
+                <ITEM RefLinkID="133" />
+                <ITEM RefLinkID="127" />
+                <ITEM RefLinkID="136" />
+                <ITEM RefLinkID="136" />
+                <ITEM RefLinkID="141" />
+                <ITEM RefLinkID="144" />
+                <ITEM RefLinkID="149" />
+                <ITEM RefLinkID="154" />
+                <ITEM RefLinkID="159" />
+                <ITEM RefLinkID="164" />
+                <ITEM RefLinkID="169" />
+                <ITEM RefLinkID="174" />
+                <ITEM RefLinkID="174" />
+                <ITEM RefLinkID="179" />
+                <ITEM RefLinkID="184" />
+                <ITEM RefLinkID="184" />
+                <ITEM RefLinkID="189" />
+                <ITEM RefLinkID="194" />
+                <ITEM RefLinkID="197" />
+                <ITEM RefLinkID="202" />
+                <ITEM RefLinkID="207" />
+                <ITEM RefLinkID="212" />
+                <ITEM RefLinkID="217" />
+                <ITEM RefLinkID="222" />
+                <ITEM RefLinkID="227" />
+                <ITEM RefLinkID="8" />
+                <ITEM RefLinkID="232" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="34" Class="NiGeneralEntity" Name="BGSky5001_01 01" Type="SkyBox" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="35,b2,7,e3,af,cf,47,46,ad,5,88,42,a7,f7,69,b5" MasterLinkID="35">
+            <COMPONENT RefLinkID="40" />
+            <COMPONENT RefLinkID="41" />
+            <COMPONENT RefLinkID="42" />
+            <COMPONENT RefLinkID="43" />
+        </ENTITY>
+        <ENTITY LinkID="35" Class="NiGeneralEntity" Name="[Object]Sky.BGSky5001_01" TemplateID="35,b2,7,e3,af,cf,47,46,ad,5,88,42,a7,f7,69,b5">
+            <COMPONENT RefLinkID="36" />
+            <COMPONENT RefLinkID="37" />
+            <COMPONENT RefLinkID="38" />
+            <COMPONENT RefLinkID="39" />
+        </ENTITY>
+        <COMPONENT LinkID="36" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="37" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sky\BGSky5001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="38" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="39" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="40" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, -147.2724609375000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1784424781799316</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="41" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="37" />
+        <COMPONENT LinkID="42" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="43" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="44" Class="NiGeneralEntity" Name="BGSky5001_01 02" Type="SkyBox" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="35,b2,7,e3,af,cf,47,46,ad,5,88,42,a7,f7,69,b5" MasterLinkID="35">
+            <COMPONENT RefLinkID="45" />
+            <COMPONENT RefLinkID="46" />
+            <COMPONENT RefLinkID="47" />
+            <COMPONENT RefLinkID="48" />
+        </ENTITY>
+        <COMPONENT LinkID="45" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3174.6879882812500000, 0.0000000000000000, -423.6372070312500000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1534643173217773</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="46" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="37" />
+        <COMPONENT LinkID="47" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="48" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="49" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="55" />
+            <COMPONENT RefLinkID="56" />
+            <COMPONENT RefLinkID="57" />
+            <COMPONENT RefLinkID="58" />
+        </ENTITY>
+        <ENTITY LinkID="50" Class="NiGeneralEntity" Name="[Object]Sky.Van_lightning_ef1001_01" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f">
+            <COMPONENT RefLinkID="51" />
+            <COMPONENT RefLinkID="52" />
+            <COMPONENT RefLinkID="53" />
+            <COMPONENT RefLinkID="54" />
+        </ENTITY>
+        <COMPONENT LinkID="51" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="52" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sky\Van_lightning_ef1001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="53" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="54" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="55" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">377.5721130371093700, -601.9080200195312500, -13.6091995239257810</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="56" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="57" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.2000000476837158</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="58" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="59" Class="NiGeneralEntity" Name="Van_lightning_ef1001_02 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="2f,69,d1,32,18,a8,7d,49,80,e,74,a2,51,77,c1,45" MasterLinkID="60">
+            <COMPONENT RefLinkID="65" />
+            <COMPONENT RefLinkID="66" />
+            <COMPONENT RefLinkID="67" />
+            <COMPONENT RefLinkID="68" />
+        </ENTITY>
+        <ENTITY LinkID="60" Class="NiGeneralEntity" Name="[Object]Sky.Van_lightning_ef1001_02" TemplateID="2f,69,d1,32,18,a8,7d,49,80,e,74,a2,51,77,c1,45">
+            <COMPONENT RefLinkID="61" />
+            <COMPONENT RefLinkID="62" />
+            <COMPONENT RefLinkID="63" />
+            <COMPONENT RefLinkID="64" />
+        </ENTITY>
+        <COMPONENT LinkID="61" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="62" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sky\Van_lightning_ef1001_02.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="63" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="64" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="65" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-428.9541015625000000, 1041.9102783203125000, -103.3402404785156200</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="66" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="62" />
+        <COMPONENT LinkID="67" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="63">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">3.0999999046325684</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="68" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="64" />
+        <ENTITY LinkID="69" Class="NiGeneralEntity" Name="Van_lightning_ef1001_02 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="2f,69,d1,32,18,a8,7d,49,80,e,74,a2,51,77,c1,45" MasterLinkID="60">
+            <COMPONENT RefLinkID="70" />
+            <COMPONENT RefLinkID="71" />
+            <COMPONENT RefLinkID="72" />
+            <COMPONENT RefLinkID="73" />
+        </ENTITY>
+        <COMPONENT LinkID="70" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">450.5337219238281200, 1041.9102783203125000, -103.3402404785156200</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0893899202346802</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="71" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="62" />
+        <COMPONENT LinkID="72" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="63">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.2000000476837158</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="73" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="64" />
+        <ENTITY LinkID="74" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="75" />
+            <COMPONENT RefLinkID="76" />
+            <COMPONENT RefLinkID="77" />
+            <COMPONENT RefLinkID="78" />
+        </ENTITY>
+        <COMPONENT LinkID="75" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-135.8013305664062500, -638.6731567382812500, -75.9939346313476560</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="76" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="77" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">0.5000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="78" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="79" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="80" />
+            <COMPONENT RefLinkID="81" />
+            <COMPONENT RefLinkID="82" />
+            <COMPONENT RefLinkID="83" />
+        </ENTITY>
+        <COMPONENT LinkID="80" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-384.3465576171875000, -585.6847534179687500, 29.4707946777343750</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="81" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="82" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">3.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="83" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="84" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 04" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="85" />
+            <COMPONENT RefLinkID="86" />
+            <COMPONENT RefLinkID="87" />
+            <COMPONENT RefLinkID="88" />
+        </ENTITY>
+        <COMPONENT LinkID="85" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-368.9478149414062500, 218.5825195312500000, -103.3401947021484400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="86" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="87" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">2.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="88" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="89" Class="NiGeneralEntity" Name="BGLine2001_01 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="ab,3d,15,eb,ff,c0,5a,40,94,41,d2,3d,c7,ef,97,ea" MasterLinkID="90">
+            <COMPONENT RefLinkID="93" />
+            <COMPONENT RefLinkID="94" />
+            <COMPONENT RefLinkID="95" />
+            <COMPONENT RefLinkID="96" />
+        </ENTITY>
+        <ENTITY LinkID="90" Class="NiGeneralEntity" Name="[Object]Sky.BGLine2001_01" TemplateID="ab,3d,15,eb,ff,c0,5a,40,94,41,d2,3d,c7,ef,97,ea">
+            <COMPONENT RefLinkID="91" />
+            <COMPONENT RefLinkID="92" />
+            <COMPONENT RefLinkID="38" />
+            <COMPONENT RefLinkID="39" />
+        </ENTITY>
+        <COMPONENT LinkID="91" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="92" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sky\BGLine2001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="93" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">8.5141334533691406, -28.6482467651367190, -17.4731826782226560</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">0.8678025603294373</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="94" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="92" />
+        <COMPONENT LinkID="95" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="96" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="97" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 05" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="98" />
+            <COMPONENT RefLinkID="99" />
+            <COMPONENT RefLinkID="100" />
+            <COMPONENT RefLinkID="101" />
+        </ENTITY>
+        <COMPONENT LinkID="98" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">384.9723815917968700, 141.6816101074218700, -103.3402252197265600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="99" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="100" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">0.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="101" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="102" Class="NiGeneralEntity" Name="BGLine3001_01 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="33,94,88,a4,c1,5f,ae,4f,90,21,e9,a1,2c,6e,1f,31" MasterLinkID="103">
+            <COMPONENT RefLinkID="108" />
+            <COMPONENT RefLinkID="109" />
+            <COMPONENT RefLinkID="110" />
+            <COMPONENT RefLinkID="111" />
+        </ENTITY>
+        <ENTITY LinkID="103" Class="NiGeneralEntity" Name="[Object]Sky.BGLine3001_01" TemplateID="33,94,88,a4,c1,5f,ae,4f,90,21,e9,a1,2c,6e,1f,31">
+            <COMPONENT RefLinkID="104" />
+            <COMPONENT RefLinkID="105" />
+            <COMPONENT RefLinkID="106" />
+            <COMPONENT RefLinkID="107" />
+        </ENTITY>
+        <COMPONENT LinkID="104" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="105" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Sky\BGLine3001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="106" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">-1000.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="107" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="108" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-0.3974914550781250, 1.2342376708984375, -337.6842956542968700</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.8568315505981445</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="109" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="105" />
+        <COMPONENT LinkID="110" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="106" />
+        <COMPONENT LinkID="111" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="107" />
+        <ENTITY LinkID="112" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 06" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="113" />
+            <COMPONENT RefLinkID="114" />
+            <COMPONENT RefLinkID="115" />
+            <COMPONENT RefLinkID="116" />
+        </ENTITY>
+        <COMPONENT LinkID="113" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">99.0944976806640620, 454.5769958496093700, -103.3402099609375000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="114" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="115" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="116" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="117" Class="NiGeneralEntity" Name="BGLine2001_01 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="ab,3d,15,eb,ff,c0,5a,40,94,41,d2,3d,c7,ef,97,ea" MasterLinkID="90">
+            <COMPONENT RefLinkID="118" />
+            <COMPONENT RefLinkID="119" />
+            <COMPONENT RefLinkID="120" />
+            <COMPONENT RefLinkID="121" />
+        </ENTITY>
+        <COMPONENT LinkID="118" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3182.7978515625000000, -28.6482467651367190, -17.4731826782226560</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">0.8678025603294373</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="119" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="92" />
+        <COMPONENT LinkID="120" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="121" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="122" Class="NiGeneralEntity" Name="BGLine3001_01 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="33,94,88,a4,c1,5f,ae,4f,90,21,e9,a1,2c,6e,1f,31" MasterLinkID="103">
+            <COMPONENT RefLinkID="123" />
+            <COMPONENT RefLinkID="124" />
+            <COMPONENT RefLinkID="125" />
+            <COMPONENT RefLinkID="126" />
+        </ENTITY>
+        <COMPONENT LinkID="123" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3173.8862304687500000, 1.2342376708984375, -337.6842956542968700</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.8568315505981445</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="124" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="105" />
+        <COMPONENT LinkID="125" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="106" />
+        <COMPONENT LinkID="126" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="107" />
+        <ENTITY LinkID="127" Class="NiGeneralEntity" Name="EF_Fog_001_B 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="a3,57,b6,9b,ff,14,ba,45,a0,8e,8c,9,95,63,4e,6f" MasterLinkID="128">
+            <COMPONENT RefLinkID="131" />
+            <COMPONENT RefLinkID="132" />
+        </ENTITY>
+        <ENTITY LinkID="128" Class="NiGeneralEntity" Name="[Effect]EF_Fog_001_B" TemplateID="a3,57,b6,9b,ff,14,ba,45,a0,8e,8c,9,95,63,4e,6f">
+            <COMPONENT RefLinkID="129" />
+            <COMPONENT RefLinkID="130" />
+        </ENTITY>
+        <COMPONENT LinkID="129" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="130" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\..\5_Effect\3_World\EF_Fog_001_B.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="131" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-2.7972259521484375, 286.8338317871093700, -110.0790634155273400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="132" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="130" />
+        <ENTITY LinkID="133" Class="NiGeneralEntity" Name="EF_Fog_001_B 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="a3,57,b6,9b,ff,14,ba,45,a0,8e,8c,9,95,63,4e,6f" MasterLinkID="128">
+            <COMPONENT RefLinkID="134" />
+            <COMPONENT RefLinkID="135" />
+        </ENTITY>
+        <COMPONENT LinkID="134" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-2.7972259521484375, 555.9991455078125000, -110.0790634155273400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="135" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="130" />
+        <ENTITY LinkID="136" Class="NiGeneralEntity" Name="BGSky5001_01 03" Type="SkyBox" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="35,b2,7,e3,af,cf,47,46,ad,5,88,42,a7,f7,69,b5" MasterLinkID="35">
+            <COMPONENT RefLinkID="137" />
+            <COMPONENT RefLinkID="138" />
+            <COMPONENT RefLinkID="139" />
+            <COMPONENT RefLinkID="140" />
+        </ENTITY>
+        <COMPONENT LinkID="137" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3322.9567871093750000, 0.0000000000000000, -147.2724609375000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1784424781799316</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="138" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="37" />
+        <COMPONENT LinkID="139" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="140" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="141" Class="NiGeneralEntity" Name="EF_Fog_001_B 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="a3,57,b6,9b,ff,14,ba,45,a0,8e,8c,9,95,63,4e,6f" MasterLinkID="128">
+            <COMPONENT RefLinkID="142" />
+            <COMPONENT RefLinkID="143" />
+        </ENTITY>
+        <COMPONENT LinkID="142" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3325.7539062500000000, 286.8338317871093700, -110.0790634155273400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="143" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="130" />
+        <ENTITY LinkID="144" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 07" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="145" />
+            <COMPONENT RefLinkID="146" />
+            <COMPONENT RefLinkID="147" />
+            <COMPONENT RefLinkID="148" />
+        </ENTITY>
+        <COMPONENT LinkID="145" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-2945.3847656250000000, -601.9080200195312500, -13.6091995239257810</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="146" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="147" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.2000000476837158</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="148" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="149" Class="NiGeneralEntity" Name="Van_lightning_ef1001_02 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="2f,69,d1,32,18,a8,7d,49,80,e,74,a2,51,77,c1,45" MasterLinkID="60">
+            <COMPONENT RefLinkID="150" />
+            <COMPONENT RefLinkID="151" />
+            <COMPONENT RefLinkID="152" />
+            <COMPONENT RefLinkID="153" />
+        </ENTITY>
+        <COMPONENT LinkID="150" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3751.9108886718750000, 1041.9102783203125000, -103.3402404785156200</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="151" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="62" />
+        <COMPONENT LinkID="152" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="63">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">3.0999999046325684</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="153" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="64" />
+        <ENTITY LinkID="154" Class="NiGeneralEntity" Name="Van_lightning_ef1001_02 04" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="2f,69,d1,32,18,a8,7d,49,80,e,74,a2,51,77,c1,45" MasterLinkID="60">
+            <COMPONENT RefLinkID="155" />
+            <COMPONENT RefLinkID="156" />
+            <COMPONENT RefLinkID="157" />
+            <COMPONENT RefLinkID="158" />
+        </ENTITY>
+        <COMPONENT LinkID="155" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-2872.4230957031250000, 1041.9102783203125000, -103.3402404785156200</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0893899202346802</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="156" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="62" />
+        <COMPONENT LinkID="157" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="63">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.2000000476837158</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="158" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="64" />
+        <ENTITY LinkID="159" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 08" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="160" />
+            <COMPONENT RefLinkID="161" />
+            <COMPONENT RefLinkID="162" />
+            <COMPONENT RefLinkID="163" />
+        </ENTITY>
+        <COMPONENT LinkID="160" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3458.7580566406250000, -638.6731567382812500, -75.9939346313476560</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="161" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="162" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">0.5000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="163" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="164" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 09" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="165" />
+            <COMPONENT RefLinkID="166" />
+            <COMPONENT RefLinkID="167" />
+            <COMPONENT RefLinkID="168" />
+        </ENTITY>
+        <COMPONENT LinkID="165" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3707.3032226562500000, -585.6847534179687500, 29.4707946777343750</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="166" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="167" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">3.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="168" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="169" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 10" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="170" />
+            <COMPONENT RefLinkID="171" />
+            <COMPONENT RefLinkID="172" />
+            <COMPONENT RefLinkID="173" />
+        </ENTITY>
+        <COMPONENT LinkID="170" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3691.9045410156250000, 218.5825195312500000, -103.3401947021484400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="171" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="172" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">2.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="173" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="174" Class="NiGeneralEntity" Name="BGLine2001_01 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="ab,3d,15,eb,ff,c0,5a,40,94,41,d2,3d,c7,ef,97,ea" MasterLinkID="90">
+            <COMPONENT RefLinkID="175" />
+            <COMPONENT RefLinkID="176" />
+            <COMPONENT RefLinkID="177" />
+            <COMPONENT RefLinkID="178" />
+        </ENTITY>
+        <COMPONENT LinkID="175" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3314.4426269531250000, -28.6482467651367190, -17.4731826782226560</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">0.8678025603294373</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="176" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="92" />
+        <COMPONENT LinkID="177" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="38" />
+        <COMPONENT LinkID="178" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="39" />
+        <ENTITY LinkID="179" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 11" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="180" />
+            <COMPONENT RefLinkID="181" />
+            <COMPONENT RefLinkID="182" />
+            <COMPONENT RefLinkID="183" />
+        </ENTITY>
+        <COMPONENT LinkID="180" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-2937.9843750000000000, 141.6816101074218700, -103.3402252197265600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="181" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="182" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">0.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="183" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="184" Class="NiGeneralEntity" Name="BGLine3001_01 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="33,94,88,a4,c1,5f,ae,4f,90,21,e9,a1,2c,6e,1f,31" MasterLinkID="103">
+            <COMPONENT RefLinkID="185" />
+            <COMPONENT RefLinkID="186" />
+            <COMPONENT RefLinkID="187" />
+            <COMPONENT RefLinkID="188" />
+        </ENTITY>
+        <COMPONENT LinkID="185" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3323.3542480468750000, 1.2342376708984375, -337.6842956542968700</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.8568315505981445</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="186" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="105" />
+        <COMPONENT LinkID="187" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="106" />
+        <COMPONENT LinkID="188" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="107" />
+        <ENTITY LinkID="189" Class="NiGeneralEntity" Name="Van_lightning_ef1001_01 12" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="cb,e4,a0,8c,7b,49,93,45,83,b3,2e,4a,61,87,9a,1f" MasterLinkID="50">
+            <COMPONENT RefLinkID="190" />
+            <COMPONENT RefLinkID="191" />
+            <COMPONENT RefLinkID="192" />
+            <COMPONENT RefLinkID="193" />
+        </ENTITY>
+        <COMPONENT LinkID="190" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3223.8623046875000000, 454.5769958496093700, -103.3402099609375000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="191" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="52" />
+        <COMPONENT LinkID="192" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="53">
+            <PROPERTY Class="Float" Name="Phase" SemanticType="Float" DisplayName="Phase" Description="">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="193" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="54" />
+        <ENTITY LinkID="194" Class="NiGeneralEntity" Name="EF_Fog_001_B 04" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="a3,57,b6,9b,ff,14,ba,45,a0,8e,8c,9,95,63,4e,6f" MasterLinkID="128">
+            <COMPONENT RefLinkID="195" />
+            <COMPONENT RefLinkID="196" />
+        </ENTITY>
+        <COMPONENT LinkID="195" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3325.7539062500000000, 555.9991455078125000, -110.0790634155273400</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="196" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="130" />
+        <ENTITY LinkID="197" Class="NiGeneralEntity" Name="ArrowSign1001_01 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="198" />
+            <COMPONENT RefLinkID="199" />
+            <COMPONENT RefLinkID="200" />
+            <COMPONENT RefLinkID="201" />
+        </ENTITY>
+        <COMPONENT LinkID="198" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0654602050781250, -140.3565063476562500, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="199" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="200" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="201" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="202" Class="NiGeneralEntity" Name="ArrowSign1001_01 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="203" />
+            <COMPONENT RefLinkID="204" />
+            <COMPONENT RefLinkID="205" />
+            <COMPONENT RefLinkID="206" />
+        </ENTITY>
+        <COMPONENT LinkID="203" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0654602050781250, -31.7676086425781250, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="204" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="205" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="206" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="207" Class="NiGeneralEntity" Name="ArrowSign1001_02 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="208" />
+            <COMPONENT RefLinkID="209" />
+            <COMPONENT RefLinkID="210" />
+            <COMPONENT RefLinkID="211" />
+        </ENTITY>
+        <COMPONENT LinkID="208" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3308.5019531250000000, -31.7676086425781250, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="209" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="210" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="211" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="212" Class="NiGeneralEntity" Name="ArrowSign1001_02 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="213" />
+            <COMPONENT RefLinkID="214" />
+            <COMPONENT RefLinkID="215" />
+            <COMPONENT RefLinkID="216" />
+        </ENTITY>
+        <COMPONENT LinkID="213" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3308.5019531250000000, -140.3565063476562500, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="214" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="215" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="216" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="217" Class="NiGeneralEntity" Name="ArrowSign1001_02 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="218" />
+            <COMPONENT RefLinkID="219" />
+            <COMPONENT RefLinkID="220" />
+            <COMPONENT RefLinkID="221" />
+        </ENTITY>
+        <COMPONENT LinkID="218" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3308.5019531250000000, -245.5518798828125000, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="219" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="220" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="221" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="222" Class="NiGeneralEntity" Name="ArrowSign1001_03 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="223" />
+            <COMPONENT RefLinkID="224" />
+            <COMPONENT RefLinkID="225" />
+            <COMPONENT RefLinkID="226" />
+        </ENTITY>
+        <COMPONENT LinkID="223" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3183.0766601562500000, -245.5518798828125000, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="224" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="225" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="226" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="227" Class="NiGeneralEntity" Name="ArrowSign1001_03 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="228" />
+            <COMPONENT RefLinkID="229" />
+            <COMPONENT RefLinkID="230" />
+            <COMPONENT RefLinkID="231" />
+        </ENTITY>
+        <COMPONENT LinkID="228" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3183.0766601562500000, -140.3565063476562500, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="229" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="230" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="231" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="232" Class="NiGeneralEntity" Name="ArrowSign1001_01 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="1e,dc,9c,4d,bc,85,42,4e,b9,0,85,24,73,e0,e2,63" MasterLinkID="9">
+            <COMPONENT RefLinkID="233" />
+            <COMPONENT RefLinkID="234" />
+            <COMPONENT RefLinkID="235" />
+            <COMPONENT RefLinkID="236" />
+        </ENTITY>
+        <COMPONENT LinkID="233" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0654602050781250, -245.5518798828125000, -114.6822662353515600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="234" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="11" />
+        <COMPONENT LinkID="235" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="12" />
+        <COMPONENT LinkID="236" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="13" />
+        <ENTITY LinkID="237" Class="NiGeneralEntity" Name="Camera 01" Type="MainCamera" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="31,e4,f1,ae,7f,4f,58,4e,87,63,e3,36,31,5c,49,3a" Hidden="TRUE" MasterLinkID="238">
+            <COMPONENT RefLinkID="241" />
+            <COMPONENT RefLinkID="242" />
+        </ENTITY>
+        <ENTITY LinkID="238" Class="NiGeneralEntity" Name="[General]Cameras.Camera" TemplateID="31,e4,f1,ae,7f,4f,58,4e,87,63,e3,36,31,5c,49,3a">
+            <COMPONENT RefLinkID="239" />
+            <COMPONENT RefLinkID="240" />
+        </ENTITY>
+        <COMPONENT LinkID="239" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="240" Class="NiCameraComponent" Name="Camera">
+            <PROPERTY Class="Float" Name="Field of View">90.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Aspect Ratio">1.3333300352096558</PROPERTY>
+            <PROPERTY Class="Float" Name="Near Clipping Plane">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Far Clipping Plane">10000.0000000000000000</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Orthographic">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="241" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">56.6647644042968750, -2817.6520996093750000, -305.3907470703125000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>0.0000000000000019, -0.0000000437113883, 1.0000000000000000</ROW>
+                <ROW>1.0000000000000000, -0.0000000437113883, -0.0000000000000038</ROW>
+                <ROW>0.0000000437113883, 1.0000000000000000, 0.0000000437113883</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="242" Class="NiCameraComponent" Name="Camera">
+            <PROPERTY Class="Float" Name="Field of View">90.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Aspect Ratio">1.3333300352096558</PROPERTY>
+            <PROPERTY Class="Float" Name="Near Clipping Plane">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Far Clipping Plane">10000.0000000000000000</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Orthographic">FALSE</PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="243" Class="NiGeneralEntity" Name="char_spawn_1" Type="CharacterSpawn" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="89,8e,a0,2e,75,8c,ab,4c,a3,2b,b9,2c,85,90,bf,34" Hidden="TRUE" MasterLinkID="244">
+            <COMPONENT RefLinkID="247" />
+            <COMPONENT RefLinkID="248" />
+        </ENTITY>
+        <ENTITY LinkID="244" Class="NiGeneralEntity" Name="[General]Object.box_non_center" TemplateID="89,8e,a0,2e,75,8c,ab,4c,a3,2b,b9,2c,85,90,bf,34">
+            <COMPONENT RefLinkID="245" />
+            <COMPONENT RefLinkID="246" />
+        </ENTITY>
+        <COMPONENT LinkID="245" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="246" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\Palettes\box_non_center.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="247" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3.7539505958557129, -427.9660949707031200, -53.1811981201171870</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="248" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="246" />
+        <ENTITY LinkID="249" Class="NiGeneralEntity" Name="Path" Type="Path" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="5c,2a,74,bb,b7,b7,ba,45,97,28,a8,b6,a8,61,67,1e" Hidden="TRUE" MasterLinkID="250">
+            <COMPONENT RefLinkID="253" />
+            <COMPONENT RefLinkID="254" />
+        </ENTITY>
+        <ENTITY LinkID="250" Class="NiGeneralEntity" Name="[General]BasicBlock.base_Physx_04" TemplateID="5c,2a,74,bb,b7,b7,ba,45,97,28,a8,b6,a8,61,67,1e">
+            <COMPONENT RefLinkID="251" />
+            <COMPONENT RefLinkID="252" />
+        </ENTITY>
+        <COMPONENT LinkID="251" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="252" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\BasicBlock\base_Physx_04.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="253" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">1360.6496582031250000, -1864.5061035156250000, 161.2387695312500000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-1.0000000000000000, -0.0000000874227766, 0.0000000000000000</ROW>
+                <ROW>0.0000000874227766, -1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">10.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="254" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="252" />
+        <ENTITY LinkID="255" Class="NiGeneralEntity" Name="PhysX_01" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="71,40,4f,f7,49,bf,64,49,be,dc,ae,77,bf,3c,a6,8d" Hidden="TRUE" MasterLinkID="256">
+            <COMPONENT RefLinkID="259" />
+            <COMPONENT RefLinkID="260" />
+        </ENTITY>
+        <ENTITY LinkID="256" Class="NiGeneralEntity" Name="020700_physx_01" TemplateID="71,40,4f,f7,49,bf,64,49,be,dc,ae,77,bf,3c,a6,8d">
+            <COMPONENT RefLinkID="257" />
+            <COMPONENT RefLinkID="258" />
+        </ENTITY>
+        <COMPONENT LinkID="257" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="258" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\99_Boss\09_Nif\020700_physx_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="259" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">2.2940709590911865, -55.3241195678710940, 196.6605834960937500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1036715507507324</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="260" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="258" />
+        <ENTITY LinkID="261" Class="NiGeneralEntity" Name="Art_MistBossroom1001_01 02" Type="Object" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="3" RandomAni="FALSE" TemplateID="c3,3,65,e1,d3,35,81,48,b9,78,33,28,71,3a,dd,3b" MasterLinkID="19">
+            <COMPONENT RefLinkID="262" />
+            <COMPONENT RefLinkID="263" />
+            <COMPONENT RefLinkID="264" />
+            <COMPONENT RefLinkID="265" />
+        </ENTITY>
+        <COMPONENT LinkID="262" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3174.6879882812500000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="263" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="21" />
+        <COMPONENT LinkID="264" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="22" />
+        <COMPONENT LinkID="265" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="23" />
+        <ENTITY LinkID="266" Class="NiGeneralEntity" Name="Art_BoxWood1001_01 01" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="1" RandomAni="FALSE" TemplateID="f1,ad,a0,98,6c,62,33,4a,af,d2,76,eb,76,4f,f1,59" Hidden="TRUE" MasterLinkID="267">
+            <COMPONENT RefLinkID="271" />
+            <COMPONENT RefLinkID="272" />
+            <COMPONENT RefLinkID="273" />
+        </ENTITY>
+        <ENTITY LinkID="267" Class="NiGeneralEntity" Name="[Object]Box.Art_BoxWood1001_01" TemplateID="f1,ad,a0,98,6c,62,33,4a,af,d2,76,eb,76,4f,f1,59">
+            <COMPONENT RefLinkID="268" />
+            <COMPONENT RefLinkID="269" />
+            <COMPONENT RefLinkID="270" />
+        </ENTITY>
+        <COMPONENT LinkID="268" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="269" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\Box\Art_BoxWood1001_01.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="270" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="271" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-1.2105407714843750, 630.0646362304687500, -274.4340515136718700</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">6.6536946296691895</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="272" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="269" />
+        <COMPONENT LinkID="273" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="270" />
+        <ENTITY LinkID="274" Class="NiGeneralEntity" Name="PhysX_02" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="71,40,4f,f7,49,bf,64,49,be,dc,ae,77,bf,3c,a6,8d" Hidden="TRUE" MasterLinkID="256">
+            <COMPONENT RefLinkID="275" />
+            <COMPONENT RefLinkID="276" />
+        </ENTITY>
+        <COMPONENT LinkID="275" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3173.9187011718750000, -55.3241195678710940, 196.6605834960937500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1036715507507324</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="276" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="258" />
+        <ENTITY LinkID="277" Class="NiGeneralEntity" Name="char_spawn_3" Type="CharacterSpawn" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="89,8e,a0,2e,75,8c,ab,4c,a3,2b,b9,2c,85,90,bf,34" Hidden="TRUE" MasterLinkID="244">
+            <COMPONENT RefLinkID="278" />
+            <COMPONENT RefLinkID="279" />
+        </ENTITY>
+        <COMPONENT LinkID="278" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3177.2421875000000000, -425.9246520996093700, -56.3262252807617190</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="279" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="246" />
+        <ENTITY LinkID="280" Class="NiGeneralEntity" Name="Art_MistBossroom1001_01 03" Type="Object" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="3" RandomAni="FALSE" TemplateID="c3,3,65,e1,d3,35,81,48,b9,78,33,28,71,3a,dd,3b" MasterLinkID="19">
+            <COMPONENT RefLinkID="281" />
+            <COMPONENT RefLinkID="282" />
+            <COMPONENT RefLinkID="283" />
+            <COMPONENT RefLinkID="284" />
+        </ENTITY>
+        <COMPONENT LinkID="281" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3322.9567871093750000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="282" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="21" />
+        <COMPONENT LinkID="283" Class="NiGeneralComponent" Name="Animation Object" TemplateID="c5,83,7b,6f,ea,53,7d,45,95,5a,2e,ab,38,28,a5,76" MasterLinkID="22" />
+        <COMPONENT LinkID="284" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="23" />
+        <ENTITY LinkID="285" Class="NiGeneralEntity" Name="char_spawn_2" Type="CharacterSpawn" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="89,8e,a0,2e,75,8c,ab,4c,a3,2b,b9,2c,85,90,bf,34" Hidden="TRUE" MasterLinkID="244">
+            <COMPONENT RefLinkID="286" />
+            <COMPONENT RefLinkID="287" />
+        </ENTITY>
+        <COMPONENT LinkID="286" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3319.2028808593750000, -427.9660949707031200, -53.1811981201171870</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="287" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="246" />
+        <ENTITY LinkID="288" Class="NiGeneralEntity" Name="PhysX_03" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="71,40,4f,f7,49,bf,64,49,be,dc,ae,77,bf,3c,a6,8d" Hidden="TRUE" MasterLinkID="256">
+            <COMPONENT RefLinkID="289" />
+            <COMPONENT RefLinkID="290" />
+        </ENTITY>
+        <COMPONENT LinkID="289" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3320.6625976562500000, -55.3241195678710940, 196.6605834960937500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.1036715507507324</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="290" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="258" />
+        <ENTITY LinkID="291" Class="NiGeneralEntity" Name="Physx_base_0_07 01" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="49,34,8a,34,12,91,96,41,a9,8d,c,2e,e,6b,e7,23" Hidden="TRUE" MasterLinkID="292">
+            <COMPONENT RefLinkID="296" />
+            <COMPONENT RefLinkID="297" />
+            <COMPONENT RefLinkID="298" />
+        </ENTITY>
+        <ENTITY LinkID="292" Class="NiGeneralEntity" Name="[General]BasicBlock.Physx_base_0_07" TemplateID="49,34,8a,34,12,91,96,41,a9,8d,c,2e,e,6b,e7,23">
+            <COMPONENT RefLinkID="293" />
+            <COMPONENT RefLinkID="294" />
+            <COMPONENT RefLinkID="295" />
+        </ENTITY>
+        <COMPONENT LinkID="293" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="294" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\00_Object\BasicBlock\Physx_base_0_07.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="295" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="296" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3312.8371582031250000, -1.0410003662109375, -114.4257354736328100</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">2.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="297" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="294" />
+        <COMPONENT LinkID="298" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="295" />
+        <ENTITY LinkID="299" Class="NiGeneralEntity" Name="Physx_base_0_07 02" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="49,34,8a,34,12,91,96,41,a9,8d,c,2e,e,6b,e7,23" Hidden="TRUE" MasterLinkID="292">
+            <COMPONENT RefLinkID="300" />
+            <COMPONENT RefLinkID="301" />
+            <COMPONENT RefLinkID="302" />
+        </ENTITY>
+        <COMPONENT LinkID="300" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">1.4219818115234375, -0.1884460449218750, -114.4259185791015600</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">2.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="301" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="294" />
+        <COMPONENT LinkID="302" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="295" />
+        <ENTITY LinkID="303" Class="NiGeneralEntity" Name="Physx_base_0_07 03" Type="PhysX" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="49,34,8a,34,12,91,96,41,a9,8d,c,2e,e,6b,e7,23" Hidden="TRUE" MasterLinkID="292">
+            <COMPONENT RefLinkID="304" />
+            <COMPONENT RefLinkID="305" />
+            <COMPONENT RefLinkID="306" />
+        </ENTITY>
+        <COMPONENT LinkID="304" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3177.8671875000000000, -0.2162170410156250, -114.4253921508789100</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">2.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="305" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="294" />
+        <COMPONENT LinkID="306" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="295" />
+        <ENTITY LinkID="307" Class="NiGeneralEntity" Name="Trigger_Boss_01_01" Type="Trigger" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="4b,99,90,89,4,a9,ae,44,ae,b6,38,7b,13,3d,eb,dd" Hidden="TRUE" MasterLinkID="308">
+            <COMPONENT RefLinkID="312" />
+            <COMPONENT RefLinkID="313" />
+            <COMPONENT RefLinkID="314" />
+        </ENTITY>
+        <ENTITY LinkID="308" Class="NiGeneralEntity" Name="[General]Object.Teleport_noc_900" TemplateID="4b,99,90,89,4,a9,ae,44,ae,b6,38,7b,13,3d,eb,dd">
+            <COMPONENT RefLinkID="309" />
+            <COMPONENT RefLinkID="310" />
+            <COMPONENT RefLinkID="311" />
+        </ENTITY>
+        <COMPONENT LinkID="309" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="310" Class="NiSceneGraphComponent" Name="Scene Graph">
+            <PROPERTY Class="String" Name="NIF File Path" Asset="TRUE">.\..\..\Palettes\Teleport_noc_900.nif</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="311" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9">
+            <PROPERTY Class="Float" Name="Alpha Value" SemanticType="Float" DisplayName="Alpha Value" Description="">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Alpha Enable" SemanticType="Boolean" DisplayName="Alpha Enable" Description="">FALSE</PROPERTY>
+            <PROPERTY Class="Boolean" Name="Hide Object" SemanticType="Boolean" DisplayName="Hide Object" Description="">FALSE</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="312" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">1.4018859863281250, -365.6724243164062500, 49.3381195068359380</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -0.0000000437113883, 1.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -1.0000000000000000, -0.0000000437113883</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="313" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="310" />
+        <COMPONENT LinkID="314" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="311" />
+        <ENTITY LinkID="315" Class="NiGeneralEntity" Name="Trigger_Boss_01_02" Type="Trigger" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="4b,99,90,89,4,a9,ae,44,ae,b6,38,7b,13,3d,eb,dd" Hidden="TRUE" MasterLinkID="308">
+            <COMPONENT RefLinkID="316" />
+            <COMPONENT RefLinkID="317" />
+            <COMPONENT RefLinkID="318" />
+        </ENTITY>
+        <COMPONENT LinkID="316" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3316.2993164062500000, -365.6724243164062500, 49.3381195068359380</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -0.0000000437113883, 1.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -1.0000000000000000, -0.0000000437113883</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="317" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="310" />
+        <COMPONENT LinkID="318" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="311" />
+        <ENTITY LinkID="319" Class="NiGeneralEntity" Name="Trigger_Boss_01_03" Type="Trigger" UsePhysX="TRUE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="4b,99,90,89,4,a9,ae,44,ae,b6,38,7b,13,3d,eb,dd" Hidden="TRUE" MasterLinkID="308">
+            <COMPONENT RefLinkID="320" />
+            <COMPONENT RefLinkID="321" />
+            <COMPONENT RefLinkID="322" />
+        </ENTITY>
+        <COMPONENT LinkID="320" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3172.0847167968750000, -365.6724243164062500, 49.3381195068359380</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -0.0000000437113883, 1.0000000000000000</ROW>
+                <ROW>0.0000000000000000, -1.0000000000000000, -0.0000000437113883</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="321" Class="NiSceneGraphComponent" Name="Scene Graph" MasterLinkID="310" />
+        <COMPONENT LinkID="322" Class="NiGeneralComponent" Name="Hide Object" TemplateID="f6,46,16,db,61,92,23,47,b5,4a,da,2d,42,d7,85,b9" MasterLinkID="311" />
+        <ENTITY LinkID="323" Class="NiGeneralEntity" Name="Directional Light - white 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="327" />
+            <COMPONENT RefLinkID="328" />
+        </ENTITY>
+        <ENTITY LinkID="324" Class="NiGeneralEntity" Name="[General]Lights.Directional Light - white" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64">
+            <COMPONENT RefLinkID="325" />
+            <COMPONENT RefLinkID="326" />
+        </ENTITY>
+        <COMPONENT LinkID="325" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="326" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM />
+            </PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="327" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-111.4502029418945300, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>0.6427875757217407, 0.0000000000000000, 0.7660444974899292</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-0.7660444974899292, 0.0000000000000000, 0.6427875757217407</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="328" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">0.8000000119209290</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.0000000000000000, 0.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.0000000000000000, 0.7529411911964417, 0.7529411911964417</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="18" />
+                <ITEM RefLinkID="232" />
+                <ITEM RefLinkID="197" />
+                <ITEM RefLinkID="202" />
+                <ITEM RefLinkID="207" />
+                <ITEM RefLinkID="212" />
+                <ITEM RefLinkID="217" />
+                <ITEM RefLinkID="222" />
+                <ITEM RefLinkID="227" />
+                <ITEM RefLinkID="8" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="329" Class="NiGeneralEntity" Name="Directional Light - white 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="330" />
+            <COMPONENT RefLinkID="331" />
+        </ENTITY>
+        <COMPONENT LinkID="330" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">187.1282043457031200, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 0.0000000000000000, -1.0000000000000000</ROW>
+                <ROW>0.8660253882408142, -0.5000000596046448, -0.0000000378551732</ROW>
+                <ROW>-0.5000000596046448, -0.8660253882408142, 0.0000000218556959</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="331" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.2509804069995880, 0.2509804069995880, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.5019608139991760, 0.2509804069995880, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="18" />
+                <ITEM RefLinkID="232" />
+                <ITEM RefLinkID="197" />
+                <ITEM RefLinkID="202" />
+                <ITEM RefLinkID="207" />
+                <ITEM RefLinkID="212" />
+                <ITEM RefLinkID="217" />
+                <ITEM RefLinkID="222" />
+                <ITEM RefLinkID="227" />
+                <ITEM RefLinkID="8" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="332" Class="NiGeneralEntity" Name="Point Light - linear white 01" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="9a,34,6e,19,83,62,99,4e,8c,41,8e,cc,32,d9,ff,cb" MasterLinkID="333">
+            <COMPONENT RefLinkID="336" />
+            <COMPONENT RefLinkID="337" />
+        </ENTITY>
+        <ENTITY LinkID="333" Class="NiGeneralEntity" Name="[General]Lights.Point Light - linear white" TemplateID="9a,34,6e,19,83,62,99,4e,8c,41,8e,cc,32,d9,ff,cb">
+            <COMPONENT RefLinkID="334" />
+            <COMPONENT RefLinkID="335" />
+        </ENTITY>
+        <COMPONENT LinkID="334" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="335" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Point</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0099999997764826</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM />
+            </PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="336" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-0.0773324966430664, 549.9797973632812500, -10.1840190887451170</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="337" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Point</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">3.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">1.0000000000000000, 1.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.0000000000000000, 0.2509804069995880, 0.2509804069995880</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0099999997764826</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000999999974738</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="18" />
+                <ITEM RefLinkID="89" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="338" Class="NiGeneralEntity" Name="Directional Light - white 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="339" />
+            <COMPONENT RefLinkID="340" />
+        </ENTITY>
+        <COMPONENT LinkID="339" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3044.5976562500000000, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>0.6427875757217407, 0.0000000000000000, 0.7660444974899292</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-0.7660444974899292, 0.0000000000000000, 0.6427875757217407</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="340" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">1.2000000476837158</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.0000000000000000, 0.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.5019608139991760, 0.5019608139991760, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="261" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="341" Class="NiGeneralEntity" Name="Directional Light - white 04" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="342" />
+            <COMPONENT RefLinkID="343" />
+        </ENTITY>
+        <COMPONENT LinkID="342" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3352.4187011718750000, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 0.0000000000000000, -1.0000000000000000</ROW>
+                <ROW>0.8660253882408142, -0.5000000596046448, -0.0000000378551732</ROW>
+                <ROW>-0.5000000596046448, -0.8660253882408142, 0.0000000218556959</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="343" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">0.4000000059604645</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.0000000000000000, 0.7529411911964417, 0.7529411911964417</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">1.0000000000000000, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="261" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="344" Class="NiGeneralEntity" Name="Point Light - linear white 02" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="9a,34,6e,19,83,62,99,4e,8c,41,8e,cc,32,d9,ff,cb" MasterLinkID="333">
+            <COMPONENT RefLinkID="345" />
+            <COMPONENT RefLinkID="346" />
+        </ENTITY>
+        <COMPONENT LinkID="345" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">3180.2089843750000000, 549.9797973632812500, -10.1840190887451170</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="346" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Point</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">3.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">1.0000000000000000, 1.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.7529411911964417, 0.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0099999997764826</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000999999974738</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="261" />
+                <ITEM RefLinkID="117" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="347" Class="NiGeneralEntity" Name="Directional Light - white 05" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="348" />
+            <COMPONENT RefLinkID="349" />
+        </ENTITY>
+        <COMPONENT LinkID="348" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3450.0939941406250000, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>0.1736481189727783, 0.0000000000000000, 0.9848077893257141</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>-0.9848077893257141, 0.0000000000000000, 0.1736481189727783</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="349" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">1.2000000476837158</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.2352941185235977, 0.2352941185235977, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.5019608139991760, 0.2509804069995880, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="280" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="350" Class="NiGeneralEntity" Name="Directional Light - white 06" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="db,73,76,f,ac,36,a7,4e,a7,91,3e,6a,8b,f7,b,64" MasterLinkID="324">
+            <COMPONENT RefLinkID="351" />
+            <COMPONENT RefLinkID="352" />
+        </ENTITY>
+        <COMPONENT LinkID="351" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3213.7990722656250000, -707.1558227539062500, 180.6437377929687500</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>-0.0000000437113883, 0.0000000000000000, -1.0000000000000000</ROW>
+                <ROW>-0.5000001192092896, 0.8660253286361694, 0.0000000218557012</ROW>
+                <ROW>0.8660253286361694, 0.5000001192092896, -0.0000000378551697</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="352" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Directional</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">0.6000000238418579</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">0.2509804069995880, 0.2509804069995880, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.5019608139991760, 0.2509804069995880, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="280" />
+            </PROPERTY>
+        </COMPONENT>
+        <ENTITY LinkID="353" Class="NiGeneralEntity" Name="Point Light - linear white 03" Type="Object" UsePhysX="FALSE" PostfixTexture="" Optimization="0" AlphaGroup="5" RandomAni="FALSE" TemplateID="9a,34,6e,19,83,62,99,4e,8c,41,8e,cc,32,d9,ff,cb" MasterLinkID="333">
+            <COMPONENT RefLinkID="354" />
+            <COMPONENT RefLinkID="355" />
+        </ENTITY>
+        <COMPONENT LinkID="354" Class="NiTransformationComponent" Name="Transformation">
+            <PROPERTY Class="Point3" Name="Translation">-3320.0104980468750000, 549.9797973632812500, -10.1840190887451170</PROPERTY>
+            <PROPERTY Class="Matrix3" Name="Rotation">
+                <ROW>1.0000000000000000, 0.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 1.0000000000000000, 0.0000000000000000</ROW>
+                <ROW>0.0000000000000000, 0.0000000000000000, 1.0000000000000000</ROW>
+            </PROPERTY>
+            <PROPERTY Class="Float" Name="Scale">1.0000000000000000</PROPERTY>
+        </COMPONENT>
+        <COMPONENT LinkID="355" Class="NiLightComponent" Name="Light">
+            <PROPERTY Class="String" Name="Light Type">Point</PROPERTY>
+            <PROPERTY Class="Float" Name="Dimmer">3.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Ambient)">1.0000000000000000, 1.0000000000000000, 0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Diffuse)">0.0000000000000000, 0.5019608139991760, 0.5019608139991760</PROPERTY>
+            <PROPERTY Class="Color (RGB)" Name="Color (Specular)">1.0000000000000000, 1.0000000000000000, 1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Constant)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Linear)">0.0099999997764826</PROPERTY>
+            <PROPERTY Class="Float" Name="Attenuation (Quadratic)">0.0000999999974738</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Outer)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Angle (Inner)">0.0000000000000000</PROPERTY>
+            <PROPERTY Class="Float" Name="Spot Exponent">1.0000000000000000</PROPERTY>
+            <PROPERTY Class="Entity Pointer" Name="Affected Entities">
+                <ITEM RefLinkID="280" />
+                <ITEM RefLinkID="174" />
+            </PROPERTY>
+        </COMPONENT>
+    </OBJECTS>
+    <SCENES>
+        <SCENE Class="NiScene" Name="Main Scene">
+            <SELECTIONS>
+                <SET Name="pack1">
+                    <ENTITY RefLinkID="0" />
+                </SET>
+            </SELECTIONS>
+            <ENTITY RefLinkID="8" />
+            <ENTITY RefLinkID="18" />
+            <ENTITY RefLinkID="28" />
+            <ENTITY RefLinkID="237" />
+            <ENTITY RefLinkID="243" />
+            <ENTITY RefLinkID="249" />
+            <ENTITY RefLinkID="34" />
+            <ENTITY RefLinkID="255" />
+            <ENTITY RefLinkID="44" />
+            <ENTITY RefLinkID="227" />
+            <ENTITY RefLinkID="261" />
+            <ENTITY RefLinkID="49" />
+            <ENTITY RefLinkID="59" />
+            <ENTITY RefLinkID="69" />
+            <ENTITY RefLinkID="74" />
+            <ENTITY RefLinkID="79" />
+            <ENTITY RefLinkID="84" />
+            <ENTITY RefLinkID="89" />
+            <ENTITY RefLinkID="97" />
+            <ENTITY RefLinkID="102" />
+            <ENTITY RefLinkID="112" />
+            <ENTITY RefLinkID="266" />
+            <ENTITY RefLinkID="274" />
+            <ENTITY RefLinkID="127" />
+            <ENTITY RefLinkID="277" />
+            <ENTITY RefLinkID="133" />
+            <ENTITY RefLinkID="117" />
+            <ENTITY RefLinkID="122" />
+            <ENTITY RefLinkID="280" />
+            <ENTITY RefLinkID="285" />
+            <ENTITY RefLinkID="194" />
+            <ENTITY RefLinkID="136" />
+            <ENTITY RefLinkID="288" />
+            <ENTITY RefLinkID="141" />
+            <ENTITY RefLinkID="144" />
+            <ENTITY RefLinkID="149" />
+            <ENTITY RefLinkID="154" />
+            <ENTITY RefLinkID="159" />
+            <ENTITY RefLinkID="164" />
+            <ENTITY RefLinkID="169" />
+            <ENTITY RefLinkID="174" />
+            <ENTITY RefLinkID="179" />
+            <ENTITY RefLinkID="184" />
+            <ENTITY RefLinkID="189" />
+            <ENTITY RefLinkID="212" />
+            <ENTITY RefLinkID="217" />
+            <ENTITY RefLinkID="222" />
+            <ENTITY RefLinkID="291" />
+            <ENTITY RefLinkID="299" />
+            <ENTITY RefLinkID="303" />
+            <ENTITY RefLinkID="307" />
+            <ENTITY RefLinkID="315" />
+            <ENTITY RefLinkID="319" />
+            <ENTITY RefLinkID="232" />
+            <ENTITY RefLinkID="197" />
+            <ENTITY RefLinkID="202" />
+            <ENTITY RefLinkID="207" />
+            <ENTITY RefLinkID="323" />
+            <ENTITY RefLinkID="329" />
+            <ENTITY RefLinkID="332" />
+            <ENTITY RefLinkID="338" />
+            <ENTITY RefLinkID="341" />
+            <ENTITY RefLinkID="344" />
+            <ENTITY RefLinkID="347" />
+            <ENTITY RefLinkID="350" />
+            <ENTITY RefLinkID="353" />
+        </SCENE>
+    </SCENES>
+</GSA>

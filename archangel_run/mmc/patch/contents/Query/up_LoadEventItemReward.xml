@@ -1,0 +1,12 @@
+<QUERY TABLE="Table/DR2_Local/TB_EventItemReward.csv">
+	<COLUMN NAME="EventItemNo" TYPE="INT"/>
+	<COLUMN NAME="ResultItemNo" TYPE="INT"/>
+	<COLUMN NAME="ResultItemCount" TYPE="SMALLINT"/>
+	<COLUMN NAME="TimeType" TYPE="TINYINT"/>
+	<COLUMN NAME="UseTime" TYPE="SMALLINT"/>
+	<COLUMN NAME="Rarity" TYPE="TINYINT"/>
+	<COLUMN NAME="EnchantType" TYPE="TINYINT"/>
+	<COLUMN NAME="EnchantLevel" TYPE="TINYINT"/>
+	<COLUMN NAME="Rate" TYPE="INT"/>
+	<COLUMN NAME="Broadcast" TYPE="TINYINT"/>
+</QUERY>

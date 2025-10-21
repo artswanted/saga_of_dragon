@@ -1,0 +1,34 @@
+<QUERY TABLE="Table/DR2_Local/TB_DefGambleMachine.csv">
+    <COLUMN NAME="Coin" TYPE="TINYINT"/>
+    <COLUMN NAME="ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="Count" TYPE="SMALLINT"/>
+    <COLUMN NAME="Rate" TYPE="INT"/>
+    <COLUMN NAME="Broadcast" TYPE="TINYINT"/>
+    <COLUMN NAME="TimeType" TYPE="TINYINT"/>
+    <COLUMN NAME="UseTime" TYPE="SMALLINT"/>
+    <COLUMN NAME="GroupNo" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Local/TB_DefGambleMachineCost.csv">
+    <COLUMN NAME="CoinType" TYPE="TINYINT"/>
+    <COLUMN NAME="Cost" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Local/TB_DefGambleMachineGroupRes.csv">
+    <COLUMN NAME="GroupNo" TYPE="INT"/>
+    <COLUMN NAME="U" TYPE="TINYINT"/>
+    <COLUMN NAME="V" TYPE="TINYINT"/>
+    <COLUMN NAME="UVIndex" TYPE="SMALLINT"/>
+    <COLUMN NAME="IconPath" TYPE="WSTRING"/>
+    <COLUMN NAME="Description" TYPE="WSTRING"/>
+    <COLUMN NAME="DisplayRank" TYPE="INT"/>
+    <COLUMN NAME="Title" TYPE="WSTRING"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Local/TB_DefGambleMachineMixup.csv">
+    <COLUMN NAME="MixPoint" TYPE="INT"/>
+    <COLUMN NAME="GradeNo" TYPE="INT"/>
+    <COLUMN NAME="Rate" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Local/TB_DefGambleMachineMixupPoint.csv">
+    <COLUMN NAME="Grade" TYPE="INT"/>
+    <COLUMN NAME="MixPoint" TYPE="INT"/>
+</QUERY>

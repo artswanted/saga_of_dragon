@@ -1,0 +1,20 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefMonster.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="MonsterNo" TYPE="INT"/>
+    <COLUMN NAME="Name" TYPE="INT"/>
+    <COLUMN NAME="Abil01" TYPE="INT"/>
+    <COLUMN NAME="Abil02" TYPE="INT"/>
+    <COLUMN NAME="Abil03" TYPE="INT"/>
+    <COLUMN NAME="Abil04" TYPE="INT"/>
+    <COLUMN NAME="Abil05" TYPE="INT"/>
+    <COLUMN NAME="Abil06" TYPE="INT"/>
+    <COLUMN NAME="Abil07" TYPE="INT"/>
+    <COLUMN NAME="Abil08" TYPE="INT"/>
+    <COLUMN NAME="Abil09" TYPE="INT"/>
+    <COLUMN NAME="Abil10" TYPE="INT"/>
+    <COLUMN NAME="Abil11" TYPE="INT"/>
+    <COLUMN NAME="Abil12" TYPE="INT"/>
+    <COLUMN NAME="Abil13" TYPE="INT"/>
+    <COLUMN NAME="Abil14" TYPE="INT"/>
+    <COLUMN NAME="Abil15" TYPE="INT"/>
+</QUERY>

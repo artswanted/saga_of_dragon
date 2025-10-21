@@ -1,0 +1,17 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefItemSet.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="SetNo" TYPE="INT"/>
+    <COLUMN NAME="Name" TYPE="INT"/>
+    <COLUMN NAME="SetAbil01" TYPE="INT"/>
+    <COLUMN NAME="SetAbil02" TYPE="INT"/>
+    <COLUMN NAME="NeedItem01" TYPE="INT"/>
+    <COLUMN NAME="NeedItem02" TYPE="INT"/>
+    <COLUMN NAME="NeedItem03" TYPE="INT"/>
+    <COLUMN NAME="NeedItem04" TYPE="INT"/>
+    <COLUMN NAME="NeedItem05" TYPE="INT"/>
+    <COLUMN NAME="NeedItem06" TYPE="INT"/>
+    <COLUMN NAME="NeedItem07" TYPE="INT"/>
+    <COLUMN NAME="NeedItem08" TYPE="INT"/>
+    <COLUMN NAME="NeedItem09" TYPE="INT"/>
+    <COLUMN NAME="NeedItem10" TYPE="INT"/>
+</QUERY>

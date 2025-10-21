@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<PVP_EFFECT>
+	<EFFECT  ClassLimit="2105378" 
+	EFFECT_NO1="290010"
+	EFFECT_NO2="9940101"
+
+	/>
+	<!-- 전사(기사)류 버프-->
+	<!-- 숨기금지-바리케이드-->
+
+	<EFFECT  ClassLimit="4210752" 
+	EFFECT_NO1="290020"
+	/>
+	<!-- 투사류-->
+
+	<EFFECT  ClassLimit="8421508" 
+	EFFECT_NO1="290030"
+
+	EFFECT_NO3="800101"
+	EFFECT_NO4="900101"
+	EFFECT_NO5="900201"
+	
+	/>
+	<!-- 매이지(매지션)류-->
+	<!-- 스파크락범위-->
+	<!-- 확산포 연타데미지-->
+	<!-- 더블샷 연타데미지-->
+
+	
+
+	<EFFECT  ClassLimit="16843008"
+	EFFECT_NO1="290040"
+	/>
+	
+	<!-- 전투마법사류-->
+
+	<EFFECT  ClassLimit="33686024" 
+	EFFECT_NO1="290050"
+	EFFECT_NO6="900301"
+	/>
+	
+	<!-- 사냥꾼(궁수)류-->
+	<!-- 대공사격 연타데미지-->
+
+	<EFFECT  ClassLimit="67372032" 
+	EFFECT_NO1="290060"
+	EFFECT_NO2="9940101"
+	EFFECT_NO6="900301"
+	/>
+	<!-- 레인저류-->
+	<!-- 숨기금지-->
+	<!-- 대공사격 연타데미지-->
+	
+	<EFFECT  ClassLimit="134744080" 
+	EFFECT_NO1="290070"
+	EFFECT_NO2="9940101"
+	/>
+	<!-- 광대(도둑)류-->
+	<!-- 숨기금지-->
+	
+	<EFFECT  ClassLimit="269488128" 
+	EFFECT_NO1="290080"
+	EFFECT_NO2="9940101"
+	/>
+	<!-- 암살자류-->
+	<!-- 숨기금지-->
+	
+	<EFFECT  DraClassLimit="170" 
+	EFFECT_NO1="290090"
+	/>
+	<!-- 소환사(샤먼)류-->
+	
+	<EFFECT  DraClassLimit="340" 
+	EFFECT_NO1="290100"
+	/>
+	<!-- 쌍동이(더블파이터)류-->
+
+</PVP_EFFECT>

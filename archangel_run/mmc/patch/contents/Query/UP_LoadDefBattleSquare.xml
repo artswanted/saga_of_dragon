@@ -1,0 +1,75 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_Item.csv">
+    <COLUMN NAME="f_ItemNo" TYPE="INT"/>
+    <COLUMN NAME="f_EffectNo1" TYPE="INT"/>
+    <COLUMN NAME="f_EffectNo2" TYPE="INT"/>
+    <COLUMN NAME="f_EffectNo3" TYPE="INT"/>
+    <COLUMN NAME="f_MinimapIconNo" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_TeamReward.csv">
+    <COLUMN NAME="f_TeamRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_PointMin" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount2" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_TeamRewardLose.csv">
+    <COLUMN NAME="f_TeamRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_PointMin" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount2" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_PtReward.csv">
+    <COLUMN NAME="f_PtRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_PointMin" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount2" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_LvReward.csv">
+    <COLUMN NAME="f_LvRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_LevelMin" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount2" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_BnsReward.csv">
+    <COLUMN NAME="f_BnsRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_UserCountMin" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount1" TYPE="INT"/>
+    <COLUMN NAME="f_ItemNo2" TYPE="INT"/>
+    <COLUMN NAME="f_ItemCount2" TYPE="INT"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefBS_Game.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="f_BS_GAME_IDX" TYPE="INT"/>
+    <COLUMN NAME="f_Ch_IsUse" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_ChannelTitle" TYPE="INT"/>
+    <COLUMN NAME="f_Ch_LevelMin" TYPE="INT"/>
+    <COLUMN NAME="f_Ch_LevelMax" TYPE="INT"/>
+    <COLUMN NAME="f_Ch_MaxUser" TYPE="INT"/>
+    <COLUMN NAME="f_Ch_W_Sunday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Monday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Tuesday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Wednesday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Thursday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Friday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_W_Saturday" TYPE="TINYINT"/>
+    <COLUMN NAME="f_Ch_StartTime" TYPE="DATETIME"/>
+    <COLUMN NAME="f_Ch_GameSec" TYPE="BIGINT"/>
+    <COLUMN NAME="f_Game_GroundNo" TYPE="INT"/>
+    <COLUMN NAME="f_Game_PreOpenSec" TYPE="BIGINT"/>
+    <COLUMN NAME="f_TeamRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_TeamRewardLoseIdx" TYPE="INT"/>
+    <COLUMN NAME="f_PtRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_LvRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_BnsRewardIdx" TYPE="INT"/>
+    <COLUMN NAME="f_MapBagItemGroundNo" TYPE="INT"/>
+    <COLUMN NAME="f_GenGroupGroundNo" TYPE="INT"/>
+    <COLUMN NAME="f_MonsterBagControlNo" TYPE="INT"/>
+</QUERY>

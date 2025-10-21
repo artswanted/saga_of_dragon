@@ -1,0 +1,2 @@
+cd .\Map
+MapServer_Release.exe /REALM=1 /CHANNEL=100 /SERVER_NO=101 /CENTER_ADDR=127.0.0.1:1702 /DEBUG=1

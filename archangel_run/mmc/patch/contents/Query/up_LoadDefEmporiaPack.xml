@@ -1,0 +1,64 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefEmporiaPack.csv">
+	<COLUMN NAME="EmporiaID" TYPE="uniqueidentifier"/>
+	<COLUMN NAME="BaseMapNo" TYPE="int"/>
+	<COLUMN NAME="Grade1_GroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade1_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade2_GroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade2_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade3_GroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade3_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade4_GroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade4_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade5_GroundNo" TYPE="int"/>
+	<COLUMN NAME="Grade5_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="Challenge_BattleGroundNo" TYPE="int"/>
+	<COLUMN NAME="LimitCost" TYPE="int"/>
+	<COLUMN NAME="FromNo" TYPE="int"/>
+	<COLUMN NAME="TitleNo" TYPE="int"/>
+	<COLUMN NAME="BodyNo" TYPE="int"/>
+
+	<COLUMN NAME="QuarterItem" TYPE="int"/>
+	<COLUMN NAME="QuarterMoney" TYPE="int"/>
+	<COLUMN NAME="QuarterGradeTextNo" TYPE="int"/>
+
+	<COLUMN NAME="SemiItem" TYPE="int"/>
+	<COLUMN NAME="SemiMoney" TYPE="int"/>
+	<COLUMN NAME="SemiGradeTextNo" TYPE="int"/>
+
+	<COLUMN NAME="SecondItem" TYPE="int"/>
+	<COLUMN NAME="SecondMoney" TYPE="int"/>
+	<COLUMN NAME="SecondGradeTextNo" TYPE="int"/>
+
+	<COLUMN NAME="WinnerItem" TYPE="int"/>
+	<COLUMN NAME="WinnerMoney" TYPE="int"/>
+	<COLUMN NAME="WinnerGradeTextNo" TYPE="int"/>
+
+	<COLUMN NAME="Grade1_Item" TYPE="int"/>
+	<COLUMN NAME="Grade1_Money" TYPE="int"/>
+	<COLUMN NAME="Grade1_TextNo" TYPE="int"/>
+
+	<COLUMN NAME="Grade2_Item" TYPE="int"/>
+	<COLUMN NAME="Grade2_Money" TYPE="int"/>
+	<COLUMN NAME="Grade2_TextNo" TYPE="int"/>
+
+	<COLUMN NAME="Grade3_Item" TYPE="int"/>
+	<COLUMN NAME="Grade3_Money" TYPE="int"/>
+	<COLUMN NAME="Grade3_TextNo" TYPE="int"/>
+
+	<COLUMN NAME="Grade4_Item" TYPE="int"/>
+	<COLUMN NAME="Grade4_Money" TYPE="int"/>
+	<COLUMN NAME="Grade4_TextNo" TYPE="int"/>
+
+	<COLUMN NAME="Grade5_Item" TYPE="int"/>
+	<COLUMN NAME="Grade5_Money" TYPE="int"/>
+	<COLUMN NAME="Grade5_TextNo" TYPE="int"/>
+
+	<COLUMN NAME="LimitDay" TYPE="smallint"/>
+</QUERY>
+<QUERY TABLE="Table/DR2_Def/TB_DefEmporiaFunction.csv">
+	<COLUMN NAME="EmporiaID" TYPE="uniqueidentifier"/>
+	<COLUMN NAME="Grade" TYPE="tinyint"/>
+	<COLUMN NAME="FunctionNo" TYPE="smallint"/>
+	<COLUMN NAME="Price_ForWeek" TYPE="smallint"/>
+	<COLUMN NAME="iValue" TYPE="int"/>
+</QUERY>

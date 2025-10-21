@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <transferUserMoney> 
+   <username> %ID%</username> 
+   <transferUser>%RECV_ID%</transferUser> 
+   <money>%REQ_CASH%</money> 
+   <clientid> %GAME_ID%</clientid> 
+   <serviceid>0</serviceid> 
+   <operation>%REQ_KEY%</operation> 
+   <crc>%CRC%</crc> 
+   <remoteaddr>211.232.145.174</remoteaddr> 
+  </transferUserMoney> 
+</xml>

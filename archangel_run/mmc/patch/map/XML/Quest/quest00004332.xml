@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4332</ID> <!--T.T.10433200 등가교환의 법칙 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	낡은 보물상자-->
+<!--[완료NPC]	카오란 마을 - 로이드-->
+<!--[내용]	황제의 궁전으로 가는 열쇠를 만들어준 대가로 로이드가 황제의 궁전 내부에서 진귀한 보물을 가져다 달라고 한다.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">EE46B18F-3DDB-40b7-A326-F7C45B80A763</PAYER> <!--완료NPC 카오란 마을 - 로이드 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9600249/100/0/1/1/160523020">7911900</MONSTER> 
+ <!--MON_NO=7911900/후오황제,MAP_NO=9600249/[이벤트](중국 테마)시나리오 정예,Item_NO=160523030/[Q.ID:04334] 낡은 보물상자,-->
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9600259/100/0/1/1/160523020">7911905</MONSTER> 
+ <!--MON_NO=7911900/후오황제,MAP_NO=9600249/[이벤트](중국 테마)시나리오 정예,Item_NO=160523030/[Q.ID:04334] 낡은 보물상자,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">160523020</ITEM>
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433211"/> <!--낡은 보물상자-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="1">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433221" FACE="Roid_normal"/> <!--저기 %name%님 저랑 잠시 이야기좀.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433226" FACE="Roid_smile"/> <!--뭘 이렇게 많이. 하하하 손해 본건 충분히 보상이 되었습니다.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433223" FACE="Roid_normal"/> <!--황제의 인장을 만드느라 제가 이만저만 손해 본게 아닙니다. 황제의 궁전으로 가시는 김에 주변에 혹시 유물이 보이면 한 두개만 좀 가져다 주십시요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433224" FACE="Roid_angly"/> <!--세상에 공짜가 어딧습니까? 너무 하시군요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433225" FACE="Roid_normal"/> <!--보물은 어디있죠?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433202" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

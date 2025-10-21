@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4335</ID> <!--T.T.10433500 황제의 망령 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	후오황제 봉인-->
+<!--[완료NPC]	카오란 마을 - 돈파치-->
+<!--[내용]	후오황제를 다시 봉인 하였지만, 어쩐 일인지 봉인이 조금씩 약해져서 그 틈으로 망령이 나타나고 있다. 망령을 처치하고 다시 봉인을 하도록 하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</CLIENT> <!--시작NPC 카오란 마을 - 돈파치 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</PAYER> <!--완료NPC 카오란 마을 - 돈파치 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">996B460E-CAE8-46f1-8F23-9D9C1665AA8A</AGENT> <!--진행NPC 11 카오란 마을 - 돈파치 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7911900</MONSTER> 
+ <!--MON_NO=7911900/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433511"/> <!--후오황제 봉인-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="3">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)5개-[13_08 중국테마] 사념의 조각 -->
+		</SELECT1>
+		
+	   </REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433521" FACE="Donpachi_normal"/> <!--숲에 있는 황궁에서 비명소리가 들린다네.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433526" FACE="Donpachi_smile"/> <!--고맙네. 이젠 편히 잠들었으면 좋으련만.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433523" FACE="Donpachi_normal"/> <!--아무래도 후오황제가 분에 못이겨 소리를 지르는 모양이야. 봉인을 했다 해도 약해지기 마련이지. 좀 도와주게나.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433524" FACE="Donpachi_angly"/> <!--언제 또 망령들이 나타날지 두렵다네.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433525" FACE="Donpachi_normal"/> <!--어서 가주게 언제 나타날지 모르네.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433502" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

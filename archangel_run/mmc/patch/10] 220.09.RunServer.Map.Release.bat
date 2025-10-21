@@ -1,0 +1,3 @@
+cd .\Map
+MapServer_Release.exe /REALM=1 /CHANNEL=1 /SERVER_NO=220 /CENTER_ADDR=127.0.0.1:1701 /DEBUG=1
+pause

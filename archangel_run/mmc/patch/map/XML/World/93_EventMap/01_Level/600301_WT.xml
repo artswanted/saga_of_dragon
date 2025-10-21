@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<WORLD ID="w_600301_EM">
+  <GSAPATH>../Data/3_World/93_EventMap/01_Level/600301_WT.gsa</GSAPATH>
+  <BGSOUND VOLUME="1.0">../BGM/Eevent_Gameofdeath.mp3</BGSOUND>
+
+<!--이벤트 중 AI정지-->
+	<EVENT_SCRIPT_STOP_AI NO="9600301,9600302"/>
+
+	<!-- 나가기 버튼 -->
+    <DUNGEON_EXIT_UI/>
+
+
+		<!-- 던전 진행 UI -->
+	<PROGRESS_MAP W="480" H="120">../Data/6_UI/dungeon/dgMapLn030.tga</PROGRESS_MAP>
+	
+           <TRIGGER ID="progress_sensor_01" TYPE="PROGRESS" VALUE="0"/>
+           <TRIGGER ID="progress_sensor_02" TYPE="PROGRESS" VALUE="1"/>
+		   <TRIGGER ID="progress_sensor_03" TYPE="PROGRESS" VALUE="2"/>
+           <TRIGGER ID="progress_sensor_04" TYPE="PROGRESS" VALUE="3"/>
+		   <TRIGGER ID="progress_sensor_05" TYPE="PROGRESS" VALUE="4"/>
+           <TRIGGER ID="progress_sensor_06" TYPE="PROGRESS" VALUE="5"/>
+
+
+ 		   <PROGRESS VALUE="0" X="36" Y="44" DIRECTION="RIGHT"/>
+           <PROGRESS VALUE="1" X="102" Y="44" DIRECTION="RIGHT"/>
+		   <PROGRESS VALUE="2" X="180" Y="44" DIRECTION="RIGHT"/>
+		   <PROGRESS VALUE="3" X="260" Y="44" DIRECTION="RIGHT"/>
+           <PROGRESS VALUE="4" X="340" Y="44" DIRECTION="RIGHT"/>
+		   <PROGRESS VALUE="5" X="420" Y="44" DIRECTION="RIGHT"/>
+
+
+	<!-- 1구간 텔레점프  -->
+		<TRIGGER ID="telejump_target_01" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_01" PARAM="450"/>
+		</TRIGGER>
+		
+		<TRIGGER ID="telejump_target_02" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_02" PARAM="450"/>
+		</TRIGGER>
+
+		<TRIGGER ID="telejump_target_03" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_03" PARAM="450"/>
+		</TRIGGER>
+
+		<TRIGGER ID="telejump_target_04" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_04" PARAM="450"/>
+		</TRIGGER>
+
+		<TRIGGER ID="telejump_target_05" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_05" PARAM="450"/>
+		</TRIGGER>
+
+		<TRIGGER ID="telejump_target_06" TYPE="TELEJUMP" SOUND_ID="Tele_Jump">
+			<CONDITION TYPE="touch"/>
+			<ACTION SCRIPT="DoTeleJumpEx" PARAM_STRING="telejump_zone_06" PARAM="450"/>
+		</TRIGGER>
+
+	<!-- 3구간 텔 레 포 트 -->
+		<TRIGGER ID="teleport_target_01" TYPE="PORTAL"> <!--1층에서 2층으로-->
+			<CONDITION TYPE="touch" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_01" PARAM="4" PARAM2="8"/>
+		</TRIGGER>
+
+		<TRIGGER ID="teleport_target_02" TYPE="PORTAL"> <!--2층에서 3층으로-->
+			<CONDITION TYPE="touch" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="teleport_zone_02" PARAM="4" PARAM2="8"/>
+		</TRIGGER>
+
+	<!-- 구간별 이동 -->
+		<TRIGGER ID="gate_next_1_boss" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--노말1번에서 노말2번으로-->
+			<CONDITION TYPE="action" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="gate_get_1_boss" PARAM="2" PARAM2="2"/>
+		</TRIGGER>
+		<TRIGGER ID="gate_next_2_normal" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--노말2번에서 노말1번으로-->
+			<CONDITION TYPE="action" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="gate_get_2_normal" PARAM="2" PARAM2="2"/>
+		</TRIGGER>		
+		<TRIGGER ID="gate_next_2_boss" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--노말 2번에서 노말 3번으로-->
+			<CONDITION TYPE="action" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="gate_get_2_boss" PARAM="2" PARAM2="2"/>
+		</TRIGGER>			
+		<TRIGGER ID="gate_next_3_normal" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--노말 3번에서 노말 2번으로-->
+			<CONDITION TYPE="action" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="gate_get_3_normal" PARAM="4" PARAM2="2"/>
+		</TRIGGER>		
+		<TRIGGER ID="gate_next_3_boss" TYPE="TELEPORT" ENABLE="0" IS_WORLD_EVENT_SCRIPT_USE="1"><!--노말 3번에서 노말 4번으로-->
+			<CONDITION TYPE="action" ACTION="a_act"/>
+			<ACTION SCRIPT="Party_Map_EnterDugeon" PARAM_STRING="gate_get_3_boss" PARAM="4" PARAM2="4"/>
+		</TRIGGER>
+
+
+	<!-- 2구간 트리거 하이 점프-->
+    <TRIGGER ID="trigger_jump_1" TYPE="JUMP" SOUND_ID="Trigger_Jump">
+        <CONDITION TYPE="touch" />
+        <ACTION SCRIPT="DoHighJump" PARAM="350" />
+    </TRIGGER>
+
+
+<!-- 몬스터 호출 트리거 정의 -->
+           <TRIGGER ID="target_Monster_regen_B1" > <!-- 보스 1구간 -->
+                <CONDITION TYPE="touch" ACTION="a_act"/>
+                <ACTION SCRIPT="Map_WorldEventTrigger"/>
+           </TRIGGER> 
+
+           <TRIGGER ID="target_Monster_regen_B2" > <!-- 보스 2구간 -->
+                <CONDITION TYPE="touch" ACTION="a_act"/>
+                <ACTION SCRIPT="Map_WorldEventTrigger"/>
+           </TRIGGER> 
+
+           <TRIGGER ID="target_Monster_regen_B3" > <!-- 보스 3구간 -->
+                <CONDITION TYPE="touch" ACTION="a_act"/>
+                <ACTION SCRIPT="Map_WorldEventTrigger"/>
+           </TRIGGER> 
+
+
+<WORLDEVENT_OBJECT_LIST>
+<!-- 포탈 제어 -->
+	<WORLDEVENT_OBJECT ID="21" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="portal_Lock1001_01 01"/>
+	<WORLDEVENT_OBJECT ID="22" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="portal_Lock1001_01 02"/>
+	<WORLDEVENT_OBJECT ID="23" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="portal_Lock1001_01 03"/>
+	<WORLDEVENT_OBJECT ID="24" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="portal_Lock1001_01 04"/>
+	<WORLDEVENT_OBJECT ID="25" INIT_STATE="0" INIT_SHOW="0" TYPE="MAPOBJECT" NAME="portal_Lock1001_01 05"/>
+ </WORLDEVENT_OBJECT_LIST>
+
+<!--  이벤트 스크립트 -->
+	 <!-- 1구역 메트로시티 번화가-->
+	<WORLD_EVENT ID="1" ENABLE="1">
+	   <CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="0" EVENT="HAVE" VALUE="1" /> <!--0번 몬스터가 있으면 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="21" EVENT="STATUS" VALUE="0"/>
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 1구간 몬스터 죽은 후  -->
+	<WORLD_EVENT ID="2" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="0" EVENT="EQUAL" VALUE="0"/>	<!-- 0번 몬스터 그룹이 죽고 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="21" EVENT="SHOW" VALUE="1"/> <!-- 포탈 활성화-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 1구간 보스방 가기 -->
+	<WORLD_EVENT ID="3" ENABLE="1"> 
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="2" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--3초 후 아래 이벤트 실행 -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_1_boss" EVENT="ENABLE" VALUE="1"/><!--트리거 활성화 -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_2_normal" EVENT="ENABLE" VALUE="0"/>
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+<!-- 보스 1구간 몬스터 소환-->
+	<WORLD_EVENT ID="4" ENABLE="1">			
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B1" EVENT="ENTER"/> <!--해당 트리거 진입시 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="12" EVENT="ACTIVE" VALUE="1"/>	<!-- 1구간 보스방 일반 몬스터 소환 -->
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-12" EVENT="ACTIVE" VALUE="1"/>	<!-- 1구간 보스방 보스 몬스터 소환 -->
+				<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B1" EVENT="ENABLE" VALUE="0"/> <!--몬스터 활성 트리거 제거-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 1구간 보스가 죽은 후  -->
+	<WORLD_EVENT ID="5" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-12" EVENT="EQUAL" VALUE="0"/>	<!-- 1번 보스가 죽으면 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="22" EVENT="SHOW" VALUE="1"/> <!-- 포탈 활성화-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 2구간 일반 필드 가기 -->
+	<WORLD_EVENT ID="6" ENABLE="1"> 
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="5" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--3초 후 아래 이벤트 실행 -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_2_normal" EVENT="ENABLE" VALUE="1"/><!--트리거 활성화 -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="13" EVENT="ACTIVE" VALUE="1"/>	<!-- 몬스터 소환 -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_2_boss" EVENT="ENABLE" VALUE="0"/>
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 2구간 몬스터 죽은 후  -->
+	<WORLD_EVENT ID="7" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="13" EVENT="EQUAL" VALUE="0"/>	<!-- 13번 몬스터 그룹이 죽고 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="23" EVENT="SHOW" VALUE="1"/> <!-- 포탈 활성화-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 2구간 보스방 가기 -->
+	<WORLD_EVENT ID="8" ENABLE="1"> 
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="7" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--3초 후 아래 이벤트 실행 -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_2_boss" EVENT="ENABLE" VALUE="1"/><!--트리거 활성화 -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_3_normal" EVENT="ENABLE" VALUE="0"/>
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+<!-- 보스 2구간 몬스터 소환-->
+	<WORLD_EVENT ID="9" ENABLE="1">			
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B2" EVENT="ENTER"/> <!--해당 트리거 진입시 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="14" EVENT="ACTIVE" VALUE="1"/>	<!-- 2구간 보스방 일반 몬스터 소환 -->
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-14" EVENT="ACTIVE" VALUE="1"/>	<!-- 2구간 보스방 보스 몬스터 소환 -->
+				<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B2" EVENT="ENABLE" VALUE="0"/> <!--몬스터 활성 트리거 제거-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 2구간 보스가 죽은 후  -->
+	<WORLD_EVENT ID="10" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-14" EVENT="EQUAL" VALUE="0"/>	<!-- 14번 몬스터 그룹이 죽고 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="24" EVENT="SHOW" VALUE="1"/> <!-- 포탈 활성화-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 3구간 일반 필드 가기 -->
+	<WORLD_EVENT ID="11" ENABLE="1"> 
+		<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="10" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--3초 후 아래 이벤트 실행 -->
+		<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_3_normal" EVENT="ENABLE" VALUE="1"/><!--트리거 활성화 -->
+			<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="15" EVENT="ACTIVE" VALUE="1"/>	<!-- 몬스터 소환 -->
+			<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_3_boss" EVENT="ENABLE" VALUE="0"/>
+		</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 3구간 몬스터 죽은 후  -->
+	<WORLD_EVENT ID="12" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="15" EVENT="EQUAL" VALUE="0"/>	<!-- 15번 몬스터 그룹이 죽고 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="25" EVENT="SHOW" VALUE="1"/> <!-- 포탈 활성화-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 3구간 몬스터 죽은 후  -->
+	<WORLD_EVENT ID="13" ENABLE="1">
+			<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="10" EVENT="ACT_AFTER_TIME" VALUE="3000" /> <!--3초 후 아래 이벤트 실행 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="gate_next_3_boss" EVENT="ENABLE" VALUE="1"/><!--트리거 활성화 -->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+<!-- 3구간 보스방 입장 시 연출-->
+	<WORLD_EVENT ID="14" ENABLE="1">			
+		<CONDITION BINDING="AND" TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B3" EVENT="ENTER"/> <!--해당 트리거 진입시 -->
+			<ACTIVATE_ACTION>
+			<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(9600301)" EVENT="SCRIPT"/>	<!--이벤트 씬 호출 -->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!--동생 죠나단과 몬스터 소환  -->
+	<WORLD_EVENT ID="15" ENABLE="1">
+			<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="14" EVENT="ACT_AFTER_TIME" VALUE="2000" /> <!--3초 후 아래 이벤트 실행 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="16" EVENT="ACTIVE" VALUE="1"/>	<!-- 3구간 보스방 일반 몬스터 소환 -->
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-16" EVENT="ACTIVE" VALUE="1"/>	<!-- 3구간 보스방 보스 몬스터 소환 -->
+				<ACTION TARGET_TYPE="TRIGGER" TARGET_ID="target_Monster_regen_B3" EVENT="ENABLE" VALUE="0"/> <!--몬스터 활성 트리거 제거-->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 동생 죠나단이 죽은 후 연출 -->
+	<WORLD_EVENT ID="16" ENABLE="1">
+		<CONDITION BINDING="AND" TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="-16" EVENT="EQUAL" VALUE="0"/>	<!-- 16번 보스 몬스터가 죽고 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="CLIENT_OBJECT" TARGET_ID="GetEventScriptSystem():ActivateEvent(9600302)" EVENT="SCRIPT"/>	<!--이벤트 씬 호출 -->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+	<!-- 형 죠셉과 몬스터 소환  -->
+	<WORLD_EVENT ID="17" ENABLE="1">
+			<CONDITION BINDING="AND" TARGET_TYPE="WORLD_EVENT" TARGET_ID="16" EVENT="ACT_AFTER_TIME" VALUE="5000" /> <!--2초 후 아래 이벤트 실행 -->
+			<ACTIVATE_ACTION>
+				<ACTION TARGET_TYPE="MON_REGEN_GROUP" TARGET_ID="17" EVENT="ACTIVE" VALUE="1"/>	<!-- 형 죠셉과 몬스터 소환 -->
+			</ACTIVATE_ACTION>
+	</WORLD_EVENT>
+
+  <WORLD_QUALITY HIGH_END="500" MID_END="1000" LOW_END="1500" USE="1" />
+</WORLD>

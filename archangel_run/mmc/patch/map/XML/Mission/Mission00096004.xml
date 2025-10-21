@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!--
+    할로윈 테마
+    
+	CHAPTER OPTION LIST
+		1. MC_NONE				- 조건 없음
+		2. MC_MON_ALL_KILL			- 몬스터 모두 죽이기
+		3. MC_MON_TARGET_KILL		- 특정 몬스터만 죽이기
+		4. MC_ITEM_GET			- 필요 아이템 획득
+		5. MC_OBJECT_KICK			- 오브젝트 작동
+		6. MC_TIME_ATTACK			- 타임어택
+		
+	MISSION OPTION LIST
+		1. MM_MON_TARGET_KILL		-  몬스터 죽이기
+		2. MM_OBJECT_KICK			- 오브젝트 작동
+		3. MM_TIME_ATTACK			- 타임어택
+		4. MM_MON_BOSS_KILL			- 정예와 보스 죽이기
+-->
+<MISSION ID="96004" ITEM_TIME1="04:30" ITEM_TIME2="06:30" ITEM_TIME3="08:30" ITEM_TIME4="10:30" GADACOIN_COUNT="7">
+	<CHAPTER_COMPLETE>
+		<!-- 챕터 옵션 -->
+		<GROUND ID="9600401"><!-- 아케이드-->
+			<!-- Level01_ResultTableNo 값 가져오기(TB_DefMission_LevelRoot)-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+			<!--text는 텍스트 xml에서-->
+		</GROUND>
+		<GROUND ID="9600402"><!-- 아케이드-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600403"><!-- 아케이드-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+
+		<GROUND ID="9600409"><!-- 아케이드 정예-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+
+		<GROUND ID="9600441"><!-- 시나리오 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600442"><!-- 시나리오 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600449"><!-- 시나리오 정예 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+
+        <GROUND ID="9600451"><!-- 시나리오 반복 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600452"><!-- 시나리오 반복-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600459"><!-- 시나리오 반복 정예 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+
+
+		<GROUND ID="9600460"><!-- 디펜스 -->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6/7"/>
+		</GROUND>
+	
+		<GROUND ID="9600411"><!-- 카오스-->
+			<!-- Level01_ResultTableNo 값 가져오기(TB_DefMission_LevelRoot)-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+			<!--text는 텍스트 xml에서-->
+		</GROUND>
+		<GROUND ID="9600412"><!-- 카오스-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600413"><!-- 카오스-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600419"><!-- 카오스 정예-->
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+
+		<!-- 보너스 맵 -->
+		<GROUND ID="9600408">
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600408">
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600418">
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+		<GROUND ID="9600418">
+			<OPTION TEXT="0" TYPE="MC_MON_ALL_KILL" VALUE="0" COUNT="0" LEVEL="1/2/3/4/5/6"/>
+		</GROUND>
+	</CHAPTER_COMPLETE>
+	<MISSION_COMPLETE>
+		<!-- 미션 옵션 -->
+		<OPTION TEXT="0" TYPE="MM_MON_BOSS_KILL" VALUE="0" COUNT="1" LEVEL="1/2/3/4/5/6"/>
+	</MISSION_COMPLETE>
+	<MISSION_OPEN EVENT_MISSION="3">
+		<!-- 미션입장 옵션 -->
+		<MISSION LEVEL="1" PRE_MISSION_LEVEL="" ING_QUEST="0"/>
+		<MISSION LEVEL="2" PRE_MISSION_LEVEL="1" ING_QUEST="0" NEED_ITEM="82001110"/><!--F3 카오스 찢어진 초대권-->
+		<MISSION LEVEL="3" PRE_MISSION_LEVEL="" ING_QUEST="0"/>
+		<MISSION LEVEL="4" PRE_MISSION_LEVEL="" ING_QUEST="0"/>
+		<MISSION LEVEL="5" PRE_MISSION_LEVEL="1" ING_QUEST="4341"/>
+		<MISSION LEVEL="6" PRE_MISSION_LEVEL="" ING_QUEST="4341" CLEAR_QUEST="4341" NEED_ITEM="82001120/82001130"/>
+		<MISSION LEVEL="7" PRE_MISSION_LEVEL="1" ING_QUEST="0"/> <!--카오란 탈춤 공연 [디펜스모드(F6)] 수호명령서-->
+	</MISSION_OPEN>
+</MISSION>

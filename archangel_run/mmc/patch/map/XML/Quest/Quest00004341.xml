@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4341</ID> <!--T.T.10434100 잭!!! 화났다!!! -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	잭의 으슬으슬맨션[시나리오 모드(F5)]-->
+<!--[완료NPC]	바람항구 - 렌디-->
+<!--[내용]	잭의 장난이 점점 심해지고 있고, 잭도 화가 난 모양인지 사악한 계략을 세우고 있다고 한다. 잭의 으슬으슬맨션[시나리오 모드(F5)]으로 가서 잭을 혼내주고 바람항구에서 멀리 쫏아내자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</CLIENT> <!--시작NPC 바람항구 - 렌디 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</PAYER> <!--완료NPC 바람항구 - 렌디 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">5299E4D0-C1F4-46c6-8BB6-C9EF8AA3F6BE</AGENT> <!--진행NPC 11 바람항구 - 렌디 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7915900</MONSTER> 
+ <!--MON_NO=7915900/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10434111"/> <!--잭 오 랜턴 쫏아내기-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="10">82001090</ITEM><!--전체지급/전체/1)/82001090(봉인아님)10개-[13_09 할로윈테마] 할로윈 코인 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10434121" FACE="Randy_normal"/> <!--잭이 많이 화가 난 모양이야. 아무래도 정면으로 쳐 들어올 모양이더라고.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10434126" FACE="Randy_smile"/> <!--다시 말해봐. 케르케르케르 잭이 냅다 도망갔단 말이지?! 꼴 좋다 케르케르케르-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10434123" FACE="Randy_normal"/> <!--잭이 주변에 모든 몬스터들을 모으고 있대. 아무래도 단단히 화가 난 모양이야. 응? 아~ 잭이 있는 곳? 잭은 지금 숲 깊은곳에 있는 잭의 으슬으슬맨션[시나리오 모드(F5)]에 있을 걸.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10434124" FACE="Randy_angly"/> <!--잭이 화났다구. 난 이제 몰라 큰일 났어.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10434125" FACE="Randy_normal"/> <!--잭이 먼저 공격하기 전에 막아야 할 걸.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10434102" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

@@ -1,0 +1,3 @@
+cd .\center
+CenterServer_Release.exe /REALM=1 /CHANNEL=0 /SERVER_NO=300 /CONTENTS_ADDR=127.0.0.1:1501 /RUN_MODE=INI /DEBUG=1
+pause

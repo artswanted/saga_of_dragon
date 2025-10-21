@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4353</ID> <!--T.T.10435300 범죄와의 전쟁 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	갱단 단원 처치-->
+<!--[완료NPC]	니콜라의 연구실 - 니콜라-->
+<!--[내용]	메트로시티는 날로 범죄가 심각해 지고 있다. 하지만 경찰 인력이 부족한 탓에 메트로시티 갱단의 힘이 점점 커지고 있다. [메트로시티 항구]로 가서 갱단들을 처치하자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</CLIENT> <!--시작NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031" Mark="END">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</PAYER> <!--완료NPC 니콜라의 연구실 - 니콜라 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">00845D41-48CC-419c-8DC9-FC7BAFCA9E1E</AGENT> <!--진행NPC 11 니콜라의 연구실 - 니콜라 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916700</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916800</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7916900</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917000</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917100</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917300</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917400</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917500</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917600</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917800</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7917900</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918000</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918100</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918700</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918800</MONSTER>
+		<MONSTER OBJECTNO="1" TYPE="INCPARAM100" VALUE="1">7918900</MONSTER>
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="50" TEXT="10435311"/> <!--갱단 단원 처치-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10435321" FACE="Nikola_normal"/> <!--죠죠형제와 그의 부하들이 메트로시티의 골칫 거리입니다.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10435326" FACE="Nikola_smile"/> <!--%name%님 덕분에 메트로시티 갱단의 세력이 약해 졌습니다. 고맙습니다.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10435323" FACE="Nikola_normal"/> <!--죠죠형제가 잡혀 갔지만 그 부하들은 여전히 날뛰고 있습니다. 메트로시티의 경찰 인력이 턱없이 부족하다보니 갱단을 저지할 능력이 부족합니다. %name%님이 좀 도와 주셨으면 합니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10435324" FACE="Nikola_cry"/> <!--이대로 둔다면 다시 이 연구소도 그들의 손에 넘어 갈지도 모릅니다.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10435325" FACE="Nikola_normal"/> <!--[메트로시티 항구]로 가는 입구를 찾고 계십니까?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10435302" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERROR>
+  <ERRNO value ="0">
+    <BRIDGENO> 0 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="1000">
+    <BRIDGENO> 59 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="1001">
+    <BRIDGENO> 60 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="1002">
+    <BRIDGENO> 61 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="8000">
+    <BRIDGENO> 62 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="9000">
+    <BRIDGENO> 63 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10000">
+    <BRIDGENO> 64 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10003">
+    <BRIDGENO> 65 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10013">
+    <BRIDGENO> 66 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10019">
+    <BRIDGENO> 67 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10020">
+    <BRIDGENO> 68 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10022">
+    <BRIDGENO> 69 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10023">
+    <BRIDGENO> 70 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10032">
+    <BRIDGENO> 71 </BRIDGENO>
+  </ERRNO>
+  <ERRNO value ="10033">
+    <BRIDGENO> 72 </BRIDGENO>
+  </ERRNO>
+</ERROR>

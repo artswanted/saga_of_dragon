@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>225</ID> <!--T.T.10022500 마지막 컬렉션 -->
+
+
+<!-- 작성자 : 배동한-->
+<!--[완료조건]	얼음성(F5히든모드)에서 빅산타설인을 처리하고 설인모자를 구해오자.-->
+<!--[완료NPC]	바람항구 - 왈츠-->
+<!--[내용]	바람항구 왈츠는 오래 된 취미가 있다고 한다. 그 취미는 모자를 모으는 거라고 한다. 얼음성(F5히든모드)에서 빅산타설인을 처리하고 설인모자를 구해오자.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</CLIENT> <!--시작NPC 바람항구 - 왈츠 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</PAYER> <!--완료NPC 바람항구 - 왈츠 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">A10A65F2-5334-4bfe-8F6C-E0BF0FC7B626</AGENT> <!--진행NPC 11 바람항구 - 왈츠 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<MONSTER OBJECTNO="1" TYPE="INSTDROP100_IN" VALUE="9015725/10000/7000/1/1/160022500">7916200</MONSTER> 
+ <!--MON_NO=7916200/해당값 없거나 입력 안함!! 확인요망 ,MAP_NO=9015725/해당값 없거나 입력 안함!! 확인요망 ,Item_NO=160022500/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="10">160022500</ITEM> 
+ <!--Item_NO=160022500/해당값 없거나 입력 안함!! 확인요망 ,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="10" TEXT="10022511"/> <!--설인가죽모자-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10022521" FACE="Waltz_normal"/> <!--반가워요. 용사님. 
+반가워요. 여러분~♥-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10022526" FACE="Waltz_smile"/> <!--어머 이뻐라.
+용사님 정말 고마워요.%%
+쪽!-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10022523" FACE="Waltz_normal"/> <!--저는 오래 된 취미가 하나 있어요.
+제가 쓰고 있는 모자 보이세요?!%%
+이게 바로 제 취미에요. 저는 모자를 모으는 취미가 있어요.
+봄에 구할 수 있는 모자는 모두 구했는데, 겨울에 구할 수 있는 모자는 
+너무 추워서 구하지 못했어요.%%
+용사님이 얼음성으로 가서 빅산타설인이 쓰고 있는 모자 좀 구해와주셨으면 해요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10022524" FACE="Waltz_angly"/> <!--반갑지 않다고요?
+어찌 저한테 그런 말을 하실 수 있지요?
+실망이에요!-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10022525" FACE="Waltz_normal"/> <!--빅산타설인이 쓰고 있는 모자에요. 얼음성(F5히든모드)에서 구할 수 있어요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10022502" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

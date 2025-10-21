@@ -1,0 +1,104 @@
+CmdNo,Memo,Level
+1,"/Net_GiveItem(ItemNo,Count,RarityControlNo,isCurse,isSeal)",2
+2,/Net_GiveItemSet(ItemSetNo),2
+3,"/Net_SetItemCount(InvType,InvPos,Count)",2
+4,"/Net_ChangeClass(Class,Level,IsGod)",1
+5,/Net_SkillPoint(Point),1
+6,"/Net_GmAbil(Type,IsAdd)",2
+7,/Net_HealMe(),1
+8,"/Net_Quest(StartID,EndID,IsComplete)",1
+9,"/Net_GiveSetAbil64(LowValue,HighValue)",2
+10,/Net_DropItem(itemNo),2
+12,/Net_ReqNotice(Content),1
+13,/Net_KickUser(Name),1
+15,"/Net_BlockUser(Name,Time)",1
+16,"/Net_QuestState(QuestID,ParamNo,Count)",1
+18,/Net_SpeedChange(Speed),1
+19,/Net_SkillCoolTimeInit(),1
+20,"/Net_KillUnit(UnitGuid,IsNoRegen)",1
+21,"/Net_AddMonster(MonsterNo,Count,Type)",2
+23,"/Net_Mute(Name,Time)",1
+24,/Net_BeginQuest(QuestID),1
+25,"/Net_SetAbil(Type,Value)",2
+26,"/Net_SetEnchant(InvType,InvPos,ModifyType,V1,V2)",2
+27,"/Net_MissionMove(MissionNo,Level)",1
+28,/Net_MissionStage(StageNo),1
+29,/Net_AddGuildExp(Value),1
+30,/Net_FailDailyQuest(),1
+31,/Net_MissionScore(Score),1
+32,/Net_GroundMute(True/False),1
+33,"/Net_SetDGAttr(Attr, True/False)",1
+34,"/Net_AddBSPoint(iPoint, iTeamPoint)",2
+35,"/Net_SetBSState(iGameIDX, iState)",1
+41,/Net_ReqAddEffect(EffectNo),1
+42,/Net_ReqDeleteEffect(EffectNo),1
+43,"/Net_SetRealmQuest(RealmQuestID, Count)",1
+44,"/Net_SGMove(SuperGroundNo, ModeNo)",1
+45,"/Net_SGFloor(iFloor, iSpawn)",1
+50,/Net_NewAlramMission( iMissionNo ),1
+51,/Net_ClearIngQuest(),1
+52,/Net_GuildBoardRefresh(),1
+60,"/Net_UnitSetAbil(kGuid,iType,iValue)",1
+80,"/Net_ReqMapMove(MapNo,SpawnNo)",1
+81,"/Net_ReqMapMove_ReCall(Name,IsParty)",1
+82,/Net_ReqMapMove_Target(Name),1
+83,"/Net_ReqMapMove_TargetToMap(Name,IsParty,TargetMapNo,SpawnNo)",1
+84,"/Net_ReqMapMove_TargetToMap(Name,IsParty,TargetMapNo,SpawnNo)",1
+90,/Net_CoupleInit(),1
+91,"/Net_TeleportToMon(iMonsterNo,iCount)",1
+92,/Net_CopyThat(CharName),1
+93,/Net_CopyThat(CharName),1
+94,/Net_LimitHP(NewHP),1
+101,/Net_GameStart(),1
+102,/Net_GameEnd(),1
+110,/Net_GameAddPoint( nPoint ),2
+111,"/Net_KOH_TriggerUnitPoint(kTriggerID, iPoint)",2
+120,/Net_LoveRoundWin(WinTeam),1
+150,/Net_StartCommunityEvent(EventNo),1
+151,/Net_EndComuunityEvent(),1
+152,/Net_MoveToEventGround(EventNo),1
+201,"/Net_SetAchievement(Idx,Value)",1
+202,"/Net_ClearItem(InvType,InvPos)",2
+203,"/Net_SetAchievementTime(idx,value)",1
+204,/Net_CompleteAchievement(idx),1
+1001,"/Net_PvPRoomNameChange(RoomNo,Name)",1
+2001,/Net_SetArticleState(State),1
+3001,"/Net_EmporiaOpen(kEmporiaID,wYear,wMonth,wDay,wHour,wMin,iOpenLevel,iBattleWeek,iBattleTime)",1
+3002,/Net_EmporiaClose(EmporiaID),1
+3004,/Net_EmporiaReady(EmporiaID),1
+3104,"/Net_PetChangeClass(iGrade,sLevel)",1
+3109,"/Net_PetAddAbil(wType,iValue)",2
+3125,"/Net_PetSetAbil(wType,iValue)",2
+4001,/Net_OXOpen(EventID),0
+4002,/Net_OXStep(Step),1
+4010,"/Net_SetItemTime(InvType,InvPos,Year,Month,Day)",2
+4011,"/Net_SetItemLimitTime(byInv,byPos,iUseTime,iTimeType)",2
+4020,"/Net_SetTexTime(street,house,year,mon,day)",1
+4021,"/Net_AuctionEnd(street,house)",1
+4022,/Net_LuckyStarOpen(EventID),1
+4023,/Net_LuckyStarStep(Step),1
+4024,/Net_ServerTime(iTimeType),1
+4025,"/Net_CashItemGiftAdd(CashItemNo,UseTime,StartDate,EndDate,Sender,Memo,MailTitle,MailBody)",2
+4026,/Net_CashItemGiftDel(EventNo),2
+4027,/Net_GodHand(bSet),2
+4028,/Net_PlayerPlayTimeStep(Step),1
+4029,"/Net_SetPlayerPlayTime(strID,iAccConSec,iAccDisSec,bMember)",1
+4100,/Net_PvPLeague_SetEvent(iEventType),1
+4200,/Net_SetPointCopy(value),1
+5001,"/Net_JSAddExp(iSkillNo, iValue)",1
+5002,/Net_JSAddExh(iValue),1
+5003,/Net_JSResetExh(iMinute),1
+5004,Net_JSAlwaysUseSubTool(bUse),1
+5005,/Net_JSWorkBenchTurnOver(),1
+5006,"/Net_JSWorkBenchDestroyRemainTime(iSlot, iHour, iMin, iSec)",1
+5007,"/Net_JSWorkBenchRemainTime(iHour, iMin, iSec)",1
+5008,"/Net_JSWorkBenchRemainTimeForBless(iHour, iMin, iSec)",1
+5009,/Net_JSWorkBenchTrouble(),1
+5010,/Net_JSAddBP(iValue),1
+5011,/Net_JSAddProductPoint(iValue),1
+5012,"/Net_JSSetSaveIdx(iSaveIdx,bSet)",1
+5020,"/Net_PremiumInsert(Name,iServiceNo)",1
+5021,"/Net_PremiumModify(Name,AddMin)",1
+5022,/Net_PremiumRemove(Name),1
+5023,/Net_CartMoveToPlayer(),1
+5024,/Net_Pause(bPaused),1

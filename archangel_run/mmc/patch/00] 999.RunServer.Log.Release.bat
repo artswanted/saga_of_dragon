@@ -1,0 +1,3 @@
+cd .\Log
+LogServer_Release.exe /REALM=0 /CHANNEL=0 /SERVER_NO=999 /IMM_ADDR=127.0.0.1:1001 /RUN_MODE=INI
+pause

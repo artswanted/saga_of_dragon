@@ -1,0 +1,1 @@
+taskkill.exe /f /im Dummy_release.exe

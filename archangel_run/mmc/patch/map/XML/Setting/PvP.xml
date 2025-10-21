@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- /*TYPE NO*/
+사투전 =		1
+점령전 =		2
+섬멸전 =		4
+유물파괴전 =	8
+깃발전 =		128
+-->
+<PVP>
+
+	<!--단위는 Sec-->
+	<TIME READY="3" ROUNDTERM="7" RESULT="10" REVIVE="5"/>
+	
+	<!-- 사투전 -->
+	<TYPE VALUE="1">
+		<POINT>
+			<!-- Kill Point = DEFAULT + ((상대현재순위-내현재순위) * WEIGHT) --> 
+			<KILL DEFAULT="20" WEIGHT="2"/>
+		
+			<!-- Death Point = DEFAULT + ((상대현재순위-내현재순위) * WEIGHT) --> 
+			<DEATH DEFAULT="0" WEIGHT="0"/>
+			
+			<!-- Rank Point = POINT * (참가인원 / 10 ) -->
+			<!-- 3까지 밖에 안됨 -->
+			<RANK ID="1" POINT="30"/>
+			<RANK ID="2" POINT="20"/>
+			<RANK ID="3" POINT="10"/>
+			
+			<SPECIAL POINT="10" DEATH="0"/>
+			<SPECIAL POINT="10" KILL="10"/>
+			<SPECIAL POINT="20" KILL="20"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 섬멸전 -->
+	<TYPE VALUE="4">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="0" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="30"/>
+			<RANK ID="2" POINT="20"/>
+			<RANK ID="3" POINT="10"/>
+			
+			<SPECIAL POINT="10" DEATH="0"/>
+			<SPECIAL POINT="10" KILL="10"/>
+			<SPECIAL POINT="20" KILL="20"/>
+			
+			<WIN ROUND="10" GAME="20"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 점령전 -->
+	<TYPE VALUE="2">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="0" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="30"/>
+			<RANK ID="2" POINT="20"/>
+			<RANK ID="3" POINT="10"/>
+			
+			<SPECIAL POINT="10" DEATH="0"/>
+			<SPECIAL POINT="10" KILL="10"/>
+			<SPECIAL POINT="20" KILL="20"/>
+			
+			<INSITEM POINT="5"/>
+			<CAPTUREPOINT POINT="40"/> <!-- 점령 포인트 획득할 때 감소 비율(진지 점령시 초당 10Point씩 올라갈 때 이 수치만큼 감소시킴( 10 / 40 ) ) -->
+			
+			<WIN ROUND="10" GAME="40"/>
+
+			<TIME READY="10000"/>		<!-- 단위: ms -->
+			<OCCUPY_POINT VALUE="10" NOT_IDLE_RATE="5000"/>
+			<VICTORY_POINT INTERVAL_TIME="300"/>
+			<NEXT_ENTITY LEVEL="1" VALUE="200"/>
+			<NEXT_ENTITY LEVEL="2" VALUE="400"/>
+			<NEXT_ENTITY LEVEL="3" VALUE="600"/>
+			<NEXT_ENTITY LEVEL="4" VALUE="700"/>
+			<DEFAULT_ENTITY_EFFECT NO="5872000"/>
+			
+		</POINT>
+	</TYPE>
+	
+	<!-- 유물파괴전 -->
+	<TYPE VALUE="8">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="0" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="100"/>
+			<RANK ID="2" POINT="60"/>
+			<RANK ID="3" POINT="30"/>
+			
+			<SPECIAL POINT="50" DEATH="0"/>
+			<SPECIAL POINT="100" KILL="10"/>
+			<SPECIAL POINT="200" KILL="20"/>
+			
+			<WIN ROUND="20" GAME="100"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 러브 러브 대작전 -->
+	<TYPE VALUE="128">
+		<POINT>
+			<KILL DEFAULT="100" WEIGHT="0"/>
+			<DEATH DEFAULT="0" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="50"/>
+			<RANK ID="2" POINT="40"/>
+			<RANK ID="3" POINT="30"/>
+		
+			
+			<SPECIAL POINT="50" KILL="5"/>
+			<SPECIAL POINT="100" KILL="10"/>
+			<SPECIAL POINT="200" KILL="20"/>
+			
+			<WIN ROUND="20" GAME="200"/>
+			
+			<DESTROYFENCE POINT="150"/>
+			<BEARUSERKILL POINT="150"/>
+			<GETROUNDSCORE POINT="200"/>
+			<PICKUPBEAR POINT="100"/>
+			
+			<DROPREDBEAR ITEMNO="99803580"/>
+			<DROPBLUEBEAR ITEMNO="99803590"/>
+			
+			<EVENTSCENE TIME="10"/> <!-- 연출씬 대기 시간. -->
+			<REVIVE TIME="8"/> <!-- 러브러브 모드는 부활대기시간이 8초 -->
+		</POINT>
+	</TYPE>
+</PVP>

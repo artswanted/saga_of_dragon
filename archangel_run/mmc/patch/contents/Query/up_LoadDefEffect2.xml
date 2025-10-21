@@ -1,0 +1,39 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefEffect_Mon.csv">
+    <COLUMN NAME="EffectID" TYPE="INT"/>
+    <COLUMN NAME="Name" TYPE="INT"/>
+    <COLUMN NAME="ActionName" TYPE="WSTRING"/>
+    <COLUMN NAME="Type" TYPE="SMALLINT"/>
+    <COLUMN NAME="Interval" TYPE="SMALLINT"/>
+    <COLUMN NAME="DurationTime" TYPE="INT"/>
+    <COLUMN NAME="Toggle" TYPE="TINYINT"/>
+    <COLUMN NAME="Abil01" TYPE="INT"/>
+    <COLUMN NAME="Abil02" TYPE="INT"/>
+    <COLUMN NAME="Abil03" TYPE="INT"/>
+    <COLUMN NAME="Abil04" TYPE="INT"/>
+    <COLUMN NAME="Abil05" TYPE="INT"/>
+    <COLUMN NAME="Abil06" TYPE="INT"/>
+    <COLUMN NAME="Abil07" TYPE="INT"/>
+    <COLUMN NAME="Abil08" TYPE="INT"/>
+    <COLUMN NAME="Abil09" TYPE="INT"/>
+    <COLUMN NAME="Abil10" TYPE="INT"/>
+</QUERY>
+
+<QUERY TABLE="Table/DR2_Def/TB_DefEffect_Pet.csv">
+    <COLUMN NAME="EffectID" TYPE="INT"/>
+    <COLUMN NAME="Name" TYPE="INT"/>
+    <COLUMN NAME="ActionName" TYPE="WSTRING"/>
+    <COLUMN NAME="Type" TYPE="SMALLINT"/>
+    <COLUMN NAME="Interval" TYPE="SMALLINT"/>
+    <COLUMN NAME="DurationTime" TYPE="INT"/>
+    <COLUMN NAME="Toggle" TYPE="TINYINT"/>
+    <COLUMN NAME="Abil01" TYPE="INT"/>
+    <COLUMN NAME="Abil02" TYPE="INT"/>
+    <COLUMN NAME="Abil03" TYPE="INT"/>
+    <COLUMN NAME="Abil04" TYPE="INT"/>
+    <COLUMN NAME="Abil05" TYPE="INT"/>
+    <COLUMN NAME="Abil06" TYPE="INT"/>
+    <COLUMN NAME="Abil07" TYPE="INT"/>
+    <COLUMN NAME="Abil08" TYPE="INT"/>
+    <COLUMN NAME="Abil09" TYPE="INT"/>
+    <COLUMN NAME="Abil10" TYPE="INT"/>
+</QUERY>

@@ -1,0 +1,2 @@
+cd .\MMC
+MMC.exe /SERVER_NO=900 /RUN_MODE=INI

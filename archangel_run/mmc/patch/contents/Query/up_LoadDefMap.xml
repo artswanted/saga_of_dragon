@@ -1,0 +1,63 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefMap.csv">
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="MapNo" TYPE="INT"/>
+    <COLUMN NAME="MapKey" TYPE="INT"/>
+    <COLUMN NAME="Attribute" TYPE="INT"/>
+    <COLUMN NAME="NameNo" TYPE="INT"/>
+    <COLUMN NAME="XmlPath" TYPE="WSTRING"/>
+    <COLUMN NAME="ZoneCX" TYPE="SMALLINT"/>
+    <COLUMN NAME="ZoneCY" TYPE="SMALLINT"/>
+    <COLUMN NAME="ZoneCZ" TYPE="SMALLINT"/>
+    <COLUMN NAME="Continent" TYPE="SMALLINT"/>
+    <COLUMN NAME="HometownNo" TYPE="SMALLINT"/>
+    <COLUMN NAME="Hidden_Index" TYPE="SMALLINT"/>
+    <COLUMN NAME="Abil01" TYPE="INT"/>
+    <COLUMN NAME="Abil02" TYPE="INT"/>
+    <COLUMN NAME="Abil03" TYPE="INT"/>
+    <COLUMN NAME="Abil04" TYPE="INT"/>
+    <COLUMN NAME="Abil05" TYPE="INT"/>
+    <COLUMN NAME="Recommend_Level" TYPE="TINYINT"/>
+    <COLUMN NAME="Recommend_Party" TYPE="TINYINT"/>
+    <COLUMN NAME="Group_TXT" TYPE="INT"/>
+    <COLUMN NAME="LevelLimit_Min" TYPE="TINYINT"/>
+    <COLUMN NAME="LevelLimit_Max" TYPE="TINYINT"/>
+    <COLUMN NAME="DESCRIPTION_TEXT" TYPE="INT"/>
+    <COLUMN NAME="PartyBreakIn" TYPE="TINYINT"/>
+    <COLUMN NAME="PartyBreakIn_Item" TYPE="WSTRING"/>
+    <COLUMN NAME="PartyBreakIn_CashItem" TYPE="WSTRING"/>
+</QUERY>
+
+<QUERY TABLE="Table/DR2_Def/TB_DefMapAbil.csv">
+	<COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+	<COLUMN NAME="AbilNo" TYPE="INT"/>
+	<COLUMN NAME="Type01" TYPE="INT"/>
+	<COLUMN NAME="Value01" TYPE="INT"/>
+	<COLUMN NAME="Type02" TYPE="INT"/>
+	<COLUMN NAME="Value02" TYPE="INT"/>
+	<COLUMN NAME="Type03" TYPE="INT"/>
+	<COLUMN NAME="Value03" TYPE="INT"/>
+	<COLUMN NAME="Type04" TYPE="INT"/>
+	<COLUMN NAME="Value04" TYPE="INT"/>
+	<COLUMN NAME="Type05" TYPE="INT"/>
+	<COLUMN NAME="Value05" TYPE="INT"/>
+	<COLUMN NAME="Type06" TYPE="INT"/>
+	<COLUMN NAME="Value06" TYPE="INT"/>
+	<COLUMN NAME="Type07" TYPE="INT"/>
+	<COLUMN NAME="Value07" TYPE="INT"/>
+	<COLUMN NAME="Type08" TYPE="INT"/>
+	<COLUMN NAME="Value08" TYPE="INT"/>
+	<COLUMN NAME="Type09" TYPE="INT"/>
+	<COLUMN NAME="Value09" TYPE="INT"/>
+	<COLUMN NAME="Type10" TYPE="INT"/>
+	<COLUMN NAME="Value10" TYPE="INT"/>
+</QUERY>
+
+<QUERY TABLE="Table/DR2_Def/TB_DefMapToMission.csv">
+	<COLUMN NAME="MapNo" TYPE="INT"/>
+	<COLUMN NAME="MissionNo" TYPE="INT"/>
+	<COLUMN NAME="ConnetedMapNo01" TYPE="INT"/>
+	<COLUMN NAME="ConnetedMapNo02" TYPE="INT"/>
+	<COLUMN NAME="ConnetedMapNo03" TYPE="INT"/>
+	<COLUMN NAME="ConnetedMapNo04" TYPE="INT"/>
+	<COLUMN NAME="ConnetedMapNo05" TYPE="INT"/>
+</QUERY>

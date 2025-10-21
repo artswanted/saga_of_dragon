@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- /*TYPE NO*/
+사투전 =		1
+점령전 =		2
+섬멸전 =		4
+유물파괴전 =	8
+-->
+<PVP>
+
+	<!--단위는 Sec-->
+	<TIME READY="5" ROUNDTERM="5" RESULT="15" REVIVE="5"/>
+	
+	<LEVEL LIMIT="10"/>
+	
+	<!-- 사투전 -->
+	<TYPE VALUE="1">
+		<POINT>
+			<!-- Kill Point = DEFAULT + ((상대현재순위-내현재순위) * WEIGHT) --> 
+			<KILL DEFAULT="20" WEIGHT="2"/>
+		
+			<!-- Death Point = DEFAULT + ((상대현재순위-내현재순위) * WEIGHT) --> 
+			<DEATH DEFAULT="5" WEIGHT="0"/>
+			
+			<!-- Rank Point = POINT * (참가인원 / 10 ) -->
+			<!-- 3까지 밖에 안됨 -->
+			<RANK ID="1" POINT="30"/>
+			<RANK ID="2" POINT="20"/>
+			<RANK ID="3" POINT="10"/>
+			
+			<SPECIAL POINT="10" DEATH="0"/>
+			<SPECIAL POINT="10" KILL="10"/>
+			<SPECIAL POINT="20" KILL="20"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 섬멸전 -->
+	<TYPE VALUE="4">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="5" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="30"/>
+			<RANK ID="2" POINT="20"/>
+			<RANK ID="3" POINT="10"/>
+			
+			<SPECIAL POINT="10" DEATH="0"/>
+			<SPECIAL POINT="10" KILL="10"/>
+			<SPECIAL POINT="20" KILL="20"/>
+			
+			<WIN ROUND="10" GAME="20"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 점령전 -->
+	<TYPE VALUE="2">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="10" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="70"/>
+			<RANK ID="2" POINT="50"/>
+			<RANK ID="3" POINT="30"/>
+			
+			<SPECIAL POINT="50" DEATH="0"/>
+			<SPECIAL POINT="100" KILL="10"/>
+			<SPECIAL POINT="200" KILL="20"/>
+			
+			<WIN ROUND="15" GAME="70"/>
+		</POINT>
+	</TYPE>
+	
+	<!-- 유물파괴전 -->
+	<TYPE VALUE="8">
+		<POINT>
+			<KILL DEFAULT="20" WEIGHT="2"/>
+			<DEATH DEFAULT="10" WEIGHT="0"/>
+
+			<RANK ID="1" POINT="100"/>
+			<RANK ID="2" POINT="60"/>
+			<RANK ID="3" POINT="30"/>
+			
+			<SPECIAL POINT="50" DEATH="0"/>
+			<SPECIAL POINT="100" KILL="10"/>
+			<SPECIAL POINT="200" KILL="20"/>
+			
+			<WIN ROUND="20" GAME="100"/>
+		</POINT>
+	</TYPE>
+</PVP>

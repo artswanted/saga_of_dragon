@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<WORLD ID="char_sel">
+	<!--�̺�Ʈ �ð� ����(�̺�Ʈ�� ���� ��ŭ �ð�����)-->
+	<TIME_EVENT ID="1" FROM="2013,11,05,00,00" TO="2013,12,31,23,59"/>	<!--ũ�������� �̺�Ʈ-->
+	<TIME_EVENT ID="2" FROM="2014,01,01,00,00" TO="2014,02,28,23,59"/>	<!--�ܿ�� �̺�Ʈ-->
+	<TIME_EVENT ID="3" FROM="2012,10,15,12,00" TO="2012,11,08,23,59" /> <!--�ҷ��� �̺�Ʈ-->
+	<TIME_EVENT ID="4" FROM="2010,12,02,15,00" TO="2010,12,02,15,30"/>	<!--�߼� �̺�Ʈ-->
+	<TIME_EVENT ID="5" FROM="2011,08,17,12,00" TO="2011,08,29,00,00"/>	<!--�Ϻ� ���� �̺�Ʈ-->
+
+	<!--�̺�Ʈ �� ����(�̺�Ʈ�ð��� ���� ��ȭ�� �� ����)-->
+	<GSAPATH>
+		<CONDITION TYPE="DEFAULT">../Data/3_World/00_Ui/01_Level/990001_CS.gsa</CONDITION>		<!--����Ʈ-->
+		<CONDITION ID="1">../Data/3_World/00_Ui/01_Level/990001_CS_CH.gsa</CONDITION>		<!--ũ�������� �̺�Ʈ-->
+		<CONDITION ID="2">../Data/3_World/00_Ui/01_Level/990001_CS_W.gsa</CONDITION>		<!--�ܿ�� �̺�Ʈ-->
+		<CONDITION ID="3">../Data/3_World/00_Ui/01_Level/990001_CS_HW.gsa</CONDITION>		<!--�ҷ��� �̺�Ʈ-->
+		<CONDITION ID="4">../Data/3_World/00_Ui/01_Level/990001_CS.gsa</CONDITION>		<!--�߼� �̺�Ʈ-->
+		<CONDITION ID="5">../Data/3_World/00_Ui/01_Level/990001_CS.gsa</CONDITION>		<!--�Ϻ� ���� �̺�Ʈ-->
+	</GSAPATH>
+
+	<!--�̺�Ʈ ���� ����(�̺�Ʈ�� �´� ���� ����)-->
+	<BGSOUND VOLUME="1.0">../BGM/char_Select.BGM.mp3</BGSOUND>	<!--����Ʈ-->
+	<BGSOUND_SUB VOLUME="1.0">../BGM/Hulk_part_3_BNC.mp3</BGSOUND_SUB>	<!--����Ʈ ����-->
+	<BGSOUND ID="1" VOLUME="1.0">../BGM/Chrismas.wav</BGSOUND>	<!--ũ���������̺�Ʈ-->
+	<BGSOUND ID="2" VOLUME="1.0">../BGM/HappyPreMix.mp3</BGSOUND>	<!--�ܿ�� �̺�Ʈ-->
+	<BGSOUND ID="3" VOLUME="1.0">../BGM/Hill_backup.mp3</BGSOUND>	<!--�ҷ��� �̺�Ʈ-->
+	<BGSOUND ID="4" VOLUME="1.0">../BGM/Hulk_part_3_BNC.mp3</BGSOUND>	<!--�߼� �̺�Ʈ-->
+	<BGSOUND ID="5" VOLUME="1.0">../BGM/HappyPreMix.mp3</BGSOUND>	<!--�Ϻ� ���� �̺�Ʈ-->
+
+	<!--�̺�Ʈ ���׼���(�̺�Ʈ�� �´� ���� ����)-->
+	<FOG DENSITY="0.050000" START="20000" END="50000" COLOR="0.858000,0.910990,0.903999"/>	<!--����Ʈ-->
+	<FOG ID="1" DENSITY="0" FUNC="Z_LINEAR" START="2000" END="20250" COLOR="0,0,0"/>	<!--ũ�������� �̺�Ʈ-->
+	<FOG ID="2" DENSITY="0" FUNC="Z_LINEAR" START="7933" END="20250" COLOR="0.858000,0.910990,0.903999"/>	<!-- �ܿ�� �̺�Ʈ-->
+	<FOG ID="3" DENSITY="0" FUNC="Z_LINEAR" START="2000" END="12000" COLOR="1,1,0.8156863"/>	<!-- �ҷ��� �̺�Ʈ-->
+	<FOG ID="4" DENSITY="0" FUNC="Z_LINEAR" START="2000" END="12000" COLOR="0.858000,0.910990,0.903999"/>	<!-- �߼� �̺�Ʈ-->
+	<FOG ID="5" DENSITY="0" FUNC="Z_LINEAR" START="20000" END="50000" COLOR="0.858000,0.910990,0.903999"/>	<!--�Ϻ� ���� �̺�Ʈ-->
+
+	<SCRIPT INIT="InitializeCharacterSelect" REMOVE_SCENE="CleanUpCharSelectScene">World/char_sel.lua</SCRIPT>
+	<!--8���� ����-->
+	<FREE_DIRECTION ALL="TRUE"/>
+	<BLOOM BLUR="0.85" BRIGHT="10.0" SRC="0.7" GLOW="0.35" HIGHLIGHT="0.02"/>
+	<CAMERA_KFMPATH>../Data/3_World/00_Ui/01_Level/Scene/CharacterSelect_Camera.kfm</CAMERA_KFMPATH>
+	<INPUT>
+		<SLOT KEY="2001" SCRIPT="Net_PickCharacter"/>
+		<SLOT KEY="104098" SCRIPT="Net_RecvPrepareCreateCharacter"/>
+		<SLOT KEY="104112" SCRIPT="Net_RecvCreateCharacter"/>
+		<SLOT KEY="1124" SCRIPT="SelectbyKeyboard_Right"/>
+		<SLOT KEY="1123" SCRIPT="SelectbyKeyboard_Left"/>
+		<SLOT KEY="1121" SCRIPT="SelectbyKeyboard_Up"/>
+		<SLOT KEY="1126" SCRIPT="SelectbyKeyboard_Down"/>
+	</INPUT>
+</WORLD>

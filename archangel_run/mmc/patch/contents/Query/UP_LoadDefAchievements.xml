@@ -1,0 +1,27 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefAchievements.csv">
+    <COLUMN NAME="Idx" TYPE="INT"/>
+    <COLUMN NAME="f_NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="Category" TYPE="INT"/>
+    <COLUMN NAME="TitleNo" TYPE="INT"/>
+    <COLUMN NAME="DiscriptionNo" TYPE="INT"/>
+    <COLUMN NAME="Type" TYPE="INT"/>
+    <COLUMN NAME="Value" TYPE="INT"/>
+    <COLUMN NAME="ItemNo" TYPE="INT"/>
+    <COLUMN NAME="SaveIdx" TYPE="INT"/>
+    <COLUMN NAME="RankPoint" TYPE="INT"/>
+    <COLUMN NAME="Level" TYPE="INT"/>
+    <COLUMN NAME="SYear" TYPE="INT"/>
+    <COLUMN NAME="SMonth" TYPE="TINYINT"/>
+    <COLUMN NAME="SDay" TYPE="TINYINT"/>
+    <COLUMN NAME="SHour" TYPE="TINYINT"/>
+    <COLUMN NAME="SMinute" TYPE="TINYINT"/>
+    <COLUMN NAME="EYear" TYPE="INT"/>
+    <COLUMN NAME="EMonth" TYPE="TINYINT"/>
+    <COLUMN NAME="EDay" TYPE="TINYINT"/>
+    <COLUMN NAME="EHour" TYPE="TINYINT"/>
+    <COLUMN NAME="EMinute" TYPE="TINYINT"/>
+    <COLUMN NAME="UseTime" TYPE="INT"/>
+    <COLUMN NAME="IsUse" TYPE="TINYINT"/>
+    <COLUMN NAME="GroupNo" TYPE="INT"/>
+    <COLUMN NAME="CustomValue" TYPE="BIGINT"/>
+</QUERY>

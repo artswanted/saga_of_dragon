@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<INPUT NAME="packet_user" PERF-MEASURE="true">
+	<SLOT KEY="12560" SCRIPT="Net_C_M_ReqLearnSkill"/>	<!-- PT_C_M_REQ_LEARN_SKILL -->
+	<SLOT KEY="12801" SCRIPT="Net_C_M_GodCmd"/>	<!-- PT_C_M_GODCMD -->
+	<SLOT KEY="12802" SCRIPT="Net_C_M_GodCmd2"/>	<!-- PT_C_M_GODCMD2 -->
+	<SLOT KEY="12806" SCRIPT="Net_C_NT_GODCMD"/><!--PT_C_NT_GODCMD-->
+	<SLOT KEY="12420" SCRIPT="Net_C_M_GiveItemSet"/>	<!-- PT_C_M_REQ_GIVEITEMSET -->
+	<SLOT KEY="20301" SCRIPT="Net_C_M_GOD_ADDMONSTER"/>	<!-- PT_C_M_GOD_ADDMONSTER -->
+</INPUT>

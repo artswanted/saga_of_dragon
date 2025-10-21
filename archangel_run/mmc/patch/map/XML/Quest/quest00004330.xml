@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<QUEST>
+	<ID>4330</ID> <!--T.T.10433000 황제의 인장 -->
+
+
+<!-- 작성자 : 김효중-->
+<!--[완료조건]	황제의 인장 제작-->
+<!--[완료NPC]	카오란 마을 - 로이드-->
+<!--[내용]	옥구슬과 옥피리를 이용하여 황제의 궁전 내부로 가는 열쇠인 황제의 인장을 제작하여야 한다.-->
+
+
+<LIMITS>
+
+</LIMITS>
+	<CLIENTS>
+		<CLIENT TYPE="NPC" EVENTNO="10001">EE46B18F-3DDB-40b7-A326-F7C45B80A763</CLIENT> <!--시작NPC 카오란 마을 - 로이드 -->
+		
+	</CLIENTS>
+	<PAYERS>
+		<PAYER TYPE="NPC" EVENTNO="10031">EE46B18F-3DDB-40b7-A326-F7C45B80A763</PAYER> <!--완료NPC 카오란 마을 - 로이드 -->
+		
+	</PAYERS>
+	<AGENTS>
+		<AGENT TYPE="NPC" EVENTNO="10011">EE46B18F-3DDB-40b7-A326-F7C45B80A763</AGENT> <!--진행NPC 11 카오란 마을 - 로이드 -->
+		
+	</AGENTS>
+
+
+	<EVENTS>
+		<ITEM OBJECTNO="1" TYPE="CHANGE_COUNT" VALUE="1">82001050</ITEM> 
+ <!--Item_NO=82001050/옥구슬,-->
+		<ITEM OBJECTNO="2" TYPE="CHANGE_COUNT" VALUE="1">82001060</ITEM> 
+ <!--Item_NO=82001060/옥피리,-->
+		<NPC OBJECTNO="0" TYPE="CLIENT" VALUE="101">10001</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="PAYER" VALUE="601">10031</NPC> 
+ <!---->
+		<NPC OBJECTNO="0" TYPE="ING_DLG" VALUE="501">10011</NPC> 
+ <!---->
+		
+	</EVENTS>
+
+
+	<OBJECTS TYPE="NOSTEP">
+		<OBJECT1 COUNT="1" TEXT="10433011"/> <!--옥피리-->
+		<OBJECT2 COUNT="1" TEXT="10433012"/> <!--옥구슬-->
+		
+	</OBJECTS>
+
+
+	<REWARD>
+		<SELECT1 COUNT="0">
+			<ITEM COUNT="1">82001000</ITEM><!--전체지급/전체/1)/82001000(봉인아님)1개-[13_08 중국테마] 황제의 인장 -->
+		</SELECT1>
+	</REWARD>
+
+
+	<DIALOGS>
+		<DIALOG ID="101" TYPE="PROLOG"> <!--시작-->
+			<BODY TEXT="10433021" FACE="Roid_normal"/> <!--옥피리와 옥구슬을 제게 주세요.-->
+			<SELECT ID="10000" TYPE="ACCEPT" TEXT="500004">수락</SELECT>
+			<SELECT ID="20000" TYPE="REJECT" TEXT="500005">거절</SELECT>
+		</DIALOG>
+		<DIALOG ID="601" TYPE="COMPLETE"> <!--완료-->
+			<BODY TEXT="10433026" FACE="Roid_smile"/> <!--여기 황제의 알현실로 갈 수 있는 증표인 황제의 인장입니다.-->
+			<SELECT ID="30999" TYPE="COMPLETE" TEXT="500007">완료</SELECT>
+		</DIALOG>
+		<DIALOG ID="301" > <!--수락-->
+			<BODY TEXT="10433023" FACE="Roid_normal"/> <!--이제 이 두개를 합쳐서 열쇠를 만들겠습니다. 처음 하는거라 긴장이 되는 군요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="401" > <!--거절-->
+			<BODY TEXT="10433024" FACE="Roid_angly"/> <!--뭐 그냥 기념품으로 가지신다면 어쩔 수 없지요.-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="501" > <!--진행중-->
+			<BODY TEXT="10433025" FACE="Roid_normal"/> <!--다 가져오신거 맞죠?-->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="902" > <!--인벤오류-->
+			<BODY TEXT="500168" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="903" > <!--1일오류-->
+			<BODY TEXT="501835" /> <!---->
+			<SELECT ID="0"  TEXT="500003">닫기</SELECT>
+		</DIALOG>
+		<DIALOG ID="901" TYPE="INFO"> <!--정보-->
+			<BODY TEXT="10433002" /> <!---->
+			<SELECT ID="0"  TEXT="19933">포기</SELECT>
+		</DIALOG>
+		
+	</DIALOGS>
+	
+	
+	
+		
+</QUEST>

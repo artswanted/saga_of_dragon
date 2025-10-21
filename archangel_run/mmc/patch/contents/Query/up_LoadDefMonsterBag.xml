@@ -1,0 +1,7 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefMonsterBag.csv">
+	<COLUMN NAME="BagNo" TYPE="INT"/>
+	<COLUMN NAME="ElementNo" TYPE="INT"/>
+	<COLUMN NAME="SuccessRateNo" TYPE="INT"/>
+	<COLUMN NAME="TunningNo_Min" TYPE="INT"/>
+	<COLUMN NAME="TunningNo_Max" TYPE="INT"/>
+</QUERY>

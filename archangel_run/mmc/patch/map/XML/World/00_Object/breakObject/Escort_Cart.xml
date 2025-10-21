@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ACTOR NAME="Escort_Cart">
+	<WORLDOBJECT>
+		<ICON ID="icon_m_atrocitysheep"/>
+		<KFMPATH SCALE="1.0">../Data/3_World/00_Object/breakObject/Mission/Escort_Cart/Escort_Cart.kfm</KFMPATH>
+		<SCRIPT SRC="Actor/mob_base.lua">
+			<ITEM NAME="Actor_Mob_Base" TYPE="EVENT"/>
+		</SCRIPT>
+		<ABV>
+			<sphere TO="p_hit_point_01" SIZE="12.0"/>
+		</ABV> 
+	</WORLDOBJECT>
+</ACTOR>

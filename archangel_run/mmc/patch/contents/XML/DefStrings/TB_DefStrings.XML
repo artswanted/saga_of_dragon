@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STRING_TABLE_LOCAL>
+<TEXT ID="5" Text="Guild Master"/>
+<TEXT ID="6" Text="Vice Guild Master"/>
+<TEXT ID="7" Text="Einberg"/>
+<TEXT ID="8" Text="Platoon Captain"/>
+<TEXT ID="9" Text="Guild Member"/>
+<TEXT ID="10" Text="%s&#39;s Party"/>
+<TEXT ID="11" Text="NEW"/>
+<TEXT ID="12" Text="COOL"/>
+<TEXT ID="13" Text="SALE"/>
+<TEXT ID="14" Text="EVENT"/>
+<TEXT ID="15" Text="HOT"/>
+<TEXT ID="16" Text="BEST"/>
+<TEXT ID="12000" Text="This is the first notification mail related to guild regulations "/>
+<TEXT ID="12001" Text="This is the second notification mail related to guild regulations "/>
+<TEXT ID="12002" Text="This is the Decision notification mail according to guild regulations "/>
+<TEXT ID="12003" Text="Guild master has not logged in for 7 days. Guild master is changed automatically if not logged in for 10 days or longer."/>
+<TEXT ID="12004" Text="Guild master has not logged in for 14 days. Guild master is changed automatically if not logged in for 19 days or longer."/>
+<TEXT ID="12005" Text="Guild master has not logged in for 20 days. Guild master is changed automatically if not logged in for 30 days or longer."/>
+<TEXT ID="12006" Text="Guild master has not logged in for 30 days. Guild master is changed automatically if not logged in for 45 days or longer."/>
+<TEXT ID="12007" Text="Guild master has not logged in for 10 days.  As of midnight today according to regulations, ["/>
+<TEXT ID="12008" Text="] will receive transferred Guild rights. (However, the rights will be transferred to next candidate if the initial transfer candidate is disqualified.)"/>
+<TEXT ID="12009" Text="Guild master has not logged in for 19 days.  As of midnight today according to regulations, ["/>
+<TEXT ID="12010" Text="] will receive transferred Guild rights. (However, the rights will be transferred to next candidate if the initial transfer candidate is disqualified.)"/>
+<TEXT ID="12011" Text="Guild master has not logged in for 30 days.  As of midnight today according to regulations, ["/>
+<TEXT ID="12012" Text="] will receive transferred Guild rights. (However, the rights will be transferred to next candidate if the initial transfer candidate is disqualified.)"/>
+<TEXT ID="12013" Text="Guild master has not logged in for 45 days.  As of midnight today according to regulations, ["/>
+<TEXT ID="12014" Text="] will receive transferred Guild rights. (However, the rights will be transferred to next candidate if the initial transfer candidate is disqualified.)"/>
+<TEXT ID="12015" Text="Guild master rights have been transferred to ["/>
+<TEXT ID="12016" Text="]."/>
+<TEXT ID="12017" Text="Your guild will be dispersed at 12am tonight according to guild management rules of Dragonica since it turnd out that guild master and guild members do not have wills to maintain the guild any more.  "/>
+<TEXT ID="12018" Text="Your guild has been dispersed according to guild management rules of Dragonica."/>
+<TEXT ID="12019" Text="GM"/>
+<TEXT ID="13001" Text="Send the equipped item"/>
+<TEXT ID="13002" Text="The equpped item&#39;s effect is terminated, the equipment item will be sent to email."/>
+<TEXT ID="13003" Text="Send the equpped equipment item."/>
+<TEXT ID="13004" Text="Because the item is used, equipped item will be sent to email."/>
+<TEXT ID="90101" Text="Bearded Whale Coast Mission"/>
+<TEXT ID="90102" Text="Milkyway Sanctuary Mission"/>
+<TEXT ID="90103" Text="South Windia Plains Mission"/>
+<TEXT ID="90104" Text="Traitor&#39;s Ridge Mission"/>
+<TEXT ID="90106" Text="Dangerous Caverns Mission"/>
+<TEXT ID="90121" Text="Skypie Sanctuary Mission"/>
+<TEXT ID="90130" Text="Advanced Windia Plains Mission"/>
+<TEXT ID="90143" Text="Canyon of Oblivion Mission"/>
+<TEXT ID="90156" Text="Ice Palace"/>
+<TEXT ID="90201" Text="Valid Raeth Mission"/>
+<TEXT ID="90203" Text="Smoldering Swamps Mission"/>
+<TEXT ID="90204" Text="Ocher Forest Mission"/>
+<TEXT ID="90205" Text="Gods&#39; Sanctuary Mission"/>
+<TEXT ID="90243" Text="Pine Cone Hills Mission"/>
+<TEXT ID="91013" Text="Steven Trading Port Misson"/>
+<TEXT ID="91015" Text="Kaligon Fleet Mission"/>
+<TEXT ID="91210" Text="Chaos Bearded Whale Coast Mission"/>
+<TEXT ID="91213" Text="Chaos Nautilus Port Misson"/>
+<TEXT ID="91220" Text="Chaos Hero&#39;s Descent Mission"/>
+<TEXT ID="91230" Text="Chaos South Windia Plains Mission"/>
+<TEXT ID="91233" Text="Chaos Advanced Windia Plains Mission"/>
+<TEXT ID="91240" Text="Chaos Traitor&#39;s Ridge Mission"/>
+<TEXT ID="91243" Text="Chaos Canyon of Oblivion Mission"/>
+<TEXT ID="91260" Text="Chaos Dangerous Cave Mission"/>
+<TEXT ID="92210" Text="Chaos Valid Raeth Mission"/>
+<TEXT ID="92223" Text="Chaos Smoldering Swamps Mission"/>
+<TEXT ID="92240" Text="Chaos Ocher Forest Mission"/>
+<TEXT ID="92250" Text="Chaos Gods&#39; Sanctuary Mission"/>
+<TEXT ID="93010" Text="Forgotten Village Mission"/>
+<TEXT ID="93013" Text="Village of Slumber Mission"/>
+<TEXT ID="93020" Text="Land of Temptation Mission"/>
+<TEXT ID="93023" Text="Frigid Canyon Mission"/>
+<TEXT ID="93030" Text="Drakos Grand Hall Mission"/>
+<TEXT ID="93033" Text="Drakos Machina Center Mission"/>
+<TEXT ID="93036" Text="Drakos Lucid Terrace Mission"/>
+<TEXT ID="93071" Text="White Pursuer Hill Mission"/>
+<TEXT ID="93072" Text="Heaven of Soul Mission"/>
+<TEXT ID="93081" Text="Sharp layer of Ice Mission"/>
+<TEXT ID="93082" Text="Bear Nail Mine Mission"/>
+<TEXT ID="93210" Text="Chaos Forgotten Village Mission"/>
+<TEXT ID="93213" Text="Chaos Village of Slumber Mission"/>
+<TEXT ID="93220" Text="Chaos Land of Temptation Mission"/>
+<TEXT ID="93223" Text="Chaos Frigid Canyon Mission"/>
+<TEXT ID="93230" Text="Chaos Grand Hall Mission"/>
+<TEXT ID="93233" Text="Chaos Machina Center Mission"/>
+<TEXT ID="93236" Text="Chaos Lucid Terrace Mission"/>
+<TEXT ID="95010" Text="Salvalon Mission"/>
+<TEXT ID="95011" Text="Lamieta Mission"/>
+<TEXT ID="95020" Text="Dragon Velly Mission"/>
+<TEXT ID="95023" Text="Edge of the world"/>
+<TEXT ID="1000102" Text="Secret Room Gatekeeper"/>
+<TEXT ID="1000110" Text="..."/>
+<TEXT ID="1000111" Text="..."/>
+<TEXT ID="1000112" Text="..."/>
+<TEXT ID="1000113" Text="..."/>
+<TEXT ID="1000114" Text="..."/>
+<TEXT ID="1000115" Text="..."/>
+<TEXT ID="1000116" Text="..."/>
+<TEXT ID="1000117" Text="..."/>
+<TEXT ID="1010301" Text="Guard
+&#60;Guppy&#62;"/>
+<TEXT ID="1018101" Text="Innkeeper
+&#60;Floran&#62;"/>
+<TEXT ID="1018102" Text="Banker
+&#60;Sofia&#62;"/>
+<TEXT ID="1018103" Text="Real Estate Agent
+&#60;Jesse&#62;"/>
+<TEXT ID="1018104" Text="Equipment Merchant
+&#60;Crispin&#62;"/>
+<TEXT ID="1018105" Text="Trade Merchant
+&#60;Daisy&#62;"/>
+<TEXT ID="1018106" Text="Blacksmith
+&#60;Davi&#62;"/>
+<TEXT ID="1018107" Text="Pet Merchant
+&#60;Amy&#62;"/>
+<TEXT ID="1018108" Text="Guild Manager
+&#60;Dony&#62;"/>
+<TEXT ID="1018109" Text="Warrior Class Master
+&#60;Evan&#62;"/>
+<TEXT ID="1018110" Text="Thief Class Master
+&#60;Cyndi&#62;"/>
+<TEXT ID="1018111" Text="Archer Class Master
+&#60;Rony&#62;"/>
+<TEXT ID="1018112" Text="Magician Class Master
+&#60;Edeline&#62;"/>
+<TEXT ID="1018113" Text="Barkeep
+&#60;Rudolph&#62;"/>
+<TEXT ID="1018114" Text="Arcanist
+&#60;Pablo&#62; "/>
+<TEXT ID="1018115" Text="Guard Captain
+&#60;Colin&#62;"/>
+<TEXT ID="1018116" Text="Guard
+&#60;Walter&#62;"/>
+<TEXT ID="1018117" Text="Sovereign
+&#60;Steven Jr.&#62;"/>
+<TEXT ID="1018118" Text="Reclusive Old Man
+&#60;Alvin&#62;"/>
+<TEXT ID="1018119" Text="Mercenary
+&#60;Thomas&#62;"/>
+<TEXT ID="1018120" Text="Sneaky Thief
+&#60;Jess&#62;"/>
+<TEXT ID="1018121" Text="Butler
+&#60;Vincent&#62;"/>
+<TEXT ID="1018122" Text="Village Child
+&#60;Leo&#62;"/>
+<TEXT ID="1018123" Text="Village Child
+&#60;Leena&#62;"/>
+<TEXT ID="1018124" Text="Guard
+&#60;Victor&#62;"/>
+<TEXT ID="1018125" Text="Fungoid Mage
+&#60;Spooki&#62;"/>
+<TEXT ID="1018126" Text="Blacksmith
+&#60;Sanson&#62;"/>
+<TEXT ID="1018127" Text="Fisherbear
+&#60;Primo&#62;"/>
+<TEXT ID="1018128" Text="Peddler
+&#60;Jeff&#62;"/>
+<TEXT ID="1018129" Text="Village Boy
+&#60;Ersil&#62;"/>
+<TEXT ID="1018130" Text="Village Girl
+&#60;Hena&#62;"/>
+<TEXT ID="1018131" Text="Tools Merchant
+&#60;Sen&#62;"/>
+<TEXT ID="1018132" Text="Patrol Guard
+&#60;Sijin&#62;"/>
+<TEXT ID="1018201" Text="Innkeeper
+&#60;Florence&#62;"/>
+<TEXT ID="1018202" Text="Equipment Merchant
+&#60;Billy&#62;"/>
+<TEXT ID="1018203" Text="Trade Merchant
+&#60;Huerin&#62;"/>
+<TEXT ID="1018206" Text="Wine Merchant
+&#60;Pamela&#62;"/>
+<TEXT ID="1018207" Text="Guard Captain
+&#60;Dustin&#62;"/>
+<TEXT ID="1018208" Text="Guard
+&#60;Oliver&#62;"/>
+<TEXT ID="1018209" Text="Bounty Hunter
+&#60;Adelio&#62;"/>
+<TEXT ID="1018210" Text="Sneaky Thief
+&#60;Jack&#62;"/>
+<TEXT ID="1018214" Text="Boatman 
+&#60;Zaza&#62;"/>
+<TEXT ID="1018301" Text="Innkeeper
+&#60;Nyla&#62;"/>
+<TEXT ID="1018302" Text="Banker
+&#60;Herna&#62;"/>
+<TEXT ID="1018303" Text="Equipment Merchant
+&#60;Dwayne&#62;"/>
+<TEXT ID="1018304" Text="Instrument Merchant
+&#60;Koneil&#62;"/>
+<TEXT ID="1018305" Text="Blacksmith
+&#60;Anders&#62;"/>
+<TEXT ID="1018306" Text="Real Estate Agent
+&#60;Bowen&#62;"/>
+<TEXT ID="1018307" Text="Guard
+&#60;Doug&#62;"/>
+<TEXT ID="1018308" Text="Guard
+&#60;Balder&#62;"/>
+<TEXT ID="1020103" Text="Runaway Miner
+&#60;Turner&#62;"/>
+<TEXT ID="1020402" Text="Lumberjack
+&#60;Robbie&#62;"/>
+<TEXT ID="1020502" Text="Forest Watch
+&#60;Gallia&#62;"/>
+<TEXT ID="1028101" Text="Innkeeper
+&#60;Mosanra&#62;"/>
+<TEXT ID="1028102" Text="Banker
+&#60;Camilla&#62;"/>
+<TEXT ID="1028103" Text="Equipment Merchant
+&#60;Massenran&#62;"/>
+<TEXT ID="1028104" Text="Trade Merchant
+&#60;Missontun&#62;"/>
+<TEXT ID="1028105" Text="Blacksmith
+&#60;Darwin&#62;"/>
+<TEXT ID="1028106" Text="Pet Merchant
+&#60;Edith&#62;"/>
+<TEXT ID="1028107" Text="Warrior Commander
+&#60;Dean&#62;"/>
+<TEXT ID="1028108" Text="Veteran Thief
+&#60;Dina&#62;"/>
+<TEXT ID="1028109" Text="Archer Marksman
+&#60;Erynden&#62;"/>
+<TEXT ID="1028110" Text="Senior Magician
+&#60;Elsa&#62;"/>
+<TEXT ID="1028111" Text="Real Estate Agent
+&#60;Fidelio&#62;"/>
+<TEXT ID="1028112" Text="Mushroom Merchant
+&#60;Ponga&#62;"/>
+<TEXT ID="1028113" Text="Guard Captain
+&#60;Hubert&#62;"/>
+<TEXT ID="1028114" Text="Guard
+&#60;Jade&#62;"/>
+<TEXT ID="1028116" Text="Fungoid Chief
+&#60;Masiroon&#62;"/>
+<TEXT ID="1028117" Text="Sage
+&#60;Jeremy&#62;"/>
+<TEXT ID="1028118" Text="Bulletin Board
+&#60;Wanted!&#62;"/>
+<TEXT ID="1028119" Text="Sign
+&#60;Danger&#62;"/>
+<TEXT ID="1028120" Text="Sign
+&#60;Wanted!&#62;"/>
+<TEXT ID="1028121" Text="Dragon Lord Spirit
+&#60;Lord&#39;s Essence&#62;"/>
+<TEXT ID="1028122" Text="Gada Coin Vending Machine"/>
+<TEXT ID="1028123" Text="Gada Coin Vending Machine"/>
+<TEXT ID="1028124" Text="Soldier
+&#60;Kuan&#62;"/>
+<TEXT ID="1028125" Text="Soldier
+&#60;Randol&#62;"/>
+<TEXT ID="1028126" Text="Soldier
+&#60;Horin&#62;"/>
+<TEXT ID="1028127" Text="Soldier
+&#60;Lucas&#62;"/>
+<TEXT ID="1028128" Text="Soldier
+&#60;Camek&#62;"/>
+<TEXT ID="1028129" Text="Soldier
+&#60;Romero&#62;"/>
+<TEXT ID="1028130" Text="Nurse
+&#60;Mimi&#62;"/>
+<TEXT ID="1028131" Text="Dark Magician
+&#60;Baron&#62;"/>
+<TEXT ID="1028132" Text="Forest Fairy
+&#60;Grania&#62;"/>
+<TEXT ID="1028133" Text="Traveler
+&#60;Matthew&#62;"/>
+<TEXT ID="1028134" Text="Village Guy
+&#60;Ringo&#62;"/>
+<TEXT ID="1028135" Text="Guard
+&#60;Victor&#62;"/>
+<TEXT ID="1028136" Text="Gorilla
+&#60;Cori&#62;"/>
+<TEXT ID="1028137" Text="Guard
+&#60;Yanic&#62;"/>
+<TEXT ID="1028138" Text="Guard
+&#60;Cris&#62;"/>
+<TEXT ID="1028139" Text="Warrior Commander
+&#60;Evan&#62;"/>
+<TEXT ID="1028140" Text="Soldier"/>
+<TEXT ID="1028141" Text="."/>
+<TEXT ID="1028142" Text="Mercenary
+&#60;Thomas&#62;"/>
+<TEXT ID="1028143" Text="."/>
+<TEXT ID="1028144" Text="Soulsmith
+&#60;Julie&#62;"/>
+<TEXT ID="1028145" Text="&#60;Mailbox&#62;"/>
+<TEXT ID="1028146" Text="&#60;Auction Manager&#62;
+Gato"/>
+<TEXT ID="1028147" Text="Maid
+&#60;Rose&#62;"/>
+<TEXT ID="1028148" Text="&#60;Town Chief&#62;
+Don Morgan"/>
+<TEXT ID="1028149" Text="&#60;Village Girl&#62;
+Dina"/>
+<TEXT ID="1028150" Text="&#60;Tutorial Quest 1&#62;"/>
+<TEXT ID="1028151" Text="&#60;Tutorial Quest 2&#62;"/>
+<TEXT ID="1028152" Text="&#60;Tutorial Quest 3&#62;"/>
+<TEXT ID="1028153" Text="Chief&#39;s Daughter
+&#60;Lylia&#62;"/>
+<TEXT ID="1028154" Text="Hero Quest Test"/>
+<TEXT ID="1028155" Text="Hero Quest Test"/>
+<TEXT ID="1028156" Text="Guard
+&#60;Beron&#62;"/>
+<TEXT ID="1028157" Text="."/>
+<TEXT ID="1028158" Text="."/>
+<TEXT ID="1028159" Text="Fairy of the Dragonlord
+&#60;Pororing&#62;"/>
+<TEXT ID="1028160" Text="."/>
+<TEXT ID="1028161" Text="."/>
+<TEXT ID="1028162" Text="."/>
+<TEXT ID="1028163" Text="."/>
+<TEXT ID="1028164" Text="Town Chief
+&#60;Don Morgan&#62;"/>
+<TEXT ID="1028165" Text="."/>
+<TEXT ID="1028166" Text="Guard&#60;Guppy&#62;"/>
+<TEXT ID="1028167" Text="Elite
+&#60;Vegas&#62;"/>
+<TEXT ID="1028168" Text="Elite
+&#60;Sangka&#62;"/>
+<TEXT ID="1028169" Text="Elite
+&#60;Kunkah&#62;"/>
+<TEXT ID="1028170" Text="Elite
+&#60;Captain Hookah&#62;"/>
+<TEXT ID="1028171" Text="Elite
+&#60;Captain Alvida&#62;"/>
+<TEXT ID="1028172" Text="Elite
+&#60;Lord of Night&#62;"/>
+<TEXT ID="1028173" Text="Elite
+&#60;Ahtoo&#62;"/>
+<TEXT ID="1028174" Text="Elite
+&#60;Chief Rokko&#62;"/>
+<TEXT ID="1028175" Text="Guard
+&#60;Mette&#62;"/>
+<TEXT ID="1028176" Text="Wounded Backup
+&#60;Muriel&#62;"/>
+<TEXT ID="1028177" Text="Alvida"/>
+<TEXT ID="1028178" Text="Alvida"/>
+<TEXT ID="1028179" Text="Pororing"/>
+<TEXT ID="1028180" Text="Lylia"/>
+<TEXT ID="1028181" Text="Elite
+&#60;Sangka&#62;"/>
+<TEXT ID="1028182" Text="Elite
+&#60;Kunkah&#62;"/>
+<TEXT ID="1028183" Text="Good Kentar
+&#60;Pyrei&#62;"/>
+<TEXT ID="1028184" Text="Elite
+&#60;Pythanous&#62;"/>
+<TEXT ID="1028185" Text="Miner
+&#60;Donner&#62;"/>
+<TEXT ID="1028186" Text="Elite
+&#60;Gaiden&#62;"/>
+<TEXT ID="1028187" Text="Elite
+&#60;Kimart&#62;"/>
+<TEXT ID="1028188" Text="Elite
+&#60;Antares&#62;"/>
+<TEXT ID="1028189" Text="Mysterious Doctor
+&#60;?????&#62;"/>
+<TEXT ID="1028190" Text="Energency Rescue Agent
+&#60;John&#62;"/>
+<TEXT ID="1028191" Text="Good Kentarous Soldier"/>
+<TEXT ID="1028192" Text="Good Kentarous Soldier"/>
+<TEXT ID="1028193" Text="Good Kentarous Soldier"/>
+<TEXT ID="1028194" Text="Evil Kentarous Soldier"/>
+<TEXT ID="1028195" Text="Evil Kentarous Soldier"/>
+<TEXT ID="1028196" Text="Evil Kentarous Soldier"/>
+<TEXT ID="1028197" Text="Pyrei"/>
+<TEXT ID="1028198" Text="Karkarous"/>
+<TEXT ID="1028199" Text="Hero Quest"/>
+<TEXT ID="1028200" Text="Hero Quest"/>
+<TEXT ID="1028201" Text="Hero Quest 27"/>
+<TEXT ID="1028202" Text="Elite
+&#60;Arka&#62;"/>
+<TEXT ID="1028203" Text="Hero Quest 29"/>
+<TEXT ID="1028204" Text="Hero Quest 30"/>
+<TEXT ID="1028205" Text="Hero Quest 31"/>
+<TEXT ID="1028206" Text="Hero Quest 32"/>
+<TEXT ID="1028207" Text="Intelligent Woodie"/>
+<TEXT ID="1028208" Text="Master Priest
+&#60;William&#62;"/>
+<TEXT ID="1028209" Text="."/>
+<TEXT ID="1028210" Text="Scout Agent
+&#60;Parker&#62;"/>
+<TEXT ID="1028211" Text="Event Manager
+&#60;Gato&#62;"/>
+<TEXT ID="1028212" Text="&#60;Water Artifact&#62;"/>
+<TEXT ID="1028213" Text="Wounded Soldier
+&#60;Montero&#62;"/>
+<TEXT ID="1028214" Text="Captain
+&#60;Kalygon&#62;"/>
+<TEXT ID="1028215" Text="Santa&#39;s Assistant
+&#60;Rudolf&#62;"/>
+<TEXT ID="1028216" Text="Soldier
+&#60;Mark&#62;"/>
+<TEXT ID="1028217" Text="Guard Captain
+&#60;Hoffman&#62;"/>
+<TEXT ID="1028218" Text="Supply Agent
+&#60;Montero&#62;"/>
+<TEXT ID="1028219" Text="Monster Hunter
+&#60;Hunter G&#62;"/>
+<TEXT ID="1028220" Text="Monster Hunter
+&#60;Hunter P&#62;"/>
+<TEXT ID="1028221" Text="Detective
+&#60;Gordon&#62;"/>
+<TEXT ID="1028222" Text="Elga&#39;s Soul
+&#60;Elga JR.&#62;"/>
+<TEXT ID="1028223" Text="Mika Tribe
+&#60;Naoi&#62;"/>
+<TEXT ID="1028224" Text="Mika Tribe
+&#60;Shangdor&#62;"/>
+<TEXT ID="1028225" Text="Mika Tribe
+&#60;Kunterran&#62;"/>
+<TEXT ID="1028226" Text="Mika Tribe
+&#60;Gurnek&#62;"/>
+<TEXT ID="1028227" Text="Mika Tribe
+&#60;Syamalky&#62;"/>
+<TEXT ID="1028228" Text="Mika Tribe
+&#60;Rugor&#62;"/>
+<TEXT ID="1028229" Text="Mist Elf
+&#60;Hel Krouzer&#62;"/>
+<TEXT ID="1028230" Text="Mist Elf
+&#60;Rudaella&#62;"/>
+<TEXT ID="1028231" Text="Mist Elf
+&#60;Mohamo&#62;"/>
+<TEXT ID="1028232" Text="Mysterious Senior
+&#60;Veron&#62;"/>
+<TEXT ID="1028233" Text="Good Chango
+&#60;Wookiboki&#62;"/>
+<TEXT ID="1028234" Text="Mushroom Merchant
+&#60;Alex&#62;"/>
+<TEXT ID="1028235" Text="Heir of Vampire Hunter
+&#60;Veron&#62;"/>
+<TEXT ID="1028236" Text="Heir of Vampire Hunter
+&#60;Veron&#62;"/>
+<TEXT ID="1028237" Text="Jewel Merchant
+&#60;Edward&#62;"/>
+<TEXT ID="1028239" Text="Event Girl
+&#60;Jennifer&#62;"/>
+<TEXT ID="1028240" Text="Master
+&#60;June&#62;"/>
+<TEXT ID="1028241" Text="Blacksmith
+&#60;Nicole&#62;"/>
+<TEXT ID="1028242" Text="Equipment Merchant
+&#60;Eric&#62;"/>
+<TEXT ID="1028243" Text="Soldier
+&#60;Tod&#62;"/>
+<TEXT ID="1028244" Text="Black Market Merchant
+&#60;Shyloc&#62;"/>
+<TEXT ID="1028245" Text="Emporia Soulcraft
+&#60;Ryan&#62;"/>
+<TEXT ID="1028246" Text="Couple Manager
+&#60;Jodie&#62;"/>
+<TEXT ID="1028247" Text="Film Company Owner
+&#60;Marv&#62;"/>
+<TEXT ID="1028248" Text="Film Company Owner
+&#60;Marv&#62;"/>
+<TEXT ID="1028249" Text="Battle Square Manager
+&#60;Gerrard&#62;"/>
+<TEXT ID="1028250" Text="Officiator
+&#60;Boris&#62;"/>
+<TEXT ID="1028251" Text="Donation Box"/>
+<TEXT ID="1028252" Text="MyHome Board 1"/>
+<TEXT ID="1028253" Text="&#60;Alvida&#62;"/>
+<TEXT ID="1028254" Text="&#60;Lord of Night&#62;"/>
+<TEXT ID="1028255" Text="&#60;Rokko&#62;"/>
+<TEXT ID="1028256" Text="&#60;Spirit of Old Tree&#62;"/>
+<TEXT ID="1028257" Text="Cookie Factory Manager
+&#60;Yamaki&#62;"/>
+<TEXT ID="1028258" Text="Cookie Factory Manager
+&#60;Derek&#62;"/>
+<TEXT ID="1028259" Text="Son of Florence
+&#60;Chuck&#62;"/>
+<TEXT ID="1028260" Text="Gacha Vending Machine"/>
+<TEXT ID="1028261" Text="Halloween Event NPC
+&#60;Randy&#62;"/>
+<TEXT ID="1028262" Text="Hunter
+&#60;Averno&#62;"/>
+<TEXT ID="1028263" Text="Tool Merchant
+&#60;Taylor&#62;"/>
+<TEXT ID="1028264" Text="Pet Marketer
+&#60;Iona&#62;"/>
+<TEXT ID="1028265" Text="Fisher Girl
+&#60;Railey&#62;"/>
+<TEXT ID="1028266" Text="Equipment Merchant
+&#60;Frank&#62;"/>
+<TEXT ID="1028267" Text="Blacksmith
+&#60;Smith&#62;"/>
+<TEXT ID="1028268" Text="Graveyard Keeper
+&#60;Larell&#62;"/>
+<TEXT ID="1028269" Text="&#60;Noticeable Tombstone&#62;"/>
+<TEXT ID="1028270" Text="Guard
+&#60;Swirl&#62;"/>
+<TEXT ID="1028271" Text="Innkeeper
+&#60;Claire&#62;"/>
+<TEXT ID="1028272" Text="&#60;Puff Tower&#62;"/>
+<TEXT ID="1028273" Text="Blacksmith
+&#60;Hans&#62;"/>
+<TEXT ID="1028274" Text="Christmas Tree"/>
+<TEXT ID="1028275" Text="Tool Merchant
+&#60;Hime&#62;"/>
+<TEXT ID="1028276" Text="Blacksmith
+&#60;Ferguson&#62;"/>
+<TEXT ID="1028277" Text="Hidden Map
+Enterance Board"/>
+<TEXT ID="1028278" Text="Soldier
+&#60;Vender&#62;"/>
+<TEXT ID="1028279" Text="Blacksmith
+&#60;Eldo&#62;"/>
+<TEXT ID="1028280" Text="Tutu-T1 Iron Maid Robot"/>
+<TEXT ID="1028281" Text="Tutu-T2 Iron Maid Robot"/>
+<TEXT ID="1028282" Text="Kitty Maid"/>
+<TEXT ID="1028283" Text="Catty Maid"/>
+<TEXT ID="1028284" Text="Meilan Maid"/>
+<TEXT ID="1028285" Text="Butler
+&#60;Vilbort the third&#62;"/>
+<TEXT ID="1028286" Text="&#60;Gem of Truth&#62;"/>
+<TEXT ID="1028287" Text="Part-Time Job Board"/>
+<TEXT ID="1028288" Text="HomeTown"/>
+<TEXT ID="1028290" Text="&#60;Deckard&#62;"/>
+<TEXT ID="1028291" Text="&#60;Fairy of Truth&#62;"/>
+<TEXT ID="1028292" Text="&#60;Elga&#62;"/>
+<TEXT ID="1028293" Text="&#60;Birthday Cake&#62;"/>
+<TEXT ID="1028294" Text="."/>
+<TEXT ID="1028295" Text="Cherry Blossom Event"/>
+<TEXT ID="1028296" Text="&#60;Paris 1&#62;"/>
+<TEXT ID="1028297" Text="&#60;Paris 2&#62;"/>
+<TEXT ID="1028298" Text="&#60;Paris 3&#62;"/>
+<TEXT ID="1028299" Text="Soldier
+&#60;Genie&#62;"/>
+<TEXT ID="1028300" Text="Tactical Skill Master &#60;Blue&#62;"/>
+<TEXT ID="1028301" Text="Tactical Skill Master &#60;Red&#62;"/>
+<TEXT ID="1028302" Text="White Fox Tribe General &#60;Blair&#62;"/>
+<TEXT ID="1028303" Text="White Fox Tribe Soldier &#60;Jacques&#62;"/>
+<TEXT ID="1028304" Text="White Fox Tribe Soldier &#60;Frank&#62;"/>
+<TEXT ID="1028305" Text="White Fox Tribe Blacksmith &#60;Pollack&#62;"/>
+<TEXT ID="1028306" Text="White Fox Tribe Soldier &#60;Theo&#62;"/>
+<TEXT ID="1028307" Text="Neckel Tribe Commanding General &#60;Phaegle&#62;"/>
+<TEXT ID="1028308" Text="Neckel Tribe Soldier &#60;Ed&#62;"/>
+<TEXT ID="1028309" Text="White Fox Tribe Soldier &#60;Xavi&#62;"/>
+<TEXT ID="1028310" Text="Pirate Captain &#60;Hooker&#62;"/>
+<TEXT ID="1028320" Text="&#60;Ice Dragon Regno&#62;"/>
+<TEXT ID="1028330" Text="&#60;Ice Dragon Regno&#62;"/>
+<TEXT ID="1028340" Text="Flame-haired Blazing-eyed Hunter &#60;Shana&#62;"/>
+<TEXT ID="1028350" Text="Head Scientist &#60;Noel&#62;"/>
+<TEXT ID="1028360" Text="Injured Tourist &#60;Cayon&#62;"/>
+<TEXT ID="1028370" Text="."/>
+<TEXT ID="1028380" Text="."/>
+<TEXT ID="1028390" Text="Smiley Face &#60;Borem&#62;"/>
+<TEXT ID="1028400" Text="Master Producer &#60;Midas&#62;"/>
+<TEXT ID="1028410" Text="&#60;Quasimodo&#62;"/>
+<TEXT ID="1028420" Text="&#60;Cristiano Syracuse&#62;"/>
+<TEXT ID="1028430" Text="&#60;Cristiano Syracuse&#62;"/>
+<TEXT ID="1028440" Text="Shaman &#60;Olha&#62;"/>
+<TEXT ID="1028510" Text="Mutisha"/>
+<TEXT ID="1028520" Text="&#60;Gina2&#62;"/>
+<TEXT ID="1028530" Text="Wyvern
+&#60;Kiero&#62;"/>
+<TEXT ID="1028540" Text="Archpriest of Thunder&#60;Maytry&#62;"/>
+<TEXT ID="1028550" Text="Kazeura archpreist&#60;Ganu&#62;"/>
+<TEXT ID="1028560" Text="Temple archpriest&#60;Mukapa&#62; "/>
+<TEXT ID="1028570" Text="Master Summoner&#60;Bartie&#62;"/>
+<TEXT ID="1028580" Text="Master Fighter&#60;Chanpio&#62;"/>
+<TEXT ID="1028590" Text="Pirate&#60;Johnny&#62;"/>
+<TEXT ID="1028600" Text="Pirate&#60;Khaligon&#62;"/>
+<TEXT ID="1028610" Text="Mummy&#60;Andre&#62;"/>
+<TEXT ID="1028620" Text="Wanna be Princess&#60;Princecia&#62;"/>
+<TEXT ID="1028630" Text="Equipment Merchant&#60;Obiku&#62;"/>
+<TEXT ID="1028640" Text="Trade Merchant&#60;ChiChai&#62;"/>
+<TEXT ID="1028650" Text="Blacksmith&#60;Tonpa&#62;"/>
+<TEXT ID="1028660" Text="Blacksmith&#60;Tatanka&#62;"/>
+<TEXT ID="1028670" Text="Potion Merchant &#60;Khairy&#62;"/>
+<TEXT ID="1028680" Text="Soul Craft&#60;Ratai&#62;"/>
+<TEXT ID="1028690" Text="Warrior &#60;Bubay&#62;"/>
+<TEXT ID="1028700" Text="Warrior &#60;Jadume&#62;"/>
+<TEXT ID="1028710" Text="Warrior &#60;Rophu&#62;"/>
+<TEXT ID="1028720" Text="Warrior &#60;Maruphu&#62;"/>
+<TEXT ID="1028730" Text="Royal Guard &#60;Ranotah&#62;"/>
+<TEXT ID="1028740" Text="Priest Horn &#60;Ochukoe&#62;"/>
+<TEXT ID="1028750" Text="Sage &#60;Tarubu&#62;"/>
+<TEXT ID="1028760" Text="Archpriest of Wind&#60;Quywcha&#62;                                                                                                             "/>
+<TEXT ID="1028770" Text="Drakan Boy &#60;Oulu&#62;"/>
+<TEXT ID="1028780" Text="Drakan Girl &#60;Beruta&#62;"/>
+<TEXT ID="1028790" Text="Master Fighter&#60;Pai&#62;"/>
+<TEXT ID="1028800" Text="Archpriest of Light &#60;Yanai&#62;"/>
+<TEXT ID="1028810" Text="Illustrator &#60;Ringo&#62;"/>
+<TEXT ID="1028820" Text="Duke&#60;Monadron&#62;"/>
+<TEXT ID="1028830" Text="Auto feedmachine&#60;AutoLunch5&#62;"/>
+<TEXT ID="1028840" Text="Great Wizard&#60;Edelin&#62;"/>
+<TEXT ID="1028850" Text="Mutisha ending"/>
+<TEXT ID="1028860" Text="Black Marketeer&#60;Danku&#62;"/>
+<TEXT ID="1028870" Text="Baby Dragon&#60;Yongha&#62;"/>
+<TEXT ID="1028880" Text="Drakan adventurer&#60;Croquis&#62;"/>
+<TEXT ID="1028890" Text="&#60;Precious treasure of Water&#62;"/>
+<TEXT ID="1028900" Text="Summon Monster&#60;Golgone&#62;"/>
+<TEXT ID="1028910" Text="Summon Monster&#60;Dunamic&#62;"/>
+<TEXT ID="1028920" Text="Riding Pet&#60;Feilon&#62;"/>
+<TEXT ID="1028930" Text="Drakan Summoner&#60;Bartie&#62;"/>
+<TEXT ID="1028940" Text="Guardian Sprit of Fire&#60;Skypie&#62;"/>
+<TEXT ID="1028950" Text="Guardian Sprit of Water&#60;Milkyway&#62;"/>
+<TEXT ID="1028960" Text="Guardian Sprit of Wind&#60;Belkan&#62;"/>
+<TEXT ID="1028970" Text="Guardian Sprit of Earth&#60;Parmir&#62;"/>
+<TEXT ID="1028980" Text="Time Machine&#60;Kyoneske&#62;"/>
+<TEXT ID="1028990" Text="Genius Inventor&#60;Dr. Farrell&#62;"/>
+<TEXT ID="1029000" Text="InsuranceSeller&#60;Skypie&#62;"/>
+<TEXT ID="1029010" Text="Unknown Hunter"/>
+<TEXT ID="1029011" Text="Young Huntress
+&#60;Atalanta&#62;"/>
+<TEXT ID="1029020" Text="Equipment Merchant&#60;Raltai&#62;"/>
+<TEXT ID="1029030" Text="Drakan adventurer&#60;Zantai&#62;"/>
+<TEXT ID="1029040" Text="Potion Merchant&#60;Asta&#62;"/>
+<TEXT ID="1029050" Text="Trade Merchant&#60;Chandra&#62;"/>
+<TEXT ID="1029060" Text="Archpriest of Shadow&#60;Rue&#62;"/>
+<TEXT ID="1029070" Text="Blacksmith&#60;Dankai&#62;"/>
+<TEXT ID="1029080" Text="MistElf mission&#60;Herusa&#62;"/>
+<TEXT ID="1029090" Text="&#60;Precious treasure of Fire&#62;"/>
+<TEXT ID="1029100" Text="&#60;Precious treasure of Earth&#62;"/>
+<TEXT ID="1029110" Text="&#60;Precious treasure of Thunder&#62;"/>
+<TEXT ID="1029120" Text="&#60;Precious treasure of Light&#62;"/>
+<TEXT ID="1029130" Text="&#60;Precious treasure of Shadow&#62;"/>
+<TEXT ID="1029140" Text="Spirit of Precious tresure&#60;Krunai&#62;"/>
+<TEXT ID="1029150" Text="&#60;Precious treasure of Wind&#62;"/>
+<TEXT ID="1029160" Text="Sneaky Thief
+&#60;Jess&#62;"/>
+<TEXT ID="1029170" Text="Sneaky Thief
+&#60;Jack&#62;"/>
+<TEXT ID="1029180" Text="Garrison base Commander&#60;Jundo&#62;"/>
+<TEXT ID="1029190" Text="2nd Happy Birthday Cake"/>
+<TEXT ID="1029200" Text="Archpriest of Earth&#60;Syari&#62;"/>
+<TEXT ID="1029210" Text="Great Wizard
+&#60;Gwen&#62;"/>
+<TEXT ID="1029220" Text="Mysterious Junk"/>
+<TEXT ID="1029230" Text="Exchange Merchant
+&#60;Bessie&#62;"/>
+<TEXT ID="1029240" Text="Bessie&#39;s Apprentice
+&#60;Jerome&#62;"/>
+<TEXT ID="1029250" Text="Bessie&#39;s Apprentice
+&#60;Romy&#62;"/>
+<TEXT ID="1029260" Text="Best cook
+&#60;Brutus&#62;"/>
+<TEXT ID="1029270" Text="Dimension Stabilizer
+&#60;No.1&#62;"/>
+<TEXT ID="1029280" Text="Physicist
+&#60;Nicola&#62;"/>
+<TEXT ID="1029290" Text="Nicola&#39;s Cat
+&#60;Tez&#62;"/>
+<TEXT ID="1029300" Text="Kafra Employee
+&#60;Telling&#62;"/>
+<TEXT ID="1029310" Text="Kafra Employee
+&#60;Deporte&#62;"/>
+<TEXT ID="1029320" Text="Kafra Employee
+&#60;Binit&#62;"/>
+<TEXT ID="1029330" Text="Geffen Guard
+&#60;Walter&#62;"/>
+<TEXT ID="1029340" Text="Geffen Guard
+&#60;Victor&#62;"/>
+<TEXT ID="1029350" Text="High Priestess
+&#60;Ariel&#62;"/>
+<TEXT ID="1029360" Text="&#60;Birthday Cake&#62;"/>
+<TEXT ID="1029380" Text="[Event] Clitea"/>
+<TEXT ID="1029420" Text="EA envoy
+&#60;Deckard&#62;"/>
+<TEXT ID="1029430" Text="EA envoy
+&#60;Elga&#62;"/>
+<TEXT ID="1029440" Text="Fairy of Winter
+&#60;Nia&#62;"/>
+<TEXT ID="1029450" Text="Fairy of Spring
+&#60;Waltz&#62;"/>
+<TEXT ID="1029460" Text="Pios&#39; lover
+&#60;Crete&#62;"/>
+<TEXT ID="1029470" Text="Hero
+&#60;Perseus&#62;"/>
+<TEXT ID="1029480" Text="Aries Opening"/>
+<TEXT ID="1029485" Text="Aries Ending"/>
+<TEXT ID="1029490" Text="Taurus Opening"/>
+<TEXT ID="1029495" Text="Taurus Ending"/>
+<TEXT ID="1029500" Text="Gemini Opening"/>
+<TEXT ID="1029505" Text="Gemini Ending"/>
+<TEXT ID="1029510" Text="Cancer Opening"/>
+<TEXT ID="1029515" Text="Cancer Ending"/>
+<TEXT ID="1029520" Text="Leo Opening"/>
+<TEXT ID="1029525" Text="Leo Ending"/>
+<TEXT ID="1029530" Text="Virgo Opening"/>
+<TEXT ID="1029535" Text="Virgo Ending"/>
+<TEXT ID="1029540" Text="Pegasus Opening"/>
+<TEXT ID="1029545" Text="Pegasus Ending"/>
+<TEXT ID="1029550" Text="Scorpio Opening"/>
+<TEXT ID="1029555" Text="Scorpio Ending"/>
+<TEXT ID="1029560" Text="Sagittarius Opening"/>
+<TEXT ID="1029565" Text="Sagittarius Ending"/>
+<TEXT ID="1029570" Text="Hydra Opening"/>
+<TEXT ID="1029575" Text="Hydra Ending"/>
+<TEXT ID="1029580" Text="Ophiuchus Opening"/>
+<TEXT ID="1029585" Text="Ophiuchus Ending"/>
+<TEXT ID="1029590" Text="Ophiuchus2 Opening"/>
+<TEXT ID="1029595" Text="Ophiuchus2 Ending"/>
+<TEXT ID="1029600" Text="&#60;4주년 기념 케이크 보이&#62;"/>
+<TEXT ID="1029610" Text=" "/>
+<TEXT ID="1029620" Text="Persephone"/>
+<TEXT ID="1029621" Text="Donpachi"/>
+<TEXT ID="1029622" Text="Roid"/>
+<TEXT ID="1029623" Text="Shady"/>
+<TEXT ID="1029624" Text="Huo"/>
+<TEXT ID="1029625" Text="Dragonmask"/>
+<TEXT ID="1029626" Text="DDDD - Translate later"/>
+<TEXT ID="1029627" Text="DDDD - Translate later"/>
+<TEXT ID="1029628" Text="Secret Halloween"/>
+<TEXT ID="1029629" Text="Jack O&#39; Lantern Ending"/>
+<TEXT ID="1029630" Text="Nia&#39;s Beloved
+&#60;Playboy Santa&#62;"/>
+<TEXT ID="1029640" Text="Ice Castle Entry"/>
+<TEXT ID="5000100" Text="."/>
+<TEXT ID="5000200" Text="."/>
+<TEXT ID="5000300" Text="."/>
+<TEXT ID="5000400" Text="."/>
+<TEXT ID="5000500" Text="."/>
+<TEXT ID="6089103" Text="Explosion Time"/>
+<TEXT ID="6091199" Text="Summon Big Horn"/>
+<TEXT ID="6126101" Text="Damage Reflection (10 Sec)"/>
+<TEXT ID="6126102" Text="Damage Reflection (20 Sec)"/>
+<TEXT ID="6126103" Text="Damage Reflection (40 Sec)"/>
+<TEXT ID="6126104" Text="Damage Reflection (60 Sec)"/>
+<TEXT ID="9000100" Text="Emporia War"/>
+<TEXT ID="9000101" Text="Emporia Tournament Result"/>
+<TEXT ID="9000102" Text="Congratulations! You have been registered on Emporia Tournament"/>
+<TEXT ID="9000103" Text="EXP Bid :"/>
+<TEXT ID="9000104" Text="Challenging Guild :"/>
+<TEXT ID="9000105" Text="Avg. EXP :"/>
+<TEXT ID="9000106" Text="Battle Time :"/>
+<TEXT ID="9000107" Text="#GUILDNAME# won the tournament."/>
+<TEXT ID="9000108" Text="#GUILDNAME# won the tournament by obtaining #POINT# points."/>
+<TEXT ID="9000109" Text="#GUILDNAME# won the tournament because #USER# of #GUILDNAME# destroyed Core. "/>
+<TEXT ID="9000110" Text="#GUILDNAME# won the tournament because #USER# of #GUILDNAME# defeated Defense Dragon. "/>
+<TEXT ID="19010103" Text="Bearded Whale Coast Exit"/>
+<TEXT ID="19010113" Text="Jigsaw Pincers Coast Exit"/>
+<TEXT ID="19010123" Text="Decker Shark Piers Exit"/>
+<TEXT ID="19010133" Text="Steven Trading Port Exit"/>
+<TEXT ID="19010143" Text="Nautilus Port Exit"/>
+<TEXT ID="19010153" Text="Kalygon Fleet Exit"/>
+<TEXT ID="19010202" Text="Milkyway Sanctuary Mission"/>
+<TEXT ID="19010212" Text="Skypie Sanctuary Mission"/>
+<TEXT ID="19010222" Text="Belkan Sanctuary Mission"/>
+<TEXT ID="19010232" Text="Parmir Sanctuary Mission"/>
+<TEXT ID="19010301" Text="Windia Plains Entry"/>
+<TEXT ID="19010331" Text="Advanced Windia Plains Entry"/>
+<TEXT ID="19010401" Text="Traitor&#39;s Ridge Entry"/>
+<TEXT ID="19010411" Text="Howling Wind&#39;s Hill Entry"/>
+<TEXT ID="19010421" Text="Wailing Hill Entry"/>
+<TEXT ID="19010431" Text="Canyon of Oblivion Entry"/>
+<TEXT ID="19010441" Text="Silky Wave Coast Entry"/>
+<TEXT ID="19010602" Text="Dangerous Caverns Mission"/>
+<TEXT ID="19010612" Text="Culvert Mission"/>
+<TEXT ID="19010622" Text="Mining Area Mission"/>
+<TEXT ID="19018101" Text="Port of Winds East"/>
+<TEXT ID="19018102" Text="Port of the Winds Center"/>
+<TEXT ID="19018103" Text="Port of Winds West"/>
+<TEXT ID="19018211" Text="Odellia"/>
+<TEXT ID="19020102" Text="Valid Raeth Mission"/>
+<TEXT ID="19020112" Text="Abyss of Fire Mission"/>
+<TEXT ID="19020122" Text="Volcano Ash Hill Mission"/>
+<TEXT ID="19020132" Text="Magma Coral Fields Mission"/>
+<TEXT ID="19020301" Text="Smoldering Swamp Entry"/>
+<TEXT ID="19020311" Text="Dried Woods Swamp Entry"/>
+<TEXT ID="19020321" Text="Reed Swamp Entry"/>
+<TEXT ID="19020331" Text="Alligator Swamp Entry"/>
+<TEXT ID="19020401" Text="Ocher Forest Entry"/>
+<TEXT ID="19020411" Text="Vine Forest Entry"/>
+<TEXT ID="19020421" Text="Misty Lane Entry"/>
+<TEXT ID="19020431" Text="Pine Cone Hills Entry"/>
+<TEXT ID="19020441" Text="Grass Wind Hills Entry"/>
+<TEXT ID="19020501" Text="Gods&#39; Sanctuary Entry"/>
+<TEXT ID="19020511" Text="Collapsed Sanctuary Entry"/>
+<TEXT ID="19020521" Text="Remains of Trace Entry"/>
+<TEXT ID="19020531" Text="Kayron Altar Entry"/>
+<TEXT ID="19028101" Text="Fungoid Village"/>
+<TEXT ID="19030103" Text="Forgotten Village Exit"/>
+<TEXT ID="19030113" Text="Tutu Tree Forest Exit"/>
+<TEXT ID="19030123" Text="Pococo Garden Exit"/>
+<TEXT ID="19030133" Text="Village of Slumber Exit"/>
+<TEXT ID="19030143" Text="Ruined Mushroom Factory Exit"/>
+<TEXT ID="19030203" Text="Land of Temptation Exit"/>
+<TEXT ID="19030213" Text="Blizzard Ridge Exit"/>
+<TEXT ID="19030223" Text="Frost Lake Exit"/>
+<TEXT ID="19030233" Text="Frigid Canyon Exit"/>
+<TEXT ID="19030243" Text="Storm Snowfield Exit"/>
+<TEXT ID="29010101" Text="Bearded Whale Coast Entry"/>
+<TEXT ID="29010111" Text="Jigsaw Pincers Coast Entry"/>
+<TEXT ID="29010121" Text="Decker Shark Piers Entry"/>
+<TEXT ID="29010131" Text="Steven Trading Port Entry"/>
+<TEXT ID="29010141" Text="Nautilus Port Entry"/>
+<TEXT ID="29010151" Text="Kalygon Fleet Entry"/>
+<TEXT ID="29010203" Text="Milkyway Sanctuary Exit"/>
+<TEXT ID="29010213" Text="Skypie Sanctuary Exit"/>
+<TEXT ID="29010223" Text="Belkan Sanctuary Exit"/>
+<TEXT ID="29010233" Text="Parmir Sanctuary Exit"/>
+<TEXT ID="29010234" Text="Specter&#39;s Tower Entrance"/>
+<TEXT ID="29010302" Text="Windia Plains Mission"/>
+<TEXT ID="29010332" Text="Advanced Windia Plains Mission"/>
+<TEXT ID="29010402" Text="Traitor&#39;s Ridge Mission"/>
+<TEXT ID="29010412" Text="Howling Wind&#39;s Hill Mission"/>
+<TEXT ID="29010422" Text="Wailing Hill Mission"/>
+<TEXT ID="29010432" Text="Canyon of Oblivion Mission"/>
+<TEXT ID="29010442" Text="Silky Wave Coast  Mission"/>
+<TEXT ID="29010603" Text="Dangerous Caverns Exit"/>
+<TEXT ID="29010613" Text="Culvert Exit"/>
+<TEXT ID="29010623" Text="Mining Area Exit"/>
+<TEXT ID="29018311" Text="Moonlight Shore Village"/>
+<TEXT ID="29020103" Text="Valid Raeth Exit"/>
+<TEXT ID="29020113" Text="Abyss of Fire Exit"/>
+<TEXT ID="29020123" Text="Volcano Ash Hill Exit"/>
+<TEXT ID="29020133" Text="Magma Coral Fields Exit"/>
+<TEXT ID="29020302" Text="Smoldering Swamp Mission"/>
+<TEXT ID="29020312" Text="Dried Woods Swamp Mission"/>
+<TEXT ID="29020322" Text="Reed Swamp Mission"/>
+<TEXT ID="29020332" Text="Alligator Swamp Mission"/>
+<TEXT ID="29020402" Text="Ocher Forest Mission"/>
+<TEXT ID="29020412" Text="Vine Forest Mission"/>
+<TEXT ID="29020422" Text="Misty Lane Mission"/>
+<TEXT ID="29020423" Text="Verdurous Forest Entrance"/>
+<TEXT ID="29020432" Text="Pine Cone Hills Mission"/>
+<TEXT ID="29020442" Text="Grass Wind Hills Mission"/>
+<TEXT ID="29020502" Text="Gods&#39; Sanctuary Mission"/>
+<TEXT ID="29020512" Text="Collapsed Sanctuary Mission"/>
+<TEXT ID="29020522" Text="Remains of Trace Mission"/>
+<TEXT ID="29020532" Text="Kayron Altar Mission"/>
+<TEXT ID="29030101" Text="Forgotten Village Entry"/>
+<TEXT ID="29030111" Text="Tutu Tree Forest Entry"/>
+<TEXT ID="29030121" Text="Pococo Garden Entry"/>
+<TEXT ID="29030131" Text="Village of Slumber Entry"/>
+<TEXT ID="29030141" Text="Ruined Mushroom Factory Entry"/>
+<TEXT ID="29030201" Text="Land of Temptation Entry"/>
+<TEXT ID="29030211" Text="Blizzard Ridge Entry"/>
+<TEXT ID="29030221" Text="Frost Lake Entry"/>
+<TEXT ID="29030231" Text="Frigid Canyon Entry"/>
+<TEXT ID="29030241" Text="Storm Snowfield Entry"/>
+<TEXT ID="29038201" Text="Ellora Camp"/>
+<TEXT ID="39010102" Text="Bearded Whale Coast Mission"/>
+<TEXT ID="39010112" Text="Jigsaw Pincers Coast Mission"/>
+<TEXT ID="39010122" Text="Decker Shark Piers Mission"/>
+<TEXT ID="39010132" Text="Steven Trading Port Mission"/>
+<TEXT ID="39010142" Text="Nautilus Port Mission"/>
+<TEXT ID="39010152" Text="Kalygon Fleet Mission"/>
+<TEXT ID="39010201" Text="Milkyway Sanctuary Entry"/>
+<TEXT ID="39010211" Text="Skypie Sanctuary Entry"/>
+<TEXT ID="39010221" Text="Belkan Sanctuary Entry"/>
+<TEXT ID="39010231" Text="Parmir Sanctuary Entry"/>
+<TEXT ID="39010303" Text="Windia Plains Exit"/>
+<TEXT ID="39010333" Text="Advanced Windia Plains Exit"/>
+<TEXT ID="39010403" Text="Traitor&#39;s Ridge Exit"/>
+<TEXT ID="39010413" Text="Howling Wind&#39;s Hill Exit"/>
+<TEXT ID="39010423" Text="Wailing Hill Exit"/>
+<TEXT ID="39010433" Text="Canyon of Oblivion Exit"/>
+<TEXT ID="39010443" Text="Silky Wave Coast Exit"/>
+<TEXT ID="39010601" Text="Dangerous Caverns Entry"/>
+<TEXT ID="39010611" Text="Culvert Entry"/>
+<TEXT ID="39010621" Text="Mining Area Entry"/>
+<TEXT ID="39018321" Text="Libra"/>
+<TEXT ID="39020101" Text="Valid Raeth Entry"/>
+<TEXT ID="39020111" Text="Abyss of Fire Entry"/>
+<TEXT ID="39020121" Text="Volcano Ash Hill Entry"/>
+<TEXT ID="39020131" Text="Magma Coral Fields Entry"/>
+<TEXT ID="39020303" Text="Smoldering Swamp Exit"/>
+<TEXT ID="39020313" Text="Dried Woods Swamp Exit"/>
+<TEXT ID="39020323" Text="Reed Swamp Exit"/>
+<TEXT ID="39020333" Text="Alligator Swamp Exit"/>
+<TEXT ID="39020403" Text="Ocher Forest Exit"/>
+<TEXT ID="39020413" Text="Vine Forest Exit"/>
+<TEXT ID="39020423" Text="Misty Lane Exit"/>
+<TEXT ID="39020433" Text="Pine Cone Hills Exit"/>
+<TEXT ID="39020443" Text="Grass Wind Hills Exit"/>
+<TEXT ID="39020503" Text="Gods&#39; Sanctuary Exit"/>
+<TEXT ID="39020513" Text="Collapsed Sanctuary Exit"/>
+<TEXT ID="39020523" Text="Remains of Trace Exit"/>
+<TEXT ID="39020533" Text="Kayron Altar Exit"/>
+<TEXT ID="39030102" Text="Forgotten Village Mission"/>
+<TEXT ID="39030112" Text="Tutu Tree Forest Mission"/>
+<TEXT ID="39030122" Text="Pococo Garden Mission"/>
+<TEXT ID="39030132" Text="Village of Slumber Mission"/>
+<TEXT ID="39030142" Text="Ruined Mushroom Factory Mission"/>
+<TEXT ID="39030202" Text="Land of Temptation Mission"/>
+<TEXT ID="39030212" Text="Blizzard Ridge Mission"/>
+<TEXT ID="39030222" Text="Frost Lake Mission"/>
+<TEXT ID="39030232" Text="Frigid Canyon Mission"/>
+<TEXT ID="39030242" Text="Storm Snowfield Mission"/>
+<TEXT ID="39030252" Text="Vartika Hill Mission"/>
+<TEXT ID="39030262" Text="Red Fox Delta Entrance"/>
+<TEXT ID="99887001" Text="Intoxication"/>
+<TEXT ID="99887002" Text="Roar"/>
+<TEXT ID="99887003" Text="Dark Breath"/>
+<TEXT ID="99887004" Text="Vengeance"/>
+<TEXT ID="99887005" Text="Dark Spell"/>
+<TEXT ID="99887006" Text="Petrify"/>
+<TEXT ID="99887007" Text="Pitch-Dark"/>
+<TEXT ID="100000010" Text="Defeat Enemy 1 time"/>
+<TEXT ID="100000011" Text="Defeat Enemy 1 time : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000020" Text="Defeat All warriors"/>
+<TEXT ID="100000021" Text="Defeat All warriors : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000030" Text="Defeat All Magicians"/>
+<TEXT ID="100000031" Text="Defeat All Magicians : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000040" Text="Defeat All Archers"/>
+<TEXT ID="100000041" Text="Defeat All Archers : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000050" Text="Defeat All Thieves"/>
+<TEXT ID="100000051" Text="Defeat All Thieves : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000060" Text="Defeat Enemy 3 times"/>
+<TEXT ID="100000061" Text="Defeat Enemy 3 times : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000070" Text="Survive for 30 seconds after 3 attacks"/>
+<TEXT ID="100000071" Text="Survive for 30 seconds after 3 attacks : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000080" Text="Survive for 30 seconds after 3 Core attacks"/>
+<TEXT ID="100000081" Text="Survive for 30 seconds after 3 Core attacks : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000090" Text="Use HP Eternity potion (Large) 3000 "/>
+<TEXT ID="100000091" Text="Use HP Eternity potion (Large) 3000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000100" Text="Use HP Eternity potion (Ex Large) 5000 "/>
+<TEXT ID="100000101" Text="Use HP Eternity potion (Ex Large) 5000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000110" Text="Use MP Eternity potion (Large) 3000 "/>
+<TEXT ID="100000111" Text="Use MP Eternity potion (Large) 3000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000120" Text="Use MP Eternity potion (Ex Large) 5000 "/>
+<TEXT ID="100000121" Text="Use MP Eternity potion (Ex Large) 5000 : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000130" Text="Attack Core 3 times"/>
+<TEXT ID="100000131" Text="Attack Core 3 times : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000140" Text="Attack any warriors 1 time"/>
+<TEXT ID="100000141" Text="Attack any warriors 1 time: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000150" Text="Attack any magicians 1 time"/>
+<TEXT ID="100000151" Text="Attack any magicians 1 time : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000160" Text="Attack any archers 1 time"/>
+<TEXT ID="100000161" Text="Attack any archers 1 time : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000170" Text="Attack any thieves 1 time"/>
+<TEXT ID="100000171" Text="Attack any thieves 1 time : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000180" Text="Use Reinforced Megaphone"/>
+<TEXT ID="100000181" Text="Use Reinforced Megaphone : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000190" Text="Attack 1 time with Storm Blade"/>
+<TEXT ID="100000191" Text="Attack 1 time with Storm Blade : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000200" Text="Attack 1 time with Fortress"/>
+<TEXT ID="100000201" Text="Attack 1 time with Fortress : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000210" Text="Attack 1 time with Meteor Fall"/>
+<TEXT ID="100000211" Text="Attack 1 time with Meteor Fall : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000220" Text="Attack 1 time with Venom"/>
+<TEXT ID="100000221" Text="Attack 1 time with Venom : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000230" Text="Attack 1 time with Rocket Punch"/>
+<TEXT ID="100000231" Text="Attack 1 time with Rocket Punch : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000240" Text="Attack 1 time with Sonic Boom"/>
+<TEXT ID="100000241" Text="Attack 1 time with Sonic Boom : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000250" Text="Attack 1 time with Spear Jab"/>
+<TEXT ID="100000251" Text="Attack 1 time with Spear Jab : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000260" Text="Attack 1 time with Pressure"/>
+<TEXT ID="100000261" Text="Attack 1 time with Pressure : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000270" Text="Attack 1 time with Magic Missile"/>
+<TEXT ID="100000271" Text="Attack 1 time with Magic Missile : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000280" Text="Attack 1 time with Arrow Shower"/>
+<TEXT ID="100000281" Text="Attack 1 time with Arrow Shower : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000290" Text="Attack 1 time with Bleed"/>
+<TEXT ID="100000291" Text="Attack 1 time with Bleed : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000300" Text="Attack 1 time with Claymore"/>
+<TEXT ID="100000301" Text="Attack 1 time with Claymore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000310" Text="Attack with Cherry Blossom Shower 1 time"/>
+<TEXT ID="100000311" Text="Attack with Cherry Blossom Shower 1 time :
+#COUNT#/#TOTAL#"/>
+<TEXT ID="100000320" Text="Attacked 1 time by Storm Blade"/>
+<TEXT ID="100000321" Text="Attacked 1 time by Storm Blade : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000330" Text="Attacked 1 time by Fortress"/>
+<TEXT ID="100000331" Text="Attacked 1 time by Fortress : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000340" Text="Attacked 1 time by Meteor Fall"/>
+<TEXT ID="100000341" Text="Attacked 1 time by Meteor Fall : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000350" Text="Attacked 1 time by Venom"/>
+<TEXT ID="100000351" Text="Attacked 1 time by Venom : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000360" Text="Attacked 1 time by Rocket Punch"/>
+<TEXT ID="100000361" Text="Attacked 1 time by Rocket Punch : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000370" Text="Attacked 1 time by Sonic Boom"/>
+<TEXT ID="100000371" Text="Attacked 1 time by Sonic Boom : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000380" Text="Attacked 1 time by Spear Jab"/>
+<TEXT ID="100000381" Text="Attacked 1 time by Spear Jab : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000390" Text="Attacked 1 time by Pressure"/>
+<TEXT ID="100000391" Text="Attacked 1 time by Pressure : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000400" Text="Attacked 1 time by Magic Missile"/>
+<TEXT ID="100000401" Text="Attacked 1 time by Magic Missile : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000410" Text="Attacked 1 time by Arrow Shower"/>
+<TEXT ID="100000411" Text="Attacked 1 time by Arrow Shower : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000420" Text="Attacked 1 time by Bleed"/>
+<TEXT ID="100000421" Text="Attacked 1 time by Bleed : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000430" Text="Attacked 1 time by Claymore"/>
+<TEXT ID="100000431" Text="Attacked 1 time by Claymore : #COUNT#/#TOTAL#"/>
+<TEXT ID="100000440" Text="Attacked by Cherry Blossom Shower 1 time"/>
+<TEXT ID="100000441" Text="Attacked by Cherry Blossom Shower 1 time :
+#COUNT#/#TOTAL#"/>
+<TEXT ID="100000450" Text="Attack 1 time with Meteor Fall (Meteor Rush)"/>
+<TEXT ID="100000451" Text="Attack 1 time with Meteor Fall (Meteor Rush): #COUNT#/#TOTAL#"/>
+<TEXT ID="100000460" Text="Defeat All Summoners"/>
+<TEXT ID="100000461" Text="Defeat All Summoners: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000470" Text="Attack any summoner class 1 time"/>
+<TEXT ID="100000471" Text="Attack any summoner class 1 time: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000480" Text="Attack 1 time with Dragon tooth"/>
+<TEXT ID="100000481" Text="Attack 1 time with Dragon tooth: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000490" Text="Attack 1 time with Inferno"/>
+<TEXT ID="100000491" Text="Attack 1 time with Inferno: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000500" Text="Attack 1 time with Air smash"/>
+<TEXT ID="100000501" Text="Attack 1 time with Air smash: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000510" Text="Defeat All Fighters"/>
+<TEXT ID="100000511" Text="Defeat All Fighters: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000520" Text="Attack any Fighters 1 time"/>
+<TEXT ID="100000521" Text="Attack any Fighters 1 time: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000530" Text="Attack with Tornado Spin one time"/>
+<TEXT ID="100000531" Text="Attack with Tornado Spin one time: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000540" Text="Attack with Bunker Buster"/>
+<TEXT ID="100000541" Text="Attack with Bunker Buster: #COUNT#/#TOTAL#"/>
+<TEXT ID="100000550" Text="Attack with Dragon Uppercut"/>
+<TEXT ID="100000551" Text="Attack with Dragon Uppercut: #COUNT#/#TOTAL#"/>
+<TEXT ID="1000000000" Text="Husky"/>
+<TEXT ID="1000000001" Text="Phelix"/>
+<TEXT ID="1000000002" Text="Gryphon"/>
+<TEXT ID="1000000003" Text="Xybove"/>
+<TEXT ID="1000000004" Text="Glog Spirit"/>
+<TEXT ID="1000000005" Text="Woodia"/>
+<TEXT ID="1000000006" Text="Blossom"/>
+<TEXT ID="1000000007" Text="Maple"/>
+<TEXT ID="1000000008" Text="BlueBlue"/>
+<TEXT ID="1000000009" Text="Greenie"/>
+<TEXT ID="1000000010" Text="Ms. GingerB"/>
+<TEXT ID="1000000011" Text="ChocoChop"/>
+<TEXT ID="2000000001" Text="MyHome Manager"/>
+<TEXT ID="2000000002" Text="Notice of MyHome Bidding Status Change"/>
+<TEXT ID="2000000003" Text="You have been outbidded by other player.Please retrieve your auction money from Mail box."/>
+<TEXT ID="2000000004" Text="MyHome Manager"/>
+<TEXT ID="2000000005" Text="Notice of MyHome Sales Success"/>
+<TEXT ID="2000000006" Text="Congratulations! 
+MyHome registerd in hometown board has been successfully sold. Please receive your money from Mailmox. 
+You will receive amount after deduction of 10% fee, from higest bidded price."/>
+<TEXT ID="2000000007" Text="MyHome Manager"/>
+<TEXT ID="2000000008" Text="Overdue Notice of MyHome Tax"/>
+<TEXT ID="2000000009" Text="You have to pay tax to maintain MyHome. 
+You may experience disadvantages for Maid NPC usage if you won&#39;t pay a proper tax in time. 
+
+Please check your tax payment date and pay your tax to Maid NPC in your MyHome.
+
+If payment is not made for 4 weeks, lice"/>
+<TEXT ID="2000000013" Text="MyHome Manager"/>
+<TEXT ID="2000000014" Text="Notice of MyHome Bidding Success"/>
+<TEXT ID="2000000015" Text="Congratulation!
+You won the MyHome bidding. 
+You will be able to check MyHome&#39;s location by talking with Real Estate Agent Jesse or entering to home town and search in Mini Map. "/>
+<TEXT ID="2000000016" Text="MyHome Manager"/>
+<TEXT ID="2000000017" Text="Notice of MyHome Auction Failed"/>
+<TEXT ID="2000000018" Text="You have been failed in MyHome Auction. 
+To try again, please talk with Maid NPC. Thank you. "/>
+<TEXT ID="2000000019" Text="MyHome Manager"/>
+<TEXT ID="2000000020" Text="MyHome Forced Eviction Notice"/>
+<TEXT ID="2000000021" Text="You have to pay tax to maintain MyHome. 
+You have lost your possession authority due to 4 weeks payment overdue. 
+
+All items which was in your MyHome will be authomatically mailed to you. "/>
+<TEXT ID="2000000022" Text="Part-Time Job Manager"/>
+<TEXT ID="2000000023" Text="Part-time job payment"/>
+<TEXT ID="2000000024" Text="Good job, here is your wage."/>
+<TEXT ID="2000000025" Text="BigWheel Manager"/>
+<TEXT ID="2000000026" Text="Pick-up guide for item of BigWheel"/>
+<TEXT ID="2000000027" Text="Item from BigWheel has been delivered to you. "/>
+<TEXT ID="2000000028" Text="You have obtained item as reward of event. "/>
+<TEXT ID="2000000029" Text="You have obtained item as reward of OX quiz."/>
+<TEXT ID="2000000030" Text="You have obtained item as reward of coupon event. "/>
+<TEXT ID="2000000031" Text="You have obtained item as reward of cash item event. "/>
+<TEXT ID="2000000032" Text="ZZ shop Costume Mixboard Manager"/>
+<TEXT ID="2000000033" Text="Costume Mix Result"/>
+<TEXT ID="2000000034" Text="Mixed costume item will be mailed to your mail box if you do not have space in your inventory or logged out unexpectedly."/>
+<TEXT ID="2000000035" Text="Return of MyHome Apartment"/>
+<TEXT ID="2000000036" Text="Hello, This is a notice from MyHome Manager. 
+MyHome APT has been returned without any problem. 
+Your furnitures will be mailed back to you. 
+Wallpaper, Tile, Expansion item, Guest book and Guest history will be either deleted or initialized. 
+Please come"/>
+<TEXT ID="2000000100" Text="Tournament Rewards"/>
+<TEXT ID="2000000102" Text="Quarter Final"/>
+<TEXT ID="2000000103" Text="Semi-Final"/>
+<TEXT ID="2000000104" Text="2nd Place"/>
+<TEXT ID="2000000105" Text="Champion"/>
+<TEXT ID="2000000106" Text="1 star Emporia"/>
+<TEXT ID="2000000107" Text="2 star Emporia"/>
+<TEXT ID="2000000108" Text="Emporia Manager"/>
+<TEXT ID="2000000109" Text="Congratulation! As #GRADE# tournament rewards, #ITEMNAME# has been given to you. You can use rewards for #LIMITDAY# days and it will be automatically disappeared after that.  "/>
+<TEXT ID="1029641" Text="Nicola&#39;s Laboratory"/>
+<TEXT ID="1318210" Text="Gear Up Event Manager
+&#60;Jennifer&#62;"/>
+<TEXT ID="1028238" Text="Octoberfest girl" />
+<!--<TEXT ID="1028238" Text="&#60;CHN Event NPC&#62;"/>-->
+<TEXT ID="2028284" Text="Baker &#xA;&lt;Karl&gt;" />
+<TEXT ID="2028820" Text="Manager &lt;August&gt;" />
+<TEXT ID="2029260" Text="Butcher &#xA;&lt;Sanders&gt;" />
+<TEXT ID="2018202" Text="Brewmaster &#xA;&lt;Waltzen&gt;" />
+<TEXT ID="2028149" Text="Manager daugther &#xA;&lt;Li-Ly&gt;" />
+<TEXT ID="2028150" Text="Trade Merchant
+&#60;Jennifer&#62;"/>
+<TEXT ID="2028160" Text="Equipment Merchant
+&#60;Oswald&#62;"/>
+<TEXT ID="2028170" Text="Soulsmith
+&#60;Angus&#62;"/>
+<TEXT ID="2028180" Text="Warrior Commander
+&#60;Adrian&#62;"/>
+<TEXT ID="2028190" Text="Guard
+&#60;Brooks&#62;"/>
+<TEXT ID="2028200" Text="Warrior
+&#60;Gabriel&#62;"/>
+<TEXT ID="2028210" Text="Guard Captain
+&#60;Hubert&#62;"/>
+<TEXT ID="2028220" Text="Scout
+&#60;Isla&#62;"/>
+<TEXT ID="2028230" Text="Guard
+&#60;Michael&#62;"/>
+<TEXT ID="2028240" Text="Warrior
+&#60;Valgon&#62;"/>
+<TEXT ID="2028261" Text="Помощник распорядителя &#xA;&lt;Луноликий&gt;" />
+<TEXT ID="2028262" Text="Торговец ёлками &#xA;&lt;Аделио&gt;" />
+<TEXT ID="2028263" Text="Хозяюшка &#xA;&lt;Депорт&gt;" />
+
+<TEXT ID="700002" Text="Monsters' HP Amplification (x3)" />
+<TEXT ID="700004" Text="Monsters' ATK Power Amplification (x3)" />
+<TEXT ID="700005" Text="Hydra" />
+<TEXT ID="700012" Text="Monsters' HP Amplification (x3)" />
+<TEXT ID="700013" Text="Monsters' ATK Power Amplification (x3)" />
+<TEXT ID="700014" Text="After death, the monster will spawn 3 of its clones" />
+<TEXT ID="2028264" Text="Mysterious Snail" />
+</STRING_TABLE_LOCAL>

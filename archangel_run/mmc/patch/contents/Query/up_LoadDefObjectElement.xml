@@ -1,0 +1,7 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefObjectElement.csv">
+	<COLUMN NAME="ElementNo" TYPE="INT"/>
+	<COLUMN NAME="ObjectNo" TYPE="INT"/>
+	<COLUMN NAME="RelativeX" TYPE="REAL"/>
+	<COLUMN NAME="RelativeY" TYPE="REAL"/>
+	<COLUMN NAME="RelativeZ" TYPE="REAL"/>
+</QUERY>

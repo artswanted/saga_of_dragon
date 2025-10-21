@@ -1,0 +1,5 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefTacticsLevel.csv">
+    <COLUMN NAME="TacticsLevel" TYPE="SMALLINT"/>
+    <COLUMN NAME="Exp" TYPE="BIGINT"/>
+    <COLUMN NAME="TacticsLevelTextID" TYPE="INT"/>
+</QUERY>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+	<LOG>
+		<FOLDER TYPE="string"> e:\ </FOLDER>
+		<WRITE TYPE="INT"> 0 </WRITE>
+		<LEVEL TYPE="INT">  0 </LEVEL>
+	</LOG>
+	<GSM>
+		<GAMEID TYPE="INT"> 36 </GAMEID>
+		<SERVERID TYPE="INT"> 2 </SERVERID>
+		<ADDR TYPE="string"> 222.231.10.232 </ADDR>
+		<PORT TYPE="int"> 10063 </PORT>
+		<SOCKET TYPE="int"> 10 </SOCKET>
+		<CIPHER TYPE="int"> 0 </CIPHER>
+		<VERSION TYPE="int"> 20070405 </VERSION>
+		<RECONNECTTIME TYPE="int"> 20 </RECONNECTTIME>
+	</GSM>
+</CONFIG>

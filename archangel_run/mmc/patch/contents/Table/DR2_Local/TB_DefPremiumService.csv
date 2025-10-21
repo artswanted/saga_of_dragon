@@ -1,0 +1,12 @@
+ServiceNo,Title,ServiceType,Grade,Memo,UseDate,Article01,Article02,Article03,Article04,Article05,Article06,Article07,Article08,Article09,Article10,Article11,Article12,Article13,Article14,Article15,Article16,Article17,Article18,Article19,Article20,Article21,Article22,Article23,Article24,Article25,Article26,Article27,Article28,Article29,Article30
+1,Premium bronze - 3 day,0,2,Premium bronze - 3 day,3,1,305,402,601,1101,0,1202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,Premium bronze - 7 day,0,2,Premium bronze - 7 day,7,2,307,403,601,1102,0,1202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Premium bronze - 30 day,0,2,Premium bronze - 30 day,30,4,309,404,601,1103,0,1202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Premium silver - 3 day,0,1,Premium silver - 3 day,3,2,303,403,601,701,801,1202,1105,902,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Premium silver - 7 day,0,1,Premium silver - 7 day,7,2,303,403,601,701,801,1202,1105,902,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Premium silver - 30 day,0,1,Premium silver - 30 day,30,2,303,403,601,701,801,1202,1105,902,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Premium gold - 3 day,0,0,Premium gold - 3 day,3,5,305,0,601,0,803,1202,1110,903,1201,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Premium gold - 7 day,0,0,Premium gold - 7 day,7,5,305,0,601,0,803,1202,1110,903,1201,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Premium gold - 30 day,0,0,Premium gold - 30 day,30,5,305,0,601,0,803,1202,1110,903,1201,104,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Premium gold - 60 day,0,0,Premium gold - 60 day,60,5,306,0,601,0,803,1202,1110,903,1201,104,203,403,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,Premium gold - 180 day,0,0,Premium gold - 180 day,180,5,306,0,601,0,803,1202,1110,903,1201,104,203,405,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

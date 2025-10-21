@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!--참고-->
+<!-- 해당 날짜와 시간이 아니면 퀘스트 완료수가 카운터 되지 않음-->	
+<!-- 
+		<NOTICE_TICK_SEC>300000</NOTICE_TICK_SEC> : 알리미 타임		
+알리미 타임-->
+
+
+<!-- 2012년 크리스마스 협동퀘스트 -->
+<!-- 일촉즉발! 루돌플 변신?(297)
+[내용]
+산타가 나눠준 산타의 선물 상자를 얼음의 성 몬스터에게서 되찾아서 루돌프에게 가져가자!
+[필요아이템]
+160029700 	산타의 선물 상자
+[Effect]
+3시간동안 유지됨.
+아이템수량	효과 번호	효과설명
+50	3001301	몬스터가 드롭하는 아이템의 발생확률이 10% 상승합니다.( 10% 확률로 한번 더 아이템을 드롭합니다. 각 미션의 디펜스모드(F6)에서 희귀 몬스터가 드롭하는 악세사리에도 적용됩니다.)
+100	3001303	몬스터가 드롭하는 아이템의 발생확률이 30% 상승합니다.( 30% 확률로 한번 더 아이템을 드롭합니다. 각 미션의 디펜스모드(F6)에서 희귀 몬스터가 드롭하는 악세사리에도 적용됩니다.)
+200	3001304	몬스터가 드롭하는 아이템의 발생확률이 50% 상승합니다.( 50% 확률로 한번 더 아이템을 드롭합니다. 각 미션의 디펜스모드(F6)에서 희귀 몬스터가 드롭하는 악세사리에도 적용됩니다.)
+-->
+
+
+		<REALM_QUEST KEY="297">
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 00:00:01 </START_TIME>
+			<END_TIME> 10:50:00 </END_TIME>
+			
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 11:00:01 </START_TIME>
+			<END_TIME> 11:50:00 </END_TIME>
+
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 12:00:01 </START_TIME>
+			<END_TIME> 12:50:00 </END_TIME>
+			
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 13:00:01 </START_TIME>
+			<END_TIME> 13:50:00 </END_TIME>
+			
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 14:00:01 </START_TIME>
+			<END_TIME> 14:50:00 </END_TIME>
+
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 15:00:01 </START_TIME>
+			<END_TIME> 15:50:00 </END_TIME>
+
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 16:00:01 </START_TIME>
+			<END_TIME> 16:50:00 </END_TIME>
+
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 17:00:01 </START_TIME>
+			<END_TIME> 17:50:00 </END_TIME>
+
+			<START_DATE> 2012-11-01</START_DATE>
+			<END_DATE> 2013-01-01</END_DATE>
+			<START_TIME> 18:00:01 </START_TIME>
+			<END_TIME> 18:50:00 </END_TIME>
+
+
+			<REWARD COUNT="1">
+				<BUFF>3001301</BUFF>
+			</REWARD>
+			<REWARD COUNT="2">
+				<BUFF>3001303</BUFF>
+			</REWARD>
+			<REWARD COUNT="4">
+				<BUFF>3001304</BUFF>
+			</REWARD>
+
+
+			<NOTICE_TICK_SEC>300000</NOTICE_TICK_SEC>
+
+
+		</REALM_QUEST>
+
+
+	<!-- SNOW 타임 -->	
+	<DICE_EVENT>
+		<START_DATE> 2020-11-01</START_DATE>
+		<END_DATE> 2021-01-12</END_DATE>
+		<START_TIME> 00:00:01 </START_TIME>
+		<END_TIME> 23:59:00 </END_TIME>
+		<DICE MIN="1" MAX="3" HIT="2" MAX_FAIL="2" TICK="1800000"/>
+		<BUFF> 430101 </BUFF>
+		<BUFF> 430201 </BUFF>
+		<BUFF> 430301 </BUFF>
+		<BUFF> 430401 </BUFF>
+		<BUFF> 430501 </BUFF>
+		<BUFF> 430601 </BUFF>
+		<BUFF> 430701 </BUFF>
+		<BUFF> 430801 </BUFF>
+		<WORLD_ENV_STATUS DURATION_SEC="1800"> SNOW </WORLD_ENV_STATUS>
+	</DICE_EVENT>
+	
+	<!-- SAKURA 타임
+		<DICE_EVENT>
+		<START_DATE> 2011-11-10</START_DATE>
+		<END_DATE> 2011-12-31</END_DATE>
+		<START_TIME> 00:00:01 </START_TIME>
+		<END_TIME> 23:59:00 </END_TIME>
+		<DICE MIN="1" MAX="2" HIT="2" MAX_FAIL="2" TICK="1800000"/>
+		<BUFF> 430101 </BUFF>
+		<BUFF> 430201 </BUFF>
+		<BUFF> 430301 </BUFF>
+		<BUFF> 430401 </BUFF>
+		<BUFF> 430501 </BUFF>
+		<BUFF> 430601 </BUFF>
+		<BUFF> 430701 </BUFF>
+		<BUFF> 430801 </BUFF>
+		<WORLD_ENV_STATUS DURATION_SEC="1800"> SAKURA  </WORLD_ENV_STATUS>
+	</DICE_EVENT-->

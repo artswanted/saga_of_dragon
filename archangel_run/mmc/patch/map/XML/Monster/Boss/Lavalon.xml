@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<DECORATOR INIT="Init_Lavalon" ENTER="Enter_Lavalon" LEAVE="Leave_Lavalon">
+	<!-- Action Duration List -->
+	<DURATION>
+		<ACTION ID="a_lavalon_appear" DURATION="15500"/>
+		<ACTION ID="a_lavalon_die" DURATION="10000"/>
+		<ACTION ID="a_lavalon_dmg_01" DURATION="3500"/>
+		<ACTION ID="a_lavalon_breath_c" DURATION="9300"/>
+		<ACTION ID="a_lavalon_breath_l" DURATION="7300"/>
+		<ACTION ID="a_lavalon_breath_r" DURATION="7300"/>
+		<ACTION ID="a_lavalon_blaze" DURATION="6820"/>
+		<ACTION ID="a_lavalon_powerbreak" DURATION="7500"/>
+		<ACTION ID="a_lavalon_idle" DURATION="1000"/>
+	</DURATION>
+
+	<!-- Reserved Actor Slot -->
+	<ACTOR SCRIPT="Decorator_Actor_Register_Script">
+		<SLOT ID="BOSS"/>
+	</ACTOR>
+
+	<!-- Begin Stage , Level은 반드시 0부터 시작하자. -->
+	<STAGE LEVEL="0" SCRIPT="Stage_Lavalon_Level0">
+		<ACTION ID="a_lavalon_appear" EXPLICIT="TRUE" SCRIPT="Act_Lavalon_Appear" WEIGHT="1" ACTOR="BOSS"/>
+	</STAGE>
+
+	<STAGE LEVEL="1" SCRIPT="Stage_Lavalon_Level1" LAST_LEVEL="TRUE">
+		<ACTION ID="a_lavalon_powerbreak" EXPLICIT="TRUE" SCRIPT="Act_Lavalon_Powerbreak" WEIGHT="0.5" ACTOR="BOSS" OVERRIDE="PACKET"/>
+		<ACTION ID="a_lavalon_dmg_01" EXPLICIT="TRUE" SCRIPT="Act_Lavalon_Damage" WEIGHT="1" ACTOR="BOSS"/>
+		<ACTION ID="a_lavalon_die" EXPLICIT="TRUE" SCRIPT="Act_Lavalon_Die" WEIGHT="1" ACTOR="BOSS"/>
+
+		<!--ACTION ID="a_lavalon_idle" SCRIPT="Act_Lavalon_Idle" WEIGHT="1" ACTOR="BOSS"/-->
+		<ACTION ID="a_lavalon_breath_c" SCRIPT="Act_Lavalon_Breath_Center" WEIGHT="1" ACTOR="BOSS"/>
+		<ACTION ID="a_lavalon_breath_l" SCRIPT="Act_Lavalon_Breath_Left" WEIGHT="0.5" ACTOR="BOSS"/>
+		<ACTION ID="a_lavalon_breath_r" SCRIPT="Act_Lavalon_Breath_Right" WEIGHT="0.5" ACTOR="BOSS"/>>
+		<ACTION ID="a_lavalon_blaze" SCRIPT="Act_Lavalon_Blaze" WEIGHT="0.5" ACTOR="BOSS" OVERRIDE="PACKET"/>
+	</STAGE>
+</DECORATOR>

@@ -1,0 +1,16 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefItemPlusUpgrade.csv">
+    <COLUMN NAME="NationCodeStr" TYPE="WSTRING"/>
+    <COLUMN NAME="EquipPos" TYPE="int"/>
+    <COLUMN NAME="PlusLevel" TYPE="int"/>
+    <COLUMN NAME="SuccessRate" TYPE="int"/>
+    <COLUMN NAME="SuccessRateBonus" TYPE="int"/>
+    <COLUMN NAME="NeedMoney" TYPE="int"/>
+    <COLUMN NAME="RareGroupNo" TYPE="int"/>
+    <COLUMN NAME="RareGroupSuccessRate" TYPE="int"/>
+    <COLUMN NAME="NeedItemNo01" TYPE="int"/>
+    <COLUMN NAME="NeedItemCount01" TYPE="smallint"/>
+    <COLUMN NAME="NeedItemNo02" TYPE="int"/>
+    <COLUMN NAME="NeedItemCount02" TYPE="smallint"/>
+    <COLUMN NAME="NeedItemNo03" TYPE="int"/>
+    <COLUMN NAME="NeedItemCount03" TYPE="smallint"/>
+</QUERY>

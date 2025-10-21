@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <accountLogin>
+    <username><![CDATA[%ID%]]></username>
+    <password>%PW%</password>
+    <remote_addr>211.232.145.162</remote_addr>
+  </accountLogin>
+</xml>

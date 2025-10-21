@@ -1,0 +1,23 @@
+<FREE_PVP>
+	<ITEMS>
+		<GRADE_RATE NO="0" RATE="1.0"/><!-- Normarl -->
+		<GRADE_RATE NO="1" RATE="1.2"/><!-- Rare -->
+		<GRADE_RATE NO="2" RATE="1.4"/><!-- Unique -->
+		<GRADE_RATE NO="3" RATE="1.6"/><!-- Artifact -->
+		<GRADE_RATE NO="4" RATE="2.0"/><!-- Legend -->
+		<ITEM_TYPE_POINT NO="1" POINT="10"/> <!-- unknown ?? -->
+		<ITEM_TYPE_POINT NO="2" POINT="50"/> <!-- equip item -->
+		<ITEM_TYPE_POINT NO="4" POINT="30"/> <!-- consume -->
+		<ITEM_TYPE_POINT NO="8" POINT="10"/> <!-- etc item -->
+		<ITEM_TYPE_POINT NO="16" POINT="10"/> <!-- quest item -->
+		<ITEM_TYPE_POINT NO="32" POINT="70"/> <!-- cash item -->
+		<ITEM_TYPE_POINT NO="64" POINT="200"/> <!-- enchant item -->
+		<ITEM_TYPE_POINT NO="128" POINT="100"/> <!-- matirial item -->
+		<ITEM_TYPE_POINT NO="256" POINT="100"/> <!-- cook item -->
+		<ITEM_TYPE_POINT NO="512" POINT="200"/> <!-- pet item -->
+		<ITEM_TYPE_POINT NO="1024" POINT="200"/> <!-- My home internal item -->
+		<ITEM_TYPE_POINT NO="2048" POINT="30"/> <!-- Event item -->
+		<ITEM_TYPE_POINT NO="4096" POINT="100"/> <!-- nature item -->
+		<ITEM_TYPE_POINT NO="8192" POINT="200"/> <!-- My home outdoor item -->
+	</ITEMS>
+</FREE_PVP>

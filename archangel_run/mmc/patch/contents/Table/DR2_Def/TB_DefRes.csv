@@ -1,0 +1,1306 @@
+ResNo,Memo,IconPath,XmlPath,U,V,UVIndex,AddResNo1,AddResNo2,AddResNo3
+0,.,../Data/6_UI/icon/IconEtc04.tga,.,12,12,72,0,0,0
+27,드랍박스,.,Object\dropbox.xml,1,1,1,0,0,0
+31,기초스킬세트1,../Data/6_UI/skill/skSetIcon2.tga,.,2,1,1,0,0,0
+32,기초스킬세트2,../Data/6_UI/skill/skSetIcon2.tga,.,2,1,2,0,0,0
+41,스킬세트1,../Data/6_UI/skill/skSetIcon.tga,.,2,3,1,0,0,0
+42,스킬세트2,../Data/6_UI/skill/skSetIcon.tga,.,2,3,3,0,0,0
+43,스킬세트3,../Data/6_UI/skill/skSetIcon.tga,.,2,3,5,0,0,0
+44,스킬세트4,../Data/6_UI/skill/skSetIcon.tga,.,2,3,2,0,0,0
+45,스킬세트5,../Data/6_UI/skill/skSetIcon.tga,.,2,3,4,0,0,0
+46,스킬세트6,../Data/6_UI/skill/skSetIcon.tga,.,2,3,6,0,0,0
+51,점프,../Data/6_UI/icon/IconSkill3.tga,.,12,12,45,0,0,0
+1001,키셋팅 아이콘용1,../Data/6_UI/key/keyMoveB01.tga,.,1,1,1,0,0,0
+1002,키셋팅 아이콘용2,../Data/6_UI/key/keyMoveB02.tga,.,1,1,1,0,0,0
+1003,키셋팅 아이콘용3,../Data/6_UI/key/keyMoveB03.tga,.,1,1,1,0,0,0
+1004,키셋팅 아이콘용4,../Data/6_UI/key/keyMoveB04.tga,.,1,1,1,0,0,0
+1005,퀘스트마크,../Data/6_ui/Icon/IconType.tga,.,12,12,1,0,0,0
+11001,경험치 증가 패널티,../Data/6_UI/mission/msPntyIcon.tga,.,1,1,1,0,0,0
+60001,최대HP 25% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,53,0,0,0
+60002,물리/마법 방어력 20% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,57,0,0,0
+60003,최대HP 50% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,54,0,0,0
+60004,물리/마법 방어력 20% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,58,0,0,0
+60005,최대HP 75% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,55,0,0,0
+60006,물리/마법 방어력 30% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,59,0,0,0
+60007,최대HP 100% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,56,0,0,0
+60008,물리/마법 방어력 40% 증가,../Data/6_UI/icon/skillbuff04.tga,.,8,8,60,0,0,0
+290010,PVP 버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,55,0,0,0
+300101,화학독 방지 버프,../Data/6_UI/icon/skillbuff01.tga,.,8,8,7,0,0,0
+303001,북미 이벤트 햄버거,../Data/6_UI/icon/skillbuff02.tga,.,8,8,54,0,0,0
+303101,북미 이벤트 핫도그,../Data/6_UI/icon/skillbuff02.tga,.,8,8,55,0,0,0
+303201,호수신의 은도끼,../Data/6_UI/icon/skillbuff02.tga,.,8,8,58,0,0,0
+303901,쿨타임 1분 감소 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,4,0,0,0
+304001,쿨타임 3분 감소 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,4,0,0,0
+304101,쿨타임 5분 감소 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,4,0,0,0
+304201,떠돌이 상인 소환권,../Data/6_UI/icon/skillbuff03.tga,.,8,8,61,0,0,0
+304301,금고 소환권,../Data/6_UI/icon/skillbuff03.tga,.,8,8,62,0,0,0
+304401,공격속도 향상 물약(소),../Data/6_UI/icon/skillbuff03.tga,.,8,8,58,0,0,0
+304501,공격속도 향상 물약(중),../Data/6_UI/icon/skillbuff03.tga,.,8,8,59,0,0,0
+304601,공격속도 향상 물약(대),../Data/6_UI/icon/skillbuff03.tga,.,8,8,60,0,0,0
+305201,5% 스톤 스킨 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,52,0,0,0
+305301,10% 스톤 스킨 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,53,0,0,0
+305401,15% 스톤 스킨 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,54,0,0,0
+305501,5% 배리어 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,55,0,0,0
+305601,10% 배리어 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,56,0,0,0
+305701,15% 배리어 물약,../Data/6_UI/icon/skillbuff03.tga,.,8,8,57,0,0,0
+305801,무기 착용 -5 레벨 감소,../Data/6_UI/icon/skillbuff03.tga,.,8,8,63,0,0,0
+305901,방어구 착용 -5레벨 감소,../Data/6_UI/icon/skillbuff03.tga,.,8,8,64,0,0,0
+306001,악세서리 착용 -5레벨 감소,../Data/6_UI/icon/skillbuff04.tga,.,8,8,65,0,0,0
+306401,쿨타임 1분 초기화 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,3,0,0,0
+306501,쿨타임 3분 초기화 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,3,0,0,0
+306601,쿨타임 5분 초기화 유지 물약,../Data/6_UI/icon/skillbuff04.tga,.,8,8,3,0,0,0
+306701,이동속도 향상물약(마을전용),../Data/6_UI/icon/skillbuff04.tga,.,8,8,22,0,0,0
+306801,이동속도 향상물약(소),../Data/6_UI/icon/skillbuff04.tga,.,8,8,23,0,0,0
+306901,이동속도 향상물약(중),../Data/6_UI/icon/skillbuff04.tga,.,8,8,23,0,0,0
+307001,이동속도 향상물약(대),../Data/6_UI/icon/skillbuff04.tga,.,8,8,23,0,0,0
+307101,최대 HP 10% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,25,0,0,0
+307201,최대 MP 10% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,25,0,0,0
+307301,STR 15% 증가 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,34,0,0,0
+307401,INT 15% 증가 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,35,0,0,0
+307501,CON 15% 증가 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,36,0,0,0
+307601,DEX 15% 증가 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,37,0,0,0
+307701,이동속도 10% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,36,0,0,0
+307801,공격속도 10% 증가 ,../Data/6_UI/icon/skillbuff11.tga,.,8,8,23,0,0,0
+307901,회피율 +20 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,20,0,0,0
+308001,치명타 확률 20% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+308101,치명타 공격력 20% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,17,0,0,0
+308201,HP 회복속도 25% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,56,0,0,0
+308301,MP 회복속도 25% 증가 ,../Data/6_UI/icon/skillbuff01.tga,.,8,8,55,0,0,0
+308401,경험치 10% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,3,0,0,0
+308501,대어를 잡자,../Data/6_UI/icon/skillbuff04.tga,.,8,8,62,0,0,0
+308601,편안한 흔들의자,../Data/6_UI/icon/skillbuff04.tga,.,8,8,63,0,0,0
+308701,공중부양,../Data/6_UI/icon/skillbuff04.tga,.,8,8,61,0,0,0
+308900,[라그나로크] 차원저항 디버프 - 효과,../Data/6_UI/icon/skillbuff06.tga,.,8,8,56,0,0,0
+309000,[라그나로크] 차원저항 해제,../Data/6_UI/icon/skillbuff06.tga,.,8,8,57,0,0,0
+309200,[라그나로크] 결계저항(글레스트헤임) 디버프 - 효과,../Data/6_UI/icon/skillbuff06.tga,.,8,8,58,0,0,0
+309300,[라그나로크] 결계저항(글레스트헤임) 해제,../Data/6_UI/icon/skillbuff06.tga,.,8,8,59,0,0,0
+400001,요리에 의한 버프,../Data/6_UI/icon/skillbuff01.tga,.,8,8,55,0,0,0
+401801,경험치 증가 100%,../Data/6_UI/icon/skillbuff02.tga,.,8,8,50,0,0,0
+401901,획득 머니량 증가 100%,../Data/6_UI/icon/skillbuff02.tga,.,8,8,9,0,0,0
+403401,점프 강제 금지,../Data/6_UI/icon/skillbuff02.tga,.,8,8,39,0,0,0
+403501,대쉬 강제 금지,../Data/6_UI/icon/skillbuff02.tga,.,8,8,40,0,0,0
+406901,잭의 완두콩,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,1,0,0,0
+407001,우정무가,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,2,0,0,0
+407301,무적침통,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,3,0,0,0
+407401,명중만점,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,4,0,0,0
+407701,이탈리아,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,5,0,0,0
+407801,푸른소변신,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,6,0,0,0
+407901,나비,../Data/6_UI/icon/skillbuff01_tw.tga,.,8,8,7,0,0,0
+408201,드래곤 로드의 축복,../Data/6_UI/icon/skillbuff02.tga,.,8,8,56,0,0,0
+408301,가토의 회복속도 증가 포션,../Data/6_UI/icon/skillbuff02.tga,.,8,8,57,0,0,0
+408401,경험치 50% UP 포션 (1시간),../Data/6_UI/icon/skillbuff02.tga,.,8,8,59,0,0,0
+408501,경험치 더블UP 증가 포션 (1시간),../Data/6_UI/icon/skillbuff02.tga,.,8,8,61,0,0,0
+408601,경험치 50% UP 포션 (1일) ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,60,0,0,0
+408701,경험치 더블UP 증가 포션 (1일),../Data/6_UI/icon/skillbuff02.tga,.,8,8,62,0,0,0
+408801,경험치 1.5배 증가 포션 (오전),../Data/6_UI/icon/skillbuff02.tga,.,8,8,63,0,0,0
+408901,경험치 1.5배 증가 포션 (오후),../Data/6_UI/icon/skillbuff02.tga,.,8,8,64,0,0,0
+409001,경험치 1.5배 증가 포션 (저녁),../Data/6_UI/icon/skillbuff03.tga,.,8,8,1,0,0,0
+409101,경험치 1.5배 증가 포션 (밤),../Data/6_UI/icon/skillbuff03.tga,.,8,8,2,0,0,0
+409201,10% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,3,0,0,0
+409301,20% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,4,0,0,0
+409401,30% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,5,0,0,0
+409501,40% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,6,0,0,0
+409601,50% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,7,0,0,0
+409701,60% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,8,0,0,0
+409801,70% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,9,0,0,0
+409901,80% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,10,0,0,0
+410001,90% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,11,0,0,0
+410101,Double EXP Potion,../Data/6_UI/icon/skillbuff02.tga,.,8,8,50,0,0,0
+410201,Mini 10% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,13,0,0,0
+410301,Mini 20% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,14,0,0,0
+410401,Mini 30% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,15,0,0,0
+410501,Mini 40% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,16,0,0,0
+410601,Mini 50% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,17,0,0,0
+410701,Mini 60% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,18,0,0,0
+410801,Mini 70% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,19,0,0,0
+410901,Mini 80% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,20,0,0,0
+411001,Mini 90% EXP Potion,../Data/6_UI/icon/skillbuff03.tga,.,8,8,21,0,0,0
+411101,Mini Double EXP Potion,../Data/6_UI/icon/skillbuff02.tga,.,8,8,50,0,0,0
+411201,경험치 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,27,0,0,0
+411202,경험치 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,27,0,0,0
+411203,경험치 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,27,0,0,0
+411204,경험치 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,27,0,0,0
+411205,경험치 10% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,27,0,0,0
+411206,드래곤 로드의 축복,../Data/6_UI/icon/skillbuff02.tga,.,8,8,56,0,0,0
+411217,경험치 5% 증가(채널),../Data/6_UI/icon/skillbuff04.tga,.,8,8,33,0,0,0
+411219,경험치 20% 증가(채널),../Data/6_UI/icon/skillbuff04.tga,.,8,8,13,0,0,0
+411220,경험치 50% 증가(2등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,44,0,0,0
+411221,경험치 100% 증가(3등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,45,0,0,0
+411222,경험치 150% 증가(4등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+411223,경험치 200% 증가(5등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,47,0,0,0
+411224,경험치 250% 증가(6등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,48,0,0,0
+411225,경험치 300% 증가(7등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,49,0,0,0
+411226,경험치 350% 증가(8등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,50,0,0,0
+411227,경험치 15% 증가(채널),../Data/6_UI/icon/skillbuff04.tga,.,8,8,64,0,0,0
+411228,경험치 30% 증가(채널),../Data/6_UI/icon/skillbuff03.tga,.,8,8,5,0,0,0
+411250,경험치 20% 증가(피씨방),../Data/6_UI/icon/skillbuff05.tga,.,8,8,36,0,0,0
+411301,회피율 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,28,0,0,0
+411302,회피율 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,28,0,0,0
+411303,회피율 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,28,0,0,0
+411304,회피율 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,28,0,0,0
+411401,공격속도 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,29,0,0,0
+411402,공격속도 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,29,0,0,0
+411403,공격속도 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,29,0,0,0
+411404,공격속도 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,29,0,0,0
+411501,마법 방어력 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,30,0,0,0
+411502,마법 방어력 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,30,0,0,0
+411503,마법 방어력 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,30,0,0,0
+411504,마법 방어력 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,30,0,0,0
+411601,마법 공격력 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,31,0,0,0
+411602,마법 공격력 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,31,0,0,0
+411603,마법 공격력 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,31,0,0,0
+411604,마법 공격력 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,31,0,0,0
+411701,MP 회복속도 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,32,0,0,0
+411702,MP 회복속도 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,32,0,0,0
+411703,MP 회복속도 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,32,0,0,0
+411704,MP 회복속도 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,32,0,0,0
+411705,MP 회복속도 10% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,32,0,0,0
+411801,명중률 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,33,0,0,0
+411802,명중률 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,33,0,0,0
+411803,명중률 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,33,0,0,0
+411804,명중률 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,33,0,0,0
+411901,이동속도 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,34,0,0,0
+411902,이동속도 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,34,0,0,0
+411903,이동속도 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,34,0,0,0
+411904,이동속도 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,34,0,0,0
+412001,HP 회복속도 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,35,0,0,0
+412002,HP 회복속도 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,35,0,0,0
+412003,HP 회복속도 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,35,0,0,0
+412004,HP 회복속도 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,35,0,0,0
+412101,치명타 확률 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,36,0,0,0
+412102,치명타 확률 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,36,0,0,0
+412103,치명타 확률 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,36,0,0,0
+412104,치명타 확률 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,36,0,0,0
+412201,데미지 감소 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,37,0,0,0
+412202,데미지 감소 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,37,0,0,0
+412203,데미지 감소 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,37,0,0,0
+412204,데미지 감소 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,37,0,0,0
+412301,물리 공격력 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,38,0,0,0
+412302,물리 공격력 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,38,0,0,0
+412303,물리 공격력 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,38,0,0,0
+412304,물리 공격력 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,38,0,0,0
+412305,물리 공격력 10% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,38,0,0,0
+412401,물리 방어력 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,39,0,0,0
+412402,물리 방어력 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,39,0,0,0
+412403,물리 방어력 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,39,0,0,0
+412404,물리 방어력 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,39,0,0,0
+412501,블록율 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,40,0,0,0
+412502,블록율 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,40,0,0,0
+412503,블록율 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,40,0,0,0
+412504,블록율 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,40,0,0,0
+412601,최대 HP 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,41,0,0,0
+412602,최대 HP 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,41,0,0,0
+412603,최대 HP 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,41,0,0,0
+412604,최대 HP 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,41,0,0,0
+412701,최대 MP 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,42,0,0,0
+412702,최대 MP 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,42,0,0,0
+412703,최대 MP 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,42,0,0,0
+412704,최대 MP 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,42,0,0,0
+412801,치명타 공격력 2% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,43,0,0,0
+412802,치명타 공격력 3% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,43,0,0,0
+412803,치명타 공격력 4% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,43,0,0,0
+412804,치명타 공격력 5% 증가,../Data/6_UI/icon/skillbuff03.tga,.,8,8,43,0,0,0
+412901,경험치 50% 증가(2등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,44,0,0,0
+412902,경험치 80% 증가(3등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,45,0,0,0
+412903,경험치 100% 증가(4등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+412904,경험치 100% 증가(5등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+412905,경험치 100% 증가(6등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+412906,경험치 100% 증가(7등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+412907,경험치 100% 증가(8등 캐릭터 보상),../Data/6_UI/icon/skillbuff04.tga,.,8,8,46,0,0,0
+418001,경험치 2배 증가 포션 (오전),../Data/6_UI/icon/skillbuff03.tga,.,8,8,23,0,0,0
+418101,경험치 2배 증가 포션 (오후),../Data/6_UI/icon/skillbuff03.tga,.,8,8,24,0,0,0
+418201,경험치 2배 증가 포션 (저녁),../Data/6_UI/icon/skillbuff03.tga,.,8,8,25,0,0,0
+418301,경험치 2배 증가 포션 (밤),../Data/6_UI/icon/skillbuff03.tga,.,8,8,26,0,0,0
+418401,경험치 1.2배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,42,0,0,0
+418501,경험치 1.3배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,43,0,0,0
+418601,경험치 1.6배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,46,0,0,0
+418701,경험치 1.9배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,49,0,0,0
+419001,유자열매,../Data/6_UI/icon/skillbuff03.tga,.,8,8,47,0,0,0
+419101,흰색 월병,../Data/6_UI/icon/skillbuff03.tga,.,8,8,48,0,0,0
+419201,붉은색 월병,../Data/6_UI/icon/skillbuff03.tga,.,8,8,49,0,0,0
+419301,노랑색 월병,../Data/6_UI/icon/skillbuff03.tga,.,8,8,50,0,0,0
+419401,녹색 월병,../Data/6_UI/icon/skillbuff03.tga,.,8,8,51,0,0,0
+419501,유령 화이트 초코렛(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,5,0,0,0
+419601,마녀모자 초코렛(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,6,0,0,0
+419701,호박 쿠키(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,7,0,0,0
+419801,호박 머핀(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,8,0,0,0
+419901,알록달록한 사탕 (버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,9,0,0,0
+420001,호박등(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,10,0,0,0
+420101,호박젤리(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,11,0,0,0
+420201,알록달록한 초코렛(버프아이콘),../Data/6_UI/icon/skillbuff04.tga,.,8,8,12,0,0,0
+420401,크리스마스 초콜릿 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,15,0,0,0
+420501,크리스마스 방울 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,16,0,0,0
+420601,튼튼한 산타 썰매,../Data/6_UI/icon/skillbuff04.tga,.,8,8,17,0,0,0
+420701,크리스마스 원형 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,18,0,0,0
+420801,크리스마스 골든 벨,../Data/6_UI/icon/skillbuff04.tga,.,8,8,19,0,0,0
+420901,크리스마스 빨강 양초,../Data/6_UI/icon/skillbuff04.tga,.,8,8,20,0,0,0
+430101,경험치 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,8,0,0,0
+430901,경험치 증가(히든),../Data/6_UI/icon/skillbuff02.tga,.,8,8,8,0,0,0
+431001,경험치 증가(카오스),../Data/6_UI/icon/skillbuff02.tga,.,8,8,8,0,0,0
+440001,크리스마스 초콜릿 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,15,0,0,0
+440101,크리스마스 방울 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,16,0,0,0
+440201,튼튼한 산타 썰매,../Data/6_UI/icon/skillbuff04.tga,.,8,8,17,0,0,0
+440301,크리스마스 원형 장식,../Data/6_UI/icon/skillbuff04.tga,.,8,8,18,0,0,0
+440401,크리스마스 골든 벨,../Data/6_UI/icon/skillbuff04.tga,.,8,8,19,0,0,0
+440501,크리스마스 빨강 양초,../Data/6_UI/icon/skillbuff04.tga,.,8,8,20,0,0,0
+442801,경험치 3배 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,24,0,0,0
+442901,경험치 4배 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,25,0,0,0
+443001,경험치 5배 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,26,0,0,0
+443101,경험치 3배 증가 포션(2시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,27,0,0,0
+443201,경험치 4배 증가 포션(2시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,28,0,0,0
+443301,경험치 5배 증가 포션(2시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,29,0,0,0
+443401,경험치 3배 증가 포션(1일),../Data/6_UI/icon/skillbuff04.tga,.,8,8,30,0,0,0
+443501,경험치 4배 증가 포션(1일),../Data/6_UI/icon/skillbuff04.tga,.,8,8,31,0,0,0
+443601,경험치 5배 증가 포션(1일),../Data/6_UI/icon/skillbuff04.tga,.,8,8,32,0,0,0
+443701,경험치 10% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,35,0,0,0
+443801,경험치 20% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,36,0,0,0
+443901,경험치 30% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,37,0,0,0
+444001,경험치 40% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,38,0,0,0
+444101,경험치 50% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,39,0,0,0
+444201,경험치 60% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,40,0,0,0
+444301,경험치 70% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,41,0,0,0
+444401,경험치 80% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,42,0,0,0
+444501,경험치 90% 증가 포션(1시간),../Data/6_UI/icon/skillbuff04.tga,.,8,8,43,0,0,0
+444601,경험치 10% 증가(love풍선),../Data/6_UI/icon/skillbuff04.tga,.,8,8,35,0,0,0
+444701,시공간의 방패[펫] 버프,../Data/6_UI/icon/skillbuff01.tga,.,8,8,7,0,0,0
+500001,전사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,3,0,0,0
+500101,매지션 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,4,0,0,0
+500201,궁수 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,5,0,0,0
+500301,도둑 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+500401,기사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,3,0,0,0
+500501,투사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,3,0,0,0
+500601,메이지 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,4,0,0,0
+500701,전투마법사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,4,0,0,0
+500801,사냥꾼 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,5,0,0,0
+500901,레인저 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,5,0,0,0
+501001,광대 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+501101,암살자 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+501201,성기사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,3,0,0,0
+501301,검투사 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,3,0,0,0
+501401,위자드 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,4,0,0,0
+501501,워메이지 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,4,0,0,0
+501601,트랩퍼 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,5,0,0,0
+501701,저격수 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,5,0,0,0
+501801,댄서 파티버프 ,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+501901,닌자 파티버프,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+502001,샤먼 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,27,0,0,0
+502101,더블 파이터 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,28,0,0,0
+502201,소환술사 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,27,0,0,0
+502301,쌍둥이 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,28,0,0,0
+502401,비스트 마스터 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,27,0,0,0
+502501,미라지 파티버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,28,0,0,0
+504101,PC방 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,58,0,0,0
+530901,쇠약 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,78,0,0,0
+530902,쇠약 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,61,0,0,0
+531001,관통 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,79,0,0,0
+531002,관통 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,24,0,0,0
+531101,보호 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,80,0,0,0
+531102,보호 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,63,0,0,0
+531201,축복 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,81,0,0,0
+531202,축복 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,64,0,0,0
+531301,필생 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,82,0,0,0
+531302,필생 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,1,0,0,0
+531401,중첩 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,83,0,0,0
+531402,중첩 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,2,0,0,0
+531501,명중 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,84,0,0,0
+531502,명중 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,3,0,0,0
+531601,마력 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,85,0,0,0
+531602,마력 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,4,0,0,0
+531701,폭군 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,86,0,0,0
+531702,폭군 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,5,0,0,0
+531801,회피 스킬 아이콘,../Data/6_UI/icon/IconSkill4.tga,.,12,12,87,0,0,0
+531802,회피 버프 아이콘,../Data/6_UI/icon/skillbuff07.tga,.,8,8,6,0,0,0
+532301,제우스의 협동의 힘[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,95,0,0,0
+532302,제우스의 협동의 힘[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,15,0,0,0
+532401,아폴론의 심장[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,96,0,0,0
+532402,아폴론의 심장[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,16,0,0,0
+532501,포세이돈의 방어벽[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,97,0,0,0
+532502,포세이돈의 방어벽[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,17,0,0,0
+532601,하데스의 발걸음[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,98,0,0,0
+532602,하데스의 발걸음[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,18,0,0,0
+532701,아르테미스 신속한 움직임[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,99,0,0,0
+532702,아르테미스 신속한 움직임[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,19,0,0,0
+532801,헤파이토스 열정의 망치[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,100,0,0,0
+532802,헤파이토스 열정의 망치[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,20,0,0,0
+532901,후오 황제의 힘[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,95,0,0,0
+533001,후안 황제의 단단함[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,97,0,0,0
+533101,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533102,참치 아이템 스킬[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,19,0,0,0
+533201,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533301,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533401,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533501,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533601,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533701,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533801,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+533901,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+534001,참치 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,101,0,0,0
+534101,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534102,발바닥 아이템 스킬[버프 아이콘],../Data\6_UI\icon\skillbuff07.tga,.,8,8,22,0,0,0
+534201,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534301,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534401,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534501,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534601,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534701,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534801,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+534901,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+535001,발바닥 아이템 스킬[스킬 아이콘],../Data/6_UI/icon/IconSkill4.tga,.,12,12,102,0,0,0
+700001,대만 퀘스트 보상,../Data/6_UI/icon/skillbuff02.tga,.,8,8,6,0,0,0
+2001001,소환 UI 아이콘_미스트 ,../Data/6_UI/icon/Iconskill3.tga,.,12,12,106,0,0,0
+2002001,소환 UI 아이콘_다이어 미스트 ,../Data/6_UI/icon/Iconskill3.tga,.,12,12,106,0,0,0
+2003001,소환 UI 아이콘_다이크 ,../Data/6_UI/icon/Iconskill3.tga,.,12,12,112,0,0,0
+2004001,소환 UI 아이콘_두나믹,../Data/6_UI/icon/Iconskill3.tga,.,12,12,122,0,0,0
+2005001,소환 UI 아이콘_칼키,../Data/6_UI/icon/Iconskill3.tga,.,12,12,124,0,0,0
+2006001,소환 UI 아이콘_블레서,../Data/6_UI/icon/Iconskill3.tga,.,12,12,138,0,0,0
+2007001,소환 UI 아이콘_골곤,../Data/6_UI/icon/Iconskill3.tga,.,12,12,142,0,0,0
+2008001,소환 UI 아이콘_바위 골곤,../Data/6_UI/icon/Iconskill3.tga,.,12,12,142,0,0,0
+2009001,소환 UI 아이콘_드라군,../Data/6_UI/icon/Iconskill4.tga,.,12,12,71,0,0,0
+2405701,경험치 1.1배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,41,0,0,0
+2405801,경험치 1.2배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,42,0,0,0
+2405901,경험치 1.3배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,43,0,0,0
+2406001,경험치 1.4배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,44,0,0,0
+2406101,경험치 1.5배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,45,0,0,0
+2406201,경험치 1.6배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,46,0,0,0
+2406301,경험치 1.7배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,47,0,0,0
+2406401,경험치 1.8배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,48,0,0,0
+2406501,경험치 1.9배 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,49,0,0,0
+3000011,파렐경 독 버프,../Data/6_UI/icon/skillbuff02.tga,.,8,8,16,0,0,0
+3000601,드래곤 피어,../Data/6_UI/icon/skillbuff02.tga,.,8,8,52,0,0,0
+3001300,아이템 드롭률 상승-스킬,../Data/6_UI/icon/IconSkill4.tga,.,12,12,88,0,0,0
+3001301,아이템 드롭률 상승-이펙트,../Data/6_UI/icon/skillbuff07.tga,.,8,8,7,0,0,0
+9002010,한손검 combo_k_d / X (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002110,한손검 combo_a / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,1,0,0,0
+9002120,한손검 combo_a-2 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,15,0,0,0
+9002130,한손검 combo_a-3 / X (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,16,0,0,0
+9002140,한손검 combo_a-4 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,17,0,0,0
+9002150,한손검 combo_a-5 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,18,0,0,0
+9002160,한손검 combo_a-6 / X (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002210,한손검 combo_b / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,2,0,0,0
+9002230,한손검 combo_b-3 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,12,0,0,0
+9002240,한손검 combo_b-4 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,13,0,0,0
+9002250,한손검 combo_b-5 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,14,0,0,0
+9002310,한손검 combo_c / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,3,0,0,0
+9002340,한손검 combo_c-4 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,7,0,0,0
+9002350,한손검 combo_c-5 / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,8,0,0,0
+9002360,한손검 combo_c-6 / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,9,0,0,0
+9002410,한손검 combo_d / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,4,0,0,0
+9002450,한손검 combo_d-5 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,6,0,0,0
+9002510,한손검 combo_e / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,5,0,0,0
+9002540,한손검 combo_c-4-5 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,10,0,0,0
+9002640,한손검 combo_c-4-6 / X (1단계),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,11,0,0,0
+9002710,한손검 combo_k_a / X (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002720,한손검 combo_k_a_2 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002730,한손검 combo_k_a_3 / X (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002740,한손검 combo_k_a_4 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002810,한손검 combo_k_b / X (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002830,한손검 combo_k_b_3 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002840,한손검 combo_k_b_4 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002910,한손검 combo_k_c / X (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9002940,한손검 combo_k_c_4 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ohs01.tga,.,12,12,19,0,0,0
+9003010,양손검 combo_k_d / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,20,0,0,0
+9003110,양손검 combo_a / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,1,0,0,0
+9003120,양손검 combo_a-2 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,11,0,0,0
+9003130,양손검 combo_a-3 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,12,0,0,0
+9003140,양손검 combo_a-4 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,13,0,0,0
+9003150,양손검 combo_a-5 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,14,0,0,0
+9003210,양손검 combo_b / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,2,0,0,0
+9003230,양손검 combo_b-3 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,8,0,0,0
+9003240,양손검 combo_b-4 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,9,0,0,0
+9003250,양손검 combo_b-5 / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,10,0,0,0
+9003310,양손검 combo_c / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,3,0,0,0
+9003340,양손검 combo_c-4 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,6,0,0,0
+9003350,양손검 combo_c-5 / X (2단계) 차징준비,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003351,양손검 combo_c-5 / X (2단계) 차징공격,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003352,양손검 combo_c-5 / X (2단계) 차징공격,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003353,양손검 combo_c-5 / X (2단계) 차징공격,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003354,양손검 combo_c-5 / X (2단계) 차징공격,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003355,양손검 combo_c-5 / X (2단계) 차징공격,../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,7,0,0,0
+9003410,양손검 combo_d / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,4,0,0,0
+9003430,양손검 combo_a-3-4 / X (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,15,0,0,0
+9003450,양손검 combo_d-5 / Z (2단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,5,0,0,0
+9003530,양손검 combo_a-3-5 / Z (1단계),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,16,0,0,0
+9003710,양손검 combo_k_a / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,17,0,0,0
+9003720,양손검 combo_k_a_2 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,23,0,0,0
+9003730,양손검 combo_k_a_3 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,24,0,0,0
+9003740,양손검 combo_k_a_4 / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,25,0,0,0
+9003810,양손검 combo_k_b / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,18,0,0,0
+9003830,양손검 combo_k_b_3 / Z (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,21,0,0,0
+9003840,양손검 combo_k_b_4 / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,22,0,0,0
+9003910,양손검 combo_k_c / X (대쉬),../Data/6_UI/icon/cbSkicon_Ths01.tga,.,12,12,19,0,0,0
+9012110,스태프 combo_a / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9012120,스태프 combo_z_1 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,2,0,0,0
+9012210,스태프 combo_b / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9012220,스태프 combo_z_2 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,3,0,0,0
+9012260,스태프 combo_z_1_2 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,10,0,0,0
+9012310,스태프 combo_c / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9012320,스태프 combo_z_3 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,4,0,0,0
+9012340,스태프 combo_z_2_3 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,7,0,0,0
+9012360,스태프 combo_z_1_3 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,11,0,0,0
+9012370,스태프 combo_z_1_2_3 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,12,0,0,0
+9012410,스태프 combo_d / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9012420,스태프 combo_z_4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,5,0,0,0
+9012430,스태프 combo_z_3_4 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,6,0,0,0
+9012440,스태프 combo_z_2_4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,8,0,0,0
+9012450,스태프 combo_z_2_3_4 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,9,0,0,0
+9013110,스피어 combo_a / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9013120,스피어 combo_z_1 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,2,0,0,0
+9013210,스피어 combo_b / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9013220,스피어 combo_z_2 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,3,0,0,0
+9013260,스피어 combo_z_1_2 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,10,0,0,0
+9013310,스피어 combo_c / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9013320,스피어 combo_z_3 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,4,0,0,0
+9013340,스피어 combo_z_2_3 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,7,0,0,0
+9013360,스피어 combo_z_1_3 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,11,0,0,0
+9013370,스피어 combo_z_1_2_3 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,12,0,0,0
+9013410,스피어 combo_d / X (1단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,1,0,0,0
+9013420,스피어 combo_z_4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,5,0,0,0
+9013430,스피어 combo_z_3_4 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,6,0,0,0
+9013440,스피어 combo_z_2_4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,8,0,0,0
+9013450,스피어 combo_z_2_3_4 / X (2단계),../Data/6_UI/icon/cbSkIcon_mag01.tga,.,12,12,9,0,0,0
+9022110,활 combo_a / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,1,0,0,0
+9022120,활 combo_Z_2_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,11,0,0,0
+9022130,활 combo_Z_3_1 / ↑ Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,12,0,0,0
+9022140,활 combo_Z_3_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,13,0,0,0
+9022150,활 combo_Z_4_1 ← Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,15,0,0,0
+9022160,활 combo_Z_3_1_2 / x (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,14,0,0,0
+9022210,활 combo_b / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,2,0,0,0
+9022230,활 combo_Z_1_1 / → Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,7,0,0,0
+9022240,활 combo_Z_1_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,8,0,0,0
+9022250,활 combo_Z_1_3 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,9,0,0,0
+9022310,활 combo_c / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,3,0,0,0
+9022340,활 combo_c-4 / X (2단계) 차징준비,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022341,활 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022342,활 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022343,활 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022344,활 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022345,활 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9022410,활 combo_d / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,4,0,0,0
+9022440,활 combo_e / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,5,0,0,0
+9022540,활 combo_Z_2_1 / ↓ Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,10,0,0,0
+9023110,석궁 combo_a / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,1,0,0,0
+9023120,석궁 combo_Z_2_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,11,0,0,0
+9023130,석궁 combo_Z_3_1 / ↑ Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,12,0,0,0
+9023140,석궁 combo_Z_3_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,13,0,0,0
+9023150,석궁 combo_Z_4_1 ← Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,16,0,0,0
+9023160,석궁 combo_Z_3_1_2 / x (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,14,0,0,0
+9023210,석궁 combo_b / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,2,0,0,0
+9023230,석궁 combo_Z_1_1 / → Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,7,0,0,0
+9023240,석궁 combo_Z_1_2 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,8,0,0,0
+9023250,석궁 combo_Z_1_3 / Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,9,0,0,0
+9023310,석궁 combo_c / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,3,0,0,0
+9023340,석궁 combo_c-4 / X (2단계) 차징준비,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023341,석궁 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023342,석궁 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023343,석궁 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023344,석궁 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023345,석궁 combo_c-4 / X (2단계) 차징공격,../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,6,0,0,0
+9023410,석궁 combo_d / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,4,0,0,0
+9023440,석궁 combo_e / X (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,5,0,0,0
+9023540,석궁 combo_Z_2_1 / ↓ Z (1단계),../Data\6_UI\icon\cbSkIcon_bow01.tga,.,12,12,10,0,0,0
+9032110,클로 combo_a / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,1,0,0,0
+9032120,클로 combo_a-2 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,15,0,0,0
+9032130,클로 combo_a-3 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,16,0,0,0
+9032140,클로 combo_a-4 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,17,0,0,0
+9032150,클로 combo_a-5 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,18,0,0,0
+9032160,클로 combo_a-6 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,19,0,0,0
+9032170,클로 combo_a-7 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,20,0,0,0
+9032210,클로 combo_b / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,2,0,0,0
+9032230,클로 combo_b-3 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,11,0,0,0
+9032240,클로 combo_b-4 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,12,0,0,0
+9032250,클로 combo_b-5 / X (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,13,0,0,0
+9032260,클로 combo_b-6 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,14,0,0,0
+9032270,클로 combo_b-7 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,14,0,0,0
+9032310,클로 combo_c / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,3,0,0,0
+9032340,클로 combo_c-4 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,8,0,0,0
+9032350,클로 combo_c-5 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,9,0,0,0
+9032360,클로 combo_c-6 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,10,0,0,0
+9032410,클로 combo_d / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,4,0,0,0
+9032450,클로 combo_d-5 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,6,0,0,0
+9032460,클로 combo_d-6 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,7,0,0,0
+9032510,클로 combo_e / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,5,0,0,0
+9032650,클로 combo_a-5-6 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,20,0,0,0
+9033110,카타르 combo_a / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,1,0,0,0
+9033120,카타르 combo_a-2 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,15,0,0,0
+9033130,카타르 combo_a-3 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,16,0,0,0
+9033140,카타르 combo_a-4 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,17,0,0,0
+9033150,카타르 combo_a-5 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,18,0,0,0
+9033160,카타르 combo_a-6 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,19,0,0,0
+9033170,카타르 combo_a-7 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,20,0,0,0
+9033210,카타르 combo_b / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,2,0,0,0
+9033230,카타르 combo_b-3 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,11,0,0,0
+9033240,카타르 combo_b-4 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,12,0,0,0
+9033250,카타르 combo_b-5 / X (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,13,0,0,0
+9033260,카타르 combo_b-6 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,14,0,0,0
+9033270,카타르 combo_b-7 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,14,0,0,0
+9033310,카타르 combo_c / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,3,0,0,0
+9033340,카타르 combo_c-4 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,8,0,0,0
+9033350,카타르 combo_c-5 / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,9,0,0,0
+9033360,카타르 combo_c-6 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,10,0,0,0
+9033410,카타르 combo_d / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,4,0,0,0
+9033450,카타르 combo_d-5 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,6,0,0,0
+9033460,카타르 combo_d-6 / Z (2단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,7,0,0,0
+9033510,카타르 combo_e / X (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,5,0,0,0
+9033650,카타르 combo_a-5-6 / Z (1단계),../Data/6_UI/icon/cbSkicon_clw01.tga,.,12,12,20,0,0,0
+9502110,a_gs_combo_a,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,1,0,0,0
+9502120,a_gs_combo_z_1,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,5,0,0,0
+9502210,a_gs_combo_b,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,2,0,0,0
+9502220,a_gs_combo_z_2,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502260,a_gs_combo_z_1_2,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502310,a_gs_combo_c,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,3,0,0,0
+9502320,a_gs_combo_z_3,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502340,a_gs_combo_z_2_3,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502360,a_gs_combo_z_1_3,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,7,0,0,0
+9502370,a_gs_combo_z_1_2_3,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,6,0,0,0
+9502380,a_gs_combo_c_4_F0,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502381,a_gs_combo_c_4_F1,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502382,a_gs_combo_c_4_F2,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502383,a_gs_combo_c_4_F3,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502384,a_gs_combo_c_4_F4,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502385,a_gs_combo_c_4_F5,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,9,0,0,0
+9502410,a_gs_combo_d,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,4,0,0,0
+9502420,a_gs_combo_z_4,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,8,0,0,0
+9502430,a_gs_combo_z_3_4,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502440,a_gs_combo_z_2_4,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9502450,a_gs_combo_z_2_3_4,../Data/6_UI/icon/cbSkIcon_Rif01.tga,.,12,12,0,0,0,0
+9512110,파워글러브 콤보 / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,1,0,0,0
+9512120,파워글러브 콤보-2 / Z (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,12,0,0,0
+9512130,파워글러브 콤보-3 / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,13,0,0,0
+9512140,파워글러브 콤보-4 / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,14,0,0,0
+9512150,파워글러브 콤보-5 / Z (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,15,0,0,0
+9512210,파워글러브 콤보_B / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,2,0,0,0
+9512230,파워글러브 콤보_B-3 / Z (2단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,9,0,0,0
+9512240,파워글러브 콤보_B-4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,10,0,0,0
+9512250,파워글러브 콤보_B-5 / X (2단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,11,0,0,0
+9512310,파워글러브 콤보_C / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,3,0,0,0
+9512340,파워글러브 콤보_C-4 / Z (2단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,7,0,0,0
+9512350,파워글러브 콤보_C-5 / X (2단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,8,0,0,0
+9512410,파워글러브 콤보_D / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,4,0,0,0
+9512450,파워글러브 콤보_D-5 / Z (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,6,0,0,0
+9512460,파워글러브 콤보_D-5_s / Z (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,6,0,0,0
+9512510,파워글러브 콤보_E / X (1단계),../Data/6_UI/icon/cbSkIcon_twn01.tga,.,12,12,5,0,0,0
+80000001,경험치 공유(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,10,0,0,0
+80000101,이건내꺼(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,1,0,0,0
+80000201,같이 늙어가는처지(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,2,0,0,0
+80000301,사자의 힘(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,3,0,0,0
+80000401,행운의 일격(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,4,0,0,0
+80000501,금강 불괴(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,5,0,0,0
+80000601,사자의 이빨(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,6,0,0,0
+80000701,골드 러쉬(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,7,0,0,0
+80000801,묵직한 대쉬(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,8,0,0,0
+80000901,사자후(펫 스킬 아이콘),../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,9,0,0,0
+80001101,간호 (펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,18,0,0,0
+80001201,포션 증대(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,21,0,0,0
+80001301,낙뇌(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,12,0,0,0
+80001401,파이어 볼(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,13,0,0,0
+80001501,물어 뜯기(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,14,0,0,0
+80001601,포이즌 클라우드(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,16,0,0,0
+80001901,구르기 (펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,17,0,0,0
+80002201,다크 클라우드 (펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,19,0,0,0
+80002501,몸통 부딪히기 (펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,20,0,0,0
+80002801,블리자드(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,22,0,0,0
+80003101,메테오(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,23,0,0,0
+80003401,경험치 추가(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,15,0,0,0
+80004101,자동공격(펫 스킬 아이콘),../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,11,0,0,0
+80004201,승하차 스킬아이콘,../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,24,0,0,0
+80004301,탑승 발사 공격 아이콘,../Data/6_UI/icon/IconPetSkill01.tga,.,12,12,13,0,0,0
+80004401,탑승 공격 아이콘,../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,36,0,0,0
+80004501,타우린 서포트 스킬 아이콘,../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,27,0,0,0
+81000101,디펜스모드 전략포인트 증가,../Data/6_UI/icon/IconSkill3.tga,.,12,12,65,0,0,0
+81000201,디펜스모드 PC이동속도 증가,../Data/6_UI/icon/IconSkill3.tga,.,12,12,64,0,0,0
+81000301,디펜스모드 공격력 상승,../Data/6_UI/icon/IconSkill3.tga,.,12,12,63,0,0,0
+81000401,디펜스모드 가디언 공격속도 증가,../Data/6_UI/icon/IconSkill3.tga,.,12,12,66,0,0,0
+81000501,디펜스모드 가디언 공격력 상승,../Data/6_UI/icon/IconSkill3.tga,.,12,12,67,0,0,0
+81000601,디펜스모드 무기 인첸트 증가,../Data/6_UI/icon/IconSkill2.tga,.,12,12,63,0,0,0
+85000100,벌목 발동 (메인 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,68,0,0,0
+85000101,[12_12 직업기술개선]벌목 발동 (메인 스킬),../Data/6_UI/icon/IconSkill4.tga,.,12,12,90,0,0,0
+85000200,전기톱 발동 (장착 아이템 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,72,0,0,0
+85000300,채광 발동 (메인 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,69,0,0,0
+85000301,[12_12 직업기술개선]채광 발동 (메인 스킬),../Data/6_UI/icon/IconSkill4.tga,.,12,12,91,0,0,0
+85000400,드릴 발동 (장착 아이템 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,73,0,0,0
+85000500,채집 발동 (메인 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,70,0,0,0
+85000501,[12_12 직업기술개선]채집 발동 (메인 스킬),../Data/6_UI/icon/IconSkill4.tga,.,12,12,92,0,0,0
+85000600,예초기 발동 (장착 아이템 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,74,0,0,0
+85000700,어획 발동 (메인 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,71,0,0,0
+85000701,[12_12 직업기술개선]어획 발동 (메인 스킬),../Data/6_UI/icon/IconSkill4.tga,.,12,12,93,0,0,0
+85000800,그물 발동(장착 아이템 스킬),../Data/6_UI/icon/IconSkill3.tga,.,12,12,75,0,0,0
+85090101,목재가공,../Data/6_UI/icon/IconSkill3.tga,.,12,12,76,0,0,0
+85090201,대패질,../Data/6_UI/icon/IconSkill3.tga,.,12,12,81,0,0,0
+85090401,금속제련,../Data/6_UI/icon/IconSkill3.tga,.,12,12,77,0,0,0
+85090501,부채질,../Data/6_UI/icon/IconSkill3.tga,.,12,12,82,0,0,0
+85090701,식물재배,../Data/6_UI/icon/IconSkill3.tga,.,12,12,78,0,0,0
+85090801,잡초제거,../Data/6_UI/icon/IconSkill3.tga,.,12,12,83,0,0,0
+85091001,양식,../Data/6_UI/icon/IconSkill3.tga,.,12,12,79,0,0,0
+85091101,먹이주기,../Data/6_UI/icon/IconSkill3.tga,.,12,12,84,0,0,0
+85091301,보석세공,../Data/6_UI/icon/IconSkill3.tga,.,12,12,80,0,0,0
+85091401,기계정비,../Data/6_UI/icon/IconSkill3.tga,.,12,12,85,0,0,0
+85091601,연금술,../Data/6_UI/icon/IconSkill3.tga,.,12,12,86,0,0,0
+85091701,요리,../Data/6_UI/icon/IconSkill3.tga,.,12,12,87,0,0,0
+85091801,생활목공,../Data/6_UI/icon/IconSkill3.tga,.,12,12,88,0,0,0
+85091901,기술목공,../Data/6_UI/icon/IconSkill3.tga,.,12,12,89,0,0,0
+85092001,기계공학,../Data/6_UI/icon/IconSkill3.tga,.,12,12,90,0,0,0
+85092101,재봉술,../Data/6_UI/icon/IconSkill3.tga,.,12,12,91,0,0,0
+85092200,채집기술,../Data/6_UI/icon/IconSkill4.tga,.,12,12,89,0,0,0
+89001101,순간이동 메뉴 출력,../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,25,0,0,0
+89001201,순간이동 비용 할인/무료,../Data\6_UI/icon/IconPetSkill01.tga,.,12,12,26,0,0,0
+90000001,사랑의 힘으로! (연인),../Data/6_UI/icon/Iconskill2.tga,.,12,12,46,0,0,0
+90000401,행운의 일격(펫 버프 아이콘),../Data\6_UI/icon/skillbuff03.tga,.,8,8,44,0,0,0
+90000501,금강 불괴(펫 버프 아이콘),../Data\6_UI/icon/skillbuff03.tga,.,8,8,45,0,0,0
+90000601,사자의 이빨(펫 버프 아이콘),../Data\6_UI/icon/skillbuff03.tga,.,8,8,46,0,0,0
+90000701,커플 이펙트(꿩먹고 알먹고),../Data/6_UI/icon/IconSkill.tga,.,12,12,63,0,0,0
+90000801,경험치 추가(펫 버프 아이콘),../Data/6_UI/icon/skillbuff03.tga,.,8,8,3,0,0,0
+90010101,맹독 선풍 스킬 아이콘,../Data/6_UI/icon/IconSkill3.tga,.,12,12,93,0,0,0
+92000101,슬로 베어_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+92000201,프로즌 체인_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+92000301,베어 부스터_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+92000401,올 부스터_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+92000901,릴리즈_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+92001001,패닉_포인트 스킬 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+95000001,곰 쏜다,../Data/6_UI/icon/Iconskill2.tga,.,12,12,107,0,0,0
+95000201,곰 돈다,../Data/6_UI/icon/Iconskill2.tga,.,12,12,108,0,0,0
+100006301,인터랙티브 이모션 - 손잡기,../Data/6_UI/icon/IconSkill2.tga,.,12,12,109,0,0,0
+100006401,인터랙티브 이모션 - 껴안기,../Data/6_UI/icon/IconSkill2.tga,.,12,12,111,0,0,0
+100006501,인터랙티브 이모션 - 키스,../Data/6_UI/icon/IconSkill2.tga,.,12,12,110,0,0,0
+100007101,쌍카 변신,../Data/6_UI/icon/skillbuff02.tga,.,8,8,51,0,0,0
+100010001,출혈,../Data/6_UI/icon/skillbuff01.tga,.,8,8,64,0,0,0
+100010101,과다 출혈,../Data/6_UI/icon/skillbuff02.tga,.,8,8,12,0,0,0
+100010201,저주,../Data/6_UI/icon/skillbuff02.tga,.,8,8,13,0,0,0
+100010301,동빙,../Data/6_UI/icon/skillbuff02.tga,.,8,8,15,0,0,0
+100010401,결빙,../Data/6_UI/icon/skillbuff02.tga,.,8,8,14,0,0,0
+100010501,침묵,../Data/6_UI/icon/skillbuff01.tga,.,8,8,62,0,0,0
+100010601,중독,../Data/6_UI/icon/skillbuff01.tga,.,8,8,61,0,0,0
+100010701,심각한 중독,../Data/6_UI/icon/skillbuff02.tga,.,8,8,16,0,0,0
+100010801,수면,../Data/6_UI/icon/skillbuff01.tga,.,8,8,63,0,0,0
+100010901,석화,../Data/6_UI/icon/skillbuff02.tga,.,8,8,17,0,0,0
+100011001,화상,../Data/6_UI/icon/skillbuff01.tga,.,8,8,60,0,0,0
+100011101,심한 화상,../Data/6_UI/icon/skillbuff02.tga,.,8,8,18,0,0,0
+100011201,실명,../Data/6_UI/icon/skillbuff01.tga,.,8,8,59,0,0,0
+100011501,슬로우,../Data/6_UI/icon/skillbuff02.tga,.,8,8,19,0,0,0
+100011601,약화 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,31,0,0,0
+101000101,인생은 한 방!,../Data/6_UI/icon/Iconskill.tga,.,12,12,16,0,0,0
+101000201,곰 왔다,../Data/6_UI/icon/Iconskill.tga,.,12,12,10,0,0,0
+101000301,단단한 머리,../Data/6_UI/icon/Iconskill.tga,.,12,12,11,0,0,0
+101000401,와신상담,../Data/6_UI/icon/Iconskill.tga,.,12,12,13,0,0,0
+101000501,곰 간다,../Data/6_UI/icon/Iconskill.tga,.,12,12,75,0,0,0
+101000601,곰같은 힘이여!,../Data/6_UI/icon/Iconskill.tga,.,12,12,12,0,0,0
+101000701,아머 브레이크,../Data/6_UI/icon/Iconskill.tga,.,12,12,14,0,0,0
+101000801,스톰 블레이드,../Data/6_UI/icon/Iconskill.tga,.,12,12,9,0,0,0
+101000901,숄더 태클,../Data/6_UI/icon/Iconskill.tga,.,12,12,8,0,0,0
+101001001,소드 댄스,../Data/6_UI/icon/Iconskill.tga,.,12,12,7,0,0,0
+101001101,불타는 청춘,../Data/6_UI/icon/Iconskill2.tga,.,12,12,49,0,0,0
+101001201,비정한 인생,../Data/6_UI/icon/Iconskill2.tga,.,12,12,50,0,0,0
+101100601,전사 띄우기,../Data/6_UI/icon/Iconskill.tga,.,12,12,2,0,0,0
+101100701,전사 내려찍기,../Data/6_UI/icon/Iconskill.tga,.,12,12,5,0,0,0
+101100901,전사 찌르기,../Data/6_UI/icon/Iconskill.tga,.,12,12,3,0,0,0
+101101801,전사 다운공격 다시 띄우기,../Data/6_UI/icon/Iconskill.tga,.,12,12,4,0,0,0
+101102501,기사 공중강타,../Data/6_UI/icon/Iconskill.tga,.,12,12,61,0,0,0
+101102601,공중 대쉬 강타,../Data/6_UI/icon/Iconskill.tga,.,12,12,62,0,0,0
+101102701,대쉬 강타,../Data/6_UI/icon/Iconskill.tga,.,12,12,72,0,0,0
+101102801,투사 공중강타,../Data/6_UI/icon/Iconskill.tga,.,12,12,61,0,0,0
+101103201,기사 곰돈다,../Data/6_UI/icon/Iconskill3.tga,.,12,12,42,0,0,0
+101300101,소드 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,6,0,0,0
+102000101,포트리스,../Data/6_UI/icon/Iconskill.tga,.,12,12,21,0,0,0
+102000201,마녀의 저주,../Data/6_UI/icon/Iconskill.tga,.,12,12,26,0,0,0
+102000301,디텍션,../Data/6_UI/icon/Iconskill.tga,.,12,12,28,0,0,0
+102000401,바바리안,../Data/6_UI/icon/Iconskill.tga,.,12,12,27,0,0,0
+102000501,힐은 셀프,../Data/6_UI/icon/Iconskill.tga,.,12,12,24,0,0,0
+102000701,마나실드,../Data/6_UI/icon/Iconskill.tga,.,12,12,29,0,0,0
+102000801,정신일도하사불성,../Data/6_UI/icon/Iconskill.tga,.,12,12,30,0,0,0
+102001001,확산포,../Data/6_UI/icon/Iconskill.tga,.,12,12,23,0,0,0
+102001101,라이트닝 스트라이크,../Data/6_UI/icon/Iconskill.tga,.,12,12,22,0,0,0
+102002101,마법 강화,../Data/6_UI/icon/Iconskill.tga,.,12,12,20,0,0,0
+102002201,포신 강선,../Data/6_UI/icon/Iconskill2.tga,.,12,12,61,0,0,0
+102002301,탄환 가속화,../Data/6_UI/icon/Iconskill2.tga,.,12,12,62,0,0,0
+102002401,슬로우 힐,../Data/6_UI/icon/Iconskill2.tga,.,12,12,60,0,0,0
+102002501,블레싱,../Data/6_UI/icon/Iconskill2.tga,.,12,12,87,0,0,0
+102002601,스태프 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,89,0,0,0
+102002701,아크 생츄어리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,88,0,0,0
+102002801,에너지 흡수,../Data/6_UI/icon/Iconskill2.tga,.,12,12,89,0,0,0
+102002901,질퍽한 진흙,../Data/6_UI/icon/Iconskill2.tga,.,12,12,90,0,0,0
+102003001,에너지 볼,../Data/6_UI/icon/Iconskill.tga,.,12,12,92,0,0,0
+102003101,에너지 응집,../Data/6_UI/icon/Iconskill2.tga,.,12,12,66,0,0,0
+102003201,레인오브 화이어,../Data/6_UI/icon/Iconskill3.tga,.,12,12,46,0,0,0
+102003301,맹독,../Data/6_UI/icon/Iconskill2.tga,.,12,12,67,0,0,0
+102003401,에너지 변화,../Data/6_UI/icon/Iconskill2.tga,.,12,12,92,0,0,0
+102003501,스파크롹,../Data/6_UI/icon/Iconskill3.tga,.,12,12,47,0,0,0
+102100301,내려찍기,../Data/6_UI/icon/Iconskill.tga,.,12,12,34,0,0,0
+102101301,대공 사격,../Data/6_UI/icon/Iconskill2.tga,.,12,12,53,0,0,0
+102101601,백스텝 샷,../Data/6_UI/icon/Iconskill.tga,.,12,12,32,0,0,0
+102101801,라이징 애로우,../Data/6_UI/icon/Iconskill.tga,.,12,12,37,0,0,0
+102101901,백스텝,../Data/6_UI/icon/Iconskill.tga,.,12,12,31,0,0,0
+102102401,다운공격 조작 3타,../Data/6_UI/icon/Iconskill.tga,.,12,12,33,0,0,0
+102300101,스피어 마스터리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,51,0,0,0
+103000301,멋진 언니,../Data/6_UI/icon/Iconskill.tga,.,12,12,46,0,0,0
+103000401,버드 워칭,../Data/6_UI/icon/Iconskill.tga,.,12,12,45,0,0,0
+103000501,래피드 스텝,../Data/6_UI/icon/Iconskill.tga,.,12,12,36,0,0,0
+103100201,운석 낙하,../Data/6_UI/icon/Iconskill.tga,.,12,12,19,0,0,0
+103100301,메테오 러쉬,../Data/6_UI/icon/IconSkill3.tga,.,12,12,41,0,0,0
+103100501,포인트 버스터,../Data/6_UI/icon/Iconskill2.tga,.,12,12,54,0,0,0
+103101201,다운공격 다시 띄우기,../Data/6_UI/icon/Iconskill.tga,.,12,12,17,0,0,0
+103101301,멀티 라이트닝,../Data/6_UI/icon/IconSkill3.tga,.,12,12,40,0,0,0
+103101401,법사 공중콤보,../Data/6_UI/icon/Iconskill.tga,.,12,12,18,0,0,0
+103101801,메이지 더블샷,../Data/6_UI/icon/Iconskill.tga,.,12,12,81,0,0,0
+103101901,전투마법사 물리공격,../Data/6_UI/icon/Iconskill.tga,.,12,12,88,0,0,0
+103102001,블링크,../Data/6_UI/icon/Iconskill3.tga,.,12,12,43,0,0,0
+103103001,투액션샷,../Data/6_UI/icon/Iconskill3.tga,.,12,12,44,0,0,0
+103201001,다운공격 조작 3타,../Data/6_UI/icon/Iconskill.tga,.,12,12,47,0,0,0
+103201901,도둑 공중난타,../Data/6_UI/icon/Iconskill.tga,.,12,12,50,0,0,0
+103202401,띄우기,../Data/6_UI/icon/Iconskill.tga,.,12,12,48,0,0,0
+103202601,내려찍기,../Data/6_UI/icon/Iconskill.tga,.,12,12,49,0,0,0
+103300101,보우 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,35,0,0,0
+104000201,비상탈출,../Data/6_UI/icon/Iconskill.tga,.,12,12,60,0,0,0
+104000301,독 살포,../Data/6_UI/icon/Iconskill.tga,.,12,12,56,0,0,0
+104000401,로켓 펀치,../Data/6_UI/icon/Iconskill.tga,.,12,12,57,0,0,0
+104000501,기습공격,../Data/6_UI/icon/Iconskill.tga,.,12,12,54,0,0,0
+104000601,버로우,../Data/6_UI/icon/Iconskill.tga,.,12,12,59,0,0,0
+104000701,더블 어택,../Data/6_UI/icon/Iconskill.tga,.,12,12,51,0,0,0
+104000801,소매치기,../Data/6_UI/icon/Iconskill.tga,.,12,12,52,0,0,0
+104300101,클로 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,110,0,0,0
+104300301,카타르 블록킹,../Data/6_UI/icon/Iconskill.tga,.,12,12,118,0,0,0
+104300401,소닉 붐,../Data/6_UI/icon/Iconskill.tga,.,12,12,115,0,0,0
+104300501,마하 펀치,../Data/6_UI/icon/Iconskill.tga,.,12,12,55,0,0,0
+104300601,스크류 어퍼,../Data/6_UI/icon/Iconskill.tga,.,12,12,113,0,0,0
+104300701,카타르 마스터리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,48,0,0,0
+104300901,스피닝 너클,../Data/6_UI/icon/Iconskill.tga,.,12,12,111,0,0,0
+104301001,쓰로잉 대거,../Data/6_UI/icon/Iconskill.tga,.,12,12,120,0,0,0
+104301101,기믈렛,../Data/6_UI/icon/Iconskill.tga,.,12,12,121,0,0,0
+104301201,마인드 리딩,../Data/6_UI/icon/Iconskill.tga,.,12,12,116,0,0,0
+104301301,그림자 밟기,../Data/6_UI/icon/Iconskill.tga,.,12,12,122,0,0,0
+104301401,롤링 스팅거,../Data/6_UI/icon/Iconskill.tga,.,12,12,124,0,0,0
+104301501,포이즌 크래셔,../Data/6_UI/icon/Iconskill.tga,.,12,12,119,0,0,0
+104301601,섬머솔트킥,../Data/6_UI/icon/Iconskill.tga,.,12,12,53,0,0,0
+104301701,저지 드레드,../Data/6_UI/icon/Iconskill.tga,.,12,12,112,0,0,0
+104301801,스위프트 어택,../Data/6_UI/icon/Iconskill.tga,.,12,12,114,0,0,0
+104301901,노즐 개조,../Data/6_UI/icon/Iconskill2.tga,.,12,12,63,0,0,0
+104302001,바이탈리티,../Data/6_UI/icon/Iconskill2.tga,.,12,12,75,0,0,0
+104302101,덱스터리티,../Data/6_UI/icon/Iconskill2.tga,.,12,12,77,0,0,0
+104302201,하이퍼 스트렝스,../Data/6_UI/icon/Iconskill2.tga,.,12,12,76,0,0,0
+104302301,인텔리전트,../Data/6_UI/icon/Iconskill2.tga,.,12,12,78,0,0,0
+104302401,최면,../Data/6_UI/icon/Iconskill2.tga,.,12,12,79,0,0,0
+105300101,아머 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,125,0,0,0
+105300201,패링,../Data/6_UI/icon/Iconskill.tga,.,12,12,69,0,0,0
+105300301,웨폰 프리징,../Data/6_UI/icon/Iconskill.tga,.,12,12,71,0,0,0
+105300401,스피어 잽,../Data/6_UI/icon/Iconskill.tga,.,12,12,65,0,0,0
+105300501,조인트 브레이크,../Data/6_UI/icon/Iconskill.tga,.,12,12,15,0,0,0
+105300601,리벤지,../Data/6_UI/icon/Iconskill.tga,.,12,12,70,0,0,0
+105300701,쉴드 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,64,0,0,0
+105300801,어드벤스드 소드 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,73,0,0,0
+105300901,HP 회복력 향상,../Data/6_UI/icon/Iconskill.tga,.,12,12,63,0,0,0
+105400001,바디 액티베이션,../Data/6_UI/icon/Iconskill.tga,.,12,12,126,0,0,0
+105400101,체인 쉴드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,97,0,0,0
+105400301,메가 스톰 블레이드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,98,0,0,0
+105400401,쉴드 스트라이크,../Data/6_UI/icon/Iconskill3.tga,.,12,12,99,0,0,0
+105400501,필중,../Data/6_UI/icon/Iconskill3.tga,.,12,12,100,0,0,0
+105500501,오라 발현,../Data/6_UI/icon/Iconskill.tga,.,12,12,127,0,0,0
+105500601,크로스 컷,../Data/6_UI/icon/Iconskill.tga,.,12,12,128,0,0,0
+105500701,프레셔,../Data/6_UI/icon/Iconskill.tga,.,12,12,129,0,0,0
+105500801,바리케이드,../Data/6_UI/icon/Iconskill.tga,.,12,12,131,0,0,0
+105500901,리커버리 오라,../Data/6_UI/icon/Iconskill.tga,.,12,12,130,0,0,0
+105501001,타임 리버스,../Data/6_UI/icon/Iconskill.tga,.,12,12,132,0,0,0
+105501101,오펜시브 오라,../Data/6_UI/icon/Iconskill.tga,.,12,12,133,0,0,0
+105501201,디펜시브 오라,../Data/6_UI/icon/Iconskill.tga,.,12,12,134,0,0,0
+105501301,성스러운 보호,../Data/6_UI/icon/Iconskill.tga,.,12,12,135,0,0,0
+105501401,장비 수리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,43,0,0,0
+105501501,웨폰 크래셔,../Data/6_UI/icon/Iconskill2.tga,.,12,12,84,0,0,0
+105501601,바퀴벌레 인생,../Data/6_UI/icon/Iconskill2.tga,.,12,12,83,0,0,0
+105501801,도발,../Data/6_UI/icon/Iconskill3.tga,.,12,12,94,0,0,0
+106000101,겜블,../Data/6_UI/icon/Iconskill.tga,.,12,12,67,0,0,0
+106000201,겜블 - 분노의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000301,겜블 - 냉정의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000401,겜블 - 폭주의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000501,겜블 - 속도의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000601,겜블 - 치유의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000701,겜블 - 증폭의 화신,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+106000801,블러드 리턴,../Data/6_UI/icon/Iconskill.tga,.,12,12,67,0,0,0
+106300101,아이언 스킨,../Data/6_UI/icon/Iconskill.tga,.,12,12,74,0,0,0
+106300201,액셀레이션,../Data/6_UI/icon/Iconskill.tga,.,12,12,76,0,0,0
+106300301,섬멸,../Data/6_UI/icon/Iconskill.tga,.,12,12,77,0,0,0
+106300401,분노의 외침,../Data/6_UI/icon/Iconskill.tga,.,12,12,66,0,0,0
+106300501,와일드 레이지,../Data/6_UI/icon/Iconskill.tga,.,12,12,78,0,0,0
+106300601,생명연장,../Data/6_UI/icon/Iconskill.tga,.,12,12,79,0,0,0
+106500001,피지컬 트레이닝,../Data/6_UI/icon/Iconskill.tga,.,12,12,136,0,0,0
+106500101,샤프니스 블레이드,../Data/6_UI/icon/Iconskill.tga,.,12,12,137,0,0,0
+106500201,휠윈드,../Data/6_UI/icon/Iconskill.tga,.,12,12,80,0,0,0
+106500401,대지의 분노,../Data/6_UI/icon/Iconskill.tga,.,12,12,68,0,0,0
+106500501,거스트 슬래시,../Data/6_UI/icon/Iconskill.tga,.,12,12,138,0,0,0
+106500601,브로큰 매그넘,../Data/6_UI/icon/Iconskill.tga,.,12,12,139,0,0,0
+106500701,데스 바운드,../Data/6_UI/icon/Iconskill.tga,.,12,12,141,0,0,0
+106500801,웨폰 퀴큰,../Data/6_UI/icon/Iconskill.tga,.,12,12,140,0,0,0
+106500901,레이징 스톰,../Data/6_UI/icon/Iconskill.tga,.,12,12,142,0,0,0
+106501001,분노의 곰 간다,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+106501101,와이번 블레이드,../Data/6_UI/icon/Iconskill2.tga,.,12,12,86,0,0,0
+106501201,블러디 로어,../Data/6_UI/icon/Iconskill2.tga,.,12,12,85,0,0,0
+107000301,와이드 힐,../Data/6_UI/icon/Iconskill.tga,.,12,12,25,0,0,0
+107000401,인스탄스 힐,../Data/6_UI/icon/Iconskill.tga,.,12,12,84,0,0,0
+107000501,큐어,../Data/6_UI/icon/Iconskill.tga,.,12,12,85,0,0,0
+107000701,감염,../Data/6_UI/icon/Iconskill.tga,.,12,12,87,0,0,0
+108000101,블리자드,../Data/6_UI/icon/Iconskill.tga,.,12,12,93,0,0,0
+108000201,긴급 후퇴,../Data/6_UI/icon/Iconskill3.tga,.,12,12,101,0,0,0
+109000301,MP 회복력 향상,../Data/6_UI/icon/Iconskill.tga,.,12,12,82,0,0,0
+109000401,콰그마이어,../Data/6_UI/icon/Iconskill.tga,.,12,12,86,0,0,0
+109000501,매직 미사일,../Data/6_UI/icon/Iconskill.tga,.,12,12,94,0,0,0
+109000601,스파이럴 캐논,../Data/6_UI/icon/Iconskill.tga,.,12,12,91,0,0,0
+109000701,토네이도,../Data/6_UI/icon/Iconskill.tga,.,12,12,90,0,0,0
+109000901,에너지 볼,../Data/6_UI/icon/Iconskill.tga,.,12,12,92,0,0,0
+109001001,부활,../Data/6_UI/icon/Iconskill.tga,.,12,12,83,0,0,0
+109001101,MP 포션 극대화,../Data/6_UI/icon/Iconskill.tga,.,12,12,143,0,0,0
+109001201,어드벤스드 스피어 마스터리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,51,0,0,0
+109001301,스트라이킹,../Data/6_UI/icon/Iconskill.tga,.,12,12,144,0,0,0
+109001401,썬더 브레이크,../Data/6_UI/icon/Iconskill2.tga,.,12,12,1,0,0,0
+109001501,체인 라이트닝,../Data/6_UI/icon/Iconskill2.tga,.,12,12,2,0,0,0
+109001601,HP 리스토어,../Data/6_UI/icon/Iconskill2.tga,.,12,12,3,0,0,0
+109001701,MP 전이,../Data/6_UI/icon/Iconskill2.tga,.,12,12,4,0,0,0
+109001801,배리어,../Data/6_UI/icon/Iconskill2.tga,.,12,12,5,0,0,0
+109001901,완전한 결계,../Data/6_UI/icon/Iconskill2.tga,.,12,12,6,0,0,0
+109002001,미러 이미지,../Data/6_UI/icon/Iconskill2.tga,.,12,12,8,0,0,0
+109002101,리소스 컨버터,../Data/6_UI/icon/Iconskill2.tga,.,12,12,9,0,0,0
+109002201,문어 먹물,../Data/6_UI/icon/Iconskill2.tga,.,12,12,10,0,0,0
+109002301,스노우 블루스,../Data/6_UI/icon/Iconskill2.tga,.,12,12,11,0,0,0
+109002401,백 드래프트,../Data/6_UI/icon/Iconskill2.tga,.,12,12,13,0,0,0
+109002501,클라우드 킬,../Data/6_UI/icon/Iconskill2.tga,.,12,12,12,0,0,0
+109002601,메테오 스트라이크,../Data/6_UI/icon/Iconskill2.tga,.,12,12,14,0,0,0
+109002701,장비 인챈트,../Data/6_UI/icon/Iconskill2.tga,.,12,12,44,0,0,0
+109002801,생츄어리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,65,0,0,0
+109002901,캐스팅 고속화,../Data/6_UI/icon/Iconskill2.tga,.,12,12,64,0,0,0
+109003001,에너지 버스터,../Data/6_UI/icon/Iconskill2.tga,.,12,12,91,0,0,0
+109003101,프로즌 샷,../Data/6_UI/icon/Iconskill3.tga,.,12,12,102,0,0,0
+110000101,로켓 런처,../Data/6_UI/icon/Iconskill.tga,.,12,12,44,0,0,0
+110000201,애로우 샤워,../Data/6_UI/icon/Iconskill.tga,.,12,12,42,0,0,0
+110000301,더블 스트라이크,../Data/6_UI/icon/Iconskill.tga,.,12,12,38,0,0,0
+110000401,모서리로 찍으세요,../Data/6_UI/icon/Iconskill.tga,.,12,12,41,0,0,0
+110000501,어드벤스드 보우 마스터리,../Data/6_UI/icon/Iconskill.tga,.,12,12,95,0,0,0
+110000701,크럭스 샷,../Data/6_UI/icon/Iconskill.tga,.,12,12,104,0,0,0
+110000801,스플래쉬 트랩,../Data/6_UI/icon/Iconskill.tga,.,12,12,100,0,0,0
+110000901,환각,../Data/6_UI/icon/Iconskill.tga,.,12,12,101,0,0,0
+110001001,애시드 애로우,../Data/6_UI/icon/Iconskill.tga,.,12,12,96,0,0,0
+110001101,팔콘 비트,../Data/6_UI/icon/Iconskill.tga,.,12,12,98,0,0,0
+110001201,울프 러쉬,../Data/6_UI/icon/Iconskill.tga,.,12,12,99,0,0,0
+110001301,샤프 슈팅,../Data/6_UI/icon/Iconskill.tga,.,12,12,97,0,0,0
+110001401,클레이모어,../Data/6_UI/icon/Iconskill.tga,.,12,12,105,0,0,0
+110001501,자동 사격 장치,../Data/6_UI/icon/Iconskill.tga,.,12,12,107,0,0,0
+110001601,디토네이터,../Data/6_UI/icon/Iconskill.tga,.,12,12,106,0,0,0
+110001701,카모플라쥬,../Data/6_UI/icon/Iconskill.tga,.,12,12,108,0,0,0
+110001801,넷 바인더,../Data/6_UI/icon/Iconskill.tga,.,12,12,102,0,0,0
+110001901,멀티샷,../Data/6_UI/icon/Iconskill.tga,.,12,12,39,0,0,0
+110002001,난사,../Data/6_UI/icon/Iconskill.tga,.,12,12,40,0,0,0
+110002201,공중 5연사,../Data/6_UI/icon/Iconskill.tga,.,12,12,103,0,0,0
+110002301,집중,../Data/6_UI/icon/Iconskill2.tga,.,12,12,15,0,0,0
+110002401,인비저블 트랩,../Data/6_UI/icon/Iconskill3.tga,.,12,12,58,0,0,0
+110002501,건들지마라,../Data/6_UI/icon/Iconskill2.tga,.,12,12,16,0,0,0
+110002601,프리징 트랩,../Data/6_UI/icon/Iconskill2.tga,.,12,12,17,0,0,0
+110002701,사일런스 트랩,../Data/6_UI/icon/Iconskill2.tga,.,12,12,18,0,0,0
+110002801,바운드 트랩,../Data/6_UI/icon/Iconskill2.tga,.,12,12,19,0,0,0
+110002901,커즈드 봄버,../Data/6_UI/icon/Iconskill2.tga,.,12,12,20,0,0,0
+110003001,HE 그레네이드,../Data/6_UI/icon/Iconskill2.tga,.,12,12,21,0,0,0
+110003101,요리 하기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,45,0,0,0
+110003201,끈적한 거미줄,../Data/6_UI/icon/Iconskill2.tga,.,12,12,70,0,0,0
+110003301,능숙한 몸놀림,../Data/6_UI/icon/Iconskill2.tga,.,12,12,71,0,0,0
+110003401,약점 간파,../Data/6_UI/icon/Iconskill2.tga,.,12,12,93,0,0,0
+110003501,테슬라 코일,../Data/6_UI/icon/Iconskill3.tga,.,12,12,103,0,0,0
+150000301,바주카포,../Data/6_UI/icon/Iconskill.tga,.,12,12,43,0,0,0
+150000401,관통,../Data/6_UI/icon/Iconskill2.tga,.,12,12,22,0,0,0
+150000501,에이밍,../Data/6_UI/icon/Iconskill2.tga,.,12,12,52,0,0,0
+150000502,에이밍,../Data/6_UI/icon/skillbuff02.tga,.,8,8,7,0,0,0
+150000601,플래시뱅,../Data/6_UI/icon/Iconskill2.tga,.,12,12,24,0,0,0
+150000701,아드레날린,../Data/6_UI/icon/Iconskill2.tga,.,12,12,23,0,0,0
+150000801,파이어 그레네이드,../Data/6_UI/icon/Iconskill2.tga,.,12,12,26,0,0,0
+150000901,아트로핀,../Data/6_UI/icon/Iconskill2.tga,.,12,12,27,0,0,0
+150001001,개틀링 러쉬,../Data/6_UI/icon/Iconskill2.tga,.,12,12,28,0,0,0
+150001101,융단폭격,../Data/6_UI/icon/Iconskill2.tga,.,12,12,29,0,0,0
+150001201,고품질 화약,../Data/6_UI/icon/Iconskill2.tga,.,12,12,72,0,0,0
+150001301,추진제 개조,../Data/6_UI/icon/Iconskill2.tga,.,12,12,73,0,0,0
+150001401,바주카포 - 지상,../Data/6_UI/icon/Iconskill2.tga,.,12,12,74,0,0,0
+150001501,추가 지원,../Data/6_UI/icon/Iconskill2.tga,.,12,12,97,0,0,0
+150001601,ASS 구동원리 개조,../Data/6_UI/icon/Iconskill2.tga,.,12,12,98,0,0,0
+150001701,발칸 300,../Data/6_UI/icon/Iconskill2.tga,.,12,12,99,0,0,0
+150001801,탄환 교체,../Data/6_UI/icon/Iconskill2.tga,.,12,12,96,0,0,0
+150001901,팔콘리 마스터리,../Data/6_UI/icon/Iconskill2.tga,.,12,12,94,0,0,0
+150002001,블릿츠,../Data/6_UI/icon/Iconskill2.tga,.,12,12,95,0,0,0
+150002101,스나이핑,../Data/6_UI/icon/Iconskill3.tga,.,12,12,95,0,0,0
+159999101,스텝 더 비트,../Data/6_UI/icon/Iconskill3.tga,.,12,12,104,0,0,0
+159999201,헤드 스핀,../Data/6_UI/icon/Iconskill3.tga,.,12,12,105,0,0,0
+160000001,스탠스,../Data/6_UI/icon/Iconskill2.tga,.,12,12,30,0,0,0
+160000101,메가 드릴 드라이브,../Data/6_UI/icon/Iconskill2.tga,.,12,12,31,0,0,0
+160000201,윈드밀,../Data/6_UI/icon/Iconskill2.tga,.,12,12,32,0,0,0
+160000301,세븐,../Data/6_UI/icon/Iconskill2.tga,.,12,12,33,0,0,0
+160000401,문워크,../Data/6_UI/icon/Iconskill2.tga,.,12,12,34,0,0,0
+160000501,프로보크,../Data/6_UI/icon/Iconskill2.tga,.,12,12,35,0,0,0
+160000601,나인틴 나이티,../Data/6_UI/icon/Iconskill2.tga,.,12,12,36,0,0,0
+160000701,코자크 댄스,../Data/6_UI/icon/Iconskill2.tga,.,12,12,47,0,0,0
+160000801,짓밟기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,103,0,0,0
+160000901,강타,../Data/6_UI/icon/Iconskill2.tga,.,12,12,101,0,0,0
+160001001,TTX 강화,../Data/6_UI/icon/Iconskill2.tga,.,12,12,102,0,0,0
+160001101,노골적 도발,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+160001201,댄서 변신,../Data/6_UI/icon/Iconskill2.tga,.,12,12,106,0,0,0
+170000001,풍마수리검,../Data/6_UI/icon/Iconskill.tga,.,12,12,58,0,0,0
+170000101,그림자 도약,../Data/6_UI/icon/Iconskill.tga,.,12,12,123,0,0,0
+170000201,허공밟기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,37,0,0,0
+170000301,미혼향,../Data/6_UI/icon/Iconskill2.tga,.,12,12,38,0,0,0
+170000401,압정,../Data/6_UI/icon/Iconskill2.tga,.,12,12,39,0,0,0
+170000501,목둔술! 통나무 굴리기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,41,0,0,0
+170000601,환영분신,../Data/6_UI/icon/Iconskill2.tga,.,12,12,40,0,0,0
+170000701,격! 일섬,../Data/6_UI/icon/Iconskill2.tga,.,12,12,42,0,0,0
+170000801,연환질풍각,../Data/6_UI/icon/Iconskill2.tga,.,12,12,48,0,0,0
+170000901,단검 능숙화,../Data/6_UI/icon/Iconskill2.tga,.,12,12,81,0,0,0
+170001001,추가 타격,../Data/6_UI/icon/Iconskill2.tga,.,12,12,82,0,0,0
+170001101,닌자 변신,../Data/6_UI/icon/Iconskill2.tga,.,12,12,55,0,0,0
+170001201,하독 능력 상승,../Data/6_UI/icon/Iconskill2.tga,.,12,12,104,0,0,0
+170001301,날 갈기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,105,0,0,0
+170002501,벚꽃 흩날리기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,56,0,0,0
+170002601,낙엽 떨구기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,57,0,0,0
+170002701,안개 죽이기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,58,0,0,0
+170002801,하늘 꿰뚫기,../Data/6_UI/icon/Iconskill2.tga,.,12,12,59,0,0,0
+170003001,에이프릴 풀,../Data/6_UI/icon/Iconskill2.tga,.,12,12,80,0,0,0
+170003101,질풍답보,../Data/6_UI/icon/Iconskill3.tga,.,12,12,96,0,0,0
+180000101,친교버프_전사의 유대,../Data/6_UI/icon/Iconskill3.tga,.,12,12,59,0,0,0
+180000201,친교버프_술사의 지혜,../Data/6_UI/icon/Iconskill3.tga,.,12,12,60,0,0,0
+180000301,친교버프_궁수의 신속,../Data/6_UI/icon/Iconskill3.tga,.,12,12,61,0,0,0
+180000401,친교버프_도적의 민첩,../Data/6_UI/icon/Iconskill3.tga,.,12,12,62,0,0,0
+200000001,발빠른 대처,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200000101,사기 충천,../Data/6_UI/icon/Iconskill.tga,.,12,12,126,0,0,0
+200000201,철의 장벽,../Data/6_UI/icon/Iconskill.tga,.,12,12,125,0,0,0
+200000301,아드레날린 부스터,../Data/6_UI/icon/Iconskill.tga,.,12,12,140,0,0,0
+200000501,마성의 축복,../Data/6_UI/icon/Iconskill.tga,.,12,12,126,0,0,0
+200000601,정령의 가호,../Data/6_UI/icon/Iconskill.tga,.,12,12,125,0,0,0
+200001001,중독,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001101,실명,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001201,수면,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001301,심각한 중독,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001401,결빙,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001501,석화,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001601,화상,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001701,출혈,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001801,기절,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200001901,심각한 화상,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200002001,과다 출혈,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200002101,동빙,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200002201,침묵,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200002301,저주,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200002401,슬로우,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0
+200007701,필살(버프아이콘),../Data/6_UI/icon/skillbuff05.tga,.,8,8,57,0,0,0
+200007801,필중(버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,1,0,0,0
+200007901,스핀(버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,4,0,0,0
+200009701,몰입 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,32,0,0,0
+200011201,부활 무적,../Data/6_UI/icon/skillbuff01.tga,.,8,8,41,0,0,0
+201000301,단단한 머리 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,1,0,0,0
+201000401,와신상담 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,2,0,0,0
+201000601,곰 같은 힘이여! (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,3,0,0,0
+201000701,아머 브레이크 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,4,0,0,0
+202000201,마녀의 저주 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,5,0,0,0
+202000301,디텍션 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,6,0,0,0
+202000401,바바리맨,../Data/6_UI/icon/skillbuff01.tga,.,8,8,38,0,0,0
+202000501,힐은 셀프 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,7,0,0,0
+202000701,마나실드,../Data/6_UI/icon/skillbuff01.tga,.,8,8,8,0,0,0
+202000801,정신일도하사불성,../Data/6_UI/icon/skillbuff01.tga,.,8,8,9,0,0,0
+202001001,확산포 버프 아이콘,../Data/6_UI/icon/skillbuff01.tga,.,8,8,10,0,0,0
+202002401,슬로우 힐,../Data/6_UI/icon/skillbuff02.tga,.,8,8,25,0,0,0
+202002501,블레싱,../Data/6_UI/icon/skillbuff02.tga,.,8,8,28,0,0,0
+202002601,더블샷 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,52,0,0,0
+202002701,아크 생츄어리,../Data/6_UI/icon/skillbuff02.tga,.,8,8,29,0,0,0
+203000301,멋진 언니,../Data/6_UI/icon/skillbuff01.tga,.,8,8,12,0,0,0
+203000401,버드 워칭,../Data/6_UI/icon/skillbuff01.tga,.,8,8,13,0,0,0
+203000501,투액션 샷 버프,../Data/6_UI/icon/skillbuff04.tga,.,8,8,21,0,0,0
+204000201,비상탈출,../Data/6_UI/icon/skillbuff01.tga,.,8,8,15,0,0,0
+204000301,독 살포,../Data/6_UI/icon/skillbuff01.tga,.,8,8,16,0,0,0
+204000601,버로우,../Data/6_UI/icon/skillbuff01.tga,.,8,8,14,0,0,0
+204301201,마인드 리딩,../Data/6_UI/icon/skillbuff01.tga,.,8,8,35,0,0,0
+204301301,그림자 밟기,../Data/6_UI/icon/skillbuff01.tga,.,8,8,36,0,0,0
+204301501,포이즌 크래셔,../Data/6_UI/icon/skillbuff01.tga,.,8,8,37,0,0,0
+204302001,바이탈리티,../Data/6_UI/icon/skillbuff02.tga,.,8,8,34,0,0,0
+204302101,덱스터리티,../Data/6_UI/icon/skillbuff02.tga,.,8,8,35,0,0,0
+204302201,하이퍼 스트렝스,../Data/6_UI/icon/skillbuff02.tga,.,8,8,36,0,0,0
+204302301,인텔리전트,../Data/6_UI/icon/skillbuff02.tga,.,8,8,37,0,0,0
+205300201,패링,../Data/6_UI/icon/skillbuff01.tga,.,8,8,17,0,0,0
+205300301,웨폰 프리징,../Data/6_UI/icon/skillbuff01.tga,.,8,8,18,0,0,0
+205300501,조인트 브레이크,../Data/6_UI/icon/skillbuff01.tga,.,8,8,19,0,0,0
+205300601,리벤지,../Data/6_UI/icon/skillbuff01.tga,.,8,8,20,0,0,0
+205500801,바리케이드,../Data/6_UI/icon/skillbuff01.tga,.,8,8,42,0,0,0
+205500901,리커버리 오라,../Data/6_UI/icon/skillbuff01.tga,.,8,8,41,0,0,0
+205501001,타임 리버스,../Data/6_UI/icon/skillbuff01.tga,.,8,8,43,0,0,0
+205501101,오펜시브 오라,../Data/6_UI/icon/skillbuff01.tga,.,8,8,44,0,0,0
+205501201,디펜시브 오라,../Data/6_UI/icon/skillbuff01.tga,.,8,8,45,0,0,0
+205501301,성스러운 보호,../Data/6_UI/icon/skillbuff01.tga,.,8,8,46,0,0,0
+205501501,웨폰 크래셔,../Data/6_UI/icon/skillbuff02.tga,.,8,8,20,0,0,0
+205501601,바퀴벌레 인생,../Data/6_UI/icon/skillbuff02.tga,.,8,8,21,0,0,0
+205501801,도발(버프아이콘),../Data/6_UI/icon/skillbuff05.tga,.,8,8,53,0,0,0
+205501901,도발(디버프 아이콘),../Data/6_UI/icon/skillbuff05.tga,.,8,8,54,0,0,0
+206000101,겜블,../Data/6_UI/icon/skillbuff02.tga,.,8,8,22,0,0,0
+206300201,액셀레이션,../Data/6_UI/icon/skillbuff01.tga,.,8,8,21,0,0,0
+206300301,섬멸,../Data/6_UI/icon/skillbuff01.tga,.,8,8,22,0,0,0
+206300401,분노의 외침,../Data/6_UI/icon/skillbuff02.tga,.,8,8,23,0,0,0
+206300501,와일드 레이지,../Data/6_UI/icon/skillbuff01.tga,.,8,8,24,0,0,0
+206300601,생명연장,../Data/6_UI/icon/skillbuff01.tga,.,8,8,25,0,0,0
+206500801,웨폰 퀴큰,../Data/6_UI/icon/skillbuff01.tga,.,8,8,47,0,0,0
+206501201,블러디 로어,../Data/6_UI/icon/skillbuff02.tga,.,8,8,24,0,0,0
+207000301,와이드 힐,../Data/6_UI/icon/skillbuff01.tga,.,8,8,26,0,0,0
+207000401,인스탄스 힐,../Data/6_UI/icon/skillbuff01.tga,.,8,8,27,0,0,0
+207000501,큐어,../Data/6_UI/icon/skillbuff01.tga,.,8,8,29,0,0,0
+207000701,감염,../Data/6_UI/icon/skillbuff01.tga,.,8,8,30,0,0,0
+208000101,블리자드,../Data/6_UI/icon/skillbuff02.tga,.,8,8,30,0,0,0
+209000401,콰그마이어,../Data/6_UI/icon/skillbuff01.tga,.,8,8,28,0,0,0
+209001301,스트라이킹,../Data/6_UI/icon/skillbuff02.tga,.,8,8,27,0,0,0
+209001401,썬더 브레이크,../Data/6_UI/icon/skillbuff01.tga,.,8,8,49,0,0,0
+209001601,HP 리스토어,../Data/6_UI/icon/skillbuff01.tga,.,8,8,58,0,0,0
+209001801,배리어,../Data/6_UI/icon/skillbuff01.tga,.,8,8,50,0,0,0
+209001901,완전한 결계,../Data/6_UI/icon/skillbuff01.tga,.,8,8,51,0,0,0
+209002001,미러 이미지,../Data/6_UI/icon/skillbuff01.tga,.,8,8,52,0,0,0
+209002201,문어 먹물,../Data/6_UI/icon/skillbuff01.tga,.,8,8,59,0,0,0
+209002401,백 드래프트,../Data/6_UI/icon/skillbuff01.tga,.,8,8,60,0,0,0
+209002501,클라우드 킬,../Data/6_UI/icon/skillbuff01.tga,.,8,8,61,0,0,0
+209002801,생츄어리,../Data/6_UI/icon/skillbuff02.tga,.,8,8,26,0,0,0
+210000401,모서리로 찍으세요 (버프 아이콘),../Data/6_UI/icon/skillbuff01.tga,.,8,8,11,0,0,0
+210000701,크럭스 샷,../Data/6_UI/icon/skillbuff01.tga,.,8,8,31,0,0,0
+210000901,환각,../Data/6_UI/icon/skillbuff01.tga,.,8,8,32,0,0,0
+210001001,애시드 애로우,../Data/6_UI/icon/skillbuff01.tga,.,8,8,39,0,0,0
+210001501,자동 사격 장치,../Data/6_UI/icon/skillbuff01.tga,.,8,8,54,0,0,0
+210001701,카모플라쥬,../Data/6_UI/icon/skillbuff01.tga,.,8,8,33,0,0,0
+210001801,넷 바인더,../Data/6_UI/icon/skillbuff01.tga,.,8,8,34,0,0,0
+210002001,난사,../Data/6_UI/icon/skillbuff01.tga,.,8,8,40,0,0,0
+210002501,건들지마라!,../Data/6_UI/icon/skillbuff02.tga,.,8,8,31,0,0,0
+210002521,건들지마라! 스킬의 희생양,../Data/6_UI/icon/skillbuff01.tga,.,8,8,32,0,0,0
+210002701,사일런스 트랩,../Data/6_UI/icon/skillbuff01.tga,.,8,8,62,0,0,0
+210002901,커즈드 봄버,../Data/6_UI/icon/skillbuff01.tga,.,8,8,53,0,0,0
+250000701,아드레날린,../Data/6_UI/icon/skillbuff02.tga,.,8,8,32,0,0,0
+250000801,파이어 그레네이드,../Data/6_UI/icon/skillbuff01.tga,.,8,8,60,0,0,0
+250000901,아토르핀 1차,../Data/6_UI/icon/skillbuff01.tga,.,8,8,55,0,0,0
+250000902,아토르핀 2차,../Data/6_UI/icon/skillbuff01.tga,.,8,8,56,0,0,0
+259999101,스텝 더 비트 (버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,2,0,0,0
+259999901,피버 1단계 (버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,3,0,0,0
+259999902,피버 2단계 (버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,3,0,0,0
+259999903,피버 3단계 (버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,3,0,0,0
+260000501,기합,../Data/6_UI/icon/skillbuff02.tga,.,8,8,1,0,0,0
+270000301,미혼향,../Data/6_UI/icon/skillbuff01.tga,.,8,8,63,0,0,0
+270000401,압정,../Data/6_UI/icon/skillbuff01.tga,.,8,8,64,0,0,0
+270000501,목둔술! 통나무 굴리기,../Data/6_UI/icon/skillbuff02.tga,.,8,8,53,0,0,0
+270003001,에이프릴 풀,../Data/6_UI/icon/skillbuff02.tga,.,8,8,38,0,0,0
+270003101,질풍답보(버프 아이콘),../Data/6_UI/icon/skillbuff05.tga,.,8,8,55,0,0,0
+280000101,디펜스모드 전략포인트 증가,../Data/6_UI/icon/skillbuff05.tga,.,8,8,23,0,0,0
+280000201,디펜스모드 PC이동속도 증가,../Data/6_UI/icon/skillbuff05.tga,.,8,8,22,0,0,0
+280000301,디펜스모드 공격력 상승,../Data/6_UI/icon/skillbuff05.tga,.,8,8,21,0,0,0
+280000401,디펜스모드 가디언 공격속도 증가,../Data/6_UI/icon/skillbuff05.tga,.,8,8,24,0,0,0
+280000501,디펜스모드 가디언 공격력 상승,../Data/6_UI/icon/skillbuff05.tga,.,8,8,25,0,0,0
+280000601,디펜스모드 무기 인첸트 증가,../Data/6_UI/icon/skillbuff02.tga,.,8,8,21,0,0,0
+285090201,대패질,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285090301,기계고장 1단계,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285090501,부채질,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285090601,기계고장 2단계,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285090801,잡초제거,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285090901,해충감염,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285091101,먹이주기,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285091201,세균감염,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285091401,기계정비,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+285091501,기계고장 3단계,../Data/6_UI/icon/techBfIcon.tga,.,4,4,1,0,0,0
+290000001,사랑의 힘으로! (커플-부부),../Data/6_UI/icon/skillbuff02.tga,.,8,8,2,0,0,0
+290000101,사랑은 두근거림.(커플링),../Data/6_UI/icon/skillbuff03.tga,.,8,8,22,0,0,0
+290000201,프로텍트엣지 버프,../Data/6_UI/icon/skillbuff04.tga,.,8,8,52,0,0,0
+290000301,블레이드 스트라이크 버프,../Data/6_UI/icon/skillbuff04.tga,.,8,8,64,0,0,0
+290000401,부두스컬 버프,../Data/6_UI/icon/skillbuff04.tga,.,8,8,64,0,0,0
+290000501,친교버프_전사의 유대 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,17,0,0,0
+290000502,친교버프_술사의 지혜 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,18,0,0,0
+290000503,친교버프_궁수의 신속 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,19,0,0,0
+290000504,친교버프_도적의 민첩 버프 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,20,0,0,0
+300100101,드래곤 투스,../Data/6_UI/icon/Iconskill3.tga,.,12,12,107,0,0,0
+300100201,그라운드 피스톤,../Data/6_UI/icon/Iconskill3.tga,.,12,12,108,0,0,0
+300100301,주술 트랩,../Data/6_UI/icon/Iconskill3.tga,.,12,12,110,0,0,0
+300100501,주술 강화,../Data/6_UI/icon/Iconskill3.tga,.,12,12,114,0,0,0
+300100601,에어 스프레쉬,../Data/6_UI/icon/Iconskill3.tga,.,12,12,111,0,0,0
+300100701,스파크 웨이브 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,117,0,0,0
+300100901,자연의 숨결,../Data/6_UI/icon/Iconskill3.tga,.,12,12,116,0,0,0
+300101001,리게인,../Data/6_UI/icon/Iconskill3.tga,.,12,12,115,0,0,0
+300101101,미스트 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,106,0,0,0
+300101201,다이크 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,112,0,0,0
+300101301,소환 마스터리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,109,0,0,0
+300101401,소환체 강화,../Data/6_UI/icon/Iconskill3.tga,.,12,12,113,0,0,0
+300102001,용력 강화 스킬 아이콘(패시브),../Data/6_UI/icon/Iconskill4.tga,.,12,12,65,0,0,0
+300200101,다이어 미스트,../Data/6_UI/icon/Iconskill3.tga,.,12,12,118,0,0,0
+300200201,집합,../Data/6_UI/icon/Iconskill3.tga,.,12,12,119,0,0,0
+300200301,Adv 소환 마스터리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,120,0,0,0
+300200401,생명의 외침,../Data/6_UI/icon/Iconskill3.tga,.,12,12,121,0,0,0
+300200501,두나믹 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,122,0,0,0
+300200601,강철 가죽,../Data/6_UI/icon/Iconskill3.tga,.,12,12,123,0,0,0
+300200701,스틸 크로우,../Data/6_UI/icon/Iconskill3.tga,.,12,12,125,0,0,0
+300200801,롤링 윈드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,128,0,0,0
+300200901,칼키 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,124,0,0,0
+300201001,어웨이크 인스팅트,../Data/6_UI/icon/Iconskill3.tga,.,12,12,126,0,0,0
+300201101,퓨리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,127,0,0,0
+300201201,에어 스메쉬,../Data/6_UI/icon/Iconskill3.tga,.,12,12,129,0,0,0
+300201301,샷 마스터리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,131,0,0,0
+300201401,인페르노,../Data/6_UI/icon/Iconskill3.tga,.,12,12,130,0,0,0
+300201501,주술 결계,../Data/6_UI/icon/Iconskill3.tga,.,12,12,133,0,0,0
+300201601,볼케이노,../Data/6_UI/icon/Iconskill3.tga,.,12,12,132,0,0,0
+300201701,네이션 퓨리,../Data/6_UI/icon/Iconskill3.tga,.,12,12,134,0,0,0
+300201801,메테오 레인,../Data/6_UI/icon/Iconskill3.tga,.,12,12,135,0,0,0
+300202001,주술 감옥,../Data/6_UI/icon/Iconskill3.tga,.,12,12,137,0,0,0
+300202101,어스 퀘이크,../Data/6_UI/icon/Iconskill3.tga,.,12,12,136,0,0,0
+300203901,에너지 순환 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,67,0,0,0
+300300101,블레서 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,138,0,0,0
+300300201,호크아이,../Data/6_UI/icon/Iconskill3.tga,.,12,12,141,0,0,0
+300300301,네이쳐 블레싱,../Data/6_UI/icon/Iconskill3.tga,.,12,12,140,0,0,0
+300300401,보호,../Data/6_UI/icon/Iconskill3.tga,.,12,12,139,0,0,0
+300300501,골곤 소환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,142,0,0,0
+300300601,원소 변환,../Data/6_UI/icon/Iconskill3.tga,.,12,12,144,0,0,0
+300300701,골렘 마스터리,../Data/6_UI/icon/Iconskill4.tga,.,12,12,3,0,0,0
+300300801,블러드 쉐어,../Data/6_UI/icon/Iconskill4.tga,.,12,12,5,0,0,0
+300300901,엘리멘탈 블레싱,../Data/6_UI/icon/Iconskill3.tga,.,12,12,143,0,0,0
+300301001,리게인 리프레쉬,../Data/6_UI/icon/Iconskill4.tga,.,12,12,2,0,0,0
+300301101,임펙트 언서몬,../Data/6_UI/icon/Iconskill4.tga,.,12,12,1,0,0,0
+300301201,임펙트 마스터리,../Data/6_UI/icon/Iconskill4.tga,.,12,12,4,0,0,0
+300301301,스마트 샷,../Data/6_UI/icon/Iconskill4.tga,.,12,12,6,0,0,0
+300301401,포이즌 가드,../Data/6_UI/icon/Iconskill4.tga,.,12,12,7,0,0,0
+300301501,톡신 플루이드,../Data/6_UI/icon/Iconskill4.tga,.,12,12,8,0,0,0
+300301601,마나 번,../Data/6_UI/icon/Iconskill4.tga,.,12,12,9,0,0,0
+300301701,마나 리액터,../Data/6_UI/icon/Iconskill4.tga,.,12,12,11,0,0,0
+300301801,메가 인페르노,../Data/6_UI/icon/Iconskill4.tga,.,12,12,10,0,0,0
+300301901,임펙트 프레셔,../Data/6_UI/icon/Iconskill4.tga,.,12,12,12,0,0,0
+300302001,메가 스파크 웨이브,../Data/6_UI/icon/Iconskill4.tga,.,12,12,14,0,0,0
+300302201,롤링 스톤,../Data/6_UI/icon/Iconskill4.tga,.,12,12,13,0,0,0
+300304201,용력 증폭 스킬 아이콘(패시브),../Data/6_UI/icon/Iconskill4.tga,.,12,12,66,0,0,0
+300304301,고통분담 - 임시,../Data/6_UI/icon/Iconskill4.tga,.,12,12,77,0,0,0
+300400101,프로즌 체인 스킬 아이콘(액티브),../Data/6_UI/icon/Iconskill4.tga,.,12,12,72,0,0,0
+300400102,프로즌 체인 스킬 아이콘(버프),../Data/6_UI/icon/skillbuff06.tga,.,8,8,53,0,0,0
+300400301,템프테이션 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,68,0,0,0
+300400501,엘리멘탈 스톰 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,69,0,0,0
+300401501,드래군 소환 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,71,0,0,0
+300402001,드레곤 레이지 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,70,0,0,0
+310100401,주술 트랩 (디버프 아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,5,0,0,0
+310100901,친교 버프_자연의 숨결 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,6,0,0,0
+310101101,미스트 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,19,0,0,0
+310101201,다이크 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,20,0,0,0
+310200501,두나믹 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,21,0,0,0
+310200901,칼키 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,22,0,0,0
+310201501,주술 결계 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,7,0,0,0
+310202001,주술 감옥 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,26,0,0,0
+310203601,주술 감옥 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,8,0,0,0
+310204001,에너지 순환 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,35,0,0,0
+310300101,블레서 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+310300401,공격 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,25,0,0,0
+310300501,골곤 소환버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,24,0,0,0
+310301301,스마트샷 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,9,0,0,0
+310301401,포이즌 가드 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,10,0,0,0
+310301601,마나 번 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,11,0,0,0
+310302401,자연의 치유 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,13,0,0,0
+310302501,정령의 축복 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,14,0,0,0
+310302601,대지의 가호 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,15,0,0,0
+310303901,마나 번 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,12,0,0,0
+310400101,프로즌 체인 디버프 아이콘(패시브),../Data/6_UI/icon/skillbuff06.tga,.,8,8,37,0,0,0
+400000501,택틱 콤보,../Data/6_UI/icon/Iconskill4.tga,.,12,12,25,0,0,0
+400000901,피니쉬 콤보,../Data/6_UI/icon/Iconskill4.tga,.,12,12,41,0,0,0
+400100101,일도 양단,../Data/6_UI/icon/Iconskill4.tga,.,12,12,15,0,0,0
+400100201,토네이도 스핀,../Data/6_UI/icon/Iconskill4.tga,.,12,12,16,0,0,0
+400100301,위빙,../Data/6_UI/icon/Iconskill4.tga,.,12,12,17,0,0,0
+400100401,스크류 드랍킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,18,0,0,0
+400100501,레피드 스텐스 (친교스킬),../Data/6_UI/icon/Iconskill4.tga,.,12,12,19,0,0,0
+400100601,파워 피스트,../Data/6_UI/icon/Iconskill4.tga,.,12,12,20,0,0,0
+400100701,스핀킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,21,0,0,0
+400100801,드래곤 킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,22,0,0,0
+400100901,로켓 블로우,../Data/6_UI/icon/Iconskill4.tga,.,12,12,23,0,0,0
+400101001,백열각,../Data/6_UI/icon/Iconskill4.tga,.,12,12,24,0,0,0
+400101201,강철 주먹,../Data/6_UI/icon/Iconskill4.tga,.,12,12,26,0,0,0
+400200101,퓨전,../Data/6_UI/icon/Iconskill4.tga,.,12,12,27,0,0,0
+400200201,무한 돌려차기,../Data/6_UI/icon/Iconskill4.tga,.,12,12,28,0,0,0
+400200301,하이퍼 니킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,29,0,0,0
+400200401,드래곤 어퍼,../Data/6_UI/icon/Iconskill4.tga,.,12,12,30,0,0,0
+400200501,지옥의 링 소환,../Data/6_UI/icon/Iconskill4.tga,.,12,12,31,0,0,0
+400200701,파워 위빙,../Data/6_UI/icon/Iconskill4.tga,.,12,12,32,0,0,0
+400200801,스템퍼,../Data/6_UI/icon/Iconskill4.tga,.,12,12,33,0,0,0
+400200901,스핀 블레이드,../Data/6_UI/icon/Iconskill4.tga,.,12,12,34,0,0,0
+400201001,스위시 킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,35,0,0,0
+400201101,백열진각,../Data/6_UI/icon/Iconskill4.tga,.,12,12,36,0,0,0
+400201201,라이징 드롭킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,37,0,0,0
+400201301,레이지,../Data/6_UI/icon/Iconskill4.tga,.,12,12,38,0,0,0
+400201401,닷지 마스터리,../Data/6_UI/icon/Iconskill4.tga,.,12,12,39,0,0,0
+400201501,트윈 이펙트,../Data/6_UI/icon/Iconskill4.tga,.,12,12,40,0,0,0
+400201701,호흡조절,../Data/6_UI/icon/Iconskill4.tga,.,12,12,42,0,0,0
+400201801,절대방어,../Data/6_UI/icon/Iconskill4.tga,.,12,12,43,0,0,0
+400201901,임펙트 블로우,../Data/6_UI/icon/Iconskill4.tga,.,12,12,44,0,0,0
+400202001,투기 폭발,../Data/6_UI/icon/Iconskill4.tga,.,12,12,45,0,0,0
+400202101,무한 난투 대쉬,../Data/6_UI/icon/Iconskill4.tga,.,12,12,46,0,0,0
+400300101,기사 회생,../Data/6_UI/icon/Iconskill4.tga,.,12,12,47,0,0,0
+400300301,벙커 버스터,../Data/6_UI/icon/Iconskill4.tga,.,12,12,48,0,0,0
+400300401,드래곤 피어,../Data/6_UI/icon/Iconskill4.tga,.,12,12,49,0,0,0
+400300501,토네이도 어퍼,../Data/6_UI/icon/Iconskill4.tga,.,12,12,50,0,0,0
+400300601,전광 석화,../Data/6_UI/icon/Iconskill4.tga,.,12,12,51,0,0,0
+400300701,스핀 붐,../Data/6_UI/icon/Iconskill4.tga,.,12,12,52,0,0,0
+400300801,스피릿 스피어,../Data/6_UI/icon/Iconskill4.tga,.,12,12,53,0,0,0
+400300901,롤링 그래블,../Data/6_UI/icon/Iconskill4.tga,.,12,12,54,0,0,0
+400301001,슬라이딩 난타,../Data/6_UI/icon/Iconskill4.tga,.,12,12,55,0,0,0
+400301101,스매쉬 킥,../Data/6_UI/icon/Iconskill4.tga,.,12,12,56,0,0,0
+400301201,퓨전 부스트,../Data/6_UI/icon/Iconskill4.tga,.,12,12,57,0,0,0
+400301301,피니쉬 무브,../Data/6_UI/icon/Iconskill4.tga,.,12,12,58,0,0,0
+400301401,피니쉬 임펙트,../Data/6_UI/icon/Iconskill4.tga,.,12,12,59,0,0,0
+400301501,고스트 파이터,../Data/6_UI/icon/Iconskill4.tga,.,12,12,60,0,0,0
+400301601,철권 단련,../Data/6_UI/icon/Iconskill4.tga,.,12,12,61,0,0,0
+400301701,피스트 하모니,../Data/6_UI/icon/Iconskill4.tga,.,12,12,62,0,0,0
+400301801,하모니 마스터리,../Data/6_UI/icon/Iconskill4.tga,.,12,12,63,0,0,0
+400301901,헤비 블로우,../Data/6_UI/icon/Iconskill4.tga,.,12,12,64,0,0,0
+400400101,트레이닝 타임 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,73,0,0,0
+400400201,일심동체 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,76,0,0,0
+400400501,연계강타 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,74,0,0,0
+400401001,크로스 피스트 스킬 아이콘,../Data/6_UI/icon/Iconskill4.tga,.,12,12,75,0,0,0
+401200101,퓨전 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,17,0,0,0
+410100501,레피드 스텐스 (친교스킬) 버프아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,16,0,0,0
+410200501,지옥의 링 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,18,0,0,0
+410300101,기사 회생 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,19,0,0,0
+410300201,부활의 투지 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,20,0,0,0
+410300401,드래곤 피어 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,29,0,0,0
+410300601,전광석화 버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,24,0,0,0
+410301201,퓨전 부스트 버프,../Data/6_UI/icon/skillbuff06.tga,.,8,8,30,0,0,0
+410302501,호흡 곤란 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+410302601,하모니 축적 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,21,0,0,0
+410302701,하모니 효과 버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,22,0,0,0
+410400101,트레이닝 타임 디버프 아이콘,../Data/6_UI/icon/skillbuff06.tga,.,8,8,38,0,0,0
+800042011,승하차 버프아이콘,../Data/6_UI/icon/skillbuff02.tga,.,8,8,10,0,0,0
+900007011,커플 이펙트(꿩먹고 알먹고),../Data/6_UI/icon/skillbuff02.tga,.,8,8,10,0,0,0
+900008011,각성 차지 버프,../Data/6_UI/icon/skillbuff05.tga,.,8,8,1,0,0,0
+920001011,슬로 베어_디버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+920002011,프로즌 체인_디버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+920003011,베어 부스터_버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+920004011,올 부스터_버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+920005011,베어 패스트_버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+920006011,쉴드_아이템_버프 아이콘,'../Data/6_UI/icon/skillbuff06.tga,.,8,8,23,0,0,0
+1054005011,필중 (버프아이콘),../Data/6_UI/icon/skillbuff06.tga,.,8,8,1,0,0,0
+2000000101,각성,../Data/6_UI/icon/Iconskill2.tga,.,12,12,114,0,0,0
+2000001001,각성의 파동,../Data/6_UI/icon/Iconskill2.tga,.,12,12,118,0,0,0
+2000002001,각성 차지,../Data/6_UI/icon/Iconskill3.tga,.,12,12,57,0,0,0
+2000101001,용의비늘,../Data/6_UI/icon/Iconskill2.tga,.,12,12,112,0,0,0
+2000102001,롤링 그라운드,../Data/6_UI/icon/Iconskill2.tga,.,12,12,113,0,0,0
+2000110101,[각성기]승천룡,../Data/6_UI/icon/Iconskill2.tga,.,12,12,115,0,0,0
+2000120101,[각성기]드래곤다이브,../Data/6_UI/icon/Iconskill2.tga,.,12,12,116,0,0,0
+2000201001,윈드스탭,../Data/6_UI/icon/Iconskill2.tga,.,12,12,121,0,0,0
+2000202001,데스스네치,../Data/6_UI/icon/Iconskill2.tga,.,12,12,122,0,0,0
+2000210101,[각성기]데스스팅거,../Data/6_UI/icon/Iconskill2.tga,.,12,12,124,0,0,0
+2000220101,[각성기]데몰리션 차지,../Data/6_UI/icon/Iconskill2.tga,.,12,12,125,0,0,0
+2000301001,블러드 피버,../Data/6_UI/icon/Iconskill2.tga,.,12,12,130,0,0,0
+2000302001,힐링 웨이브,../Data/6_UI/icon/Iconskill2.tga,.,12,12,131,0,0,0
+2000310101,[각성기]라이트닝마그넷,../Data/6_UI/icon/Iconskill2.tga,.,12,12,133,0,0,0
+2000320101,[각성기]레이스오브헤븐,../Data/6_UI/icon/Iconskill2.tga,.,12,12,134,0,0,0
+2000401001,피의각서,../Data/6_UI/icon/Iconskill2.tga,.,12,12,139,0,0,0
+2000402001,타임 프리즈,../Data/6_UI/icon/Iconskill2.tga,.,12,12,140,0,0,0
+2000410101,[각성기]마그마피스톤,../Data/6_UI/icon/Iconskill2.tga,.,12,12,142,0,0,0
+2000420101,[각성기]소울 드레인,../Data/6_UI/icon/Iconskill2.tga,.,12,12,143,0,0,0
+2000501001,바람의 노래,../Data/6_UI/icon/Iconskill3.tga,.,12,12,4,0,0,0
+2000502001,와이어액션,../Data/6_UI/icon/Iconskill3.tga,.,12,12,5,0,0,0
+2000510101,[각성기]아이스샤워,../Data/6_UI/icon/Iconskill3.tga,.,12,12,7,0,0,0
+2000520101,[각성기]윈드블레이드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,8,0,0,0
+2000601001,N2 탄약강화,../Data/6_UI/icon/Iconskill3.tga,.,12,12,13,0,0,0
+2000602001,셀프 봄버,../Data/6_UI/icon/Iconskill3.tga,.,12,12,14,0,0,0
+2000610101,[각성기]파티클캐논,../Data/6_UI/icon/Iconskill3.tga,.,12,12,16,0,0,0
+2000620101,[각성기]뉴클리어,../Data/6_UI/icon/Iconskill3.tga,.,12,12,17,0,0,0
+2000701001,크레이지 소울,../Data/6_UI/icon/Iconskill3.tga,.,12,12,22,0,0,0
+2000702001,클로피싱,../Data/6_UI/icon/Iconskill3.tga,.,12,12,23,0,0,0
+2000710101,[각성기]헬샤우팅,../Data/6_UI/icon/Iconskill3.tga,.,12,12,25,0,0,0
+2000720101,[각성기]마리오네트,../Data/6_UI/icon/Iconskill3.tga,.,12,12,26,0,0,0
+2000801001,닷지마스터,../Data/6_UI/icon/Iconskill3.tga,.,12,12,31,0,0,0
+2000802001,프로텍트 엣지,../Data/6_UI/icon/Iconskill3.tga,.,12,12,32,0,0,0
+2000802002,프로텍트 엣지(버프),../Data/6_UI/icon/skillbuff04.tga,.,8,8,52,0,0,0
+2000810101,[각성기]크로스블레이드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,34,0,0,0
+2000820101,[각성기]쉐도우블레이드,../Data/6_UI/icon/Iconskill3.tga,.,12,12,35,0,0,0
+2009110101,[궁극기]드래곤러쉬,../Data/6_UI/icon/Iconskill2.tga,.,12,12,119,0,0,0
+2009210101,[궁극기]데몰리션 봄버,../Data/6_UI/icon/Iconskill2.tga,.,12,12,128,0,0,0
+2009310101,[궁극기]라이트닝 스톰,../Data/6_UI/icon/Iconskill2.tga,.,12,12,137,0,0,0
+2009410101,[궁극기]리버스 그라비티,../Data/6_UI/icon/Iconskill3.tga,.,12,12,2,0,0,0
+2009510101,[궁극기]그라운드 제로,../Data/6_UI/icon/Iconskill3.tga,.,12,12,11,0,0,0
+2009610101,[궁극기]멀티 스트라이프,../Data/6_UI/icon/Iconskill3.tga,.,12,12,20,0,0,0
+2009710101,[궁극기]클럽 매니아,../Data/6_UI/icon/Iconskill3.tga,.,12,12,29,0,0,0
+2009810101,[궁극기]환영 분신술,../Data/6_UI/icon/Iconskill3.tga,.,12,12,38,0,0,0
+2010000001,봉인스킬 대표 아이콘,../Data/6_UI/icon/Iconskill.tga,.,12,12,1,0,0,0

@@ -1,0 +1,6 @@
+<QUERY TABLE="Table/DR2_Def/TB_DefBattlePassQuest.csv">
+    <COLUMN NAME="SeasonNo" TYPE="INT"/>
+    <COLUMN NAME="GradeNo" TYPE="INT"/>
+    <COLUMN NAME="DayNo" TYPE="INT"/>
+    <COLUMN NAME="QuestId" TYPE="INT"/>
+</QUERY>

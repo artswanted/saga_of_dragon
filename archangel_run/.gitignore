@@ -1,0 +1,19 @@
+# Crash
+*.dmp
+*.txt
+
+# C++ build
+*.idb
+*.pdb
+*.map
+*.exp
+*.lib
+*.ilk
+
+# Python
+*.pyc
+
+# Dragonica generated
+SMC/ProcInfo.dat
+Dummy/Table/
+

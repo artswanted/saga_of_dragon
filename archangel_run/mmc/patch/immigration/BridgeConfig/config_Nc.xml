@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<CONFIG>
+	<LOG>
+		<FOLDER TYPE="string">Log</FOLDER> 
+		<WRITE TYPE="INT">0</WRITE> 
+		<LEVEL TYPE="INT">0</LEVEL> 
+	</LOG>
+	<GSM>
+		<GAMEID TYPE="INT">36</GAMEID>         <!-- The value is stored in GSM config file-->
+		<SERVERID TYPE="INT">1</SERVERID>   <!-- The value must exist in GameServerList Table of BillingDB-->
+		<ADDR TYPE="string">10.70.12.8 </ADDR> 
+		<PORT TYPE="int">10063</PORT>
+		<SOCKET TYPE="int">2</SOCKET>
+		<CIPHER TYPE="int">0</CIPHER>
+		<VERSION TYPE="int">20070405</VERSION> 
+		<RECONNECTTIME TYPE="int">20</RECONNECTTIME> 
+	</GSM>
+</CONFIG>
+

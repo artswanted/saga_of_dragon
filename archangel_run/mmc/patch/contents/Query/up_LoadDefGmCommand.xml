@@ -1,0 +1,4 @@
+<QUERY TABLE="Table/DR2_Local/TB_DefGmCommand.csv">
+    <COLUMN NAME="CmdNo" TYPE="INT"/>
+    <COLUMN NAME="Level" TYPE="TINYINT"/>
+</QUERY>

@@ -1,0 +1,284 @@
+ResNo,Memo,IconPath,XmlPath,U,V,UVIndex,AddResNo1,AddResNo2,AddResNo3
+16402,공업-정예패턴 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,61,0,0,0
+26402,방업-정예패턴 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,62,0,0,0
+36402,속업-정예패턴 아이콘,../Data/6_UI/icon/skillbuff05.tga,.,8,8,60,0,0,0
+46401,분노상태4-공방업,../Data/6_UI/icon/skillbuff05.tga,.,8,8,60,0,0,0
+56401,분노상태5-공속업,../Data/6_UI/icon/skillbuff05.tga,.,8,8,64,0,0,0
+66401,분노상태6-방속업,../Data/6_UI/icon/skillbuff05.tga,.,8,8,65,0,0,0
+76401,분노상태7-공방속업,../Data/6_UI/icon/skillbuff05.tga,.,8,8,66,0,0,0
+3000300,정신나간 칼리곤,../Data/6_UI/icon/msBossIcon_161.tga,.,1,1,1,0,0,0
+3491000,코코투스,../Data/6_UI/icon/msBossIcon_169.tga,.,1,1,1,0,0,0
+3523900,자로,../Data/6_UI/icon/msBossIcon_158.tga,.,1,1,1,0,0,0
+3524900,킬로,../Data/6_UI/icon/msBossIcon_157.tga,.,1,1,1,0,0,0
+3526900,카샤프,../Data/6_UI/icon/msBossIcon_160.tga,.,1,1,1,0,0,0
+3529900,프로켈,../Data/6_UI/icon/msBossIcon_159.tga,.,1,1,1,0,0,0
+3530400,원한의정령,../Data/6_UI/icon/msBossIcon_152.tga,.,1,1,1,0,0,0
+3530600,페리에리얼,../Data/6_UI/icon/msBossIcon_151.tga,.,1,1,1,0,0,0
+3530700,박쥐거미,../Data/6_UI/icon/msBossIcon_153.tga,.,1,1,1,0,0,0
+3530800,아카나이,../Data/6_UI/icon/msBossIcon_176.tga,.,1,1,1,0,0,0
+3540700,데비리치,../Data/6_UI/icon/msBossIcon_155.tga,.,1,1,1,0,0,0
+3541000,케로베로스,../Data/6_UI/icon/msBossIcon_154.tga,.,1,1,1,0,0,0
+3541200,디아블릭,../Data/6_UI/icon/msBossIcon_156.tga,.,1,1,1,0,0,0
+3542100,엘가,../Data/6_UI/icon/msBossIcon_3542100.tga,.,1,1,1,0,0,0
+3542110,엘가,../Data/6_UI/icon/msBossIcon_3542110.tga,.,1,1,1,0,0,0
+3571100,혼드 골렘 (정예),../Data/6_UI/icon/msBossIcon_162.tga,.,1,1,1,0,0,0
+3571200,기니어 베럴 (정예),../Data/6_UI/icon/msBossIcon_163.tga,.,1,1,1,0,0,0
+3571300,메탈 캄파링 (정예),../Data/6_UI/icon/msBossIcon_164.tga,.,1,1,1,0,0,0
+3571400,세티로스 (보스),../Data/6_UI/icon/msBossIcon_165.tga,.,1,1,1,0,0,0
+4019162,아그니스,../Data/6_UI/icon/msBossIcon_127.tga,.,1,1,1,0,0,0
+4028166,스노우 프린세스(아르카),../Data/6_UI/icon/msRareMonIcon_5101501.tga,.,1,1,1,0,0,0
+4029163,아비스,../Data/6_UI/icon/msBossIcon_128.tga,.,1,1,1,0,0,0
+4039165,알렉,../Data/6_UI/icon/msBossIcon_129.tga,.,1,1,1,0,0,0
+4049166,레그노,../Data/6_UI/icon/msBossIcon_130.tga,.,1,1,1,0,0,0
+4500814,시크,../Data/6_UI/icon/msBossIcon_141.tga,.,1,1,1,0,0,0
+4500915,헤스,../Data/6_UI/icon/msBossIcon_140.tga,.,1,1,1,0,0,0
+4601100,본플레그,../Data/6_UI/icon/msBossIcon_144.tga,.,1,1,1,0,0,0
+4601200,카틀라,../Data/6_UI/icon/msBossIcon_146.tga,.,1,1,1,0,0,0
+4601300,쥐라고나,../Data/6_UI/icon/msBossIcon_145.tga,.,1,1,1,0,0,0
+4602100,카지모도,../Data/6_UI/icon/msBossIcon_142.tga,.,1,1,1,0,0,0
+4602200,아누쿠스,../Data/6_UI/icon/msBossIcon_143.tga,.,1,1,1,0,0,0
+4701149,가시나무괴물,../Data/6_UI/icon/msBossIcon_147.tga,.,1,1,1,0,0,0
+4701249,독나무괴물,../Data/6_UI/icon/msBossIcon_148.tga,.,1,1,1,0,0,0
+4701349,썩은나무괴물,../Data/6_UI/icon/msBossIcon_149.tga,.,1,1,1,0,0,0
+4701550,리바이어스,../Data/6_UI/icon/msBossIcon_150.tga,.,1,1,1,0,0,0
+4702200,하이오크(일반),../Data/6_UI/icon/msBossIcon_177.tga,.,1,1,1,0,0,0
+4702300,오크 히어로(일반),../Data/6_UI/icon/msBossIcon_178.tga,.,1,1,1,0,0,0
+5727800,초콜렛단 보스 쿠피 (정예) ,../Data/6_UI/icon/msBossIcon_171.tga,.,1,1,1,0,0,0
+5810000,[가디언] 스톰,../Data/6_UI/map/mapMonster3.tga,.,12,12,61,0,0,0
+5810040,[대령] 스톰 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,62,0,0,0
+5810070,[대장] 스톰 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,63,0,0,0
+5810400,[대령] 스톰,../Data/6_UI/map/mapMonster3.tga,.,12,12,62,0,0,0
+5810700,[대장] 스톰,../Data/6_UI/map/mapMonster3.tga,.,12,12,63,0,0,0
+5820000,[가디언] 블레이즈,../Data/6_UI/map/mapMonster3.tga,.,12,12,58,0,0,0
+5820040,[대령] 블레이즈 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,59,0,0,0
+5820070,[대장] 블레이즈 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,60,0,0,0
+5820400,[대령] 블레이즈,../Data/6_UI/map/mapMonster3.tga,.,12,12,59,0,0,0
+5820700,[대장] 블레이즈,../Data/6_UI/map/mapMonster3.tga,.,12,12,60,0,0,0
+5830000,[가디언] 가이아,../Data/6_UI/map/mapMonster3.tga,.,12,12,70,0,0,0
+5830040,[대령] 가이아 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,71,0,0,0
+5830070,[대장] 가이아 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,72,0,0,0
+5830400,[대령] 가이아,../Data/6_UI/map/mapMonster3.tga,.,12,12,71,0,0,0
+5830700,[대장] 가이아,../Data/6_UI/map/mapMonster3.tga,.,12,12,72,0,0,0
+5840000,[가디언] 라이트닝,../Data/6_UI/map/mapMonster3.tga,.,12,12,55,0,0,0
+5840040,[대령] 라이트닝 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,56,0,0,0
+5840070,[대장] 라이트닝 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,57,0,0,0
+5840400,[대령] 라이트닝,../Data/6_UI/map/mapMonster3.tga,.,12,12,56,0,0,0
+5840700,[대장] 라이트닝,../Data/6_UI/map/mapMonster3.tga,.,12,12,57,0,0,0
+5850000,[가디언] 프리징,../Data/6_UI/map/mapMonster3.tga,.,12,12,64,0,0,0
+5850040,[대령] 프리징 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,65,0,0,0
+5850070,[대장] 프리징 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,66,0,0,0
+5850400,[대령] 프리징,../Data/6_UI/map/mapMonster3.tga,.,12,12,65,0,0,0
+5850700,[대장] 프리징,../Data/6_UI/map/mapMonster3.tga,.,12,12,66,0,0,0
+5860000,[가디언] 블랙홀,../Data/6_UI/map/mapMonster3.tga,.,12,12,67,0,0,0
+5860040,[대령] 블랙홀 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,68,0,0,0
+5860070,[대장] 블랙홀 OLD,../Data/6_UI/map/mapMonster3.tga,.,12,12,69,0,0,0
+5860400,[대령] 블랙홀,../Data/6_UI/map/mapMonster3.tga,.,12,12,68,0,0,0
+5860700,[대장] 블랙홀,../Data/6_UI/map/mapMonster3.tga,.,12,12,69,0,0,0
+6000902,라발론 능력치3,../Data/6_UI/icon/msBossIcon_100_02.tga,.,1,1,1,0,0,0
+6000922,파렐경 능력치3 이미지,../Data/6_UI/icon/msBossIcon_100_01.tga,.,1,1,1,0,0,0
+6000932,아람 이미지,../Data/6_UI/icon/msBossIcon_21_02.tga,.,1,1,1,0,0,0
+6000942,무티샤 이미지,../Data/6_UI/icon/msBossIcon_21_01.tga,.,1,1,1,0,0,0
+6000952,본 드래곤,../Data/6_UI/icon/msBossIcon_22.tga,.,1,1,1,0,0,0
+6004402,"베가스 1,2 난이도 이미지",../Data/6_UI/icon/msBossIcon_01_01.tga,.,1,1,1,0,0,0
+6004412,"베가스 3,4 난이도 이미지",../Data/6_UI/icon/msBossIcon_01_02.tga,.,1,1,1,0,0,0
+6004902,"베가본드(정예) 1,2,3,4 난이도 이미지",../Data/6_UI/icon/msBossIcon_01_04.tga,.,1,1,1,0,0,0
+6004999,알비노 베가본드 능력치 3  이미지,../Data/6_UI/icon/msBossIcon_01_03.tga,.,1,1,1,0,0,0
+6006902,"쌍카(마할카)(정예) 1,2 난이도 이미지",../Data/6_UI/icon/msBossIcon_02_01.tga,.,1,1,1,0,0,0
+6006992,"쌍카(마할카)(정예) 3,4 난이도 이미지",../Data/6_UI/icon/msBossIcon_02_02.tga,.,1,1,1,0,0,0
+6006993,쌍카(마할카)(정예) 침묵의 섬 이미지,../Data/6_UI/icon/msBossIcon_02_03.tga,.,1,1,1,0,0,0
+6009602,"데스마스터 능력치3 난이도 1,2 이미지 ",../Data/6_UI/icon/msBossIcon_06_01.tga,.,1,1,1,0,0,0
+6009692,"데스마스터 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_06_02.tga,.,1,1,1,0,0,0
+6013802,"알비다(정예) 능력치3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_05_01.tga,.,1,1,1,0,0,0
+6013830,주주 알비다(정예) 능력치3 이미지,../Data/6_UI/icon/msBossIcon_04_03.tga,.,1,1,1,0,0,0
+6013892,"알비다(정예) 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_05_02.tga,.,1,1,1,0,0,0
+6013902,"캡틴 후커(압둘라)(정예) 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_04_02.tga,.,1,1,1,0,0,0
+6013992,"캡틴 후커(압둘라)(정예) 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_04_02.tga,.,1,1,1,0,0,0
+6015902,"부족장 로커(정예) 능력치3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_08_01.tga,.,1,1,1,0,0,0
+6015992,"부족장 로커(정예) 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_08_02.tga,.,1,1,1,0,0,0
+6015996,히든 부족장 로커(정예) 능력치3 침묵의 섬 이미지,../Data/6_UI/icon/msBossIcon_08_03.tga,.,1,1,1,0,0,0
+6017702,"나무꾼 폴 버나언 1,2 난이도",../Data/6_UI/icon/msBossIcon_20_01.tga,.,1,1,1,0,0,0
+6017802,"나무꾼 폴 버나언 3,4 난이도",../Data/6_UI/icon/msBossIcon_20_02.tga,.,1,1,1,0,0,0
+6018902,"우마이 능력치3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_10_01.tga,.,1,1,1,0,0,0
+6018992,"우마이 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_10_02.tga,.,1,1,1,0,0,0
+6023902,"숲 요정 여왕 시타 능력치3 난이도 1,2",../Data/6_UI/icon/msBossIcon_11_01.tga,.,1,1,1,0,0,0
+6023992,"숲 요정 여왕 시타 능력치3 난이도 3,4",../Data/6_UI/icon/msBossIcon_11_02.tga,.,1,1,1,0,0,0
+6024906,"펑프왕 그린들 능력치3(정예) 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_07_04.tga,.,1,1,1,0,0,0
+6024996,"펑프왕 그린들 능력치3(정예) 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_07_04.tga,.,1,1,1,0,0,0
+6025902,"포키왕 벌룬 능력치3 난이도 1,2",../Data/6_UI/icon/msBossIcon_12_01.tga,.,1,1,1,0,0,0
+6025992,"포키왕 벌룬 능력치3 난이도 3,4",../Data/6_UI/icon/msBossIcon_12_02.tga,.,1,1,1,0,0,0
+6025997,히든 포키왕 벌룬 능력치3 침묵의 섬 이미지,../Data/6_UI/icon/msBossIcon_12_03.tga,.,1,1,1,0,0,0
+6030902,"쿵카(투투) 능력치3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_03_01.tga,.,1,1,1,0,0,0
+6030992,"쿵카(투투) 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_03_02.tga,.,1,1,1,0,0,0
+6033402,"레사스 안타레스 능력치 3 난이도 1,2",../Data/6_UI/icon/msBossIcon_17_01.tga,.,1,1,1,0,0,0
+6033492,"레사스 안타레스 능력치 3 난이도 3,4",../Data/6_UI/icon/msBossIcon_17_02.tga,.,1,1,1,0,0,0
+6034302,"멘타 론기폴리아 능력치3 난이도 1,2",../Data/6_UI/icon/msBossIcon_13_01.tga,.,1,1,1,0,0,0
+6034392,"멘타 론기폴리아 능력치3 난이도 3,4",../Data/6_UI/icon/msBossIcon_13_02.tga,.,1,1,1,0,0,0
+6041502,"스피넬 골렘 능력치3 난이도 1,2",../Data/6_UI/icon/msBossIcon_14_01.tga,.,1,1,1,0,0,0
+6041592,"스피넬 골렘 능력치3 난이도 3,4",../Data/6_UI/icon/msBossIcon_14_02.tga,.,1,1,1,0,0,0
+6043502,"키마트 능력치 3 난이도 1,2",../Data/6_UI/icon/msBossIcon_16_01.tga,.,1,1,1,0,0,0
+6043592,"키마트 능력치 3 난이도 3,4",../Data/6_UI/icon/msBossIcon_16_02.tga,.,1,1,1,0,0,0
+6044602,"반디 여왕 벨라(정예) 능력치 3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_09_01.tga,.,1,1,1,0,0,0
+6044692,"반디 여왕 벨라(정예) 능력치 3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_09_02.tga,.,1,1,1,0,0,0
+6052602,"미미르 왕 바룸 (정예) 능력치 3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_18_01.tga,.,1,1,1,0,0,0
+6052692,"미미르 왕 바룸 (정예) 능력치 3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_18_02.tga,.,1,1,1,0,0,0
+6059402,"데스킹 두두 정예 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_07_01.tga,.,1,1,1,0,0,0
+6059492,"데스킹 두두 정예 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_07_02.tga,.,1,1,1,0,0,0
+6066202,"아티스(정예) 능력치1 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_19_01.tga,.,1,1,1,0,0,0
+6066212,"아티스(정예) 능력치1 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_19_02.tga,.,1,1,1,0,0,0
+6071102,크레타 PC묶기,../Data/6_UI/icon/skillbuff02.tga,.,8,8,15,0,0,0
+6074102,게이트 키퍼 이미지,../Data/6_UI/icon/msBossIcon_23.tga,.,1,1,1,0,0,0
+6074202,늑대인간 라노프 이미지,../Data/6_UI/icon/msBossIcon_24.tga,.,1,1,1,0,0,0
+6074302,드라큘라 이미지,../Data/6_UI/icon/msBossIcon_25.tga,.,1,1,1,0,0,0
+6104402,"켄타우르스(정예) 능력치3 난이도 1,2 이미지",../Data/6_UI/icon/msBossIcon_15_01.tga,.,1,1,1,0,0,0
+6104492,"켄타우르스(정예) 능력치3 난이도 3,4 이미지",../Data/6_UI/icon/msBossIcon_15_02.tga,.,1,1,1,0,0,0
+6105100,영화사 사장이미지,../Data/6_UI/icon/msBossIcon_26.tga,.,1,1,1,0,0,0
+6106000,마스터 준 ,../Data/6_UI/icon/msBossIcon_27.tga,.,1,1,1,0,0,0
+6118102,멜로우(glog),../Data/6_UI/mission/msBossIcon_28.tga,.,1,1,1,0,0,0
+6118202,마스터(glog),../Data/6_UI/mission/msBossIcon_29.tga,.,1,1,1,0,0,0
+6124102,엔다이론(물의신전),../Data/6_UI/mission/msBossIcon_30.tga,.,1,1,1,0,0,0
+6125100,아르카(진실의탑) Lv69,../Data/6_UI/icon/msBossIcon_114.tga,.,1,1,1,0,0,0
+6125200,파타누스(진실의탑) Lv69,../Data/6_UI/icon/msBossIcon_113.tga,.,1,1,1,0,0,0
+6125300,카르카로스(진실의탑) Lv69,../Data/6_UI/icon/msBossIcon_122.tga,.,1,1,1,0,0,0
+6125400,나무꾼 폴 버나언(진실의탑) Lv70,../Data/6_UI/icon/msBossIcon_118.tga,.,1,1,1,0,0,0
+6125500,엘루만(진실의탑) Lv70,../Data/6_UI/icon/msBossIcon_116.tga,.,1,1,1,0,0,0
+6125600,벨라(진실의탑) Lv70,../Data/6_UI/icon/msBossIcon_120.tga,.,1,1,1,0,0,0
+6125700,로커(진실의탑) Lv71,../Data/6_UI/icon/msBossIcon_121.tga,.,1,1,1,0,0,0
+6125800,로드 오브나이트(진실의탑) Lv71,../Data/6_UI/icon/msBossIcon_123.tga,.,1,1,1,0,0,0
+6125900,아티스(진실의탑) Lv71,../Data/6_UI/icon/msBossIcon_115.tga,.,1,1,1,0,0,0
+6126100,파리스,../Data/6_UI/icon/msBossIcon_126.tga,.,1,1,1,0,0,0
+6132200,턱주가리주방장,../Data/6_UI/icon/msBossIcon_125.tga,.,1,1,1,0,0,0
+7237300,[자연정령] 배너모스,../Data/6_UI/icon/msBossIcon_166.tga,.,1,1,1,0,0,0
+7242100,[냉기정령] 안드바리,../Data/6_UI/icon/msRareMonIcon_5101301.tga,.,1,1,1,0,0,0
+7242200,[냉기정령] 얼음 사마귀,../Data/6_UI/icon/msRareMonIcon_5101401.tga,.,1,1,1,0,0,0
+7242300,[냉기정령] 아이스퀘이커,../Data/6_UI/icon/msBossIcon_167.tga,.,1,1,1,0,0,0
+7242400,[냉기정령] 라미아 워리어,../Data/6_UI/icon/msBossIcon_168.tga,.,1,1,1,0,0,0
+7272000,백작부인 마리(정예),../Data/6_UI/icon/msBossIcon_180.tga,.,1,1,1,0,0,0
+7272100,베이 돌리(정예),../Data/6_UI/icon/msBossIcon_181.tga,.,1,1,1,0,0,0
+7272200,막대사탕스노이크(디펜스 희귀),../Data/6_UI/icon/msRareMonIcon_7271800.tga,.,1,1,1,0,0,0
+7272300,눈의여왕 바토르,../Data/6_UI/icon/msRareMonIcon_5101501.tga,.,1,1,1,0,0,0
+7281100,타이푼,../Data/6_UI/icon/msBossIcon_182.tga,.,1,1,1,0,0,0
+7281200,미노타우르스,../Data/6_UI/icon/msBossIcon_188.tga,.,1,1,1,0,0,0
+7281300,유로페,../Data/6_UI/icon/msBossIcon_189.tga,.,1,1,1,0,0,0
+7281400,키랩,../Data/6_UI/icon/msBossIcon_190.tga,.,1,1,1,0,0,0
+7281500,카이온,../Data/6_UI/icon/msBossIcon_183.tga,.,1,1,1,0,0,0
+7281600,캐스터,../Data/6_UI/icon/msBossIcon_184.tga,.,1,1,1,0,0,0
+7281700,폴락스,../Data/6_UI/icon/msBossIcon_185.tga,.,1,1,1,0,0,0
+7281900,킹스피온,../Data/6_UI/icon/msBossIcon_191.tga,.,1,1,1,0,0,0
+7282000,케이론,../Data/6_UI/icon/msBossIcon_186.tga,.,1,1,1,0,0,0
+7282100,바다뱀 히드라,../Data/6_UI/icon/msBossIcon_192.tga,.,1,1,1,0,0,0
+7282200,바다뱀 히드라,../Data/6_UI/icon/msBossIcon_193.tga,.,1,1,1,0,0,0
+7282300,바다뱀 히드라,../Data/6_UI/icon/msBossIcon_194.tga,.,1,1,1,0,0,0
+7282400,피오스,../Data/6_UI/icon/msBossIcon_195.tga,.,1,1,1,0,0,0
+7282500,사악한 뱀 서펜즈,../Data/6_UI/icon/msBossIcon_196.tga,.,1,1,1,0,0,0
+7900101,파츄리/Death_Note,../Data/6_UI/icon/msBossIcon_50.tga,.,1,1,1,0,0,0
+7900102,카산드라/kasandra,../Data/6_UI/icon/msBossIcon_40.tga,.,1,1,1,0,0,0
+7900103,알프레도/Alpredo,../Data/6_UI/icon/msBossIcon_41.tga,.,1,1,1,0,0,0
+7900104,세바스찬/Sebastian,../Data/6_UI/icon/msBossIcon_43.tga,.,1,1,1,0,0,0
+7900105,우쿠투/Ukutu,../Data/6_UI/icon/msBossIcon_65.tga,.,1,1,1,0,0,0
+7900106,바르고/Bargo,../Data/6_UI/icon/msBossIcon_48.tga,.,1,1,1,0,0,0
+7900107,그로테스/Groteas,../Data/6_UI/icon/msBossIcon_46.tga,.,1,1,1,0,0,0
+7900108,라쿤/RaCoon,../Data/6_UI/icon/msBossIcon_45.tga,.,1,1,1,0,0,0
+7900109,비숍/B_Shop,../Data/6_UI/icon/msBossIcon_47.tga,.,1,1,1,0,0,0
+7900110,게이트 키퍼,../Data/6_UI/icon/msBossIcon_49.tga,.,1,1,1,0,0,0
+7900111,네카타/NekaTa,../Data/6_UI/icon/msBossIcon_51.tga,.,1,1,1,0,0,0
+7900112,네코타/NekoTa,../Data/6_UI/icon/msBossIcon_53.tga,.,1,1,1,0,0,0
+7900113,세잔느/ Sejiannue,../Data/6_UI/icon/msBossIcon_42.tga,.,1,1,1,0,0,0
+7900114,다크마스터,../Data/6_UI/icon/msBossIcon_44.tga,.,1,1,1,0,0,0
+7900115,바제트/Bajeat),../Data/6_UI/icon/msBossIcon_64.tga,.,1,1,1,0,0,0
+7900116,원령기사,../Data/6_UI/icon/msBossIcon_55.tga,.,1,1,1,0,0,0
+7900117,하트브레이커,../Data/6_UI/icon/msBossIcon_70.tga,.,1,1,1,0,0,0
+7900118,부쳐_ButCher,../Data/6_UI/icon/msBossIcon_72.tga,.,1,1,1,0,0,0
+7900119,바레스/Brass,../Data/6_UI/icon/msBossIcon_52.tga,.,1,1,1,0,0,0
+7900120,반클리프 백작,../Data/6_UI/icon/msBossIcon_59.tga,.,1,1,1,0,0,0
+7900121,다크프리스트/Dark priest,../Data/6_UI/icon/msBossIcon_57.tga,.,1,1,1,0,0,0
+7900122,고스트 세바스찬/Ghost_Sebastian,../Data/6_UI/icon/msBossIcon_62.tga,.,1,1,1,0,0,0
+7900123,프리손/Prison,../Data/6_UI/icon/msBossIcon_61.tga,.,1,1,1,0,0,0
+7900124,스콜필드/Scofield,../Data/6_UI/icon/msBossIcon_63.tga,.,1,1,1,0,0,0
+7900125,프랑키/ franky,../Data/6_UI/icon/msBossIcon_58.tga,.,1,1,1,0,0,0
+7900126,디스트로이어/Destroyer,../Data/6_UI/icon/msBossIcon_60.tga,.,1,1,1,0,0,0
+7900127,고스트 카산나/Ghost_Kasanna,../Data/6_UI/icon/msBossIcon_56.tga,.,1,1,1,0,0,0
+7900128,디스트루퍼/disrupter,../Data/6_UI/icon/msBossIcon_67.tga,.,1,1,1,0,0,0
+7900129,샤마리/Samari,../Data/6_UI/icon/msBossIcon_71.tga,.,1,1,1,0,0,0
+7900130,라노프,../Data/6_UI/icon/msBossIcon_69.tga,.,1,1,1,0,0,0
+7900131,마검솔리크/Solrek,../Data/6_UI/icon/msBossIcon_54.tga,.,1,1,1,0,0,0
+7900132,쿠마리/Kumari,../Data/6_UI/icon/msBossIcon_66.tga,.,1,1,1,0,0,0
+7900133,샤피론/Sapieron,../Data/6_UI/icon/msBossIcon_73.tga,.,1,1,1,0,0,0
+7900134,가룸/Garoom,../Data/6_UI/icon/msBossIcon_68.tga,.,1,1,1,0,0,0
+7900138,카오붐,../Data/6_UI/icon/msBossIcon_85.tga,.,1,1,1,0,0,0
+7900139,아크리스,../Data/6_UI/icon/msBossIcon_93.tga,.,1,1,1,0,0,0
+7900140,투룸바,../Data/6_UI/icon/msBossIcon_80.tga,.,1,1,1,0,0,0
+7900141,아이언 멘타,../Data/6_UI/icon/msBossIcon_100.tga,.,1,1,1,0,0,0
+7900142,벨크(유벨 보스),../Data/6_UI/icon/msBossIcon_78.tga,.,1,1,1,0,0,0
+7900143,헤르만,../Data/6_UI/icon/msBossIcon_82.tga,.,1,1,1,0,0,0
+7900144,쿠샤스(미라),../Data/6_UI/icon/msBossIcon_84.tga,.,1,1,1,0,0,0
+7900145,케루빔,../Data/6_UI/icon/msBossIcon_79.tga,.,1,1,1,0,0,0
+7900146,디솔레이터,../Data/6_UI/icon/msBossIcon_103.tga,.,1,1,1,0,0,0
+7900147,펑프킹,../Data/6_UI/icon/msBossIcon_77.tga,.,1,1,1,0,0,0
+7900148,하이돈,../Data/6_UI/icon/msBossIcon_89.tga,.,1,1,1,0,0,0
+7900150,케이론,../Data/6_UI/icon/msBossIcon_94.tga,.,1,1,1,0,0,0
+7900151,보노코,../Data/6_UI/icon/msBossIcon_75.tga,.,1,1,1,0,0,0
+7900152,프록시마,../Data/6_UI/icon/msBossIcon_98.tga,.,1,1,1,0,0,0
+7900154,디베스,../Data/6_UI/icon/msBossIcon_99.tga,.,1,1,1,0,0,0
+7900155,케크롭스,../Data/6_UI/icon/msBossIcon_105.tga,.,1,1,1,0,0,0
+7900156,모크론,../Data/6_UI/icon/msBossIcon_108.tga,.,1,1,1,0,0,0
+7900157,카쿠스,../Data/6_UI/icon/msBossIcon_107.tga,.,1,1,1,0,0,0
+7900159,아르고스,../Data/6_UI/icon/msBossIcon_110.tga,.,1,1,1,0,0,0
+7900160,모아이론,../Data/6_UI/icon/msBossIcon_117.tga,.,1,1,1,0,0,0
+7900162,케메론,../Data/6_UI/icon/msBossIcon_88.tga,.,1,1,1,0,0,0
+7900163,자하크,../Data/6_UI/icon/msBossIcon_96.tga,.,1,1,1,0,0,0
+7900164,카키슈,../Data/6_UI/icon/msBossIcon_87.tga,.,1,1,1,0,0,0
+7900165,데스마스터,../Data/6_UI/icon/msBossIcon_112.tga,.,1,1,1,0,0,0
+7900166,마젠카,../Data/6_UI/icon/msBossIcon_90.tga,.,1,1,1,0,0,0
+7900167,카룸바,../Data/6_UI/icon/msBossIcon_76.tga,.,1,1,1,0,0,0
+7900168,케로반,../Data/6_UI/icon/msBossIcon_86.tga,.,1,1,1,0,0,0
+7900171,레사스킹,../Data/6_UI/icon/msBossIcon_109.tga,.,1,1,1,0,0,0
+7900173,카붐,../Data/6_UI/icon/msBossIcon_95.tga,.,1,1,1,0,0,0
+7900174,가이던,../Data/6_UI/icon/msBossIcon_104.tga,.,1,1,1,0,0,0
+7900176,파티스,../Data/6_UI/icon/msBossIcon_92.tga,.,1,1,1,0,0,0
+7900177,비르브,../Data/6_UI/icon/msBossIcon_83.tga,.,1,1,1,0,0,0
+7900178,뮤르달,../Data/6_UI/icon/msBossIcon_81.tga,.,1,1,1,0,0,0
+7900179,키마트,../Data/6_UI/icon/msBossIcon_111.tga,.,1,1,1,0,0,0
+7900180,쿤타레스,../Data/6_UI/icon/msBossIcon_106.tga,.,1,1,1,0,0,0
+7900181,멘타킹,../Data/6_UI/icon/msBossIcon_97.tga,.,1,1,1,0,0,0
+7900182,반타레스,../Data/6_UI/icon/msBossIcon_102.tga,.,1,1,1,0,0,0
+7900184,안타레스,../Data/6_UI/icon/msBossIcon_124.tga,.,1,1,1,0,0,0
+7900185,반클리프 백작,../Data/6_UI/icon/msBossIcon_74.tga,.,1,1,1,0,0,0
+7900186,본 드래곤 Lv68(cleef_BoneDragon),../Data/6_UI/icon/msBossIcon_22.tga,.,1,1,1,0,0,0
+7900201,아자젤,../Data/6_UI/icon/msBossIcon_119.tga,.,1,1,1,0,0,0
+7900202,골드 프록시아,../Data/6_UI/icon/msBossIcon_101.tga,.,1,1,1,0,0,0
+7900204,카키슈와 케로빔케로반,../Data/6_UI/icon/msBossIcon_91.tga,.,1,1,1,0,0,0
+7900800,엔다이론,../Data/6_UI/icon/msRareMonIcon_7900800.tga,.,1,1,1,0,0,0
+7901400,데스마스터,../Data/6_UI/icon/msRareMonIcon_7901400.tga,.,1,1,1,0,0,0
+7901700,펜니르,../Data/6_UI/icon/msRareMonIcon_7901700.tga,.,1,1,1,0,0,0
+7902600,가룸,../Data/6_UI/icon/msRareMonIcon_7902600.tga,.,1,1,1,0,0,0
+7902700,하데스,../Data/6_UI/icon/msBossIcon_187.tga,.,1,1,1,0,0,0
+7903210,판,../Data/6_UI/icon/msRareMonIcon_7903210.tga,.,1,1,1,0,0,0
+7903300,우주도둑,../Data/6_UI/icon/msRareMonIcon_7903300.tga,.,1,1,1,0,0,0
+7903900,히찌,../Data/6_UI/icon/msRareMonIcon_7903400.tga,.,1,1,1,0,0,0
+7904200,아페프,../Data/6_UI/icon/msRareMonIcon_7903500.tga,.,1,1,1,0,0,0
+7904900,케르베로스,../Data/6_UI/icon/msRareMonIcon_7903600.tga,.,1,1,1,0,0,0
+7906200,안타레스,../Data/6_UI/icon/msRareMonIcon_7903700.tga,.,1,1,1,0,0,0
+7906400,키마트,../Data/6_UI/icon/msRareMonIcon_7903900.tga,.,1,1,1,0,0,0
+7907200,하이드론,../Data/6_UI/icon/msRareMonIcon_7903800.tga,.,1,1,1,0,0,0
+7911700,돌사자 짱오,../Data/6_UI/icon/msRareMonIcon_7904100.tga,.,1,1,1,0,0,0
+7911800,토병 수호대장군,../Data/6_UI/icon/msRareMonIcon_7904200.tga,.,1,1,1,0,0,0
+7911900,후오 황제,../Data/6_UI/icon/msBossIcon_197.tga,.,1,1,1,0,0,0
+7916600,분노한 여왕 바토르,../Data/6_UI/icon/msRareMonIcon_7904300.tga,.,1,1,1,0,0,0
+7918300,불곰 해리,../Data/6_UI/icon/msRareMonIcon_7904600.tga,.,1,1,1,0,0,0
+7918500,죠나단,../Data/6_UI/icon/msRareMonIcon_7904400.tga,.,1,1,1,0,0,0
+7918600,죠셉,../Data/6_UI/icon/msRareMonIcon_7904500.tga,.,1,1,1,0,0,0
+8104600,애정파괴단 보스 아데미안 (정예),../Data/6_UI/icon/msBossIcon_172.tga,.,1,1,1,0,0,0
+8104800,라이벌 다크맨 (희귀),../Data/6_UI/icon/msBossIcon_170.tga,.,1,1,1,0,0,0
+8106300,커뮤니티 이벤트 암흑의 거인(기준) ,../Data/6_UI/icon/msBossIcon_175.tga,.,1,1,1,0,0,0
+8106400,커뮤니티 이벤트 지옥불의 거인(기준) ,../Data/6_UI/icon/msBossIcon_173.tga,.,1,1,1,0,0,0
+8106500,커뮤니티 이벤트 혹한의 거인(기준) ,../Data/6_UI/icon/msBossIcon_174.tga,.,1,1,1,0,0,0
+56125101,원령 아르카(정예),../Data/6_UI/icon/msBossIcon_139.tga,.,1,1,1,0,0,0
+56125201,원령 파타누스(정예),../Data/6_UI/icon/msBossIcon_134.tga,.,1,1,1,0,0,0
+56125301,원령 카르카로스(정예),../Data/6_UI/icon/msBossIcon_133.tga,.,1,1,1,0,0,0
+56125401,원령 폴 버나언(정예),../Data/6_UI/icon/msBossIcon_135.tga,.,1,1,1,0,0,0
+56125501,원령 엘루만(정예),../Data/6_UI/icon/msBossIcon_138.tga,.,1,1,1,0,0,0
+56125601,원령 벨라(정예),../Data/6_UI/icon/msBossIcon_131.tga,.,1,1,1,0,0,0
+56125701,원령 로커(정예),../Data/6_UI/icon/msBossIcon_132.tga,.,1,1,1,0,0,0
+56125801,원령 로드오브나이트(정예),../Data/6_UI/icon/msBossIcon_136.tga,.,1,1,1,0,0,0
+56125901,원령 아티스(정예),../Data/6_UI/icon/msBossIcon_137.tga,.,1,1,1,0,0,0
+695850100,가디언 프리징 결빙,../Data/6_UI/icon/skillbuff02.tga,.,8,8,14,0,0,0
