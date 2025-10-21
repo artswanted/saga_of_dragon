@@ -1,0 +1,11 @@
+[submodule "dragonica_master"]
+	path = dragonica_master
+	url = https://gitlab.com/open_dragonica1/dragonica_master.git
+
+[submodule "dragonica_Exe/sfreedom_dev"]
+	path = dragonica_Exe/sfreedom_dev
+	url = https://gitlab.com/open_dragonica1/sfreedom_dev.git
+
+[submodule "dragonica_Exe/archangel_run"]
+	path = dragonica_Exe/archangel_run
+	url = https://gitlab.com/open_dragonica1/archangel_run.git

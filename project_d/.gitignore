@@ -1,0 +1,9 @@
+# C++ build
+*.idb
+*.pdb
+*.map
+*.exp
+*.lib
+*.ilk
+
+.vs/
