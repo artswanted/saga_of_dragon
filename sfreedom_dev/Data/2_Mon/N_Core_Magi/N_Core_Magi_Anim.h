@@ -1,0 +1,22 @@
+// This file was automatically generated. It contains definitions for all the
+// animations stored in the associated KFM file. Include this file in your
+// final application to easily refer to animation sequences.
+
+#ifndef N_CORE_MAGI_ANIM_H__
+#define N_CORE_MAGI_ANIM_H__
+
+namespace N_Core_Magi_Anim
+{
+    enum
+    {
+        ATTK_01                 = 1000061,
+        BTLIDLE_01              = 1000005,
+        DMG_01                  = 1000011,
+        IDLE_01                 = 1000000,
+        OPENING_01              = 1000081,
+        RUN_01                  = 1000051,
+        SELF-DESTRUCTION_01     = 1000013
+    };
+}
+
+#endif  // #ifndef N_CORE_MAGI_ANIM_H__
